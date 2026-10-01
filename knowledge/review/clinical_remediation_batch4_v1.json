@@ -1,0 +1,301 @@
+{
+  "batch": 4,
+  "approved_on": "2026-10-01",
+  "issue_ids": [
+    "CLIN-12",
+    "CLIN-13",
+    "CLIN-14",
+    "CLIN-17"
+  ],
+  "main": {
+    "02_ClinicalItem": {
+      "CORE-CAP-KNEE-FLEX": {
+        "check_focus": "等长膝屈输出、疼痛限制与侧差；结合目标活动查看髋伸、膝屈离心及较长肌长位表现。"
+      }
+    }
+  },
+  "extension": {
+    "InterventionReference": {
+      "AFM-0048-LENGTH-MUSCLE": {
+        "Treatment_Goal": "伴内踝后方屈趾肌腱不适",
+        "Treatment_Method": "内踝后方屈趾肌腱周围软组织手法",
+        "Source_URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8159326/\nhttps://assets.cureus.com/uploads/case_report/pdf/53750/20210527-28810-1j23d2f.pdf",
+        "Source_Note": "已核对2021单病例正文及表1（PDF第4–5页）：处理对象为小腿远端、内踝后方FHL/FDL肌腱邻近组织，正文存在支持带名称表述差异，因此不复制其精确操作位置。不能支持两种独立肌腹常规松解或单项疗效。多方法病例曾即时增加疼痛，保留为伴该处不适的病例方法参考，不用于全部屈趾牵拉受限或疼痛；不复制深压、步骤、剂量、器械及不明神经症状操作。无授权记录中的FHL/FDL具名肌腹处理，不冒充线下来源。"
+      },
+      "AFM-0047-LENGTH-MUSCLE": {
+        "Treatment_Goal": "伴内踝后方屈趾肌腱不适",
+        "Treatment_Method": "内踝后方屈趾肌腱周围软组织手法",
+        "Source_URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8159326/\nhttps://assets.cureus.com/uploads/case_report/pdf/53750/20210527-28810-1j23d2f.pdf",
+        "Source_Note": "已核对2021单病例正文及表1（PDF第4–5页）：处理对象为小腿远端、内踝后方FHL/FDL肌腱邻近组织，正文存在支持带名称表述差异，因此不复制其精确操作位置。不能支持两种独立肌腹常规松解或单项疗效。多方法病例曾即时增加疼痛，保留为伴该处不适的病例方法参考，不用于全部屈趾牵拉受限或疼痛；不复制深压、步骤、剂量、器械及不明神经症状操作。无授权记录中的FHL/FDL具名肌腹处理，不冒充线下来源。"
+      },
+      "AFM-0027-HALLUX-MANUAL": {
+        "Treatment_Goal": "伴内踝后方屈趾肌腱不适",
+        "Treatment_Method": "内踝后方屈趾肌腱周围软组织手法",
+        "Source_URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8159326/\nhttps://assets.cureus.com/uploads/case_report/pdf/53750/20210527-28810-1j23d2f.pdf",
+        "Source_Note": "已核对2021单病例正文及表1（PDF第4–5页）：处理对象为小腿远端、内踝后方FHL/FDL肌腱邻近组织，正文存在支持带名称表述差异，因此不复制其精确操作位置。不能支持两种独立肌腹常规松解或单项疗效。多方法病例曾即时增加疼痛，保留为伴该处不适的病例方法参考，不用于全部屈趾牵拉受限或疼痛；不复制深压、步骤、剂量、器械及不明神经症状操作。无授权记录中的FHL/FDL具名肌腹处理，不冒充线下来源。"
+      },
+      "AFM-0027-LESSER_TOES-MANUAL": {
+        "Treatment_Goal": "伴内踝后方屈趾肌腱不适",
+        "Treatment_Method": "内踝后方屈趾肌腱周围软组织手法",
+        "Source_URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8159326/\nhttps://assets.cureus.com/uploads/case_report/pdf/53750/20210527-28810-1j23d2f.pdf",
+        "Source_Note": "已核对2021单病例正文及表1（PDF第4–5页）：处理对象为小腿远端、内踝后方FHL/FDL肌腱邻近组织，正文存在支持带名称表述差异，因此不复制其精确操作位置。不能支持两种独立肌腹常规松解或单项疗效。多方法病例曾即时增加疼痛，保留为伴该处不适的病例方法参考，不用于全部屈趾牵拉受限或疼痛；不复制深压、步骤、剂量、器械及不明神经症状操作。无授权记录中的FHL/FDL具名肌腹处理，不冒充线下来源。"
+      },
+      "AFM-0050-TENSION-ACTIVE": {
+        "Treatment_Goal": "足趾活动与组合控制",
+        "Source_Note": "健康人MRI研究支持组合肌肉募集，不是疼痛治疗试验，不宣称单肌分离效果。\n已核对8名健康运动员的T2 MRI描述性研究：短足、足趾展开及分离伸展募集多个足内在肌，未验证疼痛、过紧、牵伸改善或第一跖跗关节韧带修复。当前关联是区域活动/控制思路的临床编辑判断，不是单肌训练疗效。拇趾抗阻保留原库/患者资料出处，不把无抗阻MRI试验当作抗阻疗效证明。"
+      },
+      "AFM-0051-TENSION-ACTIVE": {
+        "Treatment_Goal": "足趾活动与组合控制",
+        "Source_Note": "健康人MRI研究支持组合肌肉募集，不是疼痛治疗试验，不宣称单肌分离效果。\n已核对8名健康运动员的T2 MRI描述性研究：短足、足趾展开及分离伸展募集多个足内在肌，未验证疼痛、过紧、牵伸改善或第一跖跗关节韧带修复。当前关联是区域活动/控制思路的临床编辑判断，不是单肌训练疗效。拇趾抗阻保留原库/患者资料出处，不把无抗阻MRI试验当作抗阻疗效证明。"
+      },
+      "AFM-0052-TENSION-ACTIVE": {
+        "Treatment_Goal": "足趾活动与组合控制",
+        "Source_Note": "健康人MRI研究支持组合肌肉募集，不是疼痛治疗试验，不宣称单肌分离效果。\n已核对8名健康运动员的T2 MRI描述性研究：短足、足趾展开及分离伸展募集多个足内在肌，未验证疼痛、过紧、牵伸改善或第一跖跗关节韧带修复。当前关联是区域活动/控制思路的临床编辑判断，不是单肌训练疗效。拇趾抗阻保留原库/患者资料出处，不把无抗阻MRI试验当作抗阻疗效证明。"
+      },
+      "AFM-0053-STATE-ACTIVE": {
+        "Treatment_Goal": "足趾活动与组合控制",
+        "Source_Note": "主动屈伸及分离活动是组合动作，不宣称单独募集或拉伸拇短屈肌。\n已核对8名健康运动员的T2 MRI描述性研究：短足、足趾展开及分离伸展募集多个足内在肌，未验证疼痛、过紧、牵伸改善或第一跖跗关节韧带修复。当前关联是区域活动/控制思路的临床编辑判断，不是单肌训练疗效。拇趾抗阻保留原库/患者资料出处，不把无抗阻MRI试验当作抗阻疗效证明。"
+      },
+      "AFM-0008-CONTROL-CONTROL": {
+        "Treatment_Goal": "足趾活动与组合控制",
+        "Source_Note": "健康人MRI募集研究与授权足弓训练记录；不是某块足内在肌独立疗效或所有足痛方案。\n已核对8名健康运动员的T2 MRI描述性研究：短足、足趾展开及分离伸展募集多个足内在肌，未验证疼痛、过紧、牵伸改善或第一跖跗关节韧带修复。当前关联是区域活动/控制思路的临床编辑判断，不是单肌训练疗效。拇趾抗阻保留原库/患者资料出处，不把无抗阻MRI试验当作抗阻疗效证明。"
+      },
+      "AFM-0022-EXCESS-CONTROL": {
+        "Treatment_Goal": "内侧前足支撑与足趾控制",
+        "Source_Note": "短足为足内在肌组合募集参考，拇趾抗阻为第一MTP控制方法；不宣称恢复第一TMT韧带稳定。\n已核对8名健康运动员的T2 MRI描述性研究：短足、足趾展开及分离伸展募集多个足内在肌，未验证疼痛、过紧、牵伸改善或第一跖跗关节韧带修复。当前关联是区域活动/控制思路的临床编辑判断，不是单肌训练疗效。拇趾抗阻保留原库/患者资料出处，不把无抗阻MRI试验当作抗阻疗效证明。"
+      },
+      "AFM-0119-SUPPORT-TASK": {
+        "Treatment_Goal": "相关动作练习参考",
+        "Source_URL": "baseline://clinical-extension/InterventionReference/AFM-0119-SUPPORT-TASK\nhttps://doi.org/10.1136/bjsports-2024-108110\nbook://magee-local#pdf=882,889&print=873,880",
+        "Source_Note": "方法名称是产品对动作反馈、支撑及运动重学思路的编辑整理；2024髌股最佳实践限于髌股疼痛，Aspetar指南限于ACL重建后。不能证明此动作表现就是原因，也未验证每一观察项与练习的一对一关系。膝内移、骨盆下沉、躯干前倾、支撑侧差和制动步数均需结合任务、速度、症状、既往能力与目标，不默认需要纠正。教材支持按需求查看功能动作；现场或已有视频均可，不安排全套测试、训练剂量或自动准入。"
+      },
+      "AFM-0119-PROPULSION-TASK": {
+        "Treatment_Goal": "相关动作练习参考",
+        "Source_URL": "baseline://clinical-extension/InterventionReference/AFM-0119-PROPULSION-TASK\nhttps://doi.org/10.1136/bjsports-2024-108110\nbook://magee-local#pdf=882,889&print=873,880",
+        "Source_Note": "方法名称是产品对动作反馈、支撑及运动重学思路的编辑整理；2024髌股最佳实践限于髌股疼痛，Aspetar指南限于ACL重建后。不能证明此动作表现就是原因，也未验证每一观察项与练习的一对一关系。膝内移、骨盆下沉、躯干前倾、支撑侧差和制动步数均需结合任务、速度、症状、既往能力与目标，不默认需要纠正。教材支持按需求查看功能动作；现场或已有视频均可，不安排全套测试、训练剂量或自动准入。"
+      },
+      "AFM-0119-ALIGNMENT-TASK": {
+        "Treatment_Goal": "相关动作练习参考",
+        "Treatment_Method": "步态视频反馈练习；单腿支撑练习",
+        "Source_URL": "baseline://clinical-extension/InterventionReference/AFM-0119-ALIGNMENT-TASK\nhttps://doi.org/10.1136/bjsports-2024-108110\nbook://magee-local#pdf=882,889&print=873,880",
+        "Source_Note": "方法名称是产品对动作反馈、支撑及运动重学思路的编辑整理；2024髌股最佳实践限于髌股疼痛，Aspetar指南限于ACL重建后。不能证明此动作表现就是原因，也未验证每一观察项与练习的一对一关系。膝内移、骨盆下沉、躯干前倾、支撑侧差和制动步数均需结合任务、速度、症状、既往能力与目标，不默认需要纠正。教材支持按需求查看功能动作；现场或已有视频均可，不安排全套测试、训练剂量或自动准入。"
+      },
+      "AFM-0120-LOAD-TASK": {
+        "Treatment_Goal": "相关动作练习参考",
+        "Source_URL": "baseline://clinical-extension/InterventionReference/AFM-0120-LOAD-TASK\nhttps://doi.org/10.1136/bjsports-2024-108110\nbook://magee-local#pdf=882,889&print=873,880",
+        "Source_Note": "方法名称是产品对动作反馈、支撑及运动重学思路的编辑整理；2024髌股最佳实践限于髌股疼痛，Aspetar指南限于ACL重建后。不能证明此动作表现就是原因，也未验证每一观察项与练习的一对一关系。膝内移、骨盆下沉、躯干前倾、支撑侧差和制动步数均需结合任务、速度、症状、既往能力与目标，不默认需要纠正。教材支持按需求查看功能动作；现场或已有视频均可，不安排全套测试、训练剂量或自动准入。"
+      },
+      "AFM-0120-KNEE-TASK": {
+        "Treatment_Goal": "相关动作练习参考",
+        "Treatment_Method": "下蹲镜面或视频反馈练习；辅助下蹲练习",
+        "Source_URL": "baseline://clinical-extension/InterventionReference/AFM-0120-KNEE-TASK\nhttps://doi.org/10.1136/bjsports-2024-108110\nbook://magee-local#pdf=882,889&print=873,880",
+        "Source_Note": "方法名称是产品对动作反馈、支撑及运动重学思路的编辑整理；2024髌股最佳实践限于髌股疼痛，Aspetar指南限于ACL重建后。不能证明此动作表现就是原因，也未验证每一观察项与练习的一对一关系。膝内移、骨盆下沉、躯干前倾、支撑侧差和制动步数均需结合任务、速度、症状、既往能力与目标，不默认需要纠正。教材支持按需求查看功能动作；现场或已有视频均可，不安排全套测试、训练剂量或自动准入。"
+      },
+      "AFM-0121-KNEE-TASK": {
+        "Treatment_Goal": "相关动作练习参考",
+        "Treatment_Method": "单腿下蹲镜面或视频反馈练习；辅助单腿下蹲练习",
+        "Source_URL": "baseline://clinical-extension/InterventionReference/AFM-0121-KNEE-TASK\nhttps://doi.org/10.1136/bjsports-2024-108110\nbook://magee-local#pdf=882,889&print=873,880",
+        "Source_Note": "方法名称是产品对动作反馈、支撑及运动重学思路的编辑整理；2024髌股最佳实践限于髌股疼痛，Aspetar指南限于ACL重建后。不能证明此动作表现就是原因，也未验证每一观察项与练习的一对一关系。膝内移、骨盆下沉、躯干前倾、支撑侧差和制动步数均需结合任务、速度、症状、既往能力与目标，不默认需要纠正。教材支持按需求查看功能动作；现场或已有视频均可，不安排全套测试、训练剂量或自动准入。"
+      },
+      "AFM-0121-PELVIS-TASK": {
+        "Treatment_Goal": "相关动作练习参考",
+        "Source_URL": "baseline://clinical-extension/InterventionReference/AFM-0121-PELVIS-TASK\nhttps://doi.org/10.1136/bjsports-2024-108110\nbook://magee-local#pdf=882,889&print=873,880",
+        "Source_Note": "方法名称是产品对动作反馈、支撑及运动重学思路的编辑整理；2024髌股最佳实践限于髌股疼痛，Aspetar指南限于ACL重建后。不能证明此动作表现就是原因，也未验证每一观察项与练习的一对一关系。膝内移、骨盆下沉、躯干前倾、支撑侧差和制动步数均需结合任务、速度、症状、既往能力与目标，不默认需要纠正。教材支持按需求查看功能动作；现场或已有视频均可，不安排全套测试、训练剂量或自动准入。"
+      },
+      "AFM-0121-TRUNK-TASK": {
+        "Treatment_Goal": "相关动作练习参考",
+        "Source_URL": "baseline://clinical-extension/InterventionReference/AFM-0121-TRUNK-TASK\nhttps://doi.org/10.1136/bjsports-2024-108110\nbook://magee-local#pdf=882,889&print=873,880",
+        "Source_Note": "方法名称是产品对动作反馈、支撑及运动重学思路的编辑整理；2024髌股最佳实践限于髌股疼痛，Aspetar指南限于ACL重建后。不能证明此动作表现就是原因，也未验证每一观察项与练习的一对一关系。膝内移、骨盆下沉、躯干前倾、支撑侧差和制动步数均需结合任务、速度、症状、既往能力与目标，不默认需要纠正。教材支持按需求查看功能动作；现场或已有视频均可，不安排全套测试、训练剂量或自动准入。"
+      },
+      "AFM-0121-DESCENT-TASK": {
+        "Treatment_Goal": "相关动作练习参考",
+        "Source_URL": "baseline://clinical-extension/InterventionReference/AFM-0121-DESCENT-TASK\nhttps://doi.org/10.1136/bjsports-2024-108110\nbook://magee-local#pdf=882,889&print=873,880",
+        "Source_Note": "方法名称是产品对动作反馈、支撑及运动重学思路的编辑整理；2024髌股最佳实践限于髌股疼痛，Aspetar指南限于ACL重建后。不能证明此动作表现就是原因，也未验证每一观察项与练习的一对一关系。膝内移、骨盆下沉、躯干前倾、支撑侧差和制动步数均需结合任务、速度、症状、既往能力与目标，不默认需要纠正。教材支持按需求查看功能动作；现场或已有视频均可，不安排全套测试、训练剂量或自动准入。"
+      },
+      "AFM-0122-LOAD-TASK": {
+        "Treatment_Goal": "相关动作练习参考",
+        "Source_URL": "baseline://clinical-extension/InterventionReference/AFM-0122-LOAD-TASK\nhttps://doi.org/10.1136/bjsports-2022-106158\nbook://magee-local#pdf=882,889&print=873,880",
+        "Source_Note": "方法名称是产品对动作反馈、支撑及运动重学思路的编辑整理；2024髌股最佳实践限于髌股疼痛，Aspetar指南限于ACL重建后。不能证明此动作表现就是原因，也未验证每一观察项与练习的一对一关系。膝内移、骨盆下沉、躯干前倾、支撑侧差和制动步数均需结合任务、速度、症状、既往能力与目标，不默认需要纠正。教材支持按需求查看功能动作；现场或已有视频均可，不安排全套测试、训练剂量或自动准入。"
+      },
+      "AFM-0122-BUFFER-TASK": {
+        "Treatment_Goal": "相关动作练习参考",
+        "Source_URL": "baseline://clinical-extension/InterventionReference/AFM-0122-BUFFER-TASK\nhttps://doi.org/10.1136/bjsports-2022-106158\nbook://magee-local#pdf=882,889&print=873,880",
+        "Source_Note": "方法名称是产品对动作反馈、支撑及运动重学思路的编辑整理；2024髌股最佳实践限于髌股疼痛，Aspetar指南限于ACL重建后。不能证明此动作表现就是原因，也未验证每一观察项与练习的一对一关系。膝内移、骨盆下沉、躯干前倾、支撑侧差和制动步数均需结合任务、速度、症状、既往能力与目标，不默认需要纠正。教材支持按需求查看功能动作；现场或已有视频均可，不安排全套测试、训练剂量或自动准入。"
+      },
+      "AFM-0122-BALANCE-TASK": {
+        "Treatment_Goal": "相关动作练习参考",
+        "Source_URL": "baseline://clinical-extension/InterventionReference/AFM-0122-BALANCE-TASK\nhttps://doi.org/10.1136/bjsports-2022-106158\nbook://magee-local#pdf=882,889&print=873,880",
+        "Source_Note": "方法名称是产品对动作反馈、支撑及运动重学思路的编辑整理；2024髌股最佳实践限于髌股疼痛，Aspetar指南限于ACL重建后。不能证明此动作表现就是原因，也未验证每一观察项与练习的一对一关系。膝内移、骨盆下沉、躯干前倾、支撑侧差和制动步数均需结合任务、速度、症状、既往能力与目标，不默认需要纠正。教材支持按需求查看功能动作；现场或已有视频均可，不安排全套测试、训练剂量或自动准入。"
+      },
+      "AFM-0122-KNEE-TASK": {
+        "Treatment_Goal": "相关动作练习参考",
+        "Treatment_Method": "落地视频反馈练习；落地屈膝缓冲练习",
+        "Source_URL": "baseline://clinical-extension/InterventionReference/AFM-0122-KNEE-TASK\nhttps://doi.org/10.1136/bjsports-2022-106158\nbook://magee-local#pdf=882,889&print=873,880",
+        "Source_Note": "方法名称是产品对动作反馈、支撑及运动重学思路的编辑整理；2024髌股最佳实践限于髌股疼痛，Aspetar指南限于ACL重建后。不能证明此动作表现就是原因，也未验证每一观察项与练习的一对一关系。膝内移、骨盆下沉、躯干前倾、支撑侧差和制动步数均需结合任务、速度、症状、既往能力与目标，不默认需要纠正。教材支持按需求查看功能动作；现场或已有视频均可，不安排全套测试、训练剂量或自动准入。"
+      },
+      "AFM-0123-STEPS-TASK": {
+        "Treatment_Goal": "相关动作练习参考",
+        "Source_URL": "baseline://clinical-extension/InterventionReference/AFM-0123-STEPS-TASK\nhttps://doi.org/10.1136/bjsports-2022-106158\nbook://magee-local#pdf=882,889&print=873,880",
+        "Source_Note": "方法名称是产品对动作反馈、支撑及运动重学思路的编辑整理；2024髌股最佳实践限于髌股疼痛，Aspetar指南限于ACL重建后。不能证明此动作表现就是原因，也未验证每一观察项与练习的一对一关系。膝内移、骨盆下沉、躯干前倾、支撑侧差和制动步数均需结合任务、速度、症状、既往能力与目标，不默认需要纠正。教材支持按需求查看功能动作；现场或已有视频均可，不安排全套测试、训练剂量或自动准入。"
+      },
+      "AFM-0123-KNEE-TASK": {
+        "Treatment_Goal": "相关动作练习参考",
+        "Source_URL": "baseline://clinical-extension/InterventionReference/AFM-0123-KNEE-TASK\nhttps://doi.org/10.1136/bjsports-2022-106158\nbook://magee-local#pdf=882,889&print=873,880",
+        "Source_Note": "方法名称是产品对动作反馈、支撑及运动重学思路的编辑整理；2024髌股最佳实践限于髌股疼痛，Aspetar指南限于ACL重建后。不能证明此动作表现就是原因，也未验证每一观察项与练习的一对一关系。膝内移、骨盆下沉、躯干前倾、支撑侧差和制动步数均需结合任务、速度、症状、既往能力与目标，不默认需要纠正。教材支持按需求查看功能动作；现场或已有视频均可，不安排全套测试、训练剂量或自动准入。"
+      },
+      "AFM-0123-TIMING-TASK": {
+        "Treatment_Goal": "相关动作练习参考",
+        "Source_URL": "baseline://clinical-extension/InterventionReference/AFM-0123-TIMING-TASK\nhttps://doi.org/10.1136/bjsports-2022-106158\nbook://magee-local#pdf=882,889&print=873,880",
+        "Source_Note": "方法名称是产品对动作反馈、支撑及运动重学思路的编辑整理；2024髌股最佳实践限于髌股疼痛，Aspetar指南限于ACL重建后。不能证明此动作表现就是原因，也未验证每一观察项与练习的一对一关系。膝内移、骨盆下沉、躯干前倾、支撑侧差和制动步数均需结合任务、速度、症状、既往能力与目标，不默认需要纠正。教材支持按需求查看功能动作；现场或已有视频均可，不安排全套测试、训练剂量或自动准入。"
+      },
+      "AFM-0091-CAPACITY-1": {
+        "Treatment_Goal": "腘绳肌能力训练参考",
+        "Treatment_Method": "腘绳肌等长训练；膝屈抗阻训练；膝屈离心抗阻训练；单腿罗马尼亚硬拉；Nordic腘绳肌训练",
+        "Source_URL": "baseline://database-v3.8/InterventionReference/AFM-0091-CAPACITY-1\nhttps://doi.org/10.2519/jospt.2022.0301\nhttps://www.orthopt.org/uploads/content_files/files/Hamstring_Strain_Injury_in_Athletes_2022.pdf\nhttps://www.ruh.nhs.uk/patients/services/physiotherapy/OP_outpatient_service.asp\nhttps://www.youtube.com/watch?v=7RWkEhJ4VlQ",
+        "Source_Note": "已核验2022正式44页CPG全文：离心训练属于腘绳肌损伤后综合干预，Nordic属于预防综合训练，也有离心康复研究；不是所有后大腿疼痛的通用安排。单腿罗马尼亚硬拉的动作名称来自RUH索引，用于髋伸及较长肌长位发力参考；未据索引宣称本发现的疗效。较高需求方法放在能力参考，不复制到肌腹疼痛条目；侧差和疼痛不自动判为薄弱，不指定阶段、次数、顺序或测试准入。"
+      },
+      "AFM-0100-PAIN-ACTIVE": {
+        "Source_Note": "来源列出具名练习，本库只保留方法名称，不导入剂量、阶段或自动选择规则。\nRUH索引及其具体视频用于核对站立屈膝、桥式、侧卧髋外展的名称，未据视频推断此处组织关系。屈膝等长参照牛津ACL资料中的静态腘绳肌动作，拉伸参照官方牵伸资料；仅引用动作名称，不导入术后时间表，不认为疼痛就需要牵伸。\n该组保持基础具名动作参考；较高需求的髋伸、离心与Nordic选项单列在膝屈能力，不由疼痛表现自动安排。"
+      }
+    },
+    "FindingFeature": {
+      "AFM-0047-LENGTH": {
+        "Finding_Interpretation": "肌腹、内踝肌腱与足底不适分别查看；拇趾伸展受限还涉及第一跖趾关节及其他足底组织。 腱周手法仅供伴内踝后方屈趾肌腱不适时查看，与小腿肌腹处理分开。"
+      },
+      "AFM-0048-LENGTH": {
+        "Finding_Interpretation": "肌腹、内踝肌腱与足底不适分别查看；足趾牵拉涉及长屈肌、足内在肌及其他足底组织。 腱周手法仅供伴内踝后方屈趾肌腱不适时查看，与小腿肌腹处理分开。"
+      },
+      "AFM-0050-TENSION": {
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0050\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC5241541/\nbook://magee-local#pdf=882,889&print=873,880",
+        "Finding_Interpretation": "足内在肌与邻近筋膜共同参与，局部触诊不能把深层肌肉单独隔离。 活动与控制参考不表示已确定某块肌肉过紧或薄弱。"
+      },
+      "AFM-0051-TENSION": {
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0051\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC5241541/\nbook://magee-local#pdf=882,889&print=873,880",
+        "Finding_Interpretation": "足内在肌与邻近筋膜共同参与，局部触诊不能把深层肌肉单独隔离。 活动与控制参考不表示已确定某块肌肉过紧或薄弱。"
+      },
+      "AFM-0052-TENSION": {
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0052\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC5241541/\nbook://magee-local#pdf=882,889&print=873,880",
+        "Finding_Interpretation": "足内在肌与邻近筋膜共同参与，局部触诊不能把深层肌肉单独隔离。 活动与控制参考不表示已确定某块肌肉过紧或薄弱。"
+      },
+      "AFM-0053-STATE": {
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0053\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC5241541/\nhttps://www.orthoinfo.org/en/diseases--conditions/turf-toe/\nbook://magee-local#pdf=882,889&print=873,880",
+        "Finding_Interpretation": "拇短屈肌与籽骨复合体紧密相连，不能通过局部触诊独立确定；骨面痛另看第一MTP/籽骨项目。 活动与控制参考不表示已确定某块肌肉过紧或薄弱。"
+      },
+      "AFM-0008-CONTROL": {
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0008\nbook://magee-local#pdf=882,889&print=873,880",
+        "Finding_Interpretation": "动态任务表现与静态足型分开查看。 活动与控制参考不表示已确定某块肌肉过紧或薄弱。"
+      },
+      "AFM-0022-EXCESS": {
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0022\nhttps://pubmed.ncbi.nlm.nih.gov/16619101/\nhttps://pubmed.ncbi.nlm.nih.gov/10739156/\nbook://magee-local#pdf=882,889&print=873,880",
+        "Finding_Interpretation": "第一跖骨列整体活动包含多个关节的共同参与；单项活动检查不能确定第一跖跗关节损伤。 活动与控制参考不表示已确定某块肌肉过紧或薄弱。"
+      },
+      "AFM-0119-SUPPORT": {
+        "Finding_Feature": "行进时两侧支撑时间或步长不同，一侧较早离地。 同一任务和速度下，对照症状、完成表现、既往能力与恢复目标；该表现本身不表示必须纠正。",
+        "Source_URL": "https://doi.org/10.1136/bjsports-2024-108110\nbook://magee-local#pdf=882,889&print=873,880",
+        "Finding_Interpretation": "此处为动作观察思路，不单独推断组织损伤、疼痛来源或肌肉薄弱。"
+      },
+      "AFM-0119-PROPULSION": {
+        "Finding_Feature": "两侧蹬离表现不同，前进节奏不一致。 同一任务和速度下，对照症状、完成表现、既往能力与恢复目标；该表现本身不表示必须纠正。",
+        "Source_URL": "https://doi.org/10.1136/bjsports-2024-108110\nbook://magee-local#pdf=882,889&print=873,880",
+        "Finding_Interpretation": "此处为动作观察思路，不单独推断组织损伤、疼痛来源或肌肉薄弱。"
+      },
+      "AFM-0119-ALIGNMENT": {
+        "Finding_Feature": "单腿支撑阶段膝相对足部向内移动，或骨盆向一侧倾斜。 同一任务和速度下，对照症状、完成表现、既往能力与恢复目标；该表现本身不表示必须纠正。",
+        "Source_URL": "https://doi.org/10.1136/bjsports-2024-108110\nbook://magee-local#pdf=882,889&print=873,880",
+        "Finding_Interpretation": "此处为动作观察思路，不单独推断组织损伤、疼痛来源或肌肉薄弱。"
+      },
+      "AFM-0120-LOAD": {
+        "Finding_Feature": "下蹲或起身时重心持续偏向一侧。 同一任务和速度下，对照症状、完成表现、既往能力与恢复目标；该表现本身不表示必须纠正。",
+        "Source_URL": "https://doi.org/10.1136/bjsports-2024-108110\nbook://magee-local#pdf=882,889&print=873,880",
+        "Finding_Interpretation": "此处为动作观察思路，不单独推断组织损伤、疼痛来源或肌肉薄弱。"
+      },
+      "AFM-0120-KNEE": {
+        "Finding_Feature": "下蹲或起身过程中膝相对足部向内移动。 同一任务和速度下，对照症状、完成表现、既往能力与恢复目标；该表现本身不表示必须纠正。",
+        "Source_URL": "https://doi.org/10.1136/bjsports-2024-108110\nbook://magee-local#pdf=882,889&print=873,880",
+        "Finding_Interpretation": "此处为动作观察思路，不单独推断组织损伤、疼痛来源或肌肉薄弱。"
+      },
+      "AFM-0121-KNEE": {
+        "Finding_Feature": "单腿承重过程中，支撑侧膝相对足部向内移动。 同一任务和速度下，对照症状、完成表现、既往能力与恢复目标；该表现本身不表示必须纠正。",
+        "Source_URL": "https://doi.org/10.1136/bjsports-2024-108110\nbook://magee-local#pdf=882,889&print=873,880",
+        "Finding_Interpretation": "此处为动作观察思路，不单独推断组织损伤、疼痛来源或肌肉薄弱。"
+      },
+      "AFM-0121-PELVIS": {
+        "Finding_Feature": "单腿承重时非支撑侧骨盆向下倾斜。 同一任务和速度下，对照症状、完成表现、既往能力与恢复目标；该表现本身不表示必须纠正。",
+        "Source_URL": "https://doi.org/10.1136/bjsports-2024-108110\nbook://magee-local#pdf=882,889&print=873,880",
+        "Finding_Interpretation": "此处为动作观察思路，不单独推断组织损伤、疼痛来源或肌肉薄弱。"
+      },
+      "AFM-0121-TRUNK": {
+        "Finding_Feature": "单腿下蹲或台阶动作中，躯干明显前倾或向一侧偏移。 同一任务和速度下，对照症状、完成表现、既往能力与恢复目标；该表现本身不表示必须纠正。",
+        "Source_URL": "https://doi.org/10.1136/bjsports-2024-108110\nbook://magee-local#pdf=882,889&print=873,880",
+        "Finding_Interpretation": "此处为动作观察思路，不单独推断组织损伤、疼痛来源或肌肉薄弱。"
+      },
+      "AFM-0121-DESCENT": {
+        "Finding_Feature": "单腿下蹲或下台阶时，下放速度不均或突然下落。 同一任务和速度下，对照症状、完成表现、既往能力与恢复目标；该表现本身不表示必须纠正。",
+        "Source_URL": "https://doi.org/10.1136/bjsports-2024-108110\nbook://magee-local#pdf=882,889&print=873,880",
+        "Finding_Interpretation": "此处为动作观察思路，不单独推断组织损伤、疼痛来源或肌肉薄弱。"
+      },
+      "AFM-0122-LOAD": {
+        "Finding_Feature": "双腿落地时一侧先承重，或身体持续偏向一侧。 同一任务和速度下，对照症状、完成表现、既往能力与恢复目标；该表现本身不表示必须纠正。",
+        "Source_URL": "https://doi.org/10.1136/bjsports-2022-106158\nbook://magee-local#pdf=882,889&print=873,880",
+        "Finding_Interpretation": "此处为动作观察思路，不单独推断组织损伤、疼痛来源或肌肉薄弱。"
+      },
+      "AFM-0122-BUFFER": {
+        "Finding_Feature": "落地时髋膝屈曲较少，缓冲动作短促。 同一任务和速度下，对照症状、完成表现、既往能力与恢复目标；该表现本身不表示必须纠正。",
+        "Source_URL": "https://doi.org/10.1136/bjsports-2022-106158\nbook://magee-local#pdf=882,889&print=873,880",
+        "Finding_Interpretation": "此处为动作观察思路，不单独推断组织损伤、疼痛来源或肌肉薄弱。"
+      },
+      "AFM-0122-BALANCE": {
+        "Finding_Feature": "落地后需要跳动、挪脚或另一侧脚辅助站稳。 同一任务和速度下，对照症状、完成表现、既往能力与恢复目标；该表现本身不表示必须纠正。",
+        "Source_URL": "https://doi.org/10.1136/bjsports-2022-106158\nbook://magee-local#pdf=882,889&print=873,880",
+        "Finding_Interpretation": "此处为动作观察思路，不单独推断组织损伤、疼痛来源或肌肉薄弱。"
+      },
+      "AFM-0122-KNEE": {
+        "Finding_Feature": "落地支撑阶段膝相对足部向内移动。 同一任务和速度下，对照症状、完成表现、既往能力与恢复目标；该表现本身不表示必须纠正。",
+        "Source_URL": "https://doi.org/10.1136/bjsports-2022-106158\nbook://magee-local#pdf=882,889&print=873,880",
+        "Finding_Interpretation": "此处为动作观察思路，不单独推断组织损伤、疼痛来源或肌肉薄弱。"
+      },
+      "AFM-0123-STEPS": {
+        "Finding_Feature": "减速时需要多次碎步或额外跨步才能停止。 同一任务和速度下，对照症状、完成表现、既往能力与恢复目标；该表现本身不表示必须纠正。",
+        "Source_URL": "https://doi.org/10.1136/bjsports-2022-106158\nbook://magee-local#pdf=882,889&print=873,880",
+        "Finding_Interpretation": "此处为动作观察思路，不单独推断组织损伤、疼痛来源或肌肉薄弱。"
+      },
+      "AFM-0123-KNEE": {
+        "Finding_Feature": "变向支撑阶段膝相对足部向内移动。 同一任务和速度下，对照症状、完成表现、既往能力与恢复目标；该表现本身不表示必须纠正。",
+        "Source_URL": "https://doi.org/10.1136/bjsports-2022-106158\nbook://magee-local#pdf=882,889&print=873,880",
+        "Finding_Interpretation": "此处为动作观察思路，不单独推断组织损伤、疼痛来源或肌肉薄弱。"
+      },
+      "AFM-0123-TIMING": {
+        "Finding_Feature": "减速、转向与再次推进之间出现停顿或反复调整步伐。 同一任务和速度下，对照症状、完成表现、既往能力与恢复目标；该表现本身不表示必须纠正。",
+        "Source_URL": "https://doi.org/10.1136/bjsports-2022-106158\nbook://magee-local#pdf=882,889&print=873,880",
+        "Finding_Interpretation": "此处为动作观察思路，不单独推断组织损伤、疼痛来源或肌肉薄弱。"
+      }
+    },
+    "ClinicalPurpose": {
+      "KNEE-PATTERN-GAIT": {
+        "Clinical_Purpose": "查看行进时两侧支撑、推进及膝与骨盆的配合。 对照该动作中的症状、完成表现与恢复目标。",
+        "Source_URL": "https://doi.org/10.1136/bjsports-2024-108110\nbook://magee-local#pdf=882,889&print=873,880"
+      },
+      "KNEE-PATTERN-BILATERAL": {
+        "Clinical_Purpose": "查看双腿承重时的左右负重分配与膝运动轨迹。 对照该动作中的症状、完成表现与恢复目标。",
+        "Source_URL": "https://doi.org/10.1136/bjsports-2024-108110\nbook://magee-local#pdf=882,889&print=873,880"
+      },
+      "KNEE-PATTERN-SINGLE": {
+        "Clinical_Purpose": "查看单腿承重时膝、骨盆与躯干的配合，以及蹬伸或下放的稳定性。 对照该动作中的症状、完成表现与恢复目标。",
+        "Source_URL": "https://doi.org/10.1136/bjsports-2024-108110\nbook://magee-local#pdf=882,889&print=873,880"
+      },
+      "KNEE-PATTERN-LANDING": {
+        "Clinical_Purpose": "查看落地时的负重分配、髋膝缓冲与落地后稳定性。 对照该动作中的症状、完成表现与恢复目标。",
+        "Source_URL": "https://doi.org/10.1136/bjsports-2022-106158\nbook://magee-local#pdf=882,889&print=873,880"
+      },
+      "KNEE-PATTERN-DIRECTION": {
+        "Clinical_Purpose": "查看制动、转向与再次推进时的支撑和动作衔接。 对照该动作中的症状、完成表现与恢复目标。",
+        "Source_URL": "https://doi.org/10.1136/bjsports-2022-106158\nbook://magee-local#pdf=882,889&print=873,880"
+      },
+      "CORE-CAP-KNEE-FLEX": {
+        "Clinical_Purpose": "膝屈抗阻查看腘绳肌输出；跑步等需求还可对照髋伸及较长肌长位的发力，与后侧牵拉和局部疼痛分别查看。",
+        "Assessment_Focus": "等长膝屈输出、疼痛限制与侧差；结合目标活动查看髋伸、膝屈离心及较长肌长位表现。",
+        "Source_URL": "https://www.ncbi.nlm.nih.gov/books/NBK542215/\nbook://magee-local#pdf=751,756&print=742,747\nhttps://doi.org/10.2519/jospt.2022.0301"
+      }
+    }
+  }
+}

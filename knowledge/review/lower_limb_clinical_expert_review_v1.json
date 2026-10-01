@@ -1,0 +1,3895 @@
+{
+  "review_date": "2026-10-01",
+  "scope": "现有下肢内容的运动康复临床思路审读；未改写生产数据库",
+  "method": "通读项目、检查目的、发现说明、处理参考、问诊和周围组织；核对38区域实际内容分配；针对关键争议核对公开一手资料与线下记录摘录。不是系统评价，也未逐篇取得所有来源全文。",
+  "limitations": [
+    "旧记录的使用经过并非全部可由摘录还原；不推断单一方法因果疗效。",
+    "部分JOSPT全文及NCBI页面访问受限，仅取得摘要、指南推荐片段或来源主题；需原段核验的条目已保留为待核对。",
+    "不修模型定位，不接入新身体模块，不新增问诊结果录入或处方规则。"
+  ],
+  "production_hashes": {
+    "workbook": "ca1c0c0617bf97f3755612e561ed8d819b59c468fb5f58defe9c68c8621d18cf",
+    "clinical_extension": "e1074961cab7b54ad1ddf881926cef5537048febee34a98e08d652026086e99b"
+  },
+  "coverage": {
+    "regions": 38,
+    "clinical_purposes": 123,
+    "finding_features": 264,
+    "intervention_references": 281,
+    "consultation_guides": 101,
+    "location_guides": 19,
+    "normal_route_items": 105,
+    "normal_route_features": 231,
+    "priority_groups": {
+      "P1": 5,
+      "P2": 12
+    }
+  },
+  "confirmed_policies": [
+    {
+      "id": "POLICY-01",
+      "policy": "线下松解与筋膜刀可在肌腹按压或发力痛下保留；需注明对应肌腹，与骨面/肌腱内容分开。",
+      "user_confirmed": true
+    },
+    {
+      "id": "POLICY-02",
+      "policy": "Compex relax对外名称为肌肉电刺激放松；内部记录NMES relax。",
+      "user_confirmed": true
+    },
+    {
+      "id": "POLICY-03",
+      "policy": "第一跖骨项目为第一跖骨列整体上下活动，非单一第一跖跗关节附属活动。",
+      "user_confirmed": true
+    }
+  ],
+  "issues": [
+    {
+      "id": "CLIN-01",
+      "priority": "P1",
+      "category": "明确绑定错误",
+      "title": "膝部问诊绑定到错误的解剖区域",
+      "targets": [
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-KNEE-MEDIAL-1"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-KNEE-MEDIAL-2"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-KNEE-MEDIAL-3"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-KNEE-LATERAL-1"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-KNEE-LATERAL-2"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-KNEE-LATERAL-3"
+        }
+      ],
+      "current": "MEDIAL 绑定 KNEE-R-006/007/008；LATERAL 绑定 KNEE-R-009/010/011/012。R-006实际是髌下，R-009实际是膝后内侧。",
+      "reason": "同一数据库中区域名称与问诊位置直接矛盾；已通过实际 resolver 返回值确认，不是模型点击误差。",
+      "recommendation": "前侧组接入R-006；内侧组改为R-007/008/009；外侧组改为R-010/011/012。R-009补后内侧肌腱与鹅足分区追问，避免只询问前内侧关节线。",
+      "evidence": [],
+      "state": "建议整改"
+    },
+    {
+      "id": "CLIN-02",
+      "priority": "P1",
+      "category": "用户已澄清",
+      "title": "第一跖骨项目的检查对象被改窄了",
+      "targets": [
+        {
+          "table": "02_ClinicalItem",
+          "id": "AF-JNT-004"
+        },
+        {
+          "table": "ClinicalPurpose",
+          "id": "AF-JNT-004"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0022-LIMIT"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0022-EXCESS"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0022-PAIN"
+        }
+      ],
+      "current": "第一跖跗关节活动；第一跖骨基底与内侧楔骨之间的附属活动。",
+      "reason": "用户2026-10-01明确要求的是第一跖骨列整体上下活动；当前文字与实际想看的检查范围不同。",
+      "recommendation": "标题改为“第一跖骨列上下活动”；检查与说明围绕第一跖骨列相对其余跖骨的上下活动及承重表现。保留稳定ID，逐条复核受限、偏大与疼痛条目；不能仅换标题。中足松动不自动改成第一跖跗关节专属松动。",
+      "evidence": [
+        "https://pubmed.ncbi.nlm.nih.gov/10739156/",
+        "https://pubmed.ncbi.nlm.nih.gov/32617706/"
+      ],
+      "state": "整改含义已确认"
+    },
+    {
+      "id": "CLIN-03",
+      "priority": "P1",
+      "category": "证据范围不匹配",
+      "title": "旧肌肉条目把髌股疼痛指南当成通用方法出处",
+      "targets": [
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0065-TENSION-1"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0065-LENGTH-1"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0066-TENSION-1"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0066-TENSION-2"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0067-TENSION-1"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0067-TENSION-2"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0069-TENSION-1"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0069-TENSION-2"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0070-TENSION-1"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0070-TENSION-2"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0071-TENSION-1"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0071-TENSION-2"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0075-TENSION-1"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0075-TENSION-2"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0090-CAPACITY-1"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0096-CAPACITY-1"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0068-LENGTH-1"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0077-LENGTH-1"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0074-LENGTH-1"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0072-LENGTH-1"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0073-LENGTH-1"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0093-CAPACITY-1"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0092-CAPACITY-1"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0091-CAPACITY-1"
+        }
+      ],
+      "current": "24条旧参考没有来源范围说明，其中含股内/外侧肌、腘绳肌、缝匠肌、股薄肌、髋屈肌群与内收肌群的手法或拉伸。",
+      "reason": "髌股疼痛指南的疾病、干预组合和研究人群范围，不能直接证明某单肌的检查、MET、选择性拉伸或松解。旧任务条目AFM-0096目前不在正常展示路径，需单独记为历史内容。",
+      "recommendation": "逐条拆清“方法来自哪里”和“疗效证据适用于谁”。有对应授权记录的手法保留为经验参考；具名牵伸/训练补对应原始资料。髋膝抗阻可保留，但移除通用于全部问题的证据暗示。不能凭换上2024指南就声称其支持全部单肌方法。",
+      "evidence": [
+        "https://doi.org/10.2519/jospt.2019.0302",
+        "https://pubmed.ncbi.nlm.nih.gov/39401870/"
+      ],
+      "state": "建议整改"
+    },
+    {
+      "id": "CLIN-04",
+      "priority": "P1",
+      "category": "明确引用对象错误",
+      "title": "小腿前侧间室解剖资料被用于髋、大腿、后内踝及足部",
+      "targets": [
+        {
+          "table": "ClinicalPurpose",
+          "id": "THIGH-LT-004"
+        },
+        {
+          "table": "ClinicalPurpose",
+          "id": "THIGH-MUS-AL"
+        },
+        {
+          "table": "ClinicalPurpose",
+          "id": "THIGH-MUS-AB"
+        },
+        {
+          "table": "ClinicalPurpose",
+          "id": "THIGH-MUS-AM"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0075-SENSITIVITY"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0077-SENSITIVITY"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0072-SENSITIVITY"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0089-SCREEN"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0102-TENSION"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0102-PAIN"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0106-PAIN"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0103-LENGTH"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0104-LENGTH"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0105-LENGTH"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0081-FIBULAR-TENDON"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0027-HALLUX"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0027-LESSER_TOES"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0077-SENSITIVITY-STRETCH"
+        },
+        {
+          "table": "LocationGuide",
+          "id": "LOC-AF-R-006"
+        },
+        {
+          "table": "LocationGuide",
+          "id": "LOC-AF-R-007"
+        },
+        {
+          "table": "LocationGuide",
+          "id": "LOC-AF-R-008"
+        },
+        {
+          "table": "LocationGuide",
+          "id": "LOC-AF-R-009"
+        },
+        {
+          "table": "LocationGuide",
+          "id": "LOC-AF-R-010"
+        },
+        {
+          "table": "LocationGuide",
+          "id": "LOC-AF-R-011"
+        },
+        {
+          "table": "LocationGuide",
+          "id": "LOC-AF-R-012"
+        },
+        {
+          "table": "LocationGuide",
+          "id": "LOC-THIGH-R-001"
+        },
+        {
+          "table": "LocationGuide",
+          "id": "LOC-THIGH-R-002"
+        },
+        {
+          "table": "LocationGuide",
+          "id": "LOC-THIGH-R-003"
+        },
+        {
+          "table": "LocationGuide",
+          "id": "LOC-THIGH-R-004"
+        }
+      ],
+      "current": "NBK539725被用作通用下肢解剖来源；髋屈肌群拉伸一条仅引用这篇资料。",
+      "reason": "原文标题是Leg Anterior Compartment。它可以支持小腿前侧相关解剖，不能直接支持内收肌、髂腰肌、足底肌群或其治疗。混合来源里有其他有效来源，也应清除不相干的这一条。",
+      "recommendation": "按组织更换解剖来源；治疗方法引用具名运动或临床记录。清理基础生成脚本里的通用anatomy变量，防止下次导入重新带回错误来源。",
+      "evidence": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK539725/"
+      ],
+      "state": "建议整改"
+    },
+    {
+      "id": "CLIN-05",
+      "priority": "P1",
+      "category": "区域内容缺口",
+      "title": "髌骨上下缘的肌腱内容未覆盖到位",
+      "targets": [
+        {
+          "table": "01_Region",
+          "id": "KNEE-R-001"
+        },
+        {
+          "table": "01_Region",
+          "id": "KNEE-R-005"
+        }
+      ],
+      "current": "R-001写股四头肌腱邻近、R-005写髌骨下缘；两者LOCAL实际只有髌周负重屈膝、软组织损伤后肿胀、皮肤触碰敏感。",
+      "reason": "范围名称虽写了肌腱，实际没有上缘股四头肌腱对应发现；下缘未接入现有髌腱条目。结构完整检查无法发现这种临床覆盖缺口。",
+      "recommendation": "R-005接入已有髌腱相关内容，按邻近范围放置，保留髌周补充。R-001补股四头肌腱走行压痛、伸膝发力痛与完整性评估方向；方法需取得对应来源再列，不整套挪用髌腱病方案。",
+      "evidence": [],
+      "state": "建议整改"
+    },
+    {
+      "id": "CLIN-06",
+      "priority": "P2",
+      "category": "检查表述过度特异",
+      "title": "深层肌与单肌拉长的文字暗示了过高定位精度",
+      "targets": [
+        {
+          "table": "ClinicalPurpose",
+          "id": "CORE-MUS-SM"
+        },
+        {
+          "table": "ClinicalPurpose",
+          "id": "CORE-MUS-VI"
+        },
+        {
+          "table": "ClinicalPurpose",
+          "id": "CORE-MUS-SART"
+        },
+        {
+          "table": "ClinicalPurpose",
+          "id": "CORE-MUS-GRAC"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0071-TENSION"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0068-LENGTH"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0072-LENGTH"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0073-LENGTH"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0066-TENSION-2"
+        }
+      ],
+      "current": "后内侧深层主动膝伸拉长；前大腿深层张力；缝匠肌髋膝组合拉长；股四头肌前外侧拉伸。",
+      "reason": "临床审读意见：这些动作包含肌群、关节、疼痛限制与神经等共同因素；当前说明没有充分体现这种共同参与，和新条目中的区域说明不一致。",
+      "recommendation": "保留具名解剖项目供思路查看；检查描述改为相关区域/肌群的牵拉表现，按需要简短列动作组合。半膜肌不写成独立的“深层主动膝伸测试”；股中间肌与足内在肌保留区域方法，不构造独立触诊结论。“股四头肌前外侧拉伸”复核为一般股四头肌拉伸，不暗示可以独立选择性拉伸股外侧肌。",
+      "evidence": [
+        "https://pubmed.ncbi.nlm.nih.gov/30374579/"
+      ],
+      "state": "建议整改"
+    },
+    {
+      "id": "CLIN-07",
+      "priority": "P2",
+      "category": "结论与表现混写",
+      "title": "力量不足标题包含了疼痛限制",
+      "targets": [
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0090-CAPACITY"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0093-CAPACITY"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0092-CAPACITY"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0091-CAPACITY"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0004-CAPACITY"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0005-CAPACITY"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0006-CAPACITY"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0009-CAPACITY"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0007-CAPACITY"
+        }
+      ],
+      "current": "标题为力量/输出不足，说明同时包含输出侧差或受到疼痛限制。",
+      "reason": "输出下降、疼痛限制和动作质量下降提供不同评估信息，不宜由标题直接归为肌肉薄弱。侧差也不直接等同未达到目标能力。",
+      "recommendation": "保留现有检查思路，标题区分“输出下降/受疼痛限制”与“动作完成质量”。说明简短提示比较测量条件、当前表现和目标能力，不新增自动阈值或训练选择规则。",
+      "evidence": [],
+      "state": "建议整改"
+    },
+    {
+      "id": "CLIN-08",
+      "priority": "P2",
+      "category": "方法仍不具体",
+      "title": "少量方法名称仍然是方向性占位文字",
+      "targets": [
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0075-TENSION-2"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0005-CAPACITY-RECORD-2"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0006-CAPACITY-MEDIAL-1"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0009-CAPACITY-MEDIAL-1"
+        }
+      ],
+      "current": "髋外侧主动活动；侧向稳定任务训练；内翻肌群募集与抗阻；拇趾屈曲募集与抗阻。",
+      "reason": "康复师能够理解总体方向，但方法名称无法快速给出具体可查看的选择。",
+      "recommendation": "内翻参考已有具名内翻等长/弹力带训练；拇趾屈曲明确抗阻动作对象；侧向任务列确有记录的单腿支撑/侧向重心转移等具名任务。髋外侧活动先核实原记录所指动作，不自行创造特异牵伸。",
+      "evidence": [
+        "https://www.norfolkandwaveneycommunityhealth.nhs.uk/msk/self-help/foot-and-ankle/posterior-tibial-tendinopathy/"
+      ],
+      "state": "建议整改"
+    },
+    {
+      "id": "CLIN-09",
+      "priority": "P2",
+      "category": "问诊用途模板化",
+      "title": "48条后补问诊的用途和信息说明没有随部位展开",
+      "targets": [
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-AF-R-006-1"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-AF-R-006-2"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-AF-R-006-3"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-AF-R-007-1"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-AF-R-007-2"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-AF-R-007-3"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-AF-R-008-1"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-AF-R-008-2"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-AF-R-008-3"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-AF-R-009-1"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-AF-R-009-2"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-AF-R-009-3"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-AF-R-010-1"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-AF-R-010-2"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-AF-R-010-3"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-AF-R-011-1"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-AF-R-011-2"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-AF-R-011-3"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-AF-R-012-1"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-AF-R-012-2"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-AF-R-012-3"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-THIGH-R-001-1"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-THIGH-R-001-2"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-THIGH-R-001-3"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-THIGH-R-002-1"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-THIGH-R-002-2"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-THIGH-R-002-3"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-THIGH-R-003-1"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-THIGH-R-003-2"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-THIGH-R-003-3"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-THIGH-R-004-1"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-THIGH-R-004-2"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-THIGH-R-004-3"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-KNEE-FRONT-1"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-KNEE-FRONT-2"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-KNEE-FRONT-3"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-KNEE-MEDIAL-1"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-KNEE-MEDIAL-2"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-KNEE-MEDIAL-3"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-KNEE-LATERAL-1"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-KNEE-LATERAL-2"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-KNEE-LATERAL-3"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-KNEE-POST-1"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-KNEE-POST-2"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-KNEE-POST-3"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-KNEE-DIFFUSE-1"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-KNEE-DIFFUSE-2"
+        },
+        {
+          "table": "ConsultationGuide",
+          "id": "QG-KNEE-DIFFUSE-3"
+        }
+      ],
+      "current": "普遍复用“分清同一区域的肌腹、肌腱、关节或骨面”“分别查看活动度、相关肌力及动作表现”等说明。",
+      "reason": "问题本身多数具体，但“为什么这样问、能得到什么”仍泛化。鞋具/跑量问题的收集信息有时写成肿胀瘀斑，字段内容与问题不对应。",
+      "recommendation": "逐问题写1句部位相关用途。例如足跟中央/内侧问题→足跟垫与筋膜附着处分区；舟骨发力/鞋摩擦问题→肌腱承载与局部接触差别；中足外伤/足底瘀斑问题→跗跖稳定结构评估背景。保持只读提示，不加入问诊结果表单。",
+      "evidence": [],
+      "state": "建议整改"
+    },
+    {
+      "id": "CLIN-10",
+      "priority": "P2",
+      "category": "用户已澄清",
+      "title": "放松模式的电刺激名称应准确",
+      "targets": [
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0046-PRESSURE-RECORD-1"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0060-PRESSURE-LOCAL-1"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0060-ACTIVITY-LOCAL-1"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0042-TENSION-RELAX-1"
+        }
+      ],
+      "current": "低频电刺激/腓骨长肌低频电刺激。",
+      "reason": "用户确认实际为神经肌肉电刺激的relax模式，要求对外只写肌肉电刺激放松。",
+      "recommendation": "改成“肌肉电刺激放松”，必要时带相关肌群名。内部保留NMES relax与原记录出处。募集锻炼用的NMES继续单列，不能顺带改成放松或TENS。",
+      "evidence": [],
+      "state": "整改名称已确认"
+    },
+    {
+      "id": "CLIN-11",
+      "priority": "P2",
+      "category": "来源需拆分",
+      "title": "膝关节活动方法的来源过于笼统",
+      "targets": [
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0085-LIMIT-1"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0086-LIMIT-1"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0088-LIMIT-1"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0080-JOINT-LIMIT-ROM"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0081-JOINT-LIMIT-ROM"
+        }
+      ],
+      "current": "屈曲方向松动、髌骨方向性松动、胫股旋转松动等统一引用半月板/关节软骨2018指南。",
+      "reason": "该指南的主要对象为半月板与软骨病变、尤其术后评估与康复。主动/被动活动参考与具体方向性松动并非同一种来源支持，需要核对具体原段，不能仅从指南标题推导每种手法。",
+      "recommendation": "活动练习保留相应来源；具体手法补对应记录/原始资料和适用范围。对骨性阻挡、真正卡锁的提示继续保留，不因活动受限列出所有松动。",
+      "evidence": [
+        "https://pubmed.ncbi.nlm.nih.gov/29385940/"
+      ],
+      "state": "建议整改"
+    },
+    {
+      "id": "CLIN-12",
+      "priority": "P2",
+      "category": "单病例方法需谨慎归属",
+      "title": "拇长屈肌/趾长屈肌手法依据不足以支持分开的肌腹疗效",
+      "targets": [
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0048-LENGTH-MUSCLE"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0047-LENGTH-MUSCLE"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0027-HALLUX-MANUAL"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0027-LESSER_TOES-MANUAL"
+        }
+      ],
+      "current": "拇长屈肌/趾长屈肌肌腹或肌腱周围手法，主要引用PMC8159326。",
+      "reason": "原文是一个FHL/FDL共同受累的多方法病例，处理位点主要在远端肌腱邻近，出现即时疼痛增加。当前内注明确单病例，但把它拆成两种肌腹常规方法仍需重新核对部位。",
+      "recommendation": "作为病例经验资料可保留；复核肌腹/肌腱方法名称和真实处理位置。主思路不得宣称手法独立疗效，不用来填充所有屈趾疼痛。FHL牵伸队列不能外推为FDL牵伸疗效。没有更直接经验记录时，先保留范围而不扩充理疗清单。",
+      "evidence": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8159326/",
+        "https://pubmed.ncbi.nlm.nih.gov/34170867/"
+      ],
+      "state": "建议整改"
+    },
+    {
+      "id": "CLIN-13",
+      "priority": "P2",
+      "category": "测量证据与治疗证据区分",
+      "title": "足内在肌募集资料不能变成紧张或疼痛的疗效依据",
+      "targets": [
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0008-CONTROL"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0022-EXCESS"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0050-TENSION"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0051-TENSION"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0052-TENSION"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0053-STATE"
+        }
+      ],
+      "current": "足趾展开/分离活动引用8名健康运动员MRI募集研究。",
+      "reason": "该研究支持这些组合动作有肌肉募集，未测肌肉过紧、疼痛缓解或跖跗关节稳定修复。目前多条内注明确此点，可以保留，但其方法应放在活动/控制范围。",
+      "recommendation": "保留短足、足趾展开与分离控制；治疗分类体现活动/控制，不把MRI作为牵伸疗效证据。拇收肌等不写单肌分离训练；单肌紧张条目的相关性标为临床编辑判断。",
+      "evidence": [
+        "https://pubmed.ncbi.nlm.nih.gov/27690528/"
+      ],
+      "state": "建议整改"
+    },
+    {
+      "id": "CLIN-14",
+      "priority": "P2",
+      "category": "动作观察需保持中性",
+      "title": "动作模式发现不应天然成为待纠正异常",
+      "targets": [
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0119-SUPPORT"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0119-PROPULSION"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0119-ALIGNMENT"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0120-LOAD"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0120-KNEE"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0121-KNEE"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0121-PELVIS"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0121-TRUNK"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0121-DESCENT"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0122-LOAD"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0122-BUFFER"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0122-BALANCE"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0122-KNEE"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0123-STEPS"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0123-KNEE"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0123-TIMING"
+        }
+      ],
+      "current": "膝向内移动、骨盆下沉、躯干明显前倾、多次制动步等直接接动作控制练习。",
+      "reason": "这些描述适合观察，但是否有意义取决于任务、速度、症状、既往能力与恢复目标。临床审读不能仅凭姿势或左右差别给出病因或纠正决定。",
+      "recommendation": "保留动作名称与已有视频/现场观察入口；检查用途强调比较任务中症状、完成质量及目标需求。替换纯“髋膝踝协同”的重复方法为有来源的具名动作反馈练习，不把足外翻、膝内移或躯干前倾规定为必须纠正。",
+      "evidence": [
+        "https://pubmed.ncbi.nlm.nih.gov/39401870/"
+      ],
+      "state": "建议整改"
+    },
+    {
+      "id": "CLIN-15",
+      "priority": "P2",
+      "category": "共用标题与场景不符",
+      "title": "共用安全条目仍写小腿，实际被大腿调用",
+      "targets": [
+        {
+          "table": "02_ClinicalItem",
+          "id": "CORE-SAF-ACS"
+        },
+        {
+          "table": "02_ClinicalItem",
+          "id": "CORE-SAF-VTE"
+        },
+        {
+          "table": "ClinicalPurpose",
+          "id": "CORE-SAF-ACS"
+        },
+        {
+          "table": "ClinicalPurpose",
+          "id": "CORE-SAF-VTE"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0063-ASSESS"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0064-ASSESS"
+        },
+        {
+          "table": "07_ContextRule",
+          "id": "THIGH-SAF-01"
+        },
+        {
+          "table": "07_ContextRule",
+          "id": "THIGH-SAF-02"
+        }
+      ],
+      "current": "“急性小腿间室综合征风险筛查”“小腿静脉血栓风险筛查”作为大腿安全规则目标。",
+      "reason": "提示内容总体方向合理。当前大腿公开风险标题来自规则，本轮没有确认这些小腿标题在大腿界面直接显示；问题在共用目标条目的内部命名与适用范围，后续复用时应消除歧义。",
+      "recommendation": "共用条目改为下肢/对应区域的间室及静脉血栓风险；保留急性紧急程度及医学评估提示。不要加入自动判断、按摩试验或新的筛查表单。",
+      "evidence": [
+        "https://www.orthoinfo.org/en/diseases--conditions/compartment-syndrome/",
+        "https://www.nice.org.uk/guidance/ng158/chapter/Recommendations"
+      ],
+      "state": "建议整改"
+    },
+    {
+      "id": "CLIN-16",
+      "priority": "P2",
+      "category": "具名练习可追溯性",
+      "title": "部分NHS索引能支持动作名称，不能支持整个关联",
+      "targets": [
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0087-LIMIT-1"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0102-PAIN-ACTIVE"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0100-PAIN-ACTIVE"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0069-SENSITIVITY-STRETCH"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0070-SENSITIVITY-STRETCH"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0071-SENSITIVITY-STRETCH"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0094-CAPACITY-STRENGTH"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0081-FIBULAR-TENDON-LOAD"
+        },
+        {
+          "table": "InterventionReference",
+          "id": "AFM-0082-TENDON-LOAD"
+        }
+      ],
+      "current": "腘绳肌、鹅足、腓骨头附近肌腱及大腿外侧参考共用RUH练习索引。",
+      "reason": "原页面确有站立屈膝、桥式、髋外展等具名条目，应保留；本次核对未在索引中找到所有“屈膝等长”“腘绳肌拉伸”的对应条目，且索引没有直接证明每个疼痛部位的治疗关系。",
+      "recommendation": "已找到动作补准确条目/视频或对应患者资料链接；等长和拉伸另补直接来源。分别记录动作出处与临床关联判断，不把源页面说成验证了全部部位关系。",
+      "evidence": [
+        "https://www.ruh.nhs.uk/patients/services/physiotherapy/OP_outpatient_service.asp"
+      ],
+      "state": "建议整改"
+    },
+    {
+      "id": "CLIN-17",
+      "priority": "P2",
+      "category": "方法菜单可补运动需求",
+      "title": "大腿后侧力量参考覆盖偏基础",
+      "targets": [
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0091-CAPACITY"
+        },
+        {
+          "table": "FindingFeature",
+          "id": "AFM-0100-PAIN"
+        },
+        {
+          "table": "ClinicalPurpose",
+          "id": "CORE-CAP-KNEE-FLEX"
+        }
+      ],
+      "current": "屈膝等长、站立屈膝、桥式为主；运动需求下缺少不同肌长、髋伸及离心承载方法方向。",
+      "reason": "作为基础思路可保留，若恢复目标为快跑/加速等，只呈现这几种方法仍偏窄。本条是菜单补充建议，不等于所有疼痛都要采用高强度训练。",
+      "recommendation": "在对应能力条目中补有来源的髋伸抗阻、长肌长/离心屈膝训练名称；结合需求展示，保留急性损伤、肌腱和术后范围，不增加阶段、剂量、强制进阶或自动准入规则。",
+      "evidence": [
+        "https://pubmed.ncbi.nlm.nih.gov/35164536/",
+        "https://pubmed.ncbi.nlm.nih.gov/36650032/"
+      ],
+      "state": "建议整改"
+    }
+  ],
+  "finding_inventory": [
+    {
+      "feature_id": "AFM-0065-TENSION",
+      "item_id": "CORE-MUS-RF",
+      "item_name": "股直肌",
+      "title": "局部张力增加",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-03"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0065-LENGTH",
+      "item_id": "CORE-MUS-RF",
+      "item_name": "股直肌",
+      "title": "拉长受限",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-03"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0065-SENSITIVITY",
+      "item_id": "CORE-MUS-RF",
+      "item_name": "股直肌",
+      "title": "股直肌肌腹按压或活动痛",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0066-TENSION",
+      "item_id": "CORE-MUS-VL",
+      "item_name": "股外侧肌",
+      "title": "张力或拉长反应异常",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-03",
+        "CLIN-06"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0066-SENSITIVITY",
+      "item_id": "CORE-MUS-VL",
+      "item_name": "股外侧肌",
+      "title": "股外侧肌肌腹按压或活动痛",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0067-TENSION",
+      "item_id": "CORE-MUS-VM",
+      "item_name": "股内侧肌",
+      "title": "张力或拉长反应异常",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-03"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0067-SENSITIVITY",
+      "item_id": "CORE-MUS-VM",
+      "item_name": "股内侧肌",
+      "title": "股内侧肌肌腹按压或活动痛",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0069-TENSION",
+      "item_id": "CORE-MUS-BF",
+      "item_name": "股二头肌",
+      "title": "张力或拉长反应异常",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-03"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0069-SENSITIVITY",
+      "item_id": "CORE-MUS-BF",
+      "item_name": "股二头肌",
+      "title": "股二头肌肌腹按压或活动痛",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [
+        "CLIN-16"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0070-TENSION",
+      "item_id": "CORE-MUS-ST",
+      "item_name": "半腱肌",
+      "title": "张力或拉长反应异常",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-03"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0070-SENSITIVITY",
+      "item_id": "CORE-MUS-ST",
+      "item_name": "半腱肌",
+      "title": "半腱肌肌腹按压或活动痛",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [
+        "CLIN-16"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0071-TENSION",
+      "item_id": "CORE-MUS-SM",
+      "item_name": "半膜肌",
+      "title": "张力或拉长反应异常",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-06",
+        "CLIN-03"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0071-SENSITIVITY",
+      "item_id": "CORE-MUS-SM",
+      "item_name": "半膜肌",
+      "title": "半膜肌肌腹按压或活动痛",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [
+        "CLIN-06",
+        "CLIN-16"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0075-TENSION",
+      "item_id": "KNEE-MUS-LAT-CHAIN",
+      "item_name": "阔筋膜张肌 / 外侧链相关",
+      "title": "张力或拉长反应异常",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-03",
+        "CLIN-08"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0075-SENSITIVITY",
+      "item_id": "KNEE-MUS-LAT-CHAIN",
+      "item_name": "阔筋膜张肌 / 外侧链相关",
+      "title": "阔筋膜张肌邻近肌腹按压或活动痛",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [
+        "CLIN-04"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0090-CAPACITY",
+      "item_id": "CORE-CAP-KNEE-EXT",
+      "item_name": "膝伸力量/能力",
+      "title": "膝伸力量不足",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-07",
+        "CLIN-03"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0095-CAPACITY",
+      "item_id": "CORE-CAP-QUAD-RECRUIT",
+      "item_name": "股四头肌募集/主动终末伸膝",
+      "title": "主动终末伸膝不足",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0096-CAPACITY",
+      "item_id": "KNEE-TASK-DYN",
+      "item_name": "任务特异的下肢动态控制",
+      "title": "任务中动态控制不足",
+      "normal_route_reachable": false,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-03"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0038-TENSION",
+      "item_id": "CORE-MUS-TA",
+      "item_name": "胫骨前肌",
+      "title": "张力偏高或牵拉受限",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0038-SENSITIVITY",
+      "item_id": "CORE-MUS-TA",
+      "item_name": "胫骨前肌",
+      "title": "肌腹压痛或背屈发力痛",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0042-TENSION",
+      "item_id": "CORE-MUS-PL",
+      "item_name": "腓骨长肌",
+      "title": "张力偏高或内翻牵拉受限",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [
+        "CLIN-10"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0042-SENSITIVITY",
+      "item_id": "CORE-MUS-PL",
+      "item_name": "腓骨长肌",
+      "title": "肌腹压痛或外翻发力痛",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0043-TENSION",
+      "item_id": "CORE-MUS-PB",
+      "item_name": "腓骨短肌",
+      "title": "张力偏高或内翻牵拉受限",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0043-SENSITIVITY",
+      "item_id": "CORE-MUS-PB",
+      "item_name": "腓骨短肌",
+      "title": "肌腹压痛或外翻发力痛",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0044-TENSION",
+      "item_id": "CORE-MUS-GASTROC",
+      "item_name": "腓肠肌",
+      "title": "张力偏高或伸膝位牵拉受限",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0044-SENSITIVITY",
+      "item_id": "CORE-MUS-GASTROC",
+      "item_name": "腓肠肌",
+      "title": "肌腹压痛或跖屈发力痛",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0029-TENDERNESS",
+      "item_id": "AF-LT-004",
+      "item_name": "跟腱中段组织",
+      "title": "跟腱中段压痛",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0029-SWELLING",
+      "item_id": "AF-LT-004",
+      "item_name": "跟腱中段组织",
+      "title": "肿胀、瘀斑或突发变化",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0029-SENSITIVITY",
+      "item_id": "AF-LT-004",
+      "item_name": "跟腱中段组织",
+      "title": "提踵或蹬地时中段疼痛",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0030-TENDERNESS",
+      "item_id": "AF-LT-005",
+      "item_name": "跟腱止点/跟骨后方组织",
+      "title": "止点压痛或鞋后帮接触痛",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0030-SWELLING",
+      "item_id": "AF-LT-005",
+      "item_name": "跟腱止点/跟骨后方组织",
+      "title": "肿胀、瘀斑或突发变化",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0030-SENSITIVITY",
+      "item_id": "AF-LT-005",
+      "item_name": "跟腱止点/跟骨后方组织",
+      "title": "背屈或提踵时止点疼痛",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0068-LENGTH",
+      "item_id": "CORE-MUS-VI",
+      "item_name": "股中间肌",
+      "title": "拉长或活动受限",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-06",
+        "CLIN-03"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0068-SENSITIVITY",
+      "item_id": "CORE-MUS-VI",
+      "item_name": "股中间肌",
+      "title": "大腿前侧深部牵拉或发力痛",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [
+        "CLIN-06"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0077-LENGTH",
+      "item_id": "KNEE-MUS-HIPFLEX",
+      "item_name": "髂腰肌及髋屈相关肌群",
+      "title": "拉长或活动受限",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-03"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0077-SENSITIVITY",
+      "item_id": "KNEE-MUS-HIPFLEX",
+      "item_name": "髂腰肌及髋屈相关肌群",
+      "title": "髋前侧牵拉或发力痛",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [
+        "CLIN-04"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0045-LENGTH",
+      "item_id": "CORE-MUS-SOLEUS",
+      "item_name": "比目鱼肌",
+      "title": "张力偏高或屈膝位牵拉受限",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0045-SENSITIVITY",
+      "item_id": "CORE-MUS-SOLEUS",
+      "item_name": "比目鱼肌",
+      "title": "肌腹压痛或屈膝跖屈发力痛",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0074-LENGTH",
+      "item_id": "KNEE-MUS-ADD",
+      "item_name": "内收肌群",
+      "title": "拉长或活动受限",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-03"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0074-SENSITIVITY",
+      "item_id": "KNEE-MUS-ADD",
+      "item_name": "内收肌群",
+      "title": "内收肌群肌腹按压或活动痛",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0076-LENGTH",
+      "item_id": "KNEE-MUS-POPLIT",
+      "item_name": "腘肌",
+      "title": "拉长或活动受限",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0076-SENSITIVITY",
+      "item_id": "KNEE-MUS-POPLIT",
+      "item_name": "腘肌",
+      "title": "膝后外侧肌腹邻近压痛",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0072-LENGTH",
+      "item_id": "CORE-MUS-SART",
+      "item_name": "缝匠肌",
+      "title": "拉长或活动受限",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-06",
+        "CLIN-03"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0072-SENSITIVITY",
+      "item_id": "CORE-MUS-SART",
+      "item_name": "缝匠肌",
+      "title": "缝匠肌肌腹按压或活动痛",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [
+        "CLIN-04",
+        "CLIN-06"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0073-LENGTH",
+      "item_id": "CORE-MUS-GRAC",
+      "item_name": "股薄肌",
+      "title": "拉长或活动受限",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-06",
+        "CLIN-03"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0073-SENSITIVITY",
+      "item_id": "CORE-MUS-GRAC",
+      "item_name": "股薄肌",
+      "title": "股薄肌肌腹按压或活动痛",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [
+        "CLIN-06"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0093-CAPACITY",
+      "item_id": "KNEE-CAP-HIPEXT",
+      "item_name": "髋伸能力",
+      "title": "髋伸输出不足",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-07",
+        "CLIN-03"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0092-CAPACITY",
+      "item_id": "KNEE-CAP-HIPABD",
+      "item_name": "髋外展/外旋能力",
+      "title": "髋外展/外旋输出不足",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-07",
+        "CLIN-03"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0091-CAPACITY",
+      "item_id": "CORE-CAP-KNEE-FLEX",
+      "item_name": "膝屈/后侧链能力",
+      "title": "膝屈力量不足",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-07",
+        "CLIN-17",
+        "CLIN-03"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0094-CAPACITY",
+      "item_id": "KNEE-CAP-PES",
+      "item_name": "鹅足相关肌群募集/能力",
+      "title": "鹅足相关屈膝或内收能力不足",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-16"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0004-CAPACITY",
+      "item_id": "CORE-CAP-PF",
+      "item_name": "跖屈/提踵力量与动作质量",
+      "title": "跖屈力量或提踵质量不足",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [
+        "CLIN-07"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0005-CAPACITY",
+      "item_id": "CORE-CAP-EV",
+      "item_name": "足踝外翻肌力",
+      "title": "足踝外翻力量不足",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [
+        "CLIN-07",
+        "CLIN-08"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0084-LIMIT",
+      "item_id": "KNEE-ROM-EXT",
+      "item_name": "膝伸直 ROM",
+      "title": "伸膝活动受限",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0084-SYMPTOM",
+      "item_id": "KNEE-ROM-EXT",
+      "item_name": "膝伸直 ROM",
+      "title": "伸膝末端症状",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0085-LIMIT",
+      "item_id": "KNEE-ROM-FLEX",
+      "item_name": "膝屈曲 ROM",
+      "title": "屈膝活动受限",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-11"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0085-SYMPTOM",
+      "item_id": "KNEE-ROM-FLEX",
+      "item_name": "膝屈曲 ROM",
+      "title": "屈膝末端症状",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0086-LIMIT",
+      "item_id": "KNEE-JNT-PF",
+      "item_name": "髌股关节活动",
+      "title": "髌骨方向性活动受限",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-11"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0086-SYMPTOM",
+      "item_id": "KNEE-JNT-PF",
+      "item_name": "髌股关节活动",
+      "title": "髌骨活动时疼痛",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0088-LIMIT",
+      "item_id": "KNEE-JNT-TIBROT",
+      "item_name": "胫骨旋转/膝末端方向性活动",
+      "title": "胫骨旋转活动受限",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-11"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0088-SYMPTOM",
+      "item_id": "KNEE-JNT-TIBROT",
+      "item_name": "胫骨旋转/膝末端方向性活动",
+      "title": "胫骨内外旋时疼痛",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0087-LIMIT",
+      "item_id": "KNEE-JNT-PROXTF",
+      "item_name": "近端胫腓关节活动",
+      "title": "近端胫腓关节活动受限",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-16"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0087-SYMPTOM",
+      "item_id": "KNEE-JNT-PROXTF",
+      "item_name": "近端胫腓关节活动",
+      "title": "近端胫腓关节活动时疼痛",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0078-PFP",
+      "item_id": "KNEE-LT-PATELLA",
+      "item_name": "髌骨周围局部组织",
+      "title": "髌周负重屈膝不适",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0078-TRAUMATIC-SWELLING",
+      "item_id": "KNEE-LT-PATELLA",
+      "item_name": "髌骨周围局部组织",
+      "title": "软组织损伤后肿胀",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0078-SKIN",
+      "item_id": "KNEE-LT-PATELLA",
+      "item_name": "髌骨周围局部组织",
+      "title": "皮肤触碰敏感",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0079-TENDON",
+      "item_id": "KNEE-LT-INFRAPAT",
+      "item_name": "髌下/髌腱/脂肪垫/胫骨结节区域",
+      "title": "髌腱承载相关不适",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0079-FATPAD",
+      "item_id": "KNEE-LT-INFRAPAT",
+      "item_name": "髌下/髌腱/脂肪垫/胫骨结节区域",
+      "title": "脂肪垫受压相关不适",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0079-TUBERCLE",
+      "item_id": "KNEE-LT-INFRAPAT",
+      "item_name": "髌下/髌腱/脂肪垫/胫骨结节区域",
+      "title": "胫骨结节压痛或跑跳痛",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0080-PES",
+      "item_id": "KNEE-LT-MEDIAL",
+      "item_name": "膝内侧局部组织",
+      "title": "鹅足区局部不适",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0080-JOINTLINE",
+      "item_id": "KNEE-LT-MEDIAL",
+      "item_name": "膝内侧局部组织",
+      "title": "内侧关节线压痛",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0080-SKIN",
+      "item_id": "KNEE-LT-MEDIAL",
+      "item_name": "膝内侧局部组织",
+      "title": "皮肤触碰敏感",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0081-ITB",
+      "item_id": "KNEE-LT-LATERAL",
+      "item_name": "膝外侧局部组织",
+      "title": "外侧股骨髁运动相关不适",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0081-LOCALISE",
+      "item_id": "KNEE-LT-LATERAL",
+      "item_name": "膝外侧局部组织",
+      "title": "外侧关节线压痛",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0081-SKIN",
+      "item_id": "KNEE-LT-LATERAL",
+      "item_name": "膝外侧局部组织",
+      "title": "皮肤触碰敏感",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0082-TENDERNESS",
+      "item_id": "KNEE-LT-POST",
+      "item_name": "膝后侧局部组织",
+      "title": "腘窝深部压痛或疼痛范围不清",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0082-SWELLING",
+      "item_id": "KNEE-LT-POST",
+      "item_name": "膝后侧局部组织",
+      "title": "膝后包块或肿胀",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0082-SKIN",
+      "item_id": "KNEE-LT-POST",
+      "item_name": "膝后侧局部组织",
+      "title": "皮肤触碰敏感",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0083-TRAUMATIC-SWELLING",
+      "item_id": "KNEE-LT-DIFFUSE",
+      "item_name": "膝周局部反应与再定位",
+      "title": "软组织损伤后肿胀",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0083-LOCALISE",
+      "item_id": "KNEE-LT-DIFFUSE",
+      "item_name": "膝周局部反应与再定位",
+      "title": "不适位置不清",
+      "normal_route_reachable": false,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0083-SKIN",
+      "item_id": "KNEE-LT-DIFFUSE",
+      "item_name": "膝周局部反应与再定位",
+      "title": "皮肤触碰敏感",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0109-SUPPORT",
+      "item_id": "KNEE-TASK-WALK",
+      "item_name": "步行",
+      "title": "支撑时间不对称",
+      "normal_route_reachable": false,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0109-PROPULSION",
+      "item_id": "KNEE-TASK-WALK",
+      "item_name": "步行",
+      "title": "推进表现不同",
+      "normal_route_reachable": false,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0110-LOAD",
+      "item_id": "KNEE-TASK-SQUAT",
+      "item_name": "下蹲",
+      "title": "负重偏向一侧",
+      "normal_route_reachable": false,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0110-KNEE",
+      "item_id": "KNEE-TASK-SQUAT",
+      "item_name": "下蹲",
+      "title": "膝向内移动",
+      "normal_route_reachable": false,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0111-TRUNK",
+      "item_id": "KNEE-TASK-STEPUP",
+      "item_name": "上台阶",
+      "title": "躯干偏移明显",
+      "normal_route_reachable": false,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0111-ASSIST",
+      "item_id": "KNEE-TASK-STEPUP",
+      "item_name": "上台阶",
+      "title": "另一侧借力明显",
+      "normal_route_reachable": false,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0112-DESCENT",
+      "item_id": "KNEE-TASK-STEPDOWN",
+      "item_name": "下台阶",
+      "title": "下放不平稳",
+      "normal_route_reachable": false,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0112-KNEE",
+      "item_id": "KNEE-TASK-STEPDOWN",
+      "item_name": "下台阶",
+      "title": "膝向内移动",
+      "normal_route_reachable": false,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0112-PELVIS",
+      "item_id": "KNEE-TASK-STEPDOWN",
+      "item_name": "下台阶",
+      "title": "骨盆下沉或躯干侧倾",
+      "normal_route_reachable": false,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0113-PELVIS",
+      "item_id": "KNEE-TASK-SLSQUAT",
+      "item_name": "单腿下蹲",
+      "title": "骨盆下沉",
+      "normal_route_reachable": false,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0113-KNEE",
+      "item_id": "KNEE-TASK-SLSQUAT",
+      "item_name": "单腿下蹲",
+      "title": "膝向内移动",
+      "normal_route_reachable": false,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0113-BALANCE",
+      "item_id": "KNEE-TASK-SLSQUAT",
+      "item_name": "单腿下蹲",
+      "title": "反复调整支撑",
+      "normal_route_reachable": false,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0114-ASYM",
+      "item_id": "KNEE-TASK-RUN",
+      "item_name": "跑步",
+      "title": "左右支撑或步长不同",
+      "normal_route_reachable": false,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0114-CONTROL",
+      "item_id": "KNEE-TASK-RUN",
+      "item_name": "跑步",
+      "title": "支撑期膝或骨盆偏移",
+      "normal_route_reachable": false,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0115-LOAD",
+      "item_id": "KNEE-TASK-LAND2",
+      "item_name": "双腿跳跃落地",
+      "title": "落地负重偏向一侧",
+      "normal_route_reachable": false,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0115-BUFFER",
+      "item_id": "KNEE-TASK-LAND2",
+      "item_name": "双腿跳跃落地",
+      "title": "落地屈曲较少",
+      "normal_route_reachable": false,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0116-BALANCE",
+      "item_id": "KNEE-TASK-LAND1",
+      "item_name": "单腿跳跃落地",
+      "title": "落地后反复调整",
+      "normal_route_reachable": false,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0116-KNEE",
+      "item_id": "KNEE-TASK-LAND1",
+      "item_name": "单腿跳跃落地",
+      "title": "落地时膝向内移动",
+      "normal_route_reachable": false,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0116-BUFFER",
+      "item_id": "KNEE-TASK-LAND1",
+      "item_name": "单腿跳跃落地",
+      "title": "落地屈曲较少",
+      "normal_route_reachable": false,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0117-STEPS",
+      "item_id": "KNEE-TASK-DECEL",
+      "item_name": "急停减速",
+      "title": "制动步调整较多",
+      "normal_route_reachable": false,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0117-BUFFER",
+      "item_id": "KNEE-TASK-DECEL",
+      "item_name": "急停减速",
+      "title": "制动时屈曲较少",
+      "normal_route_reachable": false,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0118-KNEE",
+      "item_id": "KNEE-TASK-CUT",
+      "item_name": "变向",
+      "title": "转向时膝向内移动",
+      "normal_route_reachable": false,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0118-TIMING",
+      "item_id": "KNEE-TASK-CUT",
+      "item_name": "变向",
+      "title": "转向前后衔接不连贯",
+      "normal_route_reachable": false,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0119-SUPPORT",
+      "item_id": "KNEE-PATTERN-GAIT",
+      "item_name": "步态与支撑",
+      "title": "左右支撑不对称",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-14"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0119-PROPULSION",
+      "item_id": "KNEE-PATTERN-GAIT",
+      "item_name": "步态与支撑",
+      "title": "推进表现不同",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-14"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0119-ALIGNMENT",
+      "item_id": "KNEE-PATTERN-GAIT",
+      "item_name": "步态与支撑",
+      "title": "支撑期膝或骨盆偏移",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-14"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0120-LOAD",
+      "item_id": "KNEE-PATTERN-BILATERAL",
+      "item_name": "双腿负重模式",
+      "title": "负重偏向一侧",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-14"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0120-KNEE",
+      "item_id": "KNEE-PATTERN-BILATERAL",
+      "item_name": "双腿负重模式",
+      "title": "膝向内移动",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-14"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0121-KNEE",
+      "item_id": "KNEE-PATTERN-SINGLE",
+      "item_name": "单腿动作控制",
+      "title": "膝向内移动",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-14"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0121-PELVIS",
+      "item_id": "KNEE-PATTERN-SINGLE",
+      "item_name": "单腿动作控制",
+      "title": "骨盆下沉",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-14"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0121-TRUNK",
+      "item_id": "KNEE-PATTERN-SINGLE",
+      "item_name": "单腿动作控制",
+      "title": "躯干偏移明显",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-14"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0121-DESCENT",
+      "item_id": "KNEE-PATTERN-SINGLE",
+      "item_name": "单腿动作控制",
+      "title": "下放不平稳",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-14"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0122-LOAD",
+      "item_id": "KNEE-PATTERN-LANDING",
+      "item_name": "落地缓冲与稳定",
+      "title": "落地负重偏向一侧",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-14"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0122-BUFFER",
+      "item_id": "KNEE-PATTERN-LANDING",
+      "item_name": "落地缓冲与稳定",
+      "title": "落地屈曲较少",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-14"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0122-BALANCE",
+      "item_id": "KNEE-PATTERN-LANDING",
+      "item_name": "落地缓冲与稳定",
+      "title": "落地后反复调整",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-14"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0122-KNEE",
+      "item_id": "KNEE-PATTERN-LANDING",
+      "item_name": "落地缓冲与稳定",
+      "title": "落地时膝向内移动",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-14"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0123-STEPS",
+      "item_id": "KNEE-PATTERN-DIRECTION",
+      "item_name": "减速与转向控制",
+      "title": "制动步调整较多",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-14"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0123-KNEE",
+      "item_id": "KNEE-PATTERN-DIRECTION",
+      "item_name": "减速与转向控制",
+      "title": "转向时膝向内移动",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-14"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0123-TIMING",
+      "item_id": "KNEE-PATTERN-DIRECTION",
+      "item_name": "减速与转向控制",
+      "title": "转向衔接不连贯",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-14"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0097-SCREEN",
+      "item_id": "KNEE-SPT-MECH",
+      "item_name": "疼痛/功能相关机械表现检查",
+      "title": "弹响、卡顿或支撑后动作变化",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0016-SCREEN",
+      "item_id": "CORE-SPT-NEURO-DISTAL",
+      "item_name": "下肢远端神经相关筛查",
+      "title": "麻木、放射痛或远端肌力变化",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0089-SCREEN",
+      "item_id": "KNEE-CHAIN-HIP-ROM",
+      "item_name": "上游髋关节活动范围",
+      "title": "髋屈伸或旋转范围差异",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [
+        "CLIN-04"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0001-SCREEN",
+      "item_id": "CORE-ROM-ANK-DF",
+      "item_name": "踝背屈 ROM",
+      "title": "踝背屈活动受限",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0002-PAIN",
+      "item_id": "AF-ASM-002",
+      "item_name": "距小腿关节活动",
+      "title": "踝关节活动时疼痛",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0002-RECORD-LIMIT",
+      "item_id": "AF-ASM-002",
+      "item_name": "距小腿关节活动",
+      "title": "距小腿关节活动受限",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0024-RECORD-LIMIT",
+      "item_id": "CORE-ROM-ANK-EV",
+      "item_name": "足踝外翻 ROM",
+      "title": "外翻活动受限",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0020-PAIN",
+      "item_id": "AF-JNT-002",
+      "item_name": "距下关节活动",
+      "title": "内翻或外翻活动时疼痛",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0020-RECORD-LIMIT",
+      "item_id": "AF-JNT-002",
+      "item_name": "距下关节活动",
+      "title": "跟骨／距下关节活动受限",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0020-EXCESS",
+      "item_id": "AF-JNT-002",
+      "item_name": "距下关节活动",
+      "title": "跟骨方向性活动偏大",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0021-RECORD-LIMIT",
+      "item_id": "AF-JNT-003",
+      "item_name": "中足/横跗关节活动",
+      "title": "中足方向性活动受限",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0003-LIMIT",
+      "item_id": "AF-ASM-004",
+      "item_name": "第一MTP活动",
+      "title": "第一跖趾关节屈伸受限",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0106-RECORD-TENSION",
+      "item_id": "THIGH-MUS-TFL",
+      "item_name": "阔筋膜张肌",
+      "title": "局部张力增加",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0003-PAIN",
+      "item_id": "AF-ASM-004",
+      "item_name": "第一MTP活动",
+      "title": "拇趾关节活动时疼痛",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0100-RECORD-TENSION",
+      "item_id": "THIGH-LT-002",
+      "item_name": "大腿后侧局部软组织/肌腱膜反应",
+      "title": "后侧紧张或牵拉受限",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0058-PRESSURE",
+      "item_id": "LL-LT-005",
+      "item_name": "腓肠肌肌腹/肌腱膜局部检查",
+      "title": "上段后侧肌腹压痛",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0058-SWELLING",
+      "item_id": "LL-LT-005",
+      "item_name": "腓肠肌肌腹/肌腱膜局部检查",
+      "title": "肿胀或局部缺损",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0058-ACTIVITY",
+      "item_id": "LL-LT-005",
+      "item_name": "腓肠肌肌腹/肌腱膜局部检查",
+      "title": "牵拉或发力时不适",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0056-DIFFUSE",
+      "item_id": "LL-LT-003",
+      "item_name": "胫骨内侧缘局部检查",
+      "title": "沿骨缘分段压痛",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0056-FOCAL",
+      "item_id": "LL-LT-003",
+      "item_name": "胫骨内侧缘局部检查",
+      "title": "局灶骨性压痛",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0060-PRESSURE",
+      "item_id": "LL-LT-007",
+      "item_name": "小腿后内侧深层局部检查",
+      "title": "骨缘后方压痛",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [
+        "CLIN-10"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0060-ACTIVITY",
+      "item_id": "LL-LT-007",
+      "item_name": "小腿后内侧深层局部检查",
+      "title": "内翻或屈趾时不适",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [
+        "CLIN-10"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0046-TENSION",
+      "item_id": "CORE-MUS-TP",
+      "item_name": "胫骨后肌",
+      "title": "张力偏高或牵拉受限",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0046-PRESSURE",
+      "item_id": "CORE-MUS-TP",
+      "item_name": "胫骨后肌",
+      "title": "局部压痛或发力痛",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [
+        "CLIN-10"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0048-LENGTH",
+      "item_id": "CORE-MUS-FDL",
+      "item_name": "趾长屈肌",
+      "title": "趾长屈肌相关牵拉受限",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-12"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0047-LENGTH",
+      "item_id": "CORE-MUS-FHL",
+      "item_name": "拇长屈肌",
+      "title": "拇长屈肌相关牵拉受限",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-12"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0006-CAPACITY",
+      "item_id": "CORE-CAP-INV",
+      "item_name": "足踝内翻肌力",
+      "title": "内翻力量不足",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-07",
+        "CLIN-08"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0009-CAPACITY",
+      "item_id": "CORE-CAP-HF",
+      "item_name": "拇屈能力（FHL为主）",
+      "title": "拇趾屈曲力量不足",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-07",
+        "CLIN-08"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0008-CONTROL",
+      "item_id": "CORE-CAP-ARCH-TOE",
+      "item_name": "足弓/足趾控制能力",
+      "title": "足弓或足趾控制困难",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [
+        "CLIN-13"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0060-TENSION",
+      "item_id": "LL-LT-007",
+      "item_name": "小腿后内侧深层局部检查",
+      "title": "后内侧软组织张力偏高或牵拉受限",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0039-LENGTH",
+      "item_id": "CORE-MUS-EHL",
+      "item_name": "拇长伸肌",
+      "title": "伸拇趾相关牵拉受限",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0039-PRESSURE",
+      "item_id": "CORE-MUS-EHL",
+      "item_name": "拇长伸肌",
+      "title": "局部压痛或伸拇趾发力痛",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0040-LENGTH",
+      "item_id": "CORE-MUS-EDL",
+      "item_name": "趾长伸肌",
+      "title": "伸趾相关牵拉受限",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0040-PRESSURE",
+      "item_id": "CORE-MUS-EDL",
+      "item_name": "趾长伸肌",
+      "title": "局部压痛或伸趾发力痛",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0041-STATE",
+      "item_id": "CORE-MUS-PT",
+      "item_name": "第三腓骨肌",
+      "title": "前外侧牵拉或背屈外翻发力痛",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0007-CAPACITY",
+      "item_id": "CORE-CAP-DF",
+      "item_name": "踝背屈肌力",
+      "title": "背屈力量不足",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [
+        "CLIN-07"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0019-LIMITED",
+      "item_id": "CORE-ROM-ANK-PF",
+      "item_name": "踝跖屈 ROM",
+      "title": "踝跖屈活动受限",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0019-PAIN",
+      "item_id": "CORE-ROM-ANK-PF",
+      "item_name": "踝跖屈 ROM",
+      "title": "跖屈末端疼痛",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0054-TENSION",
+      "item_id": "LL-LT-001",
+      "item_name": "小腿前侧局部软组织/筋膜反应",
+      "title": "前侧软组织张力偏高或牵拉受限",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0054-PRESSURE",
+      "item_id": "LL-LT-001",
+      "item_name": "小腿前侧局部软组织/筋膜反应",
+      "title": "前侧肌腹压痛或发力痛",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0054-EXERTIONAL",
+      "item_id": "LL-LT-001",
+      "item_name": "小腿前侧局部软组织/筋膜反应",
+      "title": "运动后反复紧绷胀痛",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0055-FOCAL",
+      "item_id": "LL-LT-002",
+      "item_name": "胫骨前缘/前侧骨面局部检查",
+      "title": "前侧骨面局灶压痛",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0055-SWELLING",
+      "item_id": "LL-LT-002",
+      "item_name": "胫骨前缘/前侧骨面局部检查",
+      "title": "骨面肿胀或负重痛",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0025-LIMITED",
+      "item_id": "CORE-ROM-ANK-INV",
+      "item_name": "足踝内翻 ROM",
+      "title": "足踝内翻活动受限",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0025-PAIN",
+      "item_id": "CORE-ROM-ANK-INV",
+      "item_name": "足踝内翻 ROM",
+      "title": "内翻时外侧疼痛",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0057-TENSION",
+      "item_id": "LL-LT-004",
+      "item_name": "小腿外侧/腓骨肌腹与筋膜反应",
+      "title": "外侧软组织张力偏高或牵拉受限",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0057-PRESSURE",
+      "item_id": "LL-LT-004",
+      "item_name": "小腿外侧/腓骨肌腹与筋膜反应",
+      "title": "外侧肌腹压痛或发力痛",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0057-BONE",
+      "item_id": "LL-LT-004",
+      "item_name": "小腿外侧/腓骨肌腹与筋膜反应",
+      "title": "腓骨骨面局灶压痛",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0057-EXERTIONAL",
+      "item_id": "LL-LT-004",
+      "item_name": "小腿外侧/腓骨肌腹与筋膜反应",
+      "title": "运动后反复胀痛或麻木",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0058-TENSION",
+      "item_id": "LL-LT-005",
+      "item_name": "腓肠肌肌腹/肌腱膜局部检查",
+      "title": "上段后侧张力偏高或牵拉受限",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0058-EXERTIONAL",
+      "item_id": "LL-LT-005",
+      "item_name": "腓肠肌肌腹/肌腱膜局部检查",
+      "title": "运动后反复胀痛或麻木",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0059-TENSION",
+      "item_id": "LL-LT-006",
+      "item_name": "比目鱼肌/后侧中下段局部检查",
+      "title": "中下段后侧张力偏高或牵拉受限",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0059-PRESSURE",
+      "item_id": "LL-LT-006",
+      "item_name": "比目鱼肌/后侧中下段局部检查",
+      "title": "中下段后侧肌腹压痛",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0059-ACTIVITY",
+      "item_id": "LL-LT-006",
+      "item_name": "比目鱼肌/后侧中下段局部检查",
+      "title": "屈膝牵拉或跖屈发力时不适",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0059-SWELLING",
+      "item_id": "LL-LT-006",
+      "item_name": "比目鱼肌/后侧中下段局部检查",
+      "title": "肿胀或局部轮廓改变",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0059-EXERTIONAL",
+      "item_id": "LL-LT-006",
+      "item_name": "比目鱼肌/后侧中下段局部检查",
+      "title": "运动后反复胀痛或麻木",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0026-PRESSURE",
+      "item_id": "AF-LT-001",
+      "item_name": "前踝关节线/前方软组织",
+      "title": "前踝关节线压痛",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0026-DORSIFLEXION",
+      "item_id": "AF-LT-001",
+      "item_name": "前踝关节线/前方软组织",
+      "title": "背屈时前踝疼痛或卡阻",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0026-LOCALISE",
+      "item_id": "AF-LT-001",
+      "item_name": "前踝关节线/前方软组织",
+      "title": "肌腱附近疼痛或位置未分清",
+      "normal_route_reachable": false,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0027-LIGAMENT",
+      "item_id": "AF-LT-002",
+      "item_name": "内踝韧带与跗管邻近组织",
+      "title": "内侧韧带区压痛或牵拉痛",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0027-TENDON",
+      "item_id": "AF-LT-002",
+      "item_name": "内踝韧带与跗管邻近组织",
+      "title": "胫骨后肌腱附近疼痛",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0027-NERVE",
+      "item_id": "AF-LT-002",
+      "item_name": "内踝韧带与跗管邻近组织",
+      "title": "向足底延伸的麻、刺痛或烧灼感",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0027-BONE",
+      "item_id": "AF-LT-002",
+      "item_name": "内踝韧带与跗管邻近组织",
+      "title": "骨面压痛或外伤后明显变化",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0028-LIGAMENT",
+      "item_id": "AF-LT-003",
+      "item_name": "外踝韧带与腓骨肌腱区",
+      "title": "外侧韧带区压痛或内翻牵拉痛",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0028-TENDON",
+      "item_id": "AF-LT-003",
+      "item_name": "外踝韧带与腓骨肌腱区",
+      "title": "外踝后方肌腱附近疼痛",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0028-STABILITY",
+      "item_id": "AF-LT-003",
+      "item_name": "外踝韧带与腓骨肌腱区",
+      "title": "反复崴脚或踩不稳",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0028-SNAPPING",
+      "item_id": "AF-LT-003",
+      "item_name": "外踝韧带与腓骨肌腱区",
+      "title": "外踝后方弹响或肌腱跳动",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0028-BONE",
+      "item_id": "AF-LT-003",
+      "item_name": "外踝韧带与腓骨肌腱区",
+      "title": "骨面压痛或外伤后明显变化",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0021-PAIN",
+      "item_id": "AF-JNT-003",
+      "item_name": "中足/横跗关节活动",
+      "title": "中足活动时疼痛",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0048-PAIN",
+      "item_id": "CORE-MUS-FDL",
+      "item_name": "趾长屈肌",
+      "title": "伸趾牵拉或屈趾发力时疼痛",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0047-PAIN",
+      "item_id": "CORE-MUS-FHL",
+      "item_name": "拇长屈肌",
+      "title": "拇趾牵拉或屈曲发力时疼痛",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0022-LIMIT",
+      "item_id": "AF-JNT-004",
+      "item_name": "第一跖跗关节活动",
+      "title": "第一跖跗关节活动受限",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [
+        "CLIN-02"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0022-EXCESS",
+      "item_id": "AF-JNT-004",
+      "item_name": "第一跖跗关节活动",
+      "title": "第一跖跗关节活动偏大伴承重控制不足",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-02",
+        "CLIN-13"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0022-PAIN",
+      "item_id": "AF-JNT-004",
+      "item_name": "第一跖跗关节活动",
+      "title": "第一跖跗关节活动时疼痛",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [
+        "CLIN-02"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0023-LIMIT",
+      "item_id": "AF-JNT-005",
+      "item_name": "小趾列 MTP 活动",
+      "title": "第2–5跖趾关节屈伸受限",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0023-PAIN",
+      "item_id": "AF-JNT-005",
+      "item_name": "小趾列 MTP 活动",
+      "title": "第2–5跖趾关节活动时疼痛",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0031-PAD",
+      "item_id": "AF-LT-006",
+      "item_name": "跟骨底/足跟垫",
+      "title": "足跟中央受压痛",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0031-MEDIAL",
+      "item_id": "AF-LT-006",
+      "item_name": "跟骨底/足跟垫",
+      "title": "足跟内侧结节牵拉痛",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0032-FASCIA",
+      "item_id": "AF-LT-007",
+      "item_name": "足底筋膜内侧带",
+      "title": "足底内侧带按压或牵拉痛",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0032-PERSISTENT",
+      "item_id": "AF-LT-007",
+      "item_name": "足底筋膜内侧带",
+      "title": "持续的足底筋膜相关足跟痛",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0033-TENDON",
+      "item_id": "AF-LT-008",
+      "item_name": "舟骨/胫骨后肌止点区",
+      "title": "舟骨止点附近按压或内翻发力痛",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0033-BONE",
+      "item_id": "AF-LT-008",
+      "item_name": "舟骨/胫骨后肌止点区",
+      "title": "舟骨骨面局灶痛或外伤后肿胀",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0034-TENDON",
+      "item_id": "AF-LT-009",
+      "item_name": "第五跖骨基底/腓骨短肌止点区",
+      "title": "第五跖骨基底邻近肌腱发力痛",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0034-BONE",
+      "item_id": "AF-LT-009",
+      "item_name": "第五跖骨基底/腓骨短肌止点区",
+      "title": "第五跖骨基底骨面压痛",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0035-TENDON",
+      "item_id": "AF-LT-010",
+      "item_name": "中足背侧关节线/伸肌腱区",
+      "title": "足背伸肌腱按压或发力痛",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0035-JOINT",
+      "item_id": "AF-LT-010",
+      "item_name": "中足背侧关节线/伸肌腱区",
+      "title": "足背关节线压痛伴中足活动受限",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0035-TRAUMA",
+      "item_id": "AF-LT-010",
+      "item_name": "中足背侧关节线/伸肌腱区",
+      "title": "外伤后中足肿胀或足底瘀斑",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0036-PRESSURE",
+      "item_id": "AF-LT-011",
+      "item_name": "跖骨头/跖板区域",
+      "title": "跖骨头跖侧负重痛",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0036-PLATE",
+      "item_id": "AF-LT-011",
+      "item_name": "跖骨头/跖板区域",
+      "title": "跖侧疼痛伴足趾上翘或偏移",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0037-SESAMOID",
+      "item_id": "AF-LT-012",
+      "item_name": "第一MTP/籽骨复合体",
+      "title": "籽骨附近受压或蹬地痛",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0037-JOINT",
+      "item_id": "AF-LT-012",
+      "item_name": "第一MTP/籽骨复合体",
+      "title": "第一MTP关节线疼痛伴僵硬",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0037-TRAUMA",
+      "item_id": "AF-LT-012",
+      "item_name": "第一MTP/籽骨复合体",
+      "title": "拇趾过伸后肿胀或瘀斑",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0050-TENSION",
+      "item_id": "AF-MUS-014",
+      "item_name": "拇展肌",
+      "title": "内侧足弓肌腹紧张或牵拉受限",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [
+        "CLIN-13"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0050-PAIN",
+      "item_id": "AF-MUS-014",
+      "item_name": "拇展肌",
+      "title": "内侧足弓肌腹按压或活动痛",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0051-TENSION",
+      "item_id": "AF-MUS-015",
+      "item_name": "拇收肌",
+      "title": "前足深层及拇趾外侧邻近紧张或牵拉受限",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [
+        "CLIN-13"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0051-PAIN",
+      "item_id": "AF-MUS-015",
+      "item_name": "拇收肌",
+      "title": "前足深层及拇趾外侧邻近按压或活动痛",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0052-TENSION",
+      "item_id": "AF-MUS-016",
+      "item_name": "趾短屈肌",
+      "title": "足底中央肌腹紧张或牵拉受限",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [
+        "CLIN-13"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0052-PAIN",
+      "item_id": "AF-MUS-016",
+      "item_name": "趾短屈肌",
+      "title": "足底中央肌腹按压或活动痛",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0053-STATE",
+      "item_id": "AF-MUS-017",
+      "item_name": "拇短屈肌",
+      "title": "拇趾跖侧肌肉牵拉受限",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-13"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0053-PAIN",
+      "item_id": "AF-MUS-017",
+      "item_name": "拇短屈肌",
+      "title": "第一MTP跖侧及籽骨邻近按压或活动痛",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0049-ASSESS",
+      "item_id": "CORE-MUS-PLANTARIS",
+      "item_name": "跖肌",
+      "title": "后侧肌群间疼痛范围未分清",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0010-CONTROL",
+      "item_id": "AF-TASK-001",
+      "item_name": "单腿稳定/动态控制",
+      "title": "单腿支撑或触及控制不足",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0011-PROPULSION",
+      "item_id": "AF-TASK-002",
+      "item_name": "提踵/推进任务表现",
+      "title": "蹬地或提踵轨迹改变",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0015-SCREEN",
+      "item_id": "AF-SPT-004",
+      "item_name": "Windlass足底张力反应",
+      "title": "伸拇趾时足底或足跟疼痛",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0099-TENSION",
+      "item_id": "THIGH-LT-001",
+      "item_name": "大腿前侧局部软组织/肌筋膜反应",
+      "title": "前侧肌腹紧张或牵拉受限",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0099-PAIN",
+      "item_id": "THIGH-LT-001",
+      "item_name": "大腿前侧局部软组织/肌筋膜反应",
+      "title": "前侧肌腹按压或发力痛",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0101-TENSION",
+      "item_id": "THIGH-LT-003",
+      "item_name": "大腿内侧局部软组织/肌腱膜反应",
+      "title": "内侧肌腹紧张或牵拉受限",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0101-PAIN",
+      "item_id": "THIGH-LT-003",
+      "item_name": "大腿内侧局部软组织/肌腱膜反应",
+      "title": "内侧肌腹按压或发力痛",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0102-TENSION",
+      "item_id": "THIGH-LT-004",
+      "item_name": "大腿外侧/髂胫束周围局部组织反应",
+      "title": "外侧肌腹紧张或牵拉受限",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [
+        "CLIN-04"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0102-PAIN",
+      "item_id": "THIGH-LT-004",
+      "item_name": "大腿外侧/髂胫束周围局部组织反应",
+      "title": "外侧肌腹按压或发力痛",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-04",
+        "CLIN-16"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0100-PAIN",
+      "item_id": "THIGH-LT-002",
+      "item_name": "大腿后侧局部软组织/肌腱膜反应",
+      "title": "后侧肌腹按压或屈膝发力痛",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-17",
+        "CLIN-16"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0106-PAIN",
+      "item_id": "THIGH-MUS-TFL",
+      "item_name": "阔筋膜张肌",
+      "title": "近端外侧肌腹按压或活动痛",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [
+        "CLIN-04"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0103-LENGTH",
+      "item_id": "THIGH-MUS-AL",
+      "item_name": "内收长肌",
+      "title": "内收长肌相关牵拉受限",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [
+        "CLIN-04"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0103-PAIN",
+      "item_id": "THIGH-MUS-AL",
+      "item_name": "内收长肌",
+      "title": "内侧肌腹按压或内收发力痛",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-04"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0104-LENGTH",
+      "item_id": "THIGH-MUS-AB",
+      "item_name": "内收短肌",
+      "title": "内收短肌相关牵拉受限",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [
+        "CLIN-04"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0104-PAIN",
+      "item_id": "THIGH-MUS-AB",
+      "item_name": "内收短肌",
+      "title": "内侧肌腹按压或内收发力痛",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-04"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0105-LENGTH",
+      "item_id": "THIGH-MUS-AM",
+      "item_name": "内收大肌",
+      "title": "内收大肌相关牵拉受限",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [
+        "CLIN-04"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0105-PAIN",
+      "item_id": "THIGH-MUS-AM",
+      "item_name": "内收大肌",
+      "title": "内侧肌腹按压或内收发力痛",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-04"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0107-STRENGTH",
+      "item_id": "THIGH-CAP-ADD",
+      "item_name": "髋内收肌群能力",
+      "title": "内收力量或耐力不足",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0080-COLLATERAL",
+      "item_id": "KNEE-LT-MEDIAL",
+      "item_name": "膝内侧局部组织",
+      "title": "内侧副韧带走行压痛",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0080-JOINT-LIMIT",
+      "item_id": "KNEE-LT-MEDIAL",
+      "item_name": "膝内侧局部组织",
+      "title": "内侧关节线痛伴膝活动受限",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-11"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0081-COLLATERAL",
+      "item_id": "KNEE-LT-LATERAL",
+      "item_name": "膝外侧局部组织",
+      "title": "外侧副韧带走行压痛",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0081-JOINT-LIMIT",
+      "item_id": "KNEE-LT-LATERAL",
+      "item_name": "膝外侧局部组织",
+      "title": "外侧关节线痛伴膝活动受限",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-11"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0081-FIBULAR-TENDON",
+      "item_id": "KNEE-LT-LATERAL",
+      "item_name": "膝外侧局部组织",
+      "title": "腓骨头邻近肌腱压痛或屈膝发力痛",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-04",
+        "CLIN-16"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0081-FIBULAR-JOINT",
+      "item_id": "KNEE-LT-LATERAL",
+      "item_name": "膝外侧局部组织",
+      "title": "腓骨头附近关节活动受限",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0082-TENDON",
+      "item_id": "KNEE-LT-POST",
+      "item_name": "膝后侧局部组织",
+      "title": "膝后肌腱按压或屈膝发力痛",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-16"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0082-MUSCLE",
+      "item_id": "KNEE-LT-POST",
+      "item_name": "膝后侧局部组织",
+      "title": "膝后肌腹紧张伴伸膝牵拉受限",
+      "normal_route_reachable": true,
+      "source_class": "含线下经验来源",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0016-PERONEAL",
+      "item_id": "CORE-SPT-NEURO-DISTAL",
+      "item_name": "下肢远端神经相关筛查",
+      "title": "足背或第一趾蹼麻木伴抬脚变化",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0016-TIBIAL",
+      "item_id": "CORE-SPT-NEURO-DISTAL",
+      "item_name": "下肢远端神经相关筛查",
+      "title": "足底麻木或内踝放射痛",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0016-CUTANEOUS",
+      "item_id": "CORE-SPT-NEURO-DISTAL",
+      "item_name": "下肢远端神经相关筛查",
+      "title": "足内侧或外侧感觉变化",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0039-PULL-PAIN",
+      "item_id": "CORE-MUS-EHL",
+      "item_name": "拇长伸肌",
+      "title": "拇趾牵拉时疼痛",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0040-PULL-PAIN",
+      "item_id": "CORE-MUS-EDL",
+      "item_name": "趾长伸肌",
+      "title": "第2–5趾牵拉时疼痛",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0012-ASSESS",
+      "item_id": "AF-SPT-001",
+      "item_name": "踝前抽屉相关稳定检查",
+      "title": "前抽屉松弛或终末感差异",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0013-ASSESS",
+      "item_id": "AF-SPT-002",
+      "item_name": "距骨倾斜检查",
+      "title": "距骨倾斜侧差或外踝下方疼痛",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0014-ASSESS",
+      "item_id": "AF-SPT-003",
+      "item_name": "下胫腓联合测试组",
+      "title": "联合区压痛或应力检查痛",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0017-ASSESS",
+      "item_id": "AF-SAF-001",
+      "item_name": "跟腱连续性/小腿挤压安全筛查",
+      "title": "突发后踝痛伴蹬地无力",
+      "normal_route_reachable": false,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0018-ASSESS",
+      "item_id": "AF-SAF-002",
+      "item_name": "急性外伤骨性风险筛查",
+      "title": "急性踝足外伤后骨点压痛或负重困难",
+      "normal_route_reachable": false,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0061-ASSESS",
+      "item_id": "LL-SPT-001",
+      "item_name": "运动诱发间室/神经血管线索筛查",
+      "title": "相近运动量后反复胀痛或麻木",
+      "normal_route_reachable": true,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0062-ASSESS",
+      "item_id": "LL-SAF-001",
+      "item_name": "胫骨骨应力风险筛查",
+      "title": "胫骨局灶痛随负重或冲击加重",
+      "normal_route_reachable": false,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0063-ASSESS",
+      "item_id": "CORE-SAF-ACS",
+      "item_name": "急性小腿间室综合征风险筛查",
+      "title": "急性进行性剧痛与紧张肿胀",
+      "normal_route_reachable": false,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [
+        "CLIN-15"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0064-ASSESS",
+      "item_id": "CORE-SAF-VTE",
+      "item_name": "小腿静脉血栓风险筛查",
+      "title": "无法解释的单侧疼痛肿胀或温热",
+      "normal_route_reachable": false,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [
+        "CLIN-15"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0098-ASSESS",
+      "item_id": "KNEE-SAF-001",
+      "item_name": "膝部需要额外医学评估的伴随表现筛查",
+      "title": "急性肿胀、锁住或明显失稳",
+      "normal_route_reachable": false,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0108-ASSESS",
+      "item_id": "THIGH-SAF-001",
+      "item_name": "股骨骨应力/骨性风险筛查",
+      "title": "深部局灶痛随跑跳或负重加重",
+      "normal_route_reachable": false,
+      "source_class": "评估/再定位/风险提示（非自动缺项）",
+      "issue_ids": [],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0027-HALLUX",
+      "item_id": "AF-LT-002",
+      "item_name": "内踝韧带与跗管邻近组织",
+      "title": "内踝后方屈拇趾或牵拉时疼痛",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-04",
+        "CLIN-12"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    },
+    {
+      "feature_id": "AFM-0027-LESSER_TOES",
+      "item_id": "AF-LT-002",
+      "item_name": "内踝韧带与跗管邻近组织",
+      "title": "内踝后方屈第2–5趾时疼痛",
+      "normal_route_reachable": true,
+      "source_class": "公开或原库来源",
+      "issue_ids": [
+        "CLIN-04",
+        "CLIN-12"
+      ],
+      "review_disposition": "已做文字审读；存在问题按issue_ids整改。无标记不等于疗效认证或临床签核。"
+    }
+  ]
+}

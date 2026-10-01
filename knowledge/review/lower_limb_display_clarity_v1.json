@@ -1,0 +1,31 @@
+{
+  "source_note": "现有区域与已审核组织清单；缺少精确单区域指南时，读取区域的组织说明，不改变评估项目及模型边界。",
+  "navigation": [
+    {"Feature_ID":"AFM-0026-LOCALISE","Related_Location_Region_IDs":"AF-R-001","Related_Location_Hide_Option_When_Current":true},
+    {"Feature_ID":"AFM-0083-LOCALISE","Related_Location_Region_IDs":"KNEE-R-015","Related_Location_Hide_Option_When_Current":true}
+  ],
+  "regions": [
+    {"region_id":"AF-R-001","related_tissues":"肌腱：胫骨前肌腱；拇长伸肌腱；趾长伸肌腱\n关节与软组织：距小腿关节前方关节囊；伸肌支持带\n骨：胫骨远端；距骨","related_tissues_source":"https://pmc.ncbi.nlm.nih.gov/articles/PMC3830799/"},
+    {"region_id":"AF-R-002","related_tissues":"韧带：三角韧带\n肌腱：胫骨后肌腱；趾长屈肌腱；拇长屈肌腱\n神经与血管：跗管内胫神经；胫后血管\n骨：内踝","related_tissues_source":"https://pmc.ncbi.nlm.nih.gov/articles/PMC3830799/\nhttps://pubmed.ncbi.nlm.nih.gov/30689117/"},
+    {"region_id":"AF-R-003","related_tissues":"韧带：距腓前韧带；跟腓韧带；距腓后韧带\n肌腱：腓骨长肌腱；腓骨短肌腱\n骨与关节：外踝；距骨邻近；距小腿关节","related_tissues_source":"https://pmc.ncbi.nlm.nih.gov/articles/PMC3830799/"},
+    {"region_id":"AF-R-004","related_tissues":"肌腱与肌群：跟腱中段；腓肠肌与比目鱼肌远端\n周围组织：跟腱周围结缔组织\n神经：后外侧邻近腓肠神经","related_tissues_source":"https://www.ncbi.nlm.nih.gov/books/NBK546698/\nbaseline://database-v3.8/01_Region/AF-R-004"},
+    {"region_id":"AF-R-005","related_tissues":"骨与肌腱：跟骨后方；跟腱止点\n周围组织：跟骨后滑囊；跟腱皮下滑囊","related_tissues_source":"https://www.ncbi.nlm.nih.gov/books/NBK546698/\nbaseline://database-v3.8/01_Region/AF-R-005"},
+    {"region_id":"KNEE-R-001","related_tissues":"肌肉与肌腱：股四头肌远端；股四头肌腱\n骨与关节：髌骨上缘；髌股关节\n周围组织：髌上囊","related_tissues_source":"https://www.ncbi.nlm.nih.gov/books/NBK519534/\nhttps://www.ncbi.nlm.nih.gov/books/NBK500017/"},
+    {"region_id":"KNEE-R-002","related_tissues":"肌肉与肌腱：股外侧肌远端；股四头肌腱外侧部分\n周围组织：髌骨外侧支持带\n骨与关节：髌骨外侧缘；髌股关节","related_tissues_source":"https://www.ncbi.nlm.nih.gov/books/NBK519534/"},
+    {"region_id":"KNEE-R-003","related_tissues":"肌肉与肌腱：股内侧肌远端；股四头肌腱内侧部分\n周围组织：髌骨内侧支持带；内侧髌股韧带\n骨与关节：髌骨内侧缘；髌股关节","related_tissues_source":"https://www.ncbi.nlm.nih.gov/books/NBK519534/"},
+    {"region_id":"KNEE-R-004","related_tissues":"骨与关节：髌骨；深部髌股关节\n表浅组织：髌前滑囊；皮下组织\n周围组织：髌骨支持带","related_tissues_source":"https://www.ncbi.nlm.nih.gov/books/NBK519534/\nhttps://www.ncbi.nlm.nih.gov/books/NBK500017/"},
+    {"region_id":"KNEE-R-005","related_tissues":"骨与肌腱：髌骨下缘；髌腱近端\n深部邻近：髌下脂肪垫；膝前关节囊","related_tissues_source":"https://www.ncbi.nlm.nih.gov/books/NBK500017/"},
+    {"region_id":"KNEE-R-006","related_tissues":"肌腱与骨：髌腱；髌骨下缘；胫骨结节\n周围组织：髌下浅滑囊；髌下深滑囊；髌下脂肪垫","related_tissues_source":"https://www.ncbi.nlm.nih.gov/books/NBK500017/"},
+    {"region_id":"KNEE-R-007","related_tissues":"关节与韧带：膝内侧关节囊；内侧副韧带\n深部邻近：内侧半月板\n骨：股骨内侧髁；胫骨内侧平台","related_tissues_source":"https://www.ncbi.nlm.nih.gov/books/NBK500017/"},
+    {"region_id":"KNEE-R-008","related_tissues":"肌肉与肌腱：缝匠肌腱；股薄肌腱；半腱肌腱\n周围组织：鹅足滑囊；内侧副韧带邻近\n骨：胫骨近端内侧","related_tissues_source":"https://www.ncbi.nlm.nih.gov/books/NBK500017/\nbaseline://database-v3.8/01_Region/KNEE-R-008"},
+    {"region_id":"KNEE-R-009","related_tissues":"肌肉与肌腱：半膜肌远端；半腱肌腱；腓肠肌内侧头\n周围组织：后内侧关节囊；半膜肌与腓肠肌之间的滑囊\n浅表邻近：缝匠肌腱；股薄肌腱","related_tissues_source":"https://www.ncbi.nlm.nih.gov/books/NBK500017/\nbaseline://database-v3.8/01_Region/KNEE-R-009"},
+    {"region_id":"KNEE-R-010","related_tissues":"关节与韧带：膝外侧关节囊；外侧副韧带\n深部邻近：外侧半月板；腘肌腱\n骨：股骨外侧髁；胫骨外侧平台","related_tissues_source":"https://www.ncbi.nlm.nih.gov/books/NBK500017/"},
+    {"region_id":"KNEE-R-011","related_tissues":"骨与关节：腓骨头；近端胫腓关节\n肌腱与韧带：股二头肌腱止点；外侧副韧带止点\n神经与肌群：腓总神经；腓骨长肌近端","related_tissues_source":"https://www.ncbi.nlm.nih.gov/books/NBK500017/\nbaseline://database-v3.8/01_Region/KNEE-R-011"},
+    {"region_id":"KNEE-R-012","related_tissues":"软组织：髂胫束远端；外侧支持带\n骨与关节：股骨外侧髁；膝外侧关节囊\n肌群邻近：股外侧肌远端","related_tissues_source":"https://www.ncbi.nlm.nih.gov/books/NBK500017/\nbaseline://database-v3.8/01_Region/KNEE-R-012"},
+    {"region_id":"KNEE-R-013","related_tissues":"肌肉与肌腱：腓肠肌近端；腘肌；腘绳肌远端\n关节与周围组织：膝后关节囊；腘窝脂肪与结缔组织\n神经与血管：胫神经；腘动脉；腘静脉","related_tissues_source":"https://www.ncbi.nlm.nih.gov/books/NBK500017/\nbaseline://database-v3.8/01_Region/KNEE-R-013"},
+    {"region_id":"KNEE-R-014","related_tissues":"肌肉与肌腱：股二头肌腱；腓肠肌外侧头；腘肌腱\n关节与韧带：近端胫腓关节；外侧副韧带；后外侧关节囊\n神经与骨：腓总神经；腓骨头","related_tissues_source":"https://www.ncbi.nlm.nih.gov/books/NBK500017/"},
+    {"region_id":"KNEE-R-015","related_tissues":"骨与关节：股骨远端；胫骨近端；髌骨；膝关节\n肌肉与肌腱：股四头肌腱；髌腱；腘绳肌腱；腓肠肌近端\n周围组织：关节囊；滑膜；膝周韧带","related_tissues_source":"https://www.ncbi.nlm.nih.gov/books/NBK500017/"},
+    {"region_id":"LL-R-003","related_tissues":"骨与周围组织：胫骨内侧缘；邻近骨膜及筋膜\n邻近肌群：胫骨后肌；趾长屈肌；比目鱼肌","related_tissues_source":"baseline://clinical-extension/LocationGuide/LOC-LL-MEDIAL\nhttps://www.ncbi.nlm.nih.gov/books/NBK539725/"},
+    {"region_id":"LL-R-007","related_tissues":"深层肌群：胫骨后肌；趾长屈肌；拇长屈肌\n表浅邻近：比目鱼肌；腓肠肌内侧头\n神经与血管：胫神经；胫后血管\n骨与周围组织：胫骨后内侧；邻近筋膜","related_tissues_source":"baseline://clinical-extension/LocationGuide/LOC-LL-POSTMEDIAL\nhttps://www.ncbi.nlm.nih.gov/books/NBK539725/"}
+  ]
+}

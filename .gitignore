@@ -1,0 +1,26 @@
+node_modules/
+build/
+public/3d/
+android/.gradle/
+android/app/build/
+android/build/
+*.log
+*.local
+
+# Generated caches and local work files
+tmp/
+__pycache__/
+*.pyc
+*.inspect.ndjson
+*.private.*
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.jks
+*.keystore
+
+# Duplicate archives and superseded v3.4 assets stay local
+baseline/archive/
+baseline/LowerLimbV1_ImplementationBaseline_DBv3.4_2026-09-28/

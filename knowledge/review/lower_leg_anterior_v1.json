@@ -1,0 +1,80 @@
+{
+  "batch": "lower-leg-anterior-v1",
+  "source_note": "部位问诊及临床文案为待临床审核编辑稿。基础项目来自主库 Lower Leg Anterior/Tibial Review v2.5 与 Core Assessment Protocol Refinement v3.2；解剖参考 NCBI Bookshelf NBK539725，活动和力量方法参考 AAOS Foot and Ankle Conditioning Program 2025。具体松解和募集方法引用已索引的授权线下记录。问诊不录入答案、不触发项目或方法。",
+  "locations": [
+    {
+      "Area_ID": "LOC-LL-ANTERIOR", "Display_Name": "小腿前侧肌腹区", "Region_IDs": "LL-R-001", "Module_Codes": "LOWER_LEG",
+      "Related_Tissues": "前侧肌群：胫骨前肌；拇长伸肌；趾长伸肌\n前外侧补充：第三腓骨肌\n骨与周围组织：胫骨前缘；腓骨；前侧筋膜\n神经与血管：腓深神经；胫前血管",
+      "Primary_Item_IDs": "CORE-MUS-TA|CORE-MUS-EHL|CORE-MUS-EDL|CORE-ROM-ANK-PF|CORE-ROM-ANK-DF|CORE-CAP-DF|LL-LT-001",
+      "Additional_Item_IDs": "CORE-MUS-PT|CORE-CAP-EV|LL-LT-002",
+      "Linked_Item_IDs": "LL-SPT-001|CORE-SPT-NEURO-DISTAL",
+      "Assessment_Groups": "MUSCLE_STATE:小腿前侧肌群|ROM:踝关节活动|CAPACITY:背屈及相关肌力|LOCAL:前侧软组织与邻近骨面|SPECIAL_TEST:补充筛查",
+      "Review_Status": "待临床审核",
+      "Source_Reference": "05_RegionClinicalMap/LL-R-001；https://www.ncbi.nlm.nih.gov/books/NBK539725/；本批授权线下记录",
+      "Internal_Note": "本记录与单个既有区域精确对应，用于内容组织，不改变模型定位。前外侧伸肌群属于该区域，纯外侧腓骨长短肌留待下一批。第三腓骨肌并非人人存在，保留补充。周围组织不是病因判断。"
+    },
+    {
+      "Area_ID": "LOC-LL-ANTERIOR-BONE", "Display_Name": "胫骨前缘/前侧骨面", "Region_IDs": "LL-R-002", "Module_Codes": "LOWER_LEG",
+      "Related_Tissues": "骨与周围组织：胫骨前嵴；前侧骨面；邻近骨膜\n邻近前外侧肌群：胫骨前肌；趾长伸肌；拇长伸肌\n相关活动：踝背屈与跖屈",
+      "Primary_Item_IDs": "LL-LT-002|CORE-MUS-TA|CORE-ROM-ANK-PF|CORE-ROM-ANK-DF|CORE-CAP-DF",
+      "Additional_Item_IDs": "CORE-MUS-EHL|CORE-MUS-EDL|LL-LT-001",
+      "Linked_Item_IDs": "LL-SPT-001|CORE-SPT-NEURO-DISTAL",
+      "Assessment_Groups": "LOCAL:胫骨前侧骨面与邻近软组织|MUSCLE_STATE:邻近前侧肌群|ROM:踝关节活动|CAPACITY:背屈肌力|SPECIAL_TEST:补充筛查",
+      "Review_Status": "待临床审核",
+      "Source_Reference": "05_RegionClinicalMap/LL-R-002；https://www.orthoinfo.org/diseases--conditions/shin-splints/",
+      "Internal_Note": "骨面检查与邻近肌肉检查分开。列出肌肉、活动度和肌力供分别查看，不由骨面疼痛推断肌肉问题。局灶骨性压痛或肿胀不自动关联松解、电刺激或超声。未迁移内侧MTSS的方法到前侧骨面。"
+    }
+  ],
+  "guides": [
+    {"Guide_ID":"QG-LA-LOCATION","Topic":"肌腹还是骨面","Core_Prompt":"不适在胫骨旁边的肌肉，还是胫骨前面的骨面？","Optional_Probe":"偏上段、中段还是下段？是一个点还是一片？是否延伸到踝前或足背？","Question_Purpose":"了解前侧肌腹、骨面和远端不适的范围。","Information_Gained":"不适与骨缘的关系、分布及是否向踝足延伸。","Assessment_Help":"分别查看前侧肌群、局部软组织和胫骨骨面；向足背延伸时补充相关肌腱及神经检查。","Area_IDs":"LOC-LL-ANTERIOR","Display_Order":1},
+    {"Guide_ID":"QG-LA-ACTIVITY","Topic":"抬脚与伸趾时的表现","Core_Prompt":"抬脚、伸脚趾、走路或跑步时，哪些动作会出现不适？","Optional_Probe":"放下脚尖或脚趾时也不舒服吗？活动开始、持续一段时间还是结束后出现？","Question_Purpose":"了解踝背屈、伸趾和持续活动与不适的关系。","Information_Gained":"诱发动作、出现时机，以及主动发力与牵拉时的差别。","Assessment_Help":"查看胫骨前肌和长伸肌群、踝跖屈活动及背屈力量；步行观察可关注摆动期抬脚和着地后的足部控制。","Area_IDs":"LOC-LL-ANTERIOR","Display_Order":2,"Replaces_Guide_ID":"QG-PROVOKE"},
+    {"Guide_ID":"QG-LA-CHANGE","Topic":"近期活动与外力","Core_Prompt":"近期有没有增加走跑、上坡或训练？这里有没有碰撞、受压或受伤？","Optional_Probe":"是否更换鞋或训练地面？鞋面、护具或固定带会不会压到这里？","Question_Purpose":"了解近期重复使用和局部外力背景。","Information_Gained":"活动变化、受伤经过及局部压迫因素。","Assessment_Help":"补充前侧肌腹、骨面和踝前组织检查，并与活动耐受情况对照。","Area_IDs":"LOC-LL-ANTERIOR","Display_Order":3},
+    {"Guide_ID":"QG-LA-ASSOCIATED","Topic":"胀痛、麻木与抬脚困难","Core_Prompt":"有没有紧绷胀痛、足背麻木，或抬脚、伸脚趾困难？","Optional_Probe":"是否每次活动到差不多时间或距离就出现？停止后多久缓解？静息时是否仍持续或加重？","Question_Purpose":"了解运动诱发症状和感觉、发力变化。","Information_Gained":"症状是否随活动重复出现、停止后的变化，以及麻木或无力表现。","Assessment_Help":"补充运动诱发间室和远端神经血管方向的评估；持续加重的胀痛或新出现的感觉、力量变化需要医学评估。","Area_IDs":"LOC-LL-ANTERIOR","Display_Order":4},
+    {"Guide_ID":"QG-LAB-LOCATION","Topic":"骨面疼痛的范围","Core_Prompt":"胫骨前面的疼痛是集中在一个点，还是沿着一段？","Optional_Probe":"骨面按压和旁边肌肉按压，哪里更不舒服？有没有局部肿胀？","Question_Purpose":"了解骨面与邻近肌腹的压痛分布。","Information_Gained":"局灶或分段分布、骨面与软组织的差别及肿胀。","Assessment_Help":"分别查看胫骨前侧骨面和邻近肌腹；局灶骨性压痛可补充骨应力相关评估。","Area_IDs":"LOC-LL-ANTERIOR-BONE","Display_Order":1},
+    {"Guide_ID":"QG-LAB-ACTIVITY","Topic":"负重和冲击时的表现","Core_Prompt":"走路、跑步或跳跃时，胫骨前面会不会痛？","Optional_Probe":"是否逐渐出现、活动后持续，或休息时也痛？抬脚发力与负重时有什么不同？","Question_Purpose":"了解骨面不适与负重、冲击及肌肉发力的关系。","Information_Gained":"诱发活动、持续时间及静息表现。","Assessment_Help":"补充骨面局部和骨应力相关评估，邻近肌肉发力表现单独比较。","Area_IDs":"LOC-LL-ANTERIOR-BONE","Display_Order":2,"Replaces_Guide_ID":"QG-PROVOKE"},
+    {"Guide_ID":"QG-LAB-CHANGE","Topic":"碰撞与近期训练变化","Core_Prompt":"这里有没有被撞到？近期走跑、跳跃或训练量有没有变化？","Optional_Probe":"有没有换鞋、地面或训练项目？以前这一处是否出现过类似问题？","Question_Purpose":"了解直接外伤和重复负重背景。","Information_Gained":"受伤经过、近期活动变化和既往同部位问题。","Assessment_Help":"区分需要查看的外伤和骨应力方向，再补充邻近软组织检查。","Area_IDs":"LOC-LL-ANTERIOR-BONE","Display_Order":3},
+    {"Guide_ID":"QG-LAB-ASSOCIATED","Topic":"肿胀与持续疼痛","Core_Prompt":"有没有局部肿胀、静息痛，或疼痛越来越重？","Optional_Probe":"正常走路是否已经受影响？有没有麻木、抬脚困难或既往骨损伤检查结果？","Question_Purpose":"了解骨面不适的持续性、负重影响及伴随表现。","Information_Gained":"肿胀、静息症状、活动受限和既往检查背景。","Assessment_Help":"补充骨性损伤及神经方向的评估；新出现的负重困难或持续加重症状需要医学评估。","Area_IDs":"LOC-LL-ANTERIOR-BONE","Display_Order":4}
+  ],
+  "purposes": [
+    {"Item_ID":"CORE-MUS-TA","Clinical_Purpose":"胫骨前肌参与抬脚和足部内翻，可查看前侧肌腹张力、牵拉与发力时的差别。","Assessment_Focus":"肌腹张力与压痛；跖屈牵拉及背屈抗阻时的反应。","Source_URL":"https://www.ncbi.nlm.nih.gov/books/NBK513304/\nlocal-records://LR-9a5cba6e18ed#L47"},
+    {"Item_ID":"CORE-MUS-EHL","Clinical_Purpose":"拇趾伸展或前侧至足背不适时，查看拇长伸肌相关表现。","Assessment_Focus":"拇趾伸展抗阻；跖屈结合拇趾屈曲牵拉；走行附近压痛。"},
+    {"Item_ID":"CORE-MUS-EDL","Clinical_Purpose":"第2至5趾伸展或前外侧至足背不适时，查看趾长伸肌相关表现。","Assessment_Focus":"第2至5趾伸展抗阻；跖屈结合屈趾牵拉；走行附近压痛。"},
+    {"Item_ID":"CORE-MUS-PT","Clinical_Purpose":"远端前外侧不适时，可补充查看背屈、外翻相关软组织。","Assessment_Focus":"前外侧压痛；跖屈、内翻牵拉和背屈、外翻抗阻时的反应。"},
+    {"Item_ID":"CORE-CAP-DF","Clinical_Purpose":"查看抬脚所需的背屈力量，与踝背屈活动范围分开。","Assessment_Focus":"背屈等长抗阻、力量与左右差异；发力痛和伸趾代偿。","Source_URL":"baseline://database-v3.8/02_ClinicalItem/CORE-CAP-DF\nhttps://orthoinfo.aaos.org/globalassets/pdfs/foot-and-ankle-conditioning-program---2025.pdf"},
+    {"Item_ID":"CORE-ROM-ANK-PF","Clinical_Purpose":"查看踝跖屈范围，比较关节末端与前侧肌群牵拉时的表现。","Assessment_Focus":"主动、被动跖屈；末端感、前侧牵拉或踝部疼痛及左右差异。"},
+    {"Item_ID":"LL-LT-001","Clinical_Purpose":"查看小腿前侧软组织的压痛、张力和动作反应，与胫骨骨面分开。","Assessment_Focus":"前侧肌腹及筋膜区压痛；跖屈牵拉、背屈抗阻及活动后表现。"},
+    {"Item_ID":"LL-LT-002","Clinical_Purpose":"查看胫骨前侧骨面是否有局灶压痛、肿胀或负重痛，与邻近肌肉分开。","Assessment_Focus":"骨面压痛位置和范围；肿胀及走跑、冲击时的表现。","Source_URL":"baseline://database-v3.8/02_ClinicalItem/LL-LT-002\nhttps://www.orthoinfo.org/diseases--conditions/shin-splints/"}
+  ],
+  "features": [
+    {"Feature_ID":"AFM-0038-TENSION","Assessment_Map_ID":"AFM-0038","Finding_Name":"张力偏高或牵拉受限","Finding_Feature":"胫骨前肌肌腹张力较对侧高，或踝跖屈牵拉时前侧活动受限。","Finding_Interpretation":"肌腹和远端肌腱分别查看，张力、牵拉与力量分开评估。"},
+    {"Feature_ID":"AFM-0038-SENSITIVITY","Assessment_Map_ID":"AFM-0038","Finding_Name":"肌腹压痛或背屈发力痛","Finding_Feature":"胫骨前肌肌腹按压或背屈抗阻时，小腿前侧出现不适。","Finding_Interpretation":"不适位于骨面、肌腹或肌腱的区别需要单独查看，不由发力痛确定病因。"},
+    {"Feature_ID":"AFM-0039-LENGTH","Assessment_Map_ID":"AFM-0039","Finding_Name":"伸拇趾相关牵拉受限","Finding_Feature":"踝跖屈结合拇趾屈曲牵拉时，前侧至足背出现活动受限或牵拉不适。","Finding_Interpretation":"同一动作涉及关节、肌肉及肌腱，不能独立确定拇长伸肌。"},
+    {"Feature_ID":"AFM-0039-PRESSURE","Assessment_Map_ID":"AFM-0039","Finding_Name":"局部压痛或伸拇趾发力痛","Finding_Feature":"拇长伸肌走行附近按压，或拇趾伸展抗阻时出现不适。","Finding_Interpretation":"肌腹与足背肌腱分别查看，深层走行不靠触诊确定。"},
+    {"Feature_ID":"AFM-0040-LENGTH","Assessment_Map_ID":"AFM-0040","Finding_Name":"伸趾相关牵拉受限","Finding_Feature":"踝跖屈结合第2至5趾屈曲牵拉时，前外侧至足背出现活动受限或牵拉不适。","Finding_Interpretation":"与足趾关节活动和肌腱走行分别查看，不靠单项牵拉确定组织。"},
+    {"Feature_ID":"AFM-0040-PRESSURE","Assessment_Map_ID":"AFM-0040","Finding_Name":"局部压痛或伸趾发力痛","Finding_Feature":"趾长伸肌走行附近按压，或第2至5趾伸展抗阻时出现不适。","Finding_Interpretation":"局部方法参考限于相关肌腹软组织，不迁移肌腱理疗方法。"},
+    {"Feature_ID":"AFM-0041-STATE","Assessment_Map_ID":"AFM-0041","Finding_Name":"前外侧牵拉或发力不适","Finding_Feature":"远端前外侧按压、跖屈结合内翻牵拉，或背屈结合外翻抗阻时出现不适。","Finding_Interpretation":"第三腓骨肌并非人人存在，相关动作不能独立定位这块肌肉。"},
+    {"Feature_ID":"AFM-0007-CAPACITY","Assessment_Map_ID":"AFM-0007","Finding_Name":"背屈力量不足","Finding_Feature":"相同体位下背屈抗阻输出较对侧低，或发力受到疼痛限制。","Finding_Interpretation":"与踝背屈活动度分开查看，伸趾代偿不等同背屈力量正常。"},
+    {"Feature_ID":"AFM-0019-LIMITED","Assessment_Map_ID":"AFM-0019","Finding_Name":"踝跖屈活动受限","Finding_Feature":"踝主动或被动跖屈范围较对侧小，可伴前侧牵拉或踝部末端限制。","Finding_Interpretation":"前侧肌群、肌腱与关节因素分别查看，不将跖屈受限直接归因胫骨前肌。"},
+    {"Feature_ID":"AFM-0019-PAIN","Assessment_Map_ID":"AFM-0019","Finding_Name":"跖屈末端疼痛","Finding_Feature":"踝跖屈末端出现疼痛，位置可在踝前、踝后或小腿前侧。","Finding_Interpretation":"根据疼痛位置补充相应组织检查，未明确组织时不套用前侧肌群方法。"},
+    {"Feature_ID":"AFM-0054-TENSION","Assessment_Map_ID":"AFM-0054","Finding_Name":"前侧软组织张力偏高或牵拉受限","Finding_Feature":"前侧肌腹或筋膜区张力较对侧高，踝跖屈或合并屈趾牵拉时活动受限。","Finding_Interpretation":"区域表现不确定单块肌肉，软组织方法需结合相关肌群查看。"},
+    {"Feature_ID":"AFM-0054-PRESSURE","Assessment_Map_ID":"AFM-0054","Finding_Name":"前侧肌腹压痛或发力痛","Finding_Feature":"前侧肌腹按压或背屈、伸趾抗阻时出现局部不适，与骨面按压不同。","Finding_Interpretation":"处理参考来自相关肌群的线下经验，不用于骨性压痛或未明确的间室问题。"},
+    {"Feature_ID":"AFM-0054-EXERTIONAL","Assessment_Map_ID":"AFM-0054","Finding_Name":"运动后反复紧绷胀痛","Finding_Feature":"活动到相近时间、距离或强度后前侧反复紧绷胀痛，可伴麻木或抬脚困难。","Finding_Interpretation":"可补充运动诱发间室及神经血管评估；持续加重、明显感觉或力量变化需要医学评估。","Source_URL":"https://www.orthoinfo.org/diseases--conditions/compartment-syndrome/"},
+    {"Feature_ID":"AFM-0055-FOCAL","Assessment_Map_ID":"AFM-0055","Finding_Name":"前侧骨面局灶压痛","Finding_Feature":"胫骨前缘或前侧骨面有集中的压痛点，负重或跑跳时可能伴疼痛。","Finding_Interpretation":"可补充骨应力或外伤相关评估，不能仅凭压痛确诊；不将骨面压痛直接对应软组织松解或理疗。","Source_URL":"baseline://database-v3.8/01_Region/LL-R-002\nhttps://www.orthoinfo.org/diseases--conditions/shin-splints/"},
+    {"Feature_ID":"AFM-0055-SWELLING","Assessment_Map_ID":"AFM-0055","Finding_Name":"骨面肿胀或负重痛","Finding_Feature":"胫骨前侧骨面附近有局部肿胀，或走路负重时疼痛，与邻近肌肉发力痛不同。","Finding_Interpretation":"结合外伤和骨应力背景补充评估；新出现的负重困难或持续加重症状需要医学评估。"}
+  ],
+  "references": [
+    {"Reference_ID":"AFM-0038-TENSION-1","Feature_ID":"AFM-0038-TENSION","Treatment_Goal":"软组织方法","Treatment_Method":"胫骨前肌手法松解；胫骨前肌器械辅助松解（筋膜刀）","Source_URL":"local-records://LR-9a5cba6e18ed#L47\nlocal-records://LR-6814f40af6ea#L46","Source_Note":"线下经验。记录列出松解和筋膜刀，不证明单一肌肉是病因或方法独立有效，不对应骨面压痛。"},
+    {"Reference_ID":"AFM-0038-TENSION-2","Feature_ID":"AFM-0038-TENSION","Treatment_Goal":"活动方法","Treatment_Method":"踝跖屈主动活动练习","Source_URL":"https://orthoinfo.aaos.org/globalassets/pdfs/foot-and-ankle-conditioning-program---2025.pdf#page=4","Source_Note":"AAOS一般踝活动练习，不是针对胫骨前肌的特异治疗；不写剂量、优先级或安排。"},
+    {"Reference_ID":"AFM-0038-SENSITIVITY-1","Feature_ID":"AFM-0038-SENSITIVITY","Treatment_Goal":"相关肌腹方法","Treatment_Method":"胫骨前肌手法松解","Source_URL":"local-records://LR-9a5cba6e18ed#L47\nlocal-records://LR-860e5952de91#L25","Source_Note":"相关肌腹经验参考，不由按压或抗阻痛自动推荐松解，不适用于骨性疼痛或未明确损伤。"},
+    {"Reference_ID":"AFM-0039-LENGTH-RECORD-1","Feature_ID":"AFM-0039-LENGTH","Treatment_Goal":"相关肌腹方法","Treatment_Method":"拇长伸肌手法松解","Source_URL":"local-records://LR-63b7c7f54c82#L118","Source_Note":"记录列出拇长伸肌松解，仅作为经验清单；不靠伸拇趾牵拉反应确定肌肉病因。"},
+    {"Reference_ID":"AFM-0039-PRESSURE-RECORD-1","Feature_ID":"AFM-0039-PRESSURE","Treatment_Goal":"相关肌腹方法","Treatment_Method":"拇长伸肌手法松解","Source_URL":"local-records://LR-63b7c7f54c82#L118","Source_Note":"仅指相关肌腹方法，不迁移到肌腱或深层组织，不给出压力或剂量。"},
+    {"Reference_ID":"AFM-0040-LENGTH-RECORD-1","Feature_ID":"AFM-0040-LENGTH","Treatment_Goal":"软组织方法","Treatment_Method":"趾长伸肌手法松解；趾长伸肌器械辅助松解（筋膜刀）","Source_URL":"local-records://LR-80e4ebf1a3b0#L41-L43","Source_Note":"线下松解和筋膜刀经验，不证明独立疗效，不把肌腱处理迁移到肌腹。"},
+    {"Reference_ID":"AFM-0040-PRESSURE-RECORD-1","Feature_ID":"AFM-0040-PRESSURE","Treatment_Goal":"相关肌腹方法","Treatment_Method":"趾长伸肌手法松解","Source_URL":"local-records://LR-9a5cba6e18ed#L33-L45","Source_Note":"相关肌腹经验参考，不由局部疼痛自动选择或安排处理。"},
+    {"Reference_ID":"AFM-0007-CAPACITY-TRAIN-1","Feature_ID":"AFM-0007-CAPACITY","Treatment_Goal":"募集与力量","Treatment_Method":"背屈肌群募集训练；踝背屈等长抗阻训练；弹力带踝背屈训练","Source_URL":"baseline://database-v3.8/04_Intervention/CORE-INT-DF-TRAIN\nlocal-records://LR-ca65db74a173#L72\nhttps://orthoinfo.aaos.org/globalassets/pdfs/foot-and-ankle-conditioning-program---2025.pdf#page=6","Source_Note":"主库募集/力量方向、线下激活记录和AAOS弹力带背屈训练分别支持清单，不提供剂量和进阶顺序。"},
+    {"Reference_ID":"AFM-0007-CAPACITY-TRAIN-2","Feature_ID":"AFM-0007-CAPACITY","Treatment_Goal":"电刺激辅助募集","Treatment_Method":"神经肌肉电刺激辅助背屈募集","Source_URL":"local-records://LR-e25569fa2a1a#L17","Source_Note":"原记录为胫骨前肌compex锻炼，归在募集方法，不改写成镇痛电刺激或承诺疗效；参数和适用性由康复师评估。"},
+    {"Reference_ID":"AFM-0019-LIMITED-ACTIVE-1","Feature_ID":"AFM-0019-LIMITED","Treatment_Goal":"关节活动方法","Treatment_Method":"踝跖屈主动活动练习","Source_URL":"https://orthoinfo.aaos.org/globalassets/pdfs/foot-and-ankle-conditioning-program---2025.pdf#page=4","Source_Note":"仅列已核实的一般活动方法，不声称AAOS支持某方向的关节松动，也不因受限安排练习。"},
+    {"Reference_ID":"AFM-0019-LIMITED-SOFT-1","Feature_ID":"AFM-0019-LIMITED","Treatment_Goal":"前侧肌群方法","Treatment_Method":"胫骨前肌手法松解；趾长伸肌手法松解","Source_URL":"local-records://LR-9a5cba6e18ed#L45-L47","Source_Note":"作为相关前侧肌群的经验方向，不声称跖屈受限由这两块肌肉导致，不把软组织方法替代关节评估。"},
+    {"Reference_ID":"AFM-0054-TENSION-LOCAL-1","Feature_ID":"AFM-0054-TENSION","Treatment_Goal":"相关前侧肌群方法","Treatment_Method":"胫骨前肌手法松解；胫骨前肌器械辅助松解（筋膜刀）；趾长伸肌手法松解；趾长伸肌器械辅助松解（筋膜刀）","Source_URL":"local-records://LR-9a5cba6e18ed#L45-L47\nlocal-records://LR-6814f40af6ea#L46\nlocal-records://LR-80e4ebf1a3b0#L41-L43","Source_Note":"引用相关肌群方法，不宣称针对整个前侧筋膜或未明确的间室问题有效。"},
+    {"Reference_ID":"AFM-0054-PRESSURE-LOCAL-1","Feature_ID":"AFM-0054-PRESSURE","Treatment_Goal":"相关前侧肌群方法","Treatment_Method":"胫骨前肌手法松解；趾长伸肌手法松解","Source_URL":"local-records://LR-9a5cba6e18ed#L45-L47","Source_Note":"线下相关肌腹经验，不用于胫骨骨面压痛；没有从募集电刺激记录推导镇痛理疗，也未引入肌腱超声。"}
+  ]
+}

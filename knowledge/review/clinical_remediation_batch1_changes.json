@@ -1,0 +1,333 @@
+{
+  "date": "2026-10-01",
+  "changes": [
+    {
+      "book": "main",
+      "sheet": "02_ClinicalItem",
+      "id": "AF-JNT-004",
+      "field": "display_name",
+      "before": "第一跖跗关节活动",
+      "after": "第一跖骨列上下活动"
+    },
+    {
+      "book": "main",
+      "sheet": "02_ClinicalItem",
+      "id": "AF-JNT-004",
+      "field": "check_focus",
+      "before": "第一跖骨基底与内侧楔骨之间的附属活动、终末感及关节线压痛。",
+      "after": "第一跖骨列上下活动范围、终末感、疼痛位置及承重反应。"
+    },
+    {
+      "book": "main",
+      "sheet": "02_ClinicalItem",
+      "id": "CORE-SAF-ACS",
+      "field": "display_name",
+      "before": "急性小腿间室综合征风险筛查",
+      "after": "急性下肢间室综合征风险筛查"
+    },
+    {
+      "book": "main",
+      "sheet": "02_ClinicalItem",
+      "id": "CORE-SAF-VTE",
+      "field": "display_name",
+      "before": "小腿静脉血栓风险筛查",
+      "after": "下肢静脉血栓风险筛查"
+    },
+    {
+      "book": "main",
+      "sheet": "03_Finding",
+      "id": "AF-FND-JOINT-RAY1",
+      "field": "display_name",
+      "before": "第一射线/第一跗跖关节活动异常/症状性",
+      "after": "第一跖骨列上下活动改变或疼痛"
+    },
+    {
+      "book": "main",
+      "sheet": "08_AssessmentFindingMap",
+      "id": "AFM-0022",
+      "field": "trigger_condition",
+      "before": "第一射线/第一TMT方向性活动异常或症状性",
+      "after": "第一跖骨列上下活动受限、偏大或出现疼痛。"
+    },
+    {
+      "book": "main",
+      "sheet": "08_AssessmentFindingMap",
+      "id": "AFM-0064",
+      "field": "trigger_condition",
+      "before": "无法用明确运动损伤解释的单侧小腿痛/压痛伴肿胀、温热、发红/变色，结合VTE危险背景",
+      "after": "无法用明确运动损伤解释的单侧下肢痛或压痛伴肿胀、温热、发红或变色，结合血栓风险背景查看。"
+    },
+    {
+      "book": "extension",
+      "sheet": "ClinicalPurpose",
+      "id": "AF-JNT-004",
+      "field": "Item_Name",
+      "before": "第一射线/第一跗跖关节活动",
+      "after": "第一跖骨列上下活动"
+    },
+    {
+      "book": "extension",
+      "sheet": "ClinicalPurpose",
+      "id": "AF-JNT-004",
+      "field": "Clinical_Purpose",
+      "before": "第一跖跗关节活动参与内侧前足承重和蹬地；活动受限与活动偏大分别查看。",
+      "after": "查看第一跖骨列整体上下活动，与内侧前足承重和蹬地表现对照。"
+    },
+    {
+      "book": "extension",
+      "sheet": "ClinicalPurpose",
+      "id": "AF-JNT-004",
+      "field": "Assessment_Focus",
+      "before": "第一跖骨基底与内侧楔骨之间的附属活动、终末感、关节线压痛及承重反应。",
+      "after": "第一跖骨列上下活动范围、终末感、疼痛位置及承重反应。"
+    },
+    {
+      "book": "extension",
+      "sheet": "ClinicalPurpose",
+      "id": "AF-JNT-004",
+      "field": "Source_URL",
+      "before": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5241541/",
+      "after": "https://pubmed.ncbi.nlm.nih.gov/16619101/\nhttps://pubmed.ncbi.nlm.nih.gov/10739156/"
+    },
+    {
+      "book": "extension",
+      "sheet": "ClinicalPurpose",
+      "id": "CORE-SAF-ACS",
+      "field": "Item_Name",
+      "before": "急性小腿间室综合征风险筛查",
+      "after": "急性下肢间室综合征风险筛查"
+    },
+    {
+      "book": "extension",
+      "sheet": "ClinicalPurpose",
+      "id": "CORE-SAF-VTE",
+      "field": "Item_Name",
+      "before": "小腿静脉血栓风险筛查",
+      "after": "下肢静脉血栓风险筛查"
+    },
+    {
+      "book": "extension",
+      "sheet": "FindingFeature",
+      "id": "AFM-0022-LIMIT",
+      "field": "Finding_Name",
+      "before": "第一跖跗关节活动受限",
+      "after": "第一跖骨列上下活动受限"
+    },
+    {
+      "book": "extension",
+      "sheet": "FindingFeature",
+      "id": "AFM-0022-LIMIT",
+      "field": "Finding_Feature",
+      "before": "第一跖骨基底与内侧楔骨之间的附属活动较对侧减少，并与内侧前足承重或蹬地表现相对照。",
+      "after": "第一跖骨列整体向上或向下活动较对侧减少，与内侧前足承重或蹬地表现对照。"
+    },
+    {
+      "book": "extension",
+      "sheet": "FindingFeature",
+      "id": "AFM-0022-LIMIT",
+      "field": "Source_URL",
+      "before": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0022\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC5241541/",
+      "after": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0022\nhttps://pubmed.ncbi.nlm.nih.gov/16619101/\nhttps://pubmed.ncbi.nlm.nih.gov/10739156/"
+    },
+    {
+      "book": "extension",
+      "sheet": "FindingFeature",
+      "id": "AFM-0022-EXCESS",
+      "field": "Finding_Name",
+      "before": "第一跖跗关节活动偏大伴承重控制不足",
+      "after": "第一跖骨列上下活动偏大"
+    },
+    {
+      "book": "extension",
+      "sheet": "FindingFeature",
+      "id": "AFM-0022-EXCESS",
+      "field": "Finding_Feature",
+      "before": "第一跖骨基底与内侧楔骨之间的附属活动偏大，且承重时内侧前足支撑或拇趾贴地控制不足。",
+      "after": "第一跖骨列整体上下活动较对侧偏大；同时查看承重时内侧前足支撑、拇趾贴地及症状。"
+    },
+    {
+      "book": "extension",
+      "sheet": "FindingFeature",
+      "id": "AFM-0022-EXCESS",
+      "field": "Finding_Interpretation",
+      "before": "活动偏大与活动受限分开查看；附属活动单项不能确定稳定结构损伤。",
+      "after": "第一跖骨列整体活动包含多个关节的共同参与；单项活动检查不能确定第一跖跗关节损伤。"
+    },
+    {
+      "book": "extension",
+      "sheet": "FindingFeature",
+      "id": "AFM-0022-EXCESS",
+      "field": "Source_URL",
+      "before": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0022\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC5241541/",
+      "after": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0022\nhttps://pubmed.ncbi.nlm.nih.gov/16619101/\nhttps://pubmed.ncbi.nlm.nih.gov/10739156/"
+    },
+    {
+      "book": "extension",
+      "sheet": "FindingFeature",
+      "id": "AFM-0022-PAIN",
+      "field": "Finding_Name",
+      "before": "第一跖跗关节活动时疼痛",
+      "after": "第一跖骨列上下活动时疼痛"
+    },
+    {
+      "book": "extension",
+      "sheet": "FindingFeature",
+      "id": "AFM-0022-PAIN",
+      "field": "Finding_Feature",
+      "before": "第一跖跗关节附属活动或负重时，内侧中足的该关节附近出现疼痛。",
+      "after": "第一跖骨列整体上下活动时出现疼痛，查看疼痛在内侧中足、跖骨周围还是前足跖侧。"
+    },
+    {
+      "book": "extension",
+      "sheet": "FindingFeature",
+      "id": "AFM-0022-PAIN",
+      "field": "Source_URL",
+      "before": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0022\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC5241541/",
+      "after": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0022\nhttps://pubmed.ncbi.nlm.nih.gov/16619101/\nhttps://pubmed.ncbi.nlm.nih.gov/10739156/"
+    },
+    {
+      "book": "extension",
+      "sheet": "InterventionReference",
+      "id": "AFM-0046-PRESSURE-RECORD-1",
+      "field": "Treatment_Method",
+      "before": "肌内效贴贴扎；低频电刺激",
+      "after": "肌内效贴贴扎；肌肉电刺激放松"
+    },
+    {
+      "book": "extension",
+      "sheet": "InterventionReference",
+      "id": "AFM-0046-PRESSURE-RECORD-1",
+      "field": "Source_Note",
+      "before": "线下经验参考，记录为减张贴与compex relax。仅列可参考的方法，不承诺减张机制、疗效，不用于骨缘压痛的默认处理。",
+      "after": "线下经验参考，记录为减张贴与Compex relax。用户确认后者为NMES relax模式，对外称肌肉电刺激放松。对应相关肌腹，不用于骨缘压痛的默认处理，不宣称独立疗效。"
+    },
+    {
+      "book": "extension",
+      "sheet": "InterventionReference",
+      "id": "AFM-0060-PRESSURE-LOCAL-1",
+      "field": "Treatment_Method",
+      "before": "肌内效贴贴扎；低频电刺激",
+      "after": "肌内效贴贴扎；肌肉电刺激放松"
+    },
+    {
+      "book": "extension",
+      "sheet": "InterventionReference",
+      "id": "AFM-0060-PRESSURE-LOCAL-1",
+      "field": "Source_Note",
+      "before": "区域经验参考来自胫骨后肌减张贴及compex relax记录。方法用于骨缘后方相关软组织，非骨性压痛；不证明致痛组织、独立疗效或电刺激镇痛效果。",
+      "after": "区域经验来自胫骨后肌减张贴与Compex relax记录。用户确认后者为NMES relax模式，对外称肌肉电刺激放松。适用于骨缘后方相关肌腹，非骨性压痛；不证明致痛组织或独立镇痛疗效。"
+    },
+    {
+      "book": "extension",
+      "sheet": "InterventionReference",
+      "id": "AFM-0060-ACTIVITY-LOCAL-1",
+      "field": "Treatment_Method",
+      "before": "肌内效贴贴扎；低频电刺激",
+      "after": "肌内效贴贴扎；肌肉电刺激放松"
+    },
+    {
+      "book": "extension",
+      "sheet": "InterventionReference",
+      "id": "AFM-0060-ACTIVITY-LOCAL-1",
+      "field": "Source_Note",
+      "before": "沿用同区域胫骨后肌相关记录的方法清单，不由内翻或屈趾痛确定单一肌肉或自动选择处理；肌腹与肌腱需分别评估。",
+      "after": "沿用同区域胫骨后肌记录。用户确认Compex relax为NMES relax模式，对外称肌肉电刺激放松。对应相关肌腹；内翻或屈趾痛不确定单一肌肉，肌腹与肌腱分别查看。"
+    },
+    {
+      "book": "extension",
+      "sheet": "InterventionReference",
+      "id": "AFM-0042-TENSION-RELAX-1",
+      "field": "Treatment_Method",
+      "before": "腓骨长肌低频电刺激",
+      "after": "腓骨长肌肌肉电刺激放松"
+    },
+    {
+      "book": "extension",
+      "sheet": "InterventionReference",
+      "id": "AFM-0042-TENSION-RELAX-1",
+      "field": "Source_Note",
+      "before": "记录为腓骨长肌compex relax，只列经验方法，不改写为TENS镇痛，不宣称减张机制或疗效。",
+      "after": "记录为腓骨长肌Compex relax。用户确认实际为NMES relax模式，对外称肌肉电刺激放松。保留经验出处，不改写为TENS镇痛或用于肌力募集，不宣称独立疗效。"
+    },
+    {
+      "book": "extension",
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-FRONT-1",
+      "field": "Region_IDs",
+      "before": "KNEE-R-001|KNEE-R-002|KNEE-R-003|KNEE-R-004|KNEE-R-005",
+      "after": "KNEE-R-001|KNEE-R-002|KNEE-R-003|KNEE-R-004|KNEE-R-005|KNEE-R-006"
+    },
+    {
+      "book": "extension",
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-FRONT-2",
+      "field": "Region_IDs",
+      "before": "KNEE-R-001|KNEE-R-002|KNEE-R-003|KNEE-R-004|KNEE-R-005",
+      "after": "KNEE-R-001|KNEE-R-002|KNEE-R-003|KNEE-R-004|KNEE-R-005|KNEE-R-006"
+    },
+    {
+      "book": "extension",
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-FRONT-3",
+      "field": "Region_IDs",
+      "before": "KNEE-R-001|KNEE-R-002|KNEE-R-003|KNEE-R-004|KNEE-R-005",
+      "after": "KNEE-R-001|KNEE-R-002|KNEE-R-003|KNEE-R-004|KNEE-R-005|KNEE-R-006"
+    },
+    {
+      "book": "extension",
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-MEDIAL-1",
+      "field": "Region_IDs",
+      "before": "KNEE-R-006|KNEE-R-007|KNEE-R-008",
+      "after": "KNEE-R-007|KNEE-R-008|KNEE-R-009"
+    },
+    {
+      "book": "extension",
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-MEDIAL-1",
+      "field": "Core_Prompt",
+      "before": "疼在内侧关节线、韧带走行还是关节线下方？",
+      "after": "疼在内侧关节线、韧带走行、下方鹅足，还是后内侧肌腱附近？"
+    },
+    {
+      "book": "extension",
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-MEDIAL-2",
+      "field": "Region_IDs",
+      "before": "KNEE-R-006|KNEE-R-007|KNEE-R-008",
+      "after": "KNEE-R-007|KNEE-R-008|KNEE-R-009"
+    },
+    {
+      "book": "extension",
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-MEDIAL-3",
+      "field": "Region_IDs",
+      "before": "KNEE-R-006|KNEE-R-007|KNEE-R-008",
+      "after": "KNEE-R-007|KNEE-R-008|KNEE-R-009"
+    },
+    {
+      "book": "extension",
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-LATERAL-1",
+      "field": "Region_IDs",
+      "before": "KNEE-R-009|KNEE-R-010|KNEE-R-011|KNEE-R-012",
+      "after": "KNEE-R-010|KNEE-R-011|KNEE-R-012"
+    },
+    {
+      "book": "extension",
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-LATERAL-2",
+      "field": "Region_IDs",
+      "before": "KNEE-R-009|KNEE-R-010|KNEE-R-011|KNEE-R-012",
+      "after": "KNEE-R-010|KNEE-R-011|KNEE-R-012"
+    },
+    {
+      "book": "extension",
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-LATERAL-3",
+      "field": "Region_IDs",
+      "before": "KNEE-R-009|KNEE-R-010|KNEE-R-011|KNEE-R-012",
+      "after": "KNEE-R-010|KNEE-R-011|KNEE-R-012"
+    }
+  ]
+}

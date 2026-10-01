@@ -1,0 +1,364 @@
+{
+  "date": "2026-10-01",
+  "changes": [
+    {
+      "section": "main",
+      "sheet": "02_ClinicalItem",
+      "id": "THIGH-SPT-NEURO",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "item_id": "THIGH-SPT-NEURO",
+        "item_type": "NEURO_SCREEN",
+        "display_name": "大腿区域神经相关筛查",
+        "check_focus": "大腿感觉变化范围；局部受压背景；膝伸输出与膝反射。向小腿或足部放射时可补远端筛查。",
+        "allowed_finding_types": "NEURO",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01"
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "03_Finding",
+      "id": "THIGH-FND-NEURO",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "finding_id": "THIGH-FND-NEURO",
+        "finding_class": "NEURO",
+        "display_name": "大腿感觉或神经相关表现",
+        "scope": "Module",
+        "status": "Stable",
+        "boundary": "对照感觉分布、局部受压及运动/反射表现；不由位置或单项测试确定神经病因。"
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "08_AssessmentFindingMap",
+      "id": "AFM-0125",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "AFM-0125",
+        "clinical_item_id": "THIGH-SPT-NEURO",
+        "finding_id": "THIGH-FND-NEURO",
+        "trigger_condition": "大腿感觉分布变化，或伴神经相关运动、反射表现",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01"
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-NEURO-THIGH-R-001",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-NEURO-THIGH-R-001",
+        "region_id": "THIGH-R-001",
+        "clinical_item_id": "THIGH-SPT-NEURO",
+        "direction_type": "特殊测试",
+        "priority": "Context",
+        "condition": "大腿感觉或神经相关表现时",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "区域症状相关",
+        "assessment_dimension": "SPECIAL_TEST",
+        "assessment_group": "神经相关检查",
+        "display_order": 9000,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-NEURO-THIGH-R-002",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-NEURO-THIGH-R-002",
+        "region_id": "THIGH-R-002",
+        "clinical_item_id": "THIGH-SPT-NEURO",
+        "direction_type": "特殊测试",
+        "priority": "Context",
+        "condition": "大腿感觉或神经相关表现时",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "区域症状相关",
+        "assessment_dimension": "SPECIAL_TEST",
+        "assessment_group": "神经相关检查",
+        "display_order": 9000,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-NEURO-THIGH-R-003",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-NEURO-THIGH-R-003",
+        "region_id": "THIGH-R-003",
+        "clinical_item_id": "THIGH-SPT-NEURO",
+        "direction_type": "特殊测试",
+        "priority": "Context",
+        "condition": "大腿感觉或神经相关表现时",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "区域症状相关",
+        "assessment_dimension": "SPECIAL_TEST",
+        "assessment_group": "神经相关检查",
+        "display_order": 9000,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-NEURO-THIGH-R-004",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-NEURO-THIGH-R-004",
+        "region_id": "THIGH-R-004",
+        "clinical_item_id": "THIGH-SPT-NEURO",
+        "direction_type": "特殊测试",
+        "priority": "Context",
+        "condition": "大腿感觉或神经相关表现时",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "区域症状相关",
+        "assessment_dimension": "SPECIAL_TEST",
+        "assessment_group": "神经相关检查",
+        "display_order": 9000,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-1091",
+      "field": "display_order",
+      "before": 9000,
+      "after": 9002
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-1091",
+      "field": "assessment_group",
+      "before": "线索相关检查",
+      "after": "神经相关检查"
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-1092",
+      "field": "display_order",
+      "before": 9000,
+      "after": 9002
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-1092",
+      "field": "assessment_group",
+      "before": "线索相关检查",
+      "after": "神经相关检查"
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-1093",
+      "field": "display_order",
+      "before": 9000,
+      "after": 9002
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-1093",
+      "field": "assessment_group",
+      "before": "线索相关检查",
+      "after": "神经相关检查"
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-1094",
+      "field": "display_order",
+      "before": 9000,
+      "after": 9002
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-1094",
+      "field": "assessment_group",
+      "before": "线索相关检查",
+      "after": "神经相关检查"
+    },
+    {
+      "section": "main",
+      "sheet": "07_ContextRule",
+      "id": "THIGH-CX-01",
+      "field": "target",
+      "before": "CORE-SPT-NEURO-DISTAL",
+      "after": "THIGH-SPT-NEURO / CORE-SPT-NEURO-DISTAL"
+    },
+    {
+      "section": "main",
+      "sheet": "11_ContextItemMap",
+      "id": "CIM-0121",
+      "field": "clinical_item_id",
+      "before": "CORE-SPT-NEURO-DISTAL",
+      "after": "THIGH-SPT-NEURO"
+    },
+    {
+      "section": "main",
+      "sheet": "11_ContextItemMap",
+      "id": "CIM-STATIC-THIGH-DISTAL",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "CIM-STATIC-THIGH-DISTAL",
+        "rule_id": "THIGH-CX-01",
+        "clinical_item_id": "CORE-SPT-NEURO-DISTAL",
+        "status": "Stable"
+      }
+    },
+    {
+      "section": "extension",
+      "sheet": "ClinicalPurpose",
+      "id": "THIGH-SPT-NEURO",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Item_ID": "THIGH-SPT-NEURO",
+        "Item_Name": "大腿区域神经相关筛查",
+        "Clinical_Purpose": "大腿麻木、灼痛或放射痛可对照感觉分布、局部受压背景及运动表现。",
+        "Assessment_Focus": "大腿前、内、外、后侧感觉分布；受压背景；膝伸输出与膝反射。",
+        "Module": "THIGH",
+        "Source_URL": "https://www.orthoinfo.org/diseases--conditions/burning-thigh-pain-meralgia-paresthetica/\nhttps://www.ncbi.nlm.nih.gov/books/NBK532301/\nhttps://www.ncbi.nlm.nih.gov/books/NBK556065/",
+        "Review_Status": "待临床审核"
+      }
+    },
+    {
+      "section": "extension",
+      "sheet": "FindingFeature",
+      "id": "AFM-0125-SENSORY",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Feature_ID": "AFM-0125-SENSORY",
+        "Assessment_Map_ID": "AFM-0125",
+        "Finding_Name": "大腿感觉分布变化",
+        "Finding_Feature": "大腿出现麻木、灼痛或触觉变化，可标出感觉变化的范围。",
+        "Finding_Interpretation": "可对照局部受压与近端相关表现；向小腿或足部放射时补远端感觉和运动检查。新发或进行性无力、持续感觉缺失需医学评估。",
+        "Source_URL": "https://www.orthoinfo.org/diseases--conditions/burning-thigh-pain-meralgia-paresthetica/\nhttps://www.ncbi.nlm.nih.gov/books/NBK532301/\nhttps://www.ncbi.nlm.nih.gov/books/NBK556065/",
+        "Review_Status": "待临床审核",
+        "Related_Location_Prompt": null,
+        "Related_Location_Action_Label": null,
+        "Related_Location_Region_IDs": null,
+        "Related_Location_Hide_Option_When_Current": null
+      }
+    },
+    {
+      "section": "extension",
+      "sheet": "FindingFeature",
+      "id": "AFM-0125-LATERAL",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Feature_ID": "AFM-0125-LATERAL",
+        "Assessment_Map_ID": "AFM-0125",
+        "Finding_Name": "大腿前外侧麻木或灼痛",
+        "Finding_Feature": "大腿前外侧或外侧出现麻木、灼痛或触觉变化，可伴衣物、腰带或局部受压相关表现。",
+        "Finding_Interpretation": "可对照股外侧皮神经的感觉分布。该神经没有运动功能，伴膝伸输出或反射变化时可另看相关运动与近端方向。",
+        "Source_URL": "https://www.orthoinfo.org/diseases--conditions/burning-thigh-pain-meralgia-paresthetica/\nhttps://www.ncbi.nlm.nih.gov/books/NBK532301/",
+        "Review_Status": "待临床审核",
+        "Related_Location_Prompt": null,
+        "Related_Location_Action_Label": null,
+        "Related_Location_Region_IDs": null,
+        "Related_Location_Hide_Option_When_Current": null
+      }
+    },
+    {
+      "section": "extension",
+      "sheet": "FindingFeature",
+      "id": "AFM-0125-MOTOR",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Feature_ID": "AFM-0125-MOTOR",
+        "Assessment_Map_ID": "AFM-0125",
+        "Finding_Name": "膝伸输出或膝反射变化",
+        "Finding_Feature": "膝伸抗阻输出下降或膝反射变化，可伴大腿前内侧感觉变化。",
+        "Finding_Interpretation": "可对照股神经相关运动和感觉、局部膝痛限制及近端表现；一项变化不能单独确定神经损伤。新发或进行性无力需医学评估。",
+        "Source_URL": "https://www.ncbi.nlm.nih.gov/books/NBK556065/",
+        "Review_Status": "待临床审核",
+        "Related_Location_Prompt": null,
+        "Related_Location_Action_Label": null,
+        "Related_Location_Region_IDs": null,
+        "Related_Location_Hide_Option_When_Current": null
+      }
+    },
+    {
+      "section": "extension",
+      "sheet": "LocationGuide",
+      "id": "LOC-THIGH-R-001",
+      "field": "Linked_Item_IDs",
+      "before": "CORE-SPT-NEURO-DISTAL",
+      "after": "CORE-SPT-NEURO-DISTAL|THIGH-SPT-NEURO"
+    },
+    {
+      "section": "extension",
+      "sheet": "LocationGuide",
+      "id": "LOC-THIGH-R-002",
+      "field": "Linked_Item_IDs",
+      "before": null,
+      "after": "THIGH-SPT-NEURO"
+    },
+    {
+      "section": "extension",
+      "sheet": "LocationGuide",
+      "id": "LOC-THIGH-R-003",
+      "field": "Linked_Item_IDs",
+      "before": "CORE-SPT-NEURO-DISTAL",
+      "after": "CORE-SPT-NEURO-DISTAL|THIGH-SPT-NEURO"
+    },
+    {
+      "section": "extension",
+      "sheet": "LocationGuide",
+      "id": "LOC-THIGH-R-004",
+      "field": "Linked_Item_IDs",
+      "before": null,
+      "after": "THIGH-SPT-NEURO"
+    },
+    {
+      "section": "extension",
+      "sheet": "ConsultationGuide",
+      "id": "QG-THIGH-R-004-3",
+      "field": "Assessment_Help",
+      "before": "可补局部软组织、骨面与神经相关评估。",
+      "after": "可补大腿外侧局部组织、感觉分布及神经相关检查；向小腿或足部放射时补远端筛查。"
+    },
+    {
+      "section": "extension",
+      "sheet": "ConsultationGuide",
+      "id": "QG-THIGH-R-004-3",
+      "field": "Source_Reference",
+      "before": "baseline://clinical-extension/ConsultationGuide/QG-THIGH-R-004-3\nbook://magee-local#pdf=751,756&print=742,747",
+      "after": "https://www.orthoinfo.org/diseases--conditions/burning-thigh-pain-meralgia-paresthetica/\nhttps://www.ncbi.nlm.nih.gov/books/NBK532301/\nhttps://www.ncbi.nlm.nih.gov/books/NBK556065/"
+    }
+  ]
+}

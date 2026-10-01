@@ -1,0 +1,48 @@
+/* Short press feedback, soft arrival, quick dismissal. */
+:root { --soft-spring: cubic-bezier(.22, 1.25, .36, 1); }
+.finding-drawer { transform-origin: center bottom; animation: drawer-arrive 460ms both; }
+.finding-scrim { animation: veil-arrive 240ms ease-out both; }
+.finding-overlay.is-closing .finding-drawer { animation: drawer-depart 220ms cubic-bezier(.4, 0, .75, .4) both; }
+.finding-overlay.is-closing .finding-scrim { animation: veil-depart 220ms ease-in both; }
+.assessment-row__body { animation: none; }
+.direction-content { animation: content-arrive 250ms ease-out both; }
+.reasoning-sheet { animation: sheet-arrive 420ms var(--soft-spring) both; }
+.assessment-row, .finding-row { transition: box-shadow 240ms ease, border-color 240ms ease; }
+.assessment-row__head, .finding-row__head, .direction-tabs button, .bottom-nav button, .finding-drawer > header button {
+  transition: transform 260ms var(--soft-spring), background-color 180ms ease, color 180ms ease;
+}
+.assessment-row__head:active, .finding-row__head:active { transform: scale(.985); }
+.direction-tabs button:active, .bottom-nav button:active { transform: scale(.95); }
+.finding-drawer > header button:active { transform: scale(.9); }
+.ui-chevron { transition: transform 340ms var(--soft-spring); }
+.page-content { animation: content-arrive 280ms ease-out both; }
+.sheet-backdrop { animation: veil-arrive 240ms ease-out both; }
+.reasoning-sheet.is-closing { animation: sheet-depart 220ms ease-in both; pointer-events: none; }
+.sheet-backdrop.is-closing { animation: veil-depart 220ms ease-in both; }
+.resume-card, .safety-panel, .consideration-panel { animation: content-arrive 280ms ease-out both; }
+.profile-grid label { animation: content-arrive 220ms ease-out both; }
+.context-options label, .profile-grid select, .context-panel__head, .related-module__head,
+.anatomy-mode button, .view-presets button, .resume-card, .reasoning-sheet__top > button {
+  transition: transform 280ms var(--soft-spring), background-color 200ms ease, color 200ms ease, border-color 200ms ease, box-shadow 200ms ease;
+}
+.context-options label:active, .context-panel__head:active, .related-module__head:active { transform: scale(.985); }
+.anatomy-mode button:active, .view-presets button:active, .reasoning-sheet__top > button:active { transform: scale(.94); }
+.context-options input { transition: transform 260ms var(--soft-spring); }
+.context-options input:checked { animation: option-settle 260ms ease-out; }
+@keyframes option-settle { 0% { transform: scale(.85); } 65% { transform: scale(1.08); } 100% { transform: scale(1); } }
+@keyframes sheet-depart { from { opacity: 1; transform: translateY(0); } to { opacity: 0; transform: translateY(35px); } }
+@keyframes drawer-arrive {
+  0% { transform: translateY(100%); }
+  68% { transform: translateY(-7px); }
+  86% { transform: translateY(2px); }
+  100% { transform: translateY(0); }
+}
+@keyframes drawer-depart { from { transform: translateY(0); } to { transform: translateY(100%); } }
+@keyframes veil-arrive { from { opacity: 0; } to { opacity: 1; } }
+@keyframes veil-depart { from { opacity: 1; } to { opacity: 0; } }
+@keyframes card-unfold { from { opacity: 0; transform: translateY(-7px) scale(.99); } to { opacity: 1; transform: none; } }
+@keyframes content-arrive { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: none; } }
+@keyframes sheet-arrive { from { opacity: 0; transform: translateY(28px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}

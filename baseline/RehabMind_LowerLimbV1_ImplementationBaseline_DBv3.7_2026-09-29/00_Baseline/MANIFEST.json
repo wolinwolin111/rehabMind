@@ -1,0 +1,169 @@
+{
+  "package": "RehabMind_LowerLimbV1_ImplementationBaseline_DBv3.7_2026-09-29",
+  "created": "2026-09-29",
+  "baseline": {
+    "design": "DB v3.7",
+    "implementation_plan": "DB v3.7",
+    "database": "v3.7 Final",
+    "ui_reference": "G5.88 four-module Profile Context UserReadable v5 (visual/interaction reference; not v3.7 runtime)",
+    "localization": "localization-v1.1-four-module / contract v1.2 compatible with DB v3.7 Region IDs",
+    "model": "BodyParts3D 4.0 optimized adult male reference"
+  },
+  "authoritative_categories": [
+    "Design + implementation plan",
+    "Clinical database",
+    "UI reference",
+    "3D model + localization"
+  ],
+  "compatibility": {
+    "ui_runtime_note": "UI reference predates DB v3.7 RegionClinicalMap dimension/group fields and must not be treated as the current runtime clinical implementation.",
+    "localization_note": "DB v3.7 did not change the 38 spatial Region IDs; localization contract mappings remain compatible."
+  },
+  "files": [
+    {
+      "path": "00_Baseline/README_IMPLEMENTATION_BASELINE.md",
+      "bytes": 4870,
+      "sha256": "3168f2a5d093759cb2c6f1fa5da1d7a3914e7bdccf07800299c64107cacb9326"
+    },
+    {
+      "path": "00_Baseline/VERSION_MATRIX.md",
+      "bytes": 1057,
+      "sha256": "678a102d0acea31f16ac4e500e0f9c56197478618ea18a988a45b28a3126b638"
+    },
+    {
+      "path": "01_Design/RehabMind_LowerLimbV1_DesignSpec_DBv3.7.docx",
+      "bytes": 51897,
+      "sha256": "d21ecc2272dbf1eba758d4f29e75e14a88f169b397c0cfca91696785ebad66e2"
+    },
+    {
+      "path": "01_Design/RehabMind_LowerLimbV1_ExecutableImplementationPlan_DBv3.7.docx",
+      "bytes": 49453,
+      "sha256": "2c90c43f155fe71f5c725303e7dd091c873d411d7e562ad4cc7dc085c027ef2f"
+    },
+    {
+      "path": "02_Database/RehabMind_LowerLimb_KnowledgeDB_v3.7_Final.xlsx",
+      "bytes": 99557,
+      "sha256": "63fca1ac3d0503f1b192161745687953a43ff06c8e9af8fbb5805baab7c96b17"
+    },
+    {
+      "path": "03_UI_Reference/LowerLimb_v3.4_G5_88_4Module_ProfileContext_UserReadable_v5.html",
+      "bytes": 46261678,
+      "sha256": "08aa3befa40afec95131b5b603fdd26a1b12c460003b86606eeefc803edcb016"
+    },
+    {
+      "path": "04_3D_Localization/MODEL_SOURCE_NOTICE.md",
+      "bytes": 1138,
+      "sha256": "7d0511738ead6247bd2e98ac2609dd72aacab7a4e15f95db0f773ab2f4dd1c77"
+    },
+    {
+      "path": "04_3D_Localization/README_3D_LOCALIZATION.md",
+      "bytes": 1558,
+      "sha256": "39652c8c07c2c1d2e0ba4568955f93e5dbe4eca0134480f4cc9d23cf95a358cc"
+    },
+    {
+      "path": "04_3D_Localization/localization/LowerLimb_v3.7_3DLocalizationContract_v1.2.json",
+      "bytes": 6476,
+      "sha256": "5f6f99a7ec6ffb50671b92319ca72199dab2a135f42d0b630936e07b90dd17c0"
+    },
+    {
+      "path": "04_3D_Localization/localization/localization_reference_current.js",
+      "bytes": 15041,
+      "sha256": "4a49b5cb5e64a459513813f41b556d4a0285b8e190abd740c1ea66d1e8eb65ea"
+    },
+    {
+      "path": "04_3D_Localization/model/atlas_metadata.json",
+      "bytes": 2355224,
+      "sha256": "24137814dc3e0e0ed2791a1e876d26f2b2e4bab3121ba30f5a6938be24c040d7"
+    },
+    {
+      "path": "04_3D_Localization/model/chunk_manifest.json",
+      "bytes": 2677,
+      "sha256": "615131fad0857e54dfc3a63198b7b5ab80c29bab53ff75565a08b37499d3c4ab"
+    },
+    {
+      "path": "04_3D_Localization/model/chunks/body-0.bin.gz",
+      "bytes": 2257262,
+      "sha256": "9dcd239ed44bf5b28cad64d2dc5c02a475570ee5706051f383c7c68d6fbc8b1c"
+    },
+    {
+      "path": "04_3D_Localization/model/chunks/body-1.bin.gz",
+      "bytes": 2299850,
+      "sha256": "0382260e39b6b294f52a77f1d28b5d2493b93bfd665f6d1fd01926ef27473a40"
+    },
+    {
+      "path": "04_3D_Localization/model/chunks/body-10.bin.gz",
+      "bytes": 2249282,
+      "sha256": "24d533fa1da7b52583fd6912722b47130ebff1f505449dee276df0b7107aa5aa"
+    },
+    {
+      "path": "04_3D_Localization/model/chunks/body-11.bin.gz",
+      "bytes": 2319620,
+      "sha256": "be228aec4eaae7f9ad1b8eb461ed06d6c8e813e9fe64ff894ba48409f25ff878"
+    },
+    {
+      "path": "04_3D_Localization/model/chunks/body-12.bin.gz",
+      "bytes": 2268977,
+      "sha256": "80eefe006f2372bc79d8ca2388b4f2785a14bff2621d99f4a7b422d63f9eb556"
+    },
+    {
+      "path": "04_3D_Localization/model/chunks/body-13.bin.gz",
+      "bytes": 2165080,
+      "sha256": "37fd7a4cd62fb6031eb300a4b947c80c7b00d2751d78ff464147fb444e1a0307"
+    },
+    {
+      "path": "04_3D_Localization/model/chunks/body-14.bin.gz",
+      "bytes": 1344908,
+      "sha256": "3968d6e0a1d14f8c39e5ffb1f618c72023f429c41592f6793f0030e60ab3d8b6"
+    },
+    {
+      "path": "04_3D_Localization/model/chunks/body-2.bin.gz",
+      "bytes": 2312911,
+      "sha256": "603773ea025f556e520ac79cd84f07bede9035d786e196a0e6ed2ca73bb15301"
+    },
+    {
+      "path": "04_3D_Localization/model/chunks/body-3.bin.gz",
+      "bytes": 2079806,
+      "sha256": "3d7bccd225de90ba4aef4e33f08b6430dc58c929f8dc250217f6fbe2f11e7d53"
+    },
+    {
+      "path": "04_3D_Localization/model/chunks/body-4.bin.gz",
+      "bytes": 2075177,
+      "sha256": "01be154bea1460e7b6c02729640e40824aa926e4ec5cd76cca2a922694fa9a30"
+    },
+    {
+      "path": "04_3D_Localization/model/chunks/body-5.bin.gz",
+      "bytes": 2176648,
+      "sha256": "a1810356e610ad38170c440e5c4fd4e99434152ab76c743616098e1f4ac71624"
+    },
+    {
+      "path": "04_3D_Localization/model/chunks/body-6.bin.gz",
+      "bytes": 2378951,
+      "sha256": "d4ef94ced66b8b61cf640b5b3c206b63bf7cd6c8af9823f8674117d025d0f1bf"
+    },
+    {
+      "path": "04_3D_Localization/model/chunks/body-7.bin.gz",
+      "bytes": 2385857,
+      "sha256": "5efdc3ed4d57335f2631a8563ca810d94e9aa70a9081ca55ce41c912be97c3d4"
+    },
+    {
+      "path": "04_3D_Localization/model/chunks/body-8.bin.gz",
+      "bytes": 2382534,
+      "sha256": "4a8c163c3d4029125c551d9299d96aec511c8269ed33c3109f4461ae658c0622"
+    },
+    {
+      "path": "04_3D_Localization/model/chunks/body-9.bin.gz",
+      "bytes": 2259266,
+      "sha256": "1babeeb1464594a4e6d4689d2d73338d3e3b38fecb8a2f406820308950935e37"
+    },
+    {
+      "path": "04_3D_Localization/semantics/skin_semantics.bin",
+      "bytes": 134232,
+      "sha256": "d6bd574f97c158456f7a981a250a8bbb91f838fc2d2f33f2e14f2db19d81f6cf"
+    },
+    {
+      "path": "04_3D_Localization/semantics/skin_semantics_metadata.json",
+      "bytes": 76106,
+      "sha256": "150d294b13d6f2ce136e936560e25d5310851aa87610c86da092dcd71c6f5efb"
+    }
+  ]
+}

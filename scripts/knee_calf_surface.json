@@ -1,0 +1,12 @@
+{
+  "area_id": "LOC-KNEE-CALF-POST",
+  "display_name": "膝后及小腿上段",
+  "region_ids": ["LL-R-005", "KNEE-R-013"],
+  "source_face_count": 44744,
+  "source_skin_sha256": "4a8d6c96029905d9c39f282fabfd2335b6067b4b1dc9605729ae85ab56e7cd9c",
+  "whole_patches": ["REG-KNEE-POST-CALF"],
+  "lower_edges": ["REG-KNEE-POST-CENT", "REG-KNEE-POST-MED", "REG-KNEE-POST-LAT"],
+  "lower_edge_max_y": 0.425,
+  "codes": {"left": 67, "right": 68},
+  "note": "以原后侧表面标注限制范围；只合并近端后侧小腿及膝后标注的下缘。高度为当前模型坐标，不是通用人体边界。尚需实际点选反馈校准；不确定深部组织，不扩展到前侧或整个内侧。"
+}

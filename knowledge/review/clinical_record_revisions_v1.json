@@ -1,0 +1,55 @@
+{
+  "revision": "local-record-review-v1",
+  "scope": "膝、踝足、小腿、大腿现有项目；临床经验参考，不生成诊断、疗效结论或训练安排",
+  "sources": {
+    "knee_soft": [
+      {"source_id":"LR-9a5cba6e18ed","lines":[10,40]},
+      {"source_id":"LR-b62ce4e8b001","lines":[105,109]}
+    ],
+    "knee_joint": [{"source_id":"LR-14771cf95bce","lines":[36,60]}],
+    "hamstrings_knee": [{"source_id":"LR-d64a19ea9ecf","lines":[4,12]},{"source_id":"LR-4633fe94481a","lines":[96,103]}],
+    "quad": [{"source_id":"LR-4433b5bd593a","lines":[15,27]},{"source_id":"LR-4633fe94481a","lines":[23,38]}],
+    "ankle_df": [{"source_id":"LR-a27906e6eaef","lines":[23,43]},{"source_id":"LR-d64a19ea9ecf","lines":[14,15]}],
+    "ankle_ev": [{"source_id":"LR-a27906e6eaef","lines":[23,48]}],
+    "fibular": [{"source_id":"LR-ee1d02537075","lines":[54,55]}],
+    "midfoot": [{"source_id":"LR-26f2f03ac441","lines":[33,43]}],
+    "subtalar": [{"source_id":"LR-a56bd1590204","lines":[4,8]}],
+    "calf": [{"source_id":"LR-fbe217babee1","lines":[5,20]}],
+    "thigh_front": [{"source_id":"LR-9a5cba6e18ed","lines":[18,32]}],
+    "thigh_back": [{"source_id":"LR-20a01619ecb0","lines":[50,55]},{"source_id":"LR-20a01619ecb0","lines":[73,90]}]
+  },
+  "purposes": [
+    {"item_id":"KNEE-ROM-EXT","why":"查看伸直角度、末端弹性与主动发力的差异，并对照膝前外侧和膝后组织状态。","focus":"主动与被动伸直、末端弹性、左右差异；股外侧肌、腘肌及后侧肌群状态。","source_keys":["knee_soft","knee_joint"]},
+    {"item_id":"CORE-MUS-VL","why":"查看大腿前外侧紧张、局部压痛与膝屈伸末端的表现。","focus":"股外侧肌局部张力、压痛与膝屈伸末端表现。","source_keys":["knee_soft","thigh_front"]},
+    {"item_id":"KNEE-MUS-POPLIT","why":"伸直末端或膝后外侧紧绷时，查看腘肌局部状态和胫骨旋转活动。","focus":"膝后外侧局部张力、伸直末端与胫骨旋转。","source_keys":["knee_soft"]},
+    {"item_id":"CORE-CAP-QUAD-RECRUIT","why":"比较主动终末伸膝、股四头肌收缩与被动伸直范围。","focus":"终末伸膝、收缩质量、伸膝滞后与左右差异。","source_keys":["quad"]},
+    {"item_id":"CORE-ROM-ANK-DF","why":"查看踝背屈范围，并对照距骨活动与小腿后侧组织状态。","focus":"伸膝位与屈膝位主动、被动背屈；末端感觉与左右差异。","source_keys":["ankle_df"]},
+    {"item_id":"AF-ASM-002","why":"背屈末端受限时，查看距小腿关节的方向性活动。","focus":"距骨方向性活动、背屈末端与左右差异。","source_keys":["ankle_df"]},
+    {"item_id":"CORE-ROM-ANK-EV","why":"区分外翻活动范围与主动外翻表现，并查看跟骨和中足活动。","focus":"主动、被动外翻；跟骨与中足活动、末端感觉及左右差异。","source_keys":["ankle_ev","fibular","midfoot"]},
+    {"item_id":"AF-JNT-002","why":"外翻或内翻受限时，查看跟骨和距下关节的活动。","focus":"跟骨内外翻活动、末端感觉与左右差异。","source_keys":["subtalar"]},
+    {"item_id":"AF-JNT-003","why":"足外侧或中足活动不顺时，查看中足方向性活动及骰骨邻近表现。","focus":"中足方向性活动、骰骨邻近活动与左右差异。","source_keys":["midfoot"]},
+    {"item_id":"CORE-CAP-EV","why":"查看主动外翻和抗阻输出，与外翻活动范围分开比较。","focus":"主动外翻、外翻抗阻、代偿与左右差异。","source_keys":["ankle_ev"]},
+    {"item_id":"THIGH-MUS-TFL","why":"大腿近端外侧紧绷时，查看阔筋膜张肌局部状态与髋部活动。","focus":"近端外侧局部张力、压痛与相关髋活动。","source_keys":["thigh_front"]},
+    {"item_id":"THIGH-LT-002","why":"大腿后侧紧绷或牵拉受限时，分区查看腘绳肌与周围软组织。","focus":"后侧局部张力、牵拉范围、压痛及左右差异。","source_keys":["thigh_back"]}
+  ],
+  "features": [
+    {"id":"AFM-0084-LIMIT","map_id":"AFM-0084","name":"伸膝活动受限","description":"主动或被动伸膝范围较对侧受限；比较伸直末端的角度和弹性。","source_keys":["knee_soft","knee_joint","hamstrings_knee"],"groups":[
+      {"goal":"软组织处理","methods":["股外侧肌手法松解","腘肌手法松解","腘绳肌手法松解／MET","小腿三头肌手法松解"]},
+      {"goal":"关节活动","methods":["膝关节伸直方向松动"]},
+      {"goal":"主动活动","methods":["主动终末伸膝活动"]}
+    ]},
+    {"id":"AFM-0076-LENGTH","map_id":"AFM-0076","source_keys":["knee_soft"],"groups":[{"goal":"软组织处理","methods":["腘肌手法松解"]},{"goal":"主动活动","methods":["主动膝屈伸与胫骨旋转活动"]}]},
+    {"id":"AFM-0095-CAPACITY","map_id":"AFM-0095","source_keys":["quad"],"groups":[{"goal":"募集与终末伸膝","methods":["股四头肌主动募集训练","终末伸膝训练","神经肌肉电刺激（NMES）辅助募集"]}]},
+    {"id":"AFM-0001-SCREEN","map_id":"AFM-0001","name":"踝背屈活动受限","description":"伸膝位或屈膝位主动、被动背屈范围与对侧不同，或背屈末端受限。","source_keys":["ankle_df"],"groups":[{"goal":"关节活动","methods":["距小腿关节松动"]},{"goal":"软组织处理","methods":["小腿三头肌手法松解","腓肠肌／比目鱼肌拉伸"]},{"goal":"主动活动","methods":["主动踝背屈活动"]}]},
+    {"id":"AFM-0002-RECORD-LIMIT","map_id":"AFM-0002","name":"距小腿关节活动受限","description":"距骨方向性活动或背屈末端活动与对侧不同。","source_keys":["ankle_df"],"groups":[{"goal":"关节活动","methods":["距小腿关节松动"]}]},
+    {"id":"AFM-0024-RECORD-LIMIT","map_id":"AFM-0024","name":"外翻活动受限","description":"主动或被动外翻范围较对侧受限。","source_keys":["ankle_ev","midfoot"],"groups":[{"goal":"关节活动","methods":["距下关节松动","中足关节松动"]},{"goal":"主动活动","methods":["主动足踝外翻活动"]}]},
+    {"id":"AFM-0020-RECORD-LIMIT","map_id":"AFM-0020","name":"跟骨／距下关节活动受限","description":"跟骨内翻或外翻方向性活动与对侧不同。","source_keys":["subtalar"],"groups":[{"goal":"关节活动","methods":["跟骨／距下关节松动"]}]},
+    {"id":"AFM-0021-RECORD-LIMIT","map_id":"AFM-0021","name":"中足方向性活动受限","description":"中足方向性活动受限，或骰骨邻近活动与对侧不同。","source_keys":["midfoot"],"groups":[{"goal":"关节活动","methods":["中足关节松动","骰骨松动"]}]},
+    {"id":"AFM-0005-CAPACITY","map_id":"AFM-0005","source_keys":["ankle_ev"],"groups":[{"goal":"外翻募集与力量","methods":["足踝外翻激活","足踝外翻抗阻训练"]},{"goal":"动作控制","methods":["侧向稳定任务训练"]}]},
+    {"id":"AFM-0044-TENSION","map_id":"AFM-0044","source_keys":["calf"],"groups":[{"goal":"软组织处理","methods":["腓肠肌手法松解","器械辅助软组织松解（筋膜刀）"]},{"goal":"拉伸","methods":["伸膝位腓肠肌拉伸"]}]},
+    {"id":"AFM-0045-LENGTH","map_id":"AFM-0045","source_keys":["calf"],"groups":[{"goal":"软组织处理","methods":["比目鱼肌手法松解","器械辅助软组织松解（筋膜刀）"]},{"goal":"拉伸","methods":["屈膝位小腿后侧拉伸"]}]},
+    {"id":"AFM-0106-RECORD-TENSION","map_id":"AFM-0106","name":"局部张力增加","description":"大腿近端外侧局部紧张，或阔筋膜张肌张力与对侧不同。","source_keys":["thigh_front"],"groups":[{"goal":"软组织处理","methods":["阔筋膜张肌手法松解"]}]},
+    {"id":"AFM-0100-RECORD-TENSION","map_id":"AFM-0100","name":"后侧紧张或牵拉受限","description":"大腿后侧局部紧绷，或后侧牵拉范围与对侧不同。","source_keys":["thigh_back"],"groups":[{"goal":"软组织处理","methods":["腘绳肌手法松解","腘绳肌MET","器械辅助软组织松解（筋膜刀）"]},{"goal":"拉伸","methods":["腘绳肌拉伸"]}]}
+  ],
+  "evidence_scope": "记录仅证明同次评估或处理记录中出现过相关表现与方法；不证明单一组织是病因，也不证明某项方法独立有效。保留待临床审核状态。股内斜肌激活归入股四头肌募集，不承诺能够独立选择性募集VMO。小腿三头肌记录不能验证腓肠肌与比目鱼肌的分别疗效。腓骨远端松动留作待补充入口；不写入胫腓联合稳定性测试，也不把近端、远端胫腓关节互换。原记录中的消炎、骨盆卡旋、术后时间及因果性判断不作为公开结论。未给无明确记录的条目统一追加理疗或松解。"
+}

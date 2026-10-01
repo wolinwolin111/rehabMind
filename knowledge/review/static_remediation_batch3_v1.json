@@ -1,0 +1,104 @@
+{
+  "batch": 3,
+  "approved_on": "2026-10-01",
+  "issue_ids": [
+    "STATIC-05",
+    "STATIC-06",
+    "STATIC-07",
+    "STATIC-08"
+  ],
+  "main": {
+    "01_Region": {
+      "LL-R-003": {
+        "related_tissues_source": "baseline://clinical-extension/LocationGuide/LOC-LL-MEDIAL\nhttps://www.ncbi.nlm.nih.gov/books/NBK537340/\nhttps://www.ncbi.nlm.nih.gov/books/NBK539913/"
+      },
+      "LL-R-007": {
+        "related_tissues_source": "baseline://clinical-extension/LocationGuide/LOC-LL-POSTMEDIAL\nhttps://www.ncbi.nlm.nih.gov/books/NBK537340/\nhttps://www.ncbi.nlm.nih.gov/books/NBK539913/"
+      }
+    },
+    "02_ClinicalItem": {
+      "AF-JNT-005": {
+        "display_name": "第2–5跖趾关节活动",
+        "check_focus": "第2–5跖趾关节主动/被动屈伸、跖侧压痛、足趾贴地及排列。"
+      },
+      "AF-ASM-004": {
+        "display_name": "第一跖趾关节活动",
+        "check_focus": "第一跖趾关节主动/被动屈伸、负重伸展及疼痛位置。"
+      },
+      "CORE-CAP-HF": {
+        "display_name": "拇趾屈曲力量",
+        "check_focus": "拇趾屈曲抗阻；力量、疼痛与左右差异。"
+      }
+    }
+  },
+  "extension": {
+    "ClinicalPurpose": {
+      "KNEE-CAP-PES": {
+        "Clinical_Purpose": "查看屈膝、髋内收发力与鹅足区局部压痛，分别对照主动输出和疼痛。",
+        "Assessment_Focus": "屈膝、髋内收抗阻；力量、耐力、疼痛与目标需求。",
+        "Source_URL": "https://www.ncbi.nlm.nih.gov/books/NBK534775/\nbook://magee-local#pdf=751,756&print=742,747"
+      },
+      "AF-JNT-005": {
+        "Item_Name": "第2–5跖趾关节活动",
+        "Assessment_Focus": "第2–5跖趾关节主动/被动屈伸、跖侧压痛、足趾贴地及排列。",
+        "Source_URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5241541/"
+      },
+      "AF-ASM-004": {
+        "Item_Name": "第一跖趾关节活动",
+        "Assessment_Focus": "第一跖趾关节主动/被动屈伸、负重伸展及疼痛位置。",
+        "Source_URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5241541/\nhttps://msk-bexley.nhs.uk/conditions/foot-and-ankle-pain/arthritis-of-the-first-toe-joint"
+      },
+      "CORE-CAP-HF": {
+        "Item_Name": "拇趾屈曲力量",
+        "Assessment_Focus": "拇趾屈曲抗阻；力量、疼痛与左右差异。",
+        "Source_URL": "baseline://database-v3.8/02_ClinicalItem/CORE-CAP-HF\nhttps://www.ncbi.nlm.nih.gov/books/NBK539705/\nbook://magee-local#pdf=882,889&print=873,880"
+      }
+    },
+    "FindingFeature": {
+      "AFM-0094-CAPACITY": {
+        "Source_URL": "https://www.ncbi.nlm.nih.gov/books/NBK534775/\nbook://magee-local#pdf=751,756&print=742,747"
+      },
+      "AFM-0076-SENSITIVITY": {
+        "Source_URL": "https://www.ncbi.nlm.nih.gov/books/NBK526084/\nbook://magee-local#pdf=751,756&print=742,747\nlocal-records://LR-9a5cba6e18ed#L10-L40\nlocal-records://LR-b62ce4e8b001#L105-L109"
+      }
+    },
+    "InterventionReference": {
+      "AFM-0050-TENSION-ACTIVE": {
+        "Treatment_Method": "拇趾与第2–5趾分离伸展；足趾展开练习",
+        "Source_Note": "8名健康运动员T2 MRI研究实际测试短足、足趾展开、拇趾伸展和第2–5趾伸展。此处仅列分离伸展与展开的区域活动/组合控制参考，不作为肌肉过紧、疼痛或活动受限的独立疗效依据，不声称单肌隔离。方法与发现的关联为临床编辑整理。"
+      },
+      "AFM-0051-TENSION-ACTIVE": {
+        "Treatment_Method": "拇趾与第2–5趾分离伸展；足趾展开练习",
+        "Source_Note": "8名健康运动员T2 MRI研究实际测试短足、足趾展开、拇趾伸展和第2–5趾伸展。此处仅列分离伸展与展开的区域活动/组合控制参考，不作为肌肉过紧、疼痛或活动受限的独立疗效依据，不声称单肌隔离。方法与发现的关联为临床编辑整理。"
+      },
+      "AFM-0052-TENSION-ACTIVE": {
+        "Treatment_Method": "拇趾与第2–5趾分离伸展；足趾展开练习",
+        "Source_Note": "8名健康运动员T2 MRI研究实际测试短足、足趾展开、拇趾伸展和第2–5趾伸展。此处仅列分离伸展与展开的区域活动/组合控制参考，不作为肌肉过紧、疼痛或活动受限的独立疗效依据，不声称单肌隔离。方法与发现的关联为临床编辑整理。"
+      },
+      "AFM-0023-LIMIT-ACTIVE": {
+        "Treatment_Method": "第2–5趾分离伸展；足趾展开练习",
+        "Source_Note": "8名健康运动员T2 MRI研究实际测试短足、足趾展开、拇趾伸展和第2–5趾伸展。此处仅列分离伸展与展开的区域活动/组合控制参考，不作为肌肉过紧、疼痛或活动受限的独立疗效依据，不声称单肌隔离。方法与发现的关联为临床编辑整理。 NHS跖板资料列足趾展开；未据其声称本条所有关节受限的治疗效果。"
+      },
+      "AFM-0075-TENSION-2": {
+        "Treatment_Goal": "相关主动活动"
+      },
+      "AFM-0110-KNEE-TASK": {
+        "Treatment_Method": "下蹲动作反馈练习；辅助下蹲练习"
+      },
+      "AFM-0112-KNEE-TASK": {
+        "Treatment_Method": "下台阶动作反馈练习；单腿负重控制练习"
+      },
+      "AFM-0113-KNEE-TASK": {
+        "Treatment_Method": "单腿下蹲动作反馈练习；辅助单腿下蹲练习"
+      },
+      "AFM-0116-KNEE-TASK": {
+        "Treatment_Method": "单腿落地动作反馈练习；单腿缓冲练习"
+      }
+    },
+    "DimensionGuide": {
+      "FUNCTION": {
+        "Public_Description": "结合相关动作，观察负重、支撑与动作配合。"
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "batch": 4,
+  "expected_fields_checked": 1131,
+  "changed_fields": 17,
+  "added_records": 87,
+  "unplanned_changes": 0,
+  "workbook_runtime_issues": 0,
+  "requests_checked": 501
+}

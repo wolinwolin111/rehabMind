@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "source_skin_sha256": "4a8d6c96029905d9c39f282fabfd2335b6067b4b1dc9605729ae85ab56e7cd9c",
+  "note": "Authoring configuration for this model only. Angles follow the actual leg cross-section: front 0, lateral +90, posterior +/-180, medial -90. The browser reads the baked surface atlas; these coordinates are not clinical anatomy boundaries or runtime classifiers.",
+  "subdivision": {"max_depth": 8, "boundary_edge_m": 0.0025},
+  "calf_chart": {
+    "y_range": [0.125, 0.445],
+    "section_heights": [0.125, 0.135, 0.145, 0.155, 0.165, 0.175, 0.185, 0.195, 0.205, 0.215, 0.225, 0.235, 0.245, 0.255, 0.265, 0.275, 0.285, 0.295, 0.305, 0.315, 0.325, 0.335, 0.345, 0.355, 0.365, 0.375, 0.385, 0.395, 0.405, 0.415, 0.425, 0.435, 0.445],
+    "patches": [
+      {"target": "AF-R-001", "y": [0.125, 0.145], "angle": [-50, 50]},
+      {"target": "AF-R-002", "y": [0.125, 0.145], "angle": [-145, -50]},
+      {"target": "AF-R-003", "y": [0.125, 0.145], "angle": [50, 145]},
+      {"target": "AF-R-004", "y": [0.125, 0.145], "angle": [145, 180]},
+      {"target": "AF-R-004", "y": [0.125, 0.145], "angle": [-180, -145]},
+      {"target": "KNEE-R-005", "y": [0.433, 0.445], "angle": [-40, 40]},
+      {"target": "KNEE-R-006", "y": [0.370, 0.433], "angle": [-22, 22], "relative_to": "tibial_front"},
+      {"target": "KNEE-R-011", "y": [0.400, 0.445], "angle": [60, 135]},
+      {"target": "KNEE-R-008", "y": [0.405, 0.445], "angle": [-90, -40]},
+      {"target": "KNEE-R-009", "y": [0.405, 0.445], "angle": [-145, -90]},
+      {"target": "KNEE-R-013", "y": [0.425, 0.445], "angle": [145, 180]},
+      {"target": "KNEE-R-013", "y": [0.425, 0.445], "angle": [-180, -145]},
+      {"target": "KNEE-R-014", "y": [0.425, 0.445], "angle": [135, 145]},
+      {"target": "LOC-KNEE-CALF-POST", "y": [0.385, 0.425], "angle": [135, 180]},
+      {"target": "LOC-KNEE-CALF-POST", "y": [0.385, 0.425], "angle": [-180, -145]},
+      {"target": "AF-R-004", "y": [0.145, 0.195], "angle": [160, 180]},
+      {"target": "AF-R-004", "y": [0.145, 0.195], "angle": [-180, -160]},
+      {"target": "LL-R-002", "y": [0.145, 0.445], "angle": [-16, 16], "relative_to": "tibial_front"},
+      {"target": "LL-R-005", "y": [0.285, 0.445], "angle": [135, 180]},
+      {"target": "LL-R-005", "y": [0.285, 0.445], "angle": [-180, -145]},
+      {"target": "LL-R-006", "y": [0.145, 0.285], "angle": [135, 180]},
+      {"target": "LL-R-006", "y": [0.145, 0.285], "angle": [-180, -145]},
+      {"target": "LOC-LL-POSTMEDIAL", "y": [0.145, 0.445], "angle": [-145, -110]},
+      {"target": "LOC-LL-MEDIAL", "y": [0.145, 0.445], "angle": [-110, 0]},
+      {"target": "LL-R-004", "y": [0.145, 0.445], "angle": [60, 135]},
+      {"target": "LL-R-001", "y": [0.145, 0.445], "angle": [0, 60]}
+    ]
+  },
+  "knee_chart": {
+    "y_range": [0.445, 0.500],
+    "section_heights": [0.445, 0.455, 0.465, 0.475, 0.485, 0.495, 0.500],
+    "patches": [
+      {"target": "KNEE-R-001", "y": [0.479, 0.500], "angle": [-45, 45]},
+      {"target": "KNEE-R-002", "y": [0.445, 0.479], "angle": [-45, 45], "patella_lateral_fraction": [0.28, 10]},
+      {"target": "KNEE-R-003", "y": [0.445, 0.479], "angle": [-45, 45], "patella_lateral_fraction": [-10, -0.28]},
+      {"target": "KNEE-R-004", "y": [0.445, 0.479], "angle": [-45, 45]},
+      {"target": "KNEE-R-007", "y": [0.445, 0.500], "angle": [-115, -45]},
+      {"target": "KNEE-R-009", "y": [0.445, 0.500], "angle": [-160, -115]},
+      {"target": "KNEE-R-011", "y": [0.445, 0.455], "angle": [45, 120]},
+      {"target": "KNEE-R-010", "y": [0.455, 0.475], "angle": [45, 120]},
+      {"target": "KNEE-R-012", "y": [0.475, 0.500], "angle": [45, 120]},
+      {"target": "KNEE-R-014", "y": [0.445, 0.500], "angle": [120, 160]},
+      {"target": "KNEE-R-013", "y": [0.445, 0.500], "angle": [160, 180]},
+      {"target": "KNEE-R-013", "y": [0.445, 0.500], "angle": [-180, -160]}
+    ]
+  },
+  "thigh_chart": {
+    "y_range": [0.500, 0.86], "abs_x": [0.001, 0.24],
+    "section_heights": [0.500, 0.515, 0.53, 0.55, 0.58, 0.62, 0.66, 0.70, 0.74, 0.78, 0.82, 0.86],
+    "patches": [
+      {"target": "KNEE-R-001", "y": [0.500, 0.515], "angle": [-25, 25]},
+      {"target": "THIGH-R-001", "angle": [-45, 45]},
+      {"target": "THIGH-R-004", "angle": [45, 135]},
+      {"target": "THIGH-R-002", "angle": [135, 180]},
+      {"target": "THIGH-R-002", "angle": [-180, -135]},
+      {"target": "THIGH-R-003", "angle": [-135, -45]}
+    ]
+  },
+  "foot_chart": {
+    "y_range": [-0.01, 0.125], "abs_x": [0.02, 0.22], "z_range": [-0.13, 0.19],
+    "ankle_start_y": 0.090, "ankle_low_y": 0.055, "ankle_front_limit": 0.032, "ankle_high_front_limit": 0.055,
+    "heel_plantar_front": 0.028, "heel_back_limit": -0.019,
+    "plantar_normal_y": -0.35,
+    "head_radius": [0.014, 0.013],
+    "toe_start_margin": 0.017,
+    "navicular_radius": [0.031, 0.033],
+    "navicular_y": [0.021, 0.073], "side_max_up_normal": 0.50, "medial_normal": -0.30, "lateral_normal": 0.30,
+    "fifth_base_front_margin": 0.055,
+    "toe_targets": ["LOC-TOE-HALLUX", "LOC-TOE-LESSER"],
+    "note": "Foot frame follows actual calcaneus, metatarsals and phalanges. Toe entries reuse existing tendon, MTP and control checks; no new distal toe pathology content."
+  },
+  "gesture_groups": [
+    {"target": "LOC-KNEE-CALF-POST", "members": ["KNEE-R-013", "LL-R-005"], "min_regions": 2, "min_fraction": 0.8, "closed_only": false},
+    {"target": "KNEE-R-015", "members": ["KNEE-R-001", "KNEE-R-002", "KNEE-R-003", "KNEE-R-004", "KNEE-R-005", "KNEE-R-006", "KNEE-R-007", "KNEE-R-008", "KNEE-R-009", "KNEE-R-010", "KNEE-R-011", "KNEE-R-012", "KNEE-R-013", "KNEE-R-014"], "min_regions": 3, "min_fraction": 0.7, "closed_only": true}
+  ]
+}

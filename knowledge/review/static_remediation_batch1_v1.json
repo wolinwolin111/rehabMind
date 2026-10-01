@@ -1,0 +1,83 @@
+{
+  "batch": 1,
+  "approved_on": "2026-10-01",
+  "issue_ids": [
+    "STATIC-01",
+    "STATIC-02",
+    "STATIC-03",
+    "STATIC-08-duplicate"
+  ],
+  "main": {
+    "02_ClinicalItem": {
+      "CORE-CAP-QUAD-RECRUIT": {
+        "check_focus": "比较主动伸膝与被动可达的伸直范围，观察股四头肌收缩质量、疼痛及代偿；与膝伸直活动度和膝伸力量分别查看。"
+      },
+      "KNEE-JNT-TIBROT": {
+        "check_focus": "屈膝位胫骨内外旋活动；屈伸末端伴随旋转及症状。"
+      }
+    }
+  },
+  "extension": {
+    "FindingFeature": {
+      "AFM-0086-LIMIT": {
+        "Finding_Name": "髌骨方向性活动受限",
+        "Finding_Feature": "髌骨上下或内外侧某方向被动活动较对侧减少。",
+        "Source_URL": "https://doi.org/10.2519/jospt.2018.0301\nbook://magee-local#pdf=751,756&print=742,747"
+      },
+      "AFM-0087-LIMIT": {
+        "Finding_Name": "近端胫腓关节活动受限",
+        "Finding_Feature": "腓骨头某方向附属活动较对侧减少。",
+        "Source_URL": "https://doi.org/10.2519/jospt.2018.0301\nbook://magee-local#pdf=751,756&print=742,747"
+      },
+      "AFM-0088-LIMIT": {
+        "Finding_Name": "胫骨旋转活动受限",
+        "Finding_Feature": "屈膝位胫骨内旋或外旋活动范围较对侧减少；可对照屈伸末端伴随旋转与症状。",
+        "Source_URL": "https://doi.org/10.2519/jospt.2018.0301\nbook://essentials-kinesiology-3-local#pdf=306,308&print=288,290"
+      },
+      "AFM-0068-LENGTH": {
+        "Finding_Name": "前侧股四头肌群牵拉受限或不适",
+        "Finding_Feature": "屈膝牵拉时前侧股四头肌群活动范围减少或出现牵拉不适；该动作不能单独评估股中间肌。",
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0068\nhttps://www.ncbi.nlm.nih.gov/books/NBK513334/\nbook://magee-local#pdf=751,756&print=742,747"
+      },
+      "AFM-0072-LENGTH": {
+        "Finding_Name": "内侧肌群组合牵拉受限或不适",
+        "Finding_Feature": "髋伸、内收结合膝伸时，内侧肌群牵拉范围减少或出现不适；不等同缝匠肌独立长度测试。",
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0072\nhttps://www.ncbi.nlm.nih.gov/books/NBK534775/\nbook://magee-local#pdf=751,756&print=742,747"
+      },
+      "AFM-0094-CAPACITY": {
+        "Finding_Name": "屈膝或内收输出下降或受疼痛限制",
+        "Finding_Feature": "屈膝或内收抗阻时力量、耐力下降，或受膝内侧疼痛限制；可与对侧、既往表现和目标需求对照。",
+        "Source_URL": "https://doi.org/10.2519/jospt.2019.0302\nbook://magee-local#pdf=751,756&print=742,747"
+      },
+      "AFM-0076-LENGTH": {
+        "Finding_Name": "伸膝或旋转末端后外侧紧绷",
+        "Finding_Feature": "膝伸直或胫骨旋转末端伴膝后外侧紧绷。",
+        "Source_URL": "local-records://LR-9a5cba6e18ed#L10-L40\nlocal-records://LR-b62ce4e8b001#L105-L109\nbook://magee-local#pdf=751,756&print=742,747"
+      },
+      "AFM-0100-RECORD-TENSION": {
+        "Finding_Name": "大腿后侧紧绷",
+        "Finding_Feature": "大腿后侧局部紧绷。",
+        "Source_URL": "local-records://LR-20a01619ecb0#L50-L55\nlocal-records://LR-20a01619ecb0#L73-L90\nbook://magee-local#pdf=751,756&print=742,747"
+      },
+      "AFM-0095-CAPACITY": {
+        "Finding_Name": "主动终末伸膝不足",
+        "Finding_Feature": "主动伸膝未达到被动可达的伸直范围。",
+        "Source_URL": "local-records://LR-4433b5bd593a#L15-L27\nlocal-records://LR-4633fe94481a#L23-L38\nbook://magee-local#pdf=751,756&print=742,747"
+      },
+      "AFM-0075-SENSITIVITY": {
+        "Finding_Feature": "阔筋膜张肌邻近肌腹按压，或髋屈或外展发力时出现疼痛；与关节线及肌腱止点分别查看。"
+      }
+    },
+    "ClinicalPurpose": {
+      "CORE-CAP-QUAD-RECRUIT": {
+        "Assessment_Focus": "主动伸膝与被动可达范围；收缩质量、疼痛与代偿。",
+        "Source_URL": "local-records://LR-4433b5bd593a#L15-L27\nlocal-records://LR-4633fe94481a#L23-L38\nbook://magee-local#pdf=751,756&print=742,747"
+      },
+      "KNEE-JNT-TIBROT": {
+        "Clinical_Purpose": "胫骨旋转包括屈膝位内外旋及膝屈伸末端的伴随运动，可分别对照范围和症状。",
+        "Assessment_Focus": "屈膝位内外旋活动；屈伸末端伴随旋转与症状。",
+        "Source_URL": "book://essentials-kinesiology-3-local#pdf=306,308&print=288,290\nbook://magee-local#pdf=751,756&print=742,747"
+      }
+    }
+  }
+}

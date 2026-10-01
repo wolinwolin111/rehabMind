@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-01",
+  "scope": "Two toe surface entries reuse existing assessments; no new diagnoses, findings or methods.",
+  "main": {},
+  "extension": {
+    "LocationGuide": {
+      "LOC-TOE-HALLUX": {
+        "Area_ID": "LOC-TOE-HALLUX",
+        "Display_Name": "拇趾",
+        "Region_IDs": "AF-R-012",
+        "Module_Codes": "ANKLE_FOOT",
+        "Related_Tissues": "肌腱：拇长伸肌腱；拇长屈肌腱\n根部关节：第一跖趾关节",
+        "Primary_Item_IDs": "CORE-MUS-EHL|CORE-MUS-FHL|AF-ASM-004|CORE-CAP-HF|CORE-CAP-ARCH-TOE",
+        "Additional_Item_IDs": "AF-MUS-017|AF-LT-012",
+        "Linked_Item_IDs": "CORE-SPT-NEURO-DISTAL",
+        "Assessment_Groups": "MUSCLE_STATE:相关肌腱与肌群|ROM:根部关节活动|CAPACITY:相关肌力|LOCAL:邻近局部组织|SPECIAL_TEST:补充检查|FUNCTION:相关动作观察",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "https://www.ncbi.nlm.nih.gov/books/NBK539705/\nhttps://www.ncbi.nlm.nih.gov/books/NBK539776/\nhttps://pubmed.ncbi.nlm.nih.gov/30969697/",
+        "Internal_Note": "足趾定位入口复用既有肌腱牵拉、抗阻、足趾控制及根部跖趾关节内容，不新增趾间关节、趾端或甲周问题。相关肌群检查不表示趾端疼痛来自肌腹。第一跖趾关节及籽骨局部组织仅为根部邻近参考。",
+        "Auto_Apply_To_Region": false
+      },
+      "LOC-TOE-LESSER": {
+        "Area_ID": "LOC-TOE-LESSER",
+        "Display_Name": "第2–5足趾",
+        "Region_IDs": "AF-R-011",
+        "Module_Codes": "ANKLE_FOOT",
+        "Related_Tissues": "肌腱：趾长伸肌腱；趾长屈肌腱\n根部关节：第2–5跖趾关节",
+        "Primary_Item_IDs": "CORE-MUS-EDL|CORE-MUS-FDL|AF-JNT-005|CORE-CAP-ARCH-TOE",
+        "Additional_Item_IDs": "AF-MUS-016|AF-LT-011",
+        "Linked_Item_IDs": "CORE-SPT-NEURO-DISTAL",
+        "Assessment_Groups": "MUSCLE_STATE:相关肌腱与肌群|ROM:根部关节活动|CAPACITY:相关肌力|LOCAL:邻近局部组织|SPECIAL_TEST:补充检查|FUNCTION:相关动作观察",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "https://www.ncbi.nlm.nih.gov/books/NBK539705/\nhttps://pubmed.ncbi.nlm.nih.gov/32156059/",
+        "Internal_Note": "第2–5足趾定位入口复用既有长屈伸趾肌牵拉、抗阻、足趾控制及根部跖趾关节内容，不新增趾间关节、趾端或甲周问题。相关肌群检查不表示趾端疼痛来自肌腹。跖骨头与跖板局部组织仅为根部邻近参考。",
+        "Auto_Apply_To_Region": false
+      }
+    }
+  }
+}

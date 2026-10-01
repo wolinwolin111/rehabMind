@@ -1,0 +1,40 @@
+{
+  "batch":"ankle-shared-review-v1",
+  "module":"ANKLE_FOOT",
+  "source_note":"依据截图复查踝足共用项目：撤下三条受限、疼痛或过度活动混合的旧基线条目，保留并细化已有具名方法；长屈肌牵拉受限与疼痛分开。内容为思路参考，待临床审核。",
+  "locations":[],"guides":[],"purposes":[],
+  "retired_features":["AFM-0002-BASELINE","AFM-0020-BASELINE","AFM-0021-BASELINE"],
+  "retired_references":["AFM-0002-BASELINE-METHODS","AFM-0020-BASELINE-METHODS","AFM-0021-BASELINE-METHODS"],
+  "features":[
+    {"Feature_ID":"AFM-0002-RECORD-LIMIT","Assessment_Map_ID":"AFM-0002","Finding_Name":"距小腿关节活动受限","Finding_Feature":"距骨前后方向的附属活动较对侧受限，或踝背屈末端范围减少。","Finding_Interpretation":"比较主动、被动踝背屈与距骨活动；疼痛表现另列。","Source_URL":"local-records://LR-a27906e6eaef#L23-L43\nlocal-records://LR-d64a19ea9ecf#L14-L15"},
+    {"Feature_ID":"AFM-0020-RECORD-LIMIT","Assessment_Map_ID":"AFM-0020","Finding_Name":"跟骨／距下关节活动受限","Finding_Feature":"跟骨内翻或外翻方向的被动活动较对侧受限，末端活动范围减少。","Finding_Interpretation":"方向性活动受限与活动时疼痛、活动过大分开查看。","Source_URL":"local-records://LR-a56bd1590204#L4-L8\nlocal-records://LR-146150af5fed#L135"},
+    {"Feature_ID":"AFM-0021-RECORD-LIMIT","Assessment_Map_ID":"AFM-0021","Finding_Name":"中足方向性活动受限","Finding_Feature":"中足内外翻、旋前旋后方向的活动较对侧受限，或骰骨邻近的附属活动减少。","Finding_Interpretation":"按具体方向与关节范围查看，不由足型确定某一关节受限。","Source_URL":"local-records://LR-26f2f03ac441#L33-L43"},
+    {"Feature_ID":"AFM-0002-PAIN","Assessment_Map_ID":"AFM-0002","Finding_Name":"踝关节活动时疼痛","Finding_Feature":"踝背屈、跖屈或距骨附属活动时出现疼痛；疼痛位置可能在踝前、踝后或内外踝。","Finding_Interpretation":"关节活动时疼痛可涉及关节、韧带和肌腱，单项活动不确定组织来源。","Related_Location_Prompt":"可回到模型选择疼痛部位，查看该部位的康复思路。","Related_Location_Action_Label":"选择疼痛部位","Source_URL":"baseline://database-v3.8/08_AssessmentFindingMap/AFM-0002"},
+    {"Feature_ID":"AFM-0020-PAIN","Assessment_Map_ID":"AFM-0020","Finding_Name":"内翻或外翻活动时疼痛","Finding_Feature":"跟骨内翻、外翻或距下关节附属活动时，足跟、内踝或外踝附近出现疼痛。","Finding_Interpretation":"区分足跟与内外踝的疼痛位置，再查看对应关节、韧带或肌腱内容。","Related_Location_Prompt":"可回到模型选择疼痛部位，查看该部位的康复思路。","Related_Location_Action_Label":"选择疼痛部位","Source_URL":"baseline://database-v3.8/08_AssessmentFindingMap/AFM-0020"},
+    {"Feature_ID":"AFM-0020-EXCESS","Assessment_Map_ID":"AFM-0020","Finding_Name":"跟骨方向性活动偏大","Finding_Feature":"跟骨内翻或外翻方向的被动活动较对侧大；另看负重时是否伴踩不稳或控制困难。","Finding_Interpretation":"活动范围较大与负重稳定表现分别查看，不由单项活动诊断韧带损伤。","Source_URL":"baseline://database-v3.8/08_AssessmentFindingMap/AFM-0020\nhttps://www.plymouthhospitals.nhs.uk/display-pil/pil-ankle-sprain-injury-3960/"},
+    {"Feature_ID":"AFM-0021-PAIN","Assessment_Map_ID":"AFM-0021","Finding_Name":"中足活动时疼痛","Finding_Feature":"中足旋前、旋后或关节附属活动时，足弓、足背或足外侧出现疼痛。","Finding_Interpretation":"中足疼痛可涉及关节、肌腱及骨面，需要结合具体范围查看。","Related_Location_Prompt":"可回到模型选择疼痛部位，查看该部位的康复思路。","Related_Location_Action_Label":"选择疼痛部位","Source_URL":"baseline://database-v3.8/08_AssessmentFindingMap/AFM-0021"},
+    {"Feature_ID":"AFM-0048-LENGTH","Assessment_Map_ID":"AFM-0048","Finding_Name":"趾长屈肌相关牵拉受限","Finding_Feature":"踝背屈结合第2至5趾伸展时，小腿后内侧或足趾的牵拉范围较对侧减少，或相关肌腹张力偏高。","Finding_Interpretation":"肌腹、内踝肌腱与足底不适分别查看；足趾牵拉涉及长屈肌、足内在肌及其他足底组织。","Source_URL":"baseline://database-v3.8/08_AssessmentFindingMap/AFM-0048\nhttps://www.leicspart.nhs.uk/wp-content/uploads/2024/08/556-Plantar-faciitis-A4.pdf\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC8159326/"},
+    {"Feature_ID":"AFM-0047-LENGTH","Assessment_Map_ID":"AFM-0047","Finding_Name":"拇长屈肌相关牵拉受限","Finding_Feature":"踝背屈结合拇趾伸展时，后内侧至拇趾的牵拉范围较对侧减少，或相关肌腹张力偏高。","Finding_Interpretation":"肌腹、内踝肌腱与足底不适分别查看；拇趾伸展受限还涉及第一跖趾关节及其他足底组织。","Source_URL":"baseline://database-v3.8/08_AssessmentFindingMap/AFM-0047\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC8726539/\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC8159326/"},
+    {"Feature_ID":"AFM-0048-PAIN","Assessment_Map_ID":"AFM-0048","Finding_Name":"伸趾牵拉或屈趾发力时疼痛","Finding_Feature":"第2至5趾伸展牵拉或屈趾抗阻时，小腿后内侧、内踝或足底出现疼痛；疼痛与单纯牵拉范围受限分开查看。","Finding_Interpretation":"疼痛可能位于肌腹、肌腱或足底，需结合按压位置及活动表现查看。","Related_Location_Prompt":"可回到模型选择疼痛部位，查看肌腹、内踝或足底对应的康复思路。","Related_Location_Action_Label":"选择疼痛部位","Source_URL":"baseline://database-v3.8/08_AssessmentFindingMap/AFM-0048\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC8159326/"},
+    {"Feature_ID":"AFM-0047-PAIN","Assessment_Map_ID":"AFM-0047","Finding_Name":"拇趾牵拉或屈曲发力时疼痛","Finding_Feature":"拇趾伸展牵拉或屈曲抗阻时，小腿后内侧、内踝或足底出现疼痛；疼痛与单纯牵拉范围受限分开查看。","Finding_Interpretation":"疼痛可能位于肌腹、肌腱、拇趾关节或足底，需结合具体位置查看。","Related_Location_Prompt":"可回到模型选择疼痛部位，查看肌腹、内踝或足底对应的康复思路。","Related_Location_Action_Label":"选择疼痛部位","Source_URL":"baseline://database-v3.8/08_AssessmentFindingMap/AFM-0047\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC8159326/"}
+  ],
+  "references":[
+    {"Reference_ID":"AFM-0002-LIMIT-ACTIVE","Feature_ID":"AFM-0002-RECORD-LIMIT","Treatment_Goal":"主动活动","Treatment_Method":"踝背屈主动活动；膝触墙背屈活动","Source_URL":"https://www.plymouthhospitals.nhs.uk/display-pil/pil-ankle-sprain-injury-3960/","Source_Note":"NHS踝扭伤资料具名列背屈及膝触墙活动，仅列方法，不导入阶段或剂量，不把所有背屈受限归于距小腿关节。"},
+    {"Reference_ID":"AFM-0020-LIMIT-ACTIVE","Feature_ID":"AFM-0020-RECORD-LIMIT","Treatment_Goal":"主动活动","Treatment_Method":"足踝内翻主动活动；足踝外翻主动活动","Source_URL":"local-records://LR-146150af5fed#L135\nhttps://www.plymouthhospitals.nhs.uk/display-pil/pil-ankle-sprain-injury-3960/","Source_Note":"原记录明确列跟骨外翻松动与站立位外翻活动，NHS列主动内外翻。主动动作涉及多个关节，不宣称单独隔离距下关节或保证疗效。"},
+    {"Reference_ID":"AFM-0021-LIMIT-ACTIVE","Feature_ID":"AFM-0021-RECORD-LIMIT","Treatment_Goal":"主动活动","Treatment_Method":"足部旋前、旋后主动活动","Source_URL":"https://www.plymouthhospitals.nhs.uk/display-pil/pil-ankle-sprain-injury-3960/","Source_Note":"把NHS抬足内外侧的主动活动列为足部整体活动参考，不宣称隔离某一中足关节。具体中足与骰骨松动沿用同项目已有授权记录。"},
+    {"Reference_ID":"AFM-0020-EXCESS-CONTROL","Feature_ID":"AFM-0020-EXCESS","Treatment_Goal":"伴负重稳定控制不足","Treatment_Method":"单腿平衡训练；多方向触地训练","Source_URL":"https://www.plymouthhospitals.nhs.uk/display-pil/pil-ankle-sprain-injury-3960/","Source_Note":"NHS列单腿平衡及星形触地，用于伴负重控制困难的思路参考，不治疗无症状的活动范围偏大，不对应关节松动，也不把距下关节活动偏大诊断为踝扭伤。"},
+    {"Reference_ID":"AFM-0048-LENGTH-STRETCH","Feature_ID":"AFM-0048-LENGTH","Treatment_Goal":"牵伸与活动","Treatment_Method":"长屈趾肌牵伸（第2至5趾）；第2至5趾主动屈伸活动","Source_URL":"https://www.leicspart.nhs.uk/wp-content/uploads/2024/08/556-Plantar-faciitis-A4.pdf\nhttps://www.plymouthhospitals.nhs.uk/display-pil/pil-ankle-sprain-injury-3960/","Source_Note":"LPT NHS资料明确列long-toe flexor stretch；Plymouth NHS列足趾屈曲活动。属于相关屈趾肌与足底组织活动参考，不能分离证明FDL专属疗效；没有导入足底筋膜方案或剂量。"},
+    {"Reference_ID":"AFM-0048-LENGTH-MUSCLE","Feature_ID":"AFM-0048-LENGTH","Treatment_Goal":"伴肌腹紧张","Treatment_Method":"趾长屈肌肌腹手法松解","Source_URL":"https://pmc.ncbi.nlm.nih.gov/articles/PMC8159326/","Source_Note":"单病例明确记载FDL与FHL软组织处理，支持方法出现过，不证明独立疗效。只列肌腹方法，不移用其深层肌腱操作、器械处理或疼痛诱发步骤；麻刺痛、骨面及急性损伤另看对应评估。授权本地记录未发现FDL具名处理，不冒充线下记录出处。"},
+    {"Reference_ID":"AFM-0047-LENGTH-STRETCH","Feature_ID":"AFM-0047-LENGTH","Treatment_Goal":"牵伸与活动","Treatment_Method":"拇长屈肌牵伸（踝背屈结合拇趾伸展）；拇趾主动屈伸活动","Source_URL":"https://pmc.ncbi.nlm.nih.gov/articles/PMC8726539/\nhttps://www.plymouthhospitals.nhs.uk/display-pil/pil-ankle-sprain-injury-3960/","Source_Note":"FHL特异牵伸来自单中心回顾性腱病研究，非随机独立疗效证据；只列具名牵伸参考，不将牵拉表现诊断为腱病，不导入最大幅度、平台、剂量或固定方案。主动屈伸是足趾活动参考，不宣称隔离FHL。"},
+    {"Reference_ID":"AFM-0047-LENGTH-MUSCLE","Feature_ID":"AFM-0047-LENGTH","Treatment_Goal":"伴肌腹紧张","Treatment_Method":"拇长屈肌肌腹手法松解","Source_URL":"https://pmc.ncbi.nlm.nih.gov/articles/PMC8159326/","Source_Note":"单病例记载FHL与FDL软组织处理，仅证明方法曾用于个案，不证明独立疗效。只列肌腹思路，不复制深层肌腱操作、器械处理或疼痛诱发步骤。授权本地记录没有具名FHL处理，不标作本地经验。"}
+  ],
+  "gap_dispositions":{
+    "AFM-0002-PAIN":{"category":"按疼痛位置继续查看","reason":"方向性疼痛未确定关节或周围组织，保留定位提示，具名松动只关联受限表现。"},
+    "AFM-0020-PAIN":{"category":"按疼痛位置继续查看","reason":"内外翻痛可涉及韧带、肌腱或骨面，按具体疼痛部位继续查看。"},
+    "AFM-0021-PAIN":{"category":"按疼痛位置继续查看","reason":"中足活动痛需分关节、肌腱或骨面，足弓和前足内容仍待后批。"},
+    "AFM-0048-LENGTH":{"category":"已补具名参考","reason":"相关屈趾牵伸、主动屈伸与伴肌腹紧张的手法参考有来源；不声称单肌独立疗效。"},
+    "AFM-0047-LENGTH":{"category":"已补具名参考","reason":"具名FHL牵伸与伴肌腹紧张的手法参考有来源；保留研究适用限制。"},
+    "AFM-0048-PAIN":{"category":"按疼痛位置继续查看","reason":"单纯疼痛与牵拉范围受限分开；内踝屈趾肌腱及足底内容仍待细化，不将松解或牵伸套用于所有痛。"},
+    "AFM-0047-PAIN":{"category":"按疼痛位置继续查看","reason":"需分肌腹、内踝肌腱和足底/拇趾关节位置，目标内容仍待完善。"}
+  }
+}

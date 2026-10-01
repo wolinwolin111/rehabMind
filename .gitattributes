@@ -1,0 +1,15 @@
+* text=auto eol=lf
+*.sh text eol=lf
+gradlew text eol=lf
+*.xlsx binary
+*.docx binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gz binary
+*.pack binary
+*.bin binary
+*.jar binary
+# Large reference demos contain embedded model data.
+docs/G5_88_CleanArchitecture_UIRegression_v14_CardTextClean.html -diff
+baseline/**/03_UI_Reference/*.html -diff

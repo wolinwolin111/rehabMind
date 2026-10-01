@@ -1,0 +1,888 @@
+{
+  "version": "v3.8",
+  "context_migration": [
+    {
+      "rule_id": "AF-MF-01",
+      "name": "踝背屈需求增加",
+      "module_codes": "ANKLE_FOOT",
+      "original_target": "CORE-ROM-ANK-DF / AF-ASM-002 / CORE-MUS-GASTROC / CORE-MUS-SOLEUS",
+      "linked_items": [
+        "CORE-ROM-ANK-DF",
+        "AF-ASM-002",
+        "CORE-MUS-GASTROC",
+        "CORE-MUS-SOLEUS"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "AF-MF-02",
+      "name": "跖屈推进需求",
+      "module_codes": "ANKLE_FOOT",
+      "original_target": "CORE-CAP-PF / AF-ASM-004 / AF-TASK-002 / AF-LT-004 / AF-LT-005",
+      "linked_items": [
+        "AF-ASM-004",
+        "AF-LT-004",
+        "AF-LT-005",
+        "CORE-CAP-PF",
+        "AF-TASK-002"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "AF-MF-03",
+      "name": "单腿稳定需求",
+      "module_codes": "ANKLE_FOOT",
+      "original_target": "AF-TASK-001 / CORE-CAP-EV / CORE-CAP-ARCH-TOE",
+      "linked_items": [
+        "CORE-CAP-EV",
+        "CORE-CAP-ARCH-TOE",
+        "AF-TASK-001"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "AF-MF-04",
+      "name": "内外侧负荷转移",
+      "module_codes": "ANKLE_FOOT",
+      "original_target": "AF-JNT-002 / AF-JNT-003 / CORE-MUS-PL / CORE-MUS-PB / CORE-MUS-TP / AF-TASK-001",
+      "linked_items": [
+        "CORE-MUS-PL",
+        "CORE-MUS-PB",
+        "CORE-MUS-TP",
+        "AF-JNT-002",
+        "AF-JNT-003",
+        "AF-TASK-001"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "AF-MF-05",
+      "name": "前足/大脚趾推进需求",
+      "module_codes": "ANKLE_FOOT",
+      "original_target": "AF-ASM-004 / AF-LT-011 / AF-LT-012 / AF-TASK-002",
+      "linked_items": [
+        "AF-ASM-004",
+        "AF-LT-011",
+        "AF-LT-012",
+        "AF-TASK-002"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "AF-MF-06",
+      "name": "反复提踵/跖屈需求",
+      "module_codes": "ANKLE_FOOT",
+      "original_target": "CORE-CAP-PF / AF-LT-004 / AF-LT-005",
+      "linked_items": [
+        "AF-LT-004",
+        "AF-LT-005",
+        "CORE-CAP-PF"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "AF-MF-07",
+      "name": "静态持续负重背景",
+      "module_codes": "ANKLE_FOOT",
+      "original_target": "局部组织、关节/肌肉状态按症状区域检查",
+      "linked_items": [],
+      "visible": false
+    },
+    {
+      "rule_id": "AF-MF-08",
+      "name": "休息后重新负重",
+      "module_codes": "ANKLE_FOOT",
+      "original_target": "AF-LT-006 / AF-LT-007 / CORE-ROM-ANK-DF / CORE-MUS-GASTROC / CORE-MUS-SOLEUS",
+      "linked_items": [
+        "CORE-ROM-ANK-DF",
+        "CORE-MUS-GASTROC",
+        "CORE-MUS-SOLEUS",
+        "AF-LT-006",
+        "AF-LT-007"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "AF-CTR-01",
+      "name": "踝背屈受限/前踝相关",
+      "module_codes": "ANKLE_FOOT",
+      "original_target": "CORE-ROM-ANK-DF / CORE-MUS-GASTROC / CORE-MUS-SOLEUS",
+      "linked_items": [
+        "CORE-ROM-ANK-DF",
+        "CORE-MUS-GASTROC",
+        "CORE-MUS-SOLEUS"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "AF-CTR-02",
+      "name": "后踝/跟腱",
+      "module_codes": "ANKLE_FOOT",
+      "original_target": "CORE-MUS-GASTROC / CORE-MUS-SOLEUS / CORE-CAP-PF",
+      "linked_items": [
+        "CORE-MUS-GASTROC",
+        "CORE-MUS-SOLEUS",
+        "CORE-CAP-PF"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "AF-CTR-03",
+      "name": "外踝/外侧足",
+      "module_codes": "ANKLE_FOOT",
+      "original_target": "CORE-MUS-PL / CORE-MUS-PB / CORE-CAP-EV",
+      "linked_items": [
+        "CORE-MUS-PL",
+        "CORE-MUS-PB",
+        "CORE-CAP-EV"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "AF-CTR-04",
+      "name": "内踝/足弓内侧",
+      "module_codes": "ANKLE_FOOT",
+      "original_target": "CORE-MUS-TP / CORE-MUS-FHL / CORE-MUS-FDL / CORE-CAP-INV / CORE-CAP-ARCH-TOE",
+      "linked_items": [
+        "CORE-MUS-TP",
+        "CORE-MUS-FHL",
+        "CORE-MUS-FDL",
+        "CORE-CAP-INV",
+        "CORE-CAP-ARCH-TOE"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "AF-CTR-05",
+      "name": "踝足动态任务",
+      "module_codes": "ANKLE_FOOT",
+      "original_target": "Knee Regional Assessment Entry",
+      "linked_items": [],
+      "visible": false
+    },
+    {
+      "rule_id": "AF-CTR-06",
+      "name": "踝足动态任务",
+      "module_codes": "ANKLE_FOOT",
+      "original_target": "Future Thigh/Hip Regional Entry",
+      "linked_items": [],
+      "visible": false
+    },
+    {
+      "rule_id": "AF-CTR-07",
+      "name": "踝局部问题",
+      "module_codes": "ANKLE_FOOT",
+      "original_target": "对应Foot L3 Regional Entry",
+      "linked_items": [],
+      "visible": false
+    },
+    {
+      "rule_id": "AF-CTR-08",
+      "name": "足跟/足底/前足",
+      "module_codes": "ANKLE_FOOT",
+      "original_target": "CORE-ROM-ANK-DF / CORE-MUS-GASTROC / CORE-MUS-SOLEUS / CORE-CAP-PF",
+      "linked_items": [
+        "CORE-ROM-ANK-DF",
+        "CORE-MUS-GASTROC",
+        "CORE-MUS-SOLEUS",
+        "CORE-CAP-PF"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "K-CHAIN-001",
+      "name": "Knee",
+      "module_codes": "KNEE",
+      "original_target": null,
+      "linked_items": [],
+      "visible": false
+    },
+    {
+      "rule_id": "K-CHAIN-002",
+      "name": "Knee",
+      "module_codes": "KNEE",
+      "original_target": null,
+      "linked_items": [],
+      "visible": false
+    },
+    {
+      "rule_id": "K-CHAIN-003",
+      "name": "Knee",
+      "module_codes": "KNEE",
+      "original_target": null,
+      "linked_items": [],
+      "visible": false
+    },
+    {
+      "rule_id": "K-CHAIN-004",
+      "name": "Knee",
+      "module_codes": "KNEE",
+      "original_target": null,
+      "linked_items": [],
+      "visible": false
+    },
+    {
+      "rule_id": "K-CHAIN-005",
+      "name": "Knee",
+      "module_codes": "KNEE",
+      "original_target": null,
+      "linked_items": [],
+      "visible": false
+    },
+    {
+      "rule_id": "K-CHAIN-006",
+      "name": "Knee",
+      "module_codes": "KNEE",
+      "original_target": null,
+      "linked_items": [],
+      "visible": false
+    },
+    {
+      "rule_id": "K-CHAIN-007",
+      "name": "Knee",
+      "module_codes": "KNEE",
+      "original_target": null,
+      "linked_items": [],
+      "visible": false
+    },
+    {
+      "rule_id": "K-CHAIN-008",
+      "name": "Knee",
+      "module_codes": "KNEE",
+      "original_target": null,
+      "linked_items": [],
+      "visible": false
+    },
+    {
+      "rule_id": "K-CHAIN-009",
+      "name": "Knee",
+      "module_codes": "KNEE",
+      "original_target": null,
+      "linked_items": [],
+      "visible": false
+    },
+    {
+      "rule_id": "AF-MF-09",
+      "name": "走路/步态",
+      "module_codes": "ANKLE_FOOT",
+      "original_target": "AF-TASK-002 / CORE-CAP-PF / AF-ASM-004 / 对应L3局部组织",
+      "linked_items": [
+        "AF-ASM-004",
+        "CORE-CAP-PF",
+        "AF-TASK-002"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "AF-MF-10",
+      "name": "下蹲/台阶",
+      "module_codes": "ANKLE_FOOT",
+      "original_target": "CORE-ROM-ANK-DF / AF-ASM-002 / CORE-CAP-ARCH-TOE；若出现明确单腿控制问题再看AF-TASK-001",
+      "linked_items": [
+        "CORE-ROM-ANK-DF",
+        "AF-ASM-002",
+        "CORE-CAP-ARCH-TOE",
+        "AF-TASK-001"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "AF-MF-11",
+      "name": "跑跳/落地/变向",
+      "module_codes": "ANKLE_FOOT",
+      "original_target": "AF-TASK-001 / CORE-CAP-EV / CORE-CAP-PF；按症状区域叠加对应局部组织/关节项",
+      "linked_items": [
+        "CORE-CAP-PF",
+        "CORE-CAP-EV",
+        "AF-TASK-001"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "AF-CX-01",
+      "name": "反复崴脚/打软/主观不稳或明确内翻扭伤史",
+      "module_codes": "ANKLE_FOOT",
+      "original_target": "AF-SPT-001；如CFL/外踝下方线索再追加AF-SPT-002",
+      "linked_items": [
+        "AF-SPT-001",
+        "AF-SPT-002"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "AF-CX-02",
+      "name": "高位踝/外旋机制线索",
+      "module_codes": "ANKLE_FOOT",
+      "original_target": "AF-SPT-003",
+      "linked_items": [
+        "AF-SPT-003"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "AF-CX-03",
+      "name": "足底/足跟第一步痛或足底筋膜走行线索",
+      "module_codes": "ANKLE_FOOT",
+      "original_target": "AF-SPT-004",
+      "linked_items": [
+        "AF-SPT-004"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "AF-CX-04",
+      "name": "麻木/电流感/灼痛/放射或感觉异常",
+      "module_codes": "ANKLE_FOOT",
+      "original_target": "CORE-SPT-NEURO-DISTAL",
+      "linked_items": [
+        "CORE-SPT-NEURO-DISTAL"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "AF-SAF-01",
+      "name": "急性后踝突然蹬地/响声/明显无力",
+      "module_codes": "ANKLE_FOOT",
+      "original_target": "AF-SAF-001",
+      "linked_items": [],
+      "visible": true
+    },
+    {
+      "rule_id": "AF-SAF-02",
+      "name": "急性踝足外伤骨折风险",
+      "module_codes": "ANKLE_FOOT",
+      "original_target": "AF-SAF-002",
+      "linked_items": [],
+      "visible": true
+    },
+    {
+      "rule_id": "LL-CX-01",
+      "name": "固定时间/距离后前外侧小腿胀痛紧绷",
+      "module_codes": "LOWER_LEG",
+      "original_target": "LL-SPT-001",
+      "linked_items": [
+        "LL-SPT-001"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "LL-SAF-01",
+      "name": "急性小腿进行性剧痛/紧张肿胀",
+      "module_codes": "LOWER_LEG",
+      "original_target": "CORE-SAF-ACS",
+      "linked_items": [],
+      "visible": true
+    },
+    {
+      "rule_id": "LL-SAF-02",
+      "name": "胫骨骨应力风险线索",
+      "module_codes": "LOWER_LEG",
+      "original_target": "LL-SAF-001",
+      "linked_items": [],
+      "visible": true
+    },
+    {
+      "rule_id": "LL-MF-01",
+      "name": "跑步/跳跃/持续冲击负荷",
+      "module_codes": "LOWER_LEG",
+      "original_target": "LL-LT-002 / LL-LT-003 / CORE-CAP-DF / CORE-ROM-ANK-DF",
+      "linked_items": [
+        "CORE-ROM-ANK-DF",
+        "CORE-CAP-DF",
+        "LL-LT-002",
+        "LL-LT-003"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "LL-CX-02",
+      "name": "小腿外侧麻木/足背感觉异常",
+      "module_codes": "LOWER_LEG",
+      "original_target": "CORE-SPT-NEURO-DISTAL",
+      "linked_items": [
+        "CORE-SPT-NEURO-DISTAL"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "LL-CX-03",
+      "name": "小腿后内侧深层伴足底感觉异常",
+      "module_codes": "LOWER_LEG",
+      "original_target": "CORE-SPT-NEURO-DISTAL",
+      "linked_items": [
+        "CORE-SPT-NEURO-DISTAL"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "LL-MF-02",
+      "name": "加速/冲刺/蹬伸或跳跃",
+      "module_codes": "LOWER_LEG",
+      "original_target": "LL-LT-005 / CORE-MUS-GASTROC / CORE-CAP-PF；必要时LL-LT-006 / CORE-MUS-SOLEUS",
+      "linked_items": [
+        "CORE-MUS-GASTROC",
+        "CORE-MUS-SOLEUS",
+        "CORE-CAP-PF",
+        "LL-LT-005",
+        "LL-LT-006"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "LL-MF-03",
+      "name": "持续走跑/反复提踵",
+      "module_codes": "LOWER_LEG",
+      "original_target": "LL-LT-006 / CORE-MUS-SOLEUS / CORE-CAP-PF；按定位叠加LL-LT-007",
+      "linked_items": [
+        "CORE-MUS-SOLEUS",
+        "CORE-CAP-PF",
+        "LL-LT-006",
+        "LL-LT-007"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "LL-SAF-03",
+      "name": "无法解释的单侧小腿肿胀/发热/发红或深部压痛",
+      "module_codes": "LOWER_LEG",
+      "original_target": "CORE-SAF-VTE",
+      "linked_items": [],
+      "visible": true
+    },
+    {
+      "rule_id": "KNEE-MF-01",
+      "name": "下台阶",
+      "module_codes": "KNEE",
+      "original_target": "KNEE-TASK-DYN / CORE-CAP-KNEE-EXT / CORE-CAP-QUAD-RECRUIT / KNEE-ROM-EXT / KNEE-ROM-FLEX",
+      "linked_items": [
+        "KNEE-PATTERN-SINGLE",
+        "CORE-CAP-KNEE-EXT",
+        "CORE-CAP-QUAD-RECRUIT",
+        "KNEE-ROM-EXT",
+        "KNEE-ROM-FLEX"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "KNEE-MF-02",
+      "name": "跑步",
+      "module_codes": "KNEE",
+      "original_target": "KNEE-TASK-DYN / CORE-CAP-KNEE-EXT / KNEE-CAP-HIPABD / KNEE-CAP-HIPEXT；按L3叠加局部组织/活动度",
+      "linked_items": [
+        "KNEE-PATTERN-GAIT",
+        "CORE-CAP-KNEE-EXT",
+        "KNEE-CAP-HIPABD",
+        "KNEE-CAP-HIPEXT"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "KNEE-MF-03",
+      "name": "步行",
+      "module_codes": "KNEE",
+      "original_target": "KNEE-TASK-DYN / KNEE-ROM-EXT / KNEE-ROM-FLEX；按L3叠加局部组织",
+      "linked_items": [
+        "KNEE-PATTERN-GAIT",
+        "KNEE-ROM-EXT",
+        "KNEE-ROM-FLEX"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "KNEE-CX-01",
+      "name": "持续活动后才出现不适",
+      "module_codes": "KNEE",
+      "original_target": "记录剂量/时机，并比较初期与后期肌肉状态、能力和任务表现",
+      "linked_items": [
+        "CORE-CAP-KNEE-EXT"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "KNEE-CX-02",
+      "name": "疼痛性弹响/摩擦/刮擦/非锁住卡顿",
+      "module_codes": "KNEE",
+      "original_target": "KNEE-SPT-MECH",
+      "linked_items": [
+        "KNEE-SPT-MECH"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "KNEE-CX-03",
+      "name": "麻木/放射/感觉异常或明显远端功能性无力",
+      "module_codes": "KNEE",
+      "original_target": "CORE-SPT-NEURO-DISTAL",
+      "linked_items": [
+        "CORE-SPT-NEURO-DISTAL"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "KNEE-CX-04",
+      "name": "上游髋/大腿线索",
+      "module_codes": "KNEE",
+      "original_target": "KNEE-CHAIN-HIP-ROM / KNEE-CAP-HIPABD / KNEE-CAP-HIPEXT / KNEE-MUS-HIPFLEX",
+      "linked_items": [
+        "KNEE-MUS-HIPFLEX",
+        "KNEE-CHAIN-HIP-ROM",
+        "KNEE-CAP-HIPABD",
+        "KNEE-CAP-HIPEXT"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "KNEE-CX-05",
+      "name": "下游踝/足线索",
+      "module_codes": "KNEE",
+      "original_target": "CORE-ROM-ANK-DF / CORE-MUS-GASTROC / CORE-MUS-SOLEUS / CORE-CAP-EV / CORE-CAP-PF",
+      "linked_items": [
+        "CORE-ROM-ANK-DF",
+        "CORE-MUS-GASTROC",
+        "CORE-MUS-SOLEUS",
+        "CORE-CAP-PF",
+        "CORE-CAP-EV"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "KNEE-SAF-01",
+      "name": "明确急性外伤/明显肿胀/真正锁住/反复明显失稳",
+      "module_codes": "KNEE",
+      "original_target": "KNEE-SAF-001",
+      "linked_items": [],
+      "visible": true
+    },
+    {
+      "rule_id": "THIGH-MF-01",
+      "name": "冲刺/加速/高速跑",
+      "module_codes": "THIGH",
+      "original_target": "THIGH-LT-001 / THIGH-LT-002 / CORE-MUS-RF / CORE-MUS-BF / CORE-MUS-ST / CORE-MUS-SM / CORE-CAP-KNEE-EXT / CORE-CAP-KNEE-FLEX",
+      "linked_items": [
+        "CORE-MUS-RF",
+        "CORE-MUS-BF",
+        "CORE-MUS-ST",
+        "CORE-MUS-SM",
+        "CORE-CAP-KNEE-EXT",
+        "CORE-CAP-KNEE-FLEX",
+        "THIGH-LT-001",
+        "THIGH-LT-002"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "THIGH-MF-02",
+      "name": "踢腿/跳跃/快速蹬伸",
+      "module_codes": "THIGH",
+      "original_target": "THIGH-LT-001 / CORE-MUS-RF / CORE-MUS-VL / CORE-CAP-KNEE-EXT / CORE-CAP-QUAD-RECRUIT",
+      "linked_items": [
+        "CORE-MUS-RF",
+        "CORE-MUS-VL",
+        "CORE-CAP-KNEE-EXT",
+        "CORE-CAP-QUAD-RECRUIT",
+        "THIGH-LT-001"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "THIGH-MF-03",
+      "name": "侧向移动/变向/大跨步",
+      "module_codes": "THIGH",
+      "original_target": "THIGH-LT-003 / THIGH-MUS-AL / THIGH-MUS-AM / THIGH-CAP-ADD",
+      "linked_items": [
+        "THIGH-LT-003",
+        "THIGH-MUS-AL",
+        "THIGH-MUS-AM",
+        "THIGH-CAP-ADD"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "THIGH-CX-01",
+      "name": "麻木/放射/感觉异常",
+      "module_codes": "THIGH",
+      "original_target": "CORE-SPT-NEURO-DISTAL",
+      "linked_items": [
+        "CORE-SPT-NEURO-DISTAL"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "THIGH-SAF-01",
+      "name": "急性创伤后进行性剧痛/紧张肿胀",
+      "module_codes": "THIGH",
+      "original_target": "CORE-SAF-ACS",
+      "linked_items": [],
+      "visible": true
+    },
+    {
+      "rule_id": "THIGH-SAF-02",
+      "name": "无法解释的单侧大腿肿胀/温热/发红",
+      "module_codes": "THIGH",
+      "original_target": "CORE-SAF-VTE",
+      "linked_items": [],
+      "visible": true
+    },
+    {
+      "rule_id": "THIGH-SAF-03",
+      "name": "深部局灶大腿痛随跑跳/负重逐步加重",
+      "module_codes": "THIGH",
+      "original_target": "THIGH-SAF-001",
+      "linked_items": [],
+      "visible": true
+    },
+    {
+      "rule_id": "CORE-PROFILE-YOUTH",
+      "name": "青少年生长发育阶段",
+      "module_codes": "KNEE|ANKLE_FOOT|LOWER_LEG|THIGH",
+      "original_target": "骨骺/骨突等生长相关结构；近期快速长高/生长速度变化；训练负荷与生长阶段是否匹配；足弓与下肢发育；必要时扩大到整体姿势/脊柱发育筛查",
+      "linked_items": [],
+      "visible": true
+    },
+    {
+      "rule_id": "CORE-PROFILE-OLDER",
+      "name": "中老年阶段额外考虑",
+      "module_codes": "KNEE|ANKLE_FOOT|LOWER_LEG|THIGH",
+      "original_target": "骨健康；既往脆性骨折风险背景；平衡与跌倒；慢性疾病/长期用药背景；基础日常活动与整体功能；肌力与整体活动水平",
+      "linked_items": [],
+      "visible": true
+    },
+    {
+      "rule_id": "CORE-PROFILE-PREGNANCY",
+      "name": "孕期额外临床考虑",
+      "module_codes": "KNEE|ANKLE_FOOT|LOWER_LEG|THIGH",
+      "original_target": "当前运动方式是否需要调整；躯干/骨盆功能与负荷变化；是否存在产科或医学运动限制；必要时结合产科/相关医生意见",
+      "linked_items": [],
+      "visible": true
+    },
+    {
+      "rule_id": "CORE-PROFILE-POSTPARTUM",
+      "name": "产后阶段额外临床考虑",
+      "module_codes": "KNEE|ANKLE_FOOT|LOWER_LEG|THIGH",
+      "original_target": "腹壁功能；盆底功能；躯干-骨盆控制；重返运动进度；睡眠/恢复背景；分娩方式与恢复情况仅在临床相关时进一步询问",
+      "linked_items": [],
+      "visible": true
+    },
+    {
+      "rule_id": "CORE-PROFILE-MENOPAUSE",
+      "name": "围绝经/绝经后额外考虑",
+      "module_codes": "KNEE|ANKLE_FOOT|LOWER_LEG|THIGH",
+      "original_target": "骨健康；肌力/肌肉量变化；整体活动能力；关节症状背景；恢复与训练负荷",
+      "linked_items": [],
+      "visible": true
+    },
+    {
+      "rule_id": "KNEE-MF-04",
+      "name": "下蹲",
+      "module_codes": "KNEE",
+      "original_target": null,
+      "linked_items": [
+        "KNEE-PATTERN-BILATERAL",
+        "CORE-CAP-KNEE-EXT",
+        "CORE-CAP-QUAD-RECRUIT",
+        "KNEE-ROM-EXT",
+        "KNEE-ROM-FLEX"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "KNEE-MF-05",
+      "name": "上台阶",
+      "module_codes": "KNEE",
+      "original_target": null,
+      "linked_items": [
+        "KNEE-PATTERN-SINGLE",
+        "CORE-CAP-KNEE-EXT",
+        "CORE-CAP-QUAD-RECRUIT",
+        "KNEE-ROM-EXT",
+        "KNEE-ROM-FLEX"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "KNEE-MF-06",
+      "name": "单腿下蹲",
+      "module_codes": "KNEE",
+      "original_target": null,
+      "linked_items": [
+        "KNEE-PATTERN-SINGLE",
+        "CORE-CAP-KNEE-EXT",
+        "KNEE-CAP-HIPABD",
+        "KNEE-CAP-HIPEXT"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "KNEE-MF-07",
+      "name": "跳跃／落地",
+      "module_codes": "KNEE",
+      "original_target": null,
+      "linked_items": [
+        "KNEE-PATTERN-LANDING",
+        "CORE-CAP-KNEE-EXT",
+        "KNEE-CAP-HIPABD",
+        "KNEE-CAP-HIPEXT"
+      ],
+      "visible": true
+    },
+    {
+      "rule_id": "KNEE-MF-08",
+      "name": "急停／变向",
+      "module_codes": "KNEE",
+      "original_target": null,
+      "linked_items": [
+        "KNEE-PATTERN-DIRECTION",
+        "CORE-CAP-KNEE-EXT",
+        "KNEE-CAP-HIPABD",
+        "KNEE-CAP-HIPEXT"
+      ],
+      "visible": true
+    }
+  ],
+  "added_presentation": [
+    {
+      "rule_id": "AF-CX-04",
+      "module": "ANKLE_FOOT",
+      "item_id": "CORE-SPT-NEURO-DISTAL"
+    },
+    {
+      "rule_id": "LL-CX-01",
+      "module": "LOWER_LEG",
+      "item_id": "LL-SPT-001"
+    },
+    {
+      "rule_id": "LL-CX-02",
+      "module": "LOWER_LEG",
+      "item_id": "CORE-SPT-NEURO-DISTAL"
+    },
+    {
+      "rule_id": "KNEE-CX-02",
+      "module": "KNEE",
+      "item_id": "KNEE-SPT-MECH"
+    },
+    {
+      "rule_id": "KNEE-CX-03",
+      "module": "KNEE",
+      "item_id": "CORE-SPT-NEURO-DISTAL"
+    },
+    {
+      "rule_id": "KNEE-CX-04",
+      "module": "KNEE",
+      "item_id": "KNEE-CHAIN-HIP-ROM"
+    },
+    {
+      "rule_id": "KNEE-CX-05",
+      "module": "KNEE",
+      "item_id": "CORE-ROM-ANK-DF"
+    },
+    {
+      "rule_id": "THIGH-CX-01",
+      "module": "THIGH",
+      "item_id": "CORE-SPT-NEURO-DISTAL"
+    }
+  ],
+  "counts": {
+    "01_Region": 38,
+    "02_ClinicalItem": 124,
+    "03_Finding": 35,
+    "04_Intervention": 23,
+    "05_RegionClinicalMap": 535,
+    "06_FindingInterventionMap": 35,
+    "07_ContextRule": 69,
+    "08_AssessmentFindingMap": 123,
+    "09_Evidence": 84,
+    "10_Governance": 70,
+    "11_ContextItemMap": 143
+  },
+  "extension_counts": {
+    "DimensionGuide": 5,
+    "ClinicalPurpose": 65,
+    "FindingFeature": 135,
+    "InterventionReference": 154
+  },
+  "internal_tasks": [
+    {
+      "id": "KNEE-TASK-WALK",
+      "name": "步行",
+      "group": "步行"
+    },
+    {
+      "id": "KNEE-TASK-SQUAT",
+      "name": "下蹲",
+      "group": "负重与单腿控制"
+    },
+    {
+      "id": "KNEE-TASK-STEPUP",
+      "name": "上台阶",
+      "group": "负重与单腿控制"
+    },
+    {
+      "id": "KNEE-TASK-STEPDOWN",
+      "name": "下台阶",
+      "group": "负重与单腿控制"
+    },
+    {
+      "id": "KNEE-TASK-SLSQUAT",
+      "name": "单腿下蹲",
+      "group": "负重与单腿控制"
+    },
+    {
+      "id": "KNEE-TASK-RUN",
+      "name": "跑步",
+      "group": "跑跳与落地"
+    },
+    {
+      "id": "KNEE-TASK-LAND2",
+      "name": "双腿跳跃落地",
+      "group": "跑跳与落地"
+    },
+    {
+      "id": "KNEE-TASK-LAND1",
+      "name": "单腿跳跃落地",
+      "group": "跑跳与落地"
+    },
+    {
+      "id": "KNEE-TASK-DECEL",
+      "name": "急停减速",
+      "group": "减速与变向"
+    },
+    {
+      "id": "KNEE-TASK-CUT",
+      "name": "变向",
+      "group": "减速与变向"
+    }
+  ],
+  "patterns": [
+    {
+      "id": "KNEE-PATTERN-GAIT",
+      "name": "步态与支撑",
+      "group": "步态观察",
+      "display_mode": "LINKED"
+    },
+    {
+      "id": "KNEE-PATTERN-BILATERAL",
+      "name": "双腿负重模式",
+      "group": "负重与动作控制",
+      "display_mode": "LINKED"
+    },
+    {
+      "id": "KNEE-PATTERN-SINGLE",
+      "name": "单腿动作控制",
+      "group": "负重与动作控制",
+      "display_mode": "LINKED"
+    },
+    {
+      "id": "KNEE-PATTERN-LANDING",
+      "name": "落地缓冲与稳定",
+      "group": "跑跳与方向转换",
+      "display_mode": "LINKED"
+    },
+    {
+      "id": "KNEE-PATTERN-DIRECTION",
+      "name": "减速与转向控制",
+      "group": "跑跳与方向转换",
+      "display_mode": "LINKED"
+    }
+  ],
+  "function_policy": "Only explicitly selected movement clues expose matching patterns; timing alone exposes no function pattern. Therapist observation may use actual movement or existing video, without a mandatory testing battery."
+}

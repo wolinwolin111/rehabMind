@@ -1,0 +1,9 @@
+{
+  "batch": 3,
+  "expected_fields_checked": 549,
+  "changed_cells": 308,
+  "added_records": 8,
+  "unplanned_changes": 0,
+  "unapplied_fields": 0,
+  "regions_checked": 38
+}

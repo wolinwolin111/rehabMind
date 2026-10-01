@@ -1,0 +1,804 @@
+{
+  "review_date": "2026-10-01",
+  "status": "read_only_audit_no_database_changes",
+  "source_hashes": {
+    "main": "a25d5579528d405d9079332b4995dd304ae11ee93f5b4104fe56f92412bc4716",
+    "extension": "de2bff0c411a55896bcc209164cf536f18d160604fcf75b145eadd6df3bbc020"
+  },
+  "counts": {
+    "regions": 38,
+    "items": 125,
+    "region_maps": 537,
+    "assessment_maps": 124,
+    "purposes": 124,
+    "features": 266,
+    "references": 282,
+    "questions": 101,
+    "locations": 19
+  },
+  "workbook_runtime_issues": [],
+  "observations": [
+    {
+      "input": {
+        "region_id": "THIGH-R-004",
+        "context_rule_ids": [
+          "THIGH-CX-01"
+        ]
+      },
+      "function_items": [],
+      "highlighted_items": [
+        "CORE-SPT-NEURO-DISTAL"
+      ],
+      "neuro_items": [
+        {
+          "id": "CORE-SPT-NEURO-DISTAL",
+          "focus": "足背/第一趾蹼/足底/内外侧感觉，背屈、伸趾、外翻及跖屈肌力。"
+        }
+      ]
+    },
+    {
+      "input": {
+        "region_id": "LL-R-004",
+        "context_rule_ids": [
+          "LL-MF-01"
+        ]
+      },
+      "function_items": [],
+      "highlighted_items": [
+        "CORE-ROM-ANK-DF",
+        "CORE-CAP-DF",
+        "LL-LT-002",
+        "LL-LT-003"
+      ],
+      "neuro_items": []
+    },
+    {
+      "input": {
+        "region_id": "THIGH-R-003",
+        "context_rule_ids": [
+          "THIGH-MF-03"
+        ]
+      },
+      "function_items": [],
+      "highlighted_items": [
+        "THIGH-MUS-AL",
+        "THIGH-MUS-AM",
+        "THIGH-CAP-ADD",
+        "THIGH-LT-003"
+      ],
+      "neuro_items": []
+    }
+  ],
+  "issues": [
+    {
+      "id": "STATIC-01",
+      "priority": "P1",
+      "kind": "correction",
+      "title": "发现名称与实际表现不一致",
+      "problem": "活动与对侧不同并不等于活动受限；输出有差异也不等于能力不足。部分标题写受限，正文却只描述紧张。",
+      "targets": [
+        {
+          "sheet": "FindingFeature",
+          "id": "AFM-0086-LIMIT",
+          "fields": [
+            "Finding_Name",
+            "Finding_Feature",
+            "Source_URL"
+          ],
+          "row": 58,
+          "current": {
+            "Finding_Name": "髌骨方向性活动受限",
+            "Finding_Feature": "髌骨上下或内外侧活动与对侧不同",
+            "Source_URL": "https://doi.org/10.2519/jospt.2018.0301"
+          }
+        },
+        {
+          "sheet": "FindingFeature",
+          "id": "AFM-0087-LIMIT",
+          "fields": [
+            "Finding_Name",
+            "Finding_Feature",
+            "Source_URL"
+          ],
+          "row": 62,
+          "current": {
+            "Finding_Name": "近端胫腓关节活动受限",
+            "Finding_Feature": "腓骨头方向性活动与对侧不同",
+            "Source_URL": "https://doi.org/10.2519/jospt.2018.0301"
+          }
+        },
+        {
+          "sheet": "FindingFeature",
+          "id": "AFM-0088-LIMIT",
+          "fields": [
+            "Finding_Name",
+            "Finding_Feature",
+            "Source_URL"
+          ],
+          "row": 60,
+          "current": {
+            "Finding_Name": "胫骨旋转活动受限",
+            "Finding_Feature": "屈伸末端胫骨旋转活动与对侧不同",
+            "Source_URL": "https://doi.org/10.2519/jospt.2018.0301"
+          }
+        },
+        {
+          "sheet": "FindingFeature",
+          "id": "AFM-0068-LENGTH",
+          "fields": [
+            "Finding_Name",
+            "Finding_Feature",
+            "Source_URL"
+          ],
+          "row": 34,
+          "current": {
+            "Finding_Name": "前侧股四头肌群牵拉受限",
+            "Finding_Feature": "屈膝时前侧股四头肌群牵拉范围或局部反应与对侧不同；该动作不能单独评估股中间肌。",
+            "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0068\nhttps://www.ncbi.nlm.nih.gov/books/NBK513334/\nbook://magee-local#pdf=751,756&print=742,747"
+          }
+        },
+        {
+          "sheet": "FindingFeature",
+          "id": "AFM-0072-LENGTH",
+          "fields": [
+            "Finding_Name",
+            "Finding_Feature",
+            "Source_URL"
+          ],
+          "row": 44,
+          "current": {
+            "Finding_Name": "内侧肌群组合牵拉受限",
+            "Finding_Feature": "髋伸、内收结合膝伸时，内侧肌群牵拉范围或局部反应与对侧不同；不等同缝匠肌独立长度测试。",
+            "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0072\nhttps://www.ncbi.nlm.nih.gov/books/NBK534775/\nbook://magee-local#pdf=751,756&print=742,747"
+          }
+        },
+        {
+          "sheet": "FindingFeature",
+          "id": "AFM-0094-CAPACITY",
+          "fields": [
+            "Finding_Name",
+            "Finding_Feature",
+            "Source_URL"
+          ],
+          "row": 51,
+          "current": {
+            "Finding_Name": "鹅足相关屈膝或内收能力不足",
+            "Finding_Feature": "屈膝或内收抗阻时力值、耐力或左右表现有差异，需与膝内侧疼痛分开查看。",
+            "Source_URL": "https://doi.org/10.2519/jospt.2019.0302"
+          }
+        },
+        {
+          "sheet": "FindingFeature",
+          "id": "AFM-0076-LENGTH",
+          "fields": [
+            "Finding_Name",
+            "Finding_Feature",
+            "Source_URL"
+          ],
+          "row": 42,
+          "current": {
+            "Finding_Name": "拉长或活动受限",
+            "Finding_Feature": "膝伸直或胫骨旋转末端伴后外侧局部紧张",
+            "Source_URL": "local-records://LR-9a5cba6e18ed#L10-L40\nlocal-records://LR-b62ce4e8b001#L105-L109"
+          }
+        },
+        {
+          "sheet": "FindingFeature",
+          "id": "AFM-0100-RECORD-TENSION",
+          "fields": [
+            "Finding_Name",
+            "Finding_Feature",
+            "Source_URL"
+          ],
+          "row": 135,
+          "current": {
+            "Finding_Name": "后侧紧张或牵拉受限",
+            "Finding_Feature": "大腿后侧局部紧绷，或后侧牵拉范围与对侧不同。",
+            "Source_URL": "local-records://LR-20a01619ecb0#L50-L55\nlocal-records://LR-20a01619ecb0#L73-L90"
+          }
+        }
+      ],
+      "recommendation": "按条目实际对象对应写范围减少、牵拉不适、肌腹紧绷或主动输出下降。若保留疼痛或牵拉不适，标题也应体现它；不把单纯侧差自动写成异常。腘肌条目当前只描述末端后外侧紧张，宜用相应标题。大腿后侧记录实际写过紧，没有记载当前文案中的左右牵拉范围比较，需移除未获记录支持的观察或另标教材/临床编辑来源。",
+      "example": "髌骨某方向被动活动较对侧减少。大腿后侧局部紧绷。以上为拟议文案，不是修改后的数据库。",
+      "evidence": [
+        "book://magee-local#pdf=756&print=747",
+        "local-records://LR-20a01619ecb0#L50-L55",
+        "local-records://LR-20a01619ecb0#L73-L90"
+      ],
+      "basis": "Magee区分活动过小与过大；线下记录只支持后侧过紧及相关方法。具体产品句子是审核建议。"
+    },
+    {
+      "id": "STATIC-02",
+      "priority": "P1",
+      "kind": "correction",
+      "title": "主动终末伸膝与被动伸直受限还未在发现中分清",
+      "problem": "目的提到了主动和被动范围，但发现正文只写出现伸膝滞后，没有明确主动伸膝和被动可达范围的关系。引用记录有伸直受限、力量弱及激活训练，不足以独立证明主动滞后。",
+      "targets": [
+        {
+          "sheet": "FindingFeature",
+          "id": "AFM-0095-CAPACITY",
+          "fields": [
+            "Finding_Feature",
+            "Source_URL"
+          ],
+          "row": 18,
+          "current": {
+            "Finding_Feature": "股四头肌主动收缩或终末伸膝出现伸膝滞后",
+            "Source_URL": "local-records://LR-4433b5bd593a#L15-L27\nlocal-records://LR-4633fe94481a#L23-L38"
+          }
+        },
+        {
+          "sheet": "ClinicalPurpose",
+          "id": "CORE-CAP-QUAD-RECRUIT",
+          "fields": [
+            "Assessment_Focus",
+            "Source_URL"
+          ],
+          "row": 13,
+          "current": {
+            "Assessment_Focus": "终末伸膝、收缩质量、伸膝滞后与左右差异。",
+            "Source_URL": "local-records://LR-4433b5bd593a#L15-L27\nlocal-records://LR-4633fe94481a#L23-L38"
+          }
+        },
+        {
+          "sheet": "02_ClinicalItem",
+          "id": "CORE-CAP-QUAD-RECRUIT",
+          "fields": [
+            "check_focus"
+          ],
+          "row": 93,
+          "current": {
+            "check_focus": "在固定体位观察股四头主动收缩与主动终末伸膝：记录能否达到终末伸膝、是否存在伸膝滞后、收缩质量、疼痛和明显代偿，并与对侧比较。该项描述募集/主动控制，不替代膝伸力量测试。"
+          }
+        }
+      ],
+      "recommendation": "公开说明补主动伸膝与被动可达范围的比较；与膝伸直ROM项保留区别。主动、被动都受限时，不只放到募集/激活方向。保留现有肌腹松解及股四头肌训练菜单，供康复师参考，不由产品判断病因。",
+      "example": "主动伸膝未达到被动可达的伸直范围。",
+      "evidence": [
+        "book://magee-local#pdf=751,756&print=742,747",
+        "https://doi.org/10.1589/jpts.35.312",
+        "local-records://LR-4433b5bd593a#L15-L27",
+        "local-records://LR-4633fe94481a#L23-L38"
+      ],
+      "basis": "教材提供主动/被动及抗阻比较框架；2023研究区分主动与被动伸膝不足，27名单侧症状参与者，不作病因判定或自动治疗规则。拟议主动-被动比较句是临床编辑定义，不冒充该研究SAPLT的原操作方法。"
+    },
+    {
+      "id": "STATIC-03",
+      "priority": "P1",
+      "kind": "correction",
+      "title": "胫骨旋转检查仍混合了不同运动情境",
+      "problem": "检查重点只写屈伸末端胫骨旋转，未区分屈膝位轴向内外旋与屈伸末端伴随旋转。完全伸直时轴向旋转受到很大限制。",
+      "targets": [
+        {
+          "sheet": "ClinicalPurpose",
+          "id": "KNEE-JNT-TIBROT",
+          "fields": [
+            "Clinical_Purpose",
+            "Assessment_Focus",
+            "Source_URL"
+          ],
+          "row": 35,
+          "current": {
+            "Clinical_Purpose": "胫骨旋转参与膝屈伸末端活动；方向性差异可与末端症状对照。",
+            "Assessment_Focus": "比较屈伸末端的胫骨旋转、侧差和症状。",
+            "Source_URL": "https://doi.org/10.2519/jospt.2018.0301"
+          }
+        },
+        {
+          "sheet": "02_ClinicalItem",
+          "id": "KNEE-JNT-TIBROT",
+          "fields": [
+            "check_focus"
+          ],
+          "row": 84,
+          "current": {
+            "check_focus": "结合膝屈伸末端观察胫骨旋转、末端方向性活动与症状反应"
+          }
+        },
+        {
+          "sheet": "FindingFeature",
+          "id": "AFM-0088-LIMIT",
+          "fields": [
+            "Finding_Feature",
+            "Source_URL"
+          ],
+          "row": 60,
+          "current": {
+            "Finding_Feature": "屈伸末端胫骨旋转活动与对侧不同",
+            "Source_URL": "https://doi.org/10.2519/jospt.2018.0301"
+          }
+        }
+      ],
+      "recommendation": "用短句区分屈膝位内外旋活动和屈伸末端伴随旋转。不扩写操作教程、正常阈值或强制末端旋转规则。",
+      "example": "屈膝位内外旋活动；屈伸末端伴随旋转与症状。",
+      "evidence": [
+        "book://essentials-kinesiology-3-local#pdf=306&print=288"
+      ],
+      "basis": "本地基础肌动学第3版印刷288页明确区分膝屈伸与轴向旋转及伸直位限制。"
+    },
+    {
+      "id": "STATIC-04",
+      "priority": "P1",
+      "kind": "correction",
+      "title": "大腿神经相关筛查存在区域覆盖缺口",
+      "problem": "THIGH-CX-01选中后确实显示筛查，但仅有小腿至足部感觉和背屈、伸趾、外翻、跖屈检查。大腿外侧麻木问诊已存在，大腿本身的筛查内容却没有接入。",
+      "targets": [
+        {
+          "sheet": "07_ContextRule",
+          "id": "THIGH-CX-01",
+          "fields": [
+            "target"
+          ],
+          "row": 57,
+          "current": {
+            "target": "CORE-SPT-NEURO-DISTAL"
+          }
+        },
+        {
+          "sheet": "ClinicalPurpose",
+          "id": "CORE-SPT-NEURO-DISTAL",
+          "fields": [
+            "Assessment_Focus"
+          ],
+          "row": 58,
+          "current": {
+            "Assessment_Focus": "足背/第一趾蹼/足底/内外侧感觉，背屈、伸趾、外翻及跖屈肌力。"
+          }
+        },
+        {
+          "sheet": "ConsultationGuide",
+          "id": "QG-THIGH-R-004-3",
+          "fields": [
+            "Core_Prompt",
+            "Assessment_Help"
+          ],
+          "row": 87,
+          "current": {
+            "Core_Prompt": "有没有撞击、近期运动变化或外侧麻木？",
+            "Assessment_Help": "可补局部软组织、骨面与神经相关评估。"
+          }
+        }
+      ],
+      "recommendation": "在现有表中增加大腿区域神经相关筛查及对应表现。提示感觉分布、局部受压背景，按表现对照膝伸输出及反射；远端放射时仍可保留远端筛查作为补充。前外侧纯感觉与伴运动变化不混为一类，不凭位置生成神经诊断。不接入独立髋/脊柱模块。",
+      "evidence": [
+        "https://www.orthoinfo.org/diseases--conditions/burning-thigh-pain-meralgia-paresthetica/",
+        "https://www.ncbi.nlm.nih.gov/books/NBK532301/",
+        "https://www.ncbi.nlm.nih.gov/books/NBK556065/"
+      ],
+      "basis": "AAOS说明大腿外侧感觉及受压病史评估；解剖章节区分股外侧皮神经的纯感觉范围与股神经的运动/感觉范围。建议是补充筛查思路，不照搬诊断及治疗流程。"
+    },
+    {
+      "id": "STATIC-05",
+      "priority": "P2",
+      "kind": "correction",
+      "title": "解剖与病种引用仍有少量对象错配",
+      "problem": "两条后内侧小腿区域仍引用小腿前侧间室；鹅足能力目的/表现及膝后外侧肌腹压痛仍只挂2019髌股疼痛指南。上一轮修复的方法来源没有自动修复这些字段。",
+      "targets": [
+        {
+          "sheet": "01_Region",
+          "id": "LL-R-003",
+          "fields": [
+            "related_tissues_source"
+          ],
+          "row": 31,
+          "current": {
+            "related_tissues_source": "baseline://clinical-extension/LocationGuide/LOC-LL-MEDIAL\nhttps://www.ncbi.nlm.nih.gov/books/NBK539725/"
+          }
+        },
+        {
+          "sheet": "01_Region",
+          "id": "LL-R-007",
+          "fields": [
+            "related_tissues_source"
+          ],
+          "row": 35,
+          "current": {
+            "related_tissues_source": "baseline://clinical-extension/LocationGuide/LOC-LL-POSTMEDIAL\nhttps://www.ncbi.nlm.nih.gov/books/NBK539725/"
+          }
+        },
+        {
+          "sheet": "ClinicalPurpose",
+          "id": "KNEE-CAP-PES",
+          "fields": [
+            "Source_URL"
+          ],
+          "row": 28,
+          "current": {
+            "Source_URL": "https://doi.org/10.2519/jospt.2019.0302"
+          }
+        },
+        {
+          "sheet": "FindingFeature",
+          "id": "AFM-0094-CAPACITY",
+          "fields": [
+            "Source_URL"
+          ],
+          "row": 51,
+          "current": {
+            "Source_URL": "https://doi.org/10.2519/jospt.2019.0302"
+          }
+        },
+        {
+          "sheet": "FindingFeature",
+          "id": "AFM-0076-SENSITIVITY",
+          "fields": [
+            "Source_URL"
+          ],
+          "row": 43,
+          "current": {
+            "Source_URL": "https://doi.org/10.2519/jospt.2019.0302"
+          }
+        }
+      ],
+      "recommendation": "后内侧组织改引对应后侧间室/胫后肌章节。鹅足能力、后外侧区域压痛挂对应解剖、教材检查框架及实际记录；临床编辑关系注明其性质。保留2019指南用于其适用的髌股内容，不批量删除所有指南引用。",
+      "evidence": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK539725/",
+        "https://www.ncbi.nlm.nih.gov/books/NBK537340/",
+        "https://www.ncbi.nlm.nih.gov/books/NBK539913/",
+        "https://www.orthopt.org/content/s/patellofemoral-pain-2019",
+        "book://magee-local#pdf=751,756&print=742,747"
+      ],
+      "basis": "前侧章节不是后内侧组织列表的充分直接来源；髌股疼痛指南不构成鹅足/腘肌专属检查的直接依据。引用错配不等于这些临床检查本身无用。"
+    },
+    {
+      "id": "STATIC-06",
+      "priority": "P2",
+      "kind": "correction",
+      "title": "足内在肌动作名称仍超出所引募集研究",
+      "problem": "3组仅引2016 MRI研究的方法写足趾主动屈伸，另1组含同类来源。该研究测试短足、展开、拇趾伸展、第2–5趾伸展，没有测试一个通用主动屈伸方案。",
+      "targets": [
+        {
+          "sheet": "InterventionReference",
+          "id": "AFM-0050-TENSION-ACTIVE",
+          "fields": [
+            "Treatment_Method",
+            "Source_URL",
+            "Source_Note"
+          ],
+          "row": 219,
+          "current": {
+            "Treatment_Method": "足趾主动屈伸；足趾展开练习",
+            "Source_URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5094843/",
+            "Source_Note": "健康人MRI研究支持组合肌肉募集，不是疼痛治疗试验，不宣称单肌分离效果。\n已核对8名健康运动员的T2 MRI描述性研究：短足、足趾展开及分离伸展募集多个足内在肌，未验证疼痛、过紧、牵伸改善或第一跖跗关节韧带修复。当前关联是区域活动/控制思路的临床编辑判断，不是单肌训练疗效。拇趾抗阻保留原库/患者资料出处，不把无抗阻MRI试验当作抗阻疗效证明。"
+          }
+        },
+        {
+          "sheet": "InterventionReference",
+          "id": "AFM-0051-TENSION-ACTIVE",
+          "fields": [
+            "Treatment_Method",
+            "Source_URL",
+            "Source_Note"
+          ],
+          "row": 221,
+          "current": {
+            "Treatment_Method": "足趾主动屈伸；足趾展开练习",
+            "Source_URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5094843/",
+            "Source_Note": "健康人MRI研究支持组合肌肉募集，不是疼痛治疗试验，不宣称单肌分离效果。\n已核对8名健康运动员的T2 MRI描述性研究：短足、足趾展开及分离伸展募集多个足内在肌，未验证疼痛、过紧、牵伸改善或第一跖跗关节韧带修复。当前关联是区域活动/控制思路的临床编辑判断，不是单肌训练疗效。拇趾抗阻保留原库/患者资料出处，不把无抗阻MRI试验当作抗阻疗效证明。"
+          }
+        },
+        {
+          "sheet": "InterventionReference",
+          "id": "AFM-0052-TENSION-ACTIVE",
+          "fields": [
+            "Treatment_Method",
+            "Source_URL",
+            "Source_Note"
+          ],
+          "row": 223,
+          "current": {
+            "Treatment_Method": "足趾主动屈伸；足趾展开练习",
+            "Source_URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5094843/",
+            "Source_Note": "健康人MRI研究支持组合肌肉募集，不是疼痛治疗试验，不宣称单肌分离效果。\n已核对8名健康运动员的T2 MRI描述性研究：短足、足趾展开及分离伸展募集多个足内在肌，未验证疼痛、过紧、牵伸改善或第一跖跗关节韧带修复。当前关联是区域活动/控制思路的临床编辑判断，不是单肌训练疗效。拇趾抗阻保留原库/患者资料出处，不把无抗阻MRI试验当作抗阻疗效证明。"
+          }
+        },
+        {
+          "sheet": "InterventionReference",
+          "id": "AFM-0023-LIMIT-ACTIVE",
+          "fields": [
+            "Treatment_Method",
+            "Source_URL",
+            "Source_Note"
+          ],
+          "row": 13,
+          "current": {
+            "Treatment_Method": "第2–5趾主动屈伸；足趾展开练习",
+            "Source_URL": "https://msk-bexley.nhs.uk/conditions/foot-and-ankle-pain/plantar-plate-injury\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC5094843/",
+            "Source_Note": "来源列出具名练习，本库只保留方法名称，不导入剂量、阶段或自动选择规则。"
+          }
+        }
+      ],
+      "recommendation": "对应该研究时用实际测试的动作名称；通用足趾主动屈伸如保留，另找直接动作资料，并分别注明对应依据。保留区域活动/组合控制属性，不当作肌肉过紧或疼痛疗效证据。不要为了使来源看似完整把全部四个研究动作堆入每个发现。",
+      "evidence": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5094843/",
+        "https://msk-bexley.nhs.uk/conditions/foot-and-ankle-pain/plantar-plate-injury"
+      ],
+      "basis": "8名健康运动员、T2 MRI募集研究；动作存在、组合募集与临床疗效是不同层次。NHS页面的展开/毛巾抓握也不等同第2–5趾活动受限的全部ROM方法。"
+    },
+    {
+      "id": "STATIC-07",
+      "priority": "P2",
+      "kind": "correction",
+      "title": "阔筋膜张肌主动活动的公开分组目标不准确",
+      "problem": "内部已写相关区域主动活动、不声称独立牵伸，但公开目标仍是改善拉长与活动，配侧卧髋外展主动活动。",
+      "targets": [
+        {
+          "sheet": "InterventionReference",
+          "id": "AFM-0075-TENSION-2",
+          "fields": [
+            "Treatment_Goal",
+            "Source_Note"
+          ],
+          "row": 21,
+          "current": {
+            "Treatment_Goal": "改善拉长与活动",
+            "Source_Note": "原库“髋外侧主动活动”具体化为官方机构列出的侧卧髋外展；用于相关区域主动活动参考，不声称独立牵伸阔筋膜张肌或治疗所有髋外侧痛。不是从线下记录还原出该动作。"
+          }
+        }
+      ],
+      "recommendation": "目标改成相关主动活动或动作控制参考，与牵伸/松解组分开。无需删除现有具名动作；不借内部备注修补公开标题的含义。",
+      "example": "相关主动活动",
+      "evidence": [
+        "https://www.ruh.nhs.uk/patients/services/physiotherapy/OP_outpatient_service.asp"
+      ],
+      "basis": "官方索引能验证动作名称，不证明该动作牵伸阔筋膜张肌；本建议只修正分组含义。"
+    },
+    {
+      "id": "STATIC-08",
+      "priority": "P2",
+      "kind": "correction",
+      "title": "仍有含混名称、抽象方法和重复措辞",
+      "problem": "小趾列MTP实际对象是第2–5跖趾关节；拇屈能力（FHL为主）没有说明区分长短屈肌的检查对象；4处髋膝踝协同练习没有具名动作；功能描述仍用动作线索；阔筋膜张肌按压句重复邻近。",
+      "targets": [
+        {
+          "sheet": "02_ClinicalItem",
+          "id": "AF-JNT-005",
+          "fields": [
+            "display_name",
+            "check_focus"
+          ],
+          "row": 26,
+          "current": {
+            "display_name": "小趾列 MTP 活动",
+            "check_focus": "第2–5 MTP 屈伸、症状及跖骨头负荷反应"
+          }
+        },
+        {
+          "sheet": "02_ClinicalItem",
+          "id": "AF-ASM-004",
+          "fields": [
+            "display_name",
+            "check_focus"
+          ],
+          "row": 4,
+          "current": {
+            "display_name": "第一MTP活动",
+            "check_focus": "伸展/屈曲及推进相关症状"
+          }
+        },
+        {
+          "sheet": "02_ClinicalItem",
+          "id": "CORE-CAP-HF",
+          "fields": [
+            "display_name",
+            "check_focus"
+          ],
+          "row": 46,
+          "current": {
+            "display_name": "拇屈能力（FHL为主）",
+            "check_focus": "抗阻拇屈、第一MTP/推蹬相关症状与力量表现；第一MTP场景以拇长屈肌为主要能力对象"
+          }
+        },
+        {
+          "sheet": "ClinicalPurpose",
+          "id": "AF-JNT-005",
+          "fields": [
+            "Item_Name",
+            "Assessment_Focus"
+          ],
+          "row": 91,
+          "current": {
+            "Item_Name": "小趾列 MTP 活动",
+            "Assessment_Focus": "第2–5MTP主动/被动屈伸、跖侧压痛、足趾贴地及排列。"
+          }
+        },
+        {
+          "sheet": "ClinicalPurpose",
+          "id": "AF-ASM-004",
+          "fields": [
+            "Item_Name",
+            "Assessment_Focus"
+          ],
+          "row": 89,
+          "current": {
+            "Item_Name": "第一MTP活动",
+            "Assessment_Focus": "第一MTP主动/被动屈伸、负重伸展、疼痛位置。"
+          }
+        },
+        {
+          "sheet": "ClinicalPurpose",
+          "id": "CORE-CAP-HF",
+          "fields": [
+            "Item_Name",
+            "Assessment_Focus"
+          ],
+          "row": 74,
+          "current": {
+            "Item_Name": "拇屈能力（FHL为主）",
+            "Assessment_Focus": "拇趾屈曲抗阻；力量、疼痛与左右差异。"
+          }
+        },
+        {
+          "sheet": "InterventionReference",
+          "id": "AFM-0110-KNEE-TASK",
+          "fields": [
+            "Treatment_Method"
+          ],
+          "row": 87,
+          "current": {
+            "Treatment_Method": "下蹲动作反馈练习；髋膝踝协同练习；辅助下蹲练习"
+          }
+        },
+        {
+          "sheet": "InterventionReference",
+          "id": "AFM-0112-KNEE-TASK",
+          "fields": [
+            "Treatment_Method"
+          ],
+          "row": 91,
+          "current": {
+            "Treatment_Method": "下台阶动作反馈练习；单腿负重控制练习；髋膝踝协同练习"
+          }
+        },
+        {
+          "sheet": "InterventionReference",
+          "id": "AFM-0113-KNEE-TASK",
+          "fields": [
+            "Treatment_Method"
+          ],
+          "row": 94,
+          "current": {
+            "Treatment_Method": "单腿下蹲动作反馈练习；髋膝踝协同练习；辅助单腿下蹲练习"
+          }
+        },
+        {
+          "sheet": "InterventionReference",
+          "id": "AFM-0116-KNEE-TASK",
+          "fields": [
+            "Treatment_Method"
+          ],
+          "row": 101,
+          "current": {
+            "Treatment_Method": "单腿落地动作反馈练习；髋膝踝协同练习；单腿缓冲练习"
+          }
+        },
+        {
+          "sheet": "DimensionGuide",
+          "id": "FUNCTION",
+          "fields": [
+            "Public_Description"
+          ],
+          "row": 5,
+          "current": {
+            "Public_Description": "选择相关动作线索，查看对应的动作模式。"
+          }
+        },
+        {
+          "sheet": "FindingFeature",
+          "id": "AFM-0075-SENSITIVITY",
+          "fields": [
+            "Finding_Feature"
+          ],
+          "row": 16,
+          "current": {
+            "Finding_Feature": "阔筋膜张肌邻近肌腹邻近按压，或髋屈或外展发力时出现疼痛；与关节线及肌腱止点分别查看。"
+          }
+        }
+      ],
+      "recommendation": "用第2–5跖趾关节活动、第一跖趾关节活动、拇趾屈曲力量等明确名称。拇趾项目若实际评估长屈肌须写清对象并另核相应依据。四组已经有具体反馈/支撑动作，可移除重复的泛化协同项。删重复字词，功能描述改成相关动作与动作模式观察。保留第一跖骨列上下活动，不再次改成第一跖跗关节。",
+      "evidence": [
+        "book://magee-local#pdf=882,889&print=873,880",
+        "https://www.ncbi.nlm.nih.gov/books/NBK539705/"
+      ],
+      "basis": "名称应反映检查范围；此组主要是产品信息精度，不把这些问题一概当成临床错误。"
+    },
+    {
+      "id": "STATIC-09",
+      "priority": "P2",
+      "kind": "coverage",
+      "title": "小腿和大腿的功能动作内容尚未接齐",
+      "problem": "小腿3条和大腿3条活动规则会组织肌肉、组织、活动度、力量检查，但没有FUNCTION映射。选项有效，功能动作观察尚无内容。",
+      "targets": [
+        {
+          "sheet": "07_ContextRule",
+          "id": "LL-MF-01",
+          "fields": [
+            "target"
+          ],
+          "row": 39,
+          "current": {
+            "target": "LL-LT-002 / LL-LT-003 / CORE-CAP-DF / CORE-ROM-ANK-DF"
+          }
+        },
+        {
+          "sheet": "07_ContextRule",
+          "id": "LL-MF-02",
+          "fields": [
+            "target"
+          ],
+          "row": 42,
+          "current": {
+            "target": "LL-LT-005 / CORE-MUS-GASTROC / CORE-CAP-PF；必要时LL-LT-006 / CORE-MUS-SOLEUS"
+          }
+        },
+        {
+          "sheet": "07_ContextRule",
+          "id": "LL-MF-03",
+          "fields": [
+            "target"
+          ],
+          "row": 43,
+          "current": {
+            "target": "LL-LT-006 / CORE-MUS-SOLEUS / CORE-CAP-PF；按定位叠加LL-LT-007"
+          }
+        },
+        {
+          "sheet": "07_ContextRule",
+          "id": "THIGH-MF-01",
+          "fields": [
+            "target"
+          ],
+          "row": 54,
+          "current": {
+            "target": "THIGH-LT-001 / THIGH-LT-002 / CORE-MUS-RF / CORE-MUS-BF / CORE-MUS-ST / CORE-MUS-SM / CORE-CAP-KNEE-EXT / CORE-CAP-KNEE-FLEX"
+          }
+        },
+        {
+          "sheet": "07_ContextRule",
+          "id": "THIGH-MF-02",
+          "fields": [
+            "target"
+          ],
+          "row": 55,
+          "current": {
+            "target": "THIGH-LT-001 / CORE-MUS-RF / CORE-MUS-VL / CORE-CAP-KNEE-EXT / CORE-CAP-QUAD-RECRUIT"
+          }
+        },
+        {
+          "sheet": "07_ContextRule",
+          "id": "THIGH-MF-03",
+          "fields": [
+            "target"
+          ],
+          "row": 56,
+          "current": {
+            "target": "THIGH-LT-003 / THIGH-MUS-AL / THIGH-MUS-AM / THIGH-CAP-ADD"
+          }
+        },
+        {
+          "sheet": "05_RegionClinicalMap",
+          "id": null,
+          "fields": [
+            "assessment_dimension",
+            "clinical_item_id",
+            "display_mode"
+          ],
+          "missing": "LOWER_LEG/THIGH的FUNCTION映射"
+        }
+      ],
+      "recommendation": "准确性修复后，再补少量可复用的下肢动作观察项目及区域侧重点。步行的负重/支撑/蹬地可作为基础；更高需求关联既有动作背景，采用现场相关任务、视频或负荷较低的相近任务观察。由康复师选适合的评估，不显示全套，也不把替代任务等同跑跳测试。用现有项目、表现、映射表，不新增嵌套查询或自动准入系统。",
+      "evidence": [
+        "book://magee-local#pdf=889&print=880",
+        "https://www.ncbi.nlm.nih.gov/books/NBK537340/"
+      ],
+      "basis": "这是产品覆盖范围的审核结论；具体观察项待按部位设计并核对，不称已由一篇文献验证。"
+    }
+  ],
+  "limitations": [
+    "所有表重新从当前工作簿读取并与运行快照比较；临床正文逐项走读。",
+    "线下267份记录完成读取、哈希及引用位置复核，临床比较重点回看对应片段；不声称逐病例疗效审计。",
+    "本地两本书阅读相关页；解剖列车及其余书籍未作为本次新增结论的直接依据。",
+    "公开来源有全文、官方正文、摘要/索引不同阅读深度，详见Markdown；不把引用存在视为验证疗效。",
+    "本次只列问题及拟议修改，不改数据库、UI或模型；没有浏览器验证，也没有将旧测试结果作为本次临床通过证明。"
+  ]
+}

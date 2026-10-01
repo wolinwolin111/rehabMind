@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-10-01T06:38:48.649Z",
+  "checks": [
+    "metadata contains new thigh walking context",
+    "live API exposes local thigh neuro screening",
+    "Vite proxy exposes two context-linked lower leg function items",
+    "web entry responds HTTP 200"
+  ],
+  "passed": 4
+}

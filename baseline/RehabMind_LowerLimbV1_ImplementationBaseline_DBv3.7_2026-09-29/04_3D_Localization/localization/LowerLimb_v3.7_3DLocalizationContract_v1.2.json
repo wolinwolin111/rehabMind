@@ -1,0 +1,193 @@
+{
+  "baseline": "LowerLimbV1 DB v3.7",
+  "localization_version": "localization-v1.1-four-module",
+  "release_state": "internal_validation_4module",
+  "principle": "Localization only. This layer must not contain ClinicalItem, Finding, Intervention, diagnosis, or treatment logic.",
+  "model": {
+    "source": "BodyParts3D",
+    "version": "BodyParts3D 4.0",
+    "sex": "male",
+    "parts": 2234,
+    "optimized": {
+      "method": "meshoptimizer quadric simplification",
+      "maximumRelativeError": 0.002,
+      "preservedMeshes": 2234
+    },
+    "semantic_surface": {
+      "version": "rehab-surface-semantic-v3",
+      "source_mesh": {
+        "partId": "FJ2810",
+        "name": "Skin",
+        "vertexCount": 22902,
+        "indexCount": 134232,
+        "faceCount": 44744,
+        "geometrySha256": "7cab9caf7c07e05bb6b2760d9e13dff16496a5c3fc65d142b964b855c6e09f29"
+      },
+      "record_format": {
+        "bytesPerFace": 3,
+        "fields": [
+          "primaryCode:uint8",
+          "alternativeCode:uint8",
+          "confidence:uint8"
+        ]
+      }
+    }
+  },
+  "knee": {
+    "source": "SEMMETA surface semantics + fine-region refinement",
+    "l2_to_localization_l3": {
+      "REG-KNEE-ANT-SUP": "L3-KNEE-ANT-PATELLA",
+      "REG-KNEE-ANT-PERI": "L3-KNEE-ANT-PATELLA",
+      "REG-KNEE-ANT-INF": "L3-KNEE-ANT-INFRAPATELLAR",
+      "REG-KNEE-MED-JL": "L3-KNEE-MED-JOINTLINE",
+      "REG-KNEE-MED-MCL": "L3-KNEE-MED-JOINTLINE",
+      "REG-KNEE-MED-PES": "L3-KNEE-MED-INFEROPATELLAR",
+      "REG-KNEE-MED-POST": "L3-KNEE-MED-POSTEROMEDIAL",
+      "REG-KNEE-LAT-JL": "L3-KNEE-LAT-JOINTLINE",
+      "REG-KNEE-LAT-FIB": "L3-KNEE-LAT-FIBHEAD",
+      "REG-KNEE-LAT-EPI": "L3-KNEE-LAT-SOFTTISSUE",
+      "REG-KNEE-LAT-POST": "L3-KNEE-LAT-SOFTTISSUE",
+      "REG-KNEE-POST-CENT": "L3-KNEE-POST-POPLITEAL",
+      "REG-KNEE-POST-MED": "L3-KNEE-POST-POPLITEAL",
+      "REG-KNEE-POST-LAT": "L3-KNEE-POST-POSTEROLAT",
+      "REG-KNEE-POST-CALF": "L3-KNEE-POST-POPLITEAL"
+    },
+    "localization_l3_to_db_region": {
+      "L3-KNEE-ANT-SUPRAPATELLAR": "KNEE-R-001",
+      "L3-KNEE-ANT-PATELLA": "KNEE-R-004",
+      "L3-KNEE-ANT-INFRAPATELLAR": "KNEE-R-006",
+      "L3-KNEE-MED-JOINTLINE": "KNEE-R-007",
+      "L3-KNEE-MED-INFEROPATELLAR": "KNEE-R-008",
+      "L3-KNEE-MED-POSTEROMEDIAL": "KNEE-R-009",
+      "L3-KNEE-LAT-JOINTLINE": "KNEE-R-010",
+      "L3-KNEE-LAT-FIBHEAD": "KNEE-R-011",
+      "L3-KNEE-LAT-SOFTTISSUE": "KNEE-R-012",
+      "L3-KNEE-POST-POPLITEAL": "KNEE-R-013",
+      "L3-KNEE-POST-POSTEROLAT": "KNEE-R-014",
+      "L3-KNEE-DIFFUSE": "KNEE-R-015"
+    },
+    "fine_l4_to_db_region": {
+      "L4-KNEE-ANT-PAT-SUP": "KNEE-R-001",
+      "L4-KNEE-ANT-PAT-LAT": "KNEE-R-002",
+      "L4-KNEE-ANT-PAT-MED": "KNEE-R-003",
+      "L4-KNEE-ANT-PAT-CENT": "KNEE-R-004",
+      "L4-KNEE-ANT-PAT-INF": "KNEE-R-005",
+      "L4-KNEE-ANT-PAT-TENDON": "KNEE-R-006",
+      "L4-KNEE-ANT-TIB-TUB": "KNEE-R-006",
+      "L4-KNEE-MED-JOINTLINE": "KNEE-R-007",
+      "L4-KNEE-MED-MCL": "KNEE-R-007",
+      "L4-KNEE-MED-PES": "KNEE-R-008",
+      "L4-KNEE-MED-POST": "KNEE-R-009",
+      "L4-KNEE-LAT-JOINTLINE": "KNEE-R-010",
+      "L4-KNEE-LAT-FIBHEAD": "KNEE-R-011",
+      "L4-KNEE-LAT-EPI": "KNEE-R-012",
+      "L4-KNEE-LAT-POST": "KNEE-R-012",
+      "L4-KNEE-POST-CENT": "KNEE-R-013",
+      "L4-KNEE-POST-MED": "KNEE-R-009",
+      "L4-KNEE-POST-LAT": "KNEE-R-014",
+      "L4-KNEE-POST-CALF": "KNEE-R-013"
+    },
+    "fine_calibration": {
+      "left_patella_center_x": 0.0852,
+      "right_patella_center_x": -0.0882,
+      "patella_edge_threshold": 0.014,
+      "infra_y": {
+        "inferior_patella": 0.405,
+        "patellar_tendon": 0.365
+      }
+    }
+  },
+  "ankle_foot": {
+    "source": "SEMMETA surface semantics",
+    "l2_to_db_region": {
+      "REG-ANKLE-ANT-LAT": "AF-R-001",
+      "REG-ANKLE-ANT-MED": "AF-R-001",
+      "REG-ANKLE-MED-MAL": "AF-R-002",
+      "REG-ANKLE-MED-POST": "AF-R-002",
+      "REG-ANKLE-LAT-ATFL": "AF-R-003",
+      "REG-ANKLE-LAT-CFL": "AF-R-003",
+      "REG-ANKLE-LAT-PER": "AF-R-003",
+      "REG-ACHILLES-MID": "AF-R-004",
+      "REG-ACHILLES-INS": "AF-R-005",
+      "REG-HEEL-POST": "AF-R-005",
+      "REG-HEEL-PLANTAR": "AF-R-006",
+      "REG-FOOT-PLANTAR-MED": "AF-R-007",
+      "REG-FOOT-ARCH": "AF-R-008",
+      "REG-FOOT-LAT": "AF-R-009",
+      "REG-FOOT-PLANTAR-LAT": "AF-R-009",
+      "REG-ANKLE-DORSUM": "AF-R-010",
+      "REG-FOOT-FORE-CENT": "AF-R-011",
+      "REG-FOOT-FORE-MED": "AF-R-012"
+    },
+    "status": "semantic surface mapping retained from accepted ankle/foot localization"
+  },
+  "lower_leg": {
+    "source": "Skin geometry fallback only when SEMMETA has no label",
+    "l2_to_db_region": {
+      "REG-LL-ANT-MUS": "LL-R-001",
+      "REG-LL-ANT-TIBIA": "LL-R-002",
+      "REG-LL-MED-TIBIA": "LL-R-003",
+      "REG-LL-LAT-PER": "LL-R-004",
+      "REG-LL-POST-GASTROC": "LL-R-005",
+      "REG-LL-POST-SOLEUS": "LL-R-006",
+      "REG-LL-POSTMED-DEEP": "LL-R-007"
+    },
+    "bounds": {
+      "y": [
+        0.145,
+        0.405
+      ],
+      "abs_x": [
+        0.02,
+        0.155
+      ],
+      "z": [
+        -0.125,
+        0.045
+      ]
+    },
+    "normalized_reference": {
+      "nx": "(abs(x)-0.080)/0.058",
+      "nz": "(z+0.045)/0.066"
+    },
+    "status": "internal validation; requires clinical click sampling before production freeze"
+  },
+  "thigh": {
+    "source": "Skin geometry fallback only when SEMMETA has no label",
+    "l2_to_db_region": {
+      "REG-THIGH-ANT": "THIGH-R-001",
+      "REG-THIGH-POST": "THIGH-R-002",
+      "REG-THIGH-MED": "THIGH-R-003",
+      "REG-THIGH-LAT": "THIGH-R-004"
+    },
+    "bounds": {
+      "y": [
+        0.505,
+        0.86
+      ],
+      "abs_x": [
+        0.02,
+        0.18
+      ],
+      "z": [
+        -0.145,
+        0.085
+      ]
+    },
+    "normalized_reference": {
+      "nx": "(abs(x)-0.092)/0.072",
+      "nz": "(z+0.018)/0.088"
+    },
+    "classification": "if abs(nz)>=abs(nx): anterior when nz>=0 else posterior; otherwise lateral when nx>=0 else medial",
+    "proximal_boundary": "y > 0.860 intentionally excluded for future Hip/Pelvis module",
+    "status": "internal validation; requires clinical click sampling before production freeze"
+  },
+  "db_region_coverage": {
+    "KNEE": 15,
+    "ANKLE_FOOT": 12,
+    "LOWER_LEG": 7,
+    "THIGH": 4,
+    "total": 38
+  },
+  "compatibility_note": "Spatial Region IDs and four-module localization mappings are unchanged from the v3.4 contract; only the implementation baseline label is updated to DB v3.7."
+}

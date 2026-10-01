@@ -1,0 +1,37 @@
+{
+  "verified_on": "2026-10-01",
+  "method": "本地扫描PDF按指定页渲染后人工阅读；不是仅按文件名或目录引用，也未全文读取全部书籍。",
+  "books": [
+    {
+      "id": "magee-local",
+      "path": "D:/Study/opencode/project/参考书籍/1-Magee骨科物理治疗评估-第二版(台版)011.pdf",
+      "title": "Magee骨科物理治疗评估，本地台版扫描本",
+      "edition_note": "译者序说明依据英文第五版；不把文件名的第二版当作英文原著第二版。",
+      "verified_pages": [
+        {"pdf_page": 739, "printed_page": 730, "topic": "膝部病史及受伤方向；用于问诊框架，不导入结构诊断规则。"},
+        {"pdf_page": 751, "printed_page": 742, "topic": "主动活动与双关节肌共同参与；用于区域/肌群检查表述。"},
+        {"pdf_page": 756, "printed_page": 747, "topic": "膝部抗阻等长活动；用于区分动作、输出与疼痛的评估框架。"},
+        {"pdf_page": 857, "printed_page": 848, "topic": "踝足病史、活动背景及受伤足位；用于问题对应的信息用途。"},
+        {"pdf_page": 882, "printed_page": 873, "topic": "负重/非负重主动活动与足趾动作；不用其中数值做自动阈值。"},
+        {"pdf_page": 889, "printed_page": 880, "topic": "踝足抗阻及功能活动；动作按情境调整，不要求固定全套。"},
+        {"pdf_page": 913, "printed_page": 904, "topic": "关节附属活动检查；没有把检查动作当成治疗疗效证明。"}
+      ],
+      "scope": "解剖与检查框架。产品的具体区域问诊用途和中性表述为临床编辑整理，不冒充书籍原文或已验证分诊规则。"
+    },
+    {
+      "id": "essentials-kinesiology-3-local",
+      "path": "D:/Study/opencode/project/参考书籍/基础肌动学 第3版.pdf",
+      "title": "基础肌动学，第3版",
+      "authors": "Paul Jackson Mansfield; Donald A. Neumann",
+      "original_title": "Essentials of Kinesiology for the Physical Therapist Assistant, 3rd edition",
+      "metadata_verified_pdf_page": 3,
+      "verified_pages": [
+        {"pdf_page": 306, "printed_page": 288, "topic": "膝关节屈伸、轴向旋转及完全伸直时的运动限制。"},
+        {"pdf_page": 308, "printed_page": 290, "topic": "闭链旋转及转向情境中的力学；不由姿势直接判病因或必须纠正。"}
+      ],
+      "scope": "肌动学与组织共同参与，不证明具名手法或理疗的独立疗效。"
+    }
+  ],
+  "other_books": "目录中的解剖列车及其他扫描书暂未作为本批条目的直接内容来源，后续读取对应页后再登记。",
+  "distribution": "不复制或公开书籍扫描页；book://引用仅在内部指向该索引，不在产品页面显示本地路径。"
+}

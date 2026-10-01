@@ -1,0 +1,85 @@
+{
+  "batch": 1,
+  "approved_on": "2026-10-01",
+  "issue_ids": ["CLIN-01", "CLIN-02", "CLIN-10", "CLIN-15"],
+  "scope": "确定错误与用户已确认术语。保留ID、组织关联、方法数量及风险级别。",
+  "main": {
+    "02_ClinicalItem": {
+      "AF-JNT-004": {
+        "display_name": "第一跖骨列上下活动",
+        "check_focus": "第一跖骨列上下活动范围、终末感、疼痛位置及承重反应。"
+      },
+      "CORE-SAF-ACS": { "display_name": "急性下肢间室综合征风险筛查" },
+      "CORE-SAF-VTE": { "display_name": "下肢静脉血栓风险筛查" }
+    },
+    "03_Finding": {
+      "AF-FND-JOINT-RAY1": { "display_name": "第一跖骨列上下活动改变或疼痛" }
+    },
+    "08_AssessmentFindingMap": {
+      "AFM-0022": { "trigger_condition": "第一跖骨列上下活动受限、偏大或出现疼痛。" },
+      "AFM-0064": { "trigger_condition": "无法用明确运动损伤解释的单侧下肢痛或压痛伴肿胀、温热、发红或变色，结合血栓风险背景查看。" }
+    }
+  },
+  "extension": {
+    "ClinicalPurpose": {
+      "AF-JNT-004": {
+        "Item_Name": "第一跖骨列上下活动",
+        "Clinical_Purpose": "查看第一跖骨列整体上下活动，与内侧前足承重和蹬地表现对照。",
+        "Assessment_Focus": "第一跖骨列上下活动范围、终末感、疼痛位置及承重反应。",
+        "Source_URL": "https://pubmed.ncbi.nlm.nih.gov/16619101/\nhttps://pubmed.ncbi.nlm.nih.gov/10739156/"
+      },
+      "CORE-SAF-ACS": { "Item_Name": "急性下肢间室综合征风险筛查" },
+      "CORE-SAF-VTE": { "Item_Name": "下肢静脉血栓风险筛查" }
+    },
+    "FindingFeature": {
+      "AFM-0022-LIMIT": {
+        "Finding_Name": "第一跖骨列上下活动受限",
+        "Finding_Feature": "第一跖骨列整体向上或向下活动较对侧减少，与内侧前足承重或蹬地表现对照。",
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0022\nhttps://pubmed.ncbi.nlm.nih.gov/16619101/\nhttps://pubmed.ncbi.nlm.nih.gov/10739156/"
+      },
+      "AFM-0022-EXCESS": {
+        "Finding_Name": "第一跖骨列上下活动偏大",
+        "Finding_Feature": "第一跖骨列整体上下活动较对侧偏大；同时查看承重时内侧前足支撑、拇趾贴地及症状。",
+        "Finding_Interpretation": "第一跖骨列整体活动包含多个关节的共同参与；单项活动检查不能确定第一跖跗关节损伤。",
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0022\nhttps://pubmed.ncbi.nlm.nih.gov/16619101/\nhttps://pubmed.ncbi.nlm.nih.gov/10739156/"
+      },
+      "AFM-0022-PAIN": {
+        "Finding_Name": "第一跖骨列上下活动时疼痛",
+        "Finding_Feature": "第一跖骨列整体上下活动时出现疼痛，查看疼痛在内侧中足、跖骨周围还是前足跖侧。",
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0022\nhttps://pubmed.ncbi.nlm.nih.gov/16619101/\nhttps://pubmed.ncbi.nlm.nih.gov/10739156/"
+      }
+    },
+    "InterventionReference": {
+      "AFM-0046-PRESSURE-RECORD-1": {
+        "Treatment_Method": "肌内效贴贴扎；肌肉电刺激放松",
+        "Source_Note": "线下经验参考，记录为减张贴与Compex relax。用户确认后者为NMES relax模式，对外称肌肉电刺激放松。对应相关肌腹，不用于骨缘压痛的默认处理，不宣称独立疗效。"
+      },
+      "AFM-0060-PRESSURE-LOCAL-1": {
+        "Treatment_Method": "肌内效贴贴扎；肌肉电刺激放松",
+        "Source_Note": "区域经验来自胫骨后肌减张贴与Compex relax记录。用户确认后者为NMES relax模式，对外称肌肉电刺激放松。适用于骨缘后方相关肌腹，非骨性压痛；不证明致痛组织或独立镇痛疗效。"
+      },
+      "AFM-0060-ACTIVITY-LOCAL-1": {
+        "Treatment_Method": "肌内效贴贴扎；肌肉电刺激放松",
+        "Source_Note": "沿用同区域胫骨后肌记录。用户确认Compex relax为NMES relax模式，对外称肌肉电刺激放松。对应相关肌腹；内翻或屈趾痛不确定单一肌肉，肌腹与肌腱分别查看。"
+      },
+      "AFM-0042-TENSION-RELAX-1": {
+        "Treatment_Method": "腓骨长肌肌肉电刺激放松",
+        "Source_Note": "记录为腓骨长肌Compex relax。用户确认实际为NMES relax模式，对外称肌肉电刺激放松。保留经验出处，不改写为TENS镇痛或用于肌力募集，不宣称独立疗效。"
+      }
+    },
+    "ConsultationGuide": {
+      "QG-KNEE-FRONT-1": { "Region_IDs": "KNEE-R-001|KNEE-R-002|KNEE-R-003|KNEE-R-004|KNEE-R-005|KNEE-R-006" },
+      "QG-KNEE-FRONT-2": { "Region_IDs": "KNEE-R-001|KNEE-R-002|KNEE-R-003|KNEE-R-004|KNEE-R-005|KNEE-R-006" },
+      "QG-KNEE-FRONT-3": { "Region_IDs": "KNEE-R-001|KNEE-R-002|KNEE-R-003|KNEE-R-004|KNEE-R-005|KNEE-R-006" },
+      "QG-KNEE-MEDIAL-1": {
+        "Region_IDs": "KNEE-R-007|KNEE-R-008|KNEE-R-009",
+        "Core_Prompt": "疼在内侧关节线、韧带走行、下方鹅足，还是后内侧肌腱附近？"
+      },
+      "QG-KNEE-MEDIAL-2": { "Region_IDs": "KNEE-R-007|KNEE-R-008|KNEE-R-009" },
+      "QG-KNEE-MEDIAL-3": { "Region_IDs": "KNEE-R-007|KNEE-R-008|KNEE-R-009" },
+      "QG-KNEE-LATERAL-1": { "Region_IDs": "KNEE-R-010|KNEE-R-011|KNEE-R-012" },
+      "QG-KNEE-LATERAL-2": { "Region_IDs": "KNEE-R-010|KNEE-R-011|KNEE-R-012" },
+      "QG-KNEE-LATERAL-3": { "Region_IDs": "KNEE-R-010|KNEE-R-011|KNEE-R-012" }
+    }
+  }
+}

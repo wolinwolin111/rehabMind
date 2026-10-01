@@ -1,0 +1,595 @@
+{
+  "batch": 3,
+  "approved_on": "2026-10-01",
+  "issue_ids": [
+    "CLIN-05",
+    "CLIN-06",
+    "CLIN-07",
+    "CLIN-08",
+    "CLIN-09"
+  ],
+  "main": {
+    "02_ClinicalItem": {
+      "KNEE-LT-SUPRAPAT": {
+        "item_id": "KNEE-LT-SUPRAPAT",
+        "item_type": "LOCAL_TISSUE",
+        "display_name": "髌骨上缘/股四头肌腱",
+        "check_focus": "股四头肌腱走行与髌骨上缘压痛、伸膝发力反应；有外伤时查看主动伸膝与肌腱完整性。",
+        "allowed_finding_types": "LOCAL_TISSUE",
+        "status": "Stable",
+        "source_asset": "Clinical remediation CLIN-05"
+      },
+      "CORE-MUS-SM": {
+        "check_focus": "后内侧腘绳肌牵拉范围、局部反应与侧差；组合动作不隔离半膜肌。"
+      },
+      "CORE-MUS-VI": {
+        "check_focus": "前侧股四头肌群屈膝牵拉与伸膝发力反应；不以表面触诊确定股中间肌。"
+      },
+      "CORE-MUS-SART": {
+        "check_focus": "髋膝组合牵拉、相关肌群局部反应与鹅足区位置；不按一个动作隔离缝匠肌。"
+      },
+      "CORE-MUS-GRAC": {
+        "check_focus": "髋外展结合膝伸的内侧肌群牵拉、局部反应与侧差。"
+      }
+    },
+    "08_AssessmentFindingMap": {
+      "AFM-0124": {
+        "map_id": "AFM-0124",
+        "clinical_item_id": "KNEE-LT-SUPRAPAT",
+        "finding_id": "CORE-FND-LOCAL",
+        "trigger_condition": "疼痛集中在髌骨上缘或股四头肌腱走行；伸膝发力或触诊时出现相关反应。",
+        "status": "Stable",
+        "source_asset": "Clinical remediation CLIN-05"
+      }
+    },
+    "05_RegionClinicalMap": {
+      "RCM-0375": {
+        "clinical_item_id": "KNEE-LT-SUPRAPAT"
+      },
+      "RCM-0387": {
+        "clinical_item_id": "KNEE-LT-INFRAPAT"
+      },
+      "RCM-0536": {
+        "map_id": "RCM-0536",
+        "region_id": "KNEE-R-001",
+        "clinical_item_id": "KNEE-LT-PATELLA",
+        "direction_type": "局部组织",
+        "priority": "Secondary",
+        "condition": "Secondary review",
+        "status": "Stable",
+        "source_asset": "Clinical remediation CLIN-05",
+        "relation_nature": "邻近髌周组织",
+        "assessment_dimension": "LOCAL",
+        "assessment_group": "膝前侧局部组织",
+        "display_order": 5002,
+        "display_mode": "EXPAND",
+        "context_link": null,
+        "relationship_type": null
+      },
+      "RCM-0537": {
+        "map_id": "RCM-0537",
+        "region_id": "KNEE-R-005",
+        "clinical_item_id": "KNEE-LT-PATELLA",
+        "direction_type": "局部组织",
+        "priority": "Secondary",
+        "condition": "Secondary review",
+        "status": "Stable",
+        "source_asset": "Clinical remediation CLIN-05",
+        "relation_nature": "邻近髌周组织",
+        "assessment_dimension": "LOCAL",
+        "assessment_group": "膝前侧局部组织",
+        "display_order": 5002,
+        "display_mode": "EXPAND",
+        "context_link": null,
+        "relationship_type": null
+      }
+    }
+  },
+  "extension": {
+    "ClinicalPurpose": {
+      "KNEE-LT-SUPRAPAT": {
+        "Item_ID": "KNEE-LT-SUPRAPAT",
+        "Item_Name": "髌骨上缘/股四头肌腱",
+        "Clinical_Purpose": "股四头肌腱连接股四头肌与髌骨上缘；此处不适可结合伸膝承载及外伤经过查看。",
+        "Assessment_Focus": "肌腱走行压痛、伸膝发力反应、外伤后的主动伸膝与完整性。",
+        "Module": "KNEE",
+        "Source_URL": "https://pubmed.ncbi.nlm.nih.gov/35703747/\nhttps://www.orthoinfo.org/diseases--conditions/quadriceps-tendon-tear/",
+        "Review_Status": "待临床审核"
+      },
+      "CORE-MUS-SM": {
+        "Clinical_Purpose": "半膜肌属于膝后内侧腘绳肌；可查看该区域随髋屈、膝伸的牵拉表现。",
+        "Assessment_Focus": "后内侧腘绳肌牵拉范围、局部反应与侧差；组合动作不隔离半膜肌。",
+        "Source_URL": "baseline://database-v3.8/ClinicalPurpose/CORE-MUS-SM\nhttps://www.ncbi.nlm.nih.gov/books/NBK542215/\nbook://magee-local#pdf=751,756&print=742,747"
+      },
+      "CORE-MUS-VI": {
+        "Clinical_Purpose": "股中间肌位于股四头肌深层；屈膝牵拉或伸膝发力时，可查看大腿前侧相关表现。",
+        "Assessment_Focus": "前侧股四头肌群屈膝牵拉与伸膝发力反应；不以表面触诊确定股中间肌。",
+        "Source_URL": "baseline://database-v3.8/ClinicalPurpose/CORE-MUS-VI\nhttps://www.ncbi.nlm.nih.gov/books/NBK513334/\nbook://magee-local#pdf=751,756&print=742,747"
+      },
+      "CORE-MUS-SART": {
+        "Clinical_Purpose": "缝匠肌跨髋、膝并参与鹅足区；可将内侧肌群牵拉与鹅足区不适对照。",
+        "Assessment_Focus": "髋膝组合牵拉、相关肌群局部反应与鹅足区位置；不按一个动作隔离缝匠肌。",
+        "Source_URL": "baseline://database-v3.8/ClinicalPurpose/CORE-MUS-SART\nhttps://www.ncbi.nlm.nih.gov/books/NBK534775/\nbook://magee-local#pdf=751,756&print=742,747"
+      },
+      "CORE-MUS-GRAC": {
+        "Clinical_Purpose": "股薄肌跨髋、膝并参与鹅足区；可查看髋外展与膝伸组合时的内侧牵拉。",
+        "Assessment_Focus": "髋外展结合膝伸的内侧肌群牵拉、局部反应与侧差。",
+        "Source_URL": "baseline://database-v3.8/ClinicalPurpose/CORE-MUS-GRAC\nhttps://www.ncbi.nlm.nih.gov/books/NBK534775/\nbook://magee-local#pdf=751,756&print=742,747"
+      }
+    },
+    "FindingFeature": {
+      "AFM-0124-TENDON": {
+        "Feature_ID": "AFM-0124-TENDON",
+        "Assessment_Map_ID": "AFM-0124",
+        "Finding_Name": "股四头肌腱承载相关不适",
+        "Finding_Feature": "疼痛集中于髌骨上缘或股四头肌腱走行，伸膝抗阻、跳跃或落地时出现。",
+        "Finding_Interpretation": "训练方法供肌腱承载问题参考，不由压痛直接确定肌腱病；与急性撕裂及关节内反应分开。",
+        "Source_URL": "https://pubmed.ncbi.nlm.nih.gov/35703747/",
+        "Review_Status": "待临床审核",
+        "Related_Location_Prompt": null,
+        "Related_Location_Action_Label": null,
+        "Related_Location_Region_IDs": null,
+        "Related_Location_Hide_Option_When_Current": null
+      },
+      "AFM-0124-INTEGRITY": {
+        "Feature_ID": "AFM-0124-INTEGRITY",
+        "Assessment_Map_ID": "AFM-0124",
+        "Finding_Name": "外伤后主动伸膝困难或腱走行缺损",
+        "Finding_Feature": "外伤后突然难以主动伸膝，或髌骨上方出现明显凹陷，伴肿胀、瘀斑。",
+        "Finding_Interpretation": "外伤后的伸膝困难需与慢性承载不适分开，可补股四头肌腱完整性及医学评估。",
+        "Source_URL": "https://www.orthoinfo.org/diseases--conditions/quadriceps-tendon-tear/",
+        "Review_Status": "待临床审核",
+        "Related_Location_Prompt": null,
+        "Related_Location_Action_Label": null,
+        "Related_Location_Region_IDs": null,
+        "Related_Location_Hide_Option_When_Current": null
+      },
+      "AFM-0071-TENSION": {
+        "Finding_Name": "后内侧腘绳肌牵拉受限或张力变化",
+        "Finding_Feature": "髋屈结合膝伸时，后内侧腘绳肌区域牵拉受限或张力与对侧不同；不代表单独定位半膜肌。",
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0071\nhttps://www.ncbi.nlm.nih.gov/books/NBK542215/\nbook://magee-local#pdf=751,756&print=742,747"
+      },
+      "AFM-0068-LENGTH": {
+        "Finding_Name": "前侧股四头肌群牵拉受限",
+        "Finding_Feature": "屈膝时前侧股四头肌群牵拉范围或局部反应与对侧不同；该动作不能单独评估股中间肌。",
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0068\nhttps://www.ncbi.nlm.nih.gov/books/NBK513334/\nbook://magee-local#pdf=751,756&print=742,747"
+      },
+      "AFM-0072-LENGTH": {
+        "Finding_Name": "内侧肌群组合牵拉受限",
+        "Finding_Feature": "髋伸、内收结合膝伸时，内侧肌群牵拉范围或局部反应与对侧不同；不等同缝匠肌独立长度测试。",
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0072\nhttps://www.ncbi.nlm.nih.gov/books/NBK534775/\nbook://magee-local#pdf=751,756&print=742,747"
+      },
+      "AFM-0073-LENGTH": {
+        "Finding_Name": "内侧肌群牵拉受限",
+        "Finding_Feature": "髋外展结合膝伸时，内侧肌群牵拉范围减少或局部反应与对侧不同；其他内收肌、腘绳肌也可能参与。",
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0073\nhttps://www.ncbi.nlm.nih.gov/books/NBK534775/\nbook://magee-local#pdf=751,756&print=742,747"
+      },
+      "AFM-0090-CAPACITY": {
+        "Finding_Name": "膝伸输出下降或受疼痛限制",
+        "Finding_Feature": "相同测试条件下，膝伸抗阻输出与对侧或既往不同，或发力受疼痛限制；分别查看输出和疼痛反应，并对照目标活动需求。",
+        "Source_URL": "https://doi.org/10.2519/jospt.2019.0302\nbook://magee-local#pdf=751,756&print=742,747"
+      },
+      "AFM-0091-CAPACITY": {
+        "Finding_Name": "膝屈输出下降或受疼痛限制",
+        "Finding_Feature": "相同测试条件下，膝屈抗阻输出与对侧或既往不同，或发力受疼痛限制；分别查看输出和疼痛反应，并对照目标活动需求。",
+        "Source_URL": "https://doi.org/10.2519/jospt.2019.0302\nbook://magee-local#pdf=751,756&print=742,747"
+      },
+      "AFM-0092-CAPACITY": {
+        "Finding_Name": "髋外展/外旋输出下降或受疼痛限制",
+        "Finding_Feature": "相同测试条件下，髋外展/外旋抗阻输出与对侧或既往不同，或发力受疼痛限制；分别查看输出和疼痛反应，并对照目标活动需求。",
+        "Source_URL": "https://doi.org/10.2519/jospt.2019.0302\nbook://magee-local#pdf=751,756&print=742,747"
+      },
+      "AFM-0093-CAPACITY": {
+        "Finding_Name": "髋伸输出下降或受疼痛限制",
+        "Finding_Feature": "相同测试条件下，髋伸抗阻输出与对侧或既往不同，或发力受疼痛限制；分别查看输出和疼痛反应，并对照目标活动需求。",
+        "Source_URL": "https://doi.org/10.2519/jospt.2019.0302\nbook://magee-local#pdf=751,756&print=742,747"
+      },
+      "AFM-0005-CAPACITY": {
+        "Finding_Name": "足踝外翻输出下降或受疼痛限制",
+        "Finding_Feature": "相同测试条件下，足踝外翻抗阻输出与对侧或既往不同，或发力受疼痛限制；分别查看输出和疼痛反应，并对照目标活动需求。",
+        "Source_URL": "local-records://LR-a27906e6eaef#L23-L48\nbook://magee-local#pdf=882,889&print=873,880"
+      },
+      "AFM-0006-CAPACITY": {
+        "Finding_Name": "足踝内翻输出下降或受疼痛限制",
+        "Finding_Feature": "相同测试条件下，足踝内翻抗阻输出与对侧或既往不同，或发力受疼痛限制；分别查看输出和疼痛反应，并对照目标活动需求。",
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0006\nbook://magee-local#pdf=882,889&print=873,880"
+      },
+      "AFM-0007-CAPACITY": {
+        "Finding_Name": "踝背屈输出下降或受疼痛限制",
+        "Finding_Feature": "相同测试条件下，踝背屈抗阻输出与对侧或既往不同，或发力受疼痛限制；分别查看输出和疼痛反应，并对照目标活动需求。",
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0007\nhttps://www.ncbi.nlm.nih.gov/books/NBK539725/\nbook://magee-local#pdf=882,889&print=873,880"
+      },
+      "AFM-0009-CAPACITY": {
+        "Finding_Name": "拇趾屈曲输出下降或受疼痛限制",
+        "Finding_Feature": "相同测试条件下，拇趾屈曲抗阻输出与对侧或既往不同，或发力受疼痛限制；分别查看输出和疼痛反应，并对照目标活动需求。",
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0009\nbook://magee-local#pdf=882,889&print=873,880"
+      },
+      "AFM-0004-CAPACITY": {
+        "Finding_Name": "跖屈输出下降或提踵完成差异",
+        "Finding_Feature": "分别比较跖屈抗阻输出、提踵高度和完成质量；可伴疼痛限制。侧差与目标活动所需能力分别查看。",
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0004\nhttps://www.cht.nhs.uk/services/clinical-services/physiotherapy-outpatients/foot-ankle/calf-muscle-strain\nbook://magee-local#pdf=882,889&print=873,880"
+      }
+    },
+    "InterventionReference": {
+      "AFM-0124-TENDON-RESISTANCE": {
+        "Reference_ID": "AFM-0124-TENDON-RESISTANCE",
+        "Feature_ID": "AFM-0124-TENDON",
+        "Treatment_Goal": "股四头肌腱承载训练",
+        "Treatment_Method": "伸膝慢速抗阻训练；伸膝离心抗阻训练",
+        "Progression": null,
+        "Source_URL": "https://pubmed.ncbi.nlm.nih.gov/35703747/",
+        "Review_Status": "待临床审核",
+        "Source_Note": "2022膝伸装置肌腱病综述明确包括股四头肌腱，并列离心或重慢速抗阻。这里只列方法名称，不移植髌腱研究的剂量或阶段，不用于急性腱撕裂，也不以局部压痛决定训练。"
+      },
+      "AFM-0066-TENSION-2": {
+        "Treatment_Method": "股四头肌拉伸"
+      },
+      "AFM-0075-TENSION-2": {
+        "Treatment_Method": "侧卧髋外展主动活动",
+        "Source_URL": "baseline://database-v3.8/InterventionReference/AFM-0075-TENSION-2\nhttps://www.ruh.nhs.uk/patients/services/physiotherapy/OP_outpatient_service.asp\nhttps://www.youtube.com/watch?v=-3wpGzwc3Io",
+        "Source_Note": "原库“髋外侧主动活动”具体化为官方机构列出的侧卧髋外展；用于相关区域主动活动参考，不声称独立牵伸阔筋膜张肌或治疗所有髋外侧痛。不是从线下记录还原出该动作。"
+      },
+      "AFM-0005-CAPACITY-RECORD-2": {
+        "Treatment_Method": "单腿支撑训练；单腿下蹲训练",
+        "Source_Note": "授权记录同一段包含单腿站与单腿下蹲，作为区域任务参考；不说明外翻肌力下降就需做这些动作，也不据此确定疼痛来源。"
+      },
+      "AFM-0006-CAPACITY-MEDIAL-1": {
+        "Treatment_Method": "足踝内翻等长抗阻训练；弹力带足踝内翻训练",
+        "Source_Note": "原库内翻抗阻细化为等长与弹力带形式；官方资料中胫骨后肌腱背景不外推到所有内翻输出侧差，侧差、疼痛与运动需求分开查看。"
+      },
+      "AFM-0009-CAPACITY-MEDIAL-1": {
+        "Treatment_Method": "拇趾屈曲等长抗阻训练；拇趾屈曲动态抗阻训练",
+        "Source_Note": "原库拇趾屈曲募集与抗阻具体化为同一动作的等长/动态形式，保留原库经验归属；不是独立拇长屈肌测试或单肌训练。"
+      }
+    },
+    "ConsultationGuide": {
+      "QG-AF-R-006-1": {
+        "Question_Purpose": "区分足跟垫中央与筋膜附着处的疼痛范围。",
+        "Information_Gained": "足跟中央、内侧结节及周围的具体位置。",
+        "Assessment_Help": "可分别查看足跟垫、足底筋膜附着处及邻近骨面。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-AF-R-006-1\nbook://magee-local#pdf=857&print=848",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-AF-R-006-2": {
+        "Question_Purpose": "了解接触受压与休息后起步的反应差别。",
+        "Information_Gained": "赤脚、硬地和起步时的疼痛变化。",
+        "Assessment_Help": "可对照足跟垫受压、筋膜牵拉与步行负重表现。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-AF-R-006-2\nbook://magee-local#pdf=857&print=848",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-AF-R-006-3": {
+        "Question_Purpose": "了解足跟疼痛的外伤或重复负重背景。",
+        "Information_Gained": "突然起病、撞击经过及近期跑跳变化。",
+        "Assessment_Help": "为足跟软组织与跟骨骨面评估补充背景。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-AF-R-006-3\nbook://magee-local#pdf=857&print=848",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-AF-R-007-1": {
+        "Question_Purpose": "区分筋膜起点、足弓中段与邻近肌腹。",
+        "Information_Gained": "疼痛集中位置及沿足弓的范围。",
+        "Assessment_Help": "可分别查看筋膜走行、足底肌群与局部骨面。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-AF-R-007-1\nbook://magee-local#pdf=857&print=848",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-AF-R-007-2": {
+        "Question_Purpose": "比较起步、筋膜牵拉和持续承重的反应。",
+        "Information_Gained": "起步、伸拇趾及站走时的差别。",
+        "Assessment_Help": "可对照足底筋膜牵拉、足趾活动与足弓承重表现。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-AF-R-007-2\nbook://magee-local#pdf=857&print=848",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-AF-R-007-3": {
+        "Question_Purpose": "了解足底近期承重条件的变化。",
+        "Information_Gained": "鞋具、跑量与负重时间的改变。",
+        "Assessment_Help": "为鞋具接触、足弓承重和相关动作观察提供背景。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-AF-R-007-3\nbook://magee-local#pdf=857&print=848",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-AF-R-008-1": {
+        "Question_Purpose": "区分舟骨骨面、内侧突起与胫骨后肌腱附近。",
+        "Information_Gained": "舟骨邻近的具体疼痛位置。",
+        "Assessment_Help": "可分别查看骨面、局部接触与胫骨后肌腱走行。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-AF-R-008-1\nbook://magee-local#pdf=857&print=848",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-AF-R-008-2": {
+        "Question_Purpose": "比较肌腱发力承载与鞋具接触的反应。",
+        "Information_Gained": "内翻、提踵和摩擦时的症状差别。",
+        "Assessment_Help": "可对照胫骨后肌相关抗阻、提踵及突起处受压。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-AF-R-008-2\nbook://magee-local#pdf=857&print=848",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-AF-R-008-3": {
+        "Question_Purpose": "了解骨面疼痛、既有突起和近期负重背景。",
+        "Information_Gained": "外伤经过、突起是否长期存在及跑跳变化。",
+        "Assessment_Help": "为舟骨骨面、附属舟骨邻近组织和肌腱评估提供背景。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-AF-R-008-3\nbook://magee-local#pdf=857&print=848",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-AF-R-009-1": {
+        "Question_Purpose": "区分第五跖骨骨面与腓骨肌腱附近。",
+        "Information_Gained": "骨面和外侧肌腱走行的集中疼痛位置。",
+        "Assessment_Help": "可分别查看第五跖骨、腓骨肌腱及周围组织。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-AF-R-009-1\nbook://magee-local#pdf=857&print=848",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-AF-R-009-2": {
+        "Question_Purpose": "比较外侧组织牵拉、发力与负重的反应。",
+        "Information_Gained": "内翻、外翻抗阻及负重时的差别。",
+        "Assessment_Help": "可对照腓骨肌腱相关动作与第五跖骨骨面反应。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-AF-R-009-2\nbook://magee-local#pdf=857&print=848",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-AF-R-009-3": {
+        "Question_Purpose": "了解外侧足痛的急性扭伤或重复负重背景。",
+        "Information_Gained": "崴脚经过、跑跳变化及起病方式。",
+        "Assessment_Help": "为外侧骨面、肌腱及扭伤相关结构评估提供背景。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-AF-R-009-3\nbook://magee-local#pdf=857&print=848",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-AF-R-010-1": {
+        "Question_Purpose": "区分中足关节线、伸肌腱和鞋带接触区。",
+        "Information_Gained": "关节缝、肌腱走行或受压位置。",
+        "Assessment_Help": "可分别查看中足关节、足背伸肌腱及局部接触。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-AF-R-010-1\nbook://magee-local#pdf=857&print=848",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-AF-R-010-2": {
+        "Question_Purpose": "比较伸肌发力与蹬地承重的反应。",
+        "Information_Gained": "伸趾、背屈和蹬地时的疼痛差别。",
+        "Assessment_Help": "可对照伸肌相关抗阻、中足活动与负重表现。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-AF-R-010-2\nbook://magee-local#pdf=857&print=848",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-AF-R-010-3": {
+        "Question_Purpose": "了解中足外伤及稳定结构评估背景。",
+        "Information_Gained": "足部扭转、肿胀和足底瘀斑经过。",
+        "Assessment_Help": "可补跗跖稳定结构、骨面与医学评估方向。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-AF-R-010-3\nbook://magee-local#pdf=857&print=848",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-AF-R-011-1": {
+        "Question_Purpose": "明确前足跖侧疼痛所在趾根。",
+        "Information_Gained": "对应趾根位置及踩石感范围。",
+        "Assessment_Help": "可分别查看跖骨头、跖板邻近组织及趾间区域。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-AF-R-011-1\nbook://magee-local#pdf=857&print=848",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-AF-R-011-2": {
+        "Question_Purpose": "了解跖骨头承重与鞋底接触的差别。",
+        "Information_Gained": "前足负重、提踵及鞋底软硬时的反应。",
+        "Assessment_Help": "可对照前足压力位置、跖趾活动及支撑表现。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-AF-R-011-2\nbook://magee-local#pdf=857&print=848",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-AF-R-011-3": {
+        "Question_Purpose": "了解足趾支撑位置是否近期改变。",
+        "Information_Gained": "新出现的上翘、偏移与贴地变化。",
+        "Assessment_Help": "可补跖趾稳定、跖板邻近组织与足趾支撑观察。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-AF-R-011-3\nbook://magee-local#pdf=857&print=848",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-AF-R-012-1": {
+        "Question_Purpose": "区分拇趾关节周围与跖侧籽骨区域。",
+        "Information_Gained": "关节上方、两侧及籽骨附近的疼痛位置。",
+        "Assessment_Help": "可分别查看第一跖趾关节、关节囊与籽骨邻近组织。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-AF-R-012-1\nbook://magee-local#pdf=857&print=848",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-AF-R-012-2": {
+        "Question_Purpose": "比较拇趾伸展、蹬地与鞋面接触。",
+        "Information_Gained": "上述动作或接触时的症状差别。",
+        "Assessment_Help": "可对照第一跖趾活动、前足承载与局部受压。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-AF-R-012-2\nbook://magee-local#pdf=857&print=848",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-AF-R-012-3": {
+        "Question_Purpose": "了解拇趾过伸外伤的经过。",
+        "Information_Gained": "过伸方向、肿胀及瘀斑变化。",
+        "Assessment_Help": "可补第一跖趾跖侧稳定结构与骨面评估。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-AF-R-012-3\nbook://magee-local#pdf=857&print=848",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-THIGH-R-001-1": {
+        "Question_Purpose": "区分大腿前侧肌腹、肌腱与深部区域。",
+        "Information_Gained": "疼痛集中位置、深浅与范围。",
+        "Assessment_Help": "可分别查看股四头肌群、腱走行及股骨邻近反应。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-THIGH-R-001-1\nbook://magee-local#pdf=751,756&print=742,747",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-THIGH-R-001-2": {
+        "Question_Purpose": "比较股四头肌牵拉、发力与跑跳承载。",
+        "Information_Gained": "屈膝、伸膝抗阻和跑跳时的差别。",
+        "Assessment_Help": "可对照肌群牵拉、膝伸输出与相关动作。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-THIGH-R-001-2\nbook://magee-local#pdf=751,756&print=742,747",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-THIGH-R-001-3": {
+        "Question_Purpose": "了解挫伤、突然发力和训练后疼痛背景。",
+        "Information_Gained": "撞击、发力经过与出现时间。",
+        "Assessment_Help": "为肌腹、肌腱及外伤完整性评估提供背景。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-THIGH-R-001-3\nbook://magee-local#pdf=751,756&print=742,747",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-THIGH-R-002-1": {
+        "Question_Purpose": "区分后大腿肌腹、近端和远端肌腱。",
+        "Information_Gained": "疼痛沿后大腿的位置与范围。",
+        "Assessment_Help": "可分别查看腘绳肌肌腹、坐骨附近与膝后肌腱。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-THIGH-R-002-1\nbook://magee-local#pdf=751,756&print=742,747",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-THIGH-R-002-2": {
+        "Question_Purpose": "比较腘绳肌牵拉、膝屈发力与快跑需求。",
+        "Information_Gained": "伸膝牵拉、抗阻和快跑时的反应。",
+        "Assessment_Help": "可对照髋膝组合牵拉、膝屈/髋伸输出及跑步动作。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-THIGH-R-002-2\nbook://magee-local#pdf=751,756&print=742,747",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-THIGH-R-002-3": {
+        "Question_Purpose": "了解急性拉伤、手术与放射症状背景。",
+        "Information_Gained": "拉伤、瘀斑、取腱手术及麻木放射范围。",
+        "Assessment_Help": "可补组织完整性、术后范围与神经相关评估。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-THIGH-R-002-3\nbook://magee-local#pdf=751,756&print=742,747",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-THIGH-R-003-1": {
+        "Question_Purpose": "区分内侧肌腹、近端深部与膝内侧止点。",
+        "Information_Gained": "内侧疼痛的近远端位置与范围。",
+        "Assessment_Help": "可分别查看内收肌群、近端腱区与鹅足附近。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-THIGH-R-003-1\nbook://magee-local#pdf=751,756&print=742,747",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-THIGH-R-003-2": {
+        "Question_Purpose": "比较内收肌群牵拉、发力及侧向承重。",
+        "Information_Gained": "外展、内收抗阻与侧向动作的反应。",
+        "Assessment_Help": "可对照内侧肌群牵拉、内收输出与侧向动作。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-THIGH-R-003-2\nbook://magee-local#pdf=751,756&print=742,747",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-THIGH-R-003-3": {
+        "Question_Purpose": "了解跨步、变向或逐渐起病的经过。",
+        "Information_Gained": "动作方向、出现时机及训练背景。",
+        "Assessment_Help": "为内收肌群、肌腱与相关动作评估提供背景。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-THIGH-R-003-3\nbook://magee-local#pdf=751,756&print=742,747",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-THIGH-R-004-1": {
+        "Question_Purpose": "区分近端肌腹、外侧中段和膝外侧。",
+        "Information_Gained": "大腿外侧具体位置与延伸范围。",
+        "Assessment_Help": "可分别查看阔筋膜张肌、外侧股四头肌与髂胫束邻近组织。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-THIGH-R-004-1\nbook://magee-local#pdf=751,756&print=742,747",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-THIGH-R-004-2": {
+        "Question_Purpose": "比较膝屈伸、跑步及侧向支撑的反应。",
+        "Information_Gained": "各动作下出现的部位和时机。",
+        "Assessment_Help": "可对照外侧肌群发力、膝活动与髋膝支撑动作。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-THIGH-R-004-2\nbook://magee-local#pdf=751,756&print=742,747",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-THIGH-R-004-3": {
+        "Question_Purpose": "了解外伤、运动变化及感觉症状。",
+        "Information_Gained": "撞击经过、训练变化和外侧麻木范围。",
+        "Assessment_Help": "可补局部软组织、骨面与神经相关评估。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-THIGH-R-004-3\nbook://magee-local#pdf=751,756&print=742,747",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-KNEE-FRONT-1": {
+        "Question_Purpose": "区分髌周、上下缘肌腱与胫骨结节。",
+        "Information_Gained": "膝前疼痛的集中位置及范围。",
+        "Assessment_Help": "可分别查看髌股负重反应、股四头肌腱、髌腱和胫骨结节。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-KNEE-FRONT-1\nbook://magee-local#pdf=739&print=730",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+        "Core_Prompt": "疼在髌骨周围、髌骨上下缘肌腱，还是胫骨结节？"
+      },
+      "QG-KNEE-FRONT-2": {
+        "Question_Purpose": "比较负重屈膝、跑跳与跪地受压。",
+        "Information_Gained": "各动作下的疼痛位置和出现时机。",
+        "Assessment_Help": "可对照髌周承重、肌腱发力及局部接触。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-KNEE-FRONT-2\nbook://magee-local#pdf=739&print=730",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-KNEE-FRONT-3": {
+        "Question_Purpose": "了解膝前外伤和伸膝装置评估背景。",
+        "Information_Gained": "扭转、撞击、肿胀时机、卡锁及失稳经过。",
+        "Assessment_Help": "可补关节内结构、稳定性与伸膝装置完整性评估。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-KNEE-FRONT-3\nbook://magee-local#pdf=739&print=730",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-KNEE-MEDIAL-1": {
+        "Question_Purpose": "区分内侧关节线、韧带、鹅足及后内侧肌腱。",
+        "Information_Gained": "内侧疼痛的关节线与关节外位置。",
+        "Assessment_Help": "可分别查看内侧关节、内侧副韧带、鹅足与腘绳肌远端。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-KNEE-MEDIAL-1\nbook://magee-local#pdf=739&print=730",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-KNEE-MEDIAL-2": {
+        "Question_Purpose": "比较关节活动、内收和膝屈发力。",
+        "Information_Gained": "屈伸、内收抗阻及屈膝抗阻时的差别。",
+        "Assessment_Help": "可对照内侧关节活动、内收肌与鹅足/腘绳肌发力反应。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-KNEE-MEDIAL-2\nbook://magee-local#pdf=739&print=730",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-KNEE-MEDIAL-3": {
+        "Question_Purpose": "了解内侧膝痛的扭转和撞击经过。",
+        "Information_Gained": "受伤方向、肿胀时机、卡锁及失稳表现。",
+        "Assessment_Help": "可补内侧稳定结构与半月板相关评估。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-KNEE-MEDIAL-3\nbook://magee-local#pdf=739&print=730",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-KNEE-LATERAL-1": {
+        "Question_Purpose": "区分外侧关节线、腓骨头与外侧肌腱。",
+        "Information_Gained": "外侧疼痛的集中位置和范围。",
+        "Assessment_Help": "可分别查看外侧关节、近端胫腓关节与股二头肌远端。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-KNEE-LATERAL-1\nbook://magee-local#pdf=739&print=730",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-KNEE-LATERAL-2": {
+        "Question_Purpose": "比较膝屈发力、旋转与跑步反应。",
+        "Information_Gained": "屈膝抗阻、胫骨旋转及跑步时的差别。",
+        "Assessment_Help": "可对照外侧肌腱、旋转活动与跑步中的症状位置。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-KNEE-LATERAL-2\nbook://magee-local#pdf=739&print=730",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-KNEE-LATERAL-3": {
+        "Question_Purpose": "了解外侧膝痛的受伤机制与变化。",
+        "Information_Gained": "扭转或撞击方向、肿胀、卡锁及失稳经过。",
+        "Assessment_Help": "可补外侧稳定结构、半月板与腓骨头相关评估。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-KNEE-LATERAL-3\nbook://magee-local#pdf=739&print=730",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-KNEE-POST-1": {
+        "Question_Purpose": "区分腘窝中央与后内外侧肌腱/肌腹。",
+        "Information_Gained": "膝后疼痛的具体位置及范围。",
+        "Assessment_Help": "可分别查看腘窝组织、腘绳肌远端与腓肠肌近端。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-KNEE-POST-1\nbook://magee-local#pdf=739&print=730",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-KNEE-POST-2": {
+        "Question_Purpose": "比较后侧牵拉、膝屈发力与跖屈承载。",
+        "Information_Gained": "伸膝牵拉、膝屈抗阻及提踵时的反应。",
+        "Assessment_Help": "可对照腘绳肌、腓肠肌与膝后关节活动。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-KNEE-POST-2\nbook://magee-local#pdf=739&print=730",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-KNEE-POST-3": {
+        "Question_Purpose": "了解膝后外伤、肿胀与活动阻挡。",
+        "Information_Gained": "扭转、撞击、肿胀时机、卡锁和失稳经过。",
+        "Assessment_Help": "可补膝后稳定结构、关节内反应及腘窝局部评估。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-KNEE-POST-3\nbook://magee-local#pdf=739&print=730",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-KNEE-DIFFUSE-1": {
+        "Question_Purpose": "明确膝周当前最明显的症状范围。",
+        "Information_Gained": "固定或变化的位置、集中点与扩散范围。",
+        "Assessment_Help": "为局部组织查看提供位置，可对照不同区域。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-KNEE-DIFFUSE-1\nbook://magee-local#pdf=739&print=730",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-KNEE-DIFFUSE-2": {
+        "Question_Purpose": "了解各动作下疼痛出现的位置。",
+        "Information_Gained": "步行、屈伸和负重时的位置与时机。",
+        "Assessment_Help": "可对照关节活动、肌肉输出与相关动作中的症状分布。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-KNEE-DIFFUSE-2\nbook://magee-local#pdf=739&print=730",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      },
+      "QG-KNEE-DIFFUSE-3": {
+        "Question_Purpose": "了解膝周症状的外伤与关节变化背景。",
+        "Information_Gained": "扭转、撞击、肿胀、卡锁及失稳经过。",
+        "Assessment_Help": "可补关节积液、完整性和稳定性评估方向。",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-KNEE-DIFFUSE-3\nbook://magee-local#pdf=739&print=730",
+        "Internal_Note": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。"
+      }
+    }
+  },
+  "gap_dispositions": {
+    "AFM-0124-INTEGRITY": {
+      "category": "独立评估提示",
+      "reason": "外伤后主动伸膝困难或腱走行缺损，补充完整性与医学评估，不作为慢性肌腱训练入口。"
+    },
+    "AFM-0124-TENDON": {
+      "category": "已补具名参考",
+      "reason": "股四头肌腱承载相关的具名伸膝抗阻方法，来源限定于肌腱病背景。"
+    }
+  }
+}

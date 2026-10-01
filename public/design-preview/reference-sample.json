@@ -1,0 +1,1310 @@
+{
+  "result": {
+    "region": {
+      "region_id": "KNEE-R-003",
+      "module": "KNEE",
+      "name": "髌骨内侧缘"
+    },
+    "dimensions": [
+      {
+        "key": "MUSCLE_STATE",
+        "label": "肌肉状态",
+        "description": "关注肌肉张力、长度与局部敏感。",
+        "groups": [
+          {
+            "name": "膝前侧相关肌群",
+            "items": [
+              {
+                "item_id": "CORE-MUS-RF",
+                "name": "股直肌",
+                "check_focus": "比较拉长反应、侧差、膝前症状与骨盆代偿。",
+                "clinical_purpose": "股直肌跨髋、膝两关节；长度变化可能影响膝屈与髋伸，并关联膝前负荷和髋膝协同。",
+                "display_mode": "DEFAULT",
+                "context_state": "base",
+                "context_sources": [],
+                "possible_findings": [
+                  {
+                    "feature_id": "AFM-0065-TENSION",
+                    "assessment_map_id": "AFM-0065",
+                    "finding_id": "CORE-FND-MUS-STATE",
+                    "name": "局部张力增加",
+                    "trigger_condition": "股直肌局部触诊张力偏高；与对侧及活动表现对照。",
+                    "interpretation": "可作为局部软组织状态线索；单凭触诊不确定疼痛来源。",
+                    "display_note": {
+                      "label": "适用说明",
+                      "text": "可作为局部软组织状态线索；单凭触诊不确定疼痛来源。"
+                    },
+                    "treatment_goals": [
+                      {
+                        "goal": "改善软组织活动",
+                        "methods": [
+                          "股直肌软组织松解",
+                          "主动膝屈伸活动"
+                        ],
+                        "progression": null
+                      }
+                    ],
+                    "review_status": "待临床审核",
+                    "has_treatment": true
+                  },
+                  {
+                    "feature_id": "AFM-0065-LENGTH",
+                    "assessment_map_id": "AFM-0065",
+                    "finding_id": "CORE-FND-MUS-STATE",
+                    "name": "拉长受限",
+                    "trigger_condition": "股直肌拉长时膝屈或髋伸活动受限，可伴骨盆代偿。",
+                    "interpretation": "可与膝前活动受限有关；结合关节活动度和动作表现查看。",
+                    "display_note": null,
+                    "treatment_goals": [
+                      {
+                        "goal": "改善长度与活动",
+                        "methods": [
+                          "股直肌拉伸",
+                          "髋伸展活动训练"
+                        ],
+                        "progression": null
+                      }
+                    ],
+                    "review_status": "待临床审核",
+                    "has_treatment": true
+                  },
+                  {
+                    "feature_id": "AFM-0065-SENSITIVITY",
+                    "assessment_map_id": "AFM-0065",
+                    "finding_id": "CORE-FND-MUS-STATE",
+                    "name": "局部敏感",
+                    "trigger_condition": "股直肌触诊或拉长时局部刺激反应明显",
+                    "interpretation": "记录敏感位置和膝前活动反应。",
+                    "display_note": null,
+                    "treatment_goals": [
+                      {
+                        "goal": "缓解局部不适",
+                        "methods": [
+                          "调整诱发动作负荷",
+                          "低刺激主动活动"
+                        ],
+                        "progression": null
+                      }
+                    ],
+                    "review_status": "待临床审核",
+                    "has_treatment": true
+                  }
+                ]
+              },
+              {
+                "item_id": "CORE-MUS-VL",
+                "name": "股外侧肌",
+                "check_focus": "股外侧肌局部张力、压痛与膝屈伸末端表现。",
+                "clinical_purpose": "查看大腿前外侧紧张、局部压痛与膝屈伸末端的表现。",
+                "display_mode": "EXPAND",
+                "context_state": "base",
+                "context_sources": [],
+                "possible_findings": [
+                  {
+                    "feature_id": "AFM-0066-TENSION",
+                    "assessment_map_id": "AFM-0066",
+                    "finding_id": "CORE-FND-MUS-STATE",
+                    "name": "张力或拉长反应异常",
+                    "trigger_condition": "大腿前外侧张力或膝屈拉长反应与对侧不同",
+                    "interpretation": "可与股外侧肌的活动和局部反应对照。",
+                    "display_note": null,
+                    "treatment_goals": [
+                      {
+                        "goal": "改善软组织活动",
+                        "methods": [
+                          "股外侧肌手法松解"
+                        ],
+                        "progression": null
+                      },
+                      {
+                        "goal": "改善拉长与活动",
+                        "methods": [
+                          "股四头肌前外侧拉伸"
+                        ],
+                        "progression": null
+                      }
+                    ],
+                    "review_status": "待临床审核",
+                    "has_treatment": true
+                  },
+                  {
+                    "feature_id": "AFM-0066-SENSITIVITY",
+                    "assessment_map_id": "AFM-0066",
+                    "finding_id": "CORE-FND-MUS-STATE",
+                    "name": "局部敏感",
+                    "trigger_condition": "股外侧肌触诊或相关活动时出现局部敏感反应",
+                    "interpretation": "记录局部刺激反应，并与动作和负荷表现对照。",
+                    "display_note": null,
+                    "treatment_goals": [
+                      {
+                        "goal": "缓解局部不适",
+                        "methods": [
+                          "调整诱发动作负荷",
+                          "低刺激主动活动"
+                        ],
+                        "progression": null
+                      }
+                    ],
+                    "review_status": "待临床审核",
+                    "has_treatment": true
+                  }
+                ]
+              },
+              {
+                "item_id": "CORE-MUS-VI",
+                "name": "股中间肌",
+                "check_focus": "查看前大腿深层张力、膝屈拉长反应与侧差。",
+                "clinical_purpose": "股中间肌位于股四头肌深层；膝屈受限或大腿前侧深层不适时，可补充查看局部状态。",
+                "display_mode": "EXPAND",
+                "context_state": "base",
+                "context_sources": [],
+                "possible_findings": [
+                  {
+                    "feature_id": "AFM-0068-LENGTH",
+                    "assessment_map_id": "AFM-0068",
+                    "finding_id": "CORE-FND-MUS-STATE",
+                    "name": "拉长或活动受限",
+                    "trigger_condition": "膝屈时前大腿深层牵拉或局部张力与对侧不同",
+                    "interpretation": "可与股中间肌深层的长度或软组织活动表现对照。",
+                    "display_note": null,
+                    "treatment_goals": [
+                      {
+                        "goal": "改善长度与活动",
+                        "methods": [
+                          "前大腿软组织手法松解",
+                          "股四头肌拉伸"
+                        ],
+                        "progression": null
+                      }
+                    ],
+                    "review_status": "待临床审核",
+                    "has_treatment": true
+                  },
+                  {
+                    "feature_id": "AFM-0068-SENSITIVITY",
+                    "assessment_map_id": "AFM-0068",
+                    "finding_id": "CORE-FND-MUS-STATE",
+                    "name": "局部敏感",
+                    "trigger_condition": "股中间肌深层触诊或相关活动时出现局部敏感反应",
+                    "interpretation": "记录局部刺激反应，并与动作和负荷表现对照。",
+                    "display_note": null,
+                    "treatment_goals": [
+                      {
+                        "goal": "缓解局部不适",
+                        "methods": [
+                          "调整诱发动作负荷",
+                          "低刺激主动活动"
+                        ],
+                        "progression": null
+                      }
+                    ],
+                    "review_status": "待临床审核",
+                    "has_treatment": true
+                  }
+                ]
+              },
+              {
+                "item_id": "KNEE-MUS-ADD",
+                "name": "内收肌群",
+                "check_focus": "比较内收肌群拉长、局部反应与侧差。",
+                "clinical_purpose": "内收肌群的长度和局部状态可与大腿内侧及膝内侧牵扯感对照。",
+                "display_mode": "EXPAND",
+                "context_state": "base",
+                "context_sources": [],
+                "possible_findings": [
+                  {
+                    "feature_id": "AFM-0074-LENGTH",
+                    "assessment_map_id": "AFM-0074",
+                    "finding_id": "CORE-FND-MUS-STATE",
+                    "name": "拉长或活动受限",
+                    "trigger_condition": "髋外展拉长时内侧牵拉受限或局部张力改变",
+                    "interpretation": "可与内收肌群的长度或软组织活动表现对照。",
+                    "display_note": null,
+                    "treatment_goals": [
+                      {
+                        "goal": "改善长度与活动",
+                        "methods": [
+                          "内收肌群手法松解",
+                          "内收肌拉伸",
+                          "MET"
+                        ],
+                        "progression": null
+                      }
+                    ],
+                    "review_status": "待临床审核",
+                    "has_treatment": true
+                  },
+                  {
+                    "feature_id": "AFM-0074-SENSITIVITY",
+                    "assessment_map_id": "AFM-0074",
+                    "finding_id": "CORE-FND-MUS-STATE",
+                    "name": "局部敏感",
+                    "trigger_condition": "内收肌群触诊或相关活动时出现局部敏感反应",
+                    "interpretation": "记录局部刺激反应，并与动作和负荷表现对照。",
+                    "display_note": null,
+                    "treatment_goals": [
+                      {
+                        "goal": "缓解局部不适",
+                        "methods": [
+                          "调整诱发动作负荷",
+                          "低刺激主动活动"
+                        ],
+                        "progression": null
+                      }
+                    ],
+                    "review_status": "待临床审核",
+                    "has_treatment": true
+                  }
+                ]
+              },
+              {
+                "item_id": "CORE-MUS-SM",
+                "name": "半膜肌",
+                "check_focus": "比较后内侧深层主动膝伸拉长与局部反应。",
+                "clinical_purpose": "半膜肌位于腘绳肌后内侧深层；拉长和局部反应可与膝后内侧不适对照。",
+                "display_mode": "EXPAND",
+                "context_state": "base",
+                "context_sources": [],
+                "possible_findings": [
+                  {
+                    "feature_id": "AFM-0071-TENSION",
+                    "assessment_map_id": "AFM-0071",
+                    "finding_id": "CORE-FND-MUS-STATE",
+                    "name": "张力或拉长反应异常",
+                    "trigger_condition": "后内侧深层主动膝伸时拉长受限或局部张力改变",
+                    "interpretation": "可与半膜肌的活动和局部反应对照。",
+                    "display_note": null,
+                    "treatment_goals": [
+                      {
+                        "goal": "改善软组织活动",
+                        "methods": [
+                          "半膜肌手法松解"
+                        ],
+                        "progression": null
+                      },
+                      {
+                        "goal": "改善拉长与活动",
+                        "methods": [
+                          "后内侧腘绳肌拉伸"
+                        ],
+                        "progression": null
+                      }
+                    ],
+                    "review_status": "待临床审核",
+                    "has_treatment": true
+                  },
+                  {
+                    "feature_id": "AFM-0071-SENSITIVITY",
+                    "assessment_map_id": "AFM-0071",
+                    "finding_id": "CORE-FND-MUS-STATE",
+                    "name": "局部敏感",
+                    "trigger_condition": "半膜肌触诊或相关活动时出现局部敏感反应",
+                    "interpretation": "记录局部刺激反应，并与动作和负荷表现对照。",
+                    "display_note": null,
+                    "treatment_goals": [
+                      {
+                        "goal": "缓解局部不适",
+                        "methods": [
+                          "调整诱发动作负荷",
+                          "低刺激主动活动"
+                        ],
+                        "progression": null
+                      }
+                    ],
+                    "review_status": "待临床审核",
+                    "has_treatment": true
+                  }
+                ]
+              },
+              {
+                "item_id": "KNEE-MUS-HIPFLEX",
+                "name": "髂腰肌及髋屈相关肌群",
+                "check_focus": "比较髋伸时的前侧牵拉、骨盆代偿与侧差。",
+                "clinical_purpose": "髋屈肌群的长度和髋前侧状态，可能影响髋伸动作及下肢任务中的代偿。",
+                "display_mode": "EXPAND",
+                "context_state": "base",
+                "context_sources": [],
+                "possible_findings": [
+                  {
+                    "feature_id": "AFM-0077-LENGTH",
+                    "assessment_map_id": "AFM-0077",
+                    "finding_id": "CORE-FND-MUS-STATE",
+                    "name": "拉长或活动受限",
+                    "trigger_condition": "髋伸时前侧牵拉受限或出现明显骨盆代偿",
+                    "interpretation": "可与髋前侧的长度或软组织活动表现对照。",
+                    "display_note": null,
+                    "treatment_goals": [
+                      {
+                        "goal": "改善长度与活动",
+                        "methods": [
+                          "髋屈肌群手法松解",
+                          "髋屈肌群拉伸",
+                          "MET"
+                        ],
+                        "progression": null
+                      }
+                    ],
+                    "review_status": "待临床审核",
+                    "has_treatment": true
+                  },
+                  {
+                    "feature_id": "AFM-0077-SENSITIVITY",
+                    "assessment_map_id": "AFM-0077",
+                    "finding_id": "CORE-FND-MUS-STATE",
+                    "name": "局部敏感",
+                    "trigger_condition": "髋前侧触诊或相关活动时出现局部敏感反应",
+                    "interpretation": "记录局部刺激反应，并与动作和负荷表现对照。",
+                    "display_note": null,
+                    "treatment_goals": [
+                      {
+                        "goal": "缓解局部不适",
+                        "methods": [
+                          "调整诱发动作负荷",
+                          "低刺激主动活动"
+                        ],
+                        "progression": null
+                      }
+                    ],
+                    "review_status": "待临床审核",
+                    "has_treatment": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ROM",
+        "label": "活动度",
+        "description": "查看关节活动范围与末端表现。",
+        "groups": [
+          {
+            "name": "膝关节活动",
+            "items": [
+              {
+                "item_id": "KNEE-ROM-EXT",
+                "name": "膝伸直 ROM",
+                "check_focus": "主动与被动伸直、末端弹性、左右差异；股外侧肌、腘肌及后侧肌群状态。",
+                "clinical_purpose": "查看伸直角度、末端弹性与主动发力的差异，并对照膝前外侧和膝后组织状态。",
+                "display_mode": "DEFAULT",
+                "context_state": "base",
+                "context_sources": [],
+                "possible_findings": [
+                  {
+                    "feature_id": "AFM-0084-LIMIT",
+                    "assessment_map_id": "AFM-0084",
+                    "finding_id": "KNEE-FND-MOBILITY",
+                    "name": "伸膝活动受限",
+                    "trigger_condition": "主动或被动伸膝范围较对侧受限；比较伸直末端的角度和弹性。",
+                    "interpretation": "主动与被动末端的差异，可与股四头肌募集及后侧组织拉长表现对照。",
+                    "display_note": null,
+                    "treatment_goals": [
+                      {
+                        "goal": "软组织处理",
+                        "methods": [
+                          "股外侧肌手法松解",
+                          "腘肌手法松解",
+                          "腘绳肌手法松解／MET",
+                          "小腿三头肌手法松解"
+                        ],
+                        "progression": null
+                      },
+                      {
+                        "goal": "关节活动",
+                        "methods": [
+                          "膝关节伸直方向松动"
+                        ],
+                        "progression": null
+                      },
+                      {
+                        "goal": "主动活动",
+                        "methods": [
+                          "主动终末伸膝活动"
+                        ],
+                        "progression": null
+                      }
+                    ],
+                    "review_status": "待临床审核",
+                    "has_treatment": true
+                  },
+                  {
+                    "feature_id": "AFM-0084-SYMPTOM",
+                    "assessment_map_id": "AFM-0084",
+                    "finding_id": "KNEE-FND-MOBILITY",
+                    "name": "伸膝末端症状",
+                    "trigger_condition": "伸膝末端活动出现局部症状反应，范围可未受限",
+                    "interpretation": "可与伸膝活动范围、局部组织反应及负荷任务分别对照。",
+                    "display_note": null,
+                    "treatment_goals": [
+                      {
+                        "goal": "改善活动耐受",
+                        "methods": [
+                          "可耐受范围内的主动活动",
+                          "相关任务负荷调整"
+                        ],
+                        "progression": null
+                      }
+                    ],
+                    "review_status": "待临床审核",
+                    "has_treatment": true
+                  }
+                ]
+              },
+              {
+                "item_id": "KNEE-ROM-FLEX",
+                "name": "膝屈曲 ROM",
+                "check_focus": "比较主动/被动屈膝、末端感觉、侧差和症状。",
+                "clinical_purpose": "屈膝范围关系到下蹲、上下楼等任务，也可与前侧软组织拉长反应对照。",
+                "display_mode": "DEFAULT",
+                "context_state": "base",
+                "context_sources": [],
+                "possible_findings": [
+                  {
+                    "feature_id": "AFM-0085-LIMIT",
+                    "assessment_map_id": "AFM-0085",
+                    "finding_id": "KNEE-FND-MOBILITY",
+                    "name": "屈膝活动受限",
+                    "trigger_condition": "主动或被动屈膝范围较对侧受限",
+                    "interpretation": "可与股直肌拉长反应、髌股活动和下蹲任务对照。",
+                    "display_note": null,
+                    "treatment_goals": [
+                      {
+                        "goal": "改善方向性活动",
+                        "methods": [
+                          "膝关节屈曲方向松动",
+                          "主动屈膝活动",
+                          "股四头肌拉伸"
+                        ],
+                        "progression": null
+                      }
+                    ],
+                    "review_status": "待临床审核",
+                    "has_treatment": true
+                  },
+                  {
+                    "feature_id": "AFM-0085-SYMPTOM",
+                    "assessment_map_id": "AFM-0085",
+                    "finding_id": "KNEE-FND-MOBILITY",
+                    "name": "屈膝末端症状",
+                    "trigger_condition": "屈膝末端活动出现局部症状反应，范围可未受限",
+                    "interpretation": "可与屈膝活动范围、局部组织反应及负荷任务分别对照。",
+                    "display_note": null,
+                    "treatment_goals": [
+                      {
+                        "goal": "改善活动耐受",
+                        "methods": [
+                          "可耐受范围内的主动活动",
+                          "相关任务负荷调整"
+                        ],
+                        "progression": null
+                      }
+                    ],
+                    "review_status": "待临床审核",
+                    "has_treatment": true
+                  }
+                ]
+              },
+              {
+                "item_id": "KNEE-JNT-PF",
+                "name": "髌股关节活动",
+                "check_focus": "比较髌骨上下及内外侧活动、侧差与症状。",
+                "clinical_purpose": "髌骨方向性活动可与膝前/髌周症状和屈伸活动表现对照。",
+                "display_mode": "DEFAULT",
+                "context_state": "base",
+                "context_sources": [],
+                "possible_findings": [
+                  {
+                    "feature_id": "AFM-0086-LIMIT",
+                    "assessment_map_id": "AFM-0086",
+                    "finding_id": "KNEE-FND-MOBILITY",
+                    "name": "髌骨方向性活动受限",
+                    "trigger_condition": "髌骨上下或内外侧活动与对侧不同",
+                    "interpretation": "可与髌周局部反应及膝屈伸末端症状对照。",
+                    "display_note": null,
+                    "treatment_goals": [
+                      {
+                        "goal": "改善方向性活动",
+                        "methods": [
+                          "髌骨方向性松动",
+                          "主动膝屈伸活动"
+                        ],
+                        "progression": null
+                      }
+                    ],
+                    "review_status": "待临床审核",
+                    "has_treatment": true
+                  },
+                  {
+                    "feature_id": "AFM-0086-SYMPTOM",
+                    "assessment_map_id": "AFM-0086",
+                    "finding_id": "KNEE-FND-MOBILITY",
+                    "name": "髌骨方向性末端症状",
+                    "trigger_condition": "髌骨方向性末端活动出现局部症状反应，范围可未受限",
+                    "interpretation": "可与髌骨方向性活动范围、局部组织反应及负荷任务分别对照。",
+                    "display_note": null,
+                    "treatment_goals": [
+                      {
+                        "goal": "改善活动耐受",
+                        "methods": [
+                          "可耐受范围内的主动活动",
+                          "相关任务负荷调整"
+                        ],
+                        "progression": null
+                      }
+                    ],
+                    "review_status": "待临床审核",
+                    "has_treatment": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "CAPACITY",
+        "label": "力量与募集",
+        "description": "查看力量输出与主动募集。",
+        "groups": [
+          {
+            "name": "膝关节能力",
+            "items": [
+              {
+                "item_id": "CORE-CAP-QUAD-RECRUIT",
+                "name": "股四头肌募集/主动终末伸膝",
+                "check_focus": "终末伸膝、收缩质量、伸膝滞后与左右差异。",
+                "clinical_purpose": "比较主动终末伸膝、股四头肌收缩与被动伸直范围。",
+                "display_mode": "DEFAULT",
+                "context_state": "base",
+                "context_sources": [],
+                "possible_findings": [
+                  {
+                    "feature_id": "AFM-0095-CAPACITY",
+                    "assessment_map_id": "AFM-0095",
+                    "finding_id": "CORE-FND-QUAD-RECRUIT",
+                    "name": "主动终末伸膝不足",
+                    "trigger_condition": "股四头肌主动收缩或终末伸膝出现伸膝滞后",
+                    "interpretation": "与肌肉长度和局部反应分别查看。",
+                    "display_note": null,
+                    "treatment_goals": [
+                      {
+                        "goal": "募集与终末伸膝",
+                        "methods": [
+                          "股四头肌主动募集训练",
+                          "终末伸膝训练",
+                          "神经肌肉电刺激（NMES）辅助募集"
+                        ],
+                        "progression": null
+                      }
+                    ],
+                    "review_status": "待临床审核",
+                    "has_treatment": true
+                  }
+                ]
+              },
+              {
+                "item_id": "CORE-CAP-KNEE-FLEX",
+                "name": "膝屈/后侧链能力",
+                "check_focus": "比较等长膝屈力量、侧差及任务中的后侧链输出。",
+                "clinical_purpose": "膝屈力量反映腘绳肌输出能力，与后侧肌群长度和局部敏感分开查看。",
+                "display_mode": "EXPAND",
+                "context_state": "base",
+                "context_sources": [],
+                "possible_findings": [
+                  {
+                    "feature_id": "AFM-0091-CAPACITY",
+                    "assessment_map_id": "AFM-0091",
+                    "finding_id": "CORE-FND-CAPACITY",
+                    "name": "膝屈力量不足",
+                    "trigger_condition": "等长膝屈测试中力量或疼痛限制与对侧不同",
+                    "interpretation": "与局部张力和压痛分别记录，供处理方向参考。",
+                    "display_note": null,
+                    "treatment_goals": [
+                      {
+                        "goal": "改善对应输出",
+                        "methods": [
+                          "腘绳肌等长训练",
+                          "膝屈抗阻训练"
+                        ],
+                        "progression": null
+                      }
+                    ],
+                    "review_status": "待临床审核",
+                    "has_treatment": true
+                  }
+                ]
+              },
+              {
+                "item_id": "CORE-CAP-KNEE-EXT",
+                "name": "膝伸力量/能力",
+                "check_focus": "比较等长膝伸力量、疼痛限制与侧差。",
+                "clinical_purpose": "膝伸力量反映整体输出；与股四头肌主动终末伸膝的募集表现分开查看。",
+                "display_mode": "DEFAULT",
+                "context_state": "base",
+                "context_sources": [],
+                "possible_findings": [
+                  {
+                    "feature_id": "AFM-0090-CAPACITY",
+                    "assessment_map_id": "AFM-0090",
+                    "finding_id": "CORE-FND-CAPACITY",
+                    "name": "膝伸力量不足",
+                    "trigger_condition": "等长膝伸测试中输出或疼痛限制与对侧不同",
+                    "interpretation": "与肌肉长度和局部反应分别查看。",
+                    "display_note": null,
+                    "treatment_goals": [
+                      {
+                        "goal": "改善对应任务表现",
+                        "methods": [
+                          "膝伸等长训练",
+                          "股四头肌抗阻训练"
+                        ],
+                        "progression": null
+                      }
+                    ],
+                    "review_status": "待临床审核",
+                    "has_treatment": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "髋/大腿相关能力",
+            "items": [
+              {
+                "item_id": "KNEE-CAP-HIPABD",
+                "name": "髋外展/外旋能力",
+                "check_focus": "比较髋外展/外旋抗阻与单腿任务表现。",
+                "clinical_purpose": "髋外展和外旋输出参与单腿任务中的骨盆与下肢控制。",
+                "display_mode": "DEFAULT",
+                "context_state": "base",
+                "context_sources": [],
+                "possible_findings": [
+                  {
+                    "feature_id": "AFM-0092-CAPACITY",
+                    "assessment_map_id": "AFM-0092",
+                    "finding_id": "CORE-FND-CAPACITY",
+                    "name": "髋外展/外旋输出不足",
+                    "trigger_condition": "髋外展或外旋抗阻与单腿任务出现侧差",
+                    "interpretation": "与局部张力和压痛分别记录，供处理方向参考。",
+                    "display_note": null,
+                    "treatment_goals": [
+                      {
+                        "goal": "改善对应输出",
+                        "methods": [
+                          "髋外展/外旋抗阻训练",
+                          "单腿任务控制训练"
+                        ],
+                        "progression": null
+                      }
+                    ],
+                    "review_status": "待临床审核",
+                    "has_treatment": true
+                  }
+                ]
+              },
+              {
+                "item_id": "KNEE-CAP-HIPEXT",
+                "name": "髋伸能力",
+                "check_focus": "比较髋伸抗阻、侧差及相关任务中的输出。",
+                "clinical_purpose": "髋伸输出参与起立、上台阶和减速；可与膝部负荷任务表现一起查看。",
+                "display_mode": "EXPAND",
+                "context_state": "base",
+                "context_sources": [],
+                "possible_findings": [
+                  {
+                    "feature_id": "AFM-0093-CAPACITY",
+                    "assessment_map_id": "AFM-0093",
+                    "finding_id": "CORE-FND-CAPACITY",
+                    "name": "髋伸输出不足",
+                    "trigger_condition": "髋伸抗阻或相关任务中出现输出侧差",
+                    "interpretation": "与局部张力和压痛分别记录，供处理方向参考。",
+                    "display_note": null,
+                    "treatment_goals": [
+                      {
+                        "goal": "改善对应输出",
+                        "methods": [
+                          "髋伸抗阻训练",
+                          "臀桥或髋铰链训练"
+                        ],
+                        "progression": null
+                      }
+                    ],
+                    "review_status": "待临床审核",
+                    "has_treatment": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "FUNCTION",
+        "label": "功能动作",
+        "description": "选择相关动作线索，查看对应的动作模式。",
+        "groups": []
+      },
+      {
+        "key": "LOCAL",
+        "label": "局部组织",
+        "description": "观察压痛、肿胀与组织反应。",
+        "groups": [
+          {
+            "name": "膝前侧局部组织",
+            "items": [
+              {
+                "item_id": "KNEE-LT-PATELLA",
+                "name": "髌骨周围局部组织",
+                "check_focus": "髌周定位、负重屈膝反应、皮肤触感及肿胀。",
+                "clinical_purpose": "髌周疼痛、皮肤触碰敏感和损伤后肿胀对应不同线索，需分开查看。",
+                "display_mode": "DEFAULT",
+                "context_state": "base",
+                "context_sources": [],
+                "possible_findings": [
+                  {
+                    "feature_id": "AFM-0078-PFP",
+                    "assessment_map_id": "AFM-0078",
+                    "finding_id": "CORE-FND-LOCAL",
+                    "name": "髌周负重屈膝不适",
+                    "trigger_condition": "下蹲、上下楼等负重屈膝活动时出现髌周或髌后不适",
+                    "interpretation": "以下为髌股疼痛情境的参考，单独髌周压痛不能确定来源。",
+                    "display_note": {
+                      "label": "适用说明",
+                      "text": "以下为髌股疼痛情境的参考，单独髌周压痛不能确定来源。"
+                    },
+                    "treatment_goals": [
+                      {
+                        "goal": "贴扎",
+                        "methods": [
+                          "个体化髌骨贴扎"
+                        ],
+                        "progression": null
+                      },
+                      {
+                        "goal": "训练",
+                        "methods": [
+                          "股四头肌抗阻训练",
+                          "髋外展与外旋抗阻训练"
+                        ],
+                        "progression": null
+                      }
+                    ],
+                    "review_status": "待临床审核",
+                    "has_treatment": true
+                  },
+                  {
+                    "feature_id": "AFM-0078-TRAUMATIC-SWELLING",
+                    "assessment_map_id": "AFM-0078",
+                    "finding_id": "CORE-FND-LOCAL",
+                    "name": "软组织损伤后肿胀",
+                    "trigger_condition": "髌周在明确软组织损伤后出现肿胀",
+                    "interpretation": "与原因不明的关节积液、红热及膝后包块分开查看。",
+                    "display_note": {
+                      "label": "适用说明",
+                      "text": "与原因不明的关节积液、红热及膝后包块分开查看。"
+                    },
+                    "treatment_goals": [
+                      {
+                        "goal": "体位与加压",
+                        "methods": [
+                          "患肢抬高",
+                          "弹性加压"
+                        ],
+                        "progression": null
+                      },
+                      {
+                        "goal": "主动活动",
+                        "methods": [
+                          "踝泵运动"
+                        ],
+                        "progression": null
+                      }
+                    ],
+                    "review_status": "待临床审核",
+                    "has_treatment": true
+                  },
+                  {
+                    "feature_id": "AFM-0078-SKIN",
+                    "assessment_map_id": "AFM-0078",
+                    "finding_id": "CORE-FND-LOCAL",
+                    "name": "皮肤触碰敏感",
+                    "trigger_condition": "髌周轻触、衣物摩擦或不同材质接触时不适",
+                    "interpretation": "皮肤触碰反应与深部压痛分开查看。",
+                    "display_note": null,
+                    "treatment_goals": [
+                      {
+                        "goal": "触觉脱敏",
+                        "methods": [
+                          "分级触碰",
+                          "不同材质刺激",
+                          "轻柔按摩"
+                        ],
+                        "progression": null
+                      }
+                    ],
+                    "review_status": "待临床审核",
+                    "has_treatment": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "clinical_considerations": [],
+    "safety_alerts": [],
+    "normal_intervention_actions_enabled": true,
+    "confirmed_findings": [],
+    "intervention_references": [],
+    "meta": {
+      "db_version": "v3.8",
+      "resolver_version": "3"
+    }
+  },
+  "contexts": [
+    {
+      "rule_id": "AF-MF-01",
+      "rule_type": "MOVEMENT",
+      "source_context": "踝背屈需求增加",
+      "module_codes": [
+        "ANKLE_FOOT"
+      ]
+    },
+    {
+      "rule_id": "AF-MF-02",
+      "rule_type": "MOVEMENT",
+      "source_context": "跖屈推进需求",
+      "module_codes": [
+        "ANKLE_FOOT"
+      ]
+    },
+    {
+      "rule_id": "AF-MF-03",
+      "rule_type": "MOVEMENT",
+      "source_context": "单腿稳定需求",
+      "module_codes": [
+        "ANKLE_FOOT"
+      ]
+    },
+    {
+      "rule_id": "AF-MF-04",
+      "rule_type": "MOVEMENT",
+      "source_context": "内外侧负荷转移",
+      "module_codes": [
+        "ANKLE_FOOT"
+      ]
+    },
+    {
+      "rule_id": "AF-MF-05",
+      "rule_type": "MOVEMENT",
+      "source_context": "前足/大脚趾推进需求",
+      "module_codes": [
+        "ANKLE_FOOT"
+      ]
+    },
+    {
+      "rule_id": "AF-MF-06",
+      "rule_type": "MOVEMENT",
+      "source_context": "反复提踵/跖屈需求",
+      "module_codes": [
+        "ANKLE_FOOT"
+      ]
+    },
+    {
+      "rule_id": "AF-MF-08",
+      "rule_type": "MOVEMENT",
+      "source_context": "休息后重新负重",
+      "module_codes": [
+        "ANKLE_FOOT"
+      ]
+    },
+    {
+      "rule_id": "AF-CTR-01",
+      "rule_type": "CHAIN",
+      "source_context": "踝背屈受限/前踝相关",
+      "module_codes": [
+        "ANKLE_FOOT"
+      ]
+    },
+    {
+      "rule_id": "AF-CTR-02",
+      "rule_type": "CHAIN",
+      "source_context": "后踝/跟腱",
+      "module_codes": [
+        "ANKLE_FOOT"
+      ]
+    },
+    {
+      "rule_id": "AF-CTR-03",
+      "rule_type": "CHAIN",
+      "source_context": "外踝/外侧足",
+      "module_codes": [
+        "ANKLE_FOOT"
+      ]
+    },
+    {
+      "rule_id": "AF-CTR-04",
+      "rule_type": "CHAIN",
+      "source_context": "内踝/足弓内侧",
+      "module_codes": [
+        "ANKLE_FOOT"
+      ]
+    },
+    {
+      "rule_id": "AF-CTR-08",
+      "rule_type": "CHAIN",
+      "source_context": "足跟/足底/前足",
+      "module_codes": [
+        "ANKLE_FOOT"
+      ]
+    },
+    {
+      "rule_id": "AF-MF-09",
+      "rule_type": "MOVEMENT",
+      "source_context": "走路/步态",
+      "module_codes": [
+        "ANKLE_FOOT"
+      ]
+    },
+    {
+      "rule_id": "AF-MF-10",
+      "rule_type": "MOVEMENT",
+      "source_context": "下蹲/台阶",
+      "module_codes": [
+        "ANKLE_FOOT"
+      ]
+    },
+    {
+      "rule_id": "AF-MF-11",
+      "rule_type": "MOVEMENT",
+      "source_context": "跑跳/落地/变向",
+      "module_codes": [
+        "ANKLE_FOOT"
+      ]
+    },
+    {
+      "rule_id": "AF-CX-01",
+      "rule_type": "SYMPTOM",
+      "source_context": "反复崴脚/打软/主观不稳或明确内翻扭伤史",
+      "module_codes": [
+        "ANKLE_FOOT"
+      ]
+    },
+    {
+      "rule_id": "AF-CX-02",
+      "rule_type": "SYMPTOM",
+      "source_context": "高位踝/外旋机制线索",
+      "module_codes": [
+        "ANKLE_FOOT"
+      ]
+    },
+    {
+      "rule_id": "AF-CX-03",
+      "rule_type": "SYMPTOM",
+      "source_context": "足底/足跟第一步痛或足底筋膜走行线索",
+      "module_codes": [
+        "ANKLE_FOOT"
+      ]
+    },
+    {
+      "rule_id": "AF-CX-04",
+      "rule_type": "SYMPTOM",
+      "source_context": "麻木/电流感/灼痛/放射或感觉异常",
+      "module_codes": [
+        "ANKLE_FOOT"
+      ]
+    },
+    {
+      "rule_id": "AF-SAF-01",
+      "rule_type": "SAFETY",
+      "source_context": "急性后踝突然蹬地/响声/明显无力",
+      "module_codes": [
+        "ANKLE_FOOT"
+      ]
+    },
+    {
+      "rule_id": "AF-SAF-02",
+      "rule_type": "SAFETY",
+      "source_context": "急性踝足外伤骨折风险",
+      "module_codes": [
+        "ANKLE_FOOT"
+      ]
+    },
+    {
+      "rule_id": "LL-CX-01",
+      "rule_type": "SYMPTOM",
+      "source_context": "固定时间/距离后前外侧小腿胀痛紧绷",
+      "module_codes": [
+        "LOWER_LEG"
+      ]
+    },
+    {
+      "rule_id": "LL-SAF-01",
+      "rule_type": "SAFETY",
+      "source_context": "急性小腿进行性剧痛/紧张肿胀",
+      "module_codes": [
+        "LOWER_LEG"
+      ]
+    },
+    {
+      "rule_id": "LL-SAF-02",
+      "rule_type": "SAFETY",
+      "source_context": "胫骨骨应力风险线索",
+      "module_codes": [
+        "LOWER_LEG"
+      ]
+    },
+    {
+      "rule_id": "LL-MF-01",
+      "rule_type": "MOVEMENT",
+      "source_context": "跑步/跳跃/持续冲击负荷",
+      "module_codes": [
+        "LOWER_LEG"
+      ]
+    },
+    {
+      "rule_id": "LL-CX-02",
+      "rule_type": "SYMPTOM",
+      "source_context": "小腿外侧麻木/足背感觉异常",
+      "module_codes": [
+        "LOWER_LEG"
+      ]
+    },
+    {
+      "rule_id": "LL-CX-03",
+      "rule_type": "SYMPTOM",
+      "source_context": "小腿后内侧深层伴足底感觉异常",
+      "module_codes": [
+        "LOWER_LEG"
+      ]
+    },
+    {
+      "rule_id": "LL-MF-02",
+      "rule_type": "MOVEMENT",
+      "source_context": "加速/冲刺/蹬伸或跳跃",
+      "module_codes": [
+        "LOWER_LEG"
+      ]
+    },
+    {
+      "rule_id": "LL-MF-03",
+      "rule_type": "MOVEMENT",
+      "source_context": "持续走跑/反复提踵",
+      "module_codes": [
+        "LOWER_LEG"
+      ]
+    },
+    {
+      "rule_id": "LL-SAF-03",
+      "rule_type": "SAFETY",
+      "source_context": "无法解释的单侧小腿肿胀/发热/发红或深部压痛",
+      "module_codes": [
+        "LOWER_LEG"
+      ]
+    },
+    {
+      "rule_id": "KNEE-MF-01",
+      "rule_type": "MOVEMENT",
+      "source_context": "下台阶",
+      "module_codes": [
+        "KNEE"
+      ]
+    },
+    {
+      "rule_id": "KNEE-MF-02",
+      "rule_type": "MOVEMENT",
+      "source_context": "跑步",
+      "module_codes": [
+        "KNEE"
+      ]
+    },
+    {
+      "rule_id": "KNEE-MF-03",
+      "rule_type": "MOVEMENT",
+      "source_context": "步行",
+      "module_codes": [
+        "KNEE"
+      ]
+    },
+    {
+      "rule_id": "KNEE-CX-01",
+      "rule_type": "SYMPTOM",
+      "source_context": "持续活动后才出现不适",
+      "module_codes": [
+        "KNEE"
+      ]
+    },
+    {
+      "rule_id": "KNEE-CX-02",
+      "rule_type": "SYMPTOM",
+      "source_context": "疼痛性弹响/摩擦/刮擦/非锁住卡顿",
+      "module_codes": [
+        "KNEE"
+      ]
+    },
+    {
+      "rule_id": "KNEE-CX-03",
+      "rule_type": "SYMPTOM",
+      "source_context": "麻木/放射/感觉异常或明显远端功能性无力",
+      "module_codes": [
+        "KNEE"
+      ]
+    },
+    {
+      "rule_id": "KNEE-CX-04",
+      "rule_type": "CHAIN",
+      "source_context": "上游髋/大腿线索",
+      "module_codes": [
+        "KNEE"
+      ]
+    },
+    {
+      "rule_id": "KNEE-CX-05",
+      "rule_type": "CHAIN",
+      "source_context": "下游踝/足线索",
+      "module_codes": [
+        "KNEE"
+      ]
+    },
+    {
+      "rule_id": "KNEE-SAF-01",
+      "rule_type": "SAFETY",
+      "source_context": "明确急性外伤/明显肿胀/真正锁住/反复明显失稳",
+      "module_codes": [
+        "KNEE"
+      ]
+    },
+    {
+      "rule_id": "THIGH-MF-01",
+      "rule_type": "MOVEMENT",
+      "source_context": "冲刺/加速/高速跑",
+      "module_codes": [
+        "THIGH"
+      ]
+    },
+    {
+      "rule_id": "THIGH-MF-02",
+      "rule_type": "MOVEMENT",
+      "source_context": "踢腿/跳跃/快速蹬伸",
+      "module_codes": [
+        "THIGH"
+      ]
+    },
+    {
+      "rule_id": "THIGH-MF-03",
+      "rule_type": "MOVEMENT",
+      "source_context": "侧向移动/变向/大跨步",
+      "module_codes": [
+        "THIGH"
+      ]
+    },
+    {
+      "rule_id": "THIGH-CX-01",
+      "rule_type": "SYMPTOM",
+      "source_context": "麻木/放射/感觉异常",
+      "module_codes": [
+        "THIGH"
+      ]
+    },
+    {
+      "rule_id": "THIGH-SAF-01",
+      "rule_type": "SAFETY",
+      "source_context": "急性创伤后进行性剧痛/紧张肿胀",
+      "module_codes": [
+        "THIGH"
+      ]
+    },
+    {
+      "rule_id": "THIGH-SAF-02",
+      "rule_type": "SAFETY",
+      "source_context": "无法解释的单侧大腿肿胀/温热/发红",
+      "module_codes": [
+        "THIGH"
+      ]
+    },
+    {
+      "rule_id": "THIGH-SAF-03",
+      "rule_type": "SAFETY",
+      "source_context": "深部局灶大腿痛随跑跳/负重逐步加重",
+      "module_codes": [
+        "THIGH"
+      ]
+    },
+    {
+      "rule_id": "KNEE-MF-04",
+      "rule_type": "MOVEMENT",
+      "source_context": "下蹲",
+      "module_codes": [
+        "KNEE"
+      ]
+    },
+    {
+      "rule_id": "KNEE-MF-05",
+      "rule_type": "MOVEMENT",
+      "source_context": "上台阶",
+      "module_codes": [
+        "KNEE"
+      ]
+    },
+    {
+      "rule_id": "KNEE-MF-06",
+      "rule_type": "MOVEMENT",
+      "source_context": "单腿下蹲",
+      "module_codes": [
+        "KNEE"
+      ]
+    },
+    {
+      "rule_id": "KNEE-MF-07",
+      "rule_type": "MOVEMENT",
+      "source_context": "跳跃／落地",
+      "module_codes": [
+        "KNEE"
+      ]
+    },
+    {
+      "rule_id": "KNEE-MF-08",
+      "rule_type": "MOVEMENT",
+      "source_context": "急停／变向",
+      "module_codes": [
+        "KNEE"
+      ]
+    }
+  ],
+  "profile_schema": [
+    {
+      "id": "sex",
+      "label": "性别",
+      "options": {
+        "male": "男",
+        "female": "女"
+      },
+      "dependency": null
+    },
+    {
+      "id": "age_band",
+      "label": "年龄段",
+      "options": {
+        "youth": "儿童/青少年（≤17岁）",
+        "young_adult": "青壮年（18–39岁）",
+        "middle_age": "中年（40–59岁）",
+        "older_adult": "中老年（≥60岁）"
+      },
+      "dependency": null
+    },
+    {
+      "id": "female_stage",
+      "label": "女性阶段",
+      "options": {
+        "general": "常规",
+        "pregnancy": "孕期",
+        "postpartum": "产后",
+        "peri_post_menopause": "围绝经/绝经后"
+      },
+      "dependency": "visible_when:sex=female"
+    }
+  ]
+}

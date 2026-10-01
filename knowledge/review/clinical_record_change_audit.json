@@ -1,0 +1,865 @@
+{
+  "revision": "local-record-review-v1",
+  "files_read": 267,
+  "items": [
+    {
+      "item_id": "KNEE-ROM-EXT",
+      "before": {
+        "Item_ID": "KNEE-ROM-EXT",
+        "Item_Name": "膝伸直 ROM",
+        "Clinical_Purpose": "伸膝受限会改变站立、步行及终末伸膝任务；先区分主动与被动受限。",
+        "Assessment_Focus": "比较主动/被动伸膝、末端感觉、侧差和症状。",
+        "Module": "膝",
+        "Source_URL": "https://doi.org/10.2519/jospt.2018.0301",
+        "Review_Status": "待临床审核"
+      },
+      "after": {
+        "Item_ID": "KNEE-ROM-EXT",
+        "Item_Name": "膝伸直 ROM",
+        "Clinical_Purpose": "查看伸直角度、末端弹性与主动发力的差异，并对照膝前外侧和膝后组织状态。",
+        "Assessment_Focus": "主动与被动伸直、末端弹性、左右差异；股外侧肌、腘肌及后侧肌群状态。",
+        "Module": "膝",
+        "Source_URL": "local-records://LR-9a5cba6e18ed#L10-L40\nlocal-records://LR-b62ce4e8b001#L105-L109\nlocal-records://LR-14771cf95bce#L36-L60",
+        "Review_Status": "待临床审核"
+      },
+      "sources": [
+        "knee_soft",
+        "knee_joint"
+      ]
+    },
+    {
+      "item_id": "CORE-MUS-VL",
+      "before": {
+        "Item_ID": "CORE-MUS-VL",
+        "Item_Name": "股外侧肌",
+        "Clinical_Purpose": "股外侧肌邻近髌骨外侧缘；局部张力或拉长反应可与膝前外侧不适和屈膝活动对照。",
+        "Assessment_Focus": "比较前外侧张力、屈膝拉长反应与髌外侧邻近症状。",
+        "Module": "膝前",
+        "Source_URL": "https://doi.org/10.2519/jospt.2019.0302",
+        "Review_Status": "待临床审核"
+      },
+      "after": {
+        "Item_ID": "CORE-MUS-VL",
+        "Item_Name": "股外侧肌",
+        "Clinical_Purpose": "查看大腿前外侧紧张、局部压痛与膝屈伸末端的表现。",
+        "Assessment_Focus": "股外侧肌局部张力、压痛与膝屈伸末端表现。",
+        "Module": "膝前",
+        "Source_URL": "local-records://LR-9a5cba6e18ed#L10-L40\nlocal-records://LR-b62ce4e8b001#L105-L109\nlocal-records://LR-9a5cba6e18ed#L18-L32",
+        "Review_Status": "待临床审核"
+      },
+      "sources": [
+        "knee_soft",
+        "thigh_front"
+      ]
+    },
+    {
+      "item_id": "KNEE-MUS-POPLIT",
+      "before": {
+        "Item_ID": "KNEE-MUS-POPLIT",
+        "Item_Name": "腘肌",
+        "Clinical_Purpose": "腘肌邻近膝后外侧；其局部状态可与伸膝末端和胫骨旋转表现对照。",
+        "Assessment_Focus": "查看膝后外侧局部反应与末端旋转活动。",
+        "Module": "膝",
+        "Source_URL": "https://doi.org/10.2519/jospt.2019.0302",
+        "Review_Status": "待临床审核"
+      },
+      "after": {
+        "Item_ID": "KNEE-MUS-POPLIT",
+        "Item_Name": "腘肌",
+        "Clinical_Purpose": "伸直末端或膝后外侧紧绷时，查看腘肌局部状态和胫骨旋转活动。",
+        "Assessment_Focus": "膝后外侧局部张力、伸直末端与胫骨旋转。",
+        "Module": "膝",
+        "Source_URL": "local-records://LR-9a5cba6e18ed#L10-L40\nlocal-records://LR-b62ce4e8b001#L105-L109",
+        "Review_Status": "待临床审核"
+      },
+      "sources": [
+        "knee_soft"
+      ]
+    },
+    {
+      "item_id": "CORE-CAP-QUAD-RECRUIT",
+      "before": {
+        "Item_ID": "CORE-CAP-QUAD-RECRUIT",
+        "Item_Name": "股四头肌募集/主动终末伸膝",
+        "Clinical_Purpose": "主动终末伸膝可显示股四头肌募集与伸膝滞后，不能由整体力量值代替。",
+        "Assessment_Focus": "观察股四头肌收缩、终末伸膝及伸膝滞后。",
+        "Module": "膝",
+        "Source_URL": "https://doi.org/10.2519/jospt.2019.0302",
+        "Review_Status": "待临床审核"
+      },
+      "after": {
+        "Item_ID": "CORE-CAP-QUAD-RECRUIT",
+        "Item_Name": "股四头肌募集/主动终末伸膝",
+        "Clinical_Purpose": "比较主动终末伸膝、股四头肌收缩与被动伸直范围。",
+        "Assessment_Focus": "终末伸膝、收缩质量、伸膝滞后与左右差异。",
+        "Module": "膝",
+        "Source_URL": "local-records://LR-4433b5bd593a#L15-L27\nlocal-records://LR-4633fe94481a#L23-L38",
+        "Review_Status": "待临床审核"
+      },
+      "sources": [
+        "quad"
+      ]
+    },
+    {
+      "item_id": "CORE-ROM-ANK-DF",
+      "before": {
+        "Item_ID": "CORE-ROM-ANK-DF",
+        "Item_Name": "踝背屈 ROM",
+        "Clinical_Purpose": "查看踝背屈与下蹲、台阶及步行的配合。",
+        "Assessment_Focus": "伸膝位与屈膝位背屈、负重背屈及左右差异。",
+        "Module": "膝",
+        "Source_URL": "https://doi.org/10.2519/jospt.2018.0301",
+        "Review_Status": "待临床审核"
+      },
+      "after": {
+        "Item_ID": "CORE-ROM-ANK-DF",
+        "Item_Name": "踝背屈 ROM",
+        "Clinical_Purpose": "查看踝背屈范围，并对照距骨活动与小腿后侧组织状态。",
+        "Assessment_Focus": "伸膝位与屈膝位主动、被动背屈；末端感觉与左右差异。",
+        "Module": "膝",
+        "Source_URL": "local-records://LR-a27906e6eaef#L23-L43\nlocal-records://LR-d64a19ea9ecf#L14-L15",
+        "Review_Status": "待临床审核"
+      },
+      "sources": [
+        "ankle_df"
+      ]
+    },
+    {
+      "item_id": "AF-ASM-002",
+      "before": null,
+      "after": {
+        "Item_ID": "AF-ASM-002",
+        "Item_Name": "距小腿关节活动",
+        "Clinical_Purpose": "背屈末端受限时，查看距小腿关节的方向性活动。",
+        "Assessment_Focus": "距骨方向性活动、背屈末端与左右差异。",
+        "Module": "ANKLE_FOOT",
+        "Source_URL": "local-records://LR-a27906e6eaef#L23-L43\nlocal-records://LR-d64a19ea9ecf#L14-L15",
+        "Review_Status": "待临床审核"
+      },
+      "sources": [
+        "ankle_df"
+      ]
+    },
+    {
+      "item_id": "CORE-ROM-ANK-EV",
+      "before": null,
+      "after": {
+        "Item_ID": "CORE-ROM-ANK-EV",
+        "Item_Name": "足踝外翻 ROM",
+        "Clinical_Purpose": "区分外翻活动范围与主动外翻表现，并查看跟骨和中足活动。",
+        "Assessment_Focus": "主动、被动外翻；跟骨与中足活动、末端感觉及左右差异。",
+        "Module": "ANKLE_FOOT/LOWER_LEG",
+        "Source_URL": "local-records://LR-a27906e6eaef#L23-L48\nlocal-records://LR-ee1d02537075#L54-L55\nlocal-records://LR-26f2f03ac441#L33-L43",
+        "Review_Status": "待临床审核"
+      },
+      "sources": [
+        "ankle_ev",
+        "fibular",
+        "midfoot"
+      ]
+    },
+    {
+      "item_id": "AF-JNT-002",
+      "before": null,
+      "after": {
+        "Item_ID": "AF-JNT-002",
+        "Item_Name": "距下关节活动",
+        "Clinical_Purpose": "外翻或内翻受限时，查看跟骨和距下关节的活动。",
+        "Assessment_Focus": "跟骨内外翻活动、末端感觉与左右差异。",
+        "Module": "ANKLE_FOOT",
+        "Source_URL": "local-records://LR-a56bd1590204#L4-L8",
+        "Review_Status": "待临床审核"
+      },
+      "sources": [
+        "subtalar"
+      ]
+    },
+    {
+      "item_id": "AF-JNT-003",
+      "before": null,
+      "after": {
+        "Item_ID": "AF-JNT-003",
+        "Item_Name": "中足/横跗关节活动",
+        "Clinical_Purpose": "足外侧或中足活动不顺时，查看中足方向性活动及骰骨邻近表现。",
+        "Assessment_Focus": "中足方向性活动、骰骨邻近活动与左右差异。",
+        "Module": "ANKLE_FOOT",
+        "Source_URL": "local-records://LR-26f2f03ac441#L33-L43",
+        "Review_Status": "待临床审核"
+      },
+      "sources": [
+        "midfoot"
+      ]
+    },
+    {
+      "item_id": "CORE-CAP-EV",
+      "before": {
+        "Item_ID": "CORE-CAP-EV",
+        "Item_Name": "足踝外翻肌力",
+        "Clinical_Purpose": "足踝外翻输出参与侧向稳定任务，可与膝外侧链表现一并查看。",
+        "Assessment_Focus": "比较外翻抗阻力量、侧差和相关任务表现。",
+        "Module": "膝",
+        "Source_URL": "https://doi.org/10.2519/jospt.2019.0302",
+        "Review_Status": "待临床审核"
+      },
+      "after": {
+        "Item_ID": "CORE-CAP-EV",
+        "Item_Name": "足踝外翻肌力",
+        "Clinical_Purpose": "查看主动外翻和抗阻输出，与外翻活动范围分开比较。",
+        "Assessment_Focus": "主动外翻、外翻抗阻、代偿与左右差异。",
+        "Module": "膝",
+        "Source_URL": "local-records://LR-a27906e6eaef#L23-L48",
+        "Review_Status": "待临床审核"
+      },
+      "sources": [
+        "ankle_ev"
+      ]
+    },
+    {
+      "item_id": "THIGH-MUS-TFL",
+      "before": null,
+      "after": {
+        "Item_ID": "THIGH-MUS-TFL",
+        "Item_Name": "阔筋膜张肌",
+        "Clinical_Purpose": "大腿近端外侧紧绷时，查看阔筋膜张肌局部状态与髋部活动。",
+        "Assessment_Focus": "近端外侧局部张力、压痛与相关髋活动。",
+        "Module": "THIGH",
+        "Source_URL": "local-records://LR-9a5cba6e18ed#L18-L32",
+        "Review_Status": "待临床审核"
+      },
+      "sources": [
+        "thigh_front"
+      ]
+    },
+    {
+      "item_id": "THIGH-LT-002",
+      "before": null,
+      "after": {
+        "Item_ID": "THIGH-LT-002",
+        "Item_Name": "大腿后侧局部软组织/肌腱膜反应",
+        "Clinical_Purpose": "大腿后侧紧绷或牵拉受限时，分区查看腘绳肌与周围软组织。",
+        "Assessment_Focus": "后侧局部张力、牵拉范围、压痛及左右差异。",
+        "Module": "THIGH",
+        "Source_URL": "local-records://LR-20a01619ecb0#L50-L55\nlocal-records://LR-20a01619ecb0#L73-L90",
+        "Review_Status": "待临床审核"
+      },
+      "sources": [
+        "thigh_back"
+      ]
+    }
+  ],
+  "features": [
+    {
+      "feature_id": "AFM-0084-LIMIT",
+      "before": {
+        "Feature_ID": "AFM-0084-LIMIT",
+        "Assessment_Map_ID": "AFM-0084",
+        "Finding_Name": "伸膝活动受限",
+        "Finding_Feature": "主动或被动伸膝范围较对侧受限",
+        "Finding_Interpretation": "主动与被动末端的差异，可与股四头肌募集及后侧组织拉长表现对照。",
+        "Source_URL": "https://doi.org/10.2519/jospt.2018.0301",
+        "Review_Status": "待临床审核"
+      },
+      "after": {
+        "Feature_ID": "AFM-0084-LIMIT",
+        "Assessment_Map_ID": "AFM-0084",
+        "Finding_Name": "伸膝活动受限",
+        "Finding_Feature": "主动或被动伸膝范围较对侧受限；比较伸直末端的角度和弹性。",
+        "Finding_Interpretation": "主动与被动末端的差异，可与股四头肌募集及后侧组织拉长表现对照。",
+        "Source_URL": "local-records://LR-9a5cba6e18ed#L10-L40\nlocal-records://LR-b62ce4e8b001#L105-L109\nlocal-records://LR-14771cf95bce#L36-L60\nlocal-records://LR-d64a19ea9ecf#L4-L12\nlocal-records://LR-4633fe94481a#L96-L103",
+        "Review_Status": "待临床审核"
+      },
+      "previous_methods": [
+        {
+          "Reference_ID": "AFM-0084-LIMIT-1",
+          "Feature_ID": "AFM-0084-LIMIT",
+          "Treatment_Goal": "改善方向性活动",
+          "Treatment_Method": "膝关节伸直方向松动；主动终末伸膝活动；腘绳肌或腓肠肌拉伸",
+          "Progression": null,
+          "Source_URL": "https://doi.org/10.2519/jospt.2018.0301",
+          "Review_Status": "待临床审核",
+          "Source_Note": null
+        }
+      ],
+      "current_methods": [
+        {
+          "Reference_ID": "AFM-0084-LIMIT-RECORD-1",
+          "Feature_ID": "AFM-0084-LIMIT",
+          "Treatment_Goal": "软组织处理",
+          "Treatment_Method": "股外侧肌手法松解；腘肌手法松解；腘绳肌手法松解／MET；小腿三头肌手法松解",
+          "Progression": "",
+          "Source_URL": "local-records://LR-9a5cba6e18ed#L10-L40\nlocal-records://LR-b62ce4e8b001#L105-L109\nlocal-records://LR-14771cf95bce#L36-L60\nlocal-records://LR-d64a19ea9ecf#L4-L12\nlocal-records://LR-4633fe94481a#L96-L103",
+          "Review_Status": "待临床审核",
+          "Source_Note": "临床经验参考，待临床审核；不构成病因、独立疗效或方案判断。来源范围见09_Evidence与clinical_record_scope。"
+        },
+        {
+          "Reference_ID": "AFM-0084-LIMIT-RECORD-2",
+          "Feature_ID": "AFM-0084-LIMIT",
+          "Treatment_Goal": "关节活动",
+          "Treatment_Method": "膝关节伸直方向松动",
+          "Progression": "",
+          "Source_URL": "local-records://LR-9a5cba6e18ed#L10-L40\nlocal-records://LR-b62ce4e8b001#L105-L109\nlocal-records://LR-14771cf95bce#L36-L60\nlocal-records://LR-d64a19ea9ecf#L4-L12\nlocal-records://LR-4633fe94481a#L96-L103",
+          "Review_Status": "待临床审核",
+          "Source_Note": "临床经验参考，待临床审核；不构成病因、独立疗效或方案判断。来源范围见09_Evidence与clinical_record_scope。"
+        },
+        {
+          "Reference_ID": "AFM-0084-LIMIT-RECORD-3",
+          "Feature_ID": "AFM-0084-LIMIT",
+          "Treatment_Goal": "主动活动",
+          "Treatment_Method": "主动终末伸膝活动",
+          "Progression": "",
+          "Source_URL": "local-records://LR-9a5cba6e18ed#L10-L40\nlocal-records://LR-b62ce4e8b001#L105-L109\nlocal-records://LR-14771cf95bce#L36-L60\nlocal-records://LR-d64a19ea9ecf#L4-L12\nlocal-records://LR-4633fe94481a#L96-L103",
+          "Review_Status": "待临床审核",
+          "Source_Note": "临床经验参考，待临床审核；不构成病因、独立疗效或方案判断。来源范围见09_Evidence与clinical_record_scope。"
+        }
+      ],
+      "sources": [
+        "knee_soft",
+        "knee_joint",
+        "hamstrings_knee"
+      ]
+    },
+    {
+      "feature_id": "AFM-0076-LENGTH",
+      "before": {
+        "Feature_ID": "AFM-0076-LENGTH",
+        "Assessment_Map_ID": "AFM-0076",
+        "Finding_Name": "拉长或活动受限",
+        "Finding_Feature": "膝伸直或胫骨旋转末端伴后外侧局部紧张",
+        "Finding_Interpretation": "可与膝后外侧的长度或软组织活动表现对照。",
+        "Source_URL": "https://doi.org/10.2519/jospt.2019.0302",
+        "Review_Status": "待临床审核"
+      },
+      "after": {
+        "Feature_ID": "AFM-0076-LENGTH",
+        "Assessment_Map_ID": "AFM-0076",
+        "Finding_Name": "拉长或活动受限",
+        "Finding_Feature": "膝伸直或胫骨旋转末端伴后外侧局部紧张",
+        "Finding_Interpretation": "可与膝后外侧的长度或软组织活动表现对照。",
+        "Source_URL": "local-records://LR-9a5cba6e18ed#L10-L40\nlocal-records://LR-b62ce4e8b001#L105-L109",
+        "Review_Status": "待临床审核"
+      },
+      "previous_methods": [
+        {
+          "Reference_ID": "AFM-0076-LENGTH-1",
+          "Feature_ID": "AFM-0076-LENGTH",
+          "Treatment_Goal": "改善长度与活动",
+          "Treatment_Method": "膝后外侧软组织手法松解；主动膝屈伸与旋转活动",
+          "Progression": null,
+          "Source_URL": "https://doi.org/10.2519/jospt.2019.0302",
+          "Review_Status": "待临床审核",
+          "Source_Note": null
+        }
+      ],
+      "current_methods": [
+        {
+          "Reference_ID": "AFM-0076-LENGTH-RECORD-1",
+          "Feature_ID": "AFM-0076-LENGTH",
+          "Treatment_Goal": "软组织处理",
+          "Treatment_Method": "腘肌手法松解",
+          "Progression": "",
+          "Source_URL": "local-records://LR-9a5cba6e18ed#L10-L40\nlocal-records://LR-b62ce4e8b001#L105-L109",
+          "Review_Status": "待临床审核",
+          "Source_Note": "临床经验参考，待临床审核；不构成病因、独立疗效或方案判断。来源范围见09_Evidence与clinical_record_scope。"
+        },
+        {
+          "Reference_ID": "AFM-0076-LENGTH-RECORD-2",
+          "Feature_ID": "AFM-0076-LENGTH",
+          "Treatment_Goal": "主动活动",
+          "Treatment_Method": "主动膝屈伸与胫骨旋转活动",
+          "Progression": "",
+          "Source_URL": "local-records://LR-9a5cba6e18ed#L10-L40\nlocal-records://LR-b62ce4e8b001#L105-L109",
+          "Review_Status": "待临床审核",
+          "Source_Note": "临床经验参考，待临床审核；不构成病因、独立疗效或方案判断。来源范围见09_Evidence与clinical_record_scope。"
+        }
+      ],
+      "sources": [
+        "knee_soft"
+      ]
+    },
+    {
+      "feature_id": "AFM-0095-CAPACITY",
+      "before": {
+        "Feature_ID": "AFM-0095-CAPACITY",
+        "Assessment_Map_ID": "AFM-0095",
+        "Finding_Name": "主动终末伸膝不足",
+        "Finding_Feature": "股四头肌主动收缩或终末伸膝出现伸膝滞后",
+        "Finding_Interpretation": "与肌肉长度和局部反应分别查看。",
+        "Source_URL": "https://doi.org/10.2519/jospt.2019.0302",
+        "Review_Status": "待临床审核"
+      },
+      "after": {
+        "Feature_ID": "AFM-0095-CAPACITY",
+        "Assessment_Map_ID": "AFM-0095",
+        "Finding_Name": "主动终末伸膝不足",
+        "Finding_Feature": "股四头肌主动收缩或终末伸膝出现伸膝滞后",
+        "Finding_Interpretation": "与肌肉长度和局部反应分别查看。",
+        "Source_URL": "local-records://LR-4433b5bd593a#L15-L27\nlocal-records://LR-4633fe94481a#L23-L38",
+        "Review_Status": "待临床审核"
+      },
+      "previous_methods": [
+        {
+          "Reference_ID": "AFM-0095-CAPACITY-1",
+          "Feature_ID": "AFM-0095-CAPACITY",
+          "Treatment_Goal": "改善对应任务表现",
+          "Treatment_Method": "股四头肌主动募集训练；终末伸膝训练",
+          "Progression": null,
+          "Source_URL": "https://doi.org/10.2519/jospt.2019.0302",
+          "Review_Status": "待临床审核",
+          "Source_Note": null
+        }
+      ],
+      "current_methods": [
+        {
+          "Reference_ID": "AFM-0095-CAPACITY-RECORD-1",
+          "Feature_ID": "AFM-0095-CAPACITY",
+          "Treatment_Goal": "募集与终末伸膝",
+          "Treatment_Method": "股四头肌主动募集训练；终末伸膝训练；神经肌肉电刺激（NMES）辅助募集",
+          "Progression": "",
+          "Source_URL": "local-records://LR-4433b5bd593a#L15-L27\nlocal-records://LR-4633fe94481a#L23-L38",
+          "Review_Status": "待临床审核",
+          "Source_Note": "临床经验参考，待临床审核；不构成病因、独立疗效或方案判断。来源范围见09_Evidence与clinical_record_scope。"
+        }
+      ],
+      "sources": [
+        "quad"
+      ]
+    },
+    {
+      "feature_id": "AFM-0001-SCREEN",
+      "before": {
+        "Feature_ID": "AFM-0001-SCREEN",
+        "Assessment_Map_ID": "AFM-0001",
+        "Finding_Name": "踝背屈活动受限",
+        "Finding_Feature": "背屈明显受限、左右差异或末端症状与当前症状相关",
+        "Finding_Interpretation": "描述检查结果，不等同具体病理诊断",
+        "Source_URL": "https://doi.org/10.2519/jospt.2018.0301",
+        "Review_Status": "待临床审核"
+      },
+      "after": {
+        "Feature_ID": "AFM-0001-SCREEN",
+        "Assessment_Map_ID": "AFM-0001",
+        "Finding_Name": "踝背屈活动受限",
+        "Finding_Feature": "伸膝位或屈膝位主动、被动背屈范围与对侧不同，或背屈末端受限。",
+        "Finding_Interpretation": "描述检查结果，不等同具体病理诊断",
+        "Source_URL": "local-records://LR-a27906e6eaef#L23-L43\nlocal-records://LR-d64a19ea9ecf#L14-L15",
+        "Review_Status": "待临床审核"
+      },
+      "previous_methods": [],
+      "current_methods": [
+        {
+          "Reference_ID": "AFM-0001-SCREEN-RECORD-1",
+          "Feature_ID": "AFM-0001-SCREEN",
+          "Treatment_Goal": "关节活动",
+          "Treatment_Method": "距小腿关节松动",
+          "Progression": "",
+          "Source_URL": "local-records://LR-a27906e6eaef#L23-L43\nlocal-records://LR-d64a19ea9ecf#L14-L15",
+          "Review_Status": "待临床审核",
+          "Source_Note": "临床经验参考，待临床审核；不构成病因、独立疗效或方案判断。来源范围见09_Evidence与clinical_record_scope。"
+        },
+        {
+          "Reference_ID": "AFM-0001-SCREEN-RECORD-2",
+          "Feature_ID": "AFM-0001-SCREEN",
+          "Treatment_Goal": "软组织处理",
+          "Treatment_Method": "小腿三头肌手法松解；腓肠肌／比目鱼肌拉伸",
+          "Progression": "",
+          "Source_URL": "local-records://LR-a27906e6eaef#L23-L43\nlocal-records://LR-d64a19ea9ecf#L14-L15",
+          "Review_Status": "待临床审核",
+          "Source_Note": "临床经验参考，待临床审核；不构成病因、独立疗效或方案判断。来源范围见09_Evidence与clinical_record_scope。"
+        },
+        {
+          "Reference_ID": "AFM-0001-SCREEN-RECORD-3",
+          "Feature_ID": "AFM-0001-SCREEN",
+          "Treatment_Goal": "主动活动",
+          "Treatment_Method": "主动踝背屈活动",
+          "Progression": "",
+          "Source_URL": "local-records://LR-a27906e6eaef#L23-L43\nlocal-records://LR-d64a19ea9ecf#L14-L15",
+          "Review_Status": "待临床审核",
+          "Source_Note": "临床经验参考，待临床审核；不构成病因、独立疗效或方案判断。来源范围见09_Evidence与clinical_record_scope。"
+        }
+      ],
+      "sources": [
+        "ankle_df"
+      ]
+    },
+    {
+      "feature_id": "AFM-0002-RECORD-LIMIT",
+      "before": null,
+      "after": {
+        "Feature_ID": "AFM-0002-RECORD-LIMIT",
+        "Assessment_Map_ID": "AFM-0002",
+        "Finding_Name": "距小腿关节活动受限",
+        "Finding_Feature": "距骨方向性活动或背屈末端活动与对侧不同。",
+        "Finding_Interpretation": "记录中的检查表现供康复师对照，不由单条表现判定病因。",
+        "Source_URL": "local-records://LR-a27906e6eaef#L23-L43\nlocal-records://LR-d64a19ea9ecf#L14-L15",
+        "Review_Status": "待临床审核"
+      },
+      "previous_methods": [],
+      "current_methods": [
+        {
+          "Reference_ID": "AFM-0002-RECORD-LIMIT-RECORD-1",
+          "Feature_ID": "AFM-0002-RECORD-LIMIT",
+          "Treatment_Goal": "关节活动",
+          "Treatment_Method": "距小腿关节松动",
+          "Progression": "",
+          "Source_URL": "local-records://LR-a27906e6eaef#L23-L43\nlocal-records://LR-d64a19ea9ecf#L14-L15",
+          "Review_Status": "待临床审核",
+          "Source_Note": "临床经验参考，待临床审核；不构成病因、独立疗效或方案判断。来源范围见09_Evidence与clinical_record_scope。"
+        }
+      ],
+      "sources": [
+        "ankle_df"
+      ]
+    },
+    {
+      "feature_id": "AFM-0024-RECORD-LIMIT",
+      "before": null,
+      "after": {
+        "Feature_ID": "AFM-0024-RECORD-LIMIT",
+        "Assessment_Map_ID": "AFM-0024",
+        "Finding_Name": "外翻活动受限",
+        "Finding_Feature": "主动或被动外翻范围较对侧受限。",
+        "Finding_Interpretation": "记录中的检查表现供康复师对照，不由单条表现判定病因。",
+        "Source_URL": "local-records://LR-a27906e6eaef#L23-L48\nlocal-records://LR-26f2f03ac441#L33-L43",
+        "Review_Status": "待临床审核"
+      },
+      "previous_methods": [],
+      "current_methods": [
+        {
+          "Reference_ID": "AFM-0024-RECORD-LIMIT-RECORD-1",
+          "Feature_ID": "AFM-0024-RECORD-LIMIT",
+          "Treatment_Goal": "关节活动",
+          "Treatment_Method": "距下关节松动；中足关节松动",
+          "Progression": "",
+          "Source_URL": "local-records://LR-a27906e6eaef#L23-L48\nlocal-records://LR-26f2f03ac441#L33-L43",
+          "Review_Status": "待临床审核",
+          "Source_Note": "临床经验参考，待临床审核；不构成病因、独立疗效或方案判断。来源范围见09_Evidence与clinical_record_scope。"
+        },
+        {
+          "Reference_ID": "AFM-0024-RECORD-LIMIT-RECORD-2",
+          "Feature_ID": "AFM-0024-RECORD-LIMIT",
+          "Treatment_Goal": "主动活动",
+          "Treatment_Method": "主动足踝外翻活动",
+          "Progression": "",
+          "Source_URL": "local-records://LR-a27906e6eaef#L23-L48\nlocal-records://LR-26f2f03ac441#L33-L43",
+          "Review_Status": "待临床审核",
+          "Source_Note": "临床经验参考，待临床审核；不构成病因、独立疗效或方案判断。来源范围见09_Evidence与clinical_record_scope。"
+        }
+      ],
+      "sources": [
+        "ankle_ev",
+        "midfoot"
+      ]
+    },
+    {
+      "feature_id": "AFM-0020-RECORD-LIMIT",
+      "before": null,
+      "after": {
+        "Feature_ID": "AFM-0020-RECORD-LIMIT",
+        "Assessment_Map_ID": "AFM-0020",
+        "Finding_Name": "跟骨／距下关节活动受限",
+        "Finding_Feature": "跟骨内翻或外翻方向性活动与对侧不同。",
+        "Finding_Interpretation": "记录中的检查表现供康复师对照，不由单条表现判定病因。",
+        "Source_URL": "local-records://LR-a56bd1590204#L4-L8",
+        "Review_Status": "待临床审核"
+      },
+      "previous_methods": [],
+      "current_methods": [
+        {
+          "Reference_ID": "AFM-0020-RECORD-LIMIT-RECORD-1",
+          "Feature_ID": "AFM-0020-RECORD-LIMIT",
+          "Treatment_Goal": "关节活动",
+          "Treatment_Method": "跟骨／距下关节松动",
+          "Progression": "",
+          "Source_URL": "local-records://LR-a56bd1590204#L4-L8",
+          "Review_Status": "待临床审核",
+          "Source_Note": "临床经验参考，待临床审核；不构成病因、独立疗效或方案判断。来源范围见09_Evidence与clinical_record_scope。"
+        }
+      ],
+      "sources": [
+        "subtalar"
+      ]
+    },
+    {
+      "feature_id": "AFM-0021-RECORD-LIMIT",
+      "before": null,
+      "after": {
+        "Feature_ID": "AFM-0021-RECORD-LIMIT",
+        "Assessment_Map_ID": "AFM-0021",
+        "Finding_Name": "中足方向性活动受限",
+        "Finding_Feature": "中足方向性活动受限，或骰骨邻近活动与对侧不同。",
+        "Finding_Interpretation": "记录中的检查表现供康复师对照，不由单条表现判定病因。",
+        "Source_URL": "local-records://LR-26f2f03ac441#L33-L43",
+        "Review_Status": "待临床审核"
+      },
+      "previous_methods": [],
+      "current_methods": [
+        {
+          "Reference_ID": "AFM-0021-RECORD-LIMIT-RECORD-1",
+          "Feature_ID": "AFM-0021-RECORD-LIMIT",
+          "Treatment_Goal": "关节活动",
+          "Treatment_Method": "中足关节松动；骰骨松动",
+          "Progression": "",
+          "Source_URL": "local-records://LR-26f2f03ac441#L33-L43",
+          "Review_Status": "待临床审核",
+          "Source_Note": "临床经验参考，待临床审核；不构成病因、独立疗效或方案判断。来源范围见09_Evidence与clinical_record_scope。"
+        }
+      ],
+      "sources": [
+        "midfoot"
+      ]
+    },
+    {
+      "feature_id": "AFM-0005-CAPACITY",
+      "before": {
+        "Feature_ID": "AFM-0005-CAPACITY",
+        "Assessment_Map_ID": "AFM-0005",
+        "Finding_Name": "足踝外翻力量不足",
+        "Finding_Feature": "固定体位外翻抗阻时力量或疼痛限制与对侧不同",
+        "Finding_Interpretation": "与局部张力和压痛分别记录，供处理方向参考。",
+        "Source_URL": "https://doi.org/10.2519/jospt.2019.0302",
+        "Review_Status": "待临床审核"
+      },
+      "after": {
+        "Feature_ID": "AFM-0005-CAPACITY",
+        "Assessment_Map_ID": "AFM-0005",
+        "Finding_Name": "足踝外翻力量不足",
+        "Finding_Feature": "固定体位外翻抗阻时力量或疼痛限制与对侧不同",
+        "Finding_Interpretation": "与局部张力和压痛分别记录，供处理方向参考。",
+        "Source_URL": "local-records://LR-a27906e6eaef#L23-L48",
+        "Review_Status": "待临床审核"
+      },
+      "previous_methods": [
+        {
+          "Reference_ID": "AFM-0005-CAPACITY-1",
+          "Feature_ID": "AFM-0005-CAPACITY",
+          "Treatment_Goal": "改善对应输出",
+          "Treatment_Method": "足踝外翻抗阻训练；侧向稳定任务训练",
+          "Progression": null,
+          "Source_URL": "https://doi.org/10.2519/jospt.2019.0302",
+          "Review_Status": "待临床审核",
+          "Source_Note": null
+        }
+      ],
+      "current_methods": [
+        {
+          "Reference_ID": "AFM-0005-CAPACITY-RECORD-1",
+          "Feature_ID": "AFM-0005-CAPACITY",
+          "Treatment_Goal": "外翻募集与力量",
+          "Treatment_Method": "足踝外翻激活；足踝外翻抗阻训练",
+          "Progression": "",
+          "Source_URL": "local-records://LR-a27906e6eaef#L23-L48",
+          "Review_Status": "待临床审核",
+          "Source_Note": "临床经验参考，待临床审核；不构成病因、独立疗效或方案判断。来源范围见09_Evidence与clinical_record_scope。"
+        },
+        {
+          "Reference_ID": "AFM-0005-CAPACITY-RECORD-2",
+          "Feature_ID": "AFM-0005-CAPACITY",
+          "Treatment_Goal": "动作控制",
+          "Treatment_Method": "侧向稳定任务训练",
+          "Progression": "",
+          "Source_URL": "local-records://LR-a27906e6eaef#L23-L48",
+          "Review_Status": "待临床审核",
+          "Source_Note": "临床经验参考，待临床审核；不构成病因、独立疗效或方案判断。来源范围见09_Evidence与clinical_record_scope。"
+        }
+      ],
+      "sources": [
+        "ankle_ev"
+      ]
+    },
+    {
+      "feature_id": "AFM-0044-TENSION",
+      "before": {
+        "Feature_ID": "AFM-0044-TENSION",
+        "Assessment_Map_ID": "AFM-0044",
+        "Finding_Name": "拉长或张力反应异常",
+        "Finding_Feature": "伸膝位踝背屈时小腿后侧拉长受限，或腓肠肌局部张力与对侧不同",
+        "Finding_Interpretation": "与屈膝位背屈和提踵表现对照。",
+        "Source_URL": "https://doi.org/10.2519/jospt.2019.0302",
+        "Review_Status": "待临床审核"
+      },
+      "after": {
+        "Feature_ID": "AFM-0044-TENSION",
+        "Assessment_Map_ID": "AFM-0044",
+        "Finding_Name": "拉长或张力反应异常",
+        "Finding_Feature": "伸膝位踝背屈时小腿后侧拉长受限，或腓肠肌局部张力与对侧不同",
+        "Finding_Interpretation": "与屈膝位背屈和提踵表现对照。",
+        "Source_URL": "local-records://LR-fbe217babee1#L5-L20",
+        "Review_Status": "待临床审核"
+      },
+      "previous_methods": [
+        {
+          "Reference_ID": "AFM-0044-TENSION-1",
+          "Feature_ID": "AFM-0044-TENSION",
+          "Treatment_Goal": "改善软组织活动",
+          "Treatment_Method": "腓肠肌手法松解",
+          "Progression": null,
+          "Source_URL": "https://doi.org/10.2519/jospt.2019.0302",
+          "Review_Status": "待临床审核",
+          "Source_Note": null
+        },
+        {
+          "Reference_ID": "AFM-0044-TENSION-2",
+          "Feature_ID": "AFM-0044-TENSION",
+          "Treatment_Goal": "改善长度与活动",
+          "Treatment_Method": "伸膝位腓肠肌拉伸",
+          "Progression": null,
+          "Source_URL": "https://doi.org/10.2519/jospt.2019.0302",
+          "Review_Status": "待临床审核",
+          "Source_Note": null
+        }
+      ],
+      "current_methods": [
+        {
+          "Reference_ID": "AFM-0044-TENSION-RECORD-1",
+          "Feature_ID": "AFM-0044-TENSION",
+          "Treatment_Goal": "软组织处理",
+          "Treatment_Method": "腓肠肌手法松解；器械辅助软组织松解（筋膜刀）",
+          "Progression": "",
+          "Source_URL": "local-records://LR-fbe217babee1#L5-L20",
+          "Review_Status": "待临床审核",
+          "Source_Note": "临床经验参考，待临床审核；不构成病因、独立疗效或方案判断。来源范围见09_Evidence与clinical_record_scope。"
+        },
+        {
+          "Reference_ID": "AFM-0044-TENSION-RECORD-2",
+          "Feature_ID": "AFM-0044-TENSION",
+          "Treatment_Goal": "拉伸",
+          "Treatment_Method": "伸膝位腓肠肌拉伸",
+          "Progression": "",
+          "Source_URL": "local-records://LR-fbe217babee1#L5-L20",
+          "Review_Status": "待临床审核",
+          "Source_Note": "临床经验参考，待临床审核；不构成病因、独立疗效或方案判断。来源范围见09_Evidence与clinical_record_scope。"
+        }
+      ],
+      "sources": [
+        "calf"
+      ]
+    },
+    {
+      "feature_id": "AFM-0045-LENGTH",
+      "before": {
+        "Feature_ID": "AFM-0045-LENGTH",
+        "Assessment_Map_ID": "AFM-0045",
+        "Finding_Name": "拉长或活动受限",
+        "Finding_Feature": "屈膝位背屈受限，伴小腿后侧拉长反应或局部张力改变",
+        "Finding_Interpretation": "可与比目鱼肌的长度或软组织活动表现对照。",
+        "Source_URL": "https://doi.org/10.2519/jospt.2019.0302",
+        "Review_Status": "待临床审核"
+      },
+      "after": {
+        "Feature_ID": "AFM-0045-LENGTH",
+        "Assessment_Map_ID": "AFM-0045",
+        "Finding_Name": "拉长或活动受限",
+        "Finding_Feature": "屈膝位背屈受限，伴小腿后侧拉长反应或局部张力改变",
+        "Finding_Interpretation": "可与比目鱼肌的长度或软组织活动表现对照。",
+        "Source_URL": "local-records://LR-fbe217babee1#L5-L20",
+        "Review_Status": "待临床审核"
+      },
+      "previous_methods": [
+        {
+          "Reference_ID": "AFM-0045-LENGTH-1",
+          "Feature_ID": "AFM-0045-LENGTH",
+          "Treatment_Goal": "改善长度与活动",
+          "Treatment_Method": "比目鱼肌手法松解；屈膝位小腿后侧拉伸",
+          "Progression": null,
+          "Source_URL": "https://doi.org/10.2519/jospt.2019.0302",
+          "Review_Status": "待临床审核",
+          "Source_Note": null
+        }
+      ],
+      "current_methods": [
+        {
+          "Reference_ID": "AFM-0045-LENGTH-RECORD-1",
+          "Feature_ID": "AFM-0045-LENGTH",
+          "Treatment_Goal": "软组织处理",
+          "Treatment_Method": "比目鱼肌手法松解；器械辅助软组织松解（筋膜刀）",
+          "Progression": "",
+          "Source_URL": "local-records://LR-fbe217babee1#L5-L20",
+          "Review_Status": "待临床审核",
+          "Source_Note": "临床经验参考，待临床审核；不构成病因、独立疗效或方案判断。来源范围见09_Evidence与clinical_record_scope。"
+        },
+        {
+          "Reference_ID": "AFM-0045-LENGTH-RECORD-2",
+          "Feature_ID": "AFM-0045-LENGTH",
+          "Treatment_Goal": "拉伸",
+          "Treatment_Method": "屈膝位小腿后侧拉伸",
+          "Progression": "",
+          "Source_URL": "local-records://LR-fbe217babee1#L5-L20",
+          "Review_Status": "待临床审核",
+          "Source_Note": "临床经验参考，待临床审核；不构成病因、独立疗效或方案判断。来源范围见09_Evidence与clinical_record_scope。"
+        }
+      ],
+      "sources": [
+        "calf"
+      ]
+    },
+    {
+      "feature_id": "AFM-0106-RECORD-TENSION",
+      "before": null,
+      "after": {
+        "Feature_ID": "AFM-0106-RECORD-TENSION",
+        "Assessment_Map_ID": "AFM-0106",
+        "Finding_Name": "局部张力增加",
+        "Finding_Feature": "大腿近端外侧局部紧张，或阔筋膜张肌张力与对侧不同。",
+        "Finding_Interpretation": "记录中的检查表现供康复师对照，不由单条表现判定病因。",
+        "Source_URL": "local-records://LR-9a5cba6e18ed#L18-L32",
+        "Review_Status": "待临床审核"
+      },
+      "previous_methods": [],
+      "current_methods": [
+        {
+          "Reference_ID": "AFM-0106-RECORD-TENSION-RECORD-1",
+          "Feature_ID": "AFM-0106-RECORD-TENSION",
+          "Treatment_Goal": "软组织处理",
+          "Treatment_Method": "阔筋膜张肌手法松解",
+          "Progression": "",
+          "Source_URL": "local-records://LR-9a5cba6e18ed#L18-L32",
+          "Review_Status": "待临床审核",
+          "Source_Note": "临床经验参考，待临床审核；不构成病因、独立疗效或方案判断。来源范围见09_Evidence与clinical_record_scope。"
+        }
+      ],
+      "sources": [
+        "thigh_front"
+      ]
+    },
+    {
+      "feature_id": "AFM-0100-RECORD-TENSION",
+      "before": null,
+      "after": {
+        "Feature_ID": "AFM-0100-RECORD-TENSION",
+        "Assessment_Map_ID": "AFM-0100",
+        "Finding_Name": "后侧紧张或牵拉受限",
+        "Finding_Feature": "大腿后侧局部紧绷，或后侧牵拉范围与对侧不同。",
+        "Finding_Interpretation": "记录中的检查表现供康复师对照，不由单条表现判定病因。",
+        "Source_URL": "local-records://LR-20a01619ecb0#L50-L55\nlocal-records://LR-20a01619ecb0#L73-L90",
+        "Review_Status": "待临床审核"
+      },
+      "previous_methods": [],
+      "current_methods": [
+        {
+          "Reference_ID": "AFM-0100-RECORD-TENSION-RECORD-1",
+          "Feature_ID": "AFM-0100-RECORD-TENSION",
+          "Treatment_Goal": "软组织处理",
+          "Treatment_Method": "腘绳肌手法松解；腘绳肌MET；器械辅助软组织松解（筋膜刀）",
+          "Progression": "",
+          "Source_URL": "local-records://LR-20a01619ecb0#L50-L55\nlocal-records://LR-20a01619ecb0#L73-L90",
+          "Review_Status": "待临床审核",
+          "Source_Note": "临床经验参考，待临床审核；不构成病因、独立疗效或方案判断。来源范围见09_Evidence与clinical_record_scope。"
+        },
+        {
+          "Reference_ID": "AFM-0100-RECORD-TENSION-RECORD-2",
+          "Feature_ID": "AFM-0100-RECORD-TENSION",
+          "Treatment_Goal": "拉伸",
+          "Treatment_Method": "腘绳肌拉伸",
+          "Progression": "",
+          "Source_URL": "local-records://LR-20a01619ecb0#L50-L55\nlocal-records://LR-20a01619ecb0#L73-L90",
+          "Review_Status": "待临床审核",
+          "Source_Note": "临床经验参考，待临床审核；不构成病因、独立疗效或方案判断。来源范围见09_Evidence与clinical_record_scope。"
+        }
+      ],
+      "sources": [
+        "thigh_back"
+      ]
+    }
+  ],
+  "scope": "记录仅证明同次评估或处理记录中出现过相关表现与方法；不证明单一组织是病因，也不证明某项方法独立有效。保留待临床审核状态。股内斜肌激活归入股四头肌募集，不承诺能够独立选择性募集VMO。小腿三头肌记录不能验证腓肠肌与比目鱼肌的分别疗效。腓骨远端松动留作待补充入口；不写入胫腓联合稳定性测试，也不把近端、远端胫腓关节互换。原记录中的消炎、骨盆卡旋、术后时间及因果性判断不作为公开结论。未给无明确记录的条目统一追加理疗或松解。"
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "name": "left 0.3 back-inner-10",
+    "face": 30511,
+    "point": [
+      0.07004826600143685,
+      0.3,
+      -0.10544405751806579
+    ],
+    "side": "left",
+    "expected_region": "LL-R-005",
+    "previous_region": "LL-R-007"
+  },
+  {
+    "name": "left 0.36 front-lateral",
+    "face": 35216,
+    "point": [
+      0.1251326348285584,
+      0.36,
+      -0.00009811861503994379
+    ],
+    "side": "left",
+    "expected_region": "LL-R-001",
+    "previous_region": "KNEE-R-006"
+  },
+  {
+    "name": "left 0.36 lateral",
+    "face": 36326,
+    "point": [
+      0.13916292238851047,
+      0.36,
+      -0.04491552897653399
+    ],
+    "side": "left",
+    "expected_region": "LL-R-004",
+    "previous_region": "LL-R-005"
+  },
+  {
+    "name": "right 0.3 back-inner-10",
+    "face": 14559,
+    "point": [
+      -0.07141038631367054,
+      0.3,
+      -0.10570188373644357
+    ],
+    "side": "right",
+    "expected_region": "LL-R-005",
+    "previous_region": "LL-R-007"
+  },
+  {
+    "name": "right 0.36 front-lateral",
+    "face": 9376,
+    "point": [
+      -0.12651722977214797,
+      0.36,
+      0.000013466431298625459
+    ],
+    "side": "right",
+    "expected_region": "LL-R-001",
+    "previous_region": "KNEE-R-006"
+  },
+  {
+    "name": "right 0.36 lateral",
+    "face": 8581,
+    "point": [
+      -0.14057582561809567,
+      0.36,
+      -0.044870325024762375
+    ],
+    "side": "right",
+    "expected_region": "LL-R-004",
+    "previous_region": "LL-R-005"
+  }
+]

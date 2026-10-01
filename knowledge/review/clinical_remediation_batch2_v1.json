@@ -1,0 +1,333 @@
+{
+  "batch": 2,
+  "approved_on": "2026-10-01",
+  "issue_ids": [
+    "CLIN-03",
+    "CLIN-04",
+    "CLIN-11",
+    "CLIN-16"
+  ],
+  "main": {},
+  "extension": {
+    "InterventionReference": {
+      "AFM-0065-TENSION-1": {
+        "Source_URL": "baseline://database-v3.8/InterventionReference/AFM-0065-TENSION-1\nlocal-records://LR-a27906e6eaef#L17\nhttps://www.worcsacute.nhs.uk/leaflets/stretching-exercises-physiotherapy/",
+        "Source_Note": "手法来源为授权记录中的对应肌腹或肌群经验；练习资料只支持具名动作，不证明本发现的单项疗效。股中间肌采用前大腿区域方法。MET及未在记录中逐项出现的方法保留原库经验归属，不再用髌股指南为其背书。缝匠肌、股薄肌及腘绳肌牵伸按相关肌群理解，不声称单肌隔离。"
+      },
+      "AFM-0065-LENGTH-1": {
+        "Source_URL": "baseline://database-v3.8/InterventionReference/AFM-0065-LENGTH-1\nhttps://www.worcsacute.nhs.uk/leaflets/stretching-exercises-physiotherapy/",
+        "Source_Note": "手法来源为授权记录中的对应肌腹或肌群经验；练习资料只支持具名动作，不证明本发现的单项疗效。股中间肌采用前大腿区域方法。MET及未在记录中逐项出现的方法保留原库经验归属，不再用髌股指南为其背书。缝匠肌、股薄肌及腘绳肌牵伸按相关肌群理解，不声称单肌隔离。"
+      },
+      "AFM-0066-TENSION-1": {
+        "Source_URL": "baseline://database-v3.8/InterventionReference/AFM-0066-TENSION-1\nlocal-records://LR-a27906e6eaef#L52",
+        "Source_Note": "手法来源为授权记录中的对应肌腹或肌群经验；练习资料只支持具名动作，不证明本发现的单项疗效。股中间肌采用前大腿区域方法。MET及未在记录中逐项出现的方法保留原库经验归属，不再用髌股指南为其背书。缝匠肌、股薄肌及腘绳肌牵伸按相关肌群理解，不声称单肌隔离。"
+      },
+      "AFM-0066-TENSION-2": {
+        "Source_URL": "baseline://database-v3.8/InterventionReference/AFM-0066-TENSION-2\nhttps://www.worcsacute.nhs.uk/leaflets/stretching-exercises-physiotherapy/",
+        "Source_Note": "手法来源为授权记录中的对应肌腹或肌群经验；练习资料只支持具名动作，不证明本发现的单项疗效。股中间肌采用前大腿区域方法。MET及未在记录中逐项出现的方法保留原库经验归属，不再用髌股指南为其背书。缝匠肌、股薄肌及腘绳肌牵伸按相关肌群理解，不声称单肌隔离。"
+      },
+      "AFM-0067-TENSION-1": {
+        "Source_URL": "baseline://database-v3.8/InterventionReference/AFM-0067-TENSION-1\nlocal-records://LR-e25569fa2a1a#L43",
+        "Source_Note": "手法来源为授权记录中的对应肌腹或肌群经验；练习资料只支持具名动作，不证明本发现的单项疗效。股中间肌采用前大腿区域方法。MET及未在记录中逐项出现的方法保留原库经验归属，不再用髌股指南为其背书。缝匠肌、股薄肌及腘绳肌牵伸按相关肌群理解，不声称单肌隔离。"
+      },
+      "AFM-0067-TENSION-2": {
+        "Source_URL": "baseline://database-v3.8/InterventionReference/AFM-0067-TENSION-2\nhttps://www.worcsacute.nhs.uk/leaflets/stretching-exercises-physiotherapy/",
+        "Source_Note": "手法来源为授权记录中的对应肌腹或肌群经验；练习资料只支持具名动作，不证明本发现的单项疗效。股中间肌采用前大腿区域方法。MET及未在记录中逐项出现的方法保留原库经验归属，不再用髌股指南为其背书。缝匠肌、股薄肌及腘绳肌牵伸按相关肌群理解，不声称单肌隔离。"
+      },
+      "AFM-0069-TENSION-1": {
+        "Source_URL": "baseline://database-v3.8/InterventionReference/AFM-0069-TENSION-1\nlocal-records://LR-b35efaa9dc7a#L15",
+        "Source_Note": "手法来源为授权记录中的对应肌腹或肌群经验；练习资料只支持具名动作，不证明本发现的单项疗效。股中间肌采用前大腿区域方法。MET及未在记录中逐项出现的方法保留原库经验归属，不再用髌股指南为其背书。缝匠肌、股薄肌及腘绳肌牵伸按相关肌群理解，不声称单肌隔离。"
+      },
+      "AFM-0069-TENSION-2": {
+        "Source_URL": "baseline://database-v3.8/InterventionReference/AFM-0069-TENSION-2\nhttps://www.worcsacute.nhs.uk/leaflets/stretching-exercises-physiotherapy/",
+        "Source_Note": "手法来源为授权记录中的对应肌腹或肌群经验；练习资料只支持具名动作，不证明本发现的单项疗效。股中间肌采用前大腿区域方法。MET及未在记录中逐项出现的方法保留原库经验归属，不再用髌股指南为其背书。缝匠肌、股薄肌及腘绳肌牵伸按相关肌群理解，不声称单肌隔离。"
+      },
+      "AFM-0070-TENSION-1": {
+        "Source_URL": "baseline://database-v3.8/InterventionReference/AFM-0070-TENSION-1\nlocal-records://LR-5720cfa367b7#L10",
+        "Source_Note": "手法来源为授权记录中的对应肌腹或肌群经验；练习资料只支持具名动作，不证明本发现的单项疗效。股中间肌采用前大腿区域方法。MET及未在记录中逐项出现的方法保留原库经验归属，不再用髌股指南为其背书。缝匠肌、股薄肌及腘绳肌牵伸按相关肌群理解，不声称单肌隔离。"
+      },
+      "AFM-0070-TENSION-2": {
+        "Source_URL": "baseline://database-v3.8/InterventionReference/AFM-0070-TENSION-2\nhttps://www.worcsacute.nhs.uk/leaflets/stretching-exercises-physiotherapy/",
+        "Source_Note": "手法来源为授权记录中的对应肌腹或肌群经验；练习资料只支持具名动作，不证明本发现的单项疗效。股中间肌采用前大腿区域方法。MET及未在记录中逐项出现的方法保留原库经验归属，不再用髌股指南为其背书。缝匠肌、股薄肌及腘绳肌牵伸按相关肌群理解，不声称单肌隔离。"
+      },
+      "AFM-0071-TENSION-1": {
+        "Source_URL": "baseline://database-v3.8/InterventionReference/AFM-0071-TENSION-1\nlocal-records://LR-5720cfa367b7#L29",
+        "Source_Note": "手法来源为授权记录中的对应肌腹或肌群经验；练习资料只支持具名动作，不证明本发现的单项疗效。股中间肌采用前大腿区域方法。MET及未在记录中逐项出现的方法保留原库经验归属，不再用髌股指南为其背书。缝匠肌、股薄肌及腘绳肌牵伸按相关肌群理解，不声称单肌隔离。"
+      },
+      "AFM-0071-TENSION-2": {
+        "Source_URL": "baseline://database-v3.8/InterventionReference/AFM-0071-TENSION-2\nhttps://www.worcsacute.nhs.uk/leaflets/stretching-exercises-physiotherapy/",
+        "Source_Note": "手法来源为授权记录中的对应肌腹或肌群经验；练习资料只支持具名动作，不证明本发现的单项疗效。股中间肌采用前大腿区域方法。MET及未在记录中逐项出现的方法保留原库经验归属，不再用髌股指南为其背书。缝匠肌、股薄肌及腘绳肌牵伸按相关肌群理解，不声称单肌隔离。"
+      },
+      "AFM-0075-TENSION-1": {
+        "Source_URL": "baseline://database-v3.8/InterventionReference/AFM-0075-TENSION-1\nlocal-records://LR-a27906e6eaef#L5",
+        "Source_Note": "手法来源为授权记录中的对应肌腹或肌群经验；练习资料只支持具名动作，不证明本发现的单项疗效。股中间肌采用前大腿区域方法。MET及未在记录中逐项出现的方法保留原库经验归属，不再用髌股指南为其背书。缝匠肌、股薄肌及腘绳肌牵伸按相关肌群理解，不声称单肌隔离。"
+      },
+      "AFM-0075-TENSION-2": {
+        "Source_URL": "baseline://database-v3.8/InterventionReference/AFM-0075-TENSION-2\nhttps://www.worcsacute.nhs.uk/leaflets/stretching-exercises-physiotherapy/",
+        "Source_Note": "手法来源为授权记录中的对应肌腹或肌群经验；练习资料只支持具名动作，不证明本发现的单项疗效。股中间肌采用前大腿区域方法。MET及未在记录中逐项出现的方法保留原库经验归属，不再用髌股指南为其背书。缝匠肌、股薄肌及腘绳肌牵伸按相关肌群理解，不声称单肌隔离。"
+      },
+      "AFM-0090-CAPACITY-1": {
+        "Source_URL": "baseline://database-v3.8/InterventionReference/AFM-0090-CAPACITY-1\nhttps://doi.org/10.1136/bjsports-2024-108110",
+        "Source_Note": "具名抗阻方法保留原库出处。髌股疼痛最佳实践的髋膝运动建议限于该人群；腘绳肌指南限于相应损伤背景。侧差或疼痛受限不能直接推出薄弱或自动安排训练。"
+      },
+      "AFM-0096-CAPACITY-1": {
+        "Source_URL": "baseline://database-v3.8/InterventionReference/AFM-0096-CAPACITY-1\nhttps://doi.org/10.1136/bjsports-2024-108110",
+        "Source_Note": "历史任务条目，当前普通路线不展示。原库任务方法保留；2024最佳实践仅适用于髌股疼痛的运动及支持干预，不构成全部任务模式的病因或纠正依据。"
+      },
+      "AFM-0068-LENGTH-1": {
+        "Source_URL": "baseline://database-v3.8/InterventionReference/AFM-0068-LENGTH-1\nlocal-records://LR-a27906e6eaef#L17\nhttps://www.worcsacute.nhs.uk/leaflets/stretching-exercises-physiotherapy/",
+        "Source_Note": "手法来源为授权记录中的对应肌腹或肌群经验；练习资料只支持具名动作，不证明本发现的单项疗效。股中间肌采用前大腿区域方法。MET及未在记录中逐项出现的方法保留原库经验归属，不再用髌股指南为其背书。缝匠肌、股薄肌及腘绳肌牵伸按相关肌群理解，不声称单肌隔离。"
+      },
+      "AFM-0077-LENGTH-1": {
+        "Source_URL": "baseline://database-v3.8/InterventionReference/AFM-0077-LENGTH-1\nlocal-records://LR-da72e553ca07#L33\nhttps://roh.nhs.uk/services-information/therapy/exercises-for-osteoarthritis-of-the-hip",
+        "Source_Note": "手法来源为授权记录中的对应肌腹或肌群经验；练习资料只支持具名动作，不证明本发现的单项疗效。股中间肌采用前大腿区域方法。MET及未在记录中逐项出现的方法保留原库经验归属，不再用髌股指南为其背书。缝匠肌、股薄肌及腘绳肌牵伸按相关肌群理解，不声称单肌隔离。"
+      },
+      "AFM-0074-LENGTH-1": {
+        "Source_URL": "baseline://database-v3.8/InterventionReference/AFM-0074-LENGTH-1\nlocal-records://LR-a72ff97740b2#L8\nhttps://www.ouh.nhs.uk/media/ggzlylpj/73885padductor.pdf",
+        "Source_Note": "手法来源为授权记录中的对应肌腹或肌群经验；练习资料只支持具名动作，不证明本发现的单项疗效。股中间肌采用前大腿区域方法。MET及未在记录中逐项出现的方法保留原库经验归属，不再用髌股指南为其背书。缝匠肌、股薄肌及腘绳肌牵伸按相关肌群理解，不声称单肌隔离。"
+      },
+      "AFM-0072-LENGTH-1": {
+        "Source_URL": "baseline://database-v3.8/InterventionReference/AFM-0072-LENGTH-1\nlocal-records://LR-5720cfa367b7#L8\nhttps://www.worcsacute.nhs.uk/leaflets/stretching-exercises-physiotherapy/",
+        "Source_Note": "手法来源为授权记录中的对应肌腹或肌群经验；练习资料只支持具名动作，不证明本发现的单项疗效。股中间肌采用前大腿区域方法。MET及未在记录中逐项出现的方法保留原库经验归属，不再用髌股指南为其背书。缝匠肌、股薄肌及腘绳肌牵伸按相关肌群理解，不声称单肌隔离。"
+      },
+      "AFM-0073-LENGTH-1": {
+        "Source_URL": "baseline://database-v3.8/InterventionReference/AFM-0073-LENGTH-1\nlocal-records://LR-6cfab1d6f7d2#L58\nhttps://www.ouh.nhs.uk/media/ggzlylpj/73885padductor.pdf",
+        "Source_Note": "手法来源为授权记录中的对应肌腹或肌群经验；练习资料只支持具名动作，不证明本发现的单项疗效。股中间肌采用前大腿区域方法。MET及未在记录中逐项出现的方法保留原库经验归属，不再用髌股指南为其背书。缝匠肌、股薄肌及腘绳肌牵伸按相关肌群理解，不声称单肌隔离。"
+      },
+      "AFM-0093-CAPACITY-1": {
+        "Source_URL": "baseline://database-v3.8/InterventionReference/AFM-0093-CAPACITY-1\nhttps://doi.org/10.1136/bjsports-2024-108110",
+        "Source_Note": "具名抗阻方法保留原库出处。髌股疼痛最佳实践的髋膝运动建议限于该人群；腘绳肌指南限于相应损伤背景。侧差或疼痛受限不能直接推出薄弱或自动安排训练。"
+      },
+      "AFM-0092-CAPACITY-1": {
+        "Source_URL": "baseline://database-v3.8/InterventionReference/AFM-0092-CAPACITY-1\nhttps://doi.org/10.1136/bjsports-2024-108110",
+        "Source_Note": "具名抗阻方法保留原库出处。髌股疼痛最佳实践的髋膝运动建议限于该人群；腘绳肌指南限于相应损伤背景。侧差或疼痛受限不能直接推出薄弱或自动安排训练。"
+      },
+      "AFM-0091-CAPACITY-1": {
+        "Source_URL": "baseline://database-v3.8/InterventionReference/AFM-0091-CAPACITY-1\nhttps://doi.org/10.2519/jospt.2022.0301",
+        "Source_Note": "具名抗阻方法保留原库出处。髌股疼痛最佳实践的髋膝运动建议限于该人群；腘绳肌指南限于相应损伤背景。侧差或疼痛受限不能直接推出薄弱或自动安排训练。"
+      },
+      "AFM-0077-SENSITIVITY-STRETCH": {
+        "Source_URL": "https://roh.nhs.uk/services-information/therapy/exercises-for-osteoarthritis-of-the-hip",
+        "Source_Note": "官方机构资料列髋屈肌群牵伸方法；原页疾病为髋骨关节炎，仅引用动作名称，不外推为所有髋前痛的疗效证据。疼痛与长度限制分别查看。"
+      },
+      "AFM-0087-LIMIT-1": {
+        "Source_URL": "https://pubmed.ncbi.nlm.nih.gov/29364749/\nhttps://www.ruh.nhs.uk/patients/services/physiotherapy/OP_outpatient_service.asp",
+        "Source_Note": "近端胫腓关节MWM个案报告，不能证明普遍疗效；只列手法参考，不导入操作步骤或应用于脱位、不稳及骨性压痛。\nRUH索引及其具体视频用于核对站立屈膝、桥式、侧卧髋外展的名称，未据视频推断此处组织关系。屈膝等长参照牛津ACL资料中的静态腘绳肌动作，拉伸参照官方牵伸资料；仅引用动作名称，不导入术后时间表，不认为疼痛就需要牵伸。"
+      },
+      "AFM-0102-PAIN-ACTIVE": {
+        "Source_URL": "https://www.ruh.nhs.uk/patients/services/physiotherapy/OP_outpatient_service.asp\nhttps://www.youtube.com/watch?v=-3wpGzwc3Io",
+        "Source_Note": "具名相关练习参考；急性损伤是否适合由康复师评估，不由系统安排。\nRUH索引及其具体视频用于核对站立屈膝、桥式、侧卧髋外展的名称，未据视频推断此处组织关系。屈膝等长参照牛津ACL资料中的静态腘绳肌动作，拉伸参照官方牵伸资料；仅引用动作名称，不导入术后时间表，不认为疼痛就需要牵伸。"
+      },
+      "AFM-0100-PAIN-ACTIVE": {
+        "Source_URL": "https://www.ruh.nhs.uk/patients/services/physiotherapy/OP_outpatient_service.asp\nhttps://www.ouh.nhs.uk/patient-guide/leaflets/files/76406Pacl.pdf\nhttps://www.youtube.com/watch?v=9QaAZGzRNAQ\nhttps://www.youtube.com/watch?v=3kQfcIUXI28",
+        "Source_Note": "来源列出具名练习，本库只保留方法名称，不导入剂量、阶段或自动选择规则。\nRUH索引及其具体视频用于核对站立屈膝、桥式、侧卧髋外展的名称，未据视频推断此处组织关系。屈膝等长参照牛津ACL资料中的静态腘绳肌动作，拉伸参照官方牵伸资料；仅引用动作名称，不导入术后时间表，不认为疼痛就需要牵伸。"
+      },
+      "AFM-0069-SENSITIVITY-STRETCH": {
+        "Source_URL": "https://www.ruh.nhs.uk/patients/services/physiotherapy/OP_outpatient_service.asp\nhttps://www.worcsacute.nhs.uk/leaflets/stretching-exercises-physiotherapy/",
+        "Source_Note": "只列相关肌群牵伸方法，需另对照牵拉范围，不把痛等同过紧。\nRUH索引及其具体视频用于核对站立屈膝、桥式、侧卧髋外展的名称，未据视频推断此处组织关系。屈膝等长参照牛津ACL资料中的静态腘绳肌动作，拉伸参照官方牵伸资料；仅引用动作名称，不导入术后时间表，不认为疼痛就需要牵伸。"
+      },
+      "AFM-0070-SENSITIVITY-STRETCH": {
+        "Source_URL": "https://www.ruh.nhs.uk/patients/services/physiotherapy/OP_outpatient_service.asp\nhttps://www.worcsacute.nhs.uk/leaflets/stretching-exercises-physiotherapy/",
+        "Source_Note": "只列相关肌群牵伸方法，需另对照牵拉范围，不把痛等同过紧。\nRUH索引及其具体视频用于核对站立屈膝、桥式、侧卧髋外展的名称，未据视频推断此处组织关系。屈膝等长参照牛津ACL资料中的静态腘绳肌动作，拉伸参照官方牵伸资料；仅引用动作名称，不导入术后时间表，不认为疼痛就需要牵伸。"
+      },
+      "AFM-0071-SENSITIVITY-STRETCH": {
+        "Source_URL": "https://www.ruh.nhs.uk/patients/services/physiotherapy/OP_outpatient_service.asp\nhttps://www.worcsacute.nhs.uk/leaflets/stretching-exercises-physiotherapy/",
+        "Source_Note": "只列相关肌群牵伸方法，需另对照牵拉范围，不把痛等同过紧。\nRUH索引及其具体视频用于核对站立屈膝、桥式、侧卧髋外展的名称，未据视频推断此处组织关系。屈膝等长参照牛津ACL资料中的静态腘绳肌动作，拉伸参照官方牵伸资料；仅引用动作名称，不导入术后时间表，不认为疼痛就需要牵伸。"
+      },
+      "AFM-0094-CAPACITY-STRENGTH": {
+        "Source_URL": "https://www.ouh.nhs.uk/media/ggzlylpj/73885padductor.pdf\nhttps://www.dynamichealth.nhs.uk/help-and-advice/hip-pain/hip-adductor-strains-and-tendinopathies/\nhttps://www.ruh.nhs.uk/patients/services/physiotherapy/OP_outpatient_service.asp\nhttps://www.ouh.nhs.uk/patient-guide/leaflets/files/76406Pacl.pdf\nhttps://www.youtube.com/watch?v=9QaAZGzRNAQ",
+        "Source_Note": "鹅足由多条肌腱共同构成；列相关方向，不声称测试或训练可隔离缝匠肌、股薄肌和半腱肌。\nRUH索引及其具体视频用于核对站立屈膝、桥式、侧卧髋外展的名称，未据视频推断此处组织关系。屈膝等长参照牛津ACL资料中的静态腘绳肌动作，拉伸参照官方牵伸资料；仅引用动作名称，不导入术后时间表，不认为疼痛就需要牵伸。"
+      },
+      "AFM-0081-FIBULAR-TENDON-LOAD": {
+        "Source_URL": "https://www.ruh.nhs.uk/patients/services/physiotherapy/OP_outpatient_service.asp\nhttps://www.ouh.nhs.uk/patient-guide/leaflets/files/76406Pacl.pdf\nhttps://www.youtube.com/watch?v=9QaAZGzRNAQ",
+        "Source_Note": "来源列出具名练习，本库只保留方法名称，不导入剂量、阶段或自动选择规则。\nRUH索引及其具体视频用于核对站立屈膝、桥式、侧卧髋外展的名称，未据视频推断此处组织关系。屈膝等长参照牛津ACL资料中的静态腘绳肌动作，拉伸参照官方牵伸资料；仅引用动作名称，不导入术后时间表，不认为疼痛就需要牵伸。"
+      },
+      "AFM-0082-TENDON-LOAD": {
+        "Source_URL": "https://www.ruh.nhs.uk/patients/services/physiotherapy/OP_outpatient_service.asp\nhttps://www.ouh.nhs.uk/patient-guide/leaflets/files/76406Pacl.pdf\nhttps://www.youtube.com/watch?v=9QaAZGzRNAQ\nhttps://www.youtube.com/watch?v=3kQfcIUXI28",
+        "Source_Note": "来源列出具名练习，本库只保留方法名称，不导入剂量、阶段或自动选择规则。\nRUH索引及其具体视频用于核对站立屈膝、桥式、侧卧髋外展的名称，未据视频推断此处组织关系。屈膝等长参照牛津ACL资料中的静态腘绳肌动作，拉伸参照官方牵伸资料；仅引用动作名称，不导入术后时间表，不认为疼痛就需要牵伸。"
+      },
+      "AFM-0085-LIMIT-1": {
+        "Source_URL": "baseline://database-v3.8/InterventionReference/AFM-0085-LIMIT-1\nhttps://doi.org/10.2519/jospt.2018.0301\nhttps://www.nice.org.uk/guidance/ng226/chapter/recommendations\nhttps://pubmed.ncbi.nlm.nih.gov/33910850/",
+        "Source_Note": "2018指南用于半月板/软骨活动恢复范围，已核验全文，没有把它当作每种方向性松动的依据。NICE NG226仅在髋膝骨关节炎、结合运动时考虑手法，证据不支持其单独应用。具名手法保留原库参考；髌骨松动另有授权记录及膝OA联合研究，屈伸方向有膝OA小样本联合干预研究。不同病种、术后限制、骨性阻挡及真正卡锁不能外推，胫骨旋转未据屈伸研究宣称独立疗效。"
+      },
+      "AFM-0086-LIMIT-1": {
+        "Source_URL": "baseline://database-v3.8/InterventionReference/AFM-0086-LIMIT-1\nhttps://doi.org/10.2519/jospt.2018.0301\nhttps://www.nice.org.uk/guidance/ng226/chapter/recommendations\nlocal-records://LR-14771cf95bce#L53\nhttps://pubmed.ncbi.nlm.nih.gov/30420367/",
+        "Source_Note": "2018指南用于半月板/软骨活动恢复范围，已核验全文，没有把它当作每种方向性松动的依据。NICE NG226仅在髋膝骨关节炎、结合运动时考虑手法，证据不支持其单独应用。具名手法保留原库参考；髌骨松动另有授权记录及膝OA联合研究，屈伸方向有膝OA小样本联合干预研究。不同病种、术后限制、骨性阻挡及真正卡锁不能外推，胫骨旋转未据屈伸研究宣称独立疗效。"
+      },
+      "AFM-0088-LIMIT-1": {
+        "Source_URL": "baseline://database-v3.8/InterventionReference/AFM-0088-LIMIT-1\nhttps://doi.org/10.2519/jospt.2018.0301\nhttps://www.nice.org.uk/guidance/ng226/chapter/recommendations\nhttps://pubmed.ncbi.nlm.nih.gov/33910850/",
+        "Source_Note": "2018指南用于半月板/软骨活动恢复范围，已核验全文，没有把它当作每种方向性松动的依据。NICE NG226仅在髋膝骨关节炎、结合运动时考虑手法，证据不支持其单独应用。具名手法保留原库参考；髌骨松动另有授权记录及膝OA联合研究，屈伸方向有膝OA小样本联合干预研究。不同病种、术后限制、骨性阻挡及真正卡锁不能外推，胫骨旋转未据屈伸研究宣称独立疗效。"
+      },
+      "AFM-0080-JOINT-LIMIT-ROM": {
+        "Source_URL": "baseline://database-v3.8/InterventionReference/AFM-0080-JOINT-LIMIT-ROM\nhttps://doi.org/10.2519/jospt.2018.0301\nhttps://www.nice.org.uk/guidance/ng226/chapter/recommendations",
+        "Source_Note": "2018指南用于半月板/软骨活动恢复范围，已核验全文，没有把它当作每种方向性松动的依据。NICE NG226仅在髋膝骨关节炎、结合运动时考虑手法，证据不支持其单独应用。具名手法保留原库参考；髌骨松动另有授权记录及膝OA联合研究，屈伸方向有膝OA小样本联合干预研究。不同病种、术后限制、骨性阻挡及真正卡锁不能外推，胫骨旋转未据屈伸研究宣称独立疗效。"
+      },
+      "AFM-0081-JOINT-LIMIT-ROM": {
+        "Source_URL": "baseline://database-v3.8/InterventionReference/AFM-0081-JOINT-LIMIT-ROM\nhttps://doi.org/10.2519/jospt.2018.0301\nhttps://www.nice.org.uk/guidance/ng226/chapter/recommendations",
+        "Source_Note": "2018指南用于半月板/软骨活动恢复范围，已核验全文，没有把它当作每种方向性松动的依据。NICE NG226仅在髋膝骨关节炎、结合运动时考虑手法，证据不支持其单独应用。具名手法保留原库参考；髌骨松动另有授权记录及膝OA联合研究，屈伸方向有膝OA小样本联合干预研究。不同病种、术后限制、骨性阻挡及真正卡锁不能外推，胫骨旋转未据屈伸研究宣称独立疗效。"
+      }
+    },
+    "ClinicalPurpose": {
+      "CORE-MUS-RF": {
+        "Source_URL": "baseline://database-v3.8/ClinicalPurpose/CORE-MUS-RF\nhttps://www.ncbi.nlm.nih.gov/books/NBK513334/"
+      },
+      "CORE-MUS-VM": {
+        "Source_URL": "baseline://database-v3.8/ClinicalPurpose/CORE-MUS-VM\nhttps://www.ncbi.nlm.nih.gov/books/NBK513334/"
+      },
+      "CORE-MUS-BF": {
+        "Source_URL": "baseline://database-v3.8/ClinicalPurpose/CORE-MUS-BF\nhttps://www.ncbi.nlm.nih.gov/books/NBK542215/"
+      },
+      "CORE-MUS-ST": {
+        "Source_URL": "baseline://database-v3.8/ClinicalPurpose/CORE-MUS-ST\nhttps://www.ncbi.nlm.nih.gov/books/NBK542215/"
+      },
+      "CORE-MUS-SM": {
+        "Source_URL": "baseline://database-v3.8/ClinicalPurpose/CORE-MUS-SM\nhttps://www.ncbi.nlm.nih.gov/books/NBK542215/"
+      },
+      "KNEE-MUS-LAT-CHAIN": {
+        "Source_URL": "baseline://database-v3.8/ClinicalPurpose/KNEE-MUS-LAT-CHAIN\nhttps://www.ncbi.nlm.nih.gov/books/NBK499870/"
+      },
+      "CORE-MUS-VI": {
+        "Source_URL": "baseline://database-v3.8/ClinicalPurpose/CORE-MUS-VI\nhttps://www.ncbi.nlm.nih.gov/books/NBK513334/"
+      },
+      "KNEE-MUS-HIPFLEX": {
+        "Source_URL": "baseline://database-v3.8/ClinicalPurpose/KNEE-MUS-HIPFLEX\nhttps://www.ncbi.nlm.nih.gov/books/NBK531508/"
+      },
+      "KNEE-MUS-ADD": {
+        "Source_URL": "baseline://database-v3.8/ClinicalPurpose/KNEE-MUS-ADD\nhttps://www.ncbi.nlm.nih.gov/books/NBK534775/"
+      },
+      "CORE-MUS-SART": {
+        "Source_URL": "baseline://database-v3.8/ClinicalPurpose/CORE-MUS-SART\nhttps://www.ncbi.nlm.nih.gov/books/NBK534775/"
+      },
+      "CORE-MUS-GRAC": {
+        "Source_URL": "baseline://database-v3.8/ClinicalPurpose/CORE-MUS-GRAC\nhttps://www.ncbi.nlm.nih.gov/books/NBK534775/"
+      },
+      "THIGH-LT-004": {
+        "Source_URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5241541/\nhttps://www.ncbi.nlm.nih.gov/books/NBK499870/"
+      },
+      "THIGH-MUS-AL": {
+        "Source_URL": "https://www.ncbi.nlm.nih.gov/books/NBK534775/\nhttps://www.ouh.nhs.uk/media/ggzlylpj/73885padductor.pdf\nhttps://www.dynamichealth.nhs.uk/help-and-advice/hip-pain/hip-adductor-strains-and-tendinopathies/"
+      },
+      "THIGH-MUS-AB": {
+        "Source_URL": "https://www.ncbi.nlm.nih.gov/books/NBK534775/\nhttps://www.ouh.nhs.uk/media/ggzlylpj/73885padductor.pdf\nhttps://www.dynamichealth.nhs.uk/help-and-advice/hip-pain/hip-adductor-strains-and-tendinopathies/"
+      },
+      "THIGH-MUS-AM": {
+        "Source_URL": "https://www.ncbi.nlm.nih.gov/books/NBK534775/\nhttps://www.ouh.nhs.uk/media/ggzlylpj/73885padductor.pdf\nhttps://www.dynamichealth.nhs.uk/help-and-advice/hip-pain/hip-adductor-strains-and-tendinopathies/"
+      }
+    },
+    "FindingFeature": {
+      "AFM-0065-TENSION": {
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0065\nhttps://www.ncbi.nlm.nih.gov/books/NBK513334/"
+      },
+      "AFM-0065-LENGTH": {
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0065\nhttps://www.ncbi.nlm.nih.gov/books/NBK513334/"
+      },
+      "AFM-0066-TENSION": {
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0066\nhttps://www.ncbi.nlm.nih.gov/books/NBK513334/"
+      },
+      "AFM-0067-TENSION": {
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0067\nhttps://www.ncbi.nlm.nih.gov/books/NBK513334/"
+      },
+      "AFM-0069-TENSION": {
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0069\nhttps://www.ncbi.nlm.nih.gov/books/NBK542215/"
+      },
+      "AFM-0070-TENSION": {
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0070\nhttps://www.ncbi.nlm.nih.gov/books/NBK542215/"
+      },
+      "AFM-0071-TENSION": {
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0071\nhttps://www.ncbi.nlm.nih.gov/books/NBK542215/"
+      },
+      "AFM-0075-TENSION": {
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0075\nhttps://www.ncbi.nlm.nih.gov/books/NBK499870/"
+      },
+      "AFM-0068-LENGTH": {
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0068\nhttps://www.ncbi.nlm.nih.gov/books/NBK513334/"
+      },
+      "AFM-0077-LENGTH": {
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0077\nhttps://www.ncbi.nlm.nih.gov/books/NBK531508/"
+      },
+      "AFM-0074-LENGTH": {
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0074\nhttps://www.ncbi.nlm.nih.gov/books/NBK534775/"
+      },
+      "AFM-0072-LENGTH": {
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0072\nhttps://www.ncbi.nlm.nih.gov/books/NBK534775/"
+      },
+      "AFM-0073-LENGTH": {
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0073\nhttps://www.ncbi.nlm.nih.gov/books/NBK534775/"
+      },
+      "AFM-0075-SENSITIVITY": {
+        "Source_URL": "local-records://LR-a27906e6eaef#L5\nhttps://www.ncbi.nlm.nih.gov/books/NBK499870/"
+      },
+      "AFM-0077-SENSITIVITY": {
+        "Source_URL": "local-records://LR-da72e553ca07#L33\nhttps://www.ncbi.nlm.nih.gov/books/NBK531508/"
+      },
+      "AFM-0072-SENSITIVITY": {
+        "Source_URL": "local-records://LR-5720cfa367b7#L8\nhttps://www.ncbi.nlm.nih.gov/books/NBK534775/"
+      },
+      "AFM-0089-SCREEN": {
+        "Source_URL": "https://www.ncbi.nlm.nih.gov/books/NBK531508/"
+      },
+      "AFM-0102-TENSION": {
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0102\nlocal-records://LR-a27906e6eaef#L5\nlocal-records://LR-a27906e6eaef#L52\nhttps://www.ncbi.nlm.nih.gov/books/NBK513334/\nhttps://www.ncbi.nlm.nih.gov/books/NBK499870/"
+      },
+      "AFM-0102-PAIN": {
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0102\nhttps://www.ncbi.nlm.nih.gov/books/NBK513334/\nhttps://www.ncbi.nlm.nih.gov/books/NBK499870/"
+      },
+      "AFM-0106-PAIN": {
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0106\nhttps://www.ncbi.nlm.nih.gov/books/NBK499870/"
+      },
+      "AFM-0103-LENGTH": {
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0103\nhttps://www.ncbi.nlm.nih.gov/books/NBK534775/"
+      },
+      "AFM-0104-LENGTH": {
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0104\nhttps://www.ncbi.nlm.nih.gov/books/NBK534775/"
+      },
+      "AFM-0105-LENGTH": {
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0105\nhttps://www.ncbi.nlm.nih.gov/books/NBK534775/"
+      },
+      "AFM-0081-FIBULAR-TENDON": {
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0081\nhttps://www.ncbi.nlm.nih.gov/books/NBK542215/\nhttps://www.ncbi.nlm.nih.gov/books/NBK549859/"
+      },
+      "AFM-0027-HALLUX": {
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0027\nhttps://www.ncbi.nlm.nih.gov/books/NBK545158/\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC8159326/"
+      },
+      "AFM-0027-LESSER_TOES": {
+        "Source_URL": "baseline://database-v3.8/08_AssessmentFindingMap/AFM-0027\nhttps://www.ncbi.nlm.nih.gov/books/NBK545158/\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC8159326/"
+      }
+    },
+    "LocationGuide": {
+      "LOC-AF-R-006": {
+        "Source_Reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5241541/\nhttps://www.ncbi.nlm.nih.gov/books/NBK539705/\nhttps://www.ncbi.nlm.nih.gov/books/NBK587361/\nhttps://www.ncbi.nlm.nih.gov/books/NBK545158/"
+      },
+      "LOC-AF-R-007": {
+        "Source_Reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5241541/\nhttps://www.ncbi.nlm.nih.gov/books/NBK539705/\nhttps://www.ncbi.nlm.nih.gov/books/NBK587361/\nhttps://www.ncbi.nlm.nih.gov/books/NBK545158/"
+      },
+      "LOC-AF-R-008": {
+        "Source_Reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5241541/\nhttps://www.ncbi.nlm.nih.gov/books/NBK539705/\nhttps://www.ncbi.nlm.nih.gov/books/NBK587361/\nhttps://www.ncbi.nlm.nih.gov/books/NBK545158/"
+      },
+      "LOC-AF-R-009": {
+        "Source_Reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5241541/\nhttps://www.ncbi.nlm.nih.gov/books/NBK539705/\nhttps://www.ncbi.nlm.nih.gov/books/NBK587361/\nhttps://www.ncbi.nlm.nih.gov/books/NBK545158/"
+      },
+      "LOC-AF-R-010": {
+        "Source_Reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5241541/\nhttps://www.ncbi.nlm.nih.gov/books/NBK539705/\nhttps://www.ncbi.nlm.nih.gov/books/NBK587361/\nhttps://www.ncbi.nlm.nih.gov/books/NBK545158/"
+      },
+      "LOC-AF-R-011": {
+        "Source_Reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5241541/\nhttps://www.ncbi.nlm.nih.gov/books/NBK539705/\nhttps://www.ncbi.nlm.nih.gov/books/NBK587361/\nhttps://www.ncbi.nlm.nih.gov/books/NBK545158/"
+      },
+      "LOC-AF-R-012": {
+        "Source_Reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5241541/\nhttps://www.ncbi.nlm.nih.gov/books/NBK539705/\nhttps://www.ncbi.nlm.nih.gov/books/NBK587361/\nhttps://www.ncbi.nlm.nih.gov/books/NBK545158/"
+      },
+      "LOC-THIGH-R-001": {
+        "Source_Reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5241541/\nhttps://www.ncbi.nlm.nih.gov/books/NBK513334/"
+      },
+      "LOC-THIGH-R-002": {
+        "Source_Reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5241541/\nhttps://www.ncbi.nlm.nih.gov/books/NBK542215/"
+      },
+      "LOC-THIGH-R-003": {
+        "Source_Reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5241541/\nhttps://www.ncbi.nlm.nih.gov/books/NBK534775/"
+      },
+      "LOC-THIGH-R-004": {
+        "Source_Reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5241541/\nhttps://www.ncbi.nlm.nih.gov/books/NBK513334/\nhttps://www.ncbi.nlm.nih.gov/books/NBK499870/"
+      }
+    }
+  }
+}

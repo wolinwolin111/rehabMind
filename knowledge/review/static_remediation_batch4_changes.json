@@ -1,0 +1,1828 @@
+{
+  "date": "2026-10-01",
+  "changes": [
+    {
+      "section": "main",
+      "sheet": "03_Finding",
+      "id": "LL-FND-TASK",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "finding_id": "LL-FND-TASK",
+        "finding_class": "TASK_CONTROL",
+        "display_name": "小腿相关动作表现",
+        "scope": "Module",
+        "status": "Stable",
+        "boundary": "对照任务、速度、症状及目标需求；动作差异不单独确定组织来源、肌肉薄弱或必须纠正。"
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "03_Finding",
+      "id": "THIGH-FND-TASK",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "finding_id": "THIGH-FND-TASK",
+        "finding_class": "TASK_CONTROL",
+        "display_name": "大腿相关动作表现",
+        "scope": "Module",
+        "status": "Stable",
+        "boundary": "对照任务、速度、症状及目标需求；动作差异不单独确定组织来源、肌肉薄弱或必须纠正。"
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "02_ClinicalItem",
+      "id": "LL-PATTERN-GAIT",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "item_id": "LL-PATTERN-GAIT",
+        "item_type": "TASK",
+        "display_name": "步行中的足踝配合",
+        "check_focus": "步行触地与离地；抬脚、足部支撑和蹬地；步速与症状。",
+        "allowed_finding_types": "TASK_CONTROL",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01"
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "02_ClinicalItem",
+      "id": "LL-PATTERN-PUSH",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "item_id": "LL-PATTERN-PUSH",
+        "item_type": "TASK",
+        "display_name": "提踵与蹬地表现",
+        "check_focus": "提踵高度、节奏、足部负重位置；膝位与身体借力。",
+        "allowed_finding_types": "TASK_CONTROL",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01"
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "02_ClinicalItem",
+      "id": "LL-PATTERN-IMPACT",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "item_id": "LL-PATTERN-IMPACT",
+        "item_type": "TASK",
+        "display_name": "跑跳中的足踝支撑",
+        "check_focus": "现场相关动作或已有视频中的触地、踝背屈、蹬地转换及左右承重。",
+        "allowed_finding_types": "TASK_CONTROL",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01"
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "02_ClinicalItem",
+      "id": "THIGH-PATTERN-GAIT",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "item_id": "THIGH-PATTERN-GAIT",
+        "item_type": "TASK",
+        "display_name": "步行中的大腿支撑与摆动",
+        "check_focus": "支撑时间、步幅、髋膝屈伸与摆腿；步速及症状。",
+        "allowed_finding_types": "TASK_CONTROL",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01"
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "02_ClinicalItem",
+      "id": "THIGH-PATTERN-SAGITTAL",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "item_id": "THIGH-PATTERN-SAGITTAL",
+        "item_type": "TASK",
+        "display_name": "前后向步出与蹬伸",
+        "check_focus": "相关任务或视频中的步出、摆腿回收、蹬伸与躯干配合；速度及症状。",
+        "allowed_finding_types": "TASK_CONTROL",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01"
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "02_ClinicalItem",
+      "id": "THIGH-PATTERN-LATERAL",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "item_id": "THIGH-PATTERN-LATERAL",
+        "item_type": "TASK",
+        "display_name": "侧向支撑与步出",
+        "check_focus": "相关侧移或变向任务；步宽、负重转移、步出回收和骨盆躯干配合。",
+        "allowed_finding_types": "TASK_CONTROL",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01"
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "08_AssessmentFindingMap",
+      "id": "AFM-0126",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "AFM-0126",
+        "clinical_item_id": "LL-PATTERN-GAIT",
+        "finding_id": "LL-FND-TASK",
+        "trigger_condition": "步行触地与离地；抬脚、足部支撑和蹬地；步速与症状。",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01"
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "08_AssessmentFindingMap",
+      "id": "AFM-0127",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "AFM-0127",
+        "clinical_item_id": "LL-PATTERN-PUSH",
+        "finding_id": "LL-FND-TASK",
+        "trigger_condition": "提踵高度、节奏、足部负重位置；膝位与身体借力。",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01"
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "08_AssessmentFindingMap",
+      "id": "AFM-0128",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "AFM-0128",
+        "clinical_item_id": "LL-PATTERN-IMPACT",
+        "finding_id": "LL-FND-TASK",
+        "trigger_condition": "现场相关动作或已有视频中的触地、踝背屈、蹬地转换及左右承重。",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01"
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "08_AssessmentFindingMap",
+      "id": "AFM-0129",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "AFM-0129",
+        "clinical_item_id": "THIGH-PATTERN-GAIT",
+        "finding_id": "THIGH-FND-TASK",
+        "trigger_condition": "支撑时间、步幅、髋膝屈伸与摆腿；步速及症状。",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01"
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "08_AssessmentFindingMap",
+      "id": "AFM-0130",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "AFM-0130",
+        "clinical_item_id": "THIGH-PATTERN-SAGITTAL",
+        "finding_id": "THIGH-FND-TASK",
+        "trigger_condition": "相关任务或视频中的步出、摆腿回收、蹬伸与躯干配合；速度及症状。",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01"
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "08_AssessmentFindingMap",
+      "id": "AFM-0131",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "AFM-0131",
+        "clinical_item_id": "THIGH-PATTERN-LATERAL",
+        "finding_id": "THIGH-FND-TASK",
+        "trigger_condition": "相关侧移或变向任务；步宽、负重转移、步出回收和骨盆躯干配合。",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01"
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-LL-R-001-LL-PATTERN-GAIT",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-LL-R-001-LL-PATTERN-GAIT",
+        "region_id": "LL-R-001",
+        "clinical_item_id": "LL-PATTERN-GAIT",
+        "direction_type": "功能动作",
+        "priority": "Context",
+        "condition": "相关活动背景下补充观察",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "动作模式观察",
+        "assessment_dimension": "FUNCTION",
+        "assessment_group": "步行表现",
+        "display_order": 4100,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-LL-R-002-LL-PATTERN-GAIT",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-LL-R-002-LL-PATTERN-GAIT",
+        "region_id": "LL-R-002",
+        "clinical_item_id": "LL-PATTERN-GAIT",
+        "direction_type": "功能动作",
+        "priority": "Context",
+        "condition": "相关活动背景下补充观察",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "动作模式观察",
+        "assessment_dimension": "FUNCTION",
+        "assessment_group": "步行表现",
+        "display_order": 4100,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-LL-R-003-LL-PATTERN-GAIT",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-LL-R-003-LL-PATTERN-GAIT",
+        "region_id": "LL-R-003",
+        "clinical_item_id": "LL-PATTERN-GAIT",
+        "direction_type": "功能动作",
+        "priority": "Context",
+        "condition": "相关活动背景下补充观察",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "动作模式观察",
+        "assessment_dimension": "FUNCTION",
+        "assessment_group": "步行表现",
+        "display_order": 4100,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-LL-R-004-LL-PATTERN-GAIT",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-LL-R-004-LL-PATTERN-GAIT",
+        "region_id": "LL-R-004",
+        "clinical_item_id": "LL-PATTERN-GAIT",
+        "direction_type": "功能动作",
+        "priority": "Context",
+        "condition": "相关活动背景下补充观察",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "动作模式观察",
+        "assessment_dimension": "FUNCTION",
+        "assessment_group": "步行表现",
+        "display_order": 4100,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-LL-R-005-LL-PATTERN-GAIT",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-LL-R-005-LL-PATTERN-GAIT",
+        "region_id": "LL-R-005",
+        "clinical_item_id": "LL-PATTERN-GAIT",
+        "direction_type": "功能动作",
+        "priority": "Context",
+        "condition": "相关活动背景下补充观察",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "动作模式观察",
+        "assessment_dimension": "FUNCTION",
+        "assessment_group": "步行表现",
+        "display_order": 4100,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-LL-R-006-LL-PATTERN-GAIT",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-LL-R-006-LL-PATTERN-GAIT",
+        "region_id": "LL-R-006",
+        "clinical_item_id": "LL-PATTERN-GAIT",
+        "direction_type": "功能动作",
+        "priority": "Context",
+        "condition": "相关活动背景下补充观察",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "动作模式观察",
+        "assessment_dimension": "FUNCTION",
+        "assessment_group": "步行表现",
+        "display_order": 4100,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-LL-R-007-LL-PATTERN-GAIT",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-LL-R-007-LL-PATTERN-GAIT",
+        "region_id": "LL-R-007",
+        "clinical_item_id": "LL-PATTERN-GAIT",
+        "direction_type": "功能动作",
+        "priority": "Context",
+        "condition": "相关活动背景下补充观察",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "动作模式观察",
+        "assessment_dimension": "FUNCTION",
+        "assessment_group": "步行表现",
+        "display_order": 4100,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-LL-R-001-LL-PATTERN-PUSH",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-LL-R-001-LL-PATTERN-PUSH",
+        "region_id": "LL-R-001",
+        "clinical_item_id": "LL-PATTERN-PUSH",
+        "direction_type": "功能动作",
+        "priority": "Context",
+        "condition": "相关活动背景下补充观察",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "动作模式观察",
+        "assessment_dimension": "FUNCTION",
+        "assessment_group": "相关活动表现",
+        "display_order": 4101,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-LL-R-002-LL-PATTERN-PUSH",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-LL-R-002-LL-PATTERN-PUSH",
+        "region_id": "LL-R-002",
+        "clinical_item_id": "LL-PATTERN-PUSH",
+        "direction_type": "功能动作",
+        "priority": "Context",
+        "condition": "相关活动背景下补充观察",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "动作模式观察",
+        "assessment_dimension": "FUNCTION",
+        "assessment_group": "相关活动表现",
+        "display_order": 4101,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-LL-R-003-LL-PATTERN-PUSH",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-LL-R-003-LL-PATTERN-PUSH",
+        "region_id": "LL-R-003",
+        "clinical_item_id": "LL-PATTERN-PUSH",
+        "direction_type": "功能动作",
+        "priority": "Context",
+        "condition": "相关活动背景下补充观察",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "动作模式观察",
+        "assessment_dimension": "FUNCTION",
+        "assessment_group": "相关活动表现",
+        "display_order": 4101,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-LL-R-004-LL-PATTERN-PUSH",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-LL-R-004-LL-PATTERN-PUSH",
+        "region_id": "LL-R-004",
+        "clinical_item_id": "LL-PATTERN-PUSH",
+        "direction_type": "功能动作",
+        "priority": "Context",
+        "condition": "相关活动背景下补充观察",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "动作模式观察",
+        "assessment_dimension": "FUNCTION",
+        "assessment_group": "相关活动表现",
+        "display_order": 4101,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-LL-R-005-LL-PATTERN-PUSH",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-LL-R-005-LL-PATTERN-PUSH",
+        "region_id": "LL-R-005",
+        "clinical_item_id": "LL-PATTERN-PUSH",
+        "direction_type": "功能动作",
+        "priority": "Context",
+        "condition": "相关活动背景下补充观察",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "动作模式观察",
+        "assessment_dimension": "FUNCTION",
+        "assessment_group": "相关活动表现",
+        "display_order": 4101,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-LL-R-006-LL-PATTERN-PUSH",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-LL-R-006-LL-PATTERN-PUSH",
+        "region_id": "LL-R-006",
+        "clinical_item_id": "LL-PATTERN-PUSH",
+        "direction_type": "功能动作",
+        "priority": "Context",
+        "condition": "相关活动背景下补充观察",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "动作模式观察",
+        "assessment_dimension": "FUNCTION",
+        "assessment_group": "相关活动表现",
+        "display_order": 4101,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-LL-R-007-LL-PATTERN-PUSH",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-LL-R-007-LL-PATTERN-PUSH",
+        "region_id": "LL-R-007",
+        "clinical_item_id": "LL-PATTERN-PUSH",
+        "direction_type": "功能动作",
+        "priority": "Context",
+        "condition": "相关活动背景下补充观察",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "动作模式观察",
+        "assessment_dimension": "FUNCTION",
+        "assessment_group": "相关活动表现",
+        "display_order": 4101,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-LL-R-001-LL-PATTERN-IMPACT",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-LL-R-001-LL-PATTERN-IMPACT",
+        "region_id": "LL-R-001",
+        "clinical_item_id": "LL-PATTERN-IMPACT",
+        "direction_type": "功能动作",
+        "priority": "Context",
+        "condition": "相关活动背景下补充观察",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "动作模式观察",
+        "assessment_dimension": "FUNCTION",
+        "assessment_group": "相关活动表现",
+        "display_order": 4102,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-LL-R-002-LL-PATTERN-IMPACT",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-LL-R-002-LL-PATTERN-IMPACT",
+        "region_id": "LL-R-002",
+        "clinical_item_id": "LL-PATTERN-IMPACT",
+        "direction_type": "功能动作",
+        "priority": "Context",
+        "condition": "相关活动背景下补充观察",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "动作模式观察",
+        "assessment_dimension": "FUNCTION",
+        "assessment_group": "相关活动表现",
+        "display_order": 4102,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-LL-R-003-LL-PATTERN-IMPACT",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-LL-R-003-LL-PATTERN-IMPACT",
+        "region_id": "LL-R-003",
+        "clinical_item_id": "LL-PATTERN-IMPACT",
+        "direction_type": "功能动作",
+        "priority": "Context",
+        "condition": "相关活动背景下补充观察",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "动作模式观察",
+        "assessment_dimension": "FUNCTION",
+        "assessment_group": "相关活动表现",
+        "display_order": 4102,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-LL-R-004-LL-PATTERN-IMPACT",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-LL-R-004-LL-PATTERN-IMPACT",
+        "region_id": "LL-R-004",
+        "clinical_item_id": "LL-PATTERN-IMPACT",
+        "direction_type": "功能动作",
+        "priority": "Context",
+        "condition": "相关活动背景下补充观察",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "动作模式观察",
+        "assessment_dimension": "FUNCTION",
+        "assessment_group": "相关活动表现",
+        "display_order": 4102,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-LL-R-005-LL-PATTERN-IMPACT",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-LL-R-005-LL-PATTERN-IMPACT",
+        "region_id": "LL-R-005",
+        "clinical_item_id": "LL-PATTERN-IMPACT",
+        "direction_type": "功能动作",
+        "priority": "Context",
+        "condition": "相关活动背景下补充观察",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "动作模式观察",
+        "assessment_dimension": "FUNCTION",
+        "assessment_group": "相关活动表现",
+        "display_order": 4102,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-LL-R-006-LL-PATTERN-IMPACT",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-LL-R-006-LL-PATTERN-IMPACT",
+        "region_id": "LL-R-006",
+        "clinical_item_id": "LL-PATTERN-IMPACT",
+        "direction_type": "功能动作",
+        "priority": "Context",
+        "condition": "相关活动背景下补充观察",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "动作模式观察",
+        "assessment_dimension": "FUNCTION",
+        "assessment_group": "相关活动表现",
+        "display_order": 4102,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-LL-R-007-LL-PATTERN-IMPACT",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-LL-R-007-LL-PATTERN-IMPACT",
+        "region_id": "LL-R-007",
+        "clinical_item_id": "LL-PATTERN-IMPACT",
+        "direction_type": "功能动作",
+        "priority": "Context",
+        "condition": "相关活动背景下补充观察",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "动作模式观察",
+        "assessment_dimension": "FUNCTION",
+        "assessment_group": "相关活动表现",
+        "display_order": 4102,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-THIGH-R-001-THIGH-PATTERN-GAIT",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-THIGH-R-001-THIGH-PATTERN-GAIT",
+        "region_id": "THIGH-R-001",
+        "clinical_item_id": "THIGH-PATTERN-GAIT",
+        "direction_type": "功能动作",
+        "priority": "Context",
+        "condition": "相关活动背景下补充观察",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "动作模式观察",
+        "assessment_dimension": "FUNCTION",
+        "assessment_group": "步行表现",
+        "display_order": 4103,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-THIGH-R-002-THIGH-PATTERN-GAIT",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-THIGH-R-002-THIGH-PATTERN-GAIT",
+        "region_id": "THIGH-R-002",
+        "clinical_item_id": "THIGH-PATTERN-GAIT",
+        "direction_type": "功能动作",
+        "priority": "Context",
+        "condition": "相关活动背景下补充观察",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "动作模式观察",
+        "assessment_dimension": "FUNCTION",
+        "assessment_group": "步行表现",
+        "display_order": 4103,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-THIGH-R-003-THIGH-PATTERN-GAIT",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-THIGH-R-003-THIGH-PATTERN-GAIT",
+        "region_id": "THIGH-R-003",
+        "clinical_item_id": "THIGH-PATTERN-GAIT",
+        "direction_type": "功能动作",
+        "priority": "Context",
+        "condition": "相关活动背景下补充观察",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "动作模式观察",
+        "assessment_dimension": "FUNCTION",
+        "assessment_group": "步行表现",
+        "display_order": 4103,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-THIGH-R-004-THIGH-PATTERN-GAIT",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-THIGH-R-004-THIGH-PATTERN-GAIT",
+        "region_id": "THIGH-R-004",
+        "clinical_item_id": "THIGH-PATTERN-GAIT",
+        "direction_type": "功能动作",
+        "priority": "Context",
+        "condition": "相关活动背景下补充观察",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "动作模式观察",
+        "assessment_dimension": "FUNCTION",
+        "assessment_group": "步行表现",
+        "display_order": 4103,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-THIGH-R-001-THIGH-PATTERN-SAGITTAL",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-THIGH-R-001-THIGH-PATTERN-SAGITTAL",
+        "region_id": "THIGH-R-001",
+        "clinical_item_id": "THIGH-PATTERN-SAGITTAL",
+        "direction_type": "功能动作",
+        "priority": "Context",
+        "condition": "相关活动背景下补充观察",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "动作模式观察",
+        "assessment_dimension": "FUNCTION",
+        "assessment_group": "相关活动表现",
+        "display_order": 4104,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-THIGH-R-002-THIGH-PATTERN-SAGITTAL",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-THIGH-R-002-THIGH-PATTERN-SAGITTAL",
+        "region_id": "THIGH-R-002",
+        "clinical_item_id": "THIGH-PATTERN-SAGITTAL",
+        "direction_type": "功能动作",
+        "priority": "Context",
+        "condition": "相关活动背景下补充观察",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "动作模式观察",
+        "assessment_dimension": "FUNCTION",
+        "assessment_group": "相关活动表现",
+        "display_order": 4104,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-THIGH-R-003-THIGH-PATTERN-SAGITTAL",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-THIGH-R-003-THIGH-PATTERN-SAGITTAL",
+        "region_id": "THIGH-R-003",
+        "clinical_item_id": "THIGH-PATTERN-SAGITTAL",
+        "direction_type": "功能动作",
+        "priority": "Context",
+        "condition": "相关活动背景下补充观察",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "动作模式观察",
+        "assessment_dimension": "FUNCTION",
+        "assessment_group": "相关活动表现",
+        "display_order": 4104,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-THIGH-R-004-THIGH-PATTERN-SAGITTAL",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-THIGH-R-004-THIGH-PATTERN-SAGITTAL",
+        "region_id": "THIGH-R-004",
+        "clinical_item_id": "THIGH-PATTERN-SAGITTAL",
+        "direction_type": "功能动作",
+        "priority": "Context",
+        "condition": "相关活动背景下补充观察",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "动作模式观察",
+        "assessment_dimension": "FUNCTION",
+        "assessment_group": "相关活动表现",
+        "display_order": 4104,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-THIGH-R-001-THIGH-PATTERN-LATERAL",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-THIGH-R-001-THIGH-PATTERN-LATERAL",
+        "region_id": "THIGH-R-001",
+        "clinical_item_id": "THIGH-PATTERN-LATERAL",
+        "direction_type": "功能动作",
+        "priority": "Context",
+        "condition": "相关活动背景下补充观察",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "动作模式观察",
+        "assessment_dimension": "FUNCTION",
+        "assessment_group": "相关活动表现",
+        "display_order": 4105,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-THIGH-R-002-THIGH-PATTERN-LATERAL",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-THIGH-R-002-THIGH-PATTERN-LATERAL",
+        "region_id": "THIGH-R-002",
+        "clinical_item_id": "THIGH-PATTERN-LATERAL",
+        "direction_type": "功能动作",
+        "priority": "Context",
+        "condition": "相关活动背景下补充观察",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "动作模式观察",
+        "assessment_dimension": "FUNCTION",
+        "assessment_group": "相关活动表现",
+        "display_order": 4105,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-THIGH-R-003-THIGH-PATTERN-LATERAL",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-THIGH-R-003-THIGH-PATTERN-LATERAL",
+        "region_id": "THIGH-R-003",
+        "clinical_item_id": "THIGH-PATTERN-LATERAL",
+        "direction_type": "功能动作",
+        "priority": "Context",
+        "condition": "相关活动背景下补充观察",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "动作模式观察",
+        "assessment_dimension": "FUNCTION",
+        "assessment_group": "相关活动表现",
+        "display_order": 4105,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "05_RegionClinicalMap",
+      "id": "RCM-STATIC-THIGH-R-004-THIGH-PATTERN-LATERAL",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "RCM-STATIC-THIGH-R-004-THIGH-PATTERN-LATERAL",
+        "region_id": "THIGH-R-004",
+        "clinical_item_id": "THIGH-PATTERN-LATERAL",
+        "direction_type": "功能动作",
+        "priority": "Context",
+        "condition": "相关活动背景下补充观察",
+        "status": "Stable",
+        "source_asset": "Static Clinical Review 2026-10-01",
+        "relation_nature": "动作模式观察",
+        "assessment_dimension": "FUNCTION",
+        "assessment_group": "相关活动表现",
+        "display_order": 4105,
+        "display_mode": "LINKED",
+        "context_link": null,
+        "relationship_type": null
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "07_ContextRule",
+      "id": "THIGH-MF-04",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "rule_id": "THIGH-MF-04",
+        "rule_type": "MOVEMENT",
+        "source_context": "步行/长时间走路",
+        "trigger": "大腿症状与步行或长时间走路相关时",
+        "target_type": "ASSESSMENT_FOCUS",
+        "target": "THIGH-PATTERN-GAIT",
+        "priority": "Context",
+        "boundary": "只组织相关步态观察；不因步态变化自动确定组织、病因或训练。",
+        "status": "Stable",
+        "module_codes": "THIGH",
+        "public_note": null,
+        "public_label": "步行/长时间走路",
+        "public_group": "ACTIVITY"
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "07_ContextRule",
+      "id": "LL-MF-01",
+      "field": "target",
+      "before": "LL-LT-002 / LL-LT-003 / CORE-CAP-DF / CORE-ROM-ANK-DF",
+      "after": "LL-LT-002 / LL-LT-003 / CORE-CAP-DF / CORE-ROM-ANK-DF / LL-PATTERN-IMPACT"
+    },
+    {
+      "section": "main",
+      "sheet": "07_ContextRule",
+      "id": "LL-MF-02",
+      "field": "target",
+      "before": "LL-LT-005 / CORE-MUS-GASTROC / CORE-CAP-PF；必要时LL-LT-006 / CORE-MUS-SOLEUS",
+      "after": "LL-LT-005 / CORE-MUS-GASTROC / CORE-CAP-PF；必要时LL-LT-006 / CORE-MUS-SOLEUS / LL-PATTERN-PUSH / LL-PATTERN-IMPACT"
+    },
+    {
+      "section": "main",
+      "sheet": "07_ContextRule",
+      "id": "LL-MF-03",
+      "field": "target",
+      "before": "LL-LT-006 / CORE-MUS-SOLEUS / CORE-CAP-PF；按定位叠加LL-LT-007",
+      "after": "LL-LT-006 / CORE-MUS-SOLEUS / CORE-CAP-PF；按定位叠加LL-LT-007 / LL-PATTERN-GAIT / LL-PATTERN-PUSH"
+    },
+    {
+      "section": "main",
+      "sheet": "07_ContextRule",
+      "id": "THIGH-MF-01",
+      "field": "target",
+      "before": "THIGH-LT-001 / THIGH-LT-002 / CORE-MUS-RF / CORE-MUS-BF / CORE-MUS-ST / CORE-MUS-SM / CORE-CAP-KNEE-EXT / CORE-CAP-KNEE-FLEX",
+      "after": "THIGH-LT-001 / THIGH-LT-002 / CORE-MUS-RF / CORE-MUS-BF / CORE-MUS-ST / CORE-MUS-SM / CORE-CAP-KNEE-EXT / CORE-CAP-KNEE-FLEX / THIGH-PATTERN-SAGITTAL"
+    },
+    {
+      "section": "main",
+      "sheet": "07_ContextRule",
+      "id": "THIGH-MF-02",
+      "field": "target",
+      "before": "THIGH-LT-001 / CORE-MUS-RF / CORE-MUS-VL / CORE-CAP-KNEE-EXT / CORE-CAP-QUAD-RECRUIT",
+      "after": "THIGH-LT-001 / CORE-MUS-RF / CORE-MUS-VL / CORE-CAP-KNEE-EXT / CORE-CAP-QUAD-RECRUIT / THIGH-PATTERN-SAGITTAL"
+    },
+    {
+      "section": "main",
+      "sheet": "07_ContextRule",
+      "id": "THIGH-MF-03",
+      "field": "target",
+      "before": "THIGH-LT-003 / THIGH-MUS-AL / THIGH-MUS-AM / THIGH-CAP-ADD",
+      "after": "THIGH-LT-003 / THIGH-MUS-AL / THIGH-MUS-AM / THIGH-CAP-ADD / THIGH-PATTERN-LATERAL"
+    },
+    {
+      "section": "main",
+      "sheet": "11_ContextItemMap",
+      "id": "CIM-STATIC-LL-MF-01-LL-PATTERN-IMPACT",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "CIM-STATIC-LL-MF-01-LL-PATTERN-IMPACT",
+        "rule_id": "LL-MF-01",
+        "clinical_item_id": "LL-PATTERN-IMPACT",
+        "status": "Stable"
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "11_ContextItemMap",
+      "id": "CIM-STATIC-LL-MF-02-LL-PATTERN-PUSH",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "CIM-STATIC-LL-MF-02-LL-PATTERN-PUSH",
+        "rule_id": "LL-MF-02",
+        "clinical_item_id": "LL-PATTERN-PUSH",
+        "status": "Stable"
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "11_ContextItemMap",
+      "id": "CIM-STATIC-LL-MF-02-LL-PATTERN-IMPACT",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "CIM-STATIC-LL-MF-02-LL-PATTERN-IMPACT",
+        "rule_id": "LL-MF-02",
+        "clinical_item_id": "LL-PATTERN-IMPACT",
+        "status": "Stable"
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "11_ContextItemMap",
+      "id": "CIM-STATIC-LL-MF-03-LL-PATTERN-GAIT",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "CIM-STATIC-LL-MF-03-LL-PATTERN-GAIT",
+        "rule_id": "LL-MF-03",
+        "clinical_item_id": "LL-PATTERN-GAIT",
+        "status": "Stable"
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "11_ContextItemMap",
+      "id": "CIM-STATIC-LL-MF-03-LL-PATTERN-PUSH",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "CIM-STATIC-LL-MF-03-LL-PATTERN-PUSH",
+        "rule_id": "LL-MF-03",
+        "clinical_item_id": "LL-PATTERN-PUSH",
+        "status": "Stable"
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "11_ContextItemMap",
+      "id": "CIM-STATIC-THIGH-MF-01-THIGH-PATTERN-SAGITTAL",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "CIM-STATIC-THIGH-MF-01-THIGH-PATTERN-SAGITTAL",
+        "rule_id": "THIGH-MF-01",
+        "clinical_item_id": "THIGH-PATTERN-SAGITTAL",
+        "status": "Stable"
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "11_ContextItemMap",
+      "id": "CIM-STATIC-THIGH-MF-02-THIGH-PATTERN-SAGITTAL",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "CIM-STATIC-THIGH-MF-02-THIGH-PATTERN-SAGITTAL",
+        "rule_id": "THIGH-MF-02",
+        "clinical_item_id": "THIGH-PATTERN-SAGITTAL",
+        "status": "Stable"
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "11_ContextItemMap",
+      "id": "CIM-STATIC-THIGH-MF-03-THIGH-PATTERN-LATERAL",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "CIM-STATIC-THIGH-MF-03-THIGH-PATTERN-LATERAL",
+        "rule_id": "THIGH-MF-03",
+        "clinical_item_id": "THIGH-PATTERN-LATERAL",
+        "status": "Stable"
+      }
+    },
+    {
+      "section": "main",
+      "sheet": "11_ContextItemMap",
+      "id": "CIM-STATIC-THIGH-MF-04-THIGH-PATTERN-GAIT",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "map_id": "CIM-STATIC-THIGH-MF-04-THIGH-PATTERN-GAIT",
+        "rule_id": "THIGH-MF-04",
+        "clinical_item_id": "THIGH-PATTERN-GAIT",
+        "status": "Stable"
+      }
+    },
+    {
+      "section": "extension",
+      "sheet": "ClinicalPurpose",
+      "id": "LL-PATTERN-GAIT",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Item_ID": "LL-PATTERN-GAIT",
+        "Item_Name": "步行中的足踝配合",
+        "Clinical_Purpose": "查看小腿症状出现时，足部接触、抬脚与蹬地的配合。",
+        "Assessment_Focus": "步行触地与离地；抬脚、足部支撑和蹬地；步速与症状。",
+        "Module": "LOWER_LEG",
+        "Source_URL": "book://magee-local#pdf=882,889&print=873,880\nhttps://www.ncbi.nlm.nih.gov/books/NBK537340/",
+        "Review_Status": "待临床审核"
+      }
+    },
+    {
+      "section": "extension",
+      "sheet": "ClinicalPurpose",
+      "id": "LL-PATTERN-PUSH",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Item_ID": "LL-PATTERN-PUSH",
+        "Item_Name": "提踵与蹬地表现",
+        "Clinical_Purpose": "提踵和蹬地可补充查看小腿输出、足部支撑与动作完成方式。",
+        "Assessment_Focus": "提踵高度、节奏、足部负重位置；膝位与身体借力。",
+        "Module": "LOWER_LEG",
+        "Source_URL": "book://magee-local#pdf=882,889&print=873,880\nhttps://www.orthoinfo.org/recovery/foot-and-ankle-conditioning-program/",
+        "Review_Status": "待临床审核"
+      }
+    },
+    {
+      "section": "extension",
+      "sheet": "ClinicalPurpose",
+      "id": "LL-PATTERN-IMPACT",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Item_ID": "LL-PATTERN-IMPACT",
+        "Item_Name": "跑跳中的足踝支撑",
+        "Clinical_Purpose": "跑跳相关小腿不适可对照触地缓冲、足踝支撑与蹬地转换。",
+        "Assessment_Focus": "现场相关动作或已有视频中的触地、踝背屈、蹬地转换及左右承重。",
+        "Module": "LOWER_LEG",
+        "Source_URL": "book://magee-local#pdf=882,889&print=873,880\nhttps://doi.org/10.2519/jospt.2022.0301",
+        "Review_Status": "待临床审核"
+      }
+    },
+    {
+      "section": "extension",
+      "sheet": "ClinicalPurpose",
+      "id": "THIGH-PATTERN-GAIT",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Item_ID": "THIGH-PATTERN-GAIT",
+        "Item_Name": "步行中的大腿支撑与摆动",
+        "Clinical_Purpose": "大腿症状可与步行支撑、摆腿和步幅变化对照。",
+        "Assessment_Focus": "支撑时间、步幅、髋膝屈伸与摆腿；步速及症状。",
+        "Module": "THIGH",
+        "Source_URL": "book://magee-local#pdf=882,889&print=873,880\nhttps://doi.org/10.2519/jospt.2022.0301",
+        "Review_Status": "待临床审核"
+      }
+    },
+    {
+      "section": "extension",
+      "sheet": "ClinicalPurpose",
+      "id": "THIGH-PATTERN-SAGITTAL",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Item_ID": "THIGH-PATTERN-SAGITTAL",
+        "Item_Name": "前后向步出与蹬伸",
+        "Clinical_Purpose": "冲刺、踢腿或快速蹬伸相关大腿不适，可查看步出、回收与髋膝配合。",
+        "Assessment_Focus": "相关任务或视频中的步出、摆腿回收、蹬伸与躯干配合；速度及症状。",
+        "Module": "THIGH",
+        "Source_URL": "book://magee-local#pdf=882,889&print=873,880\nhttps://doi.org/10.2519/jospt.2022.0301",
+        "Review_Status": "待临床审核"
+      }
+    },
+    {
+      "section": "extension",
+      "sheet": "ClinicalPurpose",
+      "id": "THIGH-PATTERN-LATERAL",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Item_ID": "THIGH-PATTERN-LATERAL",
+        "Item_Name": "侧向支撑与步出",
+        "Clinical_Purpose": "侧移、变向或大跨步相关大腿不适，可查看侧向承重与步出回收。",
+        "Assessment_Focus": "相关侧移或变向任务；步宽、负重转移、步出回收和骨盆躯干配合。",
+        "Module": "THIGH",
+        "Source_URL": "book://magee-local#pdf=882,889&print=873,880\nhttps://doi.org/10.2519/jospt.2022.0301",
+        "Review_Status": "待临床审核"
+      }
+    },
+    {
+      "section": "extension",
+      "sheet": "FindingFeature",
+      "id": "AFM-0126-CLEARANCE",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Feature_ID": "AFM-0126-CLEARANCE",
+        "Assessment_Map_ID": "AFM-0126",
+        "Finding_Name": "抬脚或触地方式变化",
+        "Finding_Feature": "摆动时抬脚较少或足尖擦地，触地后前脚掌下落较快；对照步速、鞋具、疼痛和既往表现。",
+        "Finding_Interpretation": "可按当前能力观察相关任务或已有视频，不要求完成全套跑跳；低负荷任务不能替代高速度任务的能力结论。",
+        "Source_URL": "book://magee-local#pdf=882,889&print=873,880\nhttps://www.ncbi.nlm.nih.gov/books/NBK537340/",
+        "Review_Status": "待临床审核",
+        "Related_Location_Prompt": null,
+        "Related_Location_Action_Label": null,
+        "Related_Location_Region_IDs": null,
+        "Related_Location_Hide_Option_When_Current": null
+      }
+    },
+    {
+      "section": "extension",
+      "sheet": "FindingFeature",
+      "id": "AFM-0126-PUSH",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Feature_ID": "AFM-0126-PUSH",
+        "Assessment_Map_ID": "AFM-0126",
+        "Finding_Name": "蹬地或支撑时间变化",
+        "Finding_Feature": "某侧提前卸重、蹬地减少或步幅缩短；对照同一速度下的症状与完成表现。",
+        "Finding_Interpretation": "可按当前能力观察相关任务或已有视频，不要求完成全套跑跳；低负荷任务不能替代高速度任务的能力结论。",
+        "Source_URL": "book://magee-local#pdf=882,889&print=873,880\nhttps://www.ncbi.nlm.nih.gov/books/NBK537340/",
+        "Review_Status": "待临床审核",
+        "Related_Location_Prompt": null,
+        "Related_Location_Action_Label": null,
+        "Related_Location_Region_IDs": null,
+        "Related_Location_Hide_Option_When_Current": null
+      }
+    },
+    {
+      "section": "extension",
+      "sheet": "FindingFeature",
+      "id": "AFM-0127-HEEL",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Feature_ID": "AFM-0127-HEEL",
+        "Assessment_Map_ID": "AFM-0127",
+        "Finding_Name": "提踵高度或节奏变化",
+        "Finding_Feature": "反复提踵时高度下降、节奏中断，或借助屈膝和身体前移完成；对照膝位、支撑方式及疼痛。",
+        "Finding_Interpretation": "可按当前能力观察相关任务或已有视频，不要求完成全套跑跳；低负荷任务不能替代高速度任务的能力结论。",
+        "Source_URL": "book://magee-local#pdf=882,889&print=873,880\nhttps://www.orthoinfo.org/recovery/foot-and-ankle-conditioning-program/",
+        "Review_Status": "待临床审核",
+        "Related_Location_Prompt": null,
+        "Related_Location_Action_Label": null,
+        "Related_Location_Region_IDs": null,
+        "Related_Location_Hide_Option_When_Current": null
+      }
+    },
+    {
+      "section": "extension",
+      "sheet": "FindingFeature",
+      "id": "AFM-0127-SUPPORT",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Feature_ID": "AFM-0127-SUPPORT",
+        "Assessment_Map_ID": "AFM-0127",
+        "Finding_Name": "前足支撑或负重转移变化",
+        "Finding_Feature": "提踵或蹬地时负重明显偏向前足一侧，或足趾反复抓地；对照接触位置、症状与目标任务。",
+        "Finding_Interpretation": "可按当前能力观察相关任务或已有视频，不要求完成全套跑跳；低负荷任务不能替代高速度任务的能力结论。",
+        "Source_URL": "book://magee-local#pdf=882,889&print=873,880\nhttps://www.orthoinfo.org/recovery/foot-and-ankle-conditioning-program/",
+        "Review_Status": "待临床审核",
+        "Related_Location_Prompt": null,
+        "Related_Location_Action_Label": null,
+        "Related_Location_Region_IDs": null,
+        "Related_Location_Hide_Option_When_Current": null
+      }
+    },
+    {
+      "section": "extension",
+      "sheet": "FindingFeature",
+      "id": "AFM-0128-CONTACT",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Feature_ID": "AFM-0128-CONTACT",
+        "Assessment_Map_ID": "AFM-0128",
+        "Finding_Name": "触地缓冲或承重方式变化",
+        "Finding_Feature": "触地后踝背屈较少、缓冲中断，或明显避开某侧承重；对照同一任务、速度及症状。",
+        "Finding_Interpretation": "可按当前能力观察相关任务或已有视频，不要求完成全套跑跳；低负荷任务不能替代高速度任务的能力结论。",
+        "Source_URL": "book://magee-local#pdf=882,889&print=873,880\nhttps://doi.org/10.2519/jospt.2022.0301",
+        "Review_Status": "待临床审核",
+        "Related_Location_Prompt": null,
+        "Related_Location_Action_Label": null,
+        "Related_Location_Region_IDs": null,
+        "Related_Location_Hide_Option_When_Current": null
+      }
+    },
+    {
+      "section": "extension",
+      "sheet": "FindingFeature",
+      "id": "AFM-0128-PROPULSION",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Feature_ID": "AFM-0128-PROPULSION",
+        "Assessment_Map_ID": "AFM-0128",
+        "Finding_Name": "触地与蹬地衔接变化",
+        "Finding_Feature": "触地后蹬地转换迟缓、提踵减少或左右节奏不同；对照速度、疲劳及完成表现。",
+        "Finding_Interpretation": "可按当前能力观察相关任务或已有视频，不要求完成全套跑跳；低负荷任务不能替代高速度任务的能力结论。",
+        "Source_URL": "book://magee-local#pdf=882,889&print=873,880\nhttps://doi.org/10.2519/jospt.2022.0301",
+        "Review_Status": "待临床审核",
+        "Related_Location_Prompt": null,
+        "Related_Location_Action_Label": null,
+        "Related_Location_Region_IDs": null,
+        "Related_Location_Hide_Option_When_Current": null
+      }
+    },
+    {
+      "section": "extension",
+      "sheet": "FindingFeature",
+      "id": "AFM-0129-LOAD",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Feature_ID": "AFM-0129-LOAD",
+        "Assessment_Map_ID": "AFM-0129",
+        "Finding_Name": "支撑侧提前卸重",
+        "Finding_Feature": "步行时某侧支撑时间缩短，或提前把重量移向另一侧；对照步速、疼痛和既往步态。",
+        "Finding_Interpretation": "可按当前能力观察相关任务或已有视频，不要求完成全套跑跳；低负荷任务不能替代高速度任务的能力结论。",
+        "Source_URL": "book://magee-local#pdf=882,889&print=873,880\nhttps://doi.org/10.2519/jospt.2022.0301",
+        "Review_Status": "待临床审核",
+        "Related_Location_Prompt": null,
+        "Related_Location_Action_Label": null,
+        "Related_Location_Region_IDs": null,
+        "Related_Location_Hide_Option_When_Current": null
+      }
+    },
+    {
+      "section": "extension",
+      "sheet": "FindingFeature",
+      "id": "AFM-0129-SWING",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Feature_ID": "AFM-0129-SWING",
+        "Assessment_Map_ID": "AFM-0129",
+        "Finding_Name": "步幅或摆腿配合变化",
+        "Finding_Feature": "步幅缩短、摆腿时髋膝屈伸衔接改变，或躯干偏移增加；对照任务、症状与恢复目标。",
+        "Finding_Interpretation": "可按当前能力观察相关任务或已有视频，不要求完成全套跑跳；低负荷任务不能替代高速度任务的能力结论。",
+        "Source_URL": "book://magee-local#pdf=882,889&print=873,880\nhttps://doi.org/10.2519/jospt.2022.0301",
+        "Review_Status": "待临床审核",
+        "Related_Location_Prompt": null,
+        "Related_Location_Action_Label": null,
+        "Related_Location_Region_IDs": null,
+        "Related_Location_Hide_Option_When_Current": null
+      }
+    },
+    {
+      "section": "extension",
+      "sheet": "FindingFeature",
+      "id": "AFM-0130-EXTEND",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Feature_ID": "AFM-0130-EXTEND",
+        "Assessment_Map_ID": "AFM-0130",
+        "Finding_Name": "蹬伸或身体推进变化",
+        "Finding_Feature": "蹬伸时膝伸幅度减少、推进迟缓，或用躯干偏移完成；对照同一任务下的症状与输出。",
+        "Finding_Interpretation": "可按当前能力观察相关任务或已有视频，不要求完成全套跑跳；低负荷任务不能替代高速度任务的能力结论。",
+        "Source_URL": "book://magee-local#pdf=882,889&print=873,880\nhttps://doi.org/10.2519/jospt.2022.0301",
+        "Review_Status": "待临床审核",
+        "Related_Location_Prompt": null,
+        "Related_Location_Action_Label": null,
+        "Related_Location_Region_IDs": null,
+        "Related_Location_Hide_Option_When_Current": null
+      }
+    },
+    {
+      "section": "extension",
+      "sheet": "FindingFeature",
+      "id": "AFM-0130-RECOVERY",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Feature_ID": "AFM-0130-RECOVERY",
+        "Assessment_Map_ID": "AFM-0130",
+        "Finding_Name": "步出或摆腿回收节奏变化",
+        "Finding_Feature": "步出或摆腿回收时髋膝动作衔接中断、步幅缩短或节奏改变；对照速度、疼痛和既往能力。",
+        "Finding_Interpretation": "可按当前能力观察相关任务或已有视频，不要求完成全套跑跳；低负荷任务不能替代高速度任务的能力结论。",
+        "Source_URL": "book://magee-local#pdf=882,889&print=873,880\nhttps://doi.org/10.2519/jospt.2022.0301",
+        "Review_Status": "待临床审核",
+        "Related_Location_Prompt": null,
+        "Related_Location_Action_Label": null,
+        "Related_Location_Region_IDs": null,
+        "Related_Location_Hide_Option_When_Current": null
+      }
+    },
+    {
+      "section": "extension",
+      "sheet": "FindingFeature",
+      "id": "AFM-0131-TRANSFER",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Feature_ID": "AFM-0131-TRANSFER",
+        "Assessment_Map_ID": "AFM-0131",
+        "Finding_Name": "侧向承重或身体偏移变化",
+        "Finding_Feature": "侧向移动时提前卸重、躯干明显偏向一侧，或支撑阶段衔接中断；对照速度、步宽和症状。",
+        "Finding_Interpretation": "可按当前能力观察相关任务或已有视频，不要求完成全套跑跳；低负荷任务不能替代高速度任务的能力结论。",
+        "Source_URL": "book://magee-local#pdf=882,889&print=873,880\nhttps://doi.org/10.2519/jospt.2022.0301",
+        "Review_Status": "待临床审核",
+        "Related_Location_Prompt": null,
+        "Related_Location_Action_Label": null,
+        "Related_Location_Region_IDs": null,
+        "Related_Location_Hide_Option_When_Current": null
+      }
+    },
+    {
+      "section": "extension",
+      "sheet": "FindingFeature",
+      "id": "AFM-0131-STEP",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Feature_ID": "AFM-0131-STEP",
+        "Assessment_Map_ID": "AFM-0131",
+        "Finding_Name": "侧向步出或回收变化",
+        "Finding_Feature": "侧向步出距离减少、回收迟缓，或明显缩小步宽避开不适；对照同一动作的症状与目标需求。",
+        "Finding_Interpretation": "可按当前能力观察相关任务或已有视频，不要求完成全套跑跳；低负荷任务不能替代高速度任务的能力结论。",
+        "Source_URL": "book://magee-local#pdf=882,889&print=873,880\nhttps://doi.org/10.2519/jospt.2022.0301",
+        "Review_Status": "待临床审核",
+        "Related_Location_Prompt": null,
+        "Related_Location_Action_Label": null,
+        "Related_Location_Region_IDs": null,
+        "Related_Location_Hide_Option_When_Current": null
+      }
+    },
+    {
+      "section": "extension",
+      "sheet": "InterventionReference",
+      "id": "AFM-0126-CLEARANCE-TASK",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Reference_ID": "AFM-0126-CLEARANCE-TASK",
+        "Feature_ID": "AFM-0126-CLEARANCE",
+        "Treatment_Goal": "相关动作练习",
+        "Treatment_Method": "步行抬脚与触地反馈练习；踝背屈抗阻训练",
+        "Progression": null,
+        "Source_URL": "book://magee-local#pdf=882,889&print=873,880\nhttps://www.ncbi.nlm.nih.gov/books/NBK537340/\nhttps://www.orthoinfo.org/recovery/foot-and-ankle-conditioning-program/",
+        "Review_Status": "待临床审核",
+        "Source_Note": "区域动作观察及方法对应为临床编辑整理，教材用于检查框架。具名练习资料仅核对动作，不证明此表现必然需要纠正或该方法能治疗所有原因。康复师可按当前能力、症状与恢复目标选择相关任务或已有视频；低负荷任务不能替代高速度跑跳能力结论。不导入剂量、训练阶段或自动准入。 腘绳肌指南限于相应损伤运动员，其跑步与敏捷训练建议仅提供该情境的方法方向；本条动作反馈文案不是指南原文，也未验证全部小腿/大腿症状的疗效。"
+      }
+    },
+    {
+      "section": "extension",
+      "sheet": "InterventionReference",
+      "id": "AFM-0126-PUSH-TASK",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Reference_ID": "AFM-0126-PUSH-TASK",
+        "Feature_ID": "AFM-0126-PUSH",
+        "Treatment_Goal": "相关动作练习",
+        "Treatment_Method": "步行蹬地反馈练习；双脚或单脚提踵练习",
+        "Progression": null,
+        "Source_URL": "book://magee-local#pdf=882,889&print=873,880\nhttps://www.ncbi.nlm.nih.gov/books/NBK537340/\nhttps://www.orthoinfo.org/recovery/foot-and-ankle-conditioning-program/",
+        "Review_Status": "待临床审核",
+        "Source_Note": "区域动作观察及方法对应为临床编辑整理，教材用于检查框架。具名练习资料仅核对动作，不证明此表现必然需要纠正或该方法能治疗所有原因。康复师可按当前能力、症状与恢复目标选择相关任务或已有视频；低负荷任务不能替代高速度跑跳能力结论。不导入剂量、训练阶段或自动准入。 腘绳肌指南限于相应损伤运动员，其跑步与敏捷训练建议仅提供该情境的方法方向；本条动作反馈文案不是指南原文，也未验证全部小腿/大腿症状的疗效。"
+      }
+    },
+    {
+      "section": "extension",
+      "sheet": "InterventionReference",
+      "id": "AFM-0127-HEEL-TASK",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Reference_ID": "AFM-0127-HEEL-TASK",
+        "Feature_ID": "AFM-0127-HEEL",
+        "Treatment_Goal": "相关动作练习",
+        "Treatment_Method": "双脚提踵练习；辅助单脚提踵练习；提踵动作反馈练习",
+        "Progression": null,
+        "Source_URL": "book://magee-local#pdf=882,889&print=873,880\nhttps://www.orthoinfo.org/recovery/foot-and-ankle-conditioning-program/",
+        "Review_Status": "待临床审核",
+        "Source_Note": "区域动作观察及方法对应为临床编辑整理，教材用于检查框架。具名练习资料仅核对动作，不证明此表现必然需要纠正或该方法能治疗所有原因。康复师可按当前能力、症状与恢复目标选择相关任务或已有视频；低负荷任务不能替代高速度跑跳能力结论。不导入剂量、训练阶段或自动准入。 腘绳肌指南限于相应损伤运动员，其跑步与敏捷训练建议仅提供该情境的方法方向；本条动作反馈文案不是指南原文，也未验证全部小腿/大腿症状的疗效。"
+      }
+    },
+    {
+      "section": "extension",
+      "sheet": "InterventionReference",
+      "id": "AFM-0127-SUPPORT-TASK",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Reference_ID": "AFM-0127-SUPPORT-TASK",
+        "Feature_ID": "AFM-0127-SUPPORT",
+        "Treatment_Goal": "相关动作练习",
+        "Treatment_Method": "辅助单脚支撑练习；提踵负重位置反馈练习",
+        "Progression": null,
+        "Source_URL": "book://magee-local#pdf=882,889&print=873,880\nhttps://www.orthoinfo.org/recovery/foot-and-ankle-conditioning-program/",
+        "Review_Status": "待临床审核",
+        "Source_Note": "区域动作观察及方法对应为临床编辑整理，教材用于检查框架。具名练习资料仅核对动作，不证明此表现必然需要纠正或该方法能治疗所有原因。康复师可按当前能力、症状与恢复目标选择相关任务或已有视频；低负荷任务不能替代高速度跑跳能力结论。不导入剂量、训练阶段或自动准入。 腘绳肌指南限于相应损伤运动员，其跑步与敏捷训练建议仅提供该情境的方法方向；本条动作反馈文案不是指南原文，也未验证全部小腿/大腿症状的疗效。"
+      }
+    },
+    {
+      "section": "extension",
+      "sheet": "InterventionReference",
+      "id": "AFM-0128-CONTACT-TASK",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Reference_ID": "AFM-0128-CONTACT-TASK",
+        "Feature_ID": "AFM-0128-CONTACT",
+        "Treatment_Goal": "相关动作练习",
+        "Treatment_Method": "动作视频反馈练习；辅助下蹲缓冲练习；相关落地缓冲练习",
+        "Progression": null,
+        "Source_URL": "book://magee-local#pdf=882,889&print=873,880\nhttps://doi.org/10.2519/jospt.2022.0301\nhttps://www.orthoinfo.org/recovery/knee-conditioning-program/",
+        "Review_Status": "待临床审核",
+        "Source_Note": "区域动作观察及方法对应为临床编辑整理，教材用于检查框架。具名练习资料仅核对动作，不证明此表现必然需要纠正或该方法能治疗所有原因。康复师可按当前能力、症状与恢复目标选择相关任务或已有视频；低负荷任务不能替代高速度跑跳能力结论。不导入剂量、训练阶段或自动准入。 腘绳肌指南限于相应损伤运动员，其跑步与敏捷训练建议仅提供该情境的方法方向；本条动作反馈文案不是指南原文，也未验证全部小腿/大腿症状的疗效。"
+      }
+    },
+    {
+      "section": "extension",
+      "sheet": "InterventionReference",
+      "id": "AFM-0128-PROPULSION-TASK",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Reference_ID": "AFM-0128-PROPULSION-TASK",
+        "Feature_ID": "AFM-0128-PROPULSION",
+        "Treatment_Goal": "相关动作练习",
+        "Treatment_Method": "跑步触地与蹬地反馈练习；提踵练习",
+        "Progression": null,
+        "Source_URL": "book://magee-local#pdf=882,889&print=873,880\nhttps://doi.org/10.2519/jospt.2022.0301\nhttps://www.orthoinfo.org/recovery/foot-and-ankle-conditioning-program/",
+        "Review_Status": "待临床审核",
+        "Source_Note": "区域动作观察及方法对应为临床编辑整理，教材用于检查框架。具名练习资料仅核对动作，不证明此表现必然需要纠正或该方法能治疗所有原因。康复师可按当前能力、症状与恢复目标选择相关任务或已有视频；低负荷任务不能替代高速度跑跳能力结论。不导入剂量、训练阶段或自动准入。 腘绳肌指南限于相应损伤运动员，其跑步与敏捷训练建议仅提供该情境的方法方向；本条动作反馈文案不是指南原文，也未验证全部小腿/大腿症状的疗效。"
+      }
+    },
+    {
+      "section": "extension",
+      "sheet": "InterventionReference",
+      "id": "AFM-0129-LOAD-TASK",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Reference_ID": "AFM-0129-LOAD-TASK",
+        "Feature_ID": "AFM-0129-LOAD",
+        "Treatment_Goal": "相关动作练习",
+        "Treatment_Method": "步行负重转移反馈练习；辅助单脚支撑练习",
+        "Progression": null,
+        "Source_URL": "book://magee-local#pdf=882,889&print=873,880\nhttps://doi.org/10.2519/jospt.2022.0301\nhttps://www.nhs.uk/live-well/exercise/balance-exercises/\nhttps://www.orthoinfo.org/recovery/foot-and-ankle-conditioning-program/",
+        "Review_Status": "待临床审核",
+        "Source_Note": "区域动作观察及方法对应为临床编辑整理，教材用于检查框架。具名练习资料仅核对动作，不证明此表现必然需要纠正或该方法能治疗所有原因。康复师可按当前能力、症状与恢复目标选择相关任务或已有视频；低负荷任务不能替代高速度跑跳能力结论。不导入剂量、训练阶段或自动准入。 腘绳肌指南限于相应损伤运动员，其跑步与敏捷训练建议仅提供该情境的方法方向；本条动作反馈文案不是指南原文，也未验证全部小腿/大腿症状的疗效。"
+      }
+    },
+    {
+      "section": "extension",
+      "sheet": "InterventionReference",
+      "id": "AFM-0129-SWING-TASK",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Reference_ID": "AFM-0129-SWING-TASK",
+        "Feature_ID": "AFM-0129-SWING",
+        "Treatment_Goal": "相关动作练习",
+        "Treatment_Method": "步态视频反馈练习；相关步行步幅与节奏练习",
+        "Progression": null,
+        "Source_URL": "book://magee-local#pdf=882,889&print=873,880\nhttps://doi.org/10.2519/jospt.2022.0301",
+        "Review_Status": "待临床审核",
+        "Source_Note": "区域动作观察及方法对应为临床编辑整理，教材用于检查框架。具名练习资料仅核对动作，不证明此表现必然需要纠正或该方法能治疗所有原因。康复师可按当前能力、症状与恢复目标选择相关任务或已有视频；低负荷任务不能替代高速度跑跳能力结论。不导入剂量、训练阶段或自动准入。 腘绳肌指南限于相应损伤运动员，其跑步与敏捷训练建议仅提供该情境的方法方向；本条动作反馈文案不是指南原文，也未验证全部小腿/大腿症状的疗效。"
+      }
+    },
+    {
+      "section": "extension",
+      "sheet": "InterventionReference",
+      "id": "AFM-0130-EXTEND-TASK",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Reference_ID": "AFM-0130-EXTEND-TASK",
+        "Feature_ID": "AFM-0130-EXTEND",
+        "Treatment_Goal": "相关动作练习",
+        "Treatment_Method": "上台阶蹬伸练习；辅助半蹲蹬伸练习；动作视频反馈练习",
+        "Progression": null,
+        "Source_URL": "book://magee-local#pdf=882,889&print=873,880\nhttps://doi.org/10.2519/jospt.2022.0301\nhttps://www.orthoinfo.org/recovery/knee-conditioning-program/\nhttps://roh.nhs.uk/services-information/therapy/otago-strength-and-balance-exercises",
+        "Review_Status": "待临床审核",
+        "Source_Note": "区域动作观察及方法对应为临床编辑整理，教材用于检查框架。具名练习资料仅核对动作，不证明此表现必然需要纠正或该方法能治疗所有原因。康复师可按当前能力、症状与恢复目标选择相关任务或已有视频；低负荷任务不能替代高速度跑跳能力结论。不导入剂量、训练阶段或自动准入。 腘绳肌指南限于相应损伤运动员，其跑步与敏捷训练建议仅提供该情境的方法方向；本条动作反馈文案不是指南原文，也未验证全部小腿/大腿症状的疗效。"
+      }
+    },
+    {
+      "section": "extension",
+      "sheet": "InterventionReference",
+      "id": "AFM-0130-RECOVERY-TASK",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Reference_ID": "AFM-0130-RECOVERY-TASK",
+        "Feature_ID": "AFM-0130-RECOVERY",
+        "Treatment_Goal": "相关动作练习",
+        "Treatment_Method": "相关跑步步幅与节奏反馈练习；步出与回收动作练习",
+        "Progression": null,
+        "Source_URL": "book://magee-local#pdf=882,889&print=873,880\nhttps://doi.org/10.2519/jospt.2022.0301",
+        "Review_Status": "待临床审核",
+        "Source_Note": "区域动作观察及方法对应为临床编辑整理，教材用于检查框架。具名练习资料仅核对动作，不证明此表现必然需要纠正或该方法能治疗所有原因。康复师可按当前能力、症状与恢复目标选择相关任务或已有视频；低负荷任务不能替代高速度跑跳能力结论。不导入剂量、训练阶段或自动准入。 腘绳肌指南限于相应损伤运动员，其跑步与敏捷训练建议仅提供该情境的方法方向；本条动作反馈文案不是指南原文，也未验证全部小腿/大腿症状的疗效。"
+      }
+    },
+    {
+      "section": "extension",
+      "sheet": "InterventionReference",
+      "id": "AFM-0131-TRANSFER-TASK",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Reference_ID": "AFM-0131-TRANSFER-TASK",
+        "Feature_ID": "AFM-0131-TRANSFER",
+        "Treatment_Goal": "相关动作练习",
+        "Treatment_Method": "侧向步行练习；侧向负重转移动作反馈练习",
+        "Progression": null,
+        "Source_URL": "book://magee-local#pdf=882,889&print=873,880\nhttps://doi.org/10.2519/jospt.2022.0301\nhttps://www.nhs.uk/live-well/exercise/balance-exercises/",
+        "Review_Status": "待临床审核",
+        "Source_Note": "区域动作观察及方法对应为临床编辑整理，教材用于检查框架。具名练习资料仅核对动作，不证明此表现必然需要纠正或该方法能治疗所有原因。康复师可按当前能力、症状与恢复目标选择相关任务或已有视频；低负荷任务不能替代高速度跑跳能力结论。不导入剂量、训练阶段或自动准入。 腘绳肌指南限于相应损伤运动员，其跑步与敏捷训练建议仅提供该情境的方法方向；本条动作反馈文案不是指南原文，也未验证全部小腿/大腿症状的疗效。"
+      }
+    },
+    {
+      "section": "extension",
+      "sheet": "InterventionReference",
+      "id": "AFM-0131-STEP-TASK",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Reference_ID": "AFM-0131-STEP-TASK",
+        "Feature_ID": "AFM-0131-STEP",
+        "Treatment_Goal": "相关动作练习",
+        "Treatment_Method": "侧向步出与回收练习；变向步伐反馈练习",
+        "Progression": null,
+        "Source_URL": "book://magee-local#pdf=882,889&print=873,880\nhttps://doi.org/10.2519/jospt.2022.0301\nhttps://www.nhs.uk/live-well/exercise/balance-exercises/",
+        "Review_Status": "待临床审核",
+        "Source_Note": "区域动作观察及方法对应为临床编辑整理，教材用于检查框架。具名练习资料仅核对动作，不证明此表现必然需要纠正或该方法能治疗所有原因。康复师可按当前能力、症状与恢复目标选择相关任务或已有视频；低负荷任务不能替代高速度跑跳能力结论。不导入剂量、训练阶段或自动准入。 腘绳肌指南限于相应损伤运动员，其跑步与敏捷训练建议仅提供该情境的方法方向；本条动作反馈文案不是指南原文，也未验证全部小腿/大腿症状的疗效。"
+      }
+    },
+    {
+      "section": "extension",
+      "sheet": "LocationGuide",
+      "id": "LOC-LL-MEDIAL",
+      "field": "Linked_Item_IDs",
+      "before": "LL-SPT-001|CORE-SPT-NEURO-DISTAL",
+      "after": "LL-SPT-001|CORE-SPT-NEURO-DISTAL|LL-PATTERN-GAIT|LL-PATTERN-PUSH|LL-PATTERN-IMPACT"
+    },
+    {
+      "section": "extension",
+      "sheet": "LocationGuide",
+      "id": "LOC-LL-POSTMEDIAL",
+      "field": "Linked_Item_IDs",
+      "before": "LL-SPT-001|CORE-SPT-NEURO-DISTAL",
+      "after": "LL-SPT-001|CORE-SPT-NEURO-DISTAL|LL-PATTERN-GAIT|LL-PATTERN-PUSH|LL-PATTERN-IMPACT"
+    },
+    {
+      "section": "extension",
+      "sheet": "LocationGuide",
+      "id": "LOC-LL-ANTERIOR",
+      "field": "Linked_Item_IDs",
+      "before": "LL-SPT-001|CORE-SPT-NEURO-DISTAL",
+      "after": "LL-SPT-001|CORE-SPT-NEURO-DISTAL|LL-PATTERN-GAIT|LL-PATTERN-PUSH|LL-PATTERN-IMPACT"
+    },
+    {
+      "section": "extension",
+      "sheet": "LocationGuide",
+      "id": "LOC-LL-ANTERIOR-BONE",
+      "field": "Linked_Item_IDs",
+      "before": "LL-SPT-001|CORE-SPT-NEURO-DISTAL",
+      "after": "LL-SPT-001|CORE-SPT-NEURO-DISTAL|LL-PATTERN-GAIT|LL-PATTERN-PUSH|LL-PATTERN-IMPACT"
+    },
+    {
+      "section": "extension",
+      "sheet": "LocationGuide",
+      "id": "LOC-LL-LATERAL",
+      "field": "Linked_Item_IDs",
+      "before": "LL-SPT-001|CORE-SPT-NEURO-DISTAL",
+      "after": "LL-SPT-001|CORE-SPT-NEURO-DISTAL|LL-PATTERN-GAIT|LL-PATTERN-PUSH|LL-PATTERN-IMPACT"
+    },
+    {
+      "section": "extension",
+      "sheet": "LocationGuide",
+      "id": "LOC-LL-POSTUPPER",
+      "field": "Linked_Item_IDs",
+      "before": "LL-SPT-001|CORE-SPT-NEURO-DISTAL",
+      "after": "LL-SPT-001|CORE-SPT-NEURO-DISTAL|LL-PATTERN-GAIT|LL-PATTERN-PUSH|LL-PATTERN-IMPACT"
+    },
+    {
+      "section": "extension",
+      "sheet": "LocationGuide",
+      "id": "LOC-LL-POSTLOWER",
+      "field": "Linked_Item_IDs",
+      "before": "LL-SPT-001|CORE-SPT-NEURO-DISTAL",
+      "after": "LL-SPT-001|CORE-SPT-NEURO-DISTAL|LL-PATTERN-GAIT|LL-PATTERN-PUSH|LL-PATTERN-IMPACT"
+    },
+    {
+      "section": "extension",
+      "sheet": "LocationGuide",
+      "id": "LOC-THIGH-R-001",
+      "field": "Linked_Item_IDs",
+      "before": "CORE-SPT-NEURO-DISTAL|THIGH-SPT-NEURO",
+      "after": "CORE-SPT-NEURO-DISTAL|THIGH-SPT-NEURO|THIGH-PATTERN-GAIT|THIGH-PATTERN-SAGITTAL|THIGH-PATTERN-LATERAL"
+    },
+    {
+      "section": "extension",
+      "sheet": "LocationGuide",
+      "id": "LOC-THIGH-R-002",
+      "field": "Linked_Item_IDs",
+      "before": "THIGH-SPT-NEURO",
+      "after": "THIGH-SPT-NEURO|THIGH-PATTERN-GAIT|THIGH-PATTERN-SAGITTAL|THIGH-PATTERN-LATERAL"
+    },
+    {
+      "section": "extension",
+      "sheet": "LocationGuide",
+      "id": "LOC-THIGH-R-003",
+      "field": "Linked_Item_IDs",
+      "before": "CORE-SPT-NEURO-DISTAL|THIGH-SPT-NEURO",
+      "after": "CORE-SPT-NEURO-DISTAL|THIGH-SPT-NEURO|THIGH-PATTERN-GAIT|THIGH-PATTERN-SAGITTAL|THIGH-PATTERN-LATERAL"
+    },
+    {
+      "section": "extension",
+      "sheet": "LocationGuide",
+      "id": "LOC-THIGH-R-004",
+      "field": "Linked_Item_IDs",
+      "before": "THIGH-SPT-NEURO",
+      "after": "THIGH-SPT-NEURO|THIGH-PATTERN-GAIT|THIGH-PATTERN-SAGITTAL|THIGH-PATTERN-LATERAL"
+    }
+  ]
+}

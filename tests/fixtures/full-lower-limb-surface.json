@@ -1,0 +1,920 @@
+[
+  {
+    "name": "distal thigh left/0.53/90",
+    "side": "left",
+    "face": 36277,
+    "point": [
+      0.13585034293972997,
+      0.53,
+      -0.013648800551891323
+    ],
+    "expected_region": "THIGH-R-004",
+    "previous_region": "KNEE-R-012"
+  },
+  {
+    "name": "distal thigh left/0.53/180",
+    "side": "left",
+    "face": 30916,
+    "point": [
+      0.07878049742430449,
+      0.53,
+      -0.07713827307280618
+    ],
+    "expected_region": "THIGH-R-002",
+    "previous_region": "KNEE-R-013"
+  },
+  {
+    "name": "distal thigh left/0.53/270",
+    "side": "left",
+    "face": 24726,
+    "point": [
+      0.017549952583356336,
+      0.53,
+      -0.013648800551891339
+    ],
+    "expected_region": "THIGH-R-003",
+    "previous_region": "KNEE-R-007"
+  },
+  {
+    "name": "distal thigh left/0.55/90",
+    "side": "left",
+    "face": 36277,
+    "point": [
+      0.13922356075931264,
+      0.55,
+      -0.01405674964189529
+    ],
+    "expected_region": "THIGH-R-004",
+    "previous_region": "KNEE-R-012"
+  },
+  {
+    "name": "distal thigh left/0.55/180",
+    "side": "left",
+    "face": 31360,
+    "point": [
+      0.08089434634894133,
+      0.55,
+      -0.08059182257588271
+    ],
+    "expected_region": "THIGH-R-002",
+    "previous_region": "KNEE-R-013"
+  },
+  {
+    "name": "distal thigh left/0.55/270",
+    "side": "left",
+    "face": 24728,
+    "point": [
+      0.01847520559160952,
+      0.55,
+      -0.014056749641895306
+    ],
+    "expected_region": "THIGH-R-003",
+    "previous_region": "KNEE-R-007"
+  },
+  {
+    "name": "distal thigh left/0.58/90",
+    "side": "left",
+    "face": 37104,
+    "point": [
+      0.1454151516278367,
+      0.58,
+      -0.011217201128602024
+    ],
+    "expected_region": "THIGH-R-004",
+    "previous_region": "THIGH-R-004"
+  },
+  {
+    "name": "distal thigh left/0.58/180",
+    "side": "left",
+    "face": 31737,
+    "point": [
+      0.0818696478381753,
+      0.58,
+      -0.08382777965195587
+    ],
+    "expected_region": "THIGH-R-002",
+    "previous_region": "THIGH-R-002"
+  },
+  {
+    "name": "distal thigh left/0.58/270",
+    "side": "left",
+    "face": 24730,
+    "point": [
+      0.017834541460899835,
+      0.58,
+      -0.01121720112860204
+    ],
+    "expected_region": "THIGH-R-003",
+    "previous_region": null
+  },
+  {
+    "name": "distal thigh right/0.53/90",
+    "side": "right",
+    "face": 8536,
+    "point": [
+      -0.13719035909802435,
+      0.53,
+      -0.013202950358390805
+    ],
+    "expected_region": "THIGH-R-004",
+    "previous_region": "KNEE-R-012"
+  },
+  {
+    "name": "distal thigh right/0.53/180",
+    "side": "right",
+    "face": 13445,
+    "point": [
+      -0.07869900017976761,
+      0.53,
+      -0.07734750613907515
+    ],
+    "expected_region": "THIGH-R-002",
+    "previous_region": "KNEE-R-013"
+  },
+  {
+    "name": "distal thigh right/0.53/270",
+    "side": "right",
+    "face": 20262,
+    "point": [
+      -0.01894479296900287,
+      0.53,
+      -0.01320295035839082
+    ],
+    "expected_region": "THIGH-R-003",
+    "previous_region": "KNEE-R-007"
+  },
+  {
+    "name": "distal thigh right/0.55/90",
+    "side": "right",
+    "face": 8522,
+    "point": [
+      -0.1406256815439657,
+      0.55,
+      -0.013257600367069241
+    ],
+    "expected_region": "THIGH-R-004",
+    "previous_region": "KNEE-R-012"
+  },
+  {
+    "name": "distal thigh right/0.55/180",
+    "side": "right",
+    "face": 13448,
+    "point": [
+      -0.08192149642854929,
+      0.55,
+      -0.08068798058155402
+    ],
+    "expected_region": "THIGH-R-002",
+    "previous_region": "KNEE-R-013"
+  },
+  {
+    "name": "distal thigh right/0.55/270",
+    "side": "right",
+    "face": 20248,
+    "point": [
+      -0.020362026078471013,
+      0.55,
+      -0.013257600367069255
+    ],
+    "expected_region": "THIGH-R-003",
+    "previous_region": "THIGH-R-003"
+  },
+  {
+    "name": "distal thigh right/0.58/90",
+    "side": "right",
+    "face": 8055,
+    "point": [
+      -0.14630577871211858,
+      0.58,
+      -0.012211451306939122
+    ],
+    "expected_region": "THIGH-R-004",
+    "previous_region": "THIGH-R-004"
+  },
+  {
+    "name": "distal thigh right/0.58/180",
+    "side": "right",
+    "face": 13040,
+    "point": [
+      -0.08063345216214657,
+      0.58,
+      -0.08424632472334825
+    ],
+    "expected_region": "THIGH-R-002",
+    "previous_region": "THIGH-R-002"
+  },
+  {
+    "name": "distal thigh right/0.58/270",
+    "side": "right",
+    "face": 20249,
+    "point": [
+      -0.019537962744612655,
+      0.58,
+      -0.012211451306939135
+    ],
+    "expected_region": "THIGH-R-003",
+    "previous_region": null
+  },
+  {
+    "name": "heel plantar",
+    "side": "left",
+    "face": 30321,
+    "point": [
+      0.07484833164069848,
+      0.006674566144289074,
+      -0.034511535470462346
+    ],
+    "expected_region": "AF-R-006"
+  },
+  {
+    "name": "heel posterior",
+    "side": "left",
+    "face": 30947,
+    "point": [
+      0.07484833164069848,
+      0.04087956011578252,
+      -0.0883590209713428
+    ],
+    "expected_region": "AF-R-005"
+  },
+  {
+    "name": "navicular medial",
+    "side": "left",
+    "face": 29052,
+    "point": [
+      0.052670872875655486,
+      0.05797755994805784,
+      0.01862194698359721
+    ],
+    "expected_region": "AF-R-009"
+  },
+  {
+    "name": "cuboid lateral",
+    "side": "left",
+    "face": 33815,
+    "point": [
+      0.1218567134883145,
+      0.041721829476627316,
+      -0.013254660021519538
+    ],
+    "expected_region": "AF-R-010"
+  },
+  {
+    "name": "midfoot dorsal",
+    "side": "left",
+    "face": 31612,
+    "point": [
+      0.0811587009455493,
+      0.08139333076511507,
+      0.02736572324358232
+    ],
+    "expected_region": "AF-R-007"
+  },
+  {
+    "name": "arch plantar",
+    "side": "left",
+    "face": 31185,
+    "point": [
+      0.0780035162931239,
+      0.011549343414642033,
+      0.021427093886559986
+    ],
+    "expected_region": "AF-R-008"
+  },
+  {
+    "name": "metatarsal 1 head dorsal",
+    "side": "left",
+    "face": 32286,
+    "point": [
+      0.09817152261211161,
+      0.04116897950975801,
+      0.08858298209675572
+    ],
+    "expected_region": "AF-R-012"
+  },
+  {
+    "name": "metatarsal 1 head plantar",
+    "side": "left",
+    "face": 32681,
+    "point": [
+      0.09817152261211161,
+      0.0036271847332295937,
+      0.08858298209675572
+    ],
+    "expected_region": "AF-R-012"
+  },
+  {
+    "name": "metatarsal 2 head dorsal",
+    "side": "left",
+    "face": 34151,
+    "point": [
+      0.1171733331349161,
+      0.0365930401085664,
+      0.08564836076564258
+    ],
+    "expected_region": "AF-R-011"
+  },
+  {
+    "name": "metatarsal 2 head plantar",
+    "side": "left",
+    "face": 34614,
+    "point": [
+      0.1171733331349161,
+      0.0023224645553432954,
+      0.08564836076564258
+    ],
+    "expected_region": "AF-R-011"
+  },
+  {
+    "name": "metatarsal 3 head dorsal",
+    "side": "left",
+    "face": 35086,
+    "point": [
+      0.1292108344948954,
+      0.03494080991956516,
+      0.07843180518183443
+    ],
+    "expected_region": "AF-R-011"
+  },
+  {
+    "name": "metatarsal 3 head plantar",
+    "side": "left",
+    "face": 34614,
+    "point": [
+      0.1292108344948954,
+      0.0007764077277040426,
+      0.07843180518183443
+    ],
+    "expected_region": "AF-R-011"
+  },
+  {
+    "name": "metatarsal 4 head dorsal",
+    "side": "left",
+    "face": 36067,
+    "point": [
+      0.13842410700661795,
+      0.03605455463695062,
+      0.06661707189466272
+    ],
+    "expected_region": "AF-R-011"
+  },
+  {
+    "name": "metatarsal 4 head plantar",
+    "side": "left",
+    "face": 36553,
+    "point": [
+      0.13842410700661795,
+      0.0008865210343477758,
+      0.06661707189466272
+    ],
+    "expected_region": "AF-R-011"
+  },
+  {
+    "name": "metatarsal 5 head dorsal",
+    "side": "left",
+    "face": 36132,
+    "point": [
+      0.14718944430351258,
+      0.031223120550289862,
+      0.05240068899260627
+    ],
+    "expected_region": "AF-R-011"
+  },
+  {
+    "name": "metatarsal 5 head plantar",
+    "side": "left",
+    "face": 36552,
+    "point": [
+      0.14718944430351258,
+      0.002749611920518369,
+      0.05240068899260627
+    ],
+    "expected_region": "AF-R-011"
+  },
+  {
+    "name": "fifth base lateral",
+    "side": "left",
+    "face": 35737,
+    "point": [
+      0.13139918192419436,
+      0.025407586246728897,
+      -0.017135671640920502
+    ],
+    "expected_region": "AF-R-010"
+  },
+  {
+    "name": "toe 1 dorsal",
+    "side": "left",
+    "face": 34074,
+    "point": [
+      0.11540846191496255,
+      0.02486840157058673,
+      0.1247491565155217
+    ],
+    "expected_region": "AF-R-012",
+    "expected_area": "LOC-TOE-HALLUX"
+  },
+  {
+    "name": "toe 1 plantar",
+    "side": "left",
+    "face": 34067,
+    "point": [
+      0.11540846191496255,
+      0.0032868885264499825,
+      0.1247491565155217
+    ],
+    "expected_region": "AF-R-012",
+    "expected_area": "LOC-TOE-HALLUX"
+  },
+  {
+    "name": "toe 2 dorsal",
+    "side": "left",
+    "face": 35998,
+    "point": [
+      0.1377208036858411,
+      0.025352685778878892,
+      0.1265520653465674
+    ],
+    "expected_region": "AF-R-011",
+    "expected_area": "LOC-TOE-LESSER"
+  },
+  {
+    "name": "toe 2 plantar",
+    "side": "left",
+    "face": 35488,
+    "point": [
+      0.1377208036858411,
+      0.0031867070348827187,
+      0.1265520653465674
+    ],
+    "expected_region": "AF-R-011",
+    "expected_area": "LOC-TOE-LESSER"
+  },
+  {
+    "name": "toe 3 dorsal",
+    "side": "left",
+    "face": 36853,
+    "point": [
+      0.1512134409648307,
+      0.021149312309748758,
+      0.11770480300517792
+    ],
+    "expected_region": "AF-R-011",
+    "expected_area": "LOC-TOE-LESSER"
+  },
+  {
+    "name": "toe 3 plantar",
+    "side": "left",
+    "face": 36836,
+    "point": [
+      0.1512134409648307,
+      0.002007258552052138,
+      0.11770480300517792
+    ],
+    "expected_region": "AF-R-011",
+    "expected_area": "LOC-TOE-LESSER"
+  },
+  {
+    "name": "toe 4 dorsal",
+    "side": "left",
+    "face": 37826,
+    "point": [
+      0.160104766998389,
+      0.02157966528516292,
+      0.10008737011110946
+    ],
+    "expected_region": "AF-R-011",
+    "expected_area": "LOC-TOE-LESSER"
+  },
+  {
+    "name": "toe 4 plantar",
+    "side": "left",
+    "face": 37818,
+    "point": [
+      0.160104766998389,
+      0.0005804926257807486,
+      0.10008737011110946
+    ],
+    "expected_region": "AF-R-011",
+    "expected_area": "LOC-TOE-LESSER"
+  },
+  {
+    "name": "toe 5 dorsal",
+    "side": "left",
+    "face": 38269,
+    "point": [
+      0.16589106302708387,
+      0.019049877368687962,
+      0.08116077482700348
+    ],
+    "expected_region": "AF-R-011",
+    "expected_area": "LOC-TOE-LESSER"
+  },
+  {
+    "name": "toe 5 plantar",
+    "side": "left",
+    "face": 37844,
+    "point": [
+      0.16589106302708387,
+      0.0027753181573982877,
+      0.08116077482700348
+    ],
+    "expected_region": "AF-R-011",
+    "expected_area": "LOC-TOE-LESSER"
+  },
+  {
+    "name": "ankle 0.1/0",
+    "side": "left",
+    "face": 31231,
+    "point": [
+      0.075,
+      0.1,
+      0.012690420909572064
+    ],
+    "expected_region": "AF-R-001"
+  },
+  {
+    "name": "ankle 0.08/90",
+    "side": "left",
+    "face": 33313,
+    "point": [
+      0.10641241872626861,
+      0.08,
+      -0.024999999999999998
+    ],
+    "expected_region": "AF-R-003"
+  },
+  {
+    "name": "ankle 0.08/270",
+    "side": "left",
+    "face": 27171,
+    "point": [
+      0.037685023677166044,
+      0.08,
+      -0.02500000000000001
+    ],
+    "expected_region": "AF-R-002"
+  },
+  {
+    "name": "ankle 0.1/180",
+    "side": "left",
+    "face": 31335,
+    "point": [
+      0.075,
+      0.1,
+      -0.0707590081244478
+    ],
+    "expected_region": "AF-R-004"
+  },
+  {
+    "name": "heel plantar",
+    "side": "right",
+    "face": 13832,
+    "point": [
+      -0.07524413552117794,
+      0.007128580720031197,
+      -0.033826943796401186
+    ],
+    "expected_region": "AF-R-006"
+  },
+  {
+    "name": "heel posterior",
+    "side": "right",
+    "face": 13970,
+    "point": [
+      -0.07524413552117794,
+      0.04111503895703418,
+      -0.08918320807269475
+    ],
+    "expected_region": "AF-R-005"
+  },
+  {
+    "name": "navicular medial",
+    "side": "right",
+    "face": 15291,
+    "point": [
+      -0.05409060749934022,
+      0.06013920108354328,
+      0.018979910700329092
+    ],
+    "expected_region": "AF-R-009"
+  },
+  {
+    "name": "cuboid lateral",
+    "side": "right",
+    "face": 10380,
+    "point": [
+      -0.1244840417580047,
+      0.04039011694124488,
+      -0.012284603408192901
+    ],
+    "expected_region": "AF-R-010"
+  },
+  {
+    "name": "midfoot dorsal",
+    "side": "right",
+    "face": 12899,
+    "point": [
+      -0.08088788159770949,
+      0.08204858454657116,
+      0.0272333435478467
+    ],
+    "expected_region": "AF-R-007"
+  },
+  {
+    "name": "arch plantar",
+    "side": "right",
+    "face": 13292,
+    "point": [
+      -0.0780660085594437,
+      0.01211687616375029,
+      0.021703199875722758
+    ],
+    "expected_region": "AF-R-008"
+  },
+  {
+    "name": "metatarsal 1 head dorsal",
+    "side": "right",
+    "face": 12444,
+    "point": [
+      -0.09827650959293048,
+      0.04099718305223371,
+      0.0882398895919323
+    ],
+    "expected_region": "AF-R-012"
+  },
+  {
+    "name": "metatarsal 1 head plantar",
+    "side": "right",
+    "face": 12051,
+    "point": [
+      -0.09827650959293048,
+      0.0035075859921336328,
+      0.0882398895919323
+    ],
+    "expected_region": "AF-R-012"
+  },
+  {
+    "name": "metatarsal 2 head dorsal",
+    "side": "right",
+    "face": 10190,
+    "point": [
+      -0.11687025860432655,
+      0.036532799156343054,
+      0.08561635425975246
+    ],
+    "expected_region": "AF-R-011"
+  },
+  {
+    "name": "metatarsal 2 head plantar",
+    "side": "right",
+    "face": 9724,
+    "point": [
+      -0.11687025860432655,
+      0.002392112052178541,
+      0.08561635425975246
+    ],
+    "expected_region": "AF-R-011"
+  },
+  {
+    "name": "metatarsal 3 head dorsal",
+    "side": "right",
+    "face": 9748,
+    "point": [
+      -0.12981452606618404,
+      0.035659451542992104,
+      0.07807302493602038
+    ],
+    "expected_region": "AF-R-011"
+  },
+  {
+    "name": "metatarsal 3 head plantar",
+    "side": "right",
+    "face": 9747,
+    "point": [
+      -0.12981452606618404,
+      0.0009470738395255252,
+      0.07807302493602038
+    ],
+    "expected_region": "AF-R-011"
+  },
+  {
+    "name": "metatarsal 4 head dorsal",
+    "side": "right",
+    "face": 8771,
+    "point": [
+      -0.1382895554933283,
+      0.03655418374348102,
+      0.06683183316555288
+    ],
+    "expected_region": "AF-R-011"
+  },
+  {
+    "name": "metatarsal 4 head plantar",
+    "side": "right",
+    "face": 8319,
+    "point": [
+      -0.1382895554933283,
+      0.0011399215796474849,
+      0.06683183316555288
+    ],
+    "expected_region": "AF-R-011"
+  },
+  {
+    "name": "metatarsal 5 head dorsal",
+    "side": "right",
+    "face": 7897,
+    "point": [
+      -0.146945381803172,
+      0.03251231536772359,
+      0.05253914291305201
+    ],
+    "expected_region": "AF-R-011"
+  },
+  {
+    "name": "metatarsal 5 head plantar",
+    "side": "right",
+    "face": 7937,
+    "point": [
+      -0.146945381803172,
+      0.0027662586887144403,
+      0.05253914291305201
+    ],
+    "expected_region": "AF-R-011"
+  },
+  {
+    "name": "fifth base lateral",
+    "side": "right",
+    "face": 9426,
+    "point": [
+      -0.1328126066631572,
+      0.025236073021705333,
+      -0.01790491883433068
+    ],
+    "expected_region": "AF-R-010"
+  },
+  {
+    "name": "toe 1 dorsal",
+    "side": "right",
+    "face": 10592,
+    "point": [
+      -0.11500002218348514,
+      0.025492354249882665,
+      0.12422025489631175
+    ],
+    "expected_region": "AF-R-012",
+    "expected_area": "LOC-TOE-HALLUX"
+  },
+  {
+    "name": "toe 1 plantar",
+    "side": "right",
+    "face": 10590,
+    "point": [
+      -0.11500002218348514,
+      0.003498426290522605,
+      0.12422025489631175
+    ],
+    "expected_region": "AF-R-012",
+    "expected_area": "LOC-TOE-HALLUX"
+  },
+  {
+    "name": "toe 2 dorsal",
+    "side": "right",
+    "face": 8222,
+    "point": [
+      -0.13820974351394744,
+      0.025891072580401076,
+      0.12677831513186297
+    ],
+    "expected_region": "AF-R-011",
+    "expected_area": "LOC-TOE-LESSER"
+  },
+  {
+    "name": "toe 2 plantar",
+    "side": "right",
+    "face": 8214,
+    "point": [
+      -0.13820974351394744,
+      0.003351904076351664,
+      0.12677831513186297
+    ],
+    "expected_region": "AF-R-011",
+    "expected_area": "LOC-TOE-LESSER"
+  },
+  {
+    "name": "toe 3 dorsal",
+    "side": "right",
+    "face": 7330,
+    "point": [
+      -0.15098777644752714,
+      0.022502481445096034,
+      0.11718162746162888
+    ],
+    "expected_region": "AF-R-011",
+    "expected_area": "LOC-TOE-LESSER"
+  },
+  {
+    "name": "toe 3 plantar",
+    "side": "right",
+    "face": 7326,
+    "point": [
+      -0.15098777644752714,
+      0.002009680915199652,
+      0.11718162746162888
+    ],
+    "expected_region": "AF-R-011",
+    "expected_area": "LOC-TOE-LESSER"
+  },
+  {
+    "name": "toe 4 dorsal",
+    "side": "right",
+    "face": 6926,
+    "point": [
+      -0.15977577455866504,
+      0.02267644552225928,
+      0.1004783169589412
+    ],
+    "expected_region": "AF-R-011",
+    "expected_area": "LOC-TOE-LESSER"
+  },
+  {
+    "name": "toe 4 plantar",
+    "side": "right",
+    "face": 6913,
+    "point": [
+      -0.15977577455866504,
+      0.0007661519706838038,
+      0.1004783169589412
+    ],
+    "expected_region": "AF-R-011",
+    "expected_area": "LOC-TOE-LESSER"
+  },
+  {
+    "name": "toe 5 dorsal",
+    "side": "right",
+    "face": 6488,
+    "point": [
+      -0.16604925859510228,
+      0.019000161960889272,
+      0.08190155079525509
+    ],
+    "expected_region": "AF-R-011",
+    "expected_area": "LOC-TOE-LESSER"
+  },
+  {
+    "name": "toe 5 plantar",
+    "side": "right",
+    "face": 6161,
+    "point": [
+      -0.16604925859510228,
+      0.0029040165509502947,
+      0.08190155079525509
+    ],
+    "expected_region": "AF-R-011",
+    "expected_area": "LOC-TOE-LESSER"
+  },
+  {
+    "name": "ankle 0.1/0",
+    "side": "right",
+    "face": 13749,
+    "point": [
+      -0.075,
+      0.1,
+      0.012639705094201203
+    ],
+    "expected_region": "AF-R-001"
+  },
+  {
+    "name": "ankle 0.08/90",
+    "side": "right",
+    "face": 11305,
+    "point": [
+      -0.10761184894581272,
+      0.08,
+      -0.024999999999999998
+    ],
+    "expected_region": "AF-R-003"
+  },
+  {
+    "name": "ankle 0.08/270",
+    "side": "right",
+    "face": 16679,
+    "point": [
+      -0.038766979734956415,
+      0.08,
+      -0.02500000000000001
+    ],
+    "expected_region": "AF-R-002"
+  },
+  {
+    "name": "ankle 0.1/180",
+    "side": "right",
+    "face": 14427,
+    "point": [
+      -0.075,
+      0.1,
+      -0.07235013783261979
+    ],
+    "expected_region": "AF-R-004"
+  }
+]

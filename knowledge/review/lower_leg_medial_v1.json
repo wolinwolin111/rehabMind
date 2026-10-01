@@ -1,0 +1,77 @@
+{
+  "batch": "lower-leg-medial-v1",
+  "source_note": "本批部位问诊为编辑稿，待临床审核；基础检查来自主库 Lower Leg Remaining L3 Review v2.6、Core Assessment Protocol Refinement v3.2。参考 https://www.orthoinfo.org/diseases--conditions/shin-splints/ 及 https://www.orthoinfo.org/diseases--conditions/posterior-tibial-tendon-dysfunction/ ，只支持问诊和评估背景，不支持由位置诊断或自动处理。",
+  "locations": [
+    {
+      "Area_ID": "LOC-LL-MEDIAL", "Display_Name": "胫骨内侧缘",
+      "Region_IDs": "LL-R-003|LL-R-007", "Module_Codes": "LOWER_LEG",
+      "Related_Tissues": "骨与周围组织：胫骨内侧缘；邻近骨膜及筋膜\n相关肌群：胫骨后肌；趾长屈肌；比目鱼肌",
+      "Primary_Item_IDs": "CORE-MUS-TP|CORE-MUS-FDL|CORE-MUS-SOLEUS|CORE-ROM-ANK-DF|CORE-ROM-ANK-EV|CORE-CAP-INV|CORE-CAP-PF|LL-LT-003|LL-LT-007",
+      "Additional_Item_IDs": "CORE-MUS-GASTROC|CORE-MUS-FHL|CORE-CAP-HF|CORE-CAP-ARCH-TOE|LL-LT-005",
+      "Linked_Item_IDs": "LL-SPT-001|CORE-SPT-NEURO-DISTAL",
+      "Assessment_Groups": "LOCAL:胫骨内侧缘局部检查|MUSCLE_STATE:邻近肌群|ROM:踝关节活动|CAPACITY:相关肌力|SPECIAL_TEST:补充筛查",
+      "Review_Status": "待临床审核",
+      "Source_Reference": "05_RegionClinicalMap/LL-R-003,LL-R-007；BodyParts3D 4.0 atlas；AAOS Shin Splints",
+      "Internal_Note": "骨缘及邻近肌群、踝活动度、内翻与跖屈能力分别直接显示，主要清单是阅读入口，不是必做检查。没有依据点选结果诊断MTSS或骨应力损伤，没有把软组织松解、理疗直接用于骨性压痛。"
+    },
+    {
+      "Area_ID": "LOC-LL-POSTMEDIAL", "Display_Name": "小腿后内侧",
+      "Region_IDs": "LL-R-007|LL-R-005|LL-R-006", "Module_Codes": "LOWER_LEG",
+      "Related_Tissues": "表浅后侧肌群：腓肠肌内侧头；比目鱼肌\n深层相关肌群：胫骨后肌；趾长屈肌；拇长屈肌\n骨与周围组织：胫骨后内侧；邻近筋膜",
+      "Primary_Item_IDs": "CORE-MUS-TP|CORE-MUS-FDL|CORE-MUS-GASTROC|CORE-MUS-SOLEUS|CORE-ROM-ANK-DF|CORE-ROM-ANK-EV|CORE-CAP-INV|CORE-CAP-PF|LL-LT-007",
+      "Additional_Item_IDs": "CORE-MUS-FHL|CORE-CAP-HF|CORE-CAP-ARCH-TOE|LL-LT-005|LL-LT-003",
+      "Linked_Item_IDs": "LL-SPT-001|CORE-SPT-NEURO-DISTAL",
+      "Assessment_Groups": "MUSCLE_STATE:小腿内后侧肌群|CAPACITY:内翻与跖屈力量|ROM:踝关节活动|LOCAL:小腿内后侧局部检查|SPECIAL_TEST:补充筛查",
+      "Review_Status": "待临床审核",
+      "Source_Reference": "05_RegionClinicalMap/LL-R-007,LL-R-005,LL-R-006；BodyParts3D 4.0 atlas；本项目已索引的线下康复记录",
+      "Internal_Note": "皮肤点选只给出周围组织，不识别深层单块肌肉。当前入口覆盖多个高度，腓肠肌、比目鱼肌与深层肌群供康复师结合不适范围查看；不表示同时存在问题。"
+    }
+  ],
+  "guides": [
+    {"Guide_ID":"QG-LM-LOCATION","Topic":"骨缘还是后侧软组织","Core_Prompt":"不适在胫骨内侧边缘，还是骨缘后方的软组织？","Optional_Probe":"是一个点还是沿着一段？偏上段、中段还是下段？","Question_Purpose":"了解骨缘和邻近软组织的不适分布。","Information_Gained":"疼痛范围、局灶或分段分布，以及与骨缘的关系。","Assessment_Help":"分别查看胫骨内侧缘压痛和邻近肌群，局灶骨性压痛可补充骨应力相关评估。","Area_IDs":"LOC-LL-MEDIAL","Display_Order":1},
+    {"Guide_ID":"QG-LM-ACTIVITY","Topic":"负重和跑跳时的表现","Core_Prompt":"走路、跑步或跳跃时会不会出现不适？","Optional_Probe":"开始活动就出现，活动一段时间后出现，还是活动后仍持续？休息时如何？","Question_Purpose":"了解骨缘不适与重复负重及活动时机的关系。","Information_Gained":"诱发活动、出现时机、活动后和休息时的变化。","Assessment_Help":"补充骨缘局部检查和活动耐受背景；不根据一种活动直接归因。","Area_IDs":"LOC-LL-MEDIAL","Display_Order":2,"Replaces_Guide_ID":"QG-PROVOKE"},
+    {"Guide_ID":"QG-LM-CHANGE","Topic":"近期训练变化","Core_Prompt":"近期跑量、速度、坡度、场地或鞋子有没有变化？","Optional_Probe":"是否增加连续训练天数，或在休息后重新开始训练？","Question_Purpose":"了解近期负重活动的变化。","Information_Gained":"训练强度、频率、时长、场地及鞋子的变化。","Assessment_Help":"为负重耐受、踝背屈及相关肌力评估提供活动背景。","Area_IDs":"LOC-LL-MEDIAL","Display_Order":3},
+    {"Guide_ID":"QG-LM-ASSOCIATED","Topic":"其他伴随表现","Core_Prompt":"有没有局部肿胀、麻木、灼热或明显无力？","Optional_Probe":"是否每次到相似时间或距离就出现？停止活动后多久缓解？","Question_Purpose":"了解骨缘疼痛之外的感觉、力量及运动后变化。","Information_Gained":"感觉分布、伴随肿胀和无力，以及可重复的出现时机。","Assessment_Help":"为神经筛查或运动诱发症状的进一步评估提供方向。","Area_IDs":"LOC-LL-MEDIAL","Display_Order":4},
+    {"Guide_ID":"QG-LPM-LOCATION","Topic":"不适的具体范围","Core_Prompt":"不适在小腿内侧哪一段？有没有延伸到内踝、足弓或足趾？","Optional_Probe":"更靠近骨缘，还是后侧肌腹？浅表按压和活动时的位置是否相同？","Question_Purpose":"了解小腿后内侧与内踝、足部之间的不适分布。","Information_Gained":"高度、骨缘或软组织位置，以及向远端延伸的范围。","Assessment_Help":"为腓肠肌内侧头、比目鱼肌、胫骨后肌及长屈肌群的检查提供定位背景。","Area_IDs":"LOC-LL-POSTMEDIAL","Display_Order":1},
+    {"Guide_ID":"QG-LPM-ACTIVITY","Topic":"哪些动作不舒服","Core_Prompt":"走路蹬地、提踵、脚向内转或屈脚趾时，哪些动作会不舒服？","Optional_Probe":"拉长时和发力时是否不同？膝盖伸直或弯曲时有什么变化？","Question_Purpose":"了解不适与跖屈、内翻和屈趾发力，以及小腿后侧拉长的关系。","Information_Gained":"诱发动作、拉长与发力差异，以及膝位变化。","Assessment_Help":"可分别查看伸膝位和屈膝位背屈、提踵、内翻抗阻及屈趾表现。","Area_IDs":"LOC-LL-POSTMEDIAL","Display_Order":2,"Replaces_Guide_ID":"QG-PROVOKE"},
+    {"Guide_ID":"QG-LPM-CHANGE","Topic":"近期活动变化","Core_Prompt":"近期走路、跑跳、上坡或提踵训练的量有没有变化？","Optional_Probe":"是否有一次明显牵拉、蹬地，或连续多天高强度活动？","Question_Purpose":"了解后侧肌群拉长和发力的活动背景。","Information_Gained":"突然出现还是逐渐出现，以及活动强度、频率与时长变化。","Assessment_Help":"为局部组织状态、跖屈和内翻力量及活动表现的查看提供背景。","Area_IDs":"LOC-LL-POSTMEDIAL","Display_Order":3},
+    {"Guide_ID":"QG-LPM-ASSOCIATED","Topic":"感觉和肿胀变化","Core_Prompt":"有没有麻木、向足部放射的不适，或明显肿胀？","Optional_Probe":"感觉在哪些位置？肿胀是否突然出现或加重？","Question_Purpose":"了解肌肉拉长、发力以外的伴随表现。","Information_Gained":"感觉分布、肿胀范围与变化经过。","Assessment_Help":"可补充局部组织和神经筛查；突然出现的明显肿胀需进一步评估。","Area_IDs":"LOC-LL-POSTMEDIAL","Display_Order":4}
+  ],
+  "purposes": [
+    {"Item_ID":"LL-LT-003","Clinical_Purpose":"胫骨内侧不适时，区分骨缘压痛与后方软组织反应。","Assessment_Focus":"压痛位置、长度和局灶性；负重与跑跳时的表现。"},
+    {"Item_ID":"LL-LT-007","Clinical_Purpose":"查看小腿后内侧局部组织，并与内翻、跖屈和屈趾动作对照。","Assessment_Focus":"骨缘后方压痛；牵拉、内翻及屈趾抗阻时的反应。"},
+    {"Item_ID":"CORE-MUS-TP","Clinical_Purpose":"胫骨后肌与足踝内翻和足弓支持相关，可查看局部状态与发力时的差异。","Assessment_Focus":"走行附近张力与压痛；外翻牵拉及内翻抗阻时的反应。"},
+    {"Item_ID":"CORE-MUS-FDL","Clinical_Purpose":"小腿后内侧或足趾屈伸时不适，可查看趾长屈肌相关牵拉和局部反应。","Assessment_Focus":"踝背屈结合第2至5趾伸展；屈趾抗阻及走行附近反应。"},
+    {"Item_ID":"CORE-MUS-FHL","Clinical_Purpose":"拇趾屈伸或蹬地时不适，可补充查看拇长屈肌相关表现。","Assessment_Focus":"踝背屈结合拇趾伸展；拇趾屈曲抗阻与走行附近反应。"},
+    {"Item_ID":"CORE-CAP-INV","Clinical_Purpose":"查看内翻抗阻输出，与内侧压痛和足型分开比较。","Assessment_Focus":"内翻等长抗阻、疼痛限制、力量与左右差异。"},
+    {"Item_ID":"CORE-CAP-HF","Clinical_Purpose":"查看拇趾屈曲发力，补充蹬地或前足活动的评估。","Assessment_Focus":"拇趾屈曲抗阻；力量、疼痛与左右差异。"},
+    {"Item_ID":"CORE-CAP-ARCH-TOE","Clinical_Purpose":"查看负重时的足弓维持及足趾控制，与静态足型分开。","Assessment_Focus":"足弓维持、足趾独立控制及短足任务的表现。"}
+  ],
+  "features": [
+    {"Feature_ID":"AFM-0056-DIFFUSE","Assessment_Map_ID":"AFM-0056","Finding_Name":"沿骨缘分段压痛","Finding_Feature":"压痛沿胫骨内侧缘分布在一段范围，与邻近软组织按压反应不同。","Finding_Interpretation":"分布用于提供评估方向，不单凭压痛长度诊断MTSS。"},
+    {"Feature_ID":"AFM-0056-FOCAL","Assessment_Map_ID":"AFM-0056","Finding_Name":"局灶骨性压痛","Finding_Feature":"胫骨内侧缘有较集中的骨性压痛点，负重或跑跳可能伴不适。","Finding_Interpretation":"可补充骨应力相关评估，不直接对应肌肉松解或理疗。"},
+    {"Feature_ID":"AFM-0060-PRESSURE","Assessment_Map_ID":"AFM-0060","Finding_Name":"骨缘后方压痛","Finding_Feature":"胫骨内侧缘后方软组织按压疼痛；记录范围并与表浅肌群比较。","Finding_Interpretation":"深层组织相邻，单凭触诊不能分离确定某一块肌肉。"},
+    {"Feature_ID":"AFM-0060-ACTIVITY","Assessment_Map_ID":"AFM-0060","Finding_Name":"内翻或屈趾时不适","Finding_Feature":"足踝内翻、屈趾抗阻或相关牵拉时，小腿后内侧出现不适。","Finding_Interpretation":"提供相关动作与组织查看方向，不确定病因。"},
+    {"Feature_ID":"AFM-0060-TENSION","Assessment_Map_ID":"AFM-0060","Finding_Name":"后内侧软组织张力偏高或牵拉受限","Finding_Feature":"骨缘后方软组织张力较对侧高，或踝背屈、外翻及伸趾牵拉时后内侧活动受限。","Finding_Interpretation":"查看周围组织及相应肌群，不用单项牵拉确定深层肌肉。","Source_URL":"local-records://LR-26f2f03ac441#L24-L41\nlocal-records://LR-ca65db74a173#L78-L81"},
+    {"Feature_ID":"AFM-0046-TENSION","Assessment_Map_ID":"AFM-0046","Finding_Name":"张力偏高或牵拉受限","Finding_Feature":"胫骨后肌走行附近张力与对侧不同，或足踝外翻牵拉时后内侧活动受限。","Finding_Interpretation":"相关肌群和筋膜相邻，触诊与牵拉不独立确定组织来源。","Source_URL":"local-records://LR-26f2f03ac441#L24-L41\nlocal-records://LR-ca65db74a173#L78-L81"},
+    {"Feature_ID":"AFM-0046-PRESSURE","Assessment_Map_ID":"AFM-0046","Finding_Name":"局部压痛或发力痛","Finding_Feature":"胫骨后肌走行附近按压或内翻发力时出现不适，与对侧不同。","Finding_Interpretation":"肌腹与肌腱走行的部位需分别查看，局部反应不等于炎症或损伤。","Source_URL":"local-records://LR-8cae8bc9d5d3#L77-L86\nlocal-records://LR-0063074d4117#L98-L102"},
+    {"Feature_ID":"AFM-0048-LENGTH","Assessment_Map_ID":"AFM-0048","Finding_Name":"屈趾相关牵拉不适","Finding_Feature":"踝背屈结合第2至5趾伸展，或屈趾抗阻时，后内侧出现牵拉受限或不适。","Finding_Interpretation":"屈趾测试涉及长屈肌和足内在肌，不单独定位趾长屈肌。"},
+    {"Feature_ID":"AFM-0047-LENGTH","Assessment_Map_ID":"AFM-0047","Finding_Name":"拇趾相关牵拉不适","Finding_Feature":"踝背屈结合拇趾伸展，或拇趾屈曲抗阻时，后内侧出现牵拉受限或不适。","Finding_Interpretation":"拇趾相关反应不单独定位拇长屈肌。"},
+    {"Feature_ID":"AFM-0006-CAPACITY","Assessment_Map_ID":"AFM-0006","Finding_Name":"内翻力量不足","Finding_Feature":"相同体位下内翻等长抗阻输出较对侧低，或发力受到疼痛限制。","Finding_Interpretation":"与活动范围和局部压痛分开比较。"},
+    {"Feature_ID":"AFM-0009-CAPACITY","Assessment_Map_ID":"AFM-0009","Finding_Name":"拇趾屈曲力量不足","Finding_Feature":"拇趾屈曲抗阻输出较对侧低，或发力受到疼痛限制。","Finding_Interpretation":"屈曲任务不等同能够独立测量拇长屈肌。"},
+    {"Feature_ID":"AFM-0008-CONTROL","Assessment_Map_ID":"AFM-0008","Finding_Name":"足弓或足趾控制困难","Finding_Feature":"足弓维持或足趾独立控制任务中出现难以保持、明显代偿或左右差异。","Finding_Interpretation":"动态任务表现与静态足型分开查看。"}
+  ],
+  "references": [
+    {"Reference_ID":"AFM-0046-TENSION-RECORD-1","Feature_ID":"AFM-0046-TENSION","Treatment_Goal":"软组织处理","Treatment_Method":"胫骨后肌手法松解；器械辅助软组织松解（筋膜刀）","Source_URL":"local-records://LR-26f2f03ac441#L24-L41\nlocal-records://LR-80e4ebf1a3b0#L75-L76","Source_Note":"线下经验参考。仅证明记录中使用过该方法，不证明单一肌肉为病因或方法独立有效；未迁移肌腱超声到肌腹。"},
+    {"Reference_ID":"AFM-0046-TENSION-RECORD-2","Feature_ID":"AFM-0046-TENSION","Treatment_Goal":"牵伸","Treatment_Method":"胫骨后肌相关牵伸","Source_URL":"local-records://LR-ca65db74a173#L78-L81","Source_Note":"记录列出松解、拉伸；未提供选择或剂量，不将一般肌肉牵伸作为肌腱损伤方案。"},
+    {"Reference_ID":"AFM-0046-PRESSURE-RECORD-1","Feature_ID":"AFM-0046-PRESSURE","Treatment_Goal":"局部辅助方法","Treatment_Method":"肌内效贴贴扎；低频电刺激","Source_URL":"local-records://LR-8cae8bc9d5d3#L77-L86\nlocal-records://LR-0063074d4117#L98-L102","Source_Note":"线下经验参考，记录为减张贴与compex relax。仅列可参考的方法，不承诺减张机制、疗效，不用于骨缘压痛的默认处理。"},
+    {"Reference_ID":"AFM-0006-CAPACITY-MEDIAL-1","Feature_ID":"AFM-0006-CAPACITY","Treatment_Goal":"募集与力量","Treatment_Method":"内翻肌群募集与抗阻训练","Source_URL":"baseline://database-v3.8/04_Intervention/CORE-INT-INV-TRAIN\nhttps://www.orthoinfo.org/diseases--conditions/posterior-tibial-tendon-dysfunction/","Source_Note":"沿用原库方法；AAOS支持相关肌腱强化的总体方向，不支持仅凭内侧位置确定胫骨后肌薄弱。"},
+    {"Reference_ID":"AFM-0009-CAPACITY-MEDIAL-1","Feature_ID":"AFM-0009-CAPACITY","Treatment_Goal":"拇屈力量","Treatment_Method":"拇趾屈曲募集与抗阻训练","Source_URL":"baseline://database-v3.8/04_Intervention/CORE-INT-HF-TRAIN","Source_Note":"沿用原库方法，不声称能够独立训练或测量单一FHL。"},
+    {"Reference_ID":"AFM-0008-CONTROL-MEDIAL-1","Feature_ID":"AFM-0008-CONTROL","Treatment_Goal":"足弓与足趾控制","Treatment_Method":"足内在肌募集；足弓维持训练；足趾独立控制训练","Source_URL":"baseline://database-v3.8/04_Intervention/CORE-INT-ARCH-TOE-TRAIN\nlocal-records://LR-146150af5fed#L150","Source_Note":"沿用原库控制训练方向；原记录仅证明列出足弓训练，不提供选项优先级、剂量或效果判断。"},
+    {"Reference_ID":"AFM-0056-DIFFUSE-FLEXIBILITY-1","Feature_ID":"AFM-0056-DIFFUSE","Treatment_Goal":"周围肌群牵伸","Treatment_Method":"小腿后侧肌群牵伸","Source_URL":"https://www.orthoinfo.org/diseases--conditions/shin-splints/","Source_Note":"AAOS列出小腿肌群伸展作为MTSS相关非手术参考。本项为周围肌群方法，不是对骨缘直接松解；压痛分布本身不诊断MTSS，不适用于未明确的骨应力损伤。"},
+    {"Reference_ID":"AFM-0056-DIFFUSE-SUPPORT-1","Feature_ID":"AFM-0056-DIFFUSE","Treatment_Goal":"足部支持","Treatment_Method":"足弓支持鞋垫／矫形足垫","Source_URL":"https://www.orthoinfo.org/diseases--conditions/shin-splints/","Source_Note":"AAOS的鞋垫参考针对扁平足或反复MTSS情境。仅列具体方法，由康复师结合足型与活动表现选择，不由压痛或点选自动安排。"},
+    {"Reference_ID":"AFM-0060-PRESSURE-LOCAL-1","Feature_ID":"AFM-0060-PRESSURE","Treatment_Goal":"局部辅助方法","Treatment_Method":"肌内效贴贴扎；低频电刺激","Source_URL":"local-records://LR-8cae8bc9d5d3#L77-L86\nlocal-records://LR-0063074d4117#L98-L102","Source_Note":"区域经验参考来自胫骨后肌减张贴及compex relax记录。方法用于骨缘后方相关软组织，非骨性压痛；不证明致痛组织、独立疗效或电刺激镇痛效果。"},
+    {"Reference_ID":"AFM-0060-ACTIVITY-LOCAL-1","Feature_ID":"AFM-0060-ACTIVITY","Treatment_Goal":"局部辅助方法","Treatment_Method":"肌内效贴贴扎；低频电刺激","Source_URL":"local-records://LR-8cae8bc9d5d3#L77-L86\nlocal-records://LR-0063074d4117#L98-L102","Source_Note":"沿用同区域胫骨后肌相关记录的方法清单，不由内翻或屈趾痛确定单一肌肉或自动选择处理；肌腹与肌腱需分别评估。"},
+    {"Reference_ID":"AFM-0060-TENSION-LOCAL-1","Feature_ID":"AFM-0060-TENSION","Treatment_Goal":"胫骨后肌相关软组织方法","Treatment_Method":"胫骨后肌手法松解；胫骨后肌器械辅助松解（筋膜刀）；胫骨后肌相关牵伸","Source_URL":"local-records://LR-26f2f03ac441#L24-L41\nlocal-records://LR-80e4ebf1a3b0#L75-L76\nlocal-records://LR-ca65db74a173#L78-L81","Source_Note":"线下记录支持该区域胫骨后肌方法的经验参考。没有将同一方法声称为所有深层肌肉的有效治疗，不给出强度、时长或顺序，不用于直接处理骨性压痛。"}
+  ]
+}

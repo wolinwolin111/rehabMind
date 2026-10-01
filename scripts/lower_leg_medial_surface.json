@@ -1,0 +1,16 @@
+{
+  "source_skin_sha256": "4a8d6c96029905d9c39f282fabfd2335b6067b4b1dc9605729ae85ab56e7cd9c",
+  "y_min": 0.145, "y_max": 0.405,
+  "bin_size": 0.015,
+  "medial_max_nx": -0.3,
+  "posteromedial_max_nx": -0.16,
+  "posteromedial_max_nz": -0.4,
+  "bone_min_nz": -0.18,
+  "overextended_ankle_patches": ["REG-ANKLE-MED-POST", "REG-ANKLE-MED-MAL", "REG-ANKLE-MED-ANT"],
+  "ankle_override_min_y": 0.19,
+  "areas": [
+    {"areaId":"LOC-LL-MEDIAL","displayName":"胫骨内侧缘","regionIds":["LL-R-003","LL-R-007"],"codes":{"left":69,"right":70}},
+    {"areaId":"LOC-LL-POSTMEDIAL","displayName":"小腿后内侧","regionIds":["LL-R-007","LL-R-005","LL-R-006"],"codes":{"left":71,"right":72}}
+  ],
+  "note": "按完整网格的水平截面归一化，运行时使用实际点击点校正三角面跨界。内侧包含前内侧交界，保留正前侧骨面。仅处理原表面标签为0的小腿面及y>=0.19的过长踝内侧标签，保留实际踝部、膝部及第2阶段后侧交界。皮肤方向提供区域提示，不识别深层单块肌肉。"
+}

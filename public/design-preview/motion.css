@@ -1,0 +1,32 @@
+/* Short press feedback, soft arrival, quick dismissal. */
+:root { --soft-spring: cubic-bezier(.22, 1.25, .36, 1); }
+.drawer { transform-origin: center bottom; animation: drawer-arrive 460ms both; }
+.scrim { animation: veil-arrive 240ms ease-out both; }
+.drawer-layer.is-closing .drawer { animation: drawer-depart 220ms cubic-bezier(.4, 0, .75, .4) both; }
+.drawer-layer.is-closing .scrim { animation: veil-depart 220ms ease-in both; }
+.context { transform-origin: center top; animation: card-unfold 320ms var(--soft-spring) both; }
+.focus-detail { animation: content-arrive 250ms ease-out both; }
+.muscle-card { animation: sheet-arrive 420ms var(--soft-spring) both; }
+.muscle-card, .drawer-trigger { transition: box-shadow 240ms ease, border-color 240ms ease; }
+.other summary, .drawer-trigger, .categories > span, .bottom span, .drawer .close {
+  transition: transform 260ms var(--soft-spring), background-color 180ms ease, color 180ms ease;
+}
+.other summary:active, .drawer-trigger:active { transform: scale(.985); }
+.categories > span:active, .bottom span:active { transform: scale(.95); }
+.drawer .close:active { transform: scale(.9); }
+.ui-chevron { transition: transform 340ms var(--soft-spring); }
+@keyframes drawer-arrive {
+  0% { transform: translateY(100%); }
+  68% { transform: translateY(-7px); }
+  86% { transform: translateY(2px); }
+  100% { transform: translateY(0); }
+}
+@keyframes drawer-depart { from { transform: translateY(0); } to { transform: translateY(100%); } }
+@keyframes veil-arrive { from { opacity: 0; } to { opacity: 1; } }
+@keyframes veil-depart { from { opacity: 1; } to { opacity: 0; } }
+@keyframes card-unfold { from { opacity: 0; transform: translateY(-7px) scale(.99); } to { opacity: 1; transform: none; } }
+@keyframes content-arrive { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: none; } }
+@keyframes sheet-arrive { from { opacity: 0; transform: translateY(28px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}

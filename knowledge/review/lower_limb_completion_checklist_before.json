@@ -1,0 +1,2804 @@
+{
+  "totals": {
+    "regions": 38,
+    "locations": 8,
+    "clinical_items": 124,
+    "assessment_maps": 123,
+    "extension_features": 190,
+    "extension_references": 212,
+    "audited_requests": 574,
+    "observed_features": 193,
+    "currently_empty": 34,
+    "empty_with_location_review": 10,
+    "baseline_only_maps": 36,
+    "baseline_content_pending": 25,
+    "mapped_items_missing_purpose": 29,
+    "visible_items_missing_purpose": 27,
+    "unmapped_items": 19,
+    "vague_reference_rows": 19,
+    "previous_vague_rows": 14,
+    "vague_active_reference_rows": 18,
+    "unreachable_maps": 20,
+    "unreachable_regular_maps": 2,
+    "internal_history_maps": 11,
+    "pipeline_mismatches": 0,
+    "relation_errors": 0,
+    "workbook_runtime_issues": 0,
+    "public_wording_candidates": 6,
+    "bare_visible_explanations": 5,
+    "mixed_feature_candidates": 3,
+    "overlapping_baseline_maps": 2,
+    "baseline_vague_maps": 22,
+    "abstract_presentation_candidates": 31
+  },
+  "empty_features": [
+    {
+      "feature_id": "AFM-0029-SWELLING",
+      "item_id": "AF-LT-004",
+      "item_name": "跟腱中段组织",
+      "name": "肿胀、瘀斑或突发变化",
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "description": "跟腱中段出现肿胀、瘀斑或轮廓变化，或在蹬地时突然疼痛并明显无力。",
+      "category": "独立医学评估提示",
+      "location_review": null,
+      "proposed_action": "肿胀、瘀斑与突发发力变化涉及完整性和损伤范围，撤下通用症状管理方法，保留明确排查提示。",
+      "reachable": true,
+      "row": 29
+    },
+    {
+      "feature_id": "AFM-0030-SWELLING",
+      "item_id": "AF-LT-005",
+      "item_name": "跟腱止点/跟骨后方组织",
+      "name": "肿胀、瘀斑或突发变化",
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "description": "足跟后方肿胀、瘀斑或轮廓变化，或活动时突然疼痛并明显蹬地无力。",
+      "category": "独立医学评估提示",
+      "location_review": null,
+      "proposed_action": "后足跟肿胀涉及跟腱、跟骨与滑囊，不共用止点慢性疼痛的训练方法。",
+      "reachable": true,
+      "row": 32
+    },
+    {
+      "feature_id": "AFM-0084-SYMPTOM",
+      "item_id": "KNEE-ROM-EXT",
+      "item_name": "膝伸直 ROM",
+      "name": "伸膝末端症状",
+      "modules": [
+        "KNEE",
+        "THIGH"
+      ],
+      "description": "伸膝末端活动出现局部症状反应，范围可未受限",
+      "category": "待补分组织参考",
+      "location_review": {
+        "prompt": "可回到模型选择疼痛部位，查看该部位的康复思路。",
+        "action_label": "选择疼痛部位"
+      },
+      "proposed_action": "已加重新选择提示；目标部位内容仍待完善",
+      "reachable": true,
+      "row": 55
+    },
+    {
+      "feature_id": "AFM-0085-SYMPTOM",
+      "item_id": "KNEE-ROM-FLEX",
+      "item_name": "膝屈曲 ROM",
+      "name": "屈膝末端症状",
+      "modules": [
+        "KNEE",
+        "THIGH"
+      ],
+      "description": "屈膝末端活动出现局部症状反应，范围可未受限",
+      "category": "待补分组织参考",
+      "location_review": {
+        "prompt": "可回到模型选择疼痛部位，查看该部位的康复思路。",
+        "action_label": "选择疼痛部位"
+      },
+      "proposed_action": "已加重新选择提示；目标部位内容仍待完善",
+      "reachable": true,
+      "row": 57
+    },
+    {
+      "feature_id": "AFM-0079-TUBERCLE",
+      "item_id": "KNEE-LT-INFRAPAT",
+      "item_name": "髌下/髌腱/脂肪垫/胫骨结节区域",
+      "name": "胫骨结节局部反应",
+      "modules": [
+        "KNEE"
+      ],
+      "description": "不适集中于胫骨结节，而非髌腱两侧",
+      "category": "待补适用范围与来源",
+      "location_review": null,
+      "proposed_action": "胫骨结节涉及年龄及发育背景；当前没有相应独立方法资料，不能照搬成人髌腱方法。",
+      "reachable": true,
+      "row": 69
+    },
+    {
+      "feature_id": "AFM-0080-JOINTLINE",
+      "item_id": "KNEE-LT-MEDIAL",
+      "item_name": "膝内侧局部组织",
+      "name": "内侧关节线压痛",
+      "modules": [
+        "KNEE"
+      ],
+      "description": "压痛主要位于内侧关节线",
+      "category": "待补分组织参考",
+      "location_review": null,
+      "proposed_action": "核查明确组织内容，并补对应参考",
+      "reachable": true,
+      "row": 71
+    },
+    {
+      "feature_id": "AFM-0081-LOCALISE",
+      "item_id": "KNEE-LT-LATERAL",
+      "item_name": "膝外侧局部组织",
+      "name": "外侧关节线或腓骨头压痛",
+      "modules": [
+        "KNEE"
+      ],
+      "description": "局部压痛位于外侧关节线或腓骨头邻近",
+      "category": "待补分组织参考",
+      "location_review": null,
+      "proposed_action": "核查明确组织内容，并补对应参考",
+      "reachable": true,
+      "row": 74
+    },
+    {
+      "feature_id": "AFM-0082-TENDERNESS",
+      "item_id": "KNEE-LT-POST",
+      "item_name": "膝后侧局部组织",
+      "name": "膝后深部压痛",
+      "modules": [
+        "KNEE"
+      ],
+      "description": "腘窝或后内外侧深部压迫时不适",
+      "category": "待补分组织参考",
+      "location_review": null,
+      "proposed_action": "核查明确组织内容，并补对应参考",
+      "reachable": true,
+      "row": 76
+    },
+    {
+      "feature_id": "AFM-0082-SWELLING",
+      "item_id": "KNEE-LT-POST",
+      "item_name": "膝后侧局部组织",
+      "name": "膝后包块或肿胀",
+      "modules": [
+        "KNEE"
+      ],
+      "description": "膝后可见或可触及包块、肿胀，可伴小腿症状",
+      "category": "独立医学评估提示",
+      "location_review": null,
+      "proposed_action": "膝后包块与肿胀保留排查提示，不共用常规肌肉方法。",
+      "reachable": true,
+      "row": 77
+    },
+    {
+      "feature_id": "AFM-0083-LOCALISE",
+      "item_id": "KNEE-LT-DIFFUSE",
+      "item_name": "膝周局部反应与再定位",
+      "name": "不适位置不清",
+      "modules": [
+        "KNEE"
+      ],
+      "description": "膝周多处不适，尚无明确集中位置",
+      "category": "定位与评估内容",
+      "location_review": {
+        "prompt": "可回到模型进一步选择不适部位，查看该部位的康复思路。",
+        "action_label": "选择不适部位"
+      },
+      "proposed_action": "已加重新选择提示；目标部位内容仍待完善",
+      "reachable": true,
+      "row": 80
+    },
+    {
+      "feature_id": "AFM-0097-SCREEN",
+      "item_id": "KNEE-SPT-MECH",
+      "item_name": "疼痛/功能相关机械表现检查",
+      "name": "疼痛/功能相关机械表现",
+      "modules": [
+        "KNEE"
+      ],
+      "description": "疼痛/功能相关机械表现稳定出现，或轻度支撑/动作修改改变其表现",
+      "category": "专项筛查内容",
+      "location_review": null,
+      "proposed_action": "机械表现并非独立处理对象，对应关节、肌群与动作项目另列。",
+      "reachable": true,
+      "row": 121
+    },
+    {
+      "feature_id": "AFM-0016-SCREEN",
+      "item_id": "CORE-SPT-NEURO-DISTAL",
+      "item_name": "下肢远端神经相关筛查",
+      "name": "下肢远端神经相关体征",
+      "modules": [
+        "ANKLE_FOOT",
+        "LOWER_LEG",
+        "KNEE",
+        "THIGH"
+      ],
+      "description": "症状分布与神经相关感觉/运动或张力/叩击反应一致",
+      "category": "专项筛查待完善",
+      "location_review": null,
+      "proposed_action": "远端神经筛查含多条神经，具体神经方法及范围仍需单独完善，不把筛查本身当作统一治疗对象。",
+      "reachable": true,
+      "row": 122
+    },
+    {
+      "feature_id": "AFM-0089-SCREEN",
+      "item_id": "KNEE-CHAIN-HIP-ROM",
+      "item_name": "上游髋关节活动范围",
+      "name": "膝/邻近关节活动异常或症状性",
+      "modules": [
+        "KNEE"
+      ],
+      "description": "具体活动/方向出现明确受限、左右差异、末端异常或相关症状反应",
+      "category": "相关模块暂缓",
+      "location_review": null,
+      "proposed_action": "该条为膝部关联的髋活动项目，髋模块按用户要求暂不接入。",
+      "reachable": true,
+      "row": 123
+    },
+    {
+      "feature_id": "AFM-0002-PAIN",
+      "item_id": "AF-ASM-002",
+      "item_name": "距小腿关节活动",
+      "name": "踝关节活动时疼痛",
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "description": "踝背屈、跖屈或距骨附属活动时出现疼痛；疼痛位置可能在踝前、踝后或内外踝。",
+      "category": "按疼痛位置继续查看",
+      "location_review": {
+        "prompt": "可回到模型选择疼痛部位，查看该部位的康复思路。",
+        "action_label": "选择疼痛部位"
+      },
+      "proposed_action": "已加重新选择提示；目标部位内容仍待完善",
+      "reachable": true,
+      "row": 125
+    },
+    {
+      "feature_id": "AFM-0020-PAIN",
+      "item_id": "AF-JNT-002",
+      "item_name": "距下关节活动",
+      "name": "内翻或外翻活动时疼痛",
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "description": "跟骨内翻、外翻或距下关节附属活动时，足跟、内踝或外踝附近出现疼痛。",
+      "category": "按疼痛位置继续查看",
+      "location_review": {
+        "prompt": "可回到模型选择疼痛部位，查看该部位的康复思路。",
+        "action_label": "选择疼痛部位"
+      },
+      "proposed_action": "已加重新选择提示；目标部位内容仍待完善",
+      "reachable": true,
+      "row": 128
+    },
+    {
+      "feature_id": "AFM-0058-SWELLING",
+      "item_id": "LL-LT-005",
+      "item_name": "腓肠肌肌腹/肌腱膜局部检查",
+      "name": "肿胀或局部缺损",
+      "modules": [
+        "LOWER_LEG"
+      ],
+      "description": "小腿上段后侧可见肿胀，或触诊发现局部轮廓、连续性与对侧不同。",
+      "category": "独立医学评估提示",
+      "location_review": null,
+      "proposed_action": "肿胀或缺损涉及组织损伤范围，不直接关联肌腹松解。",
+      "reachable": true,
+      "row": 137
+    },
+    {
+      "feature_id": "AFM-0056-FOCAL",
+      "item_id": "LL-LT-003",
+      "item_name": "胫骨内侧缘局部检查",
+      "name": "局灶骨性压痛",
+      "modules": [
+        "LOWER_LEG"
+      ],
+      "description": "胫骨内侧缘有较集中的骨性压痛点，负重或跑跳可能伴不适。",
+      "category": "独立医学评估提示",
+      "location_review": null,
+      "proposed_action": "局灶骨性压痛保留骨应力及外伤评估。",
+      "reachable": true,
+      "row": 140
+    },
+    {
+      "feature_id": "AFM-0041-STATE",
+      "item_id": "CORE-MUS-PT",
+      "item_name": "第三腓骨肌",
+      "name": "前外侧牵拉或发力不适",
+      "modules": [
+        "ANKLE_FOOT",
+        "LOWER_LEG"
+      ],
+      "description": "远端前外侧按压、跖屈结合内翻牵拉，或背屈结合外翻抗阻时出现不适。",
+      "category": "待补对应方法来源",
+      "location_review": null,
+      "proposed_action": "第三腓骨肌有存在差异，当前没有专属方法依据，不把长短腓骨肌方法冒充其方法。",
+      "reachable": true,
+      "row": 155
+    },
+    {
+      "feature_id": "AFM-0019-PAIN",
+      "item_id": "CORE-ROM-ANK-PF",
+      "item_name": "踝跖屈 ROM",
+      "name": "跖屈末端疼痛",
+      "modules": [
+        "ANKLE_FOOT",
+        "LOWER_LEG"
+      ],
+      "description": "踝跖屈末端出现疼痛，位置可在踝前、踝后或小腿前侧。",
+      "category": "待补分组织参考",
+      "location_review": {
+        "prompt": "可回到模型选择疼痛部位，查看该部位的康复思路。",
+        "action_label": "选择疼痛部位"
+      },
+      "proposed_action": "已加重新选择提示；目标部位内容仍待完善",
+      "reachable": true,
+      "row": 158
+    },
+    {
+      "feature_id": "AFM-0054-EXERTIONAL",
+      "item_id": "LL-LT-001",
+      "item_name": "小腿前侧局部软组织/筋膜反应",
+      "name": "运动后反复紧绷胀痛",
+      "modules": [
+        "LOWER_LEG"
+      ],
+      "description": "活动到相近时间、距离或强度后前侧反复紧绷胀痛，可伴麻木或抬脚困难。",
+      "category": "独立医学评估提示",
+      "location_review": null,
+      "proposed_action": "反复运动胀痛可涉及间室或神经血管，需要独立评估范围。",
+      "reachable": true,
+      "row": 161
+    },
+    {
+      "feature_id": "AFM-0055-FOCAL",
+      "item_id": "LL-LT-002",
+      "item_name": "胫骨前缘/前侧骨面局部检查",
+      "name": "前侧骨面局灶压痛",
+      "modules": [
+        "LOWER_LEG"
+      ],
+      "description": "胫骨前缘或前侧骨面有集中的压痛点，负重或跑跳时可能伴疼痛。",
+      "category": "独立医学评估提示",
+      "location_review": null,
+      "proposed_action": "胫骨骨面局灶压痛不直接关联软组织方法。",
+      "reachable": true,
+      "row": 162
+    },
+    {
+      "feature_id": "AFM-0055-SWELLING",
+      "item_id": "LL-LT-002",
+      "item_name": "胫骨前缘/前侧骨面局部检查",
+      "name": "骨面肿胀或负重痛",
+      "modules": [
+        "LOWER_LEG"
+      ],
+      "description": "胫骨前侧骨面附近有局部肿胀，或走路负重时疼痛，与邻近肌肉发力痛不同。",
+      "category": "独立医学评估提示",
+      "location_review": null,
+      "proposed_action": "骨面肿胀或负重困难保留外伤与骨应力评估。",
+      "reachable": true,
+      "row": 163
+    },
+    {
+      "feature_id": "AFM-0057-BONE",
+      "item_id": "LL-LT-004",
+      "item_name": "小腿外侧/腓骨肌腹与筋膜反应",
+      "name": "腓骨骨面局灶压痛",
+      "modules": [
+        "LOWER_LEG"
+      ],
+      "description": "腓骨骨面有集中的压痛点，与邻近肌腹按压不同，可伴局部肿胀或负重痛。",
+      "category": "独立医学评估提示",
+      "location_review": null,
+      "proposed_action": "腓骨骨面压痛与肌腹参考分开。",
+      "reachable": true,
+      "row": 168
+    },
+    {
+      "feature_id": "AFM-0057-EXERTIONAL",
+      "item_id": "LL-LT-004",
+      "item_name": "小腿外侧/腓骨肌腹与筋膜反应",
+      "name": "运动后反复胀痛或麻木",
+      "modules": [
+        "LOWER_LEG"
+      ],
+      "description": "活动到相近时间、距离或强度后外侧反复胀痛，可伴足背麻木或抬脚、外翻无力。",
+      "category": "独立医学评估提示",
+      "location_review": null,
+      "proposed_action": "反复运动胀痛麻木保留间室及神经血管评估。",
+      "reachable": true,
+      "row": 169
+    },
+    {
+      "feature_id": "AFM-0058-EXERTIONAL",
+      "item_id": "LL-LT-005",
+      "item_name": "腓肠肌肌腹/肌腱膜局部检查",
+      "name": "运动后反复胀痛或麻木",
+      "modules": [
+        "LOWER_LEG"
+      ],
+      "description": "活动到相近时间、距离或强度后，上段后侧反复胀痛，可伴麻木或蹬地无力。",
+      "category": "独立医学评估提示",
+      "location_review": null,
+      "proposed_action": "后侧上段反复运动胀痛麻木保留独立评估。",
+      "reachable": true,
+      "row": 171
+    },
+    {
+      "feature_id": "AFM-0059-SWELLING",
+      "item_id": "LL-LT-006",
+      "item_name": "比目鱼肌/后侧中下段局部检查",
+      "name": "肿胀或局部轮廓改变",
+      "modules": [
+        "LOWER_LEG"
+      ],
+      "description": "后侧中下段可见肿胀，或触诊时局部轮廓、连续性与对侧不同。",
+      "category": "独立医学评估提示",
+      "location_review": null,
+      "proposed_action": "后侧中下段肿胀或形态变化保留损伤与神经血管评估。",
+      "reachable": true,
+      "row": 175
+    },
+    {
+      "feature_id": "AFM-0059-EXERTIONAL",
+      "item_id": "LL-LT-006",
+      "item_name": "比目鱼肌/后侧中下段局部检查",
+      "name": "运动后反复胀痛或麻木",
+      "modules": [
+        "LOWER_LEG"
+      ],
+      "description": "活动到相近时间、距离或强度后，中下段后侧反复胀痛，可伴足部麻木或蹬地无力。",
+      "category": "独立医学评估提示",
+      "location_review": null,
+      "proposed_action": "后侧中下段反复运动胀痛麻木保留独立评估。",
+      "reachable": true,
+      "row": 176
+    },
+    {
+      "feature_id": "AFM-0026-LOCALISE",
+      "item_id": "AF-LT-001",
+      "item_name": "前踝关节线/前方软组织",
+      "name": "肌腱附近疼痛或位置未分清",
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "description": "疼痛更靠近前侧伸肌腱、脚背，或尚不能分清关节线与邻近软组织。",
+      "category": "按疼痛位置继续查看",
+      "location_review": {
+        "prompt": "可回到模型选择疼痛部位，查看前侧肌群或脚背附近的康复思路。",
+        "action_label": "选择疼痛部位"
+      },
+      "proposed_action": "已加重新选择提示；目标部位内容仍待完善",
+      "reachable": true,
+      "row": 179
+    },
+    {
+      "feature_id": "AFM-0027-BONE",
+      "item_id": "AF-LT-002",
+      "item_name": "内踝韧带与跗管邻近组织",
+      "name": "骨面压痛或外伤后明显变化",
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "description": "内踝骨面局灶压痛，或外伤后肿胀、瘀斑和负重困难，与韧带区及肌腱压痛分开查看。",
+      "category": "独立医学评估提示",
+      "location_review": null,
+      "proposed_action": "骨面压痛与外伤后明显变化保留骨折、联合及韧带损伤评估，不套用常规软组织方法。",
+      "reachable": true,
+      "row": 183
+    },
+    {
+      "feature_id": "AFM-0028-SNAPPING",
+      "item_id": "AF-LT-003",
+      "item_name": "外踝韧带与腓骨肌腱区",
+      "name": "外踝后方弹响或肌腱跳动",
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "description": "活动时外踝后方出现疼痛性弹响，或可见、可触到肌腱跳动。",
+      "category": "专项评估内容",
+      "location_review": null,
+      "proposed_action": "疼痛性弹响或肌腱跳动涉及支持带及肌腱动态情况，保留评估方向，不共用腓骨肌腱负荷训练。",
+      "reachable": true,
+      "row": 187
+    },
+    {
+      "feature_id": "AFM-0028-BONE",
+      "item_id": "AF-LT-003",
+      "item_name": "外踝韧带与腓骨肌腱区",
+      "name": "骨面压痛或外伤后明显变化",
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "description": "外踝骨面局灶压痛，或外伤后明显肿胀、瘀斑和负重困难，可同时查看第五跖骨基底附近。",
+      "category": "独立医学评估提示",
+      "location_review": null,
+      "proposed_action": "外踝骨面、第五跖骨及外伤后负重困难保留损伤评估，不绑定常规松动或训练。",
+      "reachable": true,
+      "row": 188
+    },
+    {
+      "feature_id": "AFM-0021-PAIN",
+      "item_id": "AF-JNT-003",
+      "item_name": "中足/横跗关节活动",
+      "name": "中足活动时疼痛",
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "description": "中足旋前、旋后或关节附属活动时，足弓、足背或足外侧出现疼痛。",
+      "category": "按疼痛位置继续查看",
+      "location_review": {
+        "prompt": "可回到模型选择疼痛部位，查看该部位的康复思路。",
+        "action_label": "选择疼痛部位"
+      },
+      "proposed_action": "已加重新选择提示；目标部位内容仍待完善",
+      "reachable": true,
+      "row": 189
+    },
+    {
+      "feature_id": "AFM-0048-PAIN",
+      "item_id": "CORE-MUS-FDL",
+      "item_name": "趾长屈肌",
+      "name": "伸趾牵拉或屈趾发力时疼痛",
+      "modules": [
+        "ANKLE_FOOT",
+        "LOWER_LEG"
+      ],
+      "description": "第2至5趾伸展牵拉或屈趾抗阻时，小腿后内侧、内踝或足底出现疼痛；疼痛与单纯牵拉范围受限分开查看。",
+      "category": "按疼痛位置继续查看",
+      "location_review": {
+        "prompt": "可回到模型选择疼痛部位，查看肌腹、内踝或足底对应的康复思路。",
+        "action_label": "选择疼痛部位"
+      },
+      "proposed_action": "已加重新选择提示；目标部位内容仍待完善",
+      "reachable": true,
+      "row": 190
+    },
+    {
+      "feature_id": "AFM-0047-PAIN",
+      "item_id": "CORE-MUS-FHL",
+      "item_name": "拇长屈肌",
+      "name": "拇趾牵拉或屈曲发力时疼痛",
+      "modules": [
+        "ANKLE_FOOT",
+        "LOWER_LEG"
+      ],
+      "description": "拇趾伸展牵拉或屈曲抗阻时，小腿后内侧、内踝或足底出现疼痛；疼痛与单纯牵拉范围受限分开查看。",
+      "category": "按疼痛位置继续查看",
+      "location_review": {
+        "prompt": "可回到模型选择疼痛部位，查看肌腹、内踝或足底对应的康复思路。",
+        "action_label": "选择疼痛部位"
+      },
+      "proposed_action": "已加重新选择提示；目标部位内容仍待完善",
+      "reachable": true,
+      "row": 191
+    }
+  ],
+  "baseline_only": [
+    {
+      "assessment_map_id": "AFM-0003",
+      "item_id": "AF-ASM-004",
+      "item_name": "第一MTP活动",
+      "finding_name": "第一MTP活动受限/症状性",
+      "finding_class": "JOINT_ROM",
+      "description": "第一MTP伸/屈受限或症状性",
+      "methods": [
+        "第一MTP活动改善"
+      ],
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 4
+    },
+    {
+      "assessment_map_id": "AFM-0010",
+      "item_id": "AF-TASK-001",
+      "item_name": "单腿稳定/动态控制",
+      "finding_name": "单腿/动态稳定任务表现不足",
+      "finding_class": "TASK_CONTROL",
+      "description": "单腿/动态任务显示稳定或感觉运动控制不足",
+      "methods": [
+        "单腿稳定、本体感觉/动态控制训练"
+      ],
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 11
+    },
+    {
+      "assessment_map_id": "AFM-0011",
+      "item_id": "AF-TASK-002",
+      "item_name": "提踵/推进任务表现",
+      "finding_name": "推进阶段任务参与不足",
+      "finding_class": "TASK_CONTROL",
+      "description": "走跑推进或跳跃任务显示参与、时序或控制不足",
+      "methods": [
+        "推进相关任务训练"
+      ],
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 12
+    },
+    {
+      "assessment_map_id": "AFM-0012",
+      "item_id": "AF-SPT-001",
+      "item_name": "踝前抽屉相关稳定检查",
+      "finding_name": "外侧踝机械稳定检查异常",
+      "finding_class": "SPECIAL_TEST",
+      "description": "前抽屉表现与对侧存在明确差异/终末感异常或熟悉症状再现，并有相应扭伤/不稳线索",
+      "methods": [],
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "专项检查支持信息",
+      "row": 13
+    },
+    {
+      "assessment_map_id": "AFM-0013",
+      "item_id": "AF-SPT-002",
+      "item_name": "距骨倾斜检查",
+      "finding_name": "外侧踝机械稳定检查异常",
+      "finding_class": "SPECIAL_TEST",
+      "description": "距骨倾斜表现与对侧存在明确差异或熟悉症状再现，并有CFL方向线索",
+      "methods": [],
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "专项检查支持信息",
+      "row": 14
+    },
+    {
+      "assessment_map_id": "AFM-0014",
+      "item_id": "AF-SPT-003",
+      "item_name": "下胫腓联合测试组",
+      "finding_name": "下胫腓联合相关体征组合异常",
+      "finding_class": "SPECIAL_TEST",
+      "description": "联合区压痛、外旋/挤压等组合检查形成一致的下胫腓联合线索",
+      "methods": [
+        "建议进一步医学评估/影像"
+      ],
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "专项检查支持信息",
+      "row": 15
+    },
+    {
+      "assessment_map_id": "AFM-0015",
+      "item_id": "AF-SPT-004",
+      "item_name": "Windlass足底张力反应",
+      "finding_name": "Windlass相关足底症状再现",
+      "finding_class": "LOCAL_RESPONSE",
+      "description": "负重或非负重Windlass再现熟悉的足底/足跟症状",
+      "methods": [],
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 16
+    },
+    {
+      "assessment_map_id": "AFM-0017",
+      "item_id": "AF-SAF-001",
+      "item_name": "跟腱连续性/小腿挤压安全筛查",
+      "finding_name": "跟腱连续性风险",
+      "finding_class": "SAFETY",
+      "description": "急性机制及功能丢失背景下，小腿挤压/静息张力等出现可疑连续性体征",
+      "methods": [
+        "建议进一步医学评估/影像"
+      ],
+      "modules": [],
+      "reachable": false,
+      "purpose": false,
+      "category": "医学评估提示",
+      "row": 18
+    },
+    {
+      "assessment_map_id": "AFM-0018",
+      "item_id": "AF-SAF-002",
+      "item_name": "急性外伤骨性风险筛查",
+      "finding_name": "急性骨性风险/需进一步排查",
+      "finding_class": "SAFETY",
+      "description": "急性外伤背景下骨点压痛/承重能力等达到骨折风险分流条件",
+      "methods": [
+        "建议进一步医学评估/影像"
+      ],
+      "modules": [],
+      "reachable": false,
+      "purpose": false,
+      "category": "医学评估提示",
+      "row": 19
+    },
+    {
+      "assessment_map_id": "AFM-0022",
+      "item_id": "AF-JNT-004",
+      "item_name": "第一射线/第一跗跖关节活动",
+      "finding_name": "第一射线/第一跗跖关节活动异常/症状性",
+      "finding_class": "JOINT_MOBILITY",
+      "description": "第一射线/第一TMT方向性活动异常或症状性",
+      "methods": [
+        "区域关节活动改善"
+      ],
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 23
+    },
+    {
+      "assessment_map_id": "AFM-0023",
+      "item_id": "AF-JNT-005",
+      "item_name": "小趾列 MTP 活动",
+      "finding_name": "第2–5 MTP活动受限/症状性",
+      "finding_class": "JOINT_ROM",
+      "description": "第2–5 MTP屈伸受限、左右差异或症状性",
+      "methods": [
+        "区域关节活动改善"
+      ],
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 24
+    },
+    {
+      "assessment_map_id": "AFM-0031",
+      "item_id": "AF-LT-006",
+      "item_name": "跟骨底/足跟垫",
+      "finding_name": "局部组织刺激/敏感",
+      "finding_class": "LOCAL_TISSUE",
+      "description": "该定位的触诊、压缩或牵拉刺激出现明确局部组织敏感或症状反应",
+      "methods": [
+        "局部症状管理与辅助处理"
+      ],
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 32
+    },
+    {
+      "assessment_map_id": "AFM-0032",
+      "item_id": "AF-LT-007",
+      "item_name": "足底筋膜内侧带",
+      "finding_name": "局部组织刺激/敏感",
+      "finding_class": "LOCAL_TISSUE",
+      "description": "该定位的触诊、压缩或牵拉刺激出现明确局部组织敏感或症状反应",
+      "methods": [
+        "局部症状管理与辅助处理"
+      ],
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 33
+    },
+    {
+      "assessment_map_id": "AFM-0033",
+      "item_id": "AF-LT-008",
+      "item_name": "舟骨/胫骨后肌止点区",
+      "finding_name": "局部组织刺激/敏感",
+      "finding_class": "LOCAL_TISSUE",
+      "description": "该定位的触诊、压缩或牵拉刺激出现明确局部组织敏感或症状反应",
+      "methods": [
+        "局部症状管理与辅助处理"
+      ],
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 34
+    },
+    {
+      "assessment_map_id": "AFM-0034",
+      "item_id": "AF-LT-009",
+      "item_name": "第五跖骨基底/腓骨短肌止点区",
+      "finding_name": "局部组织刺激/敏感",
+      "finding_class": "LOCAL_TISSUE",
+      "description": "该定位的触诊、压缩或牵拉刺激出现明确局部组织敏感或症状反应",
+      "methods": [
+        "局部症状管理与辅助处理"
+      ],
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 35
+    },
+    {
+      "assessment_map_id": "AFM-0035",
+      "item_id": "AF-LT-010",
+      "item_name": "中足背侧关节线/伸肌腱区",
+      "finding_name": "局部组织刺激/敏感",
+      "finding_class": "LOCAL_TISSUE",
+      "description": "该定位的触诊、压缩或牵拉刺激出现明确局部组织敏感或症状反应",
+      "methods": [
+        "局部症状管理与辅助处理"
+      ],
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 36
+    },
+    {
+      "assessment_map_id": "AFM-0036",
+      "item_id": "AF-LT-011",
+      "item_name": "跖骨头/跖板区域",
+      "finding_name": "局部组织刺激/敏感",
+      "finding_class": "LOCAL_TISSUE",
+      "description": "该定位的触诊、压缩或牵拉刺激出现明确局部组织敏感或症状反应",
+      "methods": [
+        "局部症状管理与辅助处理"
+      ],
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 37
+    },
+    {
+      "assessment_map_id": "AFM-0037",
+      "item_id": "AF-LT-012",
+      "item_name": "第一MTP/籽骨复合体",
+      "finding_name": "局部组织刺激/敏感",
+      "finding_class": "LOCAL_TISSUE",
+      "description": "该定位的触诊、压缩或牵拉刺激出现明确局部组织敏感或症状反应",
+      "methods": [
+        "局部症状管理与辅助处理"
+      ],
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 38
+    },
+    {
+      "assessment_map_id": "AFM-0049",
+      "item_id": "CORE-MUS-PLANTARIS",
+      "item_name": "跖肌",
+      "finding_name": "相关肌肉张力/长度或局部症状异常",
+      "finding_class": "MUSCLE_STATE",
+      "description": "该肌肉的触诊、长度/张力存在明显异常",
+      "methods": [
+        "局部软组织处理与活动改善"
+      ],
+      "modules": [
+        "ANKLE_FOOT",
+        "LOWER_LEG"
+      ],
+      "reachable": false,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 50
+    },
+    {
+      "assessment_map_id": "AFM-0050",
+      "item_id": "AF-MUS-014",
+      "item_name": "拇展肌",
+      "finding_name": "相关肌肉张力/长度或局部症状异常",
+      "finding_class": "MUSCLE_STATE",
+      "description": "该肌肉的触诊、长度/张力存在明显异常",
+      "methods": [
+        "局部软组织处理与活动改善"
+      ],
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 51
+    },
+    {
+      "assessment_map_id": "AFM-0051",
+      "item_id": "AF-MUS-015",
+      "item_name": "拇收肌",
+      "finding_name": "相关肌肉张力/长度或局部症状异常",
+      "finding_class": "MUSCLE_STATE",
+      "description": "该肌肉的触诊、长度/张力存在明显异常",
+      "methods": [
+        "局部软组织处理与活动改善"
+      ],
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 52
+    },
+    {
+      "assessment_map_id": "AFM-0052",
+      "item_id": "AF-MUS-016",
+      "item_name": "趾短屈肌",
+      "finding_name": "相关肌肉张力/长度或局部症状异常",
+      "finding_class": "MUSCLE_STATE",
+      "description": "该肌肉的触诊、长度/张力存在明显异常",
+      "methods": [
+        "局部软组织处理与活动改善"
+      ],
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 53
+    },
+    {
+      "assessment_map_id": "AFM-0053",
+      "item_id": "AF-MUS-017",
+      "item_name": "拇短屈肌",
+      "finding_name": "相关肌肉张力/长度或局部症状异常",
+      "finding_class": "MUSCLE_STATE",
+      "description": "该肌肉的触诊、长度/张力存在明显异常",
+      "methods": [
+        "局部软组织处理与活动改善"
+      ],
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": false,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 54
+    },
+    {
+      "assessment_map_id": "AFM-0061",
+      "item_id": "LL-SPT-001",
+      "item_name": "运动诱发间室/神经血管线索筛查",
+      "finding_name": "运动诱发间室/神经血管模式可疑",
+      "finding_class": "FURTHER_ASSESSMENT",
+      "description": "固定时间/距离/强度后反复出现紧绷、胀痛、烧灼、麻木或短暂无力，并在停止运动后明显缓解",
+      "methods": [
+        "进一步运动医学/间室专项评估"
+      ],
+      "modules": [
+        "LOWER_LEG"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "专项评估提示",
+      "row": 62
+    },
+    {
+      "assessment_map_id": "AFM-0062",
+      "item_id": "LL-SAF-001",
+      "item_name": "胫骨骨应力风险筛查",
+      "finding_name": "急性骨性风险/需进一步排查",
+      "finding_class": "SAFETY",
+      "description": "胫骨症状伴明显局灶骨性压痛、负重/冲击逐步加重、症状出现越来越早或日常负重明显受限",
+      "methods": [
+        "建议进一步医学评估/影像"
+      ],
+      "modules": [],
+      "reachable": false,
+      "purpose": false,
+      "category": "医学评估提示",
+      "row": 63
+    },
+    {
+      "assessment_map_id": "AFM-0063",
+      "item_id": "CORE-SAF-ACS",
+      "item_name": "急性小腿间室综合征风险筛查",
+      "finding_name": "急性肢体间室综合征风险",
+      "finding_class": "SAFETY",
+      "description": "急性创伤/骨折/挤压背景下出现进行性剧痛、疼痛不相称、被动牵伸明显加重、紧张肿胀或神经症状",
+      "methods": [
+        "建议进一步医学评估/影像"
+      ],
+      "modules": [],
+      "reachable": false,
+      "purpose": false,
+      "category": "医学评估提示",
+      "row": 64
+    },
+    {
+      "assessment_map_id": "AFM-0064",
+      "item_id": "CORE-SAF-VTE",
+      "item_name": "小腿静脉血栓风险筛查",
+      "finding_name": "下肢静脉血栓风险",
+      "finding_class": "SAFETY",
+      "description": "无法用明确运动损伤解释的单侧小腿痛/压痛伴肿胀、温热、发红/变色，结合VTE危险背景",
+      "methods": [
+        "建议进一步医学评估/影像"
+      ],
+      "modules": [],
+      "reachable": false,
+      "purpose": false,
+      "category": "医学评估提示",
+      "row": 65
+    },
+    {
+      "assessment_map_id": "AFM-0098",
+      "item_id": "KNEE-SAF-001",
+      "item_name": "膝部需要额外医学评估的伴随表现筛查",
+      "finding_name": "膝部需要额外医学评估的安全线索",
+      "finding_class": "SAFETY",
+      "description": "结构化伴随表现达到Safety筛查条件",
+      "methods": [
+        "建议进一步医学评估/影像"
+      ],
+      "modules": [],
+      "reachable": false,
+      "purpose": false,
+      "category": "医学评估提示",
+      "row": 99
+    },
+    {
+      "assessment_map_id": "AFM-0099",
+      "item_id": "THIGH-LT-001",
+      "item_name": "大腿前侧局部软组织/肌筋膜反应",
+      "finding_name": "局部组织刺激/敏感",
+      "finding_class": "LOCAL_TISSUE",
+      "description": "该大腿区域触诊或牵拉刺激出现明确局部症状反应",
+      "methods": [
+        "局部症状管理与辅助处理"
+      ],
+      "modules": [
+        "THIGH"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 100
+    },
+    {
+      "assessment_map_id": "AFM-0101",
+      "item_id": "THIGH-LT-003",
+      "item_name": "大腿内侧局部软组织/肌腱膜反应",
+      "finding_name": "局部组织刺激/敏感",
+      "finding_class": "LOCAL_TISSUE",
+      "description": "该大腿区域触诊或牵拉刺激出现明确局部症状反应",
+      "methods": [
+        "局部症状管理与辅助处理"
+      ],
+      "modules": [
+        "THIGH"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 102
+    },
+    {
+      "assessment_map_id": "AFM-0102",
+      "item_id": "THIGH-LT-004",
+      "item_name": "大腿外侧/髂胫束周围局部组织反应",
+      "finding_name": "局部组织刺激/敏感",
+      "finding_class": "LOCAL_TISSUE",
+      "description": "该大腿区域触诊或牵拉刺激出现明确局部症状反应",
+      "methods": [
+        "局部症状管理与辅助处理"
+      ],
+      "modules": [
+        "THIGH"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 103
+    },
+    {
+      "assessment_map_id": "AFM-0103",
+      "item_id": "THIGH-MUS-AL",
+      "item_name": "内收长肌",
+      "finding_name": "相关肌肉张力/长度或局部症状异常",
+      "finding_class": "MUSCLE_STATE",
+      "description": "该肌肉的触诊、长度/张力存在明显异常",
+      "methods": [
+        "局部软组织处理与活动改善"
+      ],
+      "modules": [
+        "THIGH"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 104
+    },
+    {
+      "assessment_map_id": "AFM-0104",
+      "item_id": "THIGH-MUS-AB",
+      "item_name": "内收短肌",
+      "finding_name": "相关肌肉张力/长度或局部症状异常",
+      "finding_class": "MUSCLE_STATE",
+      "description": "该肌肉的触诊、长度/张力存在明显异常",
+      "methods": [
+        "局部软组织处理与活动改善"
+      ],
+      "modules": [
+        "THIGH"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 105
+    },
+    {
+      "assessment_map_id": "AFM-0105",
+      "item_id": "THIGH-MUS-AM",
+      "item_name": "内收大肌",
+      "finding_name": "相关肌肉张力/长度或局部症状异常",
+      "finding_class": "MUSCLE_STATE",
+      "description": "该肌肉的触诊、长度/张力存在明显异常",
+      "methods": [
+        "局部软组织处理与活动改善"
+      ],
+      "modules": [
+        "THIGH"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 106
+    },
+    {
+      "assessment_map_id": "AFM-0107",
+      "item_id": "THIGH-CAP-ADD",
+      "item_name": "髋内收肌群能力",
+      "finding_name": "相关肌群/功能能力不足",
+      "finding_class": "CAPACITY",
+      "description": "内收等长/动态或离心能力检查显示明确不足、左右差异或任务相关能力缺口",
+      "methods": [
+        "渐进能力训练"
+      ],
+      "modules": [
+        "THIGH"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 108
+    },
+    {
+      "assessment_map_id": "AFM-0108",
+      "item_id": "THIGH-SAF-001",
+      "item_name": "股骨骨应力/骨性风险筛查",
+      "finding_name": "急性骨性风险/需进一步排查",
+      "finding_class": "SAFETY",
+      "description": "深部/局灶大腿痛伴负重或冲击逐步加重、局灶骨性压痛/敲击或承重明显受限等骨性风险线索",
+      "methods": [
+        "建议进一步医学评估/影像"
+      ],
+      "modules": [],
+      "reachable": false,
+      "purpose": false,
+      "category": "医学评估提示",
+      "row": 109
+    }
+  ],
+  "missing_purposes": [
+    {
+      "item_id": "AF-ASM-004",
+      "name": "第一MTP活动",
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "check_focus": "伸展/屈曲及推进相关症状"
+    },
+    {
+      "item_id": "CORE-MUS-PLANTARIS",
+      "name": "跖肌",
+      "modules": [
+        "ANKLE_FOOT",
+        "LOWER_LEG"
+      ],
+      "reachable": false,
+      "check_focus": "细长肌腱，常沿跟腱内侧走行；解剖变异较大，仅作条件性检查对象"
+    },
+    {
+      "item_id": "AF-MUS-014",
+      "name": "拇展肌",
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "check_focus": "内侧足弓与拇趾内侧稳定相关；用于足弓、第一射线及拇趾控制思路"
+    },
+    {
+      "item_id": "AF-MUS-015",
+      "name": "拇收肌",
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "check_focus": "第一MTP横向稳定、拇趾排列及前足横向控制相关；不泛化为所有足弓问题"
+    },
+    {
+      "item_id": "AF-MUS-016",
+      "name": "趾短屈肌",
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "check_focus": "足底中央、趾屈及足弓局部控制相关"
+    },
+    {
+      "item_id": "AF-MUS-017",
+      "name": "拇短屈肌",
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": false,
+      "check_focus": "第一MTP跖侧、籽骨复合体及局部动态稳定相关；以条件性评估为主"
+    },
+    {
+      "item_id": "AF-JNT-004",
+      "name": "第一射线/第一跗跖关节活动",
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "check_focus": "第一射线背跖向活动及第一TMT稳定/活动表现"
+    },
+    {
+      "item_id": "AF-JNT-005",
+      "name": "小趾列 MTP 活动",
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "check_focus": "第2–5 MTP 屈伸、症状及跖骨头负荷反应"
+    },
+    {
+      "item_id": "AF-LT-006",
+      "name": "跟骨底/足跟垫",
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "check_focus": "跟骨内侧结节、足跟垫及局部承重压痛反应"
+    },
+    {
+      "item_id": "AF-LT-007",
+      "name": "足底筋膜内侧带",
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "check_focus": "足底筋膜近端及内侧带走行的压痛、牵拉/负荷反应"
+    },
+    {
+      "item_id": "AF-LT-008",
+      "name": "舟骨/胫骨后肌止点区",
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "check_focus": "舟骨结节及胫骨后肌腱止点邻近的局部压痛与负荷反应"
+    },
+    {
+      "item_id": "AF-LT-009",
+      "name": "第五跖骨基底/腓骨短肌止点区",
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "check_focus": "第五跖骨基底及腓骨短肌止点邻近的局部压痛与牵拉/抗阻反应"
+    },
+    {
+      "item_id": "AF-LT-010",
+      "name": "中足背侧关节线/伸肌腱区",
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "check_focus": "中足背侧关节线、伸肌腱走行及局部压迫/活动反应"
+    },
+    {
+      "item_id": "AF-LT-011",
+      "name": "跖骨头/跖板区域",
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "check_focus": "第2–5跖骨头、跖板及邻近软组织的跖侧压痛与负荷反应"
+    },
+    {
+      "item_id": "AF-LT-012",
+      "name": "第一MTP/籽骨复合体",
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "check_focus": "第一MTP关节线、跖侧籽骨复合体及邻近软组织的压痛与推进负荷反应"
+    },
+    {
+      "item_id": "AF-TASK-001",
+      "name": "单腿稳定/动态控制",
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "check_focus": "单腿站、动态平衡、落地或变向任务中的感觉运动控制；不能仅凭静态姿势生成评估结果"
+    },
+    {
+      "item_id": "AF-TASK-002",
+      "name": "提踵/推进任务表现",
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "check_focus": "走跑推进、提踵、加速或跳跃中的参与、时序和代偿；必须来自实际任务观察"
+    },
+    {
+      "item_id": "AF-SPT-001",
+      "name": "踝前抽屉相关稳定检查",
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "check_focus": "仅在外侧扭伤/反复打软/不稳或ATFL方向线索下检查；比较松弛、终末感和症状，不单项定性"
+    },
+    {
+      "item_id": "AF-SPT-002",
+      "name": "距骨倾斜检查",
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "check_focus": "CFL/外踝下方稳定方向补充；不与前抽屉默认捆绑，仅有相应线索时追加"
+    },
+    {
+      "item_id": "AF-SPT-003",
+      "name": "下胫腓联合测试组",
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "check_focus": "结合联合区压痛、外旋应力/挤压等检查；单项不确认下胫腓联合损伤"
+    },
+    {
+      "item_id": "AF-SPT-004",
+      "name": "Windlass足底张力反应",
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "check_focus": "负重优先，观察第一MTP背伸是否再现熟悉的足底/足跟症状；作为支持性反应，不单项确诊"
+    },
+    {
+      "item_id": "LL-SPT-001",
+      "name": "运动诱发间室/神经血管线索筛查",
+      "modules": [
+        "LOWER_LEG"
+      ],
+      "reachable": true,
+      "check_focus": "仅在固定时间/距离或强度后反复出现紧绷、胀痛、烧灼、麻木或短暂无力，并在停止运动后明显缓解时进入；用于提示进一步医学/专项评估，不单独诊断CECS"
+    },
+    {
+      "item_id": "THIGH-LT-001",
+      "name": "大腿前侧局部软组织/肌筋膜反应",
+      "modules": [
+        "THIGH"
+      ],
+      "reachable": true,
+      "check_focus": "检查前侧肌腹、筋膜及局部压痛/肿胀/相关症状复制；结合膝屈拉长、主动膝伸和直接撞击史"
+    },
+    {
+      "item_id": "THIGH-LT-003",
+      "name": "大腿内侧局部软组织/肌腱膜反应",
+      "modules": [
+        "THIGH"
+      ],
+      "reachable": true,
+      "check_focus": "检查内侧肌腹/肌腱膜压痛、肿胀和相关症状；结合外展拉长、内收抗阻及侧向/变向任务"
+    },
+    {
+      "item_id": "THIGH-LT-004",
+      "name": "大腿外侧/髂胫束周围局部组织反应",
+      "modules": [
+        "THIGH"
+      ],
+      "reachable": true,
+      "check_focus": "检查股外侧肌、阔筋膜张肌邻近和髂胫束周围局部压痛、组织滑动/牵扯与任务相关反应；不把髂胫束当作单一可拉长肌肉"
+    },
+    {
+      "item_id": "THIGH-MUS-AL",
+      "name": "内收长肌",
+      "modules": [
+        "THIGH"
+      ],
+      "reachable": true,
+      "check_focus": "大腿内侧较表浅；检查触诊敏感、长度/拉长反应及内收抗阻症状"
+    },
+    {
+      "item_id": "THIGH-MUS-AB",
+      "name": "内收短肌",
+      "modules": [
+        "THIGH"
+      ],
+      "reachable": true,
+      "check_focus": "大腿近端内侧较深层；仅在内侧深层/近端线索或其他内收肌不能解释时提高关注"
+    },
+    {
+      "item_id": "THIGH-MUS-AM",
+      "name": "内收大肌",
+      "modules": [
+        "THIGH"
+      ],
+      "reachable": true,
+      "check_focus": "大腿内侧/后内侧广泛分布；检查局部敏感、拉长反应及内收/后侧链任务相关表现"
+    },
+    {
+      "item_id": "THIGH-CAP-ADD",
+      "name": "髋内收肌群能力",
+      "modules": [
+        "THIGH"
+      ],
+      "reachable": true,
+      "check_focus": "优先用标准化等长内收评估：固定测试体位、夹持位置和设备；可采用髋屈约45°的adductor squeeze作为常用重复方案，记录疼痛与压力/力值。需要左右侧定量时再补单侧HHD内收。动态/离心能力仅在侧向、变向等任务需求明确时追加；能力不足必须由实际测试确认。"
+    }
+  ],
+  "vague_references": [
+    {
+      "reference_id": "AFM-0065-SENSITIVITY-1",
+      "feature_id": "AFM-0065-SENSITIVITY",
+      "item_id": "CORE-MUS-RF",
+      "item_name": "股直肌",
+      "finding": "局部敏感",
+      "methods": "调整诱发动作负荷；低刺激主动活动",
+      "previously_counted": true,
+      "item_status": "Stable",
+      "reachable": true,
+      "row": 4
+    },
+    {
+      "reference_id": "AFM-0066-SENSITIVITY-1",
+      "feature_id": "AFM-0066-SENSITIVITY",
+      "item_id": "CORE-MUS-VL",
+      "item_name": "股外侧肌",
+      "finding": "局部敏感",
+      "methods": "调整诱发动作负荷；低刺激主动活动",
+      "previously_counted": true,
+      "item_status": "Stable",
+      "reachable": true,
+      "row": 7
+    },
+    {
+      "reference_id": "AFM-0067-SENSITIVITY-1",
+      "feature_id": "AFM-0067-SENSITIVITY",
+      "item_id": "CORE-MUS-VM",
+      "item_name": "股内侧肌",
+      "finding": "局部敏感",
+      "methods": "调整诱发动作负荷；低刺激主动活动",
+      "previously_counted": true,
+      "item_status": "Stable",
+      "reachable": true,
+      "row": 10
+    },
+    {
+      "reference_id": "AFM-0069-SENSITIVITY-1",
+      "feature_id": "AFM-0069-SENSITIVITY",
+      "item_id": "CORE-MUS-BF",
+      "item_name": "股二头肌",
+      "finding": "局部敏感",
+      "methods": "调整诱发动作负荷；低刺激主动活动",
+      "previously_counted": true,
+      "item_status": "Stable",
+      "reachable": true,
+      "row": 13
+    },
+    {
+      "reference_id": "AFM-0070-SENSITIVITY-1",
+      "feature_id": "AFM-0070-SENSITIVITY",
+      "item_id": "CORE-MUS-ST",
+      "item_name": "半腱肌",
+      "finding": "局部敏感",
+      "methods": "调整诱发动作负荷；低刺激主动活动",
+      "previously_counted": true,
+      "item_status": "Stable",
+      "reachable": true,
+      "row": 16
+    },
+    {
+      "reference_id": "AFM-0071-SENSITIVITY-1",
+      "feature_id": "AFM-0071-SENSITIVITY",
+      "item_id": "CORE-MUS-SM",
+      "item_name": "半膜肌",
+      "finding": "局部敏感",
+      "methods": "调整诱发动作负荷；低刺激主动活动",
+      "previously_counted": true,
+      "item_status": "Stable",
+      "reachable": true,
+      "row": 19
+    },
+    {
+      "reference_id": "AFM-0075-SENSITIVITY-1",
+      "feature_id": "AFM-0075-SENSITIVITY",
+      "item_id": "KNEE-MUS-LAT-CHAIN",
+      "item_name": "阔筋膜张肌 / 外侧链相关",
+      "finding": "局部敏感",
+      "methods": "调整诱发动作负荷；低刺激主动活动",
+      "previously_counted": true,
+      "item_status": "Stable",
+      "reachable": true,
+      "row": 22
+    },
+    {
+      "reference_id": "AFM-0096-CAPACITY-1",
+      "feature_id": "AFM-0096-CAPACITY",
+      "item_id": "KNEE-TASK-DYN",
+      "item_name": "任务特异的下肢动态控制",
+      "finding": "任务中动态控制不足",
+      "methods": "相关任务动作控制训练；髋膝踝协同训练",
+      "previously_counted": false,
+      "item_status": "Internal",
+      "reachable": false,
+      "row": 24
+    },
+    {
+      "reference_id": "AFM-0068-SENSITIVITY-1",
+      "feature_id": "AFM-0068-SENSITIVITY",
+      "item_id": "CORE-MUS-VI",
+      "item_name": "股中间肌",
+      "finding": "局部敏感",
+      "methods": "调整诱发动作负荷；低刺激主动活动",
+      "previously_counted": true,
+      "item_status": "Stable",
+      "reachable": true,
+      "row": 43
+    },
+    {
+      "reference_id": "AFM-0077-SENSITIVITY-1",
+      "feature_id": "AFM-0077-SENSITIVITY",
+      "item_id": "KNEE-MUS-HIPFLEX",
+      "item_name": "髂腰肌及髋屈相关肌群",
+      "finding": "局部敏感",
+      "methods": "调整诱发动作负荷；低刺激主动活动",
+      "previously_counted": true,
+      "item_status": "Stable",
+      "reachable": true,
+      "row": 45
+    },
+    {
+      "reference_id": "AFM-0074-SENSITIVITY-1",
+      "feature_id": "AFM-0074-SENSITIVITY",
+      "item_id": "KNEE-MUS-ADD",
+      "item_name": "内收肌群",
+      "finding": "局部敏感",
+      "methods": "调整诱发动作负荷；低刺激主动活动",
+      "previously_counted": true,
+      "item_status": "Stable",
+      "reachable": true,
+      "row": 48
+    },
+    {
+      "reference_id": "AFM-0072-SENSITIVITY-1",
+      "feature_id": "AFM-0072-SENSITIVITY",
+      "item_id": "CORE-MUS-SART",
+      "item_name": "缝匠肌",
+      "finding": "局部敏感",
+      "methods": "调整诱发动作负荷；低刺激主动活动",
+      "previously_counted": true,
+      "item_status": "Stable",
+      "reachable": true,
+      "row": 50
+    },
+    {
+      "reference_id": "AFM-0073-SENSITIVITY-1",
+      "feature_id": "AFM-0073-SENSITIVITY",
+      "item_id": "CORE-MUS-GRAC",
+      "item_name": "股薄肌",
+      "finding": "局部敏感",
+      "methods": "调整诱发动作负荷；低刺激主动活动",
+      "previously_counted": true,
+      "item_status": "Stable",
+      "reachable": true,
+      "row": 52
+    },
+    {
+      "reference_id": "AFM-0094-CAPACITY-1",
+      "feature_id": "AFM-0094-CAPACITY",
+      "item_id": "KNEE-CAP-PES",
+      "item_name": "鹅足相关肌群募集/能力",
+      "finding": "鹅足相关肌群输出不足",
+      "methods": "相关肌群针对性抗阻训练",
+      "previously_counted": false,
+      "item_status": "Stable",
+      "reachable": true,
+      "row": 56
+    },
+    {
+      "reference_id": "AFM-0086-SYMPTOM-1",
+      "feature_id": "AFM-0086-SYMPTOM",
+      "item_id": "KNEE-JNT-PF",
+      "item_name": "髌股关节活动",
+      "finding": "髌骨方向性末端症状",
+      "methods": "可耐受范围内的主动活动；相关任务负荷调整",
+      "previously_counted": false,
+      "item_status": "Stable",
+      "reachable": true,
+      "row": 60
+    },
+    {
+      "reference_id": "AFM-0088-SYMPTOM-1",
+      "feature_id": "AFM-0088-SYMPTOM",
+      "item_id": "KNEE-JNT-TIBROT",
+      "item_name": "胫骨旋转/膝末端方向性活动",
+      "finding": "胫骨旋转末端症状",
+      "methods": "可耐受范围内的主动活动；相关任务负荷调整",
+      "previously_counted": false,
+      "item_status": "Stable",
+      "reachable": true,
+      "row": 62
+    },
+    {
+      "reference_id": "AFM-0087-SYMPTOM-1",
+      "feature_id": "AFM-0087-SYMPTOM",
+      "item_id": "KNEE-JNT-PROXTF",
+      "item_name": "近端胫腓关节活动",
+      "finding": "近端胫腓关节末端症状",
+      "methods": "可耐受范围内的主动活动；相关任务负荷调整",
+      "previously_counted": false,
+      "item_status": "Stable",
+      "reachable": true,
+      "row": 64
+    },
+    {
+      "reference_id": "AFM-0106-BASELINE-METHODS",
+      "feature_id": "AFM-0106-BASELINE",
+      "item_id": "THIGH-MUS-TFL",
+      "item_name": "阔筋膜张肌",
+      "finding": "相关肌肉张力/长度或局部症状异常",
+      "methods": "局部软组织处理与活动改善",
+      "previously_counted": true,
+      "item_status": "Stable",
+      "reachable": true,
+      "row": 146
+    },
+    {
+      "reference_id": "AFM-0100-BASELINE-METHODS",
+      "feature_id": "AFM-0100-BASELINE",
+      "item_id": "THIGH-LT-002",
+      "item_name": "大腿后侧局部软组织/肌腱膜反应",
+      "finding": "局部组织刺激/敏感",
+      "methods": "局部症状管理与辅助处理",
+      "previously_counted": true,
+      "item_status": "Stable",
+      "reachable": true,
+      "row": 148
+    }
+  ],
+  "unreachable_maps": [
+    {
+      "assessment_map_id": "AFM-0017",
+      "item_id": "AF-SAF-001",
+      "name": "跟腱连续性/小腿挤压安全筛查",
+      "finding_class": "SAFETY",
+      "item_status": "Stable",
+      "placements": [],
+      "rules": [],
+      "public_rules": [],
+      "reason": "安全内容，需单独核查风险提示入口"
+    },
+    {
+      "assessment_map_id": "AFM-0018",
+      "item_id": "AF-SAF-002",
+      "name": "急性外伤骨性风险筛查",
+      "finding_class": "SAFETY",
+      "item_status": "Stable",
+      "placements": [],
+      "rules": [],
+      "public_rules": [],
+      "reason": "安全内容，需单独核查风险提示入口"
+    },
+    {
+      "assessment_map_id": "AFM-0049",
+      "item_id": "CORE-MUS-PLANTARIS",
+      "name": "跖肌",
+      "finding_class": "MUSCLE_STATE",
+      "item_status": "Stable",
+      "placements": [
+        {
+          "region": "AF-R-004",
+          "mode": "LINKED",
+          "context_link": null
+        },
+        {
+          "region": "AF-R-005",
+          "mode": "LINKED",
+          "context_link": null
+        },
+        {
+          "region": "LL-R-005",
+          "mode": "LINKED",
+          "context_link": null
+        }
+      ],
+      "rules": [],
+      "public_rules": [],
+      "reason": "只有条件显示位置，没有可用公开关联入口"
+    },
+    {
+      "assessment_map_id": "AFM-0053",
+      "item_id": "AF-MUS-017",
+      "name": "拇短屈肌",
+      "finding_class": "MUSCLE_STATE",
+      "item_status": "Stable",
+      "placements": [
+        {
+          "region": "AF-R-012",
+          "mode": "LINKED",
+          "context_link": null
+        }
+      ],
+      "rules": [],
+      "public_rules": [],
+      "reason": "只有条件显示位置，没有可用公开关联入口"
+    },
+    {
+      "assessment_map_id": "AFM-0062",
+      "item_id": "LL-SAF-001",
+      "name": "胫骨骨应力风险筛查",
+      "finding_class": "SAFETY",
+      "item_status": "Stable",
+      "placements": [],
+      "rules": [],
+      "public_rules": [],
+      "reason": "安全内容，需单独核查风险提示入口"
+    },
+    {
+      "assessment_map_id": "AFM-0063",
+      "item_id": "CORE-SAF-ACS",
+      "name": "急性小腿间室综合征风险筛查",
+      "finding_class": "SAFETY",
+      "item_status": "Stable",
+      "placements": [],
+      "rules": [],
+      "public_rules": [],
+      "reason": "安全内容，需单独核查风险提示入口"
+    },
+    {
+      "assessment_map_id": "AFM-0064",
+      "item_id": "CORE-SAF-VTE",
+      "name": "小腿静脉血栓风险筛查",
+      "finding_class": "SAFETY",
+      "item_status": "Stable",
+      "placements": [],
+      "rules": [],
+      "public_rules": [],
+      "reason": "安全内容，需单独核查风险提示入口"
+    },
+    {
+      "assessment_map_id": "AFM-0096",
+      "item_id": "KNEE-TASK-DYN",
+      "name": "任务特异的下肢动态控制",
+      "finding_class": "TASK_CONTROL",
+      "item_status": "Internal",
+      "placements": [],
+      "rules": [],
+      "public_rules": [],
+      "reason": "已停用的历史内部项目，不属于当前产品缺项"
+    },
+    {
+      "assessment_map_id": "AFM-0098",
+      "item_id": "KNEE-SAF-001",
+      "name": "膝部需要额外医学评估的伴随表现筛查",
+      "finding_class": "SAFETY",
+      "item_status": "Stable",
+      "placements": [],
+      "rules": [],
+      "public_rules": [],
+      "reason": "安全内容，需单独核查风险提示入口"
+    },
+    {
+      "assessment_map_id": "AFM-0108",
+      "item_id": "THIGH-SAF-001",
+      "name": "股骨骨应力/骨性风险筛查",
+      "finding_class": "SAFETY",
+      "item_status": "Stable",
+      "placements": [],
+      "rules": [],
+      "public_rules": [],
+      "reason": "安全内容，需单独核查风险提示入口"
+    },
+    {
+      "assessment_map_id": "AFM-0109",
+      "item_id": "KNEE-TASK-WALK",
+      "name": "步行",
+      "finding_class": "TASK_CONTROL",
+      "item_status": "Internal",
+      "placements": [],
+      "rules": [],
+      "public_rules": [],
+      "reason": "已停用的历史内部项目，不属于当前产品缺项"
+    },
+    {
+      "assessment_map_id": "AFM-0110",
+      "item_id": "KNEE-TASK-SQUAT",
+      "name": "下蹲",
+      "finding_class": "TASK_CONTROL",
+      "item_status": "Internal",
+      "placements": [],
+      "rules": [],
+      "public_rules": [],
+      "reason": "已停用的历史内部项目，不属于当前产品缺项"
+    },
+    {
+      "assessment_map_id": "AFM-0111",
+      "item_id": "KNEE-TASK-STEPUP",
+      "name": "上台阶",
+      "finding_class": "TASK_CONTROL",
+      "item_status": "Internal",
+      "placements": [],
+      "rules": [],
+      "public_rules": [],
+      "reason": "已停用的历史内部项目，不属于当前产品缺项"
+    },
+    {
+      "assessment_map_id": "AFM-0112",
+      "item_id": "KNEE-TASK-STEPDOWN",
+      "name": "下台阶",
+      "finding_class": "TASK_CONTROL",
+      "item_status": "Internal",
+      "placements": [],
+      "rules": [],
+      "public_rules": [],
+      "reason": "已停用的历史内部项目，不属于当前产品缺项"
+    },
+    {
+      "assessment_map_id": "AFM-0113",
+      "item_id": "KNEE-TASK-SLSQUAT",
+      "name": "单腿下蹲",
+      "finding_class": "TASK_CONTROL",
+      "item_status": "Internal",
+      "placements": [],
+      "rules": [],
+      "public_rules": [],
+      "reason": "已停用的历史内部项目，不属于当前产品缺项"
+    },
+    {
+      "assessment_map_id": "AFM-0114",
+      "item_id": "KNEE-TASK-RUN",
+      "name": "跑步",
+      "finding_class": "TASK_CONTROL",
+      "item_status": "Internal",
+      "placements": [],
+      "rules": [],
+      "public_rules": [],
+      "reason": "已停用的历史内部项目，不属于当前产品缺项"
+    },
+    {
+      "assessment_map_id": "AFM-0115",
+      "item_id": "KNEE-TASK-LAND2",
+      "name": "双腿跳跃落地",
+      "finding_class": "TASK_CONTROL",
+      "item_status": "Internal",
+      "placements": [],
+      "rules": [],
+      "public_rules": [],
+      "reason": "已停用的历史内部项目，不属于当前产品缺项"
+    },
+    {
+      "assessment_map_id": "AFM-0116",
+      "item_id": "KNEE-TASK-LAND1",
+      "name": "单腿跳跃落地",
+      "finding_class": "TASK_CONTROL",
+      "item_status": "Internal",
+      "placements": [],
+      "rules": [],
+      "public_rules": [],
+      "reason": "已停用的历史内部项目，不属于当前产品缺项"
+    },
+    {
+      "assessment_map_id": "AFM-0117",
+      "item_id": "KNEE-TASK-DECEL",
+      "name": "急停减速",
+      "finding_class": "TASK_CONTROL",
+      "item_status": "Internal",
+      "placements": [],
+      "rules": [],
+      "public_rules": [],
+      "reason": "已停用的历史内部项目，不属于当前产品缺项"
+    },
+    {
+      "assessment_map_id": "AFM-0118",
+      "item_id": "KNEE-TASK-CUT",
+      "name": "变向",
+      "finding_class": "TASK_CONTROL",
+      "item_status": "Internal",
+      "placements": [],
+      "rules": [],
+      "public_rules": [],
+      "reason": "已停用的历史内部项目，不属于当前产品缺项"
+    }
+  ],
+  "unmapped_items": [
+    {
+      "item_id": "AF-MUS-012",
+      "name": "足内在肌群",
+      "status": "UI_ONLY"
+    },
+    {
+      "item_id": "AF-SAF-001",
+      "name": "跟腱连续性/小腿挤压安全筛查",
+      "status": "Stable"
+    },
+    {
+      "item_id": "AF-SAF-002",
+      "name": "急性外伤骨性风险筛查",
+      "status": "Stable"
+    },
+    {
+      "item_id": "LL-SAF-001",
+      "name": "胫骨骨应力风险筛查",
+      "status": "Stable"
+    },
+    {
+      "item_id": "CORE-SAF-ACS",
+      "name": "急性小腿间室综合征风险筛查",
+      "status": "Stable"
+    },
+    {
+      "item_id": "CORE-SAF-VTE",
+      "name": "小腿静脉血栓风险筛查",
+      "status": "Stable"
+    },
+    {
+      "item_id": "KNEE-TASK-DYN",
+      "name": "任务特异的下肢动态控制",
+      "status": "Internal"
+    },
+    {
+      "item_id": "KNEE-SAF-001",
+      "name": "膝部需要额外医学评估的伴随表现筛查",
+      "status": "Stable"
+    },
+    {
+      "item_id": "THIGH-SAF-001",
+      "name": "股骨骨应力/骨性风险筛查",
+      "status": "Stable"
+    },
+    {
+      "item_id": "KNEE-TASK-WALK",
+      "name": "步行",
+      "status": "Internal"
+    },
+    {
+      "item_id": "KNEE-TASK-SQUAT",
+      "name": "下蹲",
+      "status": "Internal"
+    },
+    {
+      "item_id": "KNEE-TASK-STEPUP",
+      "name": "上台阶",
+      "status": "Internal"
+    },
+    {
+      "item_id": "KNEE-TASK-STEPDOWN",
+      "name": "下台阶",
+      "status": "Internal"
+    },
+    {
+      "item_id": "KNEE-TASK-SLSQUAT",
+      "name": "单腿下蹲",
+      "status": "Internal"
+    },
+    {
+      "item_id": "KNEE-TASK-RUN",
+      "name": "跑步",
+      "status": "Internal"
+    },
+    {
+      "item_id": "KNEE-TASK-LAND2",
+      "name": "双腿跳跃落地",
+      "status": "Internal"
+    },
+    {
+      "item_id": "KNEE-TASK-LAND1",
+      "name": "单腿跳跃落地",
+      "status": "Internal"
+    },
+    {
+      "item_id": "KNEE-TASK-DECEL",
+      "name": "急停减速",
+      "status": "Internal"
+    },
+    {
+      "item_id": "KNEE-TASK-CUT",
+      "name": "变向",
+      "status": "Internal"
+    }
+  ],
+  "public_wording_candidates": [
+    {
+      "sheet": "02_ClinicalItem",
+      "id": "AF-MUS-012",
+      "field": "check_focus",
+      "text": "UI分组：足内在肌；不直接生成评估结果或干预",
+      "reachable": false
+    },
+    {
+      "sheet": "02_ClinicalItem",
+      "id": "CORE-MUS-PLANTARIS",
+      "field": "check_focus",
+      "text": "细长肌腱，常沿跟腱内侧走行；解剖变异较大，仅作条件性检查对象",
+      "reachable": false
+    },
+    {
+      "sheet": "02_ClinicalItem",
+      "id": "CORE-SAF-VTE",
+      "field": "check_focus",
+      "text": "无法用明确运动损伤解释的单侧小腿疼痛/压痛伴肿胀、发热、发红/变色等线索时，结合病史与VTE风险进入医学评估路径；胸痛、呼吸困难、咯血、晕厥等肺栓塞线索需紧急处理",
+      "reachable": false
+    },
+    {
+      "sheet": "02_ClinicalItem",
+      "id": "THIGH-MUS-AB",
+      "field": "check_focus",
+      "text": "大腿近端内侧较深层；仅在内侧深层/近端线索或其他内收肌不能解释时提高关注",
+      "reachable": true
+    },
+    {
+      "sheet": "02_ClinicalItem",
+      "id": "THIGH-SAF-001",
+      "field": "check_focus",
+      "text": "深部或难以明确到肌肉的局灶大腿痛，随跑跳/负重逐渐加重或更早出现、存在局灶骨性压痛/敲击或承重明显受限时进入医学评估路径",
+      "reachable": false
+    },
+    {
+      "sheet": "08_AssessmentFindingMap",
+      "id": "AFM-0098",
+      "field": "trigger_condition",
+      "text": "结构化伴随表现达到Safety筛查条件",
+      "reachable": false
+    }
+  ],
+  "bare_visible_explanations": [
+    {
+      "feature_id": "AFM-0080-JOINTLINE",
+      "item_id": "KNEE-LT-MEDIAL",
+      "item_name": "膝内侧局部组织",
+      "name": "内侧关节线压痛",
+      "modules": [
+        "KNEE"
+      ],
+      "description": "压痛主要位于内侧关节线",
+      "category": "待补分组织参考",
+      "location_review": null,
+      "proposed_action": "核查明确组织内容，并补对应参考",
+      "reachable": true,
+      "row": 71
+    },
+    {
+      "feature_id": "AFM-0081-LOCALISE",
+      "item_id": "KNEE-LT-LATERAL",
+      "item_name": "膝外侧局部组织",
+      "name": "外侧关节线或腓骨头压痛",
+      "modules": [
+        "KNEE"
+      ],
+      "description": "局部压痛位于外侧关节线或腓骨头邻近",
+      "category": "待补分组织参考",
+      "location_review": null,
+      "proposed_action": "核查明确组织内容，并补对应参考",
+      "reachable": true,
+      "row": 74
+    },
+    {
+      "feature_id": "AFM-0097-SCREEN",
+      "item_id": "KNEE-SPT-MECH",
+      "item_name": "疼痛/功能相关机械表现检查",
+      "name": "疼痛/功能相关机械表现",
+      "modules": [
+        "KNEE"
+      ],
+      "description": "疼痛/功能相关机械表现稳定出现，或轻度支撑/动作修改改变其表现",
+      "category": "专项筛查内容",
+      "location_review": null,
+      "proposed_action": "机械表现并非独立处理对象，对应关节、肌群与动作项目另列。",
+      "reachable": true,
+      "row": 121
+    },
+    {
+      "feature_id": "AFM-0016-SCREEN",
+      "item_id": "CORE-SPT-NEURO-DISTAL",
+      "item_name": "下肢远端神经相关筛查",
+      "name": "下肢远端神经相关体征",
+      "modules": [
+        "ANKLE_FOOT",
+        "LOWER_LEG",
+        "KNEE",
+        "THIGH"
+      ],
+      "description": "症状分布与神经相关感觉/运动或张力/叩击反应一致",
+      "category": "专项筛查待完善",
+      "location_review": null,
+      "proposed_action": "远端神经筛查含多条神经，具体神经方法及范围仍需单独完善，不把筛查本身当作统一治疗对象。",
+      "reachable": true,
+      "row": 122
+    },
+    {
+      "feature_id": "AFM-0089-SCREEN",
+      "item_id": "KNEE-CHAIN-HIP-ROM",
+      "item_name": "上游髋关节活动范围",
+      "name": "膝/邻近关节活动异常或症状性",
+      "modules": [
+        "KNEE"
+      ],
+      "description": "具体活动/方向出现明确受限、左右差异、末端异常或相关症状反应",
+      "category": "相关模块暂缓",
+      "location_review": null,
+      "proposed_action": "该条为膝部关联的髋活动项目，髋模块按用户要求暂不接入。",
+      "reachable": true,
+      "row": 123
+    }
+  ],
+  "mixed_feature_candidates": [
+    {
+      "feature_id": "AFM-0089-SCREEN",
+      "item_name": "上游髋关节活动范围",
+      "name": "膝/邻近关节活动异常或症状性",
+      "description": "具体活动/方向出现明确受限、左右差异、末端异常或相关症状反应"
+    },
+    {
+      "feature_id": "AFM-0039-LENGTH",
+      "item_name": "拇长伸肌",
+      "name": "伸拇趾相关牵拉受限",
+      "description": "踝跖屈结合拇趾屈曲牵拉时，前侧至足背出现活动受限或牵拉不适。"
+    },
+    {
+      "feature_id": "AFM-0040-LENGTH",
+      "item_name": "趾长伸肌",
+      "name": "伸趾相关牵拉受限",
+      "description": "踝跖屈结合第2至5趾屈曲牵拉时，前外侧至足背出现活动受限或牵拉不适。"
+    }
+  ],
+  "overlapping_baseline_maps": [
+    {
+      "assessment_map_id": "AFM-0100",
+      "item_name": "大腿后侧局部软组织/肌腱膜反应",
+      "features": [
+        "局部组织刺激/敏感 (AFM-0100-BASELINE)",
+        "后侧紧张或牵拉受限 (AFM-0100-RECORD-TENSION)"
+      ],
+      "reachable": true
+    },
+    {
+      "assessment_map_id": "AFM-0106",
+      "item_name": "阔筋膜张肌",
+      "features": [
+        "相关肌肉张力/长度或局部症状异常 (AFM-0106-BASELINE)",
+        "局部张力增加 (AFM-0106-RECORD-TENSION)"
+      ],
+      "reachable": true
+    }
+  ],
+  "baseline_vague_maps": [
+    {
+      "assessment_map_id": "AFM-0003",
+      "item_id": "AF-ASM-004",
+      "item_name": "第一MTP活动",
+      "finding_name": "第一MTP活动受限/症状性",
+      "finding_class": "JOINT_ROM",
+      "description": "第一MTP伸/屈受限或症状性",
+      "methods": [
+        "第一MTP活动改善"
+      ],
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 4
+    },
+    {
+      "assessment_map_id": "AFM-0010",
+      "item_id": "AF-TASK-001",
+      "item_name": "单腿稳定/动态控制",
+      "finding_name": "单腿/动态稳定任务表现不足",
+      "finding_class": "TASK_CONTROL",
+      "description": "单腿/动态任务显示稳定或感觉运动控制不足",
+      "methods": [
+        "单腿稳定、本体感觉/动态控制训练"
+      ],
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 11
+    },
+    {
+      "assessment_map_id": "AFM-0011",
+      "item_id": "AF-TASK-002",
+      "item_name": "提踵/推进任务表现",
+      "finding_name": "推进阶段任务参与不足",
+      "finding_class": "TASK_CONTROL",
+      "description": "走跑推进或跳跃任务显示参与、时序或控制不足",
+      "methods": [
+        "推进相关任务训练"
+      ],
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 12
+    },
+    {
+      "assessment_map_id": "AFM-0022",
+      "item_id": "AF-JNT-004",
+      "item_name": "第一射线/第一跗跖关节活动",
+      "finding_name": "第一射线/第一跗跖关节活动异常/症状性",
+      "finding_class": "JOINT_MOBILITY",
+      "description": "第一射线/第一TMT方向性活动异常或症状性",
+      "methods": [
+        "区域关节活动改善"
+      ],
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 23
+    },
+    {
+      "assessment_map_id": "AFM-0023",
+      "item_id": "AF-JNT-005",
+      "item_name": "小趾列 MTP 活动",
+      "finding_name": "第2–5 MTP活动受限/症状性",
+      "finding_class": "JOINT_ROM",
+      "description": "第2–5 MTP屈伸受限、左右差异或症状性",
+      "methods": [
+        "区域关节活动改善"
+      ],
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 24
+    },
+    {
+      "assessment_map_id": "AFM-0031",
+      "item_id": "AF-LT-006",
+      "item_name": "跟骨底/足跟垫",
+      "finding_name": "局部组织刺激/敏感",
+      "finding_class": "LOCAL_TISSUE",
+      "description": "该定位的触诊、压缩或牵拉刺激出现明确局部组织敏感或症状反应",
+      "methods": [
+        "局部症状管理与辅助处理"
+      ],
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 32
+    },
+    {
+      "assessment_map_id": "AFM-0032",
+      "item_id": "AF-LT-007",
+      "item_name": "足底筋膜内侧带",
+      "finding_name": "局部组织刺激/敏感",
+      "finding_class": "LOCAL_TISSUE",
+      "description": "该定位的触诊、压缩或牵拉刺激出现明确局部组织敏感或症状反应",
+      "methods": [
+        "局部症状管理与辅助处理"
+      ],
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 33
+    },
+    {
+      "assessment_map_id": "AFM-0033",
+      "item_id": "AF-LT-008",
+      "item_name": "舟骨/胫骨后肌止点区",
+      "finding_name": "局部组织刺激/敏感",
+      "finding_class": "LOCAL_TISSUE",
+      "description": "该定位的触诊、压缩或牵拉刺激出现明确局部组织敏感或症状反应",
+      "methods": [
+        "局部症状管理与辅助处理"
+      ],
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 34
+    },
+    {
+      "assessment_map_id": "AFM-0034",
+      "item_id": "AF-LT-009",
+      "item_name": "第五跖骨基底/腓骨短肌止点区",
+      "finding_name": "局部组织刺激/敏感",
+      "finding_class": "LOCAL_TISSUE",
+      "description": "该定位的触诊、压缩或牵拉刺激出现明确局部组织敏感或症状反应",
+      "methods": [
+        "局部症状管理与辅助处理"
+      ],
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 35
+    },
+    {
+      "assessment_map_id": "AFM-0035",
+      "item_id": "AF-LT-010",
+      "item_name": "中足背侧关节线/伸肌腱区",
+      "finding_name": "局部组织刺激/敏感",
+      "finding_class": "LOCAL_TISSUE",
+      "description": "该定位的触诊、压缩或牵拉刺激出现明确局部组织敏感或症状反应",
+      "methods": [
+        "局部症状管理与辅助处理"
+      ],
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 36
+    },
+    {
+      "assessment_map_id": "AFM-0036",
+      "item_id": "AF-LT-011",
+      "item_name": "跖骨头/跖板区域",
+      "finding_name": "局部组织刺激/敏感",
+      "finding_class": "LOCAL_TISSUE",
+      "description": "该定位的触诊、压缩或牵拉刺激出现明确局部组织敏感或症状反应",
+      "methods": [
+        "局部症状管理与辅助处理"
+      ],
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 37
+    },
+    {
+      "assessment_map_id": "AFM-0037",
+      "item_id": "AF-LT-012",
+      "item_name": "第一MTP/籽骨复合体",
+      "finding_name": "局部组织刺激/敏感",
+      "finding_class": "LOCAL_TISSUE",
+      "description": "该定位的触诊、压缩或牵拉刺激出现明确局部组织敏感或症状反应",
+      "methods": [
+        "局部症状管理与辅助处理"
+      ],
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 38
+    },
+    {
+      "assessment_map_id": "AFM-0050",
+      "item_id": "AF-MUS-014",
+      "item_name": "拇展肌",
+      "finding_name": "相关肌肉张力/长度或局部症状异常",
+      "finding_class": "MUSCLE_STATE",
+      "description": "该肌肉的触诊、长度/张力存在明显异常",
+      "methods": [
+        "局部软组织处理与活动改善"
+      ],
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 51
+    },
+    {
+      "assessment_map_id": "AFM-0051",
+      "item_id": "AF-MUS-015",
+      "item_name": "拇收肌",
+      "finding_name": "相关肌肉张力/长度或局部症状异常",
+      "finding_class": "MUSCLE_STATE",
+      "description": "该肌肉的触诊、长度/张力存在明显异常",
+      "methods": [
+        "局部软组织处理与活动改善"
+      ],
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 52
+    },
+    {
+      "assessment_map_id": "AFM-0052",
+      "item_id": "AF-MUS-016",
+      "item_name": "趾短屈肌",
+      "finding_name": "相关肌肉张力/长度或局部症状异常",
+      "finding_class": "MUSCLE_STATE",
+      "description": "该肌肉的触诊、长度/张力存在明显异常",
+      "methods": [
+        "局部软组织处理与活动改善"
+      ],
+      "modules": [
+        "ANKLE_FOOT"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 53
+    },
+    {
+      "assessment_map_id": "AFM-0099",
+      "item_id": "THIGH-LT-001",
+      "item_name": "大腿前侧局部软组织/肌筋膜反应",
+      "finding_name": "局部组织刺激/敏感",
+      "finding_class": "LOCAL_TISSUE",
+      "description": "该大腿区域触诊或牵拉刺激出现明确局部症状反应",
+      "methods": [
+        "局部症状管理与辅助处理"
+      ],
+      "modules": [
+        "THIGH"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 100
+    },
+    {
+      "assessment_map_id": "AFM-0101",
+      "item_id": "THIGH-LT-003",
+      "item_name": "大腿内侧局部软组织/肌腱膜反应",
+      "finding_name": "局部组织刺激/敏感",
+      "finding_class": "LOCAL_TISSUE",
+      "description": "该大腿区域触诊或牵拉刺激出现明确局部症状反应",
+      "methods": [
+        "局部症状管理与辅助处理"
+      ],
+      "modules": [
+        "THIGH"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 102
+    },
+    {
+      "assessment_map_id": "AFM-0102",
+      "item_id": "THIGH-LT-004",
+      "item_name": "大腿外侧/髂胫束周围局部组织反应",
+      "finding_name": "局部组织刺激/敏感",
+      "finding_class": "LOCAL_TISSUE",
+      "description": "该大腿区域触诊或牵拉刺激出现明确局部症状反应",
+      "methods": [
+        "局部症状管理与辅助处理"
+      ],
+      "modules": [
+        "THIGH"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 103
+    },
+    {
+      "assessment_map_id": "AFM-0103",
+      "item_id": "THIGH-MUS-AL",
+      "item_name": "内收长肌",
+      "finding_name": "相关肌肉张力/长度或局部症状异常",
+      "finding_class": "MUSCLE_STATE",
+      "description": "该肌肉的触诊、长度/张力存在明显异常",
+      "methods": [
+        "局部软组织处理与活动改善"
+      ],
+      "modules": [
+        "THIGH"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 104
+    },
+    {
+      "assessment_map_id": "AFM-0104",
+      "item_id": "THIGH-MUS-AB",
+      "item_name": "内收短肌",
+      "finding_name": "相关肌肉张力/长度或局部症状异常",
+      "finding_class": "MUSCLE_STATE",
+      "description": "该肌肉的触诊、长度/张力存在明显异常",
+      "methods": [
+        "局部软组织处理与活动改善"
+      ],
+      "modules": [
+        "THIGH"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 105
+    },
+    {
+      "assessment_map_id": "AFM-0105",
+      "item_id": "THIGH-MUS-AM",
+      "item_name": "内收大肌",
+      "finding_name": "相关肌肉张力/长度或局部症状异常",
+      "finding_class": "MUSCLE_STATE",
+      "description": "该肌肉的触诊、长度/张力存在明显异常",
+      "methods": [
+        "局部软组织处理与活动改善"
+      ],
+      "modules": [
+        "THIGH"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 106
+    },
+    {
+      "assessment_map_id": "AFM-0107",
+      "item_id": "THIGH-CAP-ADD",
+      "item_name": "髋内收肌群能力",
+      "finding_name": "相关肌群/功能能力不足",
+      "finding_class": "CAPACITY",
+      "description": "内收等长/动态或离心能力检查显示明确不足、左右差异或任务相关能力缺口",
+      "methods": [
+        "渐进能力训练"
+      ],
+      "modules": [
+        "THIGH"
+      ],
+      "reachable": true,
+      "purpose": false,
+      "category": "待细化原库内容",
+      "row": 108
+    }
+  ],
+  "abstract_presentation_candidates": [
+    {
+      "feature_id": "AFM-0065-SENSITIVITY",
+      "item_name": "股直肌",
+      "name": "局部敏感",
+      "description": "股直肌触诊或拉长时局部刺激反应明显"
+    },
+    {
+      "feature_id": "AFM-0066-SENSITIVITY",
+      "item_name": "股外侧肌",
+      "name": "局部敏感",
+      "description": "股外侧肌触诊或相关活动时出现局部敏感反应"
+    },
+    {
+      "feature_id": "AFM-0067-SENSITIVITY",
+      "item_name": "股内侧肌",
+      "name": "局部敏感",
+      "description": "股内侧肌触诊或相关活动时出现局部敏感反应"
+    },
+    {
+      "feature_id": "AFM-0069-SENSITIVITY",
+      "item_name": "股二头肌",
+      "name": "局部敏感",
+      "description": "股二头肌触诊或相关活动时出现局部敏感反应"
+    },
+    {
+      "feature_id": "AFM-0070-SENSITIVITY",
+      "item_name": "半腱肌",
+      "name": "局部敏感",
+      "description": "半腱肌触诊或相关活动时出现局部敏感反应"
+    },
+    {
+      "feature_id": "AFM-0071-SENSITIVITY",
+      "item_name": "半膜肌",
+      "name": "局部敏感",
+      "description": "半膜肌触诊或相关活动时出现局部敏感反应"
+    },
+    {
+      "feature_id": "AFM-0075-SENSITIVITY",
+      "item_name": "阔筋膜张肌 / 外侧链相关",
+      "name": "局部敏感",
+      "description": "髋与大腿外侧链触诊或相关活动时出现局部敏感反应"
+    },
+    {
+      "feature_id": "AFM-0068-SENSITIVITY",
+      "item_name": "股中间肌",
+      "name": "局部敏感",
+      "description": "股中间肌深层触诊或相关活动时出现局部敏感反应"
+    },
+    {
+      "feature_id": "AFM-0077-SENSITIVITY",
+      "item_name": "髂腰肌及髋屈相关肌群",
+      "name": "局部敏感",
+      "description": "髋前侧触诊或相关活动时出现局部敏感反应"
+    },
+    {
+      "feature_id": "AFM-0074-SENSITIVITY",
+      "item_name": "内收肌群",
+      "name": "局部敏感",
+      "description": "内收肌群触诊或相关活动时出现局部敏感反应"
+    },
+    {
+      "feature_id": "AFM-0076-SENSITIVITY",
+      "item_name": "腘肌",
+      "name": "局部敏感",
+      "description": "膝后外侧触诊或相关活动时出现局部敏感反应"
+    },
+    {
+      "feature_id": "AFM-0072-SENSITIVITY",
+      "item_name": "缝匠肌",
+      "name": "局部敏感",
+      "description": "缝匠肌触诊或相关活动时出现局部敏感反应"
+    },
+    {
+      "feature_id": "AFM-0073-SENSITIVITY",
+      "item_name": "股薄肌",
+      "name": "局部敏感",
+      "description": "股薄肌触诊或相关活动时出现局部敏感反应"
+    },
+    {
+      "feature_id": "AFM-0089-SCREEN",
+      "item_name": "上游髋关节活动范围",
+      "name": "膝/邻近关节活动异常或症状性",
+      "description": "具体活动/方向出现明确受限、左右差异、末端异常或相关症状反应"
+    },
+    {
+      "feature_id": "AFM-0100-BASELINE",
+      "item_name": "大腿后侧局部软组织/肌腱膜反应",
+      "name": "局部组织刺激/敏感",
+      "description": "该大腿区域触诊或牵拉刺激出现明确局部症状反应"
+    },
+    {
+      "feature_id": "AFM-0003",
+      "item_name": "第一MTP活动",
+      "name": "第一MTP活动受限/症状性",
+      "description": "第一MTP伸/屈受限或症状性"
+    },
+    {
+      "feature_id": "AFM-0012",
+      "item_name": "踝前抽屉相关稳定检查",
+      "name": "外侧踝机械稳定检查异常",
+      "description": "前抽屉表现与对侧存在明确差异/终末感异常或熟悉症状再现，并有相应扭伤/不稳线索"
+    },
+    {
+      "feature_id": "AFM-0013",
+      "item_name": "距骨倾斜检查",
+      "name": "外侧踝机械稳定检查异常",
+      "description": "距骨倾斜表现与对侧存在明确差异或熟悉症状再现，并有CFL方向线索"
+    },
+    {
+      "feature_id": "AFM-0022",
+      "item_name": "第一射线/第一跗跖关节活动",
+      "name": "第一射线/第一跗跖关节活动异常/症状性",
+      "description": "第一射线/第一TMT方向性活动异常或症状性"
+    },
+    {
+      "feature_id": "AFM-0023",
+      "item_name": "小趾列 MTP 活动",
+      "name": "第2–5 MTP活动受限/症状性",
+      "description": "第2–5 MTP屈伸受限、左右差异或症状性"
+    },
+    {
+      "feature_id": "AFM-0031",
+      "item_name": "跟骨底/足跟垫",
+      "name": "局部组织刺激/敏感",
+      "description": "该定位的触诊、压缩或牵拉刺激出现明确局部组织敏感或症状反应"
+    },
+    {
+      "feature_id": "AFM-0032",
+      "item_name": "足底筋膜内侧带",
+      "name": "局部组织刺激/敏感",
+      "description": "该定位的触诊、压缩或牵拉刺激出现明确局部组织敏感或症状反应"
+    },
+    {
+      "feature_id": "AFM-0033",
+      "item_name": "舟骨/胫骨后肌止点区",
+      "name": "局部组织刺激/敏感",
+      "description": "该定位的触诊、压缩或牵拉刺激出现明确局部组织敏感或症状反应"
+    },
+    {
+      "feature_id": "AFM-0034",
+      "item_name": "第五跖骨基底/腓骨短肌止点区",
+      "name": "局部组织刺激/敏感",
+      "description": "该定位的触诊、压缩或牵拉刺激出现明确局部组织敏感或症状反应"
+    },
+    {
+      "feature_id": "AFM-0035",
+      "item_name": "中足背侧关节线/伸肌腱区",
+      "name": "局部组织刺激/敏感",
+      "description": "该定位的触诊、压缩或牵拉刺激出现明确局部组织敏感或症状反应"
+    },
+    {
+      "feature_id": "AFM-0036",
+      "item_name": "跖骨头/跖板区域",
+      "name": "局部组织刺激/敏感",
+      "description": "该定位的触诊、压缩或牵拉刺激出现明确局部组织敏感或症状反应"
+    },
+    {
+      "feature_id": "AFM-0037",
+      "item_name": "第一MTP/籽骨复合体",
+      "name": "局部组织刺激/敏感",
+      "description": "该定位的触诊、压缩或牵拉刺激出现明确局部组织敏感或症状反应"
+    },
+    {
+      "feature_id": "AFM-0099",
+      "item_name": "大腿前侧局部软组织/肌筋膜反应",
+      "name": "局部组织刺激/敏感",
+      "description": "该大腿区域触诊或牵拉刺激出现明确局部症状反应"
+    },
+    {
+      "feature_id": "AFM-0101",
+      "item_name": "大腿内侧局部软组织/肌腱膜反应",
+      "name": "局部组织刺激/敏感",
+      "description": "该大腿区域触诊或牵拉刺激出现明确局部症状反应"
+    },
+    {
+      "feature_id": "AFM-0102",
+      "item_name": "大腿外侧/髂胫束周围局部组织反应",
+      "name": "局部组织刺激/敏感",
+      "description": "该大腿区域触诊或牵拉刺激出现明确局部症状反应"
+    },
+    {
+      "feature_id": "AFM-0107",
+      "item_name": "髋内收肌群能力",
+      "name": "相关肌群/功能能力不足",
+      "description": "内收等长/动态或离心能力检查显示明确不足、左右差异或任务相关能力缺口"
+    }
+  ],
+  "pipeline_mismatches": [],
+  "relation_errors": [],
+  "scan_errors": []
+}

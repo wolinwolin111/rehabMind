@@ -1,0 +1,159 @@
+{
+  "version": "common-foundation-v1",
+  "source_sha256": "595b0a4aa3f534bf4e01027669b2803ae0d61f615fcfa1c1ab6ff711c113f7d3",
+  "source_file": "D:/DownLoadFile/G5_49_HumanAtlas_RelatedMuscleScreen_v1.html",
+  "guides": [
+    {
+      "Display_Order": 1,
+      "Guide_ID": "QG-ONSET",
+      "Topic": "起病与变化",
+      "Core_Prompt": "什么时候开始的？是突然出现还是逐渐出现？",
+      "Optional_Probe": "目前整体是变好、稳定还是加重？",
+      "Input_Mode": "Display_Only",
+      "Runtime_Effect": "仅作为问诊教学提示，不记录患者答案、不触发自动规则",
+      "Boundary": "不是病历录入表",
+      "Question_Purpose": "了解症状开始的经过和之后的变化。",
+      "Information_Gained": "开始时间、突然或逐渐出现、近期变化。",
+      "Assessment_Help": "为后续评估补充时间背景，并明确需要进一步了解的变化。",
+      "Scope": "GENERAL",
+      "Module_Codes": "KNEE|LOWER_LEG|ANKLE_FOOT|THIGH",
+      "Region_IDs": null,
+      "Review_Status": "待临床审核",
+      "Source_Reference": "G5_49_HumanAtlas_RelatedMuscleScreen_v1.html#consultation_guide/QG-ONSET",
+      "Internal_Note": "核心问题和补充追问原文导入。解释为产品编辑整理，待审订。仅显示提示，不录入答案、不触发诊断或规则。"
+    },
+    {
+      "Display_Order": 2,
+      "Guide_ID": "QG-PROVOKE",
+      "Topic": "诱发动作与时机",
+      "Core_Prompt": "什么动作最容易把症状诱发出来？",
+      "Optional_Probe": "是在动作开始、过程中、某个阶段，还是做一段时间后出现？",
+      "Input_Mode": "Display_Only",
+      "Runtime_Effect": "帮助康复师口头问诊；若需要结构化影响Runtime，应另用Action Context选择",
+      "Boundary": "不要求把回答录入App",
+      "Question_Purpose": "把不适与具体动作、动作阶段和活动持续时间联系起来。",
+      "Information_Gained": "诱发动作、出现阶段、活动多久后出现。",
+      "Assessment_Help": "帮助选择要观察的实际动作，以及比较时的动作阶段和活动量。",
+      "Scope": "GENERAL",
+      "Module_Codes": "KNEE|LOWER_LEG|ANKLE_FOOT|THIGH",
+      "Region_IDs": null,
+      "Review_Status": "待临床审核",
+      "Source_Reference": "G5_49_HumanAtlas_RelatedMuscleScreen_v1.html#consultation_guide/QG-PROVOKE",
+      "Internal_Note": "核心问题和补充追问原文导入。解释为产品编辑整理，待审订。仅显示提示，不录入答案、不触发诊断或规则。"
+    },
+    {
+      "Display_Order": 3,
+      "Guide_ID": "QG-HISTORY",
+      "Topic": "既往伤病史",
+      "Core_Prompt": "这个部位或相关区域以前有没有明显伤病或手术？",
+      "Optional_Probe": "是否有反复出现的类似问题？",
+      "Input_Mode": "Display_Only",
+      "Runtime_Effect": "教学提示；不自动解析为诊断或Direction",
+      "Boundary": "既往史由康复师自行判断临床意义",
+      "Question_Purpose": "了解这个部位及相关区域的既往经历。",
+      "Information_Gained": "既往受伤、手术、类似问题是否反复出现。",
+      "Assessment_Help": "为局部及相关区域的检查提供背景，补充需要核对的既往信息。",
+      "Scope": "GENERAL",
+      "Module_Codes": "KNEE|LOWER_LEG|ANKLE_FOOT|THIGH",
+      "Region_IDs": null,
+      "Review_Status": "待临床审核",
+      "Source_Reference": "G5_49_HumanAtlas_RelatedMuscleScreen_v1.html#consultation_guide/QG-HISTORY",
+      "Internal_Note": "核心问题和补充追问原文导入。解释为产品编辑整理，待审订。仅显示提示，不录入答案、不触发诊断或规则。"
+    },
+    {
+      "Display_Order": 4,
+      "Guide_ID": "QG-CARE",
+      "Topic": "既往就诊 / 检查 / 处理",
+      "Core_Prompt": "以前有没有就诊、拍片/MRI/超声或做过康复处理？",
+      "Optional_Probe": "已有诊断/医生意见是什么？之前处理效果如何？",
+      "Input_Mode": "Display_Only",
+      "Runtime_Effect": "教学提示；既往诊断不直接覆盖当前评估思路",
+      "Boundary": "系统不自动接受既往诊断为当前病因",
+      "Question_Purpose": "了解已经做过的检查和处理，避免遗漏已有信息。",
+      "Information_Gained": "检查结果、医生意见、做过的处理及变化。",
+      "Assessment_Help": "帮助核对已有资料，并明确本次评估还需要补充哪些内容。",
+      "Scope": "GENERAL",
+      "Module_Codes": "KNEE|LOWER_LEG|ANKLE_FOOT|THIGH",
+      "Region_IDs": null,
+      "Review_Status": "待临床审核",
+      "Source_Reference": "G5_49_HumanAtlas_RelatedMuscleScreen_v1.html#consultation_guide/QG-CARE",
+      "Internal_Note": "核心问题和补充追问原文导入。解释为产品编辑整理，待审订。仅显示提示，不录入答案、不触发诊断或规则。"
+    },
+    {
+      "Display_Order": 5,
+      "Guide_ID": "QG-IMPACT",
+      "Topic": "当前影响",
+      "Core_Prompt": "现在主要影响日常生活、工作还是运动？",
+      "Optional_Probe": "最受限的是哪个动作或活动？",
+      "Input_Mode": "Display_Only",
+      "Runtime_Effect": "帮助选择真实功能任务",
+      "Boundary": "不形成患者功能量表",
+      "Question_Purpose": "了解当前最影响患者的活动。",
+      "Information_Gained": "受影响的生活、工作或运动，以及最受限的具体活动。",
+      "Assessment_Help": "帮助选择与当前问题相关的功能动作和观察内容。",
+      "Scope": "GENERAL",
+      "Module_Codes": "KNEE|LOWER_LEG|ANKLE_FOOT|THIGH",
+      "Region_IDs": null,
+      "Review_Status": "待临床审核",
+      "Source_Reference": "G5_49_HumanAtlas_RelatedMuscleScreen_v1.html#consultation_guide/QG-IMPACT",
+      "Internal_Note": "核心问题和补充追问原文导入。解释为产品编辑整理，待审订。仅显示提示，不录入答案、不触发诊断或规则。"
+    },
+    {
+      "Display_Order": 6,
+      "Guide_ID": "QG-GOAL",
+      "Topic": "恢复目标",
+      "Core_Prompt": "患者最希望恢复到什么活动或运动水平？",
+      "Optional_Probe": "有没有比赛、复工、旅行等明确时间节点？",
+      "Input_Mode": "Display_Only",
+      "Runtime_Effect": "用于康复师理解目标；V1不自动生成个性化训练处方",
+      "Boundary": "不做自动处方或达标预测",
+      "Question_Purpose": "明确目标活动需要哪些能力，为后续评估和康复训练安排提供依据。",
+      "Information_Gained": "希望恢复的活动、运动水平和时间要求，作为分析所需能力的依据。",
+      "Assessment_Help": "围绕目标活动所需能力，评估当前能力是否满足需求、有哪些差距，为安排对应的能力训练提供依据。",
+      "Scope": "GENERAL",
+      "Module_Codes": "KNEE|LOWER_LEG|ANKLE_FOOT|THIGH",
+      "Region_IDs": null,
+      "Review_Status": "待临床审核",
+      "Source_Reference": "G5_49_HumanAtlas_RelatedMuscleScreen_v1.html#consultation_guide/QG-GOAL",
+      "Internal_Note": "核心问题和补充追问原文导入。恢复目标说明按用户2026-09-30反馈修正：由目标需求分析所需能力、评估当前能力与差距、考虑对应能力训练。仅显示提示，不录入答案、不自动安排训练。"
+    }
+  ],
+  "context_overrides": {
+    "AF-MF-01": {
+      "group": "INTERNAL",
+      "label": null
+    },
+    "AF-MF-02": {
+      "group": "INTERNAL",
+      "label": null
+    },
+    "AF-MF-03": {
+      "group": "INTERNAL",
+      "label": null
+    },
+    "AF-MF-04": {
+      "group": "INTERNAL",
+      "label": null
+    },
+    "AF-MF-05": {
+      "group": "INTERNAL",
+      "label": null
+    },
+    "AF-MF-06": {
+      "group": "ACTIVITY",
+      "label": "反复提踵"
+    },
+    "AF-MF-07": {
+      "group": "ACTIVITY",
+      "label": "长时间负重活动"
+    },
+    "AF-MF-08": {
+      "group": "TIMING",
+      "label": "休息后开始走动"
+    },
+    "KNEE-CX-01": {
+      "group": "TIMING",
+      "label": "持续活动后才出现不适"
+    }
+  }
+}

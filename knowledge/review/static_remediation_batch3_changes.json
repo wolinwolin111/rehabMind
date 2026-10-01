@@ -1,0 +1,269 @@
+{
+  "date": "2026-10-01",
+  "changes": [
+    {
+      "section": "main",
+      "sheet": "01_Region",
+      "id": "LL-R-003",
+      "field": "related_tissues_source",
+      "before": "baseline://clinical-extension/LocationGuide/LOC-LL-MEDIAL\nhttps://www.ncbi.nlm.nih.gov/books/NBK539725/",
+      "after": "baseline://clinical-extension/LocationGuide/LOC-LL-MEDIAL\nhttps://www.ncbi.nlm.nih.gov/books/NBK537340/\nhttps://www.ncbi.nlm.nih.gov/books/NBK539913/"
+    },
+    {
+      "section": "main",
+      "sheet": "01_Region",
+      "id": "LL-R-007",
+      "field": "related_tissues_source",
+      "before": "baseline://clinical-extension/LocationGuide/LOC-LL-POSTMEDIAL\nhttps://www.ncbi.nlm.nih.gov/books/NBK539725/",
+      "after": "baseline://clinical-extension/LocationGuide/LOC-LL-POSTMEDIAL\nhttps://www.ncbi.nlm.nih.gov/books/NBK537340/\nhttps://www.ncbi.nlm.nih.gov/books/NBK539913/"
+    },
+    {
+      "section": "main",
+      "sheet": "02_ClinicalItem",
+      "id": "AF-JNT-005",
+      "field": "display_name",
+      "before": "小趾列 MTP 活动",
+      "after": "第2–5跖趾关节活动"
+    },
+    {
+      "section": "main",
+      "sheet": "02_ClinicalItem",
+      "id": "AF-JNT-005",
+      "field": "check_focus",
+      "before": "第2–5 MTP 屈伸、症状及跖骨头负荷反应",
+      "after": "第2–5跖趾关节主动/被动屈伸、跖侧压痛、足趾贴地及排列。"
+    },
+    {
+      "section": "main",
+      "sheet": "02_ClinicalItem",
+      "id": "AF-ASM-004",
+      "field": "display_name",
+      "before": "第一MTP活动",
+      "after": "第一跖趾关节活动"
+    },
+    {
+      "section": "main",
+      "sheet": "02_ClinicalItem",
+      "id": "AF-ASM-004",
+      "field": "check_focus",
+      "before": "伸展/屈曲及推进相关症状",
+      "after": "第一跖趾关节主动/被动屈伸、负重伸展及疼痛位置。"
+    },
+    {
+      "section": "main",
+      "sheet": "02_ClinicalItem",
+      "id": "CORE-CAP-HF",
+      "field": "display_name",
+      "before": "拇屈能力（FHL为主）",
+      "after": "拇趾屈曲力量"
+    },
+    {
+      "section": "main",
+      "sheet": "02_ClinicalItem",
+      "id": "CORE-CAP-HF",
+      "field": "check_focus",
+      "before": "抗阻拇屈、第一MTP/推蹬相关症状与力量表现；第一MTP场景以拇长屈肌为主要能力对象",
+      "after": "拇趾屈曲抗阻；力量、疼痛与左右差异。"
+    },
+    {
+      "section": "extension",
+      "sheet": "ClinicalPurpose",
+      "id": "KNEE-CAP-PES",
+      "field": "Clinical_Purpose",
+      "before": "鹅足相关肌群的主动输出与鹅足区局部压痛是不同线索。",
+      "after": "查看屈膝、髋内收发力与鹅足区局部压痛，分别对照主动输出和疼痛。"
+    },
+    {
+      "section": "extension",
+      "sheet": "ClinicalPurpose",
+      "id": "KNEE-CAP-PES",
+      "field": "Assessment_Focus",
+      "before": "查看相关收缩/抗阻表现及与局部反应的差异。",
+      "after": "屈膝、髋内收抗阻；力量、耐力、疼痛与目标需求。"
+    },
+    {
+      "section": "extension",
+      "sheet": "ClinicalPurpose",
+      "id": "KNEE-CAP-PES",
+      "field": "Source_URL",
+      "before": "https://doi.org/10.2519/jospt.2019.0302",
+      "after": "https://www.ncbi.nlm.nih.gov/books/NBK534775/\nbook://magee-local#pdf=751,756&print=742,747"
+    },
+    {
+      "section": "extension",
+      "sheet": "ClinicalPurpose",
+      "id": "AF-JNT-005",
+      "field": "Item_Name",
+      "before": "小趾列 MTP 活动",
+      "after": "第2–5跖趾关节活动"
+    },
+    {
+      "section": "extension",
+      "sheet": "ClinicalPurpose",
+      "id": "AF-JNT-005",
+      "field": "Assessment_Focus",
+      "before": "第2–5MTP主动/被动屈伸、跖侧压痛、足趾贴地及排列。",
+      "after": "第2–5跖趾关节主动/被动屈伸、跖侧压痛、足趾贴地及排列。"
+    },
+    {
+      "section": "extension",
+      "sheet": "ClinicalPurpose",
+      "id": "AF-ASM-004",
+      "field": "Item_Name",
+      "before": "第一MTP活动",
+      "after": "第一跖趾关节活动"
+    },
+    {
+      "section": "extension",
+      "sheet": "ClinicalPurpose",
+      "id": "AF-ASM-004",
+      "field": "Assessment_Focus",
+      "before": "第一MTP主动/被动屈伸、负重伸展、疼痛位置。",
+      "after": "第一跖趾关节主动/被动屈伸、负重伸展及疼痛位置。"
+    },
+    {
+      "section": "extension",
+      "sheet": "ClinicalPurpose",
+      "id": "CORE-CAP-HF",
+      "field": "Item_Name",
+      "before": "拇屈能力（FHL为主）",
+      "after": "拇趾屈曲力量"
+    },
+    {
+      "section": "extension",
+      "sheet": "ClinicalPurpose",
+      "id": "CORE-CAP-HF",
+      "field": "Source_URL",
+      "before": "baseline://database-v3.8/02_ClinicalItem/CORE-CAP-HF",
+      "after": "baseline://database-v3.8/02_ClinicalItem/CORE-CAP-HF\nhttps://www.ncbi.nlm.nih.gov/books/NBK539705/\nbook://magee-local#pdf=882,889&print=873,880"
+    },
+    {
+      "section": "extension",
+      "sheet": "FindingFeature",
+      "id": "AFM-0094-CAPACITY",
+      "field": "Source_URL",
+      "before": "https://doi.org/10.2519/jospt.2019.0302\nbook://magee-local#pdf=751,756&print=742,747",
+      "after": "https://www.ncbi.nlm.nih.gov/books/NBK534775/\nbook://magee-local#pdf=751,756&print=742,747"
+    },
+    {
+      "section": "extension",
+      "sheet": "FindingFeature",
+      "id": "AFM-0076-SENSITIVITY",
+      "field": "Source_URL",
+      "before": "https://doi.org/10.2519/jospt.2019.0302",
+      "after": "https://www.ncbi.nlm.nih.gov/books/NBK526084/\nbook://magee-local#pdf=751,756&print=742,747\nlocal-records://LR-9a5cba6e18ed#L10-L40\nlocal-records://LR-b62ce4e8b001#L105-L109"
+    },
+    {
+      "section": "extension",
+      "sheet": "InterventionReference",
+      "id": "AFM-0050-TENSION-ACTIVE",
+      "field": "Treatment_Method",
+      "before": "足趾主动屈伸；足趾展开练习",
+      "after": "拇趾与第2–5趾分离伸展；足趾展开练习"
+    },
+    {
+      "section": "extension",
+      "sheet": "InterventionReference",
+      "id": "AFM-0050-TENSION-ACTIVE",
+      "field": "Source_Note",
+      "before": "健康人MRI研究支持组合肌肉募集，不是疼痛治疗试验，不宣称单肌分离效果。\n已核对8名健康运动员的T2 MRI描述性研究：短足、足趾展开及分离伸展募集多个足内在肌，未验证疼痛、过紧、牵伸改善或第一跖跗关节韧带修复。当前关联是区域活动/控制思路的临床编辑判断，不是单肌训练疗效。拇趾抗阻保留原库/患者资料出处，不把无抗阻MRI试验当作抗阻疗效证明。",
+      "after": "8名健康运动员T2 MRI研究实际测试短足、足趾展开、拇趾伸展和第2–5趾伸展。此处仅列分离伸展与展开的区域活动/组合控制参考，不作为肌肉过紧、疼痛或活动受限的独立疗效依据，不声称单肌隔离。方法与发现的关联为临床编辑整理。"
+    },
+    {
+      "section": "extension",
+      "sheet": "InterventionReference",
+      "id": "AFM-0051-TENSION-ACTIVE",
+      "field": "Treatment_Method",
+      "before": "足趾主动屈伸；足趾展开练习",
+      "after": "拇趾与第2–5趾分离伸展；足趾展开练习"
+    },
+    {
+      "section": "extension",
+      "sheet": "InterventionReference",
+      "id": "AFM-0051-TENSION-ACTIVE",
+      "field": "Source_Note",
+      "before": "健康人MRI研究支持组合肌肉募集，不是疼痛治疗试验，不宣称单肌分离效果。\n已核对8名健康运动员的T2 MRI描述性研究：短足、足趾展开及分离伸展募集多个足内在肌，未验证疼痛、过紧、牵伸改善或第一跖跗关节韧带修复。当前关联是区域活动/控制思路的临床编辑判断，不是单肌训练疗效。拇趾抗阻保留原库/患者资料出处，不把无抗阻MRI试验当作抗阻疗效证明。",
+      "after": "8名健康运动员T2 MRI研究实际测试短足、足趾展开、拇趾伸展和第2–5趾伸展。此处仅列分离伸展与展开的区域活动/组合控制参考，不作为肌肉过紧、疼痛或活动受限的独立疗效依据，不声称单肌隔离。方法与发现的关联为临床编辑整理。"
+    },
+    {
+      "section": "extension",
+      "sheet": "InterventionReference",
+      "id": "AFM-0052-TENSION-ACTIVE",
+      "field": "Treatment_Method",
+      "before": "足趾主动屈伸；足趾展开练习",
+      "after": "拇趾与第2–5趾分离伸展；足趾展开练习"
+    },
+    {
+      "section": "extension",
+      "sheet": "InterventionReference",
+      "id": "AFM-0052-TENSION-ACTIVE",
+      "field": "Source_Note",
+      "before": "健康人MRI研究支持组合肌肉募集，不是疼痛治疗试验，不宣称单肌分离效果。\n已核对8名健康运动员的T2 MRI描述性研究：短足、足趾展开及分离伸展募集多个足内在肌，未验证疼痛、过紧、牵伸改善或第一跖跗关节韧带修复。当前关联是区域活动/控制思路的临床编辑判断，不是单肌训练疗效。拇趾抗阻保留原库/患者资料出处，不把无抗阻MRI试验当作抗阻疗效证明。",
+      "after": "8名健康运动员T2 MRI研究实际测试短足、足趾展开、拇趾伸展和第2–5趾伸展。此处仅列分离伸展与展开的区域活动/组合控制参考，不作为肌肉过紧、疼痛或活动受限的独立疗效依据，不声称单肌隔离。方法与发现的关联为临床编辑整理。"
+    },
+    {
+      "section": "extension",
+      "sheet": "InterventionReference",
+      "id": "AFM-0023-LIMIT-ACTIVE",
+      "field": "Treatment_Method",
+      "before": "第2–5趾主动屈伸；足趾展开练习",
+      "after": "第2–5趾分离伸展；足趾展开练习"
+    },
+    {
+      "section": "extension",
+      "sheet": "InterventionReference",
+      "id": "AFM-0023-LIMIT-ACTIVE",
+      "field": "Source_Note",
+      "before": "来源列出具名练习，本库只保留方法名称，不导入剂量、阶段或自动选择规则。",
+      "after": "8名健康运动员T2 MRI研究实际测试短足、足趾展开、拇趾伸展和第2–5趾伸展。此处仅列分离伸展与展开的区域活动/组合控制参考，不作为肌肉过紧、疼痛或活动受限的独立疗效依据，不声称单肌隔离。方法与发现的关联为临床编辑整理。 NHS跖板资料列足趾展开；未据其声称本条所有关节受限的治疗效果。"
+    },
+    {
+      "section": "extension",
+      "sheet": "InterventionReference",
+      "id": "AFM-0075-TENSION-2",
+      "field": "Treatment_Goal",
+      "before": "改善拉长与活动",
+      "after": "相关主动活动"
+    },
+    {
+      "section": "extension",
+      "sheet": "InterventionReference",
+      "id": "AFM-0110-KNEE-TASK",
+      "field": "Treatment_Method",
+      "before": "下蹲动作反馈练习；髋膝踝协同练习；辅助下蹲练习",
+      "after": "下蹲动作反馈练习；辅助下蹲练习"
+    },
+    {
+      "section": "extension",
+      "sheet": "InterventionReference",
+      "id": "AFM-0112-KNEE-TASK",
+      "field": "Treatment_Method",
+      "before": "下台阶动作反馈练习；单腿负重控制练习；髋膝踝协同练习",
+      "after": "下台阶动作反馈练习；单腿负重控制练习"
+    },
+    {
+      "section": "extension",
+      "sheet": "InterventionReference",
+      "id": "AFM-0113-KNEE-TASK",
+      "field": "Treatment_Method",
+      "before": "单腿下蹲动作反馈练习；髋膝踝协同练习；辅助单腿下蹲练习",
+      "after": "单腿下蹲动作反馈练习；辅助单腿下蹲练习"
+    },
+    {
+      "section": "extension",
+      "sheet": "InterventionReference",
+      "id": "AFM-0116-KNEE-TASK",
+      "field": "Treatment_Method",
+      "before": "单腿落地动作反馈练习；髋膝踝协同练习；单腿缓冲练习",
+      "after": "单腿落地动作反馈练习；单腿缓冲练习"
+    },
+    {
+      "section": "extension",
+      "sheet": "DimensionGuide",
+      "id": "FUNCTION",
+      "field": "Public_Description",
+      "before": "选择相关动作线索，查看对应的动作模式。",
+      "after": "结合相关动作，观察负重、支撑与动作配合。"
+    }
+  ]
+}

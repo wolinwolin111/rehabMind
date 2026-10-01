@@ -1,0 +1,69 @@
+{
+  "location": {
+    "Area_ID": "LOC-KNEE-CALF-POST",
+    "Display_Name": "膝后及小腿上段",
+    "Region_IDs": "LL-R-005|KNEE-R-013",
+    "Module_Codes": "LOWER_LEG|KNEE",
+    "Related_Tissues": "肌肉与肌腱：腘肌；腓肠肌近端；腘绳肌远端\n关节与韧带：膝关节后方关节囊；后方韧带结构\n其他组织：腘窝局部组织；经过腘窝的神经与血管",
+    "Primary_Item_IDs": "KNEE-MUS-POPLIT|CORE-MUS-GASTROC|KNEE-ROM-EXT|KNEE-ROM-FLEX|CORE-CAP-PF|CORE-CAP-KNEE-FLEX|KNEE-LT-POST|LL-LT-005",
+    "Additional_Item_IDs": "CORE-MUS-SOLEUS|CORE-MUS-SM|CORE-MUS-ST|CORE-MUS-BF|KNEE-JNT-TIBROT|CORE-ROM-ANK-DF",
+    "Linked_Item_IDs": "CORE-SPT-NEURO-DISTAL|KNEE-SPT-MECH|LL-SPT-001",
+    "Assessment_Groups": "MUSCLE_STATE:膝后与小腿后侧肌群|ROM:关节活动|CAPACITY:膝屈与跖屈力量|LOCAL:膝后及小腿局部组织|SPECIAL_TEST:补充筛查|FUNCTION:相关动作观察",
+    "Review_Status": "待临床审核",
+    "Source_Reference": "BodyParts3D 4.0 atlas；05_RegionClinicalMap/LL-R-005,KNEE-R-013；本项目已索引的线下康复记录",
+    "Internal_Note": "表面区域提示周围组织，不代表点击皮肤能够确定深部组织或病因。仅第2阶段样例；相关动作项目仍按活动条件关联。"
+  },
+  "guides": [
+    {
+      "Guide_ID": "QG-KC-LOCATION", "Topic": "不适范围",
+      "Core_Prompt": "不适主要在膝后、小腿上段，还是向下延伸？",
+      "Optional_Probe": "偏内侧、外侧还是中间？是一个点，还是一片范围？",
+      "Question_Purpose": "了解不适的具体范围，区分膝后和近端小腿需要查看的组织。",
+      "Information_Gained": "不适的侧别、内外侧位置、范围及延伸方向。",
+      "Assessment_Help": "为腘窝局部组织、腓肠肌近端、腘肌及腘绳肌远端的检查提供定位参考。",
+      "Display_Order": 1
+    },
+    {
+      "Guide_ID": "QG-KC-ACTIVITY", "Topic": "哪些动作不舒服",
+      "Core_Prompt": "伸直膝盖、屈膝、走路或提踵，哪些动作会出现不适？",
+      "Optional_Probe": "在拉长、发力、负重时出现，还是活动一段时间后出现？",
+      "Question_Purpose": "了解不适与膝关节活动、小腿后侧拉长及肌肉发力的关系。",
+      "Information_Gained": "诱发动作、出现阶段，以及拉长和发力时的差异。",
+      "Assessment_Help": "可分别查看膝屈伸活动、伸膝位踝背屈、膝屈力量及提踵表现。",
+      "Display_Order": 2, "Replaces_Guide_ID": "QG-PROVOKE"
+    },
+    {
+      "Guide_ID": "QG-KC-CHANGE", "Topic": "近期活动变化",
+      "Core_Prompt": "不适出现前，跑跳、加速或训练量有没有变化？",
+      "Optional_Probe": "是否有突然的牵拉或蹬地动作？与平时相比，强度、频率或时长有什么变化？",
+      "Question_Purpose": "了解出现经过和活动变化，补充后侧组织承受拉长与发力的背景。",
+      "Information_Gained": "突发或逐渐出现、当时的动作，以及近期活动量的变化。",
+      "Assessment_Help": "为局部组织检查、拉长反应、跖屈和膝屈力量评估提供背景，不凭活动变化确定病因。",
+      "Display_Order": 3
+    },
+    {
+      "Guide_ID": "QG-KC-ASSOCIATED", "Topic": "伴随表现",
+      "Core_Prompt": "有没有肿胀、包块、发热、麻木或向下放射的不适？",
+      "Optional_Probe": "什么时候出现？是否突然加重？与另一侧相比有什么变化？",
+      "Question_Purpose": "了解肌肉和关节活动之外，还需要关注哪些局部或神经血管表现。",
+      "Information_Gained": "肿胀或包块的位置、变化经过，以及皮肤触感和感觉变化。",
+      "Assessment_Help": "提示关注腘窝及近端小腿局部组织；感觉变化可补充神经筛查，突然加重的肿痛或发热需进一步评估。",
+      "Display_Order": 4
+    }
+  ],
+  "purpose": {
+    "Item_ID": "LL-LT-005", "Item_Name": "腓肠肌肌腹/肌腱膜局部检查",
+    "Clinical_Purpose": "小腿上段后侧不适时，查看腓肠肌内外侧头及肌腱膜的局部表现。",
+    "Assessment_Focus": "局部压痛、肿胀或缺损；伸膝位背屈牵拉与跖屈发力时的反应。",
+    "Module": "小腿后侧",
+    "Source_URL": "asset://Lower-Leg-Remaining-L3-Review-v2.6/LL-LT-005",
+    "Review_Status": "待临床审核"
+  },
+  "features": [
+    {"Feature_ID": "AFM-0058-PRESSURE", "Assessment_Map_ID": "AFM-0058", "Finding_Name": "局部压痛", "Finding_Feature": "腓肠肌内外侧头或肌腱膜局部按压疼痛，与对侧不同。", "Finding_Interpretation": "定位观察内容；压痛本身不确定组织损伤或疼痛来源。"},
+    {"Feature_ID": "AFM-0058-SWELLING", "Assessment_Map_ID": "AFM-0058", "Finding_Name": "肿胀或局部缺损", "Finding_Feature": "小腿上段后侧可见肿胀，或触诊发现局部轮廓、连续性与对侧不同。", "Finding_Interpretation": "局部形态变化需要结合出现经过进一步评估，不直接对应常规软组织处理。"},
+    {"Feature_ID": "AFM-0058-ACTIVITY", "Assessment_Map_ID": "AFM-0058", "Finding_Name": "牵拉或发力时不适", "Finding_Feature": "伸膝位踝背屈牵拉或跖屈发力时，小腿上段后侧出现不适。", "Finding_Interpretation": "牵拉与发力反应分别查看；单一反应不确定病因。"}
+  ],
+  "source_note": "第2阶段部位问诊由已有临床项目和用户确认的产品边界整理，待临床审核；肿胀包块提示参考 https://www.nhs.uk/conditions/bakers-cyst/ 。不录入回答，不自动触发评估或处理。",
+  "retired_references": ["AFM-0044-SENSITIVITY-1", "AFM-0076-SENSITIVITY-1", "AFM-0084-SYMPTOM-1", "AFM-0085-SYMPTOM-1"]
+}

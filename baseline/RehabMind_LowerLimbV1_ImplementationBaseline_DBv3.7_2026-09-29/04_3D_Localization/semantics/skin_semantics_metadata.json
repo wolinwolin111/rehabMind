@@ -1,0 +1,3068 @@
+{
+  "version": "rehab-surface-semantic-v3",
+  "modelVersion": "BodyParts3D 4.0",
+  "sourceMesh": {
+    "partId": "FJ2810",
+    "name": "Skin",
+    "vertexCount": 22902,
+    "indexCount": 134232,
+    "faceCount": 44744,
+    "geometrySha256": "7cab9caf7c07e05bb6b2760d9e13dff16496a5c3fc65d142b964b855c6e09f29"
+  },
+  "recordFormat": {
+    "bytesPerFace": 3,
+    "fields": [
+      "primaryCode:uint8",
+      "alternativeCode:uint8",
+      "confidence:uint8"
+    ]
+  },
+  "scope": {
+    "implemented": [
+      "left_knee",
+      "right_knee",
+      "left_ankle_foot",
+      "right_ankle_foot"
+    ]
+  },
+  "areas": [
+    {
+      "code": 1,
+      "surfaceAreaId": "surface.knee.left.ant.sup",
+      "clinicalSubregionId": "REG-KNEE-ANT-SUP",
+      "workspaceRegionId": "REG-KNEE-ANT",
+      "displayName": "髌骨上方/膝上缘",
+      "side": "left",
+      "nearbyAnatomy": [
+        {
+          "concept": "quadriceps tendon",
+          "meshParts": []
+        },
+        {
+          "concept": "superior patella",
+          "meshParts": []
+        },
+        {
+          "concept": "vastus medialis",
+          "meshParts": [
+            {
+              "id": "FJ1443M",
+              "name": "Left vastus medialis"
+            }
+          ]
+        },
+        {
+          "concept": "vastus lateralis",
+          "meshParts": [
+            {
+              "id": "FJ1442M",
+              "name": "Left vastus lateralis"
+            }
+          ]
+        },
+        {
+          "concept": "rectus femoris",
+          "meshParts": [
+            {
+              "id": "FJ1433M",
+              "name": "Left rectus femoris"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "膝前"
+    },
+    {
+      "code": 2,
+      "surfaceAreaId": "surface.knee.left.ant.peri",
+      "clinicalSubregionId": "REG-KNEE-ANT-PERI",
+      "workspaceRegionId": "REG-KNEE-ANT",
+      "displayName": "髌骨周围",
+      "side": "left",
+      "nearbyAnatomy": [
+        {
+          "concept": "patella",
+          "meshParts": [
+            {
+              "id": "FJ3275",
+              "name": "Left patella"
+            }
+          ]
+        },
+        {
+          "concept": "patellofemoral joint",
+          "meshParts": []
+        },
+        {
+          "concept": "patellar retinaculum",
+          "meshParts": []
+        }
+      ],
+      "workspaceDisplayName": "膝前"
+    },
+    {
+      "code": 3,
+      "surfaceAreaId": "surface.knee.left.ant.inf",
+      "clinicalSubregionId": "REG-KNEE-ANT-INF",
+      "workspaceRegionId": "REG-KNEE-ANT",
+      "displayName": "髌骨下方/膝下缘",
+      "side": "left",
+      "nearbyAnatomy": [
+        {
+          "concept": "patellar tendon",
+          "meshParts": []
+        },
+        {
+          "concept": "infrapatellar fat pad",
+          "meshParts": []
+        },
+        {
+          "concept": "tibial tuberosity",
+          "meshParts": []
+        }
+      ],
+      "workspaceDisplayName": "膝前"
+    },
+    {
+      "code": 4,
+      "surfaceAreaId": "surface.knee.left.med.jl",
+      "clinicalSubregionId": "REG-KNEE-MED-JL",
+      "workspaceRegionId": "REG-KNEE-MED",
+      "displayName": "内侧关节线",
+      "side": "left",
+      "nearbyAnatomy": [
+        {
+          "concept": "medial meniscus",
+          "meshParts": []
+        },
+        {
+          "concept": "medial collateral ligament",
+          "meshParts": []
+        },
+        {
+          "concept": "medial femoral condyle",
+          "meshParts": [
+            {
+              "id": "FJ3259",
+              "name": "Left femur"
+            }
+          ]
+        },
+        {
+          "concept": "medial tibial plateau",
+          "meshParts": [
+            {
+              "id": "FJ1439M",
+              "name": "Left tibialis anterior"
+            },
+            {
+              "id": "FJ1440M",
+              "name": "Left tibialis posterior"
+            },
+            {
+              "id": "FJ3282",
+              "name": "Left tibia"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "膝内侧"
+    },
+    {
+      "code": 5,
+      "surfaceAreaId": "surface.knee.left.med.pes",
+      "clinicalSubregionId": "REG-KNEE-MED-PES",
+      "workspaceRegionId": "REG-KNEE-MED",
+      "displayName": "鹅足/内下方",
+      "side": "left",
+      "nearbyAnatomy": [
+        {
+          "concept": "pes anserinus",
+          "meshParts": []
+        },
+        {
+          "concept": "sartorius",
+          "meshParts": [
+            {
+              "id": "FJ1434M",
+              "name": "Left sartorius"
+            }
+          ]
+        },
+        {
+          "concept": "gracilis",
+          "meshParts": [
+            {
+              "id": "FJ1421M",
+              "name": "Left gracilis"
+            }
+          ]
+        },
+        {
+          "concept": "semitendinosus",
+          "meshParts": [
+            {
+              "id": "FJ1436M",
+              "name": "Left semitendinosus"
+            }
+          ]
+        },
+        {
+          "concept": "proximal medial tibia",
+          "meshParts": [
+            {
+              "id": "FJ1439M",
+              "name": "Left tibialis anterior"
+            },
+            {
+              "id": "FJ1440M",
+              "name": "Left tibialis posterior"
+            },
+            {
+              "id": "FJ3282",
+              "name": "Left tibia"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "膝内侧"
+    },
+    {
+      "code": 6,
+      "surfaceAreaId": "surface.knee.left.med.mcl",
+      "clinicalSubregionId": "REG-KNEE-MED-MCL",
+      "workspaceRegionId": "REG-KNEE-MED",
+      "displayName": "内侧副韧带区域",
+      "side": "left",
+      "nearbyAnatomy": [
+        {
+          "concept": "medial collateral ligament",
+          "meshParts": []
+        },
+        {
+          "concept": "medial meniscus",
+          "meshParts": []
+        },
+        {
+          "concept": "medial femoral condyle",
+          "meshParts": [
+            {
+              "id": "FJ3259",
+              "name": "Left femur"
+            }
+          ]
+        },
+        {
+          "concept": "medial tibial plateau",
+          "meshParts": [
+            {
+              "id": "FJ1439M",
+              "name": "Left tibialis anterior"
+            },
+            {
+              "id": "FJ1440M",
+              "name": "Left tibialis posterior"
+            },
+            {
+              "id": "FJ3282",
+              "name": "Left tibia"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "膝内侧"
+    },
+    {
+      "code": 7,
+      "surfaceAreaId": "surface.knee.left.med.post",
+      "clinicalSubregionId": "REG-KNEE-MED-POST",
+      "workspaceRegionId": "REG-KNEE-MED",
+      "displayName": "后内侧（内侧入口）",
+      "side": "left",
+      "nearbyAnatomy": [
+        {
+          "concept": "semitendinosus",
+          "meshParts": [
+            {
+              "id": "FJ1436M",
+              "name": "Left semitendinosus"
+            }
+          ]
+        },
+        {
+          "concept": "semimembranosus",
+          "meshParts": [
+            {
+              "id": "FJ1435M",
+              "name": "Left semimembranosus"
+            }
+          ]
+        },
+        {
+          "concept": "medial gastrocnemius",
+          "meshParts": [
+            {
+              "id": "FJ1397M",
+              "name": "Medial head of left gastrocnemius"
+            }
+          ]
+        },
+        {
+          "concept": "popliteus",
+          "meshParts": [
+            {
+              "id": "FJ1430M",
+              "name": "Left popliteus"
+            }
+          ]
+        },
+        {
+          "concept": "posterior horn medial meniscus",
+          "meshParts": []
+        }
+      ],
+      "workspaceDisplayName": "膝内侧"
+    },
+    {
+      "code": 8,
+      "surfaceAreaId": "surface.knee.left.lat.jl",
+      "clinicalSubregionId": "REG-KNEE-LAT-JL",
+      "workspaceRegionId": "REG-KNEE-LAT",
+      "displayName": "外侧关节线",
+      "side": "left",
+      "nearbyAnatomy": [
+        {
+          "concept": "lateral meniscus",
+          "meshParts": []
+        },
+        {
+          "concept": "lateral collateral ligament",
+          "meshParts": []
+        },
+        {
+          "concept": "lateral femoral condyle",
+          "meshParts": [
+            {
+              "id": "FJ3259",
+              "name": "Left femur"
+            }
+          ]
+        },
+        {
+          "concept": "lateral tibial plateau",
+          "meshParts": [
+            {
+              "id": "FJ1439M",
+              "name": "Left tibialis anterior"
+            },
+            {
+              "id": "FJ1440M",
+              "name": "Left tibialis posterior"
+            },
+            {
+              "id": "FJ3282",
+              "name": "Left tibia"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "膝外侧"
+    },
+    {
+      "code": 9,
+      "surfaceAreaId": "surface.knee.left.lat.epi",
+      "clinicalSubregionId": "REG-KNEE-LAT-EPI",
+      "workspaceRegionId": "REG-KNEE-LAT",
+      "displayName": "外侧股骨髁/髂胫束邻近",
+      "side": "left",
+      "nearbyAnatomy": [
+        {
+          "concept": "lateral femoral epicondyle",
+          "meshParts": [
+            {
+              "id": "FJ3259",
+              "name": "Left femur"
+            }
+          ]
+        },
+        {
+          "concept": "iliotibial tract",
+          "meshParts": [
+            {
+              "id": "FJ1423M",
+              "name": "Left iliotibial tract"
+            }
+          ]
+        },
+        {
+          "concept": "lateral collateral ligament",
+          "meshParts": []
+        }
+      ],
+      "workspaceDisplayName": "膝外侧"
+    },
+    {
+      "code": 10,
+      "surfaceAreaId": "surface.knee.left.lat.fib",
+      "clinicalSubregionId": "REG-KNEE-LAT-FIB",
+      "workspaceRegionId": "REG-KNEE-LAT",
+      "displayName": "腓骨头/近端胫腓区域",
+      "side": "left",
+      "nearbyAnatomy": [
+        {
+          "concept": "fibular head",
+          "meshParts": [
+            {
+              "id": "FJ1409M",
+              "name": "Left fibularis brevis"
+            },
+            {
+              "id": "FJ1410M",
+              "name": "Left fibularis longus"
+            },
+            {
+              "id": "FJ1411M",
+              "name": "Left fibularis tertius"
+            },
+            {
+              "id": "FJ2184",
+              "name": "Left fibular vein"
+            },
+            {
+              "id": "FJ2187",
+              "name": "Left fibular vein"
+            },
+            {
+              "id": "FJ3260",
+              "name": "Left fibula"
+            }
+          ]
+        },
+        {
+          "concept": "proximal tibiofibular joint",
+          "meshParts": [
+            {
+              "id": "FJ1439M",
+              "name": "Left tibialis anterior"
+            },
+            {
+              "id": "FJ1440M",
+              "name": "Left tibialis posterior"
+            },
+            {
+              "id": "FJ3282",
+              "name": "Left tibia"
+            },
+            {
+              "id": "FJ1409M",
+              "name": "Left fibularis brevis"
+            },
+            {
+              "id": "FJ1410M",
+              "name": "Left fibularis longus"
+            },
+            {
+              "id": "FJ1411M",
+              "name": "Left fibularis tertius"
+            },
+            {
+              "id": "FJ2184",
+              "name": "Left fibular vein"
+            },
+            {
+              "id": "FJ2187",
+              "name": "Left fibular vein"
+            },
+            {
+              "id": "FJ3260",
+              "name": "Left fibula"
+            }
+          ]
+        },
+        {
+          "concept": "biceps femoris",
+          "meshParts": [
+            {
+              "id": "FJ1395M",
+              "name": "Long head of left biceps femoris"
+            },
+            {
+              "id": "FJ1444M",
+              "name": "Short head of left biceps femoris"
+            }
+          ]
+        },
+        {
+          "concept": "common fibular nerve",
+          "meshParts": []
+        }
+      ],
+      "workspaceDisplayName": "膝外侧"
+    },
+    {
+      "code": 11,
+      "surfaceAreaId": "surface.knee.left.lat.post",
+      "clinicalSubregionId": "REG-KNEE-LAT-POST",
+      "workspaceRegionId": "REG-KNEE-LAT",
+      "displayName": "后外侧（外侧入口）",
+      "side": "left",
+      "nearbyAnatomy": [
+        {
+          "concept": "biceps femoris",
+          "meshParts": [
+            {
+              "id": "FJ1395M",
+              "name": "Long head of left biceps femoris"
+            },
+            {
+              "id": "FJ1444M",
+              "name": "Short head of left biceps femoris"
+            }
+          ]
+        },
+        {
+          "concept": "popliteus",
+          "meshParts": [
+            {
+              "id": "FJ1430M",
+              "name": "Left popliteus"
+            }
+          ]
+        },
+        {
+          "concept": "lateral gastrocnemius",
+          "meshParts": [
+            {
+              "id": "FJ1394M",
+              "name": "Lateral head of left gastrocnemius"
+            }
+          ]
+        },
+        {
+          "concept": "fibular head",
+          "meshParts": [
+            {
+              "id": "FJ1409M",
+              "name": "Left fibularis brevis"
+            },
+            {
+              "id": "FJ1410M",
+              "name": "Left fibularis longus"
+            },
+            {
+              "id": "FJ1411M",
+              "name": "Left fibularis tertius"
+            },
+            {
+              "id": "FJ2184",
+              "name": "Left fibular vein"
+            },
+            {
+              "id": "FJ2187",
+              "name": "Left fibular vein"
+            },
+            {
+              "id": "FJ3260",
+              "name": "Left fibula"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "膝外侧"
+    },
+    {
+      "code": 12,
+      "surfaceAreaId": "surface.knee.left.post.cent",
+      "clinicalSubregionId": "REG-KNEE-POST-CENT",
+      "workspaceRegionId": "REG-KNEE-POST",
+      "displayName": "腘窝中央",
+      "side": "left",
+      "nearbyAnatomy": [
+        {
+          "concept": "popliteal fossa",
+          "meshParts": []
+        },
+        {
+          "concept": "posterior cruciate ligament",
+          "meshParts": []
+        },
+        {
+          "concept": "posterior capsule",
+          "meshParts": []
+        },
+        {
+          "concept": "popliteal artery",
+          "meshParts": [
+            {
+              "id": "FJ2086",
+              "name": "Left popliteal artery"
+            }
+          ]
+        },
+        {
+          "concept": "popliteal vein",
+          "meshParts": [
+            {
+              "id": "FJ2117",
+              "name": "Left popliteal vein"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "膝后侧"
+    },
+    {
+      "code": 13,
+      "surfaceAreaId": "surface.knee.left.post.med",
+      "clinicalSubregionId": "REG-KNEE-POST-MED",
+      "workspaceRegionId": "REG-KNEE-POST",
+      "displayName": "后内侧（后侧入口）",
+      "side": "left",
+      "nearbyAnatomy": [
+        {
+          "concept": "medial gastrocnemius",
+          "meshParts": [
+            {
+              "id": "FJ1397M",
+              "name": "Medial head of left gastrocnemius"
+            }
+          ]
+        },
+        {
+          "concept": "semimembranosus",
+          "meshParts": [
+            {
+              "id": "FJ1435M",
+              "name": "Left semimembranosus"
+            }
+          ]
+        },
+        {
+          "concept": "semitendinosus",
+          "meshParts": [
+            {
+              "id": "FJ1436M",
+              "name": "Left semitendinosus"
+            }
+          ]
+        },
+        {
+          "concept": "popliteus",
+          "meshParts": [
+            {
+              "id": "FJ1430M",
+              "name": "Left popliteus"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "膝后侧"
+    },
+    {
+      "code": 14,
+      "surfaceAreaId": "surface.knee.left.post.lat",
+      "clinicalSubregionId": "REG-KNEE-POST-LAT",
+      "workspaceRegionId": "REG-KNEE-POST",
+      "displayName": "后外侧（后侧入口）",
+      "side": "left",
+      "nearbyAnatomy": [
+        {
+          "concept": "lateral gastrocnemius",
+          "meshParts": [
+            {
+              "id": "FJ1394M",
+              "name": "Lateral head of left gastrocnemius"
+            }
+          ]
+        },
+        {
+          "concept": "biceps femoris",
+          "meshParts": [
+            {
+              "id": "FJ1395M",
+              "name": "Long head of left biceps femoris"
+            },
+            {
+              "id": "FJ1444M",
+              "name": "Short head of left biceps femoris"
+            }
+          ]
+        },
+        {
+          "concept": "popliteus",
+          "meshParts": [
+            {
+              "id": "FJ1430M",
+              "name": "Left popliteus"
+            }
+          ]
+        },
+        {
+          "concept": "common fibular nerve",
+          "meshParts": []
+        }
+      ],
+      "workspaceDisplayName": "膝后侧"
+    },
+    {
+      "code": 15,
+      "surfaceAreaId": "surface.knee.left.post.calf",
+      "clinicalSubregionId": "REG-KNEE-POST-CALF",
+      "workspaceRegionId": "REG-KNEE-POST",
+      "displayName": "近端小腿后侧",
+      "side": "left",
+      "nearbyAnatomy": [
+        {
+          "concept": "gastrocnemius",
+          "meshParts": [
+            {
+              "id": "FJ1394M",
+              "name": "Lateral head of left gastrocnemius"
+            },
+            {
+              "id": "FJ1397M",
+              "name": "Medial head of left gastrocnemius"
+            }
+          ]
+        },
+        {
+          "concept": "soleus",
+          "meshParts": [
+            {
+              "id": "FJ1437M",
+              "name": "Left soleus"
+            }
+          ]
+        },
+        {
+          "concept": "proximal calf",
+          "meshParts": [
+            {
+              "id": "FJ1394M",
+              "name": "Lateral head of left gastrocnemius"
+            },
+            {
+              "id": "FJ1397M",
+              "name": "Medial head of left gastrocnemius"
+            },
+            {
+              "id": "FJ1437M",
+              "name": "Left soleus"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "膝后侧"
+    },
+    {
+      "code": 16,
+      "surfaceAreaId": "surface.knee.right.ant.sup",
+      "clinicalSubregionId": "REG-KNEE-ANT-SUP",
+      "workspaceRegionId": "REG-KNEE-ANT",
+      "displayName": "髌骨上方/膝上缘",
+      "side": "right",
+      "nearbyAnatomy": [
+        {
+          "concept": "quadriceps tendon",
+          "meshParts": []
+        },
+        {
+          "concept": "superior patella",
+          "meshParts": []
+        },
+        {
+          "concept": "vastus medialis",
+          "meshParts": [
+            {
+              "id": "FJ1443",
+              "name": "Right vastus medialis"
+            }
+          ]
+        },
+        {
+          "concept": "vastus lateralis",
+          "meshParts": [
+            {
+              "id": "FJ1442",
+              "name": "Right vastus lateralis"
+            }
+          ]
+        },
+        {
+          "concept": "rectus femoris",
+          "meshParts": [
+            {
+              "id": "FJ1433",
+              "name": "Right rectus femoris"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "膝前"
+    },
+    {
+      "code": 17,
+      "surfaceAreaId": "surface.knee.right.ant.peri",
+      "clinicalSubregionId": "REG-KNEE-ANT-PERI",
+      "workspaceRegionId": "REG-KNEE-ANT",
+      "displayName": "髌骨周围",
+      "side": "right",
+      "nearbyAnatomy": [
+        {
+          "concept": "patella",
+          "meshParts": [
+            {
+              "id": "FJ3381",
+              "name": "Right patella"
+            }
+          ]
+        },
+        {
+          "concept": "patellofemoral joint",
+          "meshParts": []
+        },
+        {
+          "concept": "patellar retinaculum",
+          "meshParts": []
+        }
+      ],
+      "workspaceDisplayName": "膝前"
+    },
+    {
+      "code": 18,
+      "surfaceAreaId": "surface.knee.right.ant.inf",
+      "clinicalSubregionId": "REG-KNEE-ANT-INF",
+      "workspaceRegionId": "REG-KNEE-ANT",
+      "displayName": "髌骨下方/膝下缘",
+      "side": "right",
+      "nearbyAnatomy": [
+        {
+          "concept": "patellar tendon",
+          "meshParts": []
+        },
+        {
+          "concept": "infrapatellar fat pad",
+          "meshParts": []
+        },
+        {
+          "concept": "tibial tuberosity",
+          "meshParts": []
+        }
+      ],
+      "workspaceDisplayName": "膝前"
+    },
+    {
+      "code": 19,
+      "surfaceAreaId": "surface.knee.right.med.jl",
+      "clinicalSubregionId": "REG-KNEE-MED-JL",
+      "workspaceRegionId": "REG-KNEE-MED",
+      "displayName": "内侧关节线",
+      "side": "right",
+      "nearbyAnatomy": [
+        {
+          "concept": "medial meniscus",
+          "meshParts": []
+        },
+        {
+          "concept": "medial collateral ligament",
+          "meshParts": []
+        },
+        {
+          "concept": "medial femoral condyle",
+          "meshParts": [
+            {
+              "id": "FJ3365",
+              "name": "Right femur"
+            }
+          ]
+        },
+        {
+          "concept": "medial tibial plateau",
+          "meshParts": [
+            {
+              "id": "FJ1439",
+              "name": "Right tibialis anterior"
+            },
+            {
+              "id": "FJ1440",
+              "name": "Right tibialis posterior"
+            },
+            {
+              "id": "FJ3387",
+              "name": "Right tibia"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "膝内侧"
+    },
+    {
+      "code": 20,
+      "surfaceAreaId": "surface.knee.right.med.pes",
+      "clinicalSubregionId": "REG-KNEE-MED-PES",
+      "workspaceRegionId": "REG-KNEE-MED",
+      "displayName": "鹅足/内下方",
+      "side": "right",
+      "nearbyAnatomy": [
+        {
+          "concept": "pes anserinus",
+          "meshParts": []
+        },
+        {
+          "concept": "sartorius",
+          "meshParts": [
+            {
+              "id": "FJ1434",
+              "name": "Right sartorius"
+            }
+          ]
+        },
+        {
+          "concept": "gracilis",
+          "meshParts": [
+            {
+              "id": "FJ1421",
+              "name": "Right gracilis"
+            }
+          ]
+        },
+        {
+          "concept": "semitendinosus",
+          "meshParts": [
+            {
+              "id": "FJ1436",
+              "name": "Right semitendinosus"
+            }
+          ]
+        },
+        {
+          "concept": "proximal medial tibia",
+          "meshParts": [
+            {
+              "id": "FJ1439",
+              "name": "Right tibialis anterior"
+            },
+            {
+              "id": "FJ1440",
+              "name": "Right tibialis posterior"
+            },
+            {
+              "id": "FJ3387",
+              "name": "Right tibia"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "膝内侧"
+    },
+    {
+      "code": 21,
+      "surfaceAreaId": "surface.knee.right.med.mcl",
+      "clinicalSubregionId": "REG-KNEE-MED-MCL",
+      "workspaceRegionId": "REG-KNEE-MED",
+      "displayName": "内侧副韧带区域",
+      "side": "right",
+      "nearbyAnatomy": [
+        {
+          "concept": "medial collateral ligament",
+          "meshParts": []
+        },
+        {
+          "concept": "medial meniscus",
+          "meshParts": []
+        },
+        {
+          "concept": "medial femoral condyle",
+          "meshParts": [
+            {
+              "id": "FJ3365",
+              "name": "Right femur"
+            }
+          ]
+        },
+        {
+          "concept": "medial tibial plateau",
+          "meshParts": [
+            {
+              "id": "FJ1439",
+              "name": "Right tibialis anterior"
+            },
+            {
+              "id": "FJ1440",
+              "name": "Right tibialis posterior"
+            },
+            {
+              "id": "FJ3387",
+              "name": "Right tibia"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "膝内侧"
+    },
+    {
+      "code": 22,
+      "surfaceAreaId": "surface.knee.right.med.post",
+      "clinicalSubregionId": "REG-KNEE-MED-POST",
+      "workspaceRegionId": "REG-KNEE-MED",
+      "displayName": "后内侧（内侧入口）",
+      "side": "right",
+      "nearbyAnatomy": [
+        {
+          "concept": "semitendinosus",
+          "meshParts": [
+            {
+              "id": "FJ1436",
+              "name": "Right semitendinosus"
+            }
+          ]
+        },
+        {
+          "concept": "semimembranosus",
+          "meshParts": [
+            {
+              "id": "FJ1435",
+              "name": "Right semimembranosus"
+            }
+          ]
+        },
+        {
+          "concept": "medial gastrocnemius",
+          "meshParts": [
+            {
+              "id": "FJ1397",
+              "name": "Medial head of right gastrocnemius"
+            }
+          ]
+        },
+        {
+          "concept": "popliteus",
+          "meshParts": [
+            {
+              "id": "FJ1430",
+              "name": "Right popliteus"
+            }
+          ]
+        },
+        {
+          "concept": "posterior horn medial meniscus",
+          "meshParts": []
+        }
+      ],
+      "workspaceDisplayName": "膝内侧"
+    },
+    {
+      "code": 23,
+      "surfaceAreaId": "surface.knee.right.lat.jl",
+      "clinicalSubregionId": "REG-KNEE-LAT-JL",
+      "workspaceRegionId": "REG-KNEE-LAT",
+      "displayName": "外侧关节线",
+      "side": "right",
+      "nearbyAnatomy": [
+        {
+          "concept": "lateral meniscus",
+          "meshParts": []
+        },
+        {
+          "concept": "lateral collateral ligament",
+          "meshParts": []
+        },
+        {
+          "concept": "lateral femoral condyle",
+          "meshParts": [
+            {
+              "id": "FJ3365",
+              "name": "Right femur"
+            }
+          ]
+        },
+        {
+          "concept": "lateral tibial plateau",
+          "meshParts": [
+            {
+              "id": "FJ1439",
+              "name": "Right tibialis anterior"
+            },
+            {
+              "id": "FJ1440",
+              "name": "Right tibialis posterior"
+            },
+            {
+              "id": "FJ3387",
+              "name": "Right tibia"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "膝外侧"
+    },
+    {
+      "code": 24,
+      "surfaceAreaId": "surface.knee.right.lat.epi",
+      "clinicalSubregionId": "REG-KNEE-LAT-EPI",
+      "workspaceRegionId": "REG-KNEE-LAT",
+      "displayName": "外侧股骨髁/髂胫束邻近",
+      "side": "right",
+      "nearbyAnatomy": [
+        {
+          "concept": "lateral femoral epicondyle",
+          "meshParts": [
+            {
+              "id": "FJ3365",
+              "name": "Right femur"
+            }
+          ]
+        },
+        {
+          "concept": "iliotibial tract",
+          "meshParts": [
+            {
+              "id": "FJ1423",
+              "name": "Right iliotibial tract"
+            }
+          ]
+        },
+        {
+          "concept": "lateral collateral ligament",
+          "meshParts": []
+        }
+      ],
+      "workspaceDisplayName": "膝外侧"
+    },
+    {
+      "code": 25,
+      "surfaceAreaId": "surface.knee.right.lat.fib",
+      "clinicalSubregionId": "REG-KNEE-LAT-FIB",
+      "workspaceRegionId": "REG-KNEE-LAT",
+      "displayName": "腓骨头/近端胫腓区域",
+      "side": "right",
+      "nearbyAnatomy": [
+        {
+          "concept": "fibular head",
+          "meshParts": [
+            {
+              "id": "FJ1409",
+              "name": "Right fibularis brevis"
+            },
+            {
+              "id": "FJ1410",
+              "name": "Right fibularis longus"
+            },
+            {
+              "id": "FJ1411",
+              "name": "Right fibularis tertius"
+            },
+            {
+              "id": "FJ2200",
+              "name": "Right fibular vein"
+            },
+            {
+              "id": "FJ3366",
+              "name": "Right fibula"
+            }
+          ]
+        },
+        {
+          "concept": "proximal tibiofibular joint",
+          "meshParts": [
+            {
+              "id": "FJ1439",
+              "name": "Right tibialis anterior"
+            },
+            {
+              "id": "FJ1440",
+              "name": "Right tibialis posterior"
+            },
+            {
+              "id": "FJ3387",
+              "name": "Right tibia"
+            },
+            {
+              "id": "FJ1409",
+              "name": "Right fibularis brevis"
+            },
+            {
+              "id": "FJ1410",
+              "name": "Right fibularis longus"
+            },
+            {
+              "id": "FJ1411",
+              "name": "Right fibularis tertius"
+            },
+            {
+              "id": "FJ2200",
+              "name": "Right fibular vein"
+            },
+            {
+              "id": "FJ3366",
+              "name": "Right fibula"
+            }
+          ]
+        },
+        {
+          "concept": "biceps femoris",
+          "meshParts": [
+            {
+              "id": "FJ1395",
+              "name": "Long head of right biceps femoris"
+            },
+            {
+              "id": "FJ1444",
+              "name": "Short head of right biceps femoris"
+            }
+          ]
+        },
+        {
+          "concept": "common fibular nerve",
+          "meshParts": []
+        }
+      ],
+      "workspaceDisplayName": "膝外侧"
+    },
+    {
+      "code": 26,
+      "surfaceAreaId": "surface.knee.right.lat.post",
+      "clinicalSubregionId": "REG-KNEE-LAT-POST",
+      "workspaceRegionId": "REG-KNEE-LAT",
+      "displayName": "后外侧（外侧入口）",
+      "side": "right",
+      "nearbyAnatomy": [
+        {
+          "concept": "biceps femoris",
+          "meshParts": [
+            {
+              "id": "FJ1395",
+              "name": "Long head of right biceps femoris"
+            },
+            {
+              "id": "FJ1444",
+              "name": "Short head of right biceps femoris"
+            }
+          ]
+        },
+        {
+          "concept": "popliteus",
+          "meshParts": [
+            {
+              "id": "FJ1430",
+              "name": "Right popliteus"
+            }
+          ]
+        },
+        {
+          "concept": "lateral gastrocnemius",
+          "meshParts": [
+            {
+              "id": "FJ1394",
+              "name": "Lateral head of right gastrocnemius"
+            }
+          ]
+        },
+        {
+          "concept": "fibular head",
+          "meshParts": [
+            {
+              "id": "FJ1409",
+              "name": "Right fibularis brevis"
+            },
+            {
+              "id": "FJ1410",
+              "name": "Right fibularis longus"
+            },
+            {
+              "id": "FJ1411",
+              "name": "Right fibularis tertius"
+            },
+            {
+              "id": "FJ2200",
+              "name": "Right fibular vein"
+            },
+            {
+              "id": "FJ3366",
+              "name": "Right fibula"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "膝外侧"
+    },
+    {
+      "code": 27,
+      "surfaceAreaId": "surface.knee.right.post.cent",
+      "clinicalSubregionId": "REG-KNEE-POST-CENT",
+      "workspaceRegionId": "REG-KNEE-POST",
+      "displayName": "腘窝中央",
+      "side": "right",
+      "nearbyAnatomy": [
+        {
+          "concept": "popliteal fossa",
+          "meshParts": []
+        },
+        {
+          "concept": "posterior cruciate ligament",
+          "meshParts": []
+        },
+        {
+          "concept": "posterior capsule",
+          "meshParts": []
+        },
+        {
+          "concept": "popliteal artery",
+          "meshParts": [
+            {
+              "id": "FJ2170",
+              "name": "Right popliteal artery"
+            }
+          ]
+        },
+        {
+          "concept": "popliteal vein",
+          "meshParts": [
+            {
+              "id": "FJ2171",
+              "name": "Right popliteal vein"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "膝后侧"
+    },
+    {
+      "code": 28,
+      "surfaceAreaId": "surface.knee.right.post.med",
+      "clinicalSubregionId": "REG-KNEE-POST-MED",
+      "workspaceRegionId": "REG-KNEE-POST",
+      "displayName": "后内侧（后侧入口）",
+      "side": "right",
+      "nearbyAnatomy": [
+        {
+          "concept": "medial gastrocnemius",
+          "meshParts": [
+            {
+              "id": "FJ1397",
+              "name": "Medial head of right gastrocnemius"
+            }
+          ]
+        },
+        {
+          "concept": "semimembranosus",
+          "meshParts": [
+            {
+              "id": "FJ1435",
+              "name": "Right semimembranosus"
+            }
+          ]
+        },
+        {
+          "concept": "semitendinosus",
+          "meshParts": [
+            {
+              "id": "FJ1436",
+              "name": "Right semitendinosus"
+            }
+          ]
+        },
+        {
+          "concept": "popliteus",
+          "meshParts": [
+            {
+              "id": "FJ1430",
+              "name": "Right popliteus"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "膝后侧"
+    },
+    {
+      "code": 29,
+      "surfaceAreaId": "surface.knee.right.post.lat",
+      "clinicalSubregionId": "REG-KNEE-POST-LAT",
+      "workspaceRegionId": "REG-KNEE-POST",
+      "displayName": "后外侧（后侧入口）",
+      "side": "right",
+      "nearbyAnatomy": [
+        {
+          "concept": "lateral gastrocnemius",
+          "meshParts": [
+            {
+              "id": "FJ1394",
+              "name": "Lateral head of right gastrocnemius"
+            }
+          ]
+        },
+        {
+          "concept": "biceps femoris",
+          "meshParts": [
+            {
+              "id": "FJ1395",
+              "name": "Long head of right biceps femoris"
+            },
+            {
+              "id": "FJ1444",
+              "name": "Short head of right biceps femoris"
+            }
+          ]
+        },
+        {
+          "concept": "popliteus",
+          "meshParts": [
+            {
+              "id": "FJ1430",
+              "name": "Right popliteus"
+            }
+          ]
+        },
+        {
+          "concept": "common fibular nerve",
+          "meshParts": []
+        }
+      ],
+      "workspaceDisplayName": "膝后侧"
+    },
+    {
+      "code": 30,
+      "surfaceAreaId": "surface.knee.right.post.calf",
+      "clinicalSubregionId": "REG-KNEE-POST-CALF",
+      "workspaceRegionId": "REG-KNEE-POST",
+      "displayName": "近端小腿后侧",
+      "side": "right",
+      "nearbyAnatomy": [
+        {
+          "concept": "gastrocnemius",
+          "meshParts": [
+            {
+              "id": "FJ1394",
+              "name": "Lateral head of right gastrocnemius"
+            },
+            {
+              "id": "FJ1397",
+              "name": "Medial head of right gastrocnemius"
+            }
+          ]
+        },
+        {
+          "concept": "soleus",
+          "meshParts": [
+            {
+              "id": "FJ1437",
+              "name": "Right soleus"
+            }
+          ]
+        },
+        {
+          "concept": "proximal calf",
+          "meshParts": [
+            {
+              "id": "FJ1394",
+              "name": "Lateral head of right gastrocnemius"
+            },
+            {
+              "id": "FJ1397",
+              "name": "Medial head of right gastrocnemius"
+            },
+            {
+              "id": "FJ1437",
+              "name": "Right soleus"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "膝后侧"
+    },
+    {
+      "code": 31,
+      "surfaceAreaId": "surface.ankle_foot.left.ant.lat",
+      "clinicalSubregionId": "REG-ANKLE-ANT-LAT",
+      "workspaceRegionId": "REG-ANKLE-ANT",
+      "displayName": "踝前外侧",
+      "side": "left",
+      "nearbyAnatomy": [
+        {
+          "concept": "talus",
+          "meshParts": [
+            {
+              "id": "FJ3280",
+              "name": "Left talus"
+            }
+          ]
+        },
+        {
+          "concept": "distal fibula",
+          "meshParts": [
+            {
+              "id": "FJ1409M",
+              "name": "Left fibularis brevis"
+            },
+            {
+              "id": "FJ1410M",
+              "name": "Left fibularis longus"
+            },
+            {
+              "id": "FJ1411M",
+              "name": "Left fibularis tertius"
+            },
+            {
+              "id": "FJ2184",
+              "name": "Left fibular vein"
+            },
+            {
+              "id": "FJ2187",
+              "name": "Left fibular vein"
+            },
+            {
+              "id": "FJ3260",
+              "name": "Left fibula"
+            }
+          ]
+        },
+        {
+          "concept": "tibialis anterior",
+          "meshParts": [
+            {
+              "id": "FJ1439M",
+              "name": "Left tibialis anterior"
+            }
+          ]
+        },
+        {
+          "concept": "anterior talofibular ligament",
+          "meshParts": []
+        }
+      ],
+      "workspaceDisplayName": "踝前/足背"
+    },
+    {
+      "code": 32,
+      "surfaceAreaId": "surface.ankle_foot.left.ant.med",
+      "clinicalSubregionId": "REG-ANKLE-ANT-MED",
+      "workspaceRegionId": "REG-ANKLE-ANT",
+      "displayName": "踝前内侧",
+      "side": "left",
+      "nearbyAnatomy": [
+        {
+          "concept": "talus",
+          "meshParts": [
+            {
+              "id": "FJ3280",
+              "name": "Left talus"
+            }
+          ]
+        },
+        {
+          "concept": "distal tibia",
+          "meshParts": [
+            {
+              "id": "FJ1439M",
+              "name": "Left tibialis anterior"
+            },
+            {
+              "id": "FJ1440M",
+              "name": "Left tibialis posterior"
+            },
+            {
+              "id": "FJ3282",
+              "name": "Left tibia"
+            }
+          ]
+        },
+        {
+          "concept": "tibialis anterior",
+          "meshParts": [
+            {
+              "id": "FJ1439M",
+              "name": "Left tibialis anterior"
+            }
+          ]
+        },
+        {
+          "concept": "extensor hallucis longus",
+          "meshParts": [
+            {
+              "id": "FJ1408M",
+              "name": "Left extensor hallucis longus"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "踝前/足背"
+    },
+    {
+      "code": 33,
+      "surfaceAreaId": "surface.ankle_foot.left.dorsum",
+      "clinicalSubregionId": "REG-ANKLE-DORSUM",
+      "workspaceRegionId": "REG-ANKLE-ANT",
+      "displayName": "足背/中足背侧",
+      "side": "left",
+      "nearbyAnatomy": [
+        {
+          "concept": "navicular",
+          "meshParts": [
+            {
+              "id": "FJ3307",
+              "name": "Navicular bone of left foot"
+            }
+          ]
+        },
+        {
+          "concept": "cuneiforms",
+          "meshParts": []
+        },
+        {
+          "concept": "metatarsals",
+          "meshParts": [
+            {
+              "id": "FJ3241",
+              "name": "Left first metatarsal bone"
+            },
+            {
+              "id": "FJ3244",
+              "name": "Left second metatarsal bone"
+            },
+            {
+              "id": "FJ3247",
+              "name": "Left third metatarsal bone"
+            },
+            {
+              "id": "FJ3250",
+              "name": "Left fourth metatarsal bone"
+            },
+            {
+              "id": "FJ3253",
+              "name": "Left fifth metatarsal bone"
+            },
+            {
+              "id": "FJ3351",
+              "name": "Right first metatarsal bone"
+            },
+            {
+              "id": "FJ3353",
+              "name": "Right second metatarsal bone"
+            },
+            {
+              "id": "FJ3355",
+              "name": "Right third metatarsal bone"
+            },
+            {
+              "id": "FJ3357",
+              "name": "Right fourth metatarsal bone"
+            },
+            {
+              "id": "FJ3359",
+              "name": "Right fifth metatarsal bone"
+            }
+          ]
+        },
+        {
+          "concept": "extensor digitorum longus",
+          "meshParts": [
+            {
+              "id": "FJ1406M",
+              "name": "Left extensor digitorum longus"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "踝前/足背"
+    },
+    {
+      "code": 34,
+      "surfaceAreaId": "surface.ankle_foot.left.lat.atfl",
+      "clinicalSubregionId": "REG-ANKLE-LAT-ATFL",
+      "workspaceRegionId": "REG-ANKLE-LAT",
+      "displayName": "外踝前方/ATFL邻近",
+      "side": "left",
+      "nearbyAnatomy": [
+        {
+          "concept": "anterior talofibular ligament",
+          "meshParts": []
+        },
+        {
+          "concept": "fibula",
+          "meshParts": [
+            {
+              "id": "FJ1409M",
+              "name": "Left fibularis brevis"
+            },
+            {
+              "id": "FJ1410M",
+              "name": "Left fibularis longus"
+            },
+            {
+              "id": "FJ1411M",
+              "name": "Left fibularis tertius"
+            },
+            {
+              "id": "FJ2184",
+              "name": "Left fibular vein"
+            },
+            {
+              "id": "FJ2187",
+              "name": "Left fibular vein"
+            },
+            {
+              "id": "FJ3260",
+              "name": "Left fibula"
+            }
+          ]
+        },
+        {
+          "concept": "talus",
+          "meshParts": [
+            {
+              "id": "FJ3280",
+              "name": "Left talus"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "踝外侧"
+    },
+    {
+      "code": 35,
+      "surfaceAreaId": "surface.ankle_foot.left.lat.cfl",
+      "clinicalSubregionId": "REG-ANKLE-LAT-CFL",
+      "workspaceRegionId": "REG-ANKLE-LAT",
+      "displayName": "外踝下方",
+      "side": "left",
+      "nearbyAnatomy": [
+        {
+          "concept": "calcaneofibular ligament",
+          "meshParts": []
+        },
+        {
+          "concept": "fibula",
+          "meshParts": [
+            {
+              "id": "FJ1409M",
+              "name": "Left fibularis brevis"
+            },
+            {
+              "id": "FJ1410M",
+              "name": "Left fibularis longus"
+            },
+            {
+              "id": "FJ1411M",
+              "name": "Left fibularis tertius"
+            },
+            {
+              "id": "FJ2184",
+              "name": "Left fibular vein"
+            },
+            {
+              "id": "FJ2187",
+              "name": "Left fibular vein"
+            },
+            {
+              "id": "FJ3260",
+              "name": "Left fibula"
+            }
+          ]
+        },
+        {
+          "concept": "calcaneus",
+          "meshParts": [
+            {
+              "id": "FJ3256",
+              "name": "Left calcaneus"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "踝外侧"
+    },
+    {
+      "code": 36,
+      "surfaceAreaId": "surface.ankle_foot.left.lat.per",
+      "clinicalSubregionId": "REG-ANKLE-LAT-PER",
+      "workspaceRegionId": "REG-ANKLE-LAT",
+      "displayName": "外踝后方/腓骨肌腱区",
+      "side": "left",
+      "nearbyAnatomy": [
+        {
+          "concept": "fibularis longus",
+          "meshParts": [
+            {
+              "id": "FJ1410M",
+              "name": "Left fibularis longus"
+            }
+          ]
+        },
+        {
+          "concept": "fibularis brevis",
+          "meshParts": [
+            {
+              "id": "FJ1409M",
+              "name": "Left fibularis brevis"
+            }
+          ]
+        },
+        {
+          "concept": "fibula",
+          "meshParts": [
+            {
+              "id": "FJ1409M",
+              "name": "Left fibularis brevis"
+            },
+            {
+              "id": "FJ1410M",
+              "name": "Left fibularis longus"
+            },
+            {
+              "id": "FJ1411M",
+              "name": "Left fibularis tertius"
+            },
+            {
+              "id": "FJ2184",
+              "name": "Left fibular vein"
+            },
+            {
+              "id": "FJ2187",
+              "name": "Left fibular vein"
+            },
+            {
+              "id": "FJ3260",
+              "name": "Left fibula"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "踝外侧"
+    },
+    {
+      "code": 37,
+      "surfaceAreaId": "surface.ankle_foot.left.foot.lat",
+      "clinicalSubregionId": "REG-FOOT-LAT",
+      "workspaceRegionId": "REG-ANKLE-LAT",
+      "displayName": "足外侧缘",
+      "side": "left",
+      "nearbyAnatomy": [
+        {
+          "concept": "cuboid",
+          "meshParts": [
+            {
+              "id": "FJ3258",
+              "name": "Left cuboid bone"
+            }
+          ]
+        },
+        {
+          "concept": "fifth metatarsal",
+          "meshParts": [
+            {
+              "id": "FJ3253",
+              "name": "Left fifth metatarsal bone"
+            }
+          ]
+        },
+        {
+          "concept": "fibularis brevis",
+          "meshParts": [
+            {
+              "id": "FJ1409M",
+              "name": "Left fibularis brevis"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "踝外侧"
+    },
+    {
+      "code": 38,
+      "surfaceAreaId": "surface.ankle_foot.left.med.mal",
+      "clinicalSubregionId": "REG-ANKLE-MED-MAL",
+      "workspaceRegionId": "REG-ANKLE-MED",
+      "displayName": "内踝周围",
+      "side": "left",
+      "nearbyAnatomy": [
+        {
+          "concept": "distal tibia",
+          "meshParts": [
+            {
+              "id": "FJ1439M",
+              "name": "Left tibialis anterior"
+            },
+            {
+              "id": "FJ1440M",
+              "name": "Left tibialis posterior"
+            },
+            {
+              "id": "FJ3282",
+              "name": "Left tibia"
+            }
+          ]
+        },
+        {
+          "concept": "talus",
+          "meshParts": [
+            {
+              "id": "FJ3280",
+              "name": "Left talus"
+            }
+          ]
+        },
+        {
+          "concept": "deltoid ligament",
+          "meshParts": []
+        }
+      ],
+      "workspaceDisplayName": "踝内侧"
+    },
+    {
+      "code": 39,
+      "surfaceAreaId": "surface.ankle_foot.left.med.post",
+      "clinicalSubregionId": "REG-ANKLE-MED-POST",
+      "workspaceRegionId": "REG-ANKLE-MED",
+      "displayName": "内踝后方/后内侧",
+      "side": "left",
+      "nearbyAnatomy": [
+        {
+          "concept": "tibialis posterior",
+          "meshParts": [
+            {
+              "id": "FJ1440M",
+              "name": "Left tibialis posterior"
+            }
+          ]
+        },
+        {
+          "concept": "flexor digitorum longus",
+          "meshParts": [
+            {
+              "id": "FJ1414M",
+              "name": "Left flexor digitorum longus"
+            }
+          ]
+        },
+        {
+          "concept": "tibial nerve",
+          "meshParts": []
+        }
+      ],
+      "workspaceDisplayName": "踝内侧"
+    },
+    {
+      "code": 40,
+      "surfaceAreaId": "surface.ankle_foot.left.foot.arch",
+      "clinicalSubregionId": "REG-FOOT-ARCH",
+      "workspaceRegionId": "REG-ANKLE-MED",
+      "displayName": "足弓内侧",
+      "side": "left",
+      "nearbyAnatomy": [
+        {
+          "concept": "navicular",
+          "meshParts": [
+            {
+              "id": "FJ3307",
+              "name": "Navicular bone of left foot"
+            }
+          ]
+        },
+        {
+          "concept": "first metatarsal",
+          "meshParts": [
+            {
+              "id": "FJ3241",
+              "name": "Left first metatarsal bone"
+            }
+          ]
+        },
+        {
+          "concept": "tibialis posterior",
+          "meshParts": [
+            {
+              "id": "FJ1440M",
+              "name": "Left tibialis posterior"
+            }
+          ]
+        },
+        {
+          "concept": "medial plantar structures",
+          "meshParts": []
+        }
+      ],
+      "workspaceDisplayName": "踝内侧"
+    },
+    {
+      "code": 41,
+      "surfaceAreaId": "surface.ankle_foot.left.ach.mid",
+      "clinicalSubregionId": "REG-ACHILLES-MID",
+      "workspaceRegionId": "REG-ANKLE-POST",
+      "displayName": "跟腱中段",
+      "side": "left",
+      "nearbyAnatomy": [
+        {
+          "concept": "calcaneal tendon",
+          "meshParts": [
+            {
+              "id": "FJ1405M",
+              "name": "Left calcaneal tendon"
+            }
+          ]
+        },
+        {
+          "concept": "gastrocnemius",
+          "meshParts": [
+            {
+              "id": "FJ1394M",
+              "name": "Lateral head of left gastrocnemius"
+            },
+            {
+              "id": "FJ1397M",
+              "name": "Medial head of left gastrocnemius"
+            }
+          ]
+        },
+        {
+          "concept": "soleus",
+          "meshParts": [
+            {
+              "id": "FJ1437M",
+              "name": "Left soleus"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "踝后/跟腱"
+    },
+    {
+      "code": 42,
+      "surfaceAreaId": "surface.ankle_foot.left.ach.ins",
+      "clinicalSubregionId": "REG-ACHILLES-INS",
+      "workspaceRegionId": "REG-ANKLE-POST",
+      "displayName": "跟腱止点/后跟",
+      "side": "left",
+      "nearbyAnatomy": [
+        {
+          "concept": "calcaneal tendon",
+          "meshParts": [
+            {
+              "id": "FJ1405M",
+              "name": "Left calcaneal tendon"
+            }
+          ]
+        },
+        {
+          "concept": "calcaneus",
+          "meshParts": [
+            {
+              "id": "FJ3256",
+              "name": "Left calcaneus"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "踝后/跟腱"
+    },
+    {
+      "code": 43,
+      "surfaceAreaId": "surface.ankle_foot.left.heel.post",
+      "clinicalSubregionId": "REG-HEEL-POST",
+      "workspaceRegionId": "REG-ANKLE-POST",
+      "displayName": "后足跟",
+      "side": "left",
+      "nearbyAnatomy": [
+        {
+          "concept": "calcaneus",
+          "meshParts": [
+            {
+              "id": "FJ3256",
+              "name": "Left calcaneus"
+            }
+          ]
+        },
+        {
+          "concept": "calcaneal tendon",
+          "meshParts": [
+            {
+              "id": "FJ1405M",
+              "name": "Left calcaneal tendon"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "踝后/跟腱"
+    },
+    {
+      "code": 44,
+      "surfaceAreaId": "surface.ankle_foot.left.heel.plantar",
+      "clinicalSubregionId": "REG-HEEL-PLANTAR",
+      "workspaceRegionId": "REG-FOOT-PLANTAR",
+      "displayName": "足底跟骨区",
+      "side": "left",
+      "nearbyAnatomy": [
+        {
+          "concept": "calcaneus",
+          "meshParts": [
+            {
+              "id": "FJ3256",
+              "name": "Left calcaneus"
+            }
+          ]
+        },
+        {
+          "concept": "plantar fascia",
+          "meshParts": []
+        }
+      ],
+      "workspaceDisplayName": "足底/足跟"
+    },
+    {
+      "code": 45,
+      "surfaceAreaId": "surface.ankle_foot.left.plantar.med",
+      "clinicalSubregionId": "REG-FOOT-PLANTAR-MED",
+      "workspaceRegionId": "REG-FOOT-PLANTAR",
+      "displayName": "足底内侧/内侧足弓",
+      "side": "left",
+      "nearbyAnatomy": [
+        {
+          "concept": "plantar fascia",
+          "meshParts": []
+        },
+        {
+          "concept": "long plantar ligament",
+          "meshParts": [
+            {
+              "id": "FJ1424M",
+              "name": "Left long plantar ligament"
+            }
+          ]
+        },
+        {
+          "concept": "first metatarsal",
+          "meshParts": [
+            {
+              "id": "FJ3241",
+              "name": "Left first metatarsal bone"
+            }
+          ]
+        },
+        {
+          "concept": "navicular",
+          "meshParts": [
+            {
+              "id": "FJ3307",
+              "name": "Navicular bone of left foot"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "足底/足跟"
+    },
+    {
+      "code": 46,
+      "surfaceAreaId": "surface.ankle_foot.left.plantar.lat",
+      "clinicalSubregionId": "REG-FOOT-PLANTAR-LAT",
+      "workspaceRegionId": "REG-FOOT-PLANTAR",
+      "displayName": "足底外侧",
+      "side": "left",
+      "nearbyAnatomy": [
+        {
+          "concept": "long plantar ligament",
+          "meshParts": [
+            {
+              "id": "FJ1424M",
+              "name": "Left long plantar ligament"
+            }
+          ]
+        },
+        {
+          "concept": "fifth metatarsal",
+          "meshParts": [
+            {
+              "id": "FJ3253",
+              "name": "Left fifth metatarsal bone"
+            }
+          ]
+        },
+        {
+          "concept": "cuboid",
+          "meshParts": [
+            {
+              "id": "FJ3258",
+              "name": "Left cuboid bone"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "足底/足跟"
+    },
+    {
+      "code": 47,
+      "surfaceAreaId": "surface.ankle_foot.left.fore.med",
+      "clinicalSubregionId": "REG-FOOT-FORE-MED",
+      "workspaceRegionId": "REG-FOOT-FORE",
+      "displayName": "第一跖列/大脚趾",
+      "side": "left",
+      "nearbyAnatomy": [
+        {
+          "concept": "first metatarsal",
+          "meshParts": [
+            {
+              "id": "FJ3241",
+              "name": "Left first metatarsal bone"
+            }
+          ]
+        },
+        {
+          "concept": "hallux",
+          "meshParts": []
+        },
+        {
+          "concept": "sesamoids",
+          "meshParts": []
+        }
+      ],
+      "workspaceDisplayName": "前足"
+    },
+    {
+      "code": 48,
+      "surfaceAreaId": "surface.ankle_foot.left.fore.cent",
+      "clinicalSubregionId": "REG-FOOT-FORE-CENT",
+      "workspaceRegionId": "REG-FOOT-FORE",
+      "displayName": "中央前足",
+      "side": "left",
+      "nearbyAnatomy": [
+        {
+          "concept": "second metatarsal",
+          "meshParts": [
+            {
+              "id": "FJ3244",
+              "name": "Left second metatarsal bone"
+            }
+          ]
+        },
+        {
+          "concept": "third metatarsal",
+          "meshParts": [
+            {
+              "id": "FJ3247",
+              "name": "Left third metatarsal bone"
+            }
+          ]
+        },
+        {
+          "concept": "fourth metatarsal",
+          "meshParts": [
+            {
+              "id": "FJ3250",
+              "name": "Left fourth metatarsal bone"
+            }
+          ]
+        },
+        {
+          "concept": "central toes",
+          "meshParts": []
+        }
+      ],
+      "workspaceDisplayName": "前足"
+    },
+    {
+      "code": 49,
+      "surfaceAreaId": "surface.ankle_foot.right.ant.lat",
+      "clinicalSubregionId": "REG-ANKLE-ANT-LAT",
+      "workspaceRegionId": "REG-ANKLE-ANT",
+      "displayName": "踝前外侧",
+      "side": "right",
+      "nearbyAnatomy": [
+        {
+          "concept": "talus",
+          "meshParts": [
+            {
+              "id": "FJ3385",
+              "name": "Right talus"
+            }
+          ]
+        },
+        {
+          "concept": "distal fibula",
+          "meshParts": [
+            {
+              "id": "FJ1409",
+              "name": "Right fibularis brevis"
+            },
+            {
+              "id": "FJ1410",
+              "name": "Right fibularis longus"
+            },
+            {
+              "id": "FJ1411",
+              "name": "Right fibularis tertius"
+            },
+            {
+              "id": "FJ2190",
+              "name": "Right fibular vein"
+            },
+            {
+              "id": "FJ2194",
+              "name": "Right fibular vein"
+            },
+            {
+              "id": "FJ2200",
+              "name": "Right fibular vein"
+            },
+            {
+              "id": "FJ3366",
+              "name": "Right fibula"
+            }
+          ]
+        },
+        {
+          "concept": "tibialis anterior",
+          "meshParts": [
+            {
+              "id": "FJ1439",
+              "name": "Right tibialis anterior"
+            }
+          ]
+        },
+        {
+          "concept": "anterior talofibular ligament",
+          "meshParts": []
+        }
+      ],
+      "workspaceDisplayName": "踝前/足背"
+    },
+    {
+      "code": 50,
+      "surfaceAreaId": "surface.ankle_foot.right.ant.med",
+      "clinicalSubregionId": "REG-ANKLE-ANT-MED",
+      "workspaceRegionId": "REG-ANKLE-ANT",
+      "displayName": "踝前内侧",
+      "side": "right",
+      "nearbyAnatomy": [
+        {
+          "concept": "talus",
+          "meshParts": [
+            {
+              "id": "FJ3385",
+              "name": "Right talus"
+            }
+          ]
+        },
+        {
+          "concept": "distal tibia",
+          "meshParts": [
+            {
+              "id": "FJ1439",
+              "name": "Right tibialis anterior"
+            },
+            {
+              "id": "FJ1440",
+              "name": "Right tibialis posterior"
+            },
+            {
+              "id": "FJ3387",
+              "name": "Right tibia"
+            }
+          ]
+        },
+        {
+          "concept": "tibialis anterior",
+          "meshParts": [
+            {
+              "id": "FJ1439",
+              "name": "Right tibialis anterior"
+            }
+          ]
+        },
+        {
+          "concept": "extensor hallucis longus",
+          "meshParts": [
+            {
+              "id": "FJ1408",
+              "name": "Right extensor hallucis longus"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "踝前/足背"
+    },
+    {
+      "code": 51,
+      "surfaceAreaId": "surface.ankle_foot.right.dorsum",
+      "clinicalSubregionId": "REG-ANKLE-DORSUM",
+      "workspaceRegionId": "REG-ANKLE-ANT",
+      "displayName": "足背/中足背侧",
+      "side": "right",
+      "nearbyAnatomy": [
+        {
+          "concept": "navicular",
+          "meshParts": [
+            {
+              "id": "FJ3308",
+              "name": "Navicular bone of right foot"
+            }
+          ]
+        },
+        {
+          "concept": "cuneiforms",
+          "meshParts": []
+        },
+        {
+          "concept": "metatarsals",
+          "meshParts": [
+            {
+              "id": "FJ3241",
+              "name": "Left first metatarsal bone"
+            },
+            {
+              "id": "FJ3244",
+              "name": "Left second metatarsal bone"
+            },
+            {
+              "id": "FJ3247",
+              "name": "Left third metatarsal bone"
+            },
+            {
+              "id": "FJ3250",
+              "name": "Left fourth metatarsal bone"
+            },
+            {
+              "id": "FJ3253",
+              "name": "Left fifth metatarsal bone"
+            },
+            {
+              "id": "FJ3351",
+              "name": "Right first metatarsal bone"
+            },
+            {
+              "id": "FJ3353",
+              "name": "Right second metatarsal bone"
+            },
+            {
+              "id": "FJ3355",
+              "name": "Right third metatarsal bone"
+            },
+            {
+              "id": "FJ3357",
+              "name": "Right fourth metatarsal bone"
+            },
+            {
+              "id": "FJ3359",
+              "name": "Right fifth metatarsal bone"
+            }
+          ]
+        },
+        {
+          "concept": "extensor digitorum longus",
+          "meshParts": [
+            {
+              "id": "FJ1406",
+              "name": "Right extensor digitorum longus"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "踝前/足背"
+    },
+    {
+      "code": 52,
+      "surfaceAreaId": "surface.ankle_foot.right.lat.atfl",
+      "clinicalSubregionId": "REG-ANKLE-LAT-ATFL",
+      "workspaceRegionId": "REG-ANKLE-LAT",
+      "displayName": "外踝前方/ATFL邻近",
+      "side": "right",
+      "nearbyAnatomy": [
+        {
+          "concept": "anterior talofibular ligament",
+          "meshParts": []
+        },
+        {
+          "concept": "fibula",
+          "meshParts": [
+            {
+              "id": "FJ1409",
+              "name": "Right fibularis brevis"
+            },
+            {
+              "id": "FJ1410",
+              "name": "Right fibularis longus"
+            },
+            {
+              "id": "FJ1411",
+              "name": "Right fibularis tertius"
+            },
+            {
+              "id": "FJ2190",
+              "name": "Right fibular vein"
+            },
+            {
+              "id": "FJ2194",
+              "name": "Right fibular vein"
+            },
+            {
+              "id": "FJ2200",
+              "name": "Right fibular vein"
+            },
+            {
+              "id": "FJ3366",
+              "name": "Right fibula"
+            }
+          ]
+        },
+        {
+          "concept": "talus",
+          "meshParts": [
+            {
+              "id": "FJ3385",
+              "name": "Right talus"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "踝外侧"
+    },
+    {
+      "code": 53,
+      "surfaceAreaId": "surface.ankle_foot.right.lat.cfl",
+      "clinicalSubregionId": "REG-ANKLE-LAT-CFL",
+      "workspaceRegionId": "REG-ANKLE-LAT",
+      "displayName": "外踝下方",
+      "side": "right",
+      "nearbyAnatomy": [
+        {
+          "concept": "calcaneofibular ligament",
+          "meshParts": []
+        },
+        {
+          "concept": "fibula",
+          "meshParts": [
+            {
+              "id": "FJ1409",
+              "name": "Right fibularis brevis"
+            },
+            {
+              "id": "FJ1410",
+              "name": "Right fibularis longus"
+            },
+            {
+              "id": "FJ1411",
+              "name": "Right fibularis tertius"
+            },
+            {
+              "id": "FJ2190",
+              "name": "Right fibular vein"
+            },
+            {
+              "id": "FJ2194",
+              "name": "Right fibular vein"
+            },
+            {
+              "id": "FJ2200",
+              "name": "Right fibular vein"
+            },
+            {
+              "id": "FJ3366",
+              "name": "Right fibula"
+            }
+          ]
+        },
+        {
+          "concept": "calcaneus",
+          "meshParts": [
+            {
+              "id": "FJ3360",
+              "name": "Right calcaneus"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "踝外侧"
+    },
+    {
+      "code": 54,
+      "surfaceAreaId": "surface.ankle_foot.right.lat.per",
+      "clinicalSubregionId": "REG-ANKLE-LAT-PER",
+      "workspaceRegionId": "REG-ANKLE-LAT",
+      "displayName": "外踝后方/腓骨肌腱区",
+      "side": "right",
+      "nearbyAnatomy": [
+        {
+          "concept": "fibularis longus",
+          "meshParts": [
+            {
+              "id": "FJ1410",
+              "name": "Right fibularis longus"
+            }
+          ]
+        },
+        {
+          "concept": "fibularis brevis",
+          "meshParts": [
+            {
+              "id": "FJ1409",
+              "name": "Right fibularis brevis"
+            }
+          ]
+        },
+        {
+          "concept": "fibula",
+          "meshParts": [
+            {
+              "id": "FJ1409",
+              "name": "Right fibularis brevis"
+            },
+            {
+              "id": "FJ1410",
+              "name": "Right fibularis longus"
+            },
+            {
+              "id": "FJ1411",
+              "name": "Right fibularis tertius"
+            },
+            {
+              "id": "FJ2190",
+              "name": "Right fibular vein"
+            },
+            {
+              "id": "FJ2194",
+              "name": "Right fibular vein"
+            },
+            {
+              "id": "FJ2200",
+              "name": "Right fibular vein"
+            },
+            {
+              "id": "FJ3366",
+              "name": "Right fibula"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "踝外侧"
+    },
+    {
+      "code": 55,
+      "surfaceAreaId": "surface.ankle_foot.right.foot.lat",
+      "clinicalSubregionId": "REG-FOOT-LAT",
+      "workspaceRegionId": "REG-ANKLE-LAT",
+      "displayName": "足外侧缘",
+      "side": "right",
+      "nearbyAnatomy": [
+        {
+          "concept": "cuboid",
+          "meshParts": [
+            {
+              "id": "FJ3364",
+              "name": "Right cuboid bone"
+            }
+          ]
+        },
+        {
+          "concept": "fifth metatarsal",
+          "meshParts": [
+            {
+              "id": "FJ3359",
+              "name": "Right fifth metatarsal bone"
+            }
+          ]
+        },
+        {
+          "concept": "fibularis brevis",
+          "meshParts": [
+            {
+              "id": "FJ1409",
+              "name": "Right fibularis brevis"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "踝外侧"
+    },
+    {
+      "code": 56,
+      "surfaceAreaId": "surface.ankle_foot.right.med.mal",
+      "clinicalSubregionId": "REG-ANKLE-MED-MAL",
+      "workspaceRegionId": "REG-ANKLE-MED",
+      "displayName": "内踝周围",
+      "side": "right",
+      "nearbyAnatomy": [
+        {
+          "concept": "distal tibia",
+          "meshParts": [
+            {
+              "id": "FJ1439",
+              "name": "Right tibialis anterior"
+            },
+            {
+              "id": "FJ1440",
+              "name": "Right tibialis posterior"
+            },
+            {
+              "id": "FJ3387",
+              "name": "Right tibia"
+            }
+          ]
+        },
+        {
+          "concept": "talus",
+          "meshParts": [
+            {
+              "id": "FJ3385",
+              "name": "Right talus"
+            }
+          ]
+        },
+        {
+          "concept": "deltoid ligament",
+          "meshParts": []
+        }
+      ],
+      "workspaceDisplayName": "踝内侧"
+    },
+    {
+      "code": 57,
+      "surfaceAreaId": "surface.ankle_foot.right.med.post",
+      "clinicalSubregionId": "REG-ANKLE-MED-POST",
+      "workspaceRegionId": "REG-ANKLE-MED",
+      "displayName": "内踝后方/后内侧",
+      "side": "right",
+      "nearbyAnatomy": [
+        {
+          "concept": "tibialis posterior",
+          "meshParts": [
+            {
+              "id": "FJ1440",
+              "name": "Right tibialis posterior"
+            }
+          ]
+        },
+        {
+          "concept": "flexor digitorum longus",
+          "meshParts": [
+            {
+              "id": "FJ1414",
+              "name": "Right flexor digitorum longus"
+            }
+          ]
+        },
+        {
+          "concept": "tibial nerve",
+          "meshParts": []
+        }
+      ],
+      "workspaceDisplayName": "踝内侧"
+    },
+    {
+      "code": 58,
+      "surfaceAreaId": "surface.ankle_foot.right.foot.arch",
+      "clinicalSubregionId": "REG-FOOT-ARCH",
+      "workspaceRegionId": "REG-ANKLE-MED",
+      "displayName": "足弓内侧",
+      "side": "right",
+      "nearbyAnatomy": [
+        {
+          "concept": "navicular",
+          "meshParts": [
+            {
+              "id": "FJ3308",
+              "name": "Navicular bone of right foot"
+            }
+          ]
+        },
+        {
+          "concept": "first metatarsal",
+          "meshParts": [
+            {
+              "id": "FJ3351",
+              "name": "Right first metatarsal bone"
+            }
+          ]
+        },
+        {
+          "concept": "tibialis posterior",
+          "meshParts": [
+            {
+              "id": "FJ1440",
+              "name": "Right tibialis posterior"
+            }
+          ]
+        },
+        {
+          "concept": "medial plantar structures",
+          "meshParts": []
+        }
+      ],
+      "workspaceDisplayName": "踝内侧"
+    },
+    {
+      "code": 59,
+      "surfaceAreaId": "surface.ankle_foot.right.ach.mid",
+      "clinicalSubregionId": "REG-ACHILLES-MID",
+      "workspaceRegionId": "REG-ANKLE-POST",
+      "displayName": "跟腱中段",
+      "side": "right",
+      "nearbyAnatomy": [
+        {
+          "concept": "calcaneal tendon",
+          "meshParts": [
+            {
+              "id": "FJ1405",
+              "name": "Right calcaneal tendon"
+            }
+          ]
+        },
+        {
+          "concept": "gastrocnemius",
+          "meshParts": [
+            {
+              "id": "FJ1394",
+              "name": "Lateral head of right gastrocnemius"
+            },
+            {
+              "id": "FJ1397",
+              "name": "Medial head of right gastrocnemius"
+            }
+          ]
+        },
+        {
+          "concept": "soleus",
+          "meshParts": [
+            {
+              "id": "FJ1437",
+              "name": "Right soleus"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "踝后/跟腱"
+    },
+    {
+      "code": 60,
+      "surfaceAreaId": "surface.ankle_foot.right.ach.ins",
+      "clinicalSubregionId": "REG-ACHILLES-INS",
+      "workspaceRegionId": "REG-ANKLE-POST",
+      "displayName": "跟腱止点/后跟",
+      "side": "right",
+      "nearbyAnatomy": [
+        {
+          "concept": "calcaneal tendon",
+          "meshParts": [
+            {
+              "id": "FJ1405",
+              "name": "Right calcaneal tendon"
+            }
+          ]
+        },
+        {
+          "concept": "calcaneus",
+          "meshParts": [
+            {
+              "id": "FJ3360",
+              "name": "Right calcaneus"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "踝后/跟腱"
+    },
+    {
+      "code": 61,
+      "surfaceAreaId": "surface.ankle_foot.right.heel.post",
+      "clinicalSubregionId": "REG-HEEL-POST",
+      "workspaceRegionId": "REG-ANKLE-POST",
+      "displayName": "后足跟",
+      "side": "right",
+      "nearbyAnatomy": [
+        {
+          "concept": "calcaneus",
+          "meshParts": [
+            {
+              "id": "FJ3360",
+              "name": "Right calcaneus"
+            }
+          ]
+        },
+        {
+          "concept": "calcaneal tendon",
+          "meshParts": [
+            {
+              "id": "FJ1405",
+              "name": "Right calcaneal tendon"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "踝后/跟腱"
+    },
+    {
+      "code": 62,
+      "surfaceAreaId": "surface.ankle_foot.right.heel.plantar",
+      "clinicalSubregionId": "REG-HEEL-PLANTAR",
+      "workspaceRegionId": "REG-FOOT-PLANTAR",
+      "displayName": "足底跟骨区",
+      "side": "right",
+      "nearbyAnatomy": [
+        {
+          "concept": "calcaneus",
+          "meshParts": [
+            {
+              "id": "FJ3360",
+              "name": "Right calcaneus"
+            }
+          ]
+        },
+        {
+          "concept": "plantar fascia",
+          "meshParts": []
+        }
+      ],
+      "workspaceDisplayName": "足底/足跟"
+    },
+    {
+      "code": 63,
+      "surfaceAreaId": "surface.ankle_foot.right.plantar.med",
+      "clinicalSubregionId": "REG-FOOT-PLANTAR-MED",
+      "workspaceRegionId": "REG-FOOT-PLANTAR",
+      "displayName": "足底内侧/内侧足弓",
+      "side": "right",
+      "nearbyAnatomy": [
+        {
+          "concept": "plantar fascia",
+          "meshParts": []
+        },
+        {
+          "concept": "long plantar ligament",
+          "meshParts": [
+            {
+              "id": "FJ1424",
+              "name": "Right long plantar ligament"
+            }
+          ]
+        },
+        {
+          "concept": "first metatarsal",
+          "meshParts": [
+            {
+              "id": "FJ3351",
+              "name": "Right first metatarsal bone"
+            }
+          ]
+        },
+        {
+          "concept": "navicular",
+          "meshParts": [
+            {
+              "id": "FJ3308",
+              "name": "Navicular bone of right foot"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "足底/足跟"
+    },
+    {
+      "code": 64,
+      "surfaceAreaId": "surface.ankle_foot.right.plantar.lat",
+      "clinicalSubregionId": "REG-FOOT-PLANTAR-LAT",
+      "workspaceRegionId": "REG-FOOT-PLANTAR",
+      "displayName": "足底外侧",
+      "side": "right",
+      "nearbyAnatomy": [
+        {
+          "concept": "long plantar ligament",
+          "meshParts": [
+            {
+              "id": "FJ1424",
+              "name": "Right long plantar ligament"
+            }
+          ]
+        },
+        {
+          "concept": "fifth metatarsal",
+          "meshParts": [
+            {
+              "id": "FJ3359",
+              "name": "Right fifth metatarsal bone"
+            }
+          ]
+        },
+        {
+          "concept": "cuboid",
+          "meshParts": [
+            {
+              "id": "FJ3364",
+              "name": "Right cuboid bone"
+            }
+          ]
+        }
+      ],
+      "workspaceDisplayName": "足底/足跟"
+    },
+    {
+      "code": 65,
+      "surfaceAreaId": "surface.ankle_foot.right.fore.med",
+      "clinicalSubregionId": "REG-FOOT-FORE-MED",
+      "workspaceRegionId": "REG-FOOT-FORE",
+      "displayName": "第一跖列/大脚趾",
+      "side": "right",
+      "nearbyAnatomy": [
+        {
+          "concept": "first metatarsal",
+          "meshParts": [
+            {
+              "id": "FJ3351",
+              "name": "Right first metatarsal bone"
+            }
+          ]
+        },
+        {
+          "concept": "hallux",
+          "meshParts": []
+        },
+        {
+          "concept": "sesamoids",
+          "meshParts": []
+        }
+      ],
+      "workspaceDisplayName": "前足"
+    },
+    {
+      "code": 66,
+      "surfaceAreaId": "surface.ankle_foot.right.fore.cent",
+      "clinicalSubregionId": "REG-FOOT-FORE-CENT",
+      "workspaceRegionId": "REG-FOOT-FORE",
+      "displayName": "中央前足",
+      "side": "right",
+      "nearbyAnatomy": [
+        {
+          "concept": "second metatarsal",
+          "meshParts": [
+            {
+              "id": "FJ3353",
+              "name": "Right second metatarsal bone"
+            }
+          ]
+        },
+        {
+          "concept": "third metatarsal",
+          "meshParts": [
+            {
+              "id": "FJ3355",
+              "name": "Right third metatarsal bone"
+            }
+          ]
+        },
+        {
+          "concept": "fourth metatarsal",
+          "meshParts": [
+            {
+              "id": "FJ3357",
+              "name": "Right fourth metatarsal bone"
+            }
+          ]
+        },
+        {
+          "concept": "central toes",
+          "meshParts": []
+        }
+      ],
+      "workspaceDisplayName": "前足"
+    }
+  ],
+  "notes": [
+    "Knee map is inherited from v2. Ankle-foot is a first geometry-calibrated engineering map and still requires clinical click review before production freeze.",
+    "Anatomy concepts do not require a mesh binding to influence downstream interview/assessment ranking."
+  ]
+}

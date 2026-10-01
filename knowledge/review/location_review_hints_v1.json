@@ -1,0 +1,10 @@
+{
+  "batch": "location-review-hints-v1",
+  "source_note": "用户2026-10-01指定：未明确疼痛位置的表现可建议回模型选择疼痛部位，查看该部位的康复思路。只添加产品导航提示，不生成组织判断或处理选择。",
+  "hints": [
+    {"Feature_ID":"AFM-0019-PAIN","Related_Location_Prompt":"可回到模型选择疼痛部位，查看该部位的康复思路。","Related_Location_Action_Label":"选择疼痛部位"},
+    {"Feature_ID":"AFM-0084-SYMPTOM","Related_Location_Prompt":"可回到模型选择疼痛部位，查看该部位的康复思路。","Related_Location_Action_Label":"选择疼痛部位"},
+    {"Feature_ID":"AFM-0085-SYMPTOM","Related_Location_Prompt":"可回到模型选择疼痛部位，查看该部位的康复思路。","Related_Location_Action_Label":"选择疼痛部位"},
+    {"Feature_ID":"AFM-0083-LOCALISE","Related_Location_Prompt":"可回到模型进一步选择不适部位，查看该部位的康复思路。","Related_Location_Action_Label":"选择不适部位"}
+  ]
+}
