@@ -5,7 +5,7 @@ import { ConsultationGuide } from './ConsultationGuide';
 import { RelatedTissues } from './RelatedTissues';
 import type { AssessmentItem, ContextRule, Dimension, Metadata, ResolveResult } from './types';
 
-const API_ROOT = import.meta.env.VITE_API_BASE_URL || (Capacitor.isNativePlatform() ? 'https://66.154.101.204' : '');
+const API_ROOT = import.meta.env.VITE_API_BASE_URL || (Capacitor.isNativePlatform() ? 'https://66.154.101.204/RehabMind' : '');
 const CONTEXT_GROUPS: { type: ContextRule['public_group']; label: string }[] = [
   { type: 'ACTIVITY', label: '相关活动' }, { type: 'TIMING', label: '不适出现时机' },
   { type: 'SYMPTOM', label: '伴随表现' }, { type: 'ASSOCIATED', label: '相关部位' }, { type: 'RISK', label: '需要留意的情况' },

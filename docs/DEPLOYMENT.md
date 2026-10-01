@@ -36,4 +36,4 @@ curl --fail https://66.154.101.204/RehabMind/api/health
 API 日志：`sudo journalctl -u rehabmind-v2 -n 50 --no-pager`。
 修改 Nginx 配置时执行 `sudo nginx -t && sudo systemctl reload nginx`。
 
-本次部署不迁移术后网站内容，不构建 APK，也不设自动发布或额外备份流程。
+VPS部署不迁移术后网站内容，不设自动发布或额外备份流程。安卓测试包通过独立的GitHub工作流构建，见 `ANDROID_BUILD.md`。

@@ -1,0 +1,107 @@
+name: Build Android APK
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-apk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Install Android SDK packages
+        run: sdkmanager 'platforms;android-36' 'build-tools;36.0.0'
+
+      - name: Reuse test APK signing key
+        uses: actions/cache@v4
+        with:
+          path: ~/.android/debug.keystore
+          key: rehabmind-v2-debug-keystore-v1
+
+      - name: Install build dependencies
+        run: |
+          npm ci
+          python -m pip install -r scripts/requirements.txt
+
+      - name: Build Android web assets
+        env:
+          VITE_BASE_PATH: /
+          VITE_API_BASE_URL: https://66.154.101.204/RehabMind
+        run: |
+          npx tsc --noEmit
+          npm run build
+          rm -rf build/web/design-preview
+          rm -f build/web/style-demo.html
+          npx cap sync android
+
+      - name: Build installable APK
+        working-directory: android
+        env:
+          APK_VERSION_CODE: ${{ github.run_number }}
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleDebug --no-daemon \
+            -PappVersionCode="$APK_VERSION_CODE" \
+            -PappVersionName="0.1.$APK_VERSION_CODE"
+
+      - name: Verify and name APK
+        run: |
+          "$ANDROID_HOME/build-tools/36.0.0/apksigner" verify --verbose android/app/build/outputs/apk/debug/app-debug.apk
+          mkdir -p build/apk
+          cp android/app/build/outputs/apk/debug/app-debug.apk build/apk/rehabmind-v2.apk
+          cd build/apk
+          sha256sum rehabmind-v2.apk > rehabmind-v2.apk.sha256
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: rehabmind-v2-apk
+          path: build/apk/*
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Publish APK download
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          BUILD_NUMBER: ${{ github.run_number }}
+          BUILD_COMMIT: ${{ github.sha }}
+        run: |
+          cat > build/apk/release-notes.md <<'EOF'
+          安卓手机测试版，Android 7.0 及以上可安装。
+
+          下载 rehabmind-v2.apk 后安装；打开后连接当前 VPS 的康复思路 API。
+          界面和人体模型随 APK 打包，康复思路数据库通过服务器获取。
+          本包用于安装测试，采用测试签名；尚未进行真机功能验证。
+          EOF
+          gh release create "android-test-$BUILD_NUMBER" \
+            build/apk/rehabmind-v2.apk build/apk/rehabmind-v2.apk.sha256 \
+            --title "RehabMind 安卓测试版 0.1.$BUILD_NUMBER" \
+            --notes-file build/apk/release-notes.md \
+            --target "$BUILD_COMMIT" --prerelease

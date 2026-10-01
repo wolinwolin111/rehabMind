@@ -1,6 +1,6 @@
 # RehabMind V2
 
-面向有基础的康复师的手机优先康复思路助手。当前运行 **DB v3.8** 和独立临床扩展v1.1，原始v3.7资产包保留。覆盖膝、踝足、小腿、大腿38个定位区域，临床内容待用户审核。网页可运行；APK打包暂缓。
+面向有基础的康复师的手机优先康复思路助手。当前运行 **DB v3.8** 和独立临床扩展v1.1，原始v3.7资产包保留。覆盖膝、踝足、小腿、大腿38个定位区域，临床内容待用户审核。网页已部署，安卓测试包可由GitHub Actions构建。
 
 ## 权威资产
 
@@ -22,7 +22,7 @@
 | `api/` | HTTP 接口与薄 Resolver |
 | `src/` | 网页与 Android 共用界面、模型定位 |
 | `public/3d/` | 自动生成的模型资源 |
-| `android/` | Capacitor Android 工程，暂不打包 APK |
+| `android/` | Capacitor Android 工程，GitHub Actions生成安装测试包 |
 | `knowledge/` | 临床扩展草稿、旧版审计和资料库草稿；扩展工作簿参与本地预览 |
 | `docs/`、`tests/` | 项目说明与回归检查 |
 | `deploy/` | VPS 的 systemd 服务和 Nginx 入口配置 |
@@ -65,3 +65,5 @@ npm run build
 内容维护脚本在 `scripts/authoring/`，平常运行和构建无需表格编写工具。历史迁移、工作簿编辑等维护操作另需 `@oai/artifact-tool` 及相应本地参考资料。
 
 网页版于2026-10-01部署到 [https://66.154.101.204/RehabMind/](https://66.154.101.204/RehabMind/)。部署与后续更新方式见 [VPS部署说明](docs/DEPLOYMENT.md)。
+
+手机安装包见 [GitHub Releases](https://github.com/wolinwolin111/rehabMind/releases)。构建方式见 [安卓测试包说明](docs/ANDROID_BUILD.md)。
