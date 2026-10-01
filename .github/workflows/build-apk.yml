@@ -69,7 +69,7 @@ jobs:
           APK_VERSION_CODE: ${{ github.run_number }}
         run: |
           chmod +x gradlew
-          ./gradlew assembleDebug --no-daemon \
+          ./gradlew assembleDebug --no-daemon --stacktrace \
             -PappVersionCode="$APK_VERSION_CODE" \
             -PappVersionName="0.1.$APK_VERSION_CODE"
 
