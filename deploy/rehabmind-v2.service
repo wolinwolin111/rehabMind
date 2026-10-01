@@ -1,0 +1,18 @@
+[Unit]
+Description=RehabMind v2 API
+After=network.target
+
+[Service]
+Type=simple
+User=rehabdeploy
+WorkingDirectory=/opt/rehabmind-v2
+Environment=NODE_ENV=production
+Environment=HOST=127.0.0.1
+Environment=PORT=8787
+Environment=REHABMIND_KNOWLEDGE_FILE=/opt/rehabmind-v2/knowledge/runtime.json
+ExecStart=/usr/bin/node /opt/rehabmind-v2/api/server.mjs
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

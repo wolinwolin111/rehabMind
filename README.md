@@ -25,7 +25,7 @@
 | `android/` | Capacitor Android 工程，暂不打包 APK |
 | `knowledge/` | 临床扩展草稿、旧版审计和资料库草稿；扩展工作簿参与本地预览 |
 | `docs/`、`tests/` | 项目说明与回归检查 |
-| `deploy/` | VPS 部署文件，尚未部署 |
+| `deploy/` | VPS 的 systemd 服务和 Nginx 入口配置 |
 
 ## 本地运行
 
@@ -62,4 +62,6 @@ npm run build
 
 正式数据库、v3.7原始模型资源和开发文档纳入版本管理。`build/`、`public/3d/` 为可重新生成的产物；`npm test` 会生成数据、模型和当前内容审计后运行回归，`npm run build` 生成 `build/web/`。原始记录的私有索引、缓存和重复资产ZIP保留在本地。
 
-内容维护脚本在 `scripts/authoring/`，平常运行和构建无需表格编写工具。历史迁移、工作簿编辑等维护操作另需 `@oai/artifact-tool` 及相应本地参考资料。当前网页版稳定基线保存在 Git，VPS 部署目标为 `66.154.101.204`，服务器尚未部署本项目。
+内容维护脚本在 `scripts/authoring/`，平常运行和构建无需表格编写工具。历史迁移、工作簿编辑等维护操作另需 `@oai/artifact-tool` 及相应本地参考资料。
+
+网页版于2026-10-01部署到 [https://66.154.101.204/RehabMind/](https://66.154.101.204/RehabMind/)。部署与后续更新方式见 [VPS部署说明](docs/DEPLOYMENT.md)。
