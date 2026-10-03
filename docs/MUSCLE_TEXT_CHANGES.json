@@ -1,0 +1,351 @@
+{
+  "date": "2026-10-03",
+  "primaryBook": "基础肌动学 第3版",
+  "pageConvention": "书上印刷页；此本地扫描PDF页=印刷页+18",
+  "changes": [
+    {
+      "file": "body-muscle-anatomy.ts",
+      "old": "胸骨前面及上位肋软骨。",
+      "new": "胸骨柄和胸骨体前面、外侧缘及前六至七肋软骨。",
+      "printedPages": [
+        82
+      ],
+      "reason": "补足胸肋部起始范围"
+    },
+    {
+      "file": "body-muscle-anatomy.ts",
+      "old": "肱骨结节间沟外侧唇。",
+      "new": "肱骨大结节嵴（结节间沟外侧唇）。",
+      "printedPages": [
+        82
+      ],
+      "reason": "将书中的大结节概述与具体嵴、沟唇对应，三部共用止点"
+    },
+    {
+      "file": "body-muscle-anatomy.ts",
+      "old": "肱骨结节间沟内侧唇。",
+      "new": "肱骨小结节嵴（结节间沟内侧唇）。",
+      "printedPages": [
+        77
+      ],
+      "reason": "将书中的小结节概述与具体嵴、沟唇对应"
+    },
+    {
+      "file": "body-muscle-anatomy.ts",
+      "old": "肩胛骨内侧缘的肋面。",
+      "new": "肩胛骨整个内侧缘的肋面，较多纤维汇聚于下角。",
+      "printedPages": [
+        66
+      ],
+      "reason": "补足内侧缘和下角范围"
+    },
+    {
+      "file": "body-muscle-anatomy.ts",
+      "old": "锁骨外侧三分之一。",
+      "new": "锁骨外侧三分之一的后上部。",
+      "printedPages": [
+        64
+      ],
+      "reason": "补充斜方肌上部止点骨面"
+    },
+    {
+      "file": "body-muscle-anatomy.ts",
+      "old": "下位颈椎及上位胸椎棘突、棘上韧带。",
+      "new": "第七颈椎至第五胸椎棘突及相应韧带。",
+      "printedPages": [
+        64
+      ],
+      "reason": "采用主参考书中束节段，保留腱性连接"
+    },
+    {
+      "file": "body-muscle-anatomy.ts",
+      "old": "中下位胸椎棘突及棘上韧带，通常第四至第十二胸椎。",
+      "new": "第六至第十二胸椎棘突及棘上韧带。",
+      "printedPages": [
+        64
+      ],
+      "reason": "下束按主参考书分束范围；其他图谱范围差异在审核清单记录"
+    },
+    {
+      "file": "body-muscle-anatomy.ts",
+      "old": "肩胛冈内侧端附近。",
+      "new": "肩胛冈上缘，靠近内侧端。",
+      "printedPages": [
+        64
+      ],
+      "reason": "细化下束止点"
+    },
+    {
+      "file": "body-muscle-anatomy.ts",
+      "old": "肩胛后缩、下回旋，参与肩胛贴胸壁的稳定。",
+      "new": "肩胛后缩、下回旋，辅助上提及贴胸壁的稳定。",
+      "printedPages": [
+        65
+      ],
+      "reason": "补充大菱形肌上提作用；模型不变"
+    },
+    {
+      "file": "body-muscle-anatomy.ts",
+      "old": "项韧带下半及第七颈椎至上位胸椎棘突。",
+      "new": "项韧带下半及第七颈椎至第三胸椎棘突。",
+      "printedPages": [
+        214
+      ],
+      "reason": "明确头夹肌节段；保留正确韧带名称"
+    },
+    {
+      "file": "body-muscle-anatomy.ts",
+      "old": "颞骨乳突及上项线外侧。",
+      "new": "颞骨乳突及上项线外侧三分之一。",
+      "printedPages": [
+        214
+      ],
+      "reason": "明确头夹肌上项线范围"
+    },
+    {
+      "file": "body-muscle-anatomy.ts",
+      "old": "第一至第三或第四颈椎横突。",
+      "new": "第一至第三颈椎横突后结节；部分资料另计第四颈椎。",
+      "printedPages": [
+        214
+      ],
+      "reason": "主参考范围优先，明确文献差异"
+    },
+    {
+      "file": "body-muscle-anatomy.ts",
+      "old": "第七胸椎至下位脊柱棘突、胸腰筋膜、髂嵴后部及下位肋；可有纤维来自肩胛骨下角。",
+      "new": "下位胸椎棘突及经胸腰筋膜连接腰骶区域、髂嵴后约三分之一和下四肋；可有纤维来自肩胛骨下角。",
+      "printedPages": [
+        76
+      ],
+      "reason": "补足筋膜与下四肋、髂嵴范围；避免直接附着于所有下位棘突的误读"
+    },
+    {
+      "file": "body-muscle-anatomy.ts",
+      "old": "下位肋、腹白线及耻骨梳等腱膜连接。",
+      "new": "第九至第十二肋下缘、腹白线及经联合腱连接耻骨嵴、耻骨梳。",
+      "printedPages": [
+        217
+      ],
+      "reason": "书中四根下位肋优先，保留腱性延续"
+    },
+    {
+      "file": "body-muscle-anatomy.ts",
+      "old": "下位肋软骨内面、胸腰筋膜、髂嵴及腹股沟韧带外侧部。",
+      "new": "下六肋及肋软骨内面、胸腰筋膜、髂嵴及腹股沟韧带外侧部。",
+      "printedPages": [
+        218
+      ],
+      "reason": "主参考书第6–12肋软骨表述与通常下六肋范围存在差异，复核后保留解剖常规范围"
+    },
+    {
+      "file": "body-muscle-anatomy.ts",
+      "old": "同侧侧屈躯干，稳定第十二肋；骨盆固定条件改变时作用不同。",
+      "new": "双侧参与腰椎伸展；单侧侧屈躯干，胸廓固定时可上提同侧骨盆，并稳定第十二肋。",
+      "printedPages": [
+        218,
+        219
+      ],
+      "reason": "补足腰方肌双侧伸展与提骨盆功能"
+    },
+    {
+      "file": "body-muscle-anatomy.ts",
+      "old": "上位胸椎横突。",
+      "new": "第一至第四胸椎横突。",
+      "printedPages": [
+        223
+      ],
+      "reason": "明确颈最长肌起始节段"
+    },
+    {
+      "file": "body-muscle-anatomy.ts",
+      "old": "上位胸椎横突及下位颈椎关节突。",
+      "new": "第一至第五胸椎横突及下位颈椎关节突。",
+      "printedPages": [
+        223
+      ],
+      "reason": "明确头最长肌胸段范围"
+    },
+    {
+      "file": "body-muscle-anatomy.ts",
+      "old": "屈拇指指间关节，辅助屈拇指掌指关节。",
+      "new": "屈拇指指间关节，辅助屈掌指、腕掌关节及腕。",
+      "printedPages": [
+        157
+      ],
+      "reason": "补足拇长屈肌跨关节功能"
+    },
+    {
+      "file": "body-muscle-anatomy.ts",
+      "old": "桡骨前面及骨间膜。",
+      "new": "桡骨前面中段及邻近骨间膜。",
+      "printedPages": [
+        157
+      ],
+      "reason": "明确拇长屈肌起始区域"
+    },
+    {
+      "file": "body-muscle-anatomy.ts",
+      "old": "内收拇指，参与捏持。",
+      "new": "内收拇指，辅助屈拇指掌指关节，参与捏持。",
+      "printedPages": [
+        164,
+        167
+      ],
+      "reason": "表7.4功能误写外展，按同书正文及UAMS复核后保留内收并补屈曲"
+    },
+    {
+      "file": "lower-limb-anatomy.ts",
+      "old": "经跟腱止于跟骨后面。",
+      "new": "经跟腱止于跟骨结节后面。",
+      "printedPages": [
+        338,
+        339
+      ],
+      "reason": "明确跟腱骨性止点"
+    },
+    {
+      "file": "lower-limb-anatomy.ts",
+      "old": "股骨干前面及外侧面。",
+      "new": "股骨干前面及外侧面近侧三分之二。",
+      "printedPages": [
+        295
+      ],
+      "reason": "补足股中间肌起始范围"
+    },
+    {
+      "file": "lower-limb-anatomy.ts",
+      "old": "内收髋；屈膝，屈膝位辅助小腿内旋。",
+      "new": "内收髋，辅助屈髋；屈膝，屈膝位辅助小腿内旋。",
+      "printedPages": [
+        267,
+        301
+      ],
+      "reason": "补充股薄肌屈髋作用"
+    },
+    {
+      "file": "lower-limb-anatomy.ts",
+      "old": "胫骨外侧髁、胫骨外侧面近段及骨间膜。",
+      "new": "胫骨外侧髁、外侧面近侧三分之二及邻近骨间膜。",
+      "printedPages": [
+        331
+      ],
+      "reason": "明确胫骨前肌近段范围"
+    },
+    {
+      "file": "lower-limb-anatomy.ts",
+      "old": "内侧楔骨及第一跖骨基底。",
+      "new": "内侧楔骨及第一跖骨基底的内侧、跖侧面。",
+      "printedPages": [
+        331
+      ],
+      "reason": "明确胫骨前肌止点骨面"
+    },
+    {
+      "file": "lower-limb-anatomy.ts",
+      "old": "腓骨头及腓骨外侧面近段。",
+      "new": "腓骨头及腓骨外侧面近侧三分之二，可有纤维来自胫骨外侧髁。",
+      "printedPages": [
+        335
+      ],
+      "reason": "补足腓骨长肌范围及书中胫骨纤维，不写成所有人均相同"
+    },
+    {
+      "file": "lower-limb-anatomy.ts",
+      "old": "绕行足底，止于内侧楔骨及第一跖骨基底的内侧、跖侧面。",
+      "new": "绕行足底，止于内侧楔骨外侧及第一跖骨基底跖侧。",
+      "printedPages": [
+        335
+      ],
+      "reason": "补足腓骨长肌止点骨面"
+    },
+    {
+      "file": "lower-limb-anatomy.ts",
+      "old": "腓骨外侧面远段。",
+      "new": "腓骨外侧面远侧三分之二。",
+      "printedPages": [
+        336
+      ],
+      "reason": "明确腓骨短肌范围"
+    },
+    {
+      "file": "lower-limb-anatomy.ts",
+      "old": "胫骨外侧髁、腓骨前面及骨间膜。",
+      "new": "胫骨外侧髁、腓骨内侧面近侧三分之二及邻近骨间膜。",
+      "printedPages": [
+        333
+      ],
+      "reason": "纠正趾长伸肌起始骨面并补范围"
+    },
+    {
+      "file": "lower-limb-anatomy.ts",
+      "old": "胫、腓骨后面及骨间膜。",
+      "new": "胫、腓骨后面近侧三分之二及邻近骨间膜。",
+      "printedPages": [
+        342
+      ],
+      "reason": "补足胫骨后肌近段范围"
+    },
+    {
+      "file": "lower-limb-anatomy.ts",
+      "old": "胫骨后面，比目鱼肌线下方。",
+      "new": "胫骨后面中段，比目鱼肌线下方。",
+      "printedPages": [
+        343
+      ],
+      "reason": "明确趾长屈肌近端"
+    },
+    {
+      "file": "lower-limb-anatomy.ts",
+      "old": "外展髋；单腿负重时控制骨盆，前部纤维参与内旋。",
+      "new": "外展髋；单腿负重时控制骨盆；前部纤维辅助屈髋、内旋，后部纤维辅助伸髋、外旋，作用随髋位变化。",
+      "printedPages": [
+        261
+      ],
+      "reason": "補足臀中肌前后部作用"
+    },
+    {
+      "file": "lower-limb-anatomy.ts",
+      "old": "髂前上棘及髂嵴前部。",
+      "new": "髂前上棘及其后方髂嵴前部外面。",
+      "printedPages": [
+        253
+      ],
+      "reason": "细化阔筋膜张肌近端骨面"
+    },
+    {
+      "file": "lower-limb-anatomy.ts",
+      "old": "髂胫束，经其连接胫骨外侧髁前外侧。",
+      "new": "髂胫束近侧三分之一，经其连接胫骨外侧髁前外侧。",
+      "printedPages": [
+        253
+      ],
+      "reason": "区分直接筋膜附着与远端延续"
+    },
+    {
+      "file": "lower-limb-anatomy.ts",
+      "old": "第十二胸椎至腰椎椎体、椎间盘侧面及腰椎横突。",
+      "new": "第十二胸椎至第五腰椎椎体、椎间盘侧面及第一至第五腰椎横突。",
+      "printedPages": [
+        250
+      ],
+      "reason": "明确腰大肌椎体范围，避免将T12横突误作常规起点"
+    }
+  ],
+  "additionalActionChanges": [
+    {
+      "muscle": "levator scapulae",
+      "printedPages": [
+        214
+      ],
+      "description": "肩胛固定时补充伸颈、同侧旋转。"
+    },
+    {
+      "muscle": "scalenus medius",
+      "printedPages": [
+        210
+      ],
+      "description": "补充辅助屈颈。"
+    }
+  ]
+}

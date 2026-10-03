@@ -1,17 +1,20 @@
-/* Image 8 base; quieter intake cards and mist-blue model controls. */
+/* Macaron palette: mist-blue navigation, cream canvas and distinct content roles. */
 :root {
   --palette-mist: #90afde;
   --palette-ocean: #00698e;
   --palette-lake: #0d62ad;
-  --palette-jade: #9fd9d9;
+  --palette-jade: #d4eee1;
   --palette-sage: #6f9986;
-  --palette-butter: #edc98c;
+  --palette-butter: #f7e6be;
+  --palette-peach: #f5d9c7;
+  --palette-lilac: #eae4f5;
+  --palette-bean: #eceee1;
   --palette-cream: #fbf7ef;
   --palette-ice: #eaf8f8;
 
   --ink: #233e50;
   --muted: #526877;
-  --line: #d9e0e6;
+  --line: #dfddd8;
   --teal: var(--palette-ocean);
   --teal-deep: #075475;
   --coral: #a4536c;
@@ -21,35 +24,40 @@
   --model-background: #fbf7ef;
   --header-blue: var(--palette-mist);
   --header-line: #7f9fce;
-  --blue-wash: var(--palette-mist);
+  --blue-wash: #dce7f7;
   --mint: var(--palette-jade);
-  --mint-line: #87bfc1;
-  --green-ink: #28565b;
+  --mint-line: #b3d3c2;
+  --green-ink: #365d50;
   --green-accent: #417562;
   --green-soft: var(--surface);
-  --consultation-wash: var(--palette-ice);
-  --consultation-ink: var(--ink);
-  --consultation-line: #cbdfe2;
+  --consultation-wash: var(--palette-lilac);
+  --consultation-ink: #514367;
+  --consultation-line: #d3c9e5;
   --consultation-soft: var(--surface);
-  --tissue-wash: var(--palette-ice);
+  --tissue-wash: var(--palette-bean);
   --treatment-wash: var(--palette-butter);
-  --treatment-line: #dcc096;
+  --treatment-line: #dfcda1;
   --treatment-ink: #654c28;
   --treatment-soft: var(--surface);
   --yellow-line: #e0d1af;
-  --card-head: var(--blue-wash);
-  --card-line: #b7c9df;
+  --card-head: #e8edf8;
+  --card-line: #cbd5e7;
   --card-ink: var(--ink);
   --selection: var(--palette-jade);
   --selection-ink: var(--ink);
-  --finding-wash: var(--palette-jade);
+  --finding-wash: #e3f2e9;
   --finding-line: var(--mint-line);
   --warning-wash: #f4e1e8;
   --warning-line: #ddb7c4;
   --warning-ink: #823f53;
+  --resume-wash: var(--palette-peach);
+  --resume-line: #dfb99f;
+  --resume-ink: #704c3c;
+  --resume-action: #fff5e9;
+  --context-wash: var(--palette-jade);
 }
 
-.page-content--model, .muscle-explorer, .muscle-explorer-tab {
+.muscle-explorer, .muscle-explorer-tab {
   --mint: var(--palette-mist);
   --mint-line: #7f9fce;
   --green-ink: #233e50;

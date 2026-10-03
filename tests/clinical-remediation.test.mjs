@@ -90,16 +90,21 @@ test('region interview purposes reflect the question and remain read-only',()=>{
 });
 
 test('knee interview prompts follow anterior, medial and lateral tissue regions', () => {
+  const locationPrompts = {
+    5: ['QG-PATELLAR-1', 'QG-PATELLAR-2', 'QG-KNEE-FRONT-3'],
+    8: ['QG-PES-1', 'QG-PES-2', 'QG-PES-3'],
+    11: ['QG-FIBHEAD-1', 'QG-FIBHEAD-2', 'QG-KNEE-LATERAL-3'],
+    12: ['QG-ITB-1', 'QG-ITB-2', 'QG-KNEE-LATERAL-3'],
+  };
   for (let number = 1; number <= 12; number++) {
     const result = resolveAssessment(data, {region_id:`KNEE-R-${String(number).padStart(3,'0')}`});
-    const prompts = result.consultation_guide.filter(row => /^QG-KNEE-(FRONT|MEDIAL|LATERAL)-/.test(row.guide_id));
+    const prompts = result.consultation_guide.filter(row => row.scope !== 'GENERAL');
     const group = number <= 6 ? 'FRONT' : number <= 9 ? 'MEDIAL' : 'LATERAL';
-    assert.equal(prompts.length, 3);
-    assert.ok(prompts.every(row => row.guide_id.startsWith(`QG-KNEE-${group}-`)));
+    assert.deepEqual(prompts.map(row => row.guide_id), locationPrompts[number] || [1,2,3].map(n => `QG-KNEE-${group}-${n}`));
     assert.equal(new Set(result.consultation_guide.map(row => row.guide_id)).size, result.consultation_guide.length);
   }
   const medial = resolveAssessment(data, {region_id:'KNEE-R-009'});
-  assert.ok(medial.consultation_guide.find(row => row.guide_id === 'QG-KNEE-MEDIAL-1').core_prompt.includes('后内侧肌腱'));
+  assert.ok(medial.consultation_guide.find(row => row.guide_id === 'QG-KNEE-MEDIAL-1').core_prompt.includes('偏后方'));
 });
 
 test('first ray scope stays consistent across assessment and finding details', () => {

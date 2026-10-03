@@ -1,0 +1,2451 @@
+{
+  "schema": 1,
+  "date": "2026-10-03",
+  "scope": "源网格双视角目视粗核：肌腹位置、大体走向、明显断尾／集合形态；不包含逐骨性标志附着足印认证。",
+  "sheets": 30,
+  "rows": [
+    {
+      "id": "FJ1383",
+      "sourceGeometrySha256": "4ca4dc9186b1ef38878a4d018de0ef86efded9458a26925b65e85f2e4a5e1c0c",
+      "sheet": 1,
+      "cell": 1,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1383M",
+      "sourceGeometrySha256": "0f03a0a819b2a95e72b1f9e3aa63426959caff3fc5ba00155764baf420e3da1f",
+      "sheet": 1,
+      "cell": 2,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1384",
+      "sourceGeometrySha256": "c08f0ea79d7e568f4788dbea801366fc9e739f41ecef6a96a24d5f8073d67567",
+      "sheet": 1,
+      "cell": 3,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1384M",
+      "sourceGeometrySha256": "b597288b5fa2500473ed82a4a060f63afd12264d198353a07778a5ad5f87f6bc",
+      "sheet": 1,
+      "cell": 4,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1385",
+      "sourceGeometrySha256": "9cf8494fef490e462b5807d65df782df5b750222acd4eefbfb4984e927d85457",
+      "sheet": 1,
+      "cell": 5,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1385M",
+      "sourceGeometrySha256": "1e11c21fe569e5fc94b7a9c0f31a57e0ef59a7810f4ef3d09da91489bed42de9",
+      "sheet": 1,
+      "cell": 6,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1386",
+      "sourceGeometrySha256": "300ed5ee7cfd52adec3ae788232ad303a67e6f9b669c763e6af348ddd111feff",
+      "sheet": 1,
+      "cell": 7,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1386M",
+      "sourceGeometrySha256": "d19e31769502a54236a214c66c4ca0ae3048eebc97d9f309c1727bcf0bdd977b",
+      "sheet": 1,
+      "cell": 8,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1387",
+      "sourceGeometrySha256": "797db245c859657423461bdfd42987dc4818451ed0b436a564c7887ca79b42bb",
+      "sheet": 1,
+      "cell": 9,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1387M",
+      "sourceGeometrySha256": "eeab21582dcfdbc6437dd8f50ea3d85ea63e7542be371bf1ce7df66e57649cec",
+      "sheet": 1,
+      "cell": 10,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1388",
+      "sourceGeometrySha256": "4952285726cd10a284ad13227a017d3d55a5e3af3fbc5d27461c60404e5350a8",
+      "sheet": 1,
+      "cell": 11,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1388M",
+      "sourceGeometrySha256": "de0d0acc97c27756f121b2e1c3a0a41c1be3322db5e141e9076f07d5c0ba068c",
+      "sheet": 1,
+      "cell": 12,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1389",
+      "sourceGeometrySha256": "083d12ece7bde7db57288fa75f9ee75e4291cd90263d801c23157bc3ef12b743",
+      "sheet": 2,
+      "cell": 1,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1389M",
+      "sourceGeometrySha256": "2017f0fa83f6e0f8b8f9a9f7fdf54497052177b83c2782dbe25169b8c312a972",
+      "sheet": 2,
+      "cell": 2,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1390",
+      "sourceGeometrySha256": "454f94a0c4be1856e05e60bdcbd1b535107230202e672964b9782fa97721723e",
+      "sheet": 2,
+      "cell": 3,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1390M",
+      "sourceGeometrySha256": "87de3c5ad6ee6f5b568d6968ffd5260449481787e977a5d8ddee5c300eeb7ba7",
+      "sheet": 2,
+      "cell": 4,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1391",
+      "sourceGeometrySha256": "8c3dd6ddc75328c214bd5aa0cfc28720b523d19a1be7e3fc5097aa976233c6cc",
+      "sheet": 2,
+      "cell": 5,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1391M",
+      "sourceGeometrySha256": "46a1c50d84264793eabb9b7fb5016dff12f457f8146ed99b007337e51d031930",
+      "sheet": 2,
+      "cell": 6,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1393",
+      "sourceGeometrySha256": "ab6ebaf519a1e6377d9cb7eda47d75b358932db951069ce53feccf0e2d80b3bc",
+      "sheet": 2,
+      "cell": 7,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1393M",
+      "sourceGeometrySha256": "c82f77f6fe0e365396f4041df7b28a0acf271898bc4223568c919accbed99d95",
+      "sheet": 2,
+      "cell": 8,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1394",
+      "sourceGeometrySha256": "b24cf278faa7b98c84db9a68942e0308698aa460968ddf66968e59d776940d13",
+      "sheet": 2,
+      "cell": 9,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1394M",
+      "sourceGeometrySha256": "23ea989f62add8b5e42b5403dc8caae6004fc9181907cd28e612ea891ff974b0",
+      "sheet": 2,
+      "cell": 10,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1395",
+      "sourceGeometrySha256": "c31a0c710b4f9c8d7aaf20c8f0cbbb83112559c693a3e82ff03f89cd0a6a7fee",
+      "sheet": 2,
+      "cell": 11,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1395M",
+      "sourceGeometrySha256": "8366194bc89d6a5ca7809bae71835f18f9bba94661281edae516fa75eaeead8a",
+      "sheet": 2,
+      "cell": 12,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1396",
+      "sourceGeometrySha256": "d6651abcc40d5fa2bded827e95a8fe28fc6442af1bf85661e6b93ea2273e3f6b",
+      "sheet": 3,
+      "cell": 1,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1396M",
+      "sourceGeometrySha256": "08e12c82fb8656dcdc03b8d653a9f0c9272696a836783a736257f8906af7b54b",
+      "sheet": 3,
+      "cell": 2,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1397",
+      "sourceGeometrySha256": "4403d54f56dccb14f64a8a2c82dd134cd79c91ec2bced63f9adafe51f511a95f",
+      "sheet": 3,
+      "cell": 3,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1397M",
+      "sourceGeometrySha256": "4c5cc0aa887c48ffd60af420c201393e322a80048e8a39ce63d51a3b364558e0",
+      "sheet": 3,
+      "cell": 4,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1398",
+      "sourceGeometrySha256": "4e0320d386d02ea269e71167812b36002bd44070f5a0754d12c9d3557001a774",
+      "sheet": 3,
+      "cell": 5,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1398M",
+      "sourceGeometrySha256": "0983bba2f922d93ff488970f8a69c7a54ca3ebeabd69f296132c8f94961e2443",
+      "sheet": 3,
+      "cell": 6,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1399",
+      "sourceGeometrySha256": "069fcec209c695d3ecb3a0b68a656a55b9178b9a8bbc92e0a1aa0f78d5971f07",
+      "sheet": 3,
+      "cell": 7,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1399M",
+      "sourceGeometrySha256": "c5a5a5d8c86f550347e737d1b5f24969a491f136f5cd6edc50abcba73aba94a8",
+      "sheet": 3,
+      "cell": 8,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1400",
+      "sourceGeometrySha256": "8c5464c475bfdba0512b401bba23b9711248f314700f656deb82fdce77daf63a",
+      "sheet": 3,
+      "cell": 9,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1400M",
+      "sourceGeometrySha256": "75320ae82a53de0e64dcd4160accde0167c40c9fbc2015c55bc26c19b01fdae2",
+      "sheet": 3,
+      "cell": 10,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1401",
+      "sourceGeometrySha256": "9e8006945f3bf63980d877426dd94ff6d8309073aa8cab7604987e2d80ea146e",
+      "sheet": 3,
+      "cell": 11,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1401M",
+      "sourceGeometrySha256": "148cbddc018ef1828496ac2968efe588f69d733aafe136671fcba28ff7d6ac70",
+      "sheet": 3,
+      "cell": 12,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1402",
+      "sourceGeometrySha256": "023b16bc5507213a874f3fb90b578c31d2f6ce17ce689293aeb21d23ce47fb26",
+      "sheet": 4,
+      "cell": 1,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1402M",
+      "sourceGeometrySha256": "29a858f0cf3c5a2f54afe87c4b979670a4ac59ee4a39575280eb3b9be6eb8a8e",
+      "sheet": 4,
+      "cell": 2,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1403",
+      "sourceGeometrySha256": "875e8c5b9938ceb30f5d42870f8468d6a63520533b12426f72fc8ff772994608",
+      "sheet": 4,
+      "cell": 3,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1403M",
+      "sourceGeometrySha256": "a15b0c8ad716734f14b61be945ad95d24bc31c60dc0daa6b620f1e6acd0f7d93",
+      "sheet": 4,
+      "cell": 4,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1404",
+      "sourceGeometrySha256": "55714c5d3c29fc87f5f5a1fb91fab78cf8090b3e1f6909675fde7dad1e497973",
+      "sheet": 4,
+      "cell": 5,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1404M",
+      "sourceGeometrySha256": "51980442fa20f5f931afe250844f10ecc10a0ec5eb596a72a616e3ac6cf02fed",
+      "sheet": 4,
+      "cell": 6,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1406",
+      "sourceGeometrySha256": "640b94418e21a68ce67b6464c85d880615b0252c55eb0e5a04075a8fd7728dd5",
+      "sheet": 4,
+      "cell": 7,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1406M",
+      "sourceGeometrySha256": "64112cb4fb83ee25f83446bf8b7dccba05e15813025916a688021d6fa1bdda30",
+      "sheet": 4,
+      "cell": 8,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1407",
+      "sourceGeometrySha256": "e0b0d430e1119ac6c6242937862d60f35f41fea93fba7fe048062e21a84159e0",
+      "sheet": 4,
+      "cell": 9,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1407M",
+      "sourceGeometrySha256": "16b410217e6ff604a9fedfd49b6779b4345b664198b5ae4e7fb4677f5d775414",
+      "sheet": 4,
+      "cell": 10,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1408",
+      "sourceGeometrySha256": "6732c2fca0721bc439737bf86ef7e99216e4f5047f3e5a684bdc91e111d1dbef",
+      "sheet": 4,
+      "cell": 11,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1408M",
+      "sourceGeometrySha256": "9d62696743d76e17f27b71b60bcc499597e2b311aca7c54e2ce27efbfca73762",
+      "sheet": 4,
+      "cell": 12,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1409",
+      "sourceGeometrySha256": "fe4ac36594f54458e3f59fd90f40e4cb61bf370ed7e076e581bd0f2d8ac0b115",
+      "sheet": 5,
+      "cell": 1,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1409M",
+      "sourceGeometrySha256": "e1bbb44469a6243f533f9ca04d7732dcf925a3b2c47111b44440d853b1949241",
+      "sheet": 5,
+      "cell": 2,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1410",
+      "sourceGeometrySha256": "8f6bbe6e6008e5e9ff2830ad4b5c48814358adbe1ec69aa6e49fcd288d008e3e",
+      "sheet": 5,
+      "cell": 3,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1410M",
+      "sourceGeometrySha256": "52122d9c94eb6e2412f84325a34f87b10d8863af4cc1580c2ff10c8c92d2aa5b",
+      "sheet": 5,
+      "cell": 4,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1411",
+      "sourceGeometrySha256": "eba3e5ec15caa4b603068c3601b8e3a10d091898be4269ecd17da404b4a3b0d7",
+      "sheet": 5,
+      "cell": 5,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1411M",
+      "sourceGeometrySha256": "4c2366a84892b1af45066b2bcf87c9bc4d76c293164a9f953c251c9cb9e73fc4",
+      "sheet": 5,
+      "cell": 6,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1412",
+      "sourceGeometrySha256": "f2b6f7e102c285258f6f6df3f66c2803d50613b2533029e7c8904d529c7be4d9",
+      "sheet": 5,
+      "cell": 7,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1412M",
+      "sourceGeometrySha256": "397fb0abf74cb2341b040561def8a7e2ed88cdf6997c6dd2d20d77b76f016529",
+      "sheet": 5,
+      "cell": 8,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1413",
+      "sourceGeometrySha256": "73df261d1303f1ec8ff1d64fd5e06dc4410706e8aa02c4b6d1b17c86789890db",
+      "sheet": 5,
+      "cell": 9,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1413M",
+      "sourceGeometrySha256": "5ea7eaaa212aea70ed2db2302f27861c18bc47c93e5a6ceafc6b2b6e246dd195",
+      "sheet": 5,
+      "cell": 10,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1414",
+      "sourceGeometrySha256": "695abac5acf712c6a9fb1bad6062665256bd67bb8b824b6fcf8274562c425c90",
+      "sheet": 5,
+      "cell": 11,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1414M",
+      "sourceGeometrySha256": "f328a6b69335ce0f91f9f5921e2ceaec810514f2647a5a60704087940af1031a",
+      "sheet": 5,
+      "cell": 12,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1415",
+      "sourceGeometrySha256": "35007b73f6ae194bf6f80887d696ac20bd3151117277cd82fda9940eaf150b0d",
+      "sheet": 6,
+      "cell": 1,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1415M",
+      "sourceGeometrySha256": "b75f1dab2ccb8d169ec6c18b46452a1c85da8c2208b10def93a41f83d4c8ea4a",
+      "sheet": 6,
+      "cell": 2,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1416",
+      "sourceGeometrySha256": "226c8c6cf71c565ee8a0bd911c6d0972182898fd884776d230a9fceecf41f333",
+      "sheet": 6,
+      "cell": 3,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1416M",
+      "sourceGeometrySha256": "0ca1b4035d8f01b52d3467148d23f36d60a3677597fbaa055031182c80939788",
+      "sheet": 6,
+      "cell": 4,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1417",
+      "sourceGeometrySha256": "4419f488806b55594fca53756e7158874cc66d99f01d8f752c6a35f7a34f8235",
+      "sheet": 6,
+      "cell": 5,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1417M",
+      "sourceGeometrySha256": "aca287cf4a80886c0e3883a1b1c6f7eedb752e8296f575843eb3671a195d7edd",
+      "sheet": 6,
+      "cell": 6,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1418",
+      "sourceGeometrySha256": "89d40ccf609e790883cbafd01564cc47cae9bad83bf31057984370eb49b22566",
+      "sheet": 6,
+      "cell": 7,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1418M",
+      "sourceGeometrySha256": "9fad55ca95823f7ed7e4449a66919138c5c3edb9c07206683156015d2872af72",
+      "sheet": 6,
+      "cell": 8,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1419",
+      "sourceGeometrySha256": "e34a7a827e9f75f2a8d3587f964955674ddf4bb2efc38f4747789891d847060c",
+      "sheet": 6,
+      "cell": 9,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1419M",
+      "sourceGeometrySha256": "b736229018332f6f5faab4c234f0a9bcc05055cb8dd29bc06f4067e1d07f5e86",
+      "sheet": 6,
+      "cell": 10,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1420",
+      "sourceGeometrySha256": "356fd64a8849bb5748a5d51d2231ab58ba8f5ec91f0d7df1a4ac82eafcce506e",
+      "sheet": 6,
+      "cell": 11,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1420M",
+      "sourceGeometrySha256": "3ad17fe9a7639a334fb8ccc8ee6231c807995e539b1582ec0874709eec0b2a14",
+      "sheet": 6,
+      "cell": 12,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1421",
+      "sourceGeometrySha256": "e03a80cb41de970de6a057b91afe87f08b51dd7ec9925245a08e216e61b59a36",
+      "sheet": 7,
+      "cell": 1,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1421M",
+      "sourceGeometrySha256": "ff6f81eb8065bdc8c2bdc894b7e22294ef22a6a4b16c71edef3dd63d1f5143ff",
+      "sheet": 7,
+      "cell": 2,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1422",
+      "sourceGeometrySha256": "b4db9d4eee121e54d67cd8cd7c53c7b1054719fea48b2d23388db3e6fe1027f3",
+      "sheet": 7,
+      "cell": 3,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1422M",
+      "sourceGeometrySha256": "67a1190d86c6bae2470af88ad3c4c51f3ebc48fdef477536f4956bd42dc1f36d",
+      "sheet": 7,
+      "cell": 4,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1425",
+      "sourceGeometrySha256": "79d5cc92616e3004aa0697d90f4630108b4557674043547bf954e210461b6736",
+      "sheet": 7,
+      "cell": 5,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1425M",
+      "sourceGeometrySha256": "bcc7222a0f1314219113acf7cd98a2287e1b5f61ce0b61fcccebbaef5ba0a8b0",
+      "sheet": 7,
+      "cell": 6,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1426",
+      "sourceGeometrySha256": "2c62f670d57aa9cc33b994c712a73937e1ab2a6555fd22b33141a8face8f149a",
+      "sheet": 7,
+      "cell": 7,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1426M",
+      "sourceGeometrySha256": "2de06a5b2b721fd332e8f6933f5b859c7be95f0c9459fb366a6bd3311bbe97bc",
+      "sheet": 7,
+      "cell": 8,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1427",
+      "sourceGeometrySha256": "b780a32bd171865fa61af48bf9efdc39fbc8c817d79752f6ec3040f433399adc",
+      "sheet": 7,
+      "cell": 9,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1427M",
+      "sourceGeometrySha256": "2987029b5d33491a89208d5fa1f551605907a7a29b80926c8bea6fd17b5435f2",
+      "sheet": 7,
+      "cell": 10,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1428",
+      "sourceGeometrySha256": "2b21fc0ffbeece6a339949e5a52061e803e3d28ef7c0838038cfbc6a0471b082",
+      "sheet": 7,
+      "cell": 11,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1428M",
+      "sourceGeometrySha256": "c2f5706096abaf9d450f54ffc92eb2bbf1682994d7404f2e3bd53d3181cb6eba",
+      "sheet": 7,
+      "cell": 12,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1429",
+      "sourceGeometrySha256": "f686557e2fca8cb394738364b3ec84aaa4508d5e66aa6b45b7d7bc44ed8d7c73",
+      "sheet": 8,
+      "cell": 1,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1429M",
+      "sourceGeometrySha256": "fe234f254f7875b9dc9e0f5560c16c4d9e9745f43f948b5d64396143f09c0c2e",
+      "sheet": 8,
+      "cell": 2,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1430",
+      "sourceGeometrySha256": "844ede452f8722719e208cff9941e3c54606155fde25ae827d599c934ec418e0",
+      "sheet": 8,
+      "cell": 3,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1430M",
+      "sourceGeometrySha256": "83d5d6fc755eaaeb70f3e5d5bd5fae464b6078923c787f13f3dddc9b0828e567",
+      "sheet": 8,
+      "cell": 4,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1431",
+      "sourceGeometrySha256": "2646f1b63559c5fc8a4c34a4b25be556cd0713f19a842f97fcaab03ead559443",
+      "sheet": 8,
+      "cell": 5,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1431M",
+      "sourceGeometrySha256": "556d5559674c0d621fe40f6a69d1ee1cc79715523f6db16ee407db68d230ad44",
+      "sheet": 8,
+      "cell": 6,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1432",
+      "sourceGeometrySha256": "6dcad727264807541388fb621af9dbf0b7910e3ba977f68e795be5b55b6f4eac",
+      "sheet": 8,
+      "cell": 7,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1432M",
+      "sourceGeometrySha256": "b4e4b397e22a0caa929718e40be49fcb58c335f713df187280f2adc0b9d9cd3a",
+      "sheet": 8,
+      "cell": 8,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1433",
+      "sourceGeometrySha256": "bca2774b9538ae17b3ed78076f0b8960b6e96fa0e15c5521815d66ad9301cd95",
+      "sheet": 8,
+      "cell": 9,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1433M",
+      "sourceGeometrySha256": "88d6e8dcd68b2280f73b5adbe880fa1ea4981f89d170832fca5bd8da9ebc87ff",
+      "sheet": 8,
+      "cell": 10,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1434",
+      "sourceGeometrySha256": "403884dbb7560239c79f6dfa41593c51e0e541cf61bdf56a375201f70ea63cec",
+      "sheet": 8,
+      "cell": 11,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1434M",
+      "sourceGeometrySha256": "90772cfaa9f2d39bed44d1710a6df602bc8f4086e45ce78b39928ed1e73b9411",
+      "sheet": 8,
+      "cell": 12,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1435",
+      "sourceGeometrySha256": "310567a9707423620a8e0570754df3e9c02caef1febd0f6bac637b0a46044ee3",
+      "sheet": 9,
+      "cell": 1,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1435M",
+      "sourceGeometrySha256": "0e4b34e534370795a26b9ef7fe4f6f9343bb471b5b0337920ad7961f10b01aec",
+      "sheet": 9,
+      "cell": 2,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1436",
+      "sourceGeometrySha256": "04267677989740aab3c1cc9a16bc236b7725289c13a08073dc396915845357e9",
+      "sheet": 9,
+      "cell": 3,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1436M",
+      "sourceGeometrySha256": "1da5b2ba198192c7de7e5d4ccfd8c080963c1cca6d747ba0906042c22eb56e63",
+      "sheet": 9,
+      "cell": 4,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1437",
+      "sourceGeometrySha256": "5014b2aa3b5dc536de5e8a7e46abe3c9c1d07de28c37851fa67e2447ce2f6f5a",
+      "sheet": 9,
+      "cell": 5,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1437M",
+      "sourceGeometrySha256": "94d3a1dd06ec8d3f2ada8982c6005caa4b908be4b7ce340035c26702f75addb8",
+      "sheet": 9,
+      "cell": 6,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1438",
+      "sourceGeometrySha256": "65fbf5e8ce73b8278eb399dc0b3f361a819cc9f43e102c294fe8509ff3e91003",
+      "sheet": 9,
+      "cell": 7,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1438M",
+      "sourceGeometrySha256": "9a3ba41d62fb112ed2b930e7356d7cde6f0ddefdbb24b5ac90f00568239fd969",
+      "sheet": 9,
+      "cell": 8,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1439",
+      "sourceGeometrySha256": "00e7c4084a2342db1886dd534343b432451f7c9ad08f645f67c7cd79c61506e8",
+      "sheet": 9,
+      "cell": 9,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1439M",
+      "sourceGeometrySha256": "c89b44aaeed5121f4eb38c3ef88ba29235aac301da9b540d1fd88fc9436c06f6",
+      "sheet": 9,
+      "cell": 10,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1440",
+      "sourceGeometrySha256": "ce83cdbfa9f2428e9e57ce9cde6ad9de2521d2aac34422ac4e48fc4a1b154ece",
+      "sheet": 9,
+      "cell": 11,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1440M",
+      "sourceGeometrySha256": "ac7f1b3e9dc15298f7bd641e1c4f8b7ae0a23877525806867812a4ce08923125",
+      "sheet": 9,
+      "cell": 12,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1441",
+      "sourceGeometrySha256": "3c34016ff13f0e4682834ec1dfdacabd6a59ad2c80cde6bade29ce5073b8e9eb",
+      "sheet": 10,
+      "cell": 1,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1441M",
+      "sourceGeometrySha256": "9b6b411d22dd6c5389b831813b03cd8f8648febb27cdcdc70abd0f4ef854459d",
+      "sheet": 10,
+      "cell": 2,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1442",
+      "sourceGeometrySha256": "a8214741b40ab9f981ae70b9edc476aaf054f5f57d393214250f12de20b78360",
+      "sheet": 10,
+      "cell": 3,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1442M",
+      "sourceGeometrySha256": "f45f9f399c3ef3446cbf13eacda9625f38570feae0fde32ab641fb66a4431447",
+      "sheet": 10,
+      "cell": 4,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1443",
+      "sourceGeometrySha256": "fb52895b361f71839246519d05a9b8ee02ec05c5c38c2208e1848900458eee10",
+      "sheet": 10,
+      "cell": 5,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1443M",
+      "sourceGeometrySha256": "4d602dc112b9a0dfadb4d29653669daa817aa7d39503cdf7faabe41e1895c55a",
+      "sheet": 10,
+      "cell": 6,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1444",
+      "sourceGeometrySha256": "ecf7ef2900ae21c931657933be68d990dfb0cdeae5f51d0e61bf0fcfc0f8fbcf",
+      "sheet": 10,
+      "cell": 7,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1444M",
+      "sourceGeometrySha256": "efcfca0bd181bdfa75cc217c02af2564a72d1ec0e2b12363aa7810d119cb8165",
+      "sheet": 10,
+      "cell": 8,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1445",
+      "sourceGeometrySha256": "36449f438e6387d233dfd9b0453d4d3869cbd5a6ee50da33ccbc11ca70fe8f32",
+      "sheet": 10,
+      "cell": 9,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1445M",
+      "sourceGeometrySha256": "740c5e671001da81a4132ddbd13f8c5d4c95365b58e149760117f23e29cb2e3c",
+      "sheet": 10,
+      "cell": 10,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1446",
+      "sourceGeometrySha256": "1a88a944cb33446c276a940acd996f8dae41a9131e165b657e7a0ec115fc68be",
+      "sheet": 10,
+      "cell": 11,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1446M",
+      "sourceGeometrySha256": "406d3c77936a23b7d13232a540ee88caf5c3289514c7f4ac5c2c7f174a4fd67a",
+      "sheet": 10,
+      "cell": 12,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1447",
+      "sourceGeometrySha256": "9aabd790448b8516ae966b32f5bd0b00fc4998e20e08f35e48ddfd52bc5f26c9",
+      "sheet": 11,
+      "cell": 1,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1447M",
+      "sourceGeometrySha256": "88e1bb602c2b1cb6f32d5fcf5e63193b4150bf10bce7f8195ec9843bc92d8212",
+      "sheet": 11,
+      "cell": 2,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1449M",
+      "sourceGeometrySha256": "4f93a6552ed0fe46f1666b732e5e323cb84c6c1fecf087125699b104ecef1a74",
+      "sheet": 11,
+      "cell": 3,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1450M",
+      "sourceGeometrySha256": "f2adb6a927a1bcfdecdf38c43f748d11b385f11b5eb5745f5925986b4399daf9",
+      "sheet": 11,
+      "cell": 4,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1451",
+      "sourceGeometrySha256": "77e4bd4cb1770fe3cb3e8b23dc55bb2f30cc46d106111a01e1f788b008f3d09a",
+      "sheet": 11,
+      "cell": 5,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1451M",
+      "sourceGeometrySha256": "e7bcfce06e21a8427117922d8ebb5279cf3c4aa7942ff95a99aeed46c04f7de1",
+      "sheet": 11,
+      "cell": 6,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1452",
+      "sourceGeometrySha256": "bad4def85d49e8273842fa47b58ae89b884e548e3d1bc41172e11d746ca2ff76",
+      "sheet": 11,
+      "cell": 7,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1452M",
+      "sourceGeometrySha256": "e25525c665c20c89199df9356acef14b0463445d0085c1731e80a678fb68dcb1",
+      "sheet": 11,
+      "cell": 8,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1453M",
+      "sourceGeometrySha256": "28d4d05587749ea625ac21292bd0782881dbdee670aba82207185457d7c87d53",
+      "sheet": 11,
+      "cell": 9,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1454",
+      "sourceGeometrySha256": "e35c8da7ac7ec0fdc1e40db7c477bb3e52a7384ac59b9a08af2f41f88f3f1597",
+      "sheet": 11,
+      "cell": 10,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1454M",
+      "sourceGeometrySha256": "f92bd2731058fd5ed57bac3f96acedb00c5feefd48061d2f52aec2536136ce02",
+      "sheet": 11,
+      "cell": 11,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1455",
+      "sourceGeometrySha256": "d344315b195aad9af188f017c5ffb25162f73a6423ab380588c397d1359e1a6d",
+      "sheet": 11,
+      "cell": 12,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1455M",
+      "sourceGeometrySha256": "97a44b7153802dabbceab920498ba20be62ccbbe27e9535b57a03c73f40dd8ff",
+      "sheet": 12,
+      "cell": 1,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1456",
+      "sourceGeometrySha256": "0ff3df5506062c996a6774b1a6f8bd2093e6b18bca0fbca704d0764f8a6000dc",
+      "sheet": 12,
+      "cell": 2,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1456M",
+      "sourceGeometrySha256": "c31a6083a95e99d99996a3080111e836cadf921bebb5fe5846bc1fe8d4798df0",
+      "sheet": 12,
+      "cell": 3,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1457M",
+      "sourceGeometrySha256": "b6ae08f35f17b0d1750656b9743bfbf644331a3890523f2f31ce0cca130e56cf",
+      "sheet": 12,
+      "cell": 4,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1458M",
+      "sourceGeometrySha256": "7a443958b3d00d8c8d7ac31a55d574daf894fdbf4b6c2eddf4958ac91f1b3bb9",
+      "sheet": 12,
+      "cell": 5,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1459",
+      "sourceGeometrySha256": "61969c0c522c70119e14e0c4efc85cade34c4acd7b7d278a45ca1966a61ddb14",
+      "sheet": 12,
+      "cell": 6,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1459M",
+      "sourceGeometrySha256": "9c32e3f2b212c041ac0b84a17eff9da84377d65ac76233b896107f56966b1ac3",
+      "sheet": 12,
+      "cell": 7,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1460",
+      "sourceGeometrySha256": "fd9385a6a74f25d7f598f35cc30f9aef422093ef503a87499ca35c06dd9f2d2b",
+      "sheet": 12,
+      "cell": 8,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1460M",
+      "sourceGeometrySha256": "5467bf696c14472d4d42a4e025d7a5593d68b3b803fc0b7b493f987e3a8a675b",
+      "sheet": 12,
+      "cell": 9,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1461",
+      "sourceGeometrySha256": "9d9f93e5fa6a7ce5a300bd3765a8403697837b8c84b3a0146639dfdb23719763",
+      "sheet": 12,
+      "cell": 10,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1461M",
+      "sourceGeometrySha256": "ef726b9572750d261775cca6bc72dcb80c938bd6833745bcedd1bd7825e932ce",
+      "sheet": 12,
+      "cell": 11,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1462",
+      "sourceGeometrySha256": "6d701702d143ce2f0c41a15e9ccd405de314e6f050ea88e5197f171b2f27231e",
+      "sheet": 12,
+      "cell": 12,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1462M",
+      "sourceGeometrySha256": "53554825c81d6d0a3677392e689b4127f96afd769d532d87a318006946e65cd1",
+      "sheet": 13,
+      "cell": 1,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1463",
+      "sourceGeometrySha256": "8fdcaac823b2dd792e3e9c090477977cc087420afb1393d69c9ae71d4ef16e89",
+      "sheet": 13,
+      "cell": 2,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1463M",
+      "sourceGeometrySha256": "9b143d885002f3086086355a49cb27ec400fc1041a06f20f0d92b5765adabccd",
+      "sheet": 13,
+      "cell": 3,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1464",
+      "sourceGeometrySha256": "5754c84b87c3fcdda21cb09ac55dca86726e1925065bf0a6da6e2ebf52ee4446",
+      "sheet": 13,
+      "cell": 4,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1464M",
+      "sourceGeometrySha256": "879ea093309cdd12558fcae4db73e0a7f3b11b624da5c48b6a0eb97f3f5f4172",
+      "sheet": 13,
+      "cell": 5,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1466",
+      "sourceGeometrySha256": "3159a86295951070d5347b89e0c5f10b4c7bd9d5b977320700fd35f04eb9e4f2",
+      "sheet": 13,
+      "cell": 6,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1466M",
+      "sourceGeometrySha256": "2ce0e3bc987285ad875b5330f0b480d8885513295649aa3fa18bc66bb67ae549",
+      "sheet": 13,
+      "cell": 7,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1467",
+      "sourceGeometrySha256": "6a37192ec70db0aca9b0f4a92852512eeb1719503646558c6e618a795d55ddf1",
+      "sheet": 13,
+      "cell": 8,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1467M",
+      "sourceGeometrySha256": "0689ce548fff5b09f3408d0e264333a7fc922ab9310d6034f2de14102c6440d1",
+      "sheet": 13,
+      "cell": 9,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1468",
+      "sourceGeometrySha256": "d6f361abf0c948aee4ffa09096a64d4d0329145c9c8e358afee9a53a22472cda",
+      "sheet": 13,
+      "cell": 10,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1468M",
+      "sourceGeometrySha256": "4810839ac129e22a9b69a496167c1374649d1719dfb904405dd86165c55427c9",
+      "sheet": 13,
+      "cell": 11,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1469",
+      "sourceGeometrySha256": "846531bbd764f2d790bebd380f18d57bac337893710a9bfe3e42f06aa15c659d",
+      "sheet": 13,
+      "cell": 12,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1469M",
+      "sourceGeometrySha256": "0bb057091aa59879825fea4988c9c33453e789a881b8c3f14cfd8979081b871e",
+      "sheet": 14,
+      "cell": 1,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1470",
+      "sourceGeometrySha256": "d521437f55c8435252e649873841b30d4fc4e7a97e02a689e5731df8f8c4d085",
+      "sheet": 14,
+      "cell": 2,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1470M",
+      "sourceGeometrySha256": "a81cd350e3020182244c6f18b7644260d93d6c6ba888a074b9e099c53dbec856",
+      "sheet": 14,
+      "cell": 3,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1472",
+      "sourceGeometrySha256": "886edcd3d887d3fafcb466f93773365a4bb4dfb4ace4d797959432b585f4466e",
+      "sheet": 14,
+      "cell": 4,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1472M",
+      "sourceGeometrySha256": "707bb269a762f2f40bfb12503cccf15b193d6f71277568d10c0f77fd158f4a41",
+      "sheet": 14,
+      "cell": 5,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1473",
+      "sourceGeometrySha256": "425659cee3985e1513b3da166baf9f63e427eef3c32b3e04fe0a7e7214d2124c",
+      "sheet": 14,
+      "cell": 6,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1473M",
+      "sourceGeometrySha256": "4975b3d07b1db285b6e7517bc949696d56d87edcd74d69826986b3a25429cbab",
+      "sheet": 14,
+      "cell": 7,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1474",
+      "sourceGeometrySha256": "e65b759018e7626016051f99eb6e4ef71916a9d83d63dcec24eb71672d634fd6",
+      "sheet": 14,
+      "cell": 8,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1474M",
+      "sourceGeometrySha256": "7d7cf3dd3beb1e79cf516c5d407d1d8f2807821a90e3e6d550403ed66a2e0047",
+      "sheet": 14,
+      "cell": 9,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1475",
+      "sourceGeometrySha256": "a9ed55274536ce2f75f22bcb313377161305ea0550097e1edfd1de141c776864",
+      "sheet": 14,
+      "cell": 10,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1475M",
+      "sourceGeometrySha256": "15898943c4b10106aa2a9b4ea7e545ab85139746d2cad473026b400addb0e76d",
+      "sheet": 14,
+      "cell": 11,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1477",
+      "sourceGeometrySha256": "9d59fc1f2c36e53080bf943b7ee75046df60a1f185dbdf2c75309418dbd89737",
+      "sheet": 14,
+      "cell": 12,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1477M",
+      "sourceGeometrySha256": "9d6155f8deade870c52d1d41a66f3f6c47a4869242bd29eae2298fcdde8b1dbe",
+      "sheet": 15,
+      "cell": 1,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1478",
+      "sourceGeometrySha256": "7f985981cbd8b1726bddf81a7aeb78f475441134053e40ff1c525df1949fe1dc",
+      "sheet": 15,
+      "cell": 2,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1478M",
+      "sourceGeometrySha256": "c27c634eb3cde38528818f6ba07cd96e7efd71c2c965785c7ece144f546aca79",
+      "sheet": 15,
+      "cell": 3,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1479",
+      "sourceGeometrySha256": "ba61edfd7355c30a2fa89cf38d21e6f2d8147732809e1d9bdd6a0f74b0a4eb52",
+      "sheet": 15,
+      "cell": 4,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1479M",
+      "sourceGeometrySha256": "857eb19ef5ec6919ed9d6617a2b4550fdc136a58b2618781684a4173dcfa5618",
+      "sheet": 15,
+      "cell": 5,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1480",
+      "sourceGeometrySha256": "db6c36c539fd22aa60a943845b8395706e8232b69e6f04a4ee74bd1d5f0b5268",
+      "sheet": 15,
+      "cell": 6,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1480M",
+      "sourceGeometrySha256": "022371688f4acb83f7f050b477cd2434eee7d038bebc7e491dd551a52f9d1997",
+      "sheet": 15,
+      "cell": 7,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1481",
+      "sourceGeometrySha256": "fd08b4381eee11b66d93e757fd781e56125f81bbb1f436f6c6203728cb000f9a",
+      "sheet": 15,
+      "cell": 8,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1481M",
+      "sourceGeometrySha256": "892457de77dc83fd7395ca076a72665501d8e45bc7bc49c37cd8ee804186daad",
+      "sheet": 15,
+      "cell": 9,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1482",
+      "sourceGeometrySha256": "3dff5d6c245f8cbd89151110fe20f6710474721b6459780607b62bb255fc7260",
+      "sheet": 15,
+      "cell": 10,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1482M",
+      "sourceGeometrySha256": "a39db41338fa5628a864a56255e9388884aff141c6b6c905c85447adc418eeec",
+      "sheet": 15,
+      "cell": 11,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1483",
+      "sourceGeometrySha256": "5f6794c8c8056b7a4273279a185b4358c9813c2b919ab1bf0db4bccefdad4499",
+      "sheet": 15,
+      "cell": 12,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1483M",
+      "sourceGeometrySha256": "9507e76f385e3a09ef29ef30ae080df38ea630ab52ef4558618e612ab3381e26",
+      "sheet": 16,
+      "cell": 1,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1484",
+      "sourceGeometrySha256": "c81111dc181a586777bb7adcf9f97e0cdd4df236d97fb0454407550897306a4c",
+      "sheet": 16,
+      "cell": 2,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1484M",
+      "sourceGeometrySha256": "633c303a5c999f66d6b8f253b670a8e37aeebe567a81f1613c2dda0d4752bf36",
+      "sheet": 16,
+      "cell": 3,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1485",
+      "sourceGeometrySha256": "7d12af45582388decbdb323fd821b9c2bcf49e2eeec242fab0bcbd14368d0e64",
+      "sheet": 16,
+      "cell": 4,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1485M",
+      "sourceGeometrySha256": "d49d6e8e484d894898a4d7209aa8ef8a0262e9a7e27913154bdf226ab3745c27",
+      "sheet": 16,
+      "cell": 5,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1486",
+      "sourceGeometrySha256": "f16924d6393ea213d19d99265d92ed5d0e63d829cfbc32f1d3fa56752e5685fa",
+      "sheet": 16,
+      "cell": 6,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1486M",
+      "sourceGeometrySha256": "be6811e610533491eebf676c6a16d7b46017a72c7a2c58de98630e500c154faa",
+      "sheet": 16,
+      "cell": 7,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1487",
+      "sourceGeometrySha256": "be64bf33a7cd6d223a4ceb3067dd22279424881454b0a4c67ffc3030cb361b94",
+      "sheet": 16,
+      "cell": 8,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1487M",
+      "sourceGeometrySha256": "d7bacb100b93c1938bcfe47b2f7ab4261e5e615bed2461fcb9807d1e693ddc4d",
+      "sheet": 16,
+      "cell": 9,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1488",
+      "sourceGeometrySha256": "6dcc2bfb4a4f111e2cbafffca93b3e7d9d08c1dd359ff8c82d85f5a8a34aaffd",
+      "sheet": 16,
+      "cell": 10,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1488M",
+      "sourceGeometrySha256": "9d4b5304dec205c81f75337acb59081363f5f2f1b9568e843964c6b04a713834",
+      "sheet": 16,
+      "cell": 11,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1489",
+      "sourceGeometrySha256": "c6537e8c31164e01830d68499c456c5486834c707dc8d3fbec38cb7667d791ec",
+      "sheet": 16,
+      "cell": 12,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1489M",
+      "sourceGeometrySha256": "2cdd51fabd8284f11ae76adae6aa4d6224d5bbbf3748e4cdc6d5cee713bbbfca",
+      "sheet": 17,
+      "cell": 1,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1490",
+      "sourceGeometrySha256": "a9bd447f9f417d9b966aace3e9e7871aaa6e4900c989ffe4da07c6a801c91905",
+      "sheet": 17,
+      "cell": 2,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1490M",
+      "sourceGeometrySha256": "cbc8de87ce9cb8124c70f0c6ab97d78223e3c716a8eaed2d623c3224318045a0",
+      "sheet": 17,
+      "cell": 3,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1491",
+      "sourceGeometrySha256": "0980281885ef12856d2b2d5b9e6ca9417b6e65e74a8efbbbd96954681b5bed16",
+      "sheet": 17,
+      "cell": 4,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1491M",
+      "sourceGeometrySha256": "125baa9cb3aa9ba982987912513c1d8fd497a5672cb5b3f874af75591e0e4d45",
+      "sheet": 17,
+      "cell": 5,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1492",
+      "sourceGeometrySha256": "04881d46eb32be779046ea2d4c4709b082ab95bdde5f3db41c107a989a34fb14",
+      "sheet": 17,
+      "cell": 6,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1492M",
+      "sourceGeometrySha256": "f68bccc8958e173482a77b32cfe82908271a48081b6165f17abbec8b258a0b6a",
+      "sheet": 17,
+      "cell": 7,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1493",
+      "sourceGeometrySha256": "9205e6b5ae884d63531ee2620d045cb97404447167815c3c6864eed17c0d8ac9",
+      "sheet": 17,
+      "cell": 8,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1493M",
+      "sourceGeometrySha256": "73333c33290dd43e454697881de01eb8cd2fbf57bb4abcff6e6d4a078b5f32a3",
+      "sheet": 17,
+      "cell": 9,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1494",
+      "sourceGeometrySha256": "c7590b1ce62e03184b73c2e1fd098353c887954a060962b2c1db0c11b013f084",
+      "sheet": 17,
+      "cell": 10,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1494M",
+      "sourceGeometrySha256": "f0eebe63549616412bb7a745ac2ec90b8f84b861ac3d751669a9435c459ba08b",
+      "sheet": 17,
+      "cell": 11,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1495",
+      "sourceGeometrySha256": "18adc495d04fa06d39f6245e5b8b480284c635898389f48478a1cd9487bc2b0b",
+      "sheet": 17,
+      "cell": 12,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1495M",
+      "sourceGeometrySha256": "744badcc2a0a0509d479230ea4dc2e3685d3bf89719035988e4ada7a10be57f1",
+      "sheet": 18,
+      "cell": 1,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1496",
+      "sourceGeometrySha256": "20ac9cf209290514bfbb6d6b54fbba954c54b125f7119e5f0a76da0e6de944a6",
+      "sheet": 18,
+      "cell": 2,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1496M",
+      "sourceGeometrySha256": "a0a7e5ef9f06fd4b190b78e618aa823216b16fb6090a9f8e952fd74f58dd07fe",
+      "sheet": 18,
+      "cell": 3,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1497",
+      "sourceGeometrySha256": "aacd7587cc9c68595201d98b28133dbc6e83c4b3ac80767a3f2ed0f5c5b434b5",
+      "sheet": 18,
+      "cell": 4,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1497M",
+      "sourceGeometrySha256": "37871a1739cca3c669d0635078ba4e8fc6243340504734802ab3b24a591b728b",
+      "sheet": 18,
+      "cell": 5,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1498",
+      "sourceGeometrySha256": "5b38628626de8890b7ac1684168fa24e48e2e9ecba4d3ef4a00cc9493472f340",
+      "sheet": 18,
+      "cell": 6,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1498M",
+      "sourceGeometrySha256": "87a5d83063ed65a15fe7c584132a9ba1a8bb7772bbf6af80830ad7fc87a029d6",
+      "sheet": 18,
+      "cell": 7,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1499",
+      "sourceGeometrySha256": "b5938f349ab20cf33c22e76dbca3b455907da8aac7e3d716e50d6300189639eb",
+      "sheet": 18,
+      "cell": 8,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1499M",
+      "sourceGeometrySha256": "b179140f041952fd88eef757e91330d130b9518b9f45924a6a801e930869fbc3",
+      "sheet": 18,
+      "cell": 9,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1500",
+      "sourceGeometrySha256": "b60a0f99fc8651133a87fe69ed2a51f0c6e7b07fcf127314ac855a28dffe69c7",
+      "sheet": 18,
+      "cell": 10,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1500M",
+      "sourceGeometrySha256": "b655dbe135a40c2793906e2eaec9b09c2afa4e36a253bf0e00f7d51b053046ed",
+      "sheet": 18,
+      "cell": 11,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1501",
+      "sourceGeometrySha256": "0d2e8ec272135490c4cdcfc849d5e0dd1977b4634c79c41017b3e41dcd6cf457",
+      "sheet": 18,
+      "cell": 12,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1501M",
+      "sourceGeometrySha256": "e095c0af88586c737c0ff4b74bba7ac30d5debe25e167f6cd438cb491f5fd7bd",
+      "sheet": 19,
+      "cell": 1,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1502",
+      "sourceGeometrySha256": "57300d605d632202de806c05f014225654590ecb96fb47f93a9c2e9dcf4f4408",
+      "sheet": 19,
+      "cell": 2,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1502M",
+      "sourceGeometrySha256": "bee5ddd7f7998c8655e616bedac0f1a54b459ae9b98003a4c002784e99ab3135",
+      "sheet": 19,
+      "cell": 3,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1503",
+      "sourceGeometrySha256": "e8819db6b47d1d18b85f8b34745c7c10d65a7f2786ad5b25e48d4e24db0ad21d",
+      "sheet": 19,
+      "cell": 4,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1503M",
+      "sourceGeometrySha256": "01360b1cba2312b9ce01a47665f93a5ebf689e8b29c64507a8fb8b54f924d1ed",
+      "sheet": 19,
+      "cell": 5,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1504",
+      "sourceGeometrySha256": "8341369b5998c1708c8e2933b538e8f5f8b76d47086e1612f7457983e7058ae1",
+      "sheet": 19,
+      "cell": 6,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1504M",
+      "sourceGeometrySha256": "eab6884ba38e0da8cea4b46005c0bef0c17912b97748cce54e3bdd9d82e6e570",
+      "sheet": 19,
+      "cell": 7,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1505",
+      "sourceGeometrySha256": "da8b05d63f88fc9dd04ead635254ed69e4721844491633f7b8d4768883c1ec6f",
+      "sheet": 19,
+      "cell": 8,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1505M",
+      "sourceGeometrySha256": "ac37ac9fe48f66b98ab3eb6e02ba3b5dd333860e2e1e3ea41c3f1d2eab40c5e6",
+      "sheet": 19,
+      "cell": 9,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1506",
+      "sourceGeometrySha256": "6989c22523c16e5e34205aebd6f106df47cbdeb6e26b79b9abc7327404d8eb40",
+      "sheet": 19,
+      "cell": 10,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1506M",
+      "sourceGeometrySha256": "346776b93e30dd52f9f58de028c839c56fab08636741e6160de212232beacbd2",
+      "sheet": 19,
+      "cell": 11,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1507",
+      "sourceGeometrySha256": "257c6a980e57654e6f9216c273b699ce37c774e6e647e5e1bbc29b29bf27f4ba",
+      "sheet": 19,
+      "cell": 12,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1507M",
+      "sourceGeometrySha256": "62cbcc806acadcf9a37b7f7ff33e59bbe4b93d0554ae0b0f54356d39847e1225",
+      "sheet": 20,
+      "cell": 1,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1508",
+      "sourceGeometrySha256": "bb1fe16500c607b12cf9e948963cab5be820c50c39d83c01734ba7bf7ee9f7f0",
+      "sheet": 20,
+      "cell": 2,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1508M",
+      "sourceGeometrySha256": "76e90862c24aa4cec326f08ba458fd3bd87abbcf02769af2d3ad7290dc29348e",
+      "sheet": 20,
+      "cell": 3,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1509",
+      "sourceGeometrySha256": "8b86267d52750e4d18430711af57d7f14ef8d5ac64dc8acbadf2e091e7f0b6cb",
+      "sheet": 20,
+      "cell": 4,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1509M",
+      "sourceGeometrySha256": "f15edb9b22736027b229300e8502eccc887048770e052e82919847c96863207e",
+      "sheet": 20,
+      "cell": 5,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1510",
+      "sourceGeometrySha256": "085410ed252469ede7c324fea463a29e5772710dc17a44ae01fc64fa432b5247",
+      "sheet": 20,
+      "cell": 6,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1510M",
+      "sourceGeometrySha256": "ef29d29e100bb9efbeb90b76808baacaebbe7d38959b4c48b0289f48667cc14c",
+      "sheet": 20,
+      "cell": 7,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1511",
+      "sourceGeometrySha256": "dfb6e3c6842339825840036c96b38638a3b03c803a1caec777e9ae59c41104da",
+      "sheet": 20,
+      "cell": 8,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1511M",
+      "sourceGeometrySha256": "e31b13d240a4c193e76d10e9c82276b48bea18e69dd92183009326b03c886598",
+      "sheet": 20,
+      "cell": 9,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1512",
+      "sourceGeometrySha256": "8aaf9166f8f8e7d0b08b73f58092dd9a06dc569c08d521c947b318775114c3d1",
+      "sheet": 20,
+      "cell": 10,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1512M",
+      "sourceGeometrySha256": "2d23427126e0c4947a7c8ca81a1572e2ab6ada8296ff774e68a171c9477fea34",
+      "sheet": 20,
+      "cell": 11,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1513",
+      "sourceGeometrySha256": "c4fbb32baf951cc9399e895cdc2262639108575889f9cb0da586dfc9c4f86e35",
+      "sheet": 20,
+      "cell": 12,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1513M",
+      "sourceGeometrySha256": "64c0f08cdcb9ca7d35358c3dd1f80d85d47418c3e4056e7b69f346df8386647a",
+      "sheet": 21,
+      "cell": 1,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1514",
+      "sourceGeometrySha256": "f161021f199ab3ba06cfd84524bc747527cc15bdaa96f54df6972749d21c003d",
+      "sheet": 21,
+      "cell": 2,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1514M",
+      "sourceGeometrySha256": "982efff2e1cb2850aa8244eecfaee9944f958e5ff9a3d0b63d57427a554b207d",
+      "sheet": 21,
+      "cell": 3,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1515",
+      "sourceGeometrySha256": "a1e3977a4bf14e4ddae6bf41fd2275b0d9b6b89b4e597bba05790ae04643af0e",
+      "sheet": 21,
+      "cell": 4,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1515M",
+      "sourceGeometrySha256": "69c77686cdc0ecdaf86fad65703f71969014298a63f415181435043dcac880dc",
+      "sheet": 21,
+      "cell": 5,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1516",
+      "sourceGeometrySha256": "46bb8f5efcf2c5ed1caa247a1f05ec3e18f66c174f9245af1f6a987923e8ace3",
+      "sheet": 21,
+      "cell": 6,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1516M",
+      "sourceGeometrySha256": "71596075bb33ff18d1c8754e47ff87b25c180b6cdd18045d062cf8667fb17892",
+      "sheet": 21,
+      "cell": 7,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1517",
+      "sourceGeometrySha256": "d8946dea3530e2d33c329cd1825ca46a8117ef6a4167f714260836cc36b1833c",
+      "sheet": 21,
+      "cell": 8,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1517M",
+      "sourceGeometrySha256": "e494aa9857a5cb25b545ef7af0c4543be36c714fcd64bf1d35b03aca0ef26295",
+      "sheet": 21,
+      "cell": 9,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1518",
+      "sourceGeometrySha256": "b893f34c80f37c8d528e803857c60ba6bf51ad42bb86479df94ca11b71c11ffe",
+      "sheet": 21,
+      "cell": 10,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1518M",
+      "sourceGeometrySha256": "2d6defeab4bb7de89d95adc7a84944736e8dc7394bdb3c7d43876a6861d5b3d2",
+      "sheet": 21,
+      "cell": 11,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1520",
+      "sourceGeometrySha256": "f58f53641c9d8f75a1500e356cf5c163bfa960eee77dde3337ffbecbcf94ec49",
+      "sheet": 21,
+      "cell": 12,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1520M",
+      "sourceGeometrySha256": "859e52916fba250896b7621652b294a0e5c155c0cb791357ad08b1313c517bb1",
+      "sheet": 22,
+      "cell": 1,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1521",
+      "sourceGeometrySha256": "be54bf530eb7fd2cb3120ab72c6f27eea887f075693e4c8db8be3a578131156d",
+      "sheet": 22,
+      "cell": 2,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1521M",
+      "sourceGeometrySha256": "92cc303e1ac1acaf61e4f3fcd079ffc828dc2e51ebce3251d04a5e89fa5588d7",
+      "sheet": 22,
+      "cell": 3,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1522",
+      "sourceGeometrySha256": "2d7ad0ad46d840a70d57282ef4b51962e9770e88139baebaf8ce5a9948ed86e6",
+      "sheet": 22,
+      "cell": 4,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1522M",
+      "sourceGeometrySha256": "ae08a79c1d9a571aa2c52e1a1ee006a193398086581d9e04ea328e8b8fe8d9a0",
+      "sheet": 22,
+      "cell": 5,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1524",
+      "sourceGeometrySha256": "874d9be00bcb95d7b32e4e12669e98dea318bcea235aa9aa6e7327f635194307",
+      "sheet": 22,
+      "cell": 6,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1524M",
+      "sourceGeometrySha256": "fa10466638482aa7ac22a8d6b38fca3a62280240e07bee4912f4311ecf2c0d41",
+      "sheet": 22,
+      "cell": 7,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1525",
+      "sourceGeometrySha256": "9ba05ec586bf5f5e82c5894f89cffce94cf5811ce4d5c10b572fd62fd5073d1c",
+      "sheet": 22,
+      "cell": 8,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1525M",
+      "sourceGeometrySha256": "868671bbd28e44924f29ab5bcd9b4297263f2e2211637aa14c57bb288bef4d3f",
+      "sheet": 22,
+      "cell": 9,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1526",
+      "sourceGeometrySha256": "a16ac383cc6e530bfb17279241af46cb16798091f3bb978e103be9b31e6c72a0",
+      "sheet": 22,
+      "cell": 10,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1526M",
+      "sourceGeometrySha256": "005b2ef21b15684402f5d76d581b66d796930691215457372baba5071cd8fc3a",
+      "sheet": 22,
+      "cell": 11,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1527",
+      "sourceGeometrySha256": "131a75c2888ac70a72a70441c4adf9717920a9bf89b039c47c7db43da512db25",
+      "sheet": 22,
+      "cell": 12,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1527M",
+      "sourceGeometrySha256": "bf063de9c07aa5550c89ec552d52073b13096c5e04b4dec9e8335f5c5e2e03b2",
+      "sheet": 23,
+      "cell": 1,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1528",
+      "sourceGeometrySha256": "4294c4336e39889704dd70db738eb226a03e6c455dafebd273db69c414b1c96d",
+      "sheet": 23,
+      "cell": 2,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1528M",
+      "sourceGeometrySha256": "c71c359de8af140e2449ea5252068897772f1bb95c4ec0e844004aedd38a5fe1",
+      "sheet": 23,
+      "cell": 3,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1532",
+      "sourceGeometrySha256": "41ef51b1ffd1700c13383ced2a8be96cb0d501fc2243ba1f84b3d0c7c8fcfdb7",
+      "sheet": 23,
+      "cell": 4,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1532M",
+      "sourceGeometrySha256": "5211354b83e05a255b662cd670be215fe8e11c5db7c9d2dc208022c2ffc1939b",
+      "sheet": 23,
+      "cell": 5,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1533",
+      "sourceGeometrySha256": "6a2dfcc73f01627fc73953c58fac4664bc5e4211602856be5d8b90f74665c1fc",
+      "sheet": 23,
+      "cell": 6,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1533M",
+      "sourceGeometrySha256": "99dd43f649cfbeef782f49d18b716143c36c85830c42f4e6cb28e1ba70dd4170",
+      "sheet": 23,
+      "cell": 7,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1534",
+      "sourceGeometrySha256": "cd499196e0e712576df0826b3d842c4be2c3cc0ccf27f75e94f13ed9d91f8fb4",
+      "sheet": 23,
+      "cell": 8,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1534M",
+      "sourceGeometrySha256": "3e8e33d45b156b0a25924dfea34df979e6c7efd68d1120af3f9f1d5f593f6696",
+      "sheet": 23,
+      "cell": 9,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1535",
+      "sourceGeometrySha256": "7fa4242e199c805ac425decdd99314c41aaf1db12a3d38e7425bbe1852858116",
+      "sheet": 23,
+      "cell": 10,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1535M",
+      "sourceGeometrySha256": "1be13e3849fbb234a82a29be36baea9785f9cedd906abacbba082b5cb10f692b",
+      "sheet": 23,
+      "cell": 11,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1536",
+      "sourceGeometrySha256": "7ae3a4e2a5bdde7d5e663a650faa49b0eb63835fe8bb2d2e7806bc8dee31cf10",
+      "sheet": 23,
+      "cell": 12,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1536M",
+      "sourceGeometrySha256": "2c884e302d77981fad080020ac0df47de0cc076eac851dab83ac15d28e7cdf02",
+      "sheet": 24,
+      "cell": 1,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1537",
+      "sourceGeometrySha256": "3d7699ba34ca216c337e4d976353d484f6807710c4735675337523bb818bd6ad",
+      "sheet": 24,
+      "cell": 2,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1537M",
+      "sourceGeometrySha256": "4990429b6d51be9f67c6b966d1c2e3d49a3276871df683139df775c8c62a2c19",
+      "sheet": 24,
+      "cell": 3,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1538",
+      "sourceGeometrySha256": "c57fb661c72ec138ac454e6773039bc1bc4d7b6c79ef3c744893659daddfc5cf",
+      "sheet": 24,
+      "cell": 4,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1538M",
+      "sourceGeometrySha256": "dcc9441cb9f5e3eb382f0eae48a8f528edb51fb872447e03efc6fbea22096182",
+      "sheet": 24,
+      "cell": 5,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1539",
+      "sourceGeometrySha256": "fb2be27dd6e838bc435861ac7f7092728704f0bc60d7ce666cccc23a238a9fe6",
+      "sheet": 24,
+      "cell": 6,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1539M",
+      "sourceGeometrySha256": "e5cf1cfc4c4decd9bfe8821c5d90ba4d7694df320cc64c1cebd0f39f80b1e277",
+      "sheet": 24,
+      "cell": 7,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1540",
+      "sourceGeometrySha256": "37879dc26c2a93f19d8c796588fd2e33900bf39a6709cb66de3831e07bf626d8",
+      "sheet": 24,
+      "cell": 8,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1540M",
+      "sourceGeometrySha256": "0922e2283e60570540239a6d326fcf9fe06c4d6290114319fde3b67975cbd17b",
+      "sheet": 24,
+      "cell": 9,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1541",
+      "sourceGeometrySha256": "77df9bc61f4596f5dbda95c9e37f50cf25fcf40d24cdac40fd5314a99b096bb8",
+      "sheet": 24,
+      "cell": 10,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1541M",
+      "sourceGeometrySha256": "110f7a3a2244a34f2a02b0ca0970cad286c0f78d9aa13ff82dae5c95a1556745",
+      "sheet": 24,
+      "cell": 11,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1542",
+      "sourceGeometrySha256": "c9746d19d9626c5c91aad8833a9e70cb9416ddfd5117a4e781faa70272ba2333",
+      "sheet": 24,
+      "cell": 12,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1542M",
+      "sourceGeometrySha256": "b4a1a3ec3b628ccdf916c908ceca421ebfeab4fae0e5bddd303dca089610c20c",
+      "sheet": 25,
+      "cell": 1,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1543",
+      "sourceGeometrySha256": "e473440d419e5f8799bd88df4fe695aeb1e0cb25a59a0fb4a2b084a7dbaa57c4",
+      "sheet": 25,
+      "cell": 2,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1543M",
+      "sourceGeometrySha256": "39cd65c664642e4784b58ce9cc43cc939ec366fda87427f6ce3879e3823e7b3d",
+      "sheet": 25,
+      "cell": 3,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1544",
+      "sourceGeometrySha256": "8d43c65288cd73d7d9b5d59acbf97d49a135659787904ad2cc962ebfb568d28e",
+      "sheet": 25,
+      "cell": 4,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1544M",
+      "sourceGeometrySha256": "de3798e666eddf8617e28315f32420cfc7c5778a348d4d7631ff7eea6201dd95",
+      "sheet": 25,
+      "cell": 5,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1545",
+      "sourceGeometrySha256": "f856c8c8d34775075e688f642c46cb1d2e3d862e261f6c0938609c1400cde418",
+      "sheet": 25,
+      "cell": 6,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1545M",
+      "sourceGeometrySha256": "5bc832f7c3880164b4648d1a9ec216c20613f8b82fc52945b1e699a31a792861",
+      "sheet": 25,
+      "cell": 7,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1546",
+      "sourceGeometrySha256": "ec6b3e11593dde2547ea3e8acb9874cfb675a61e7ba39e776a7c7deb16ef8bfa",
+      "sheet": 25,
+      "cell": 8,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1546M",
+      "sourceGeometrySha256": "3e9760a257a96193684b152a094491e6685ba3791d694c09446c6292dbdf5f3a",
+      "sheet": 25,
+      "cell": 9,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1547",
+      "sourceGeometrySha256": "c6c18c1f2b10793c1edba7a43aeb2db30f0caa76408f171047e90bf72161eff6",
+      "sheet": 25,
+      "cell": 10,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1547M",
+      "sourceGeometrySha256": "6f44557dd8673840b4d085074d871c2a5a140334fb35346b0592526e98c98f62",
+      "sheet": 25,
+      "cell": 11,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1548",
+      "sourceGeometrySha256": "6014caa0aad1e6c63fb8c7e93ce5066617ccb03e96269cbc6862b97048acd433",
+      "sheet": 25,
+      "cell": 12,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1548M",
+      "sourceGeometrySha256": "b9b47414caaa0f7b71c575ee4f2c3a85f18342783635675eb2bf8c6c2e7fa161",
+      "sheet": 26,
+      "cell": 1,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1549",
+      "sourceGeometrySha256": "bb58ad1a5ec93bf25ed628d0958fbd550a21b9e96d51c6f2a766ffb7781e74e4",
+      "sheet": 26,
+      "cell": 2,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1549M",
+      "sourceGeometrySha256": "e90769e0c3cb1cad7b3cd6ee04656a3636952f1557a50b973b208136d32a645a",
+      "sheet": 26,
+      "cell": 3,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1550",
+      "sourceGeometrySha256": "97c8dc97c1cf2d1a42cbcee4cc313aa9720c2f364d12efd1fbe1fe753ceee7ae",
+      "sheet": 26,
+      "cell": 4,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1550M",
+      "sourceGeometrySha256": "bda232cdb01485f0a146bb2eba7f98a073892e09c8964481dc708262177979df",
+      "sheet": 26,
+      "cell": 5,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1551",
+      "sourceGeometrySha256": "9b6fe3113e4c8acffdbdc9e0f96ec0f7df04f7a219ca7a1cfecb2f38b0ed0de2",
+      "sheet": 26,
+      "cell": 6,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1551M",
+      "sourceGeometrySha256": "0ae5f44ae0cb32822a1fa31851ce5019be7c0a027729191016c6bb4e00c11409",
+      "sheet": 26,
+      "cell": 7,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1552",
+      "sourceGeometrySha256": "d6a61f5788e14e7a1ee819d417d3f9c66a88fe01fef336f1a18ddedef3b5d356",
+      "sheet": 26,
+      "cell": 8,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1552M",
+      "sourceGeometrySha256": "f184977e185d3a8551c850e34ba93e359c2c811e57a8da7d35b1f599616ac4dd",
+      "sheet": 26,
+      "cell": 9,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1553",
+      "sourceGeometrySha256": "a41c27c99c28d7b5aa0ef43f0e479ee32961ef29fe616ad056b226fbdd68af14",
+      "sheet": 26,
+      "cell": 10,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1553M",
+      "sourceGeometrySha256": "9e905426291a5b8ed4d2baedf85621a16ad7ef3417321178a0c0dce840af7b2a",
+      "sheet": 26,
+      "cell": 11,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1554",
+      "sourceGeometrySha256": "a5a01ee849f31af14cc3ef0f7b8e5b9f0d9790364faf1746c828663af1e049c1",
+      "sheet": 26,
+      "cell": 12,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1554M",
+      "sourceGeometrySha256": "1122946a7aa7250743e042e93d20860cc1b59ca49b74c58b4a28eb5da50bb813",
+      "sheet": 27,
+      "cell": 1,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1557",
+      "sourceGeometrySha256": "95d47046067a15a46ec14b4ab91ece98826e04a5d8e59fecd0cdb0953a07a5ef",
+      "sheet": 27,
+      "cell": 2,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1561",
+      "sourceGeometrySha256": "443a458c76a01cd4ec7e3106edf90b164e3489fb0eec7ce1d932a72445b350c4",
+      "sheet": 27,
+      "cell": 3,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1563",
+      "sourceGeometrySha256": "a86a6600433b02620807316a0c6368073dc2fe7d134d25315dd971c40077bc30",
+      "sheet": 27,
+      "cell": 4,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1564",
+      "sourceGeometrySha256": "99fb17b6c1e60884618fcb9aba16a23d23fa2d7c5c38745e6d3c4c05ef80fa82",
+      "sheet": 27,
+      "cell": 5,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1566",
+      "sourceGeometrySha256": "09b2f1dacdfe86d875cb77c1a210c1be44fb25ed378e08784c5e0158382a61e0",
+      "sheet": 27,
+      "cell": 6,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1567",
+      "sourceGeometrySha256": "d92087fbddef145a8e11230c0599a00c8093ec9a0e27431da7ba686dd02de9c8",
+      "sheet": 27,
+      "cell": 7,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1568",
+      "sourceGeometrySha256": "efaa7fa4ec75013b39bce6a961cd6dcba34fb822c8275d3a555ed7fba9676e82",
+      "sheet": 27,
+      "cell": 8,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1569",
+      "sourceGeometrySha256": "c97ace5c874e148286e6e1f260dda84f1733860960813c3b09f5b10a265c9b55",
+      "sheet": 27,
+      "cell": 9,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1570",
+      "sourceGeometrySha256": "ba9bc33788263601111f77bdc489ad85908064a8b580bc6cce90412ec6d5b2d7",
+      "sheet": 27,
+      "cell": 10,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1571",
+      "sourceGeometrySha256": "5b48cebf66072110d14f01bff830bab1598653f8a16f198ee6ebdaeef2641dfb",
+      "sheet": 27,
+      "cell": 11,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1572",
+      "sourceGeometrySha256": "00717f6ef40556ef94e323e4aa33f9b84017dbbc48122e1fe739fdce3b151d8c",
+      "sheet": 27,
+      "cell": 12,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1573",
+      "sourceGeometrySha256": "dd5b2d1d8078341450eb5d54e9a44b04d1159633f61055db5ded44d629905b17",
+      "sheet": 28,
+      "cell": 1,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1582",
+      "sourceGeometrySha256": "13015aa898c658e53b9612e68aa09319116c8bde60f730b79ae9d009f4a510d2",
+      "sheet": 28,
+      "cell": 2,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1584",
+      "sourceGeometrySha256": "4558741981d142eb7a2979553a06b967870e686194554248da95d765127ffa24",
+      "sheet": 28,
+      "cell": 3,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1585",
+      "sourceGeometrySha256": "e77d1e1beea58ec779a7cbbb41f78a7ab71a6dbb3f1a0faba9db7403dd9ba853",
+      "sheet": 28,
+      "cell": 4,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1588",
+      "sourceGeometrySha256": "b0abece8bbd9824bc34a3c7fb222b7224d32d9511c30de5e4f2580ca22f3b647",
+      "sheet": 28,
+      "cell": 5,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1589",
+      "sourceGeometrySha256": "e4f455e45de69c4bd8c7aabe48df06965d3e246853698d18f8d206240ed900c0",
+      "sheet": 28,
+      "cell": 6,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1590",
+      "sourceGeometrySha256": "9a2eaf46c65bafe409dac7cffee5638129fe77d6f61c39a509792342840bba72",
+      "sheet": 28,
+      "cell": 7,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1591",
+      "sourceGeometrySha256": "e5a6fe66eb104b73ffe9805921e6d279a7ce07312c506345af52fd6254a323cc",
+      "sheet": 28,
+      "cell": 8,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1592",
+      "sourceGeometrySha256": "f2e587501ba2662334f60de5de9e710df7934835fd475e5a9a43041f588e1447",
+      "sheet": 28,
+      "cell": 9,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1593",
+      "sourceGeometrySha256": "6550c9cebae8982eeb315285ed04ba07ae18162c7d8920bd99a78bd29419cd74",
+      "sheet": 28,
+      "cell": 10,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1594",
+      "sourceGeometrySha256": "2dc2abde992904aa8398c16e72c013528c2e4757a1752a151eae6d02f1edcd1d",
+      "sheet": 28,
+      "cell": 11,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1595",
+      "sourceGeometrySha256": "87ee90c94bca4c11a7456293399c8296a0b7f9be8d25bb5e9d889a37c45817dd",
+      "sheet": 28,
+      "cell": 12,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1600",
+      "sourceGeometrySha256": "8403764e96ddb17b4be61d047cb2bc9b080728bab357b705f83854e6d5a4a19e",
+      "sheet": 29,
+      "cell": 1,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ1601",
+      "sourceGeometrySha256": "6d16f1b4e0444991e467800bbd457cbe8cf89317c8bf1c118bc5dc92613c5a5a",
+      "sheet": 29,
+      "cell": 2,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ2542",
+      "sourceGeometrySha256": "8a91dc39892b0a143656f25fc04237c59e44cd82540d73251f86c31b951db2b6",
+      "sheet": 29,
+      "cell": 3,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ2543",
+      "sourceGeometrySha256": "929adb6c701546142910de248c6ac579c5f00fea3626229b778a482c7c67ab1d",
+      "sheet": 29,
+      "cell": 4,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ2544",
+      "sourceGeometrySha256": "aa9c213cc2bc741912d4dbdc140bb92c13eb39ce529d67a07774710e6cd8da57",
+      "sheet": 29,
+      "cell": 5,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ2545",
+      "sourceGeometrySha256": "6b68751363ea46aec5932caddd9041341ce05c6b9afc0fc06d21571266c4e6d9",
+      "sheet": 29,
+      "cell": 6,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ2546",
+      "sourceGeometrySha256": "797a725eec9652d05754993aed34d702e5d867ed820bb9167d8cbf6e77a4492d",
+      "sheet": 29,
+      "cell": 7,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ2547",
+      "sourceGeometrySha256": "c24cac2860f4404fdb5d12839dd07d134b7c624e9241778f0b813f7a92eb1159",
+      "sheet": 29,
+      "cell": 8,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ2548",
+      "sourceGeometrySha256": "24e91f9bd8eb322d9f476cfa9aa61806507dce37c68814bbc4929c45591e6297",
+      "sheet": 29,
+      "cell": 9,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ2549",
+      "sourceGeometrySha256": "1b7cb97b1d26c7dbeede9259998b8e83708b4d26fe53c25904fde67142c86fd5",
+      "sheet": 29,
+      "cell": 10,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ2550",
+      "sourceGeometrySha256": "b76ef1b956246a69aa099949afd2065adf52c799198d635fe4fd00040d4459ea",
+      "sheet": 29,
+      "cell": 11,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ2551",
+      "sourceGeometrySha256": "376503a2afd2f21696aeced15923d8470e62b64750f52cd4ef34742a1ba27292",
+      "sheet": 29,
+      "cell": 12,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    },
+    {
+      "id": "FJ3131",
+      "sourceGeometrySha256": "8f2f9275740f7c67917cbd718ec2c9bd7487e4c2d7cef12cedd617729e183475",
+      "sheet": 30,
+      "cell": 1,
+      "status": "双视角外形粗核完成；精细附着足印未认证"
+    }
+  ]
+}

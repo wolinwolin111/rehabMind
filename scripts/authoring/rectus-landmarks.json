@@ -1,0 +1,102 @@
+{
+  "status": "model_landmark_record_not_verified_footprint",
+  "source": "BodyParts3D 4.0",
+  "trial": "rectus femoris origins",
+  "anchors": {
+    "right:髂前下棘 · 直头附着": {
+      "x": -0.10818400233983994,
+      "y": 0.9280741810798645,
+      "z": 0.012842000462114811,
+      "partId": "FJ3152",
+      "faceIndex": 1038,
+      "basis": "user_circled_screenshot_region_matched_in_visible_model",
+      "referenceImage": "codex-clipboard-e6541526-6365-4738-828c-21217e13b633.png",
+      "previousRecord": {
+        "x": -0.11003735556151151,
+        "y": 0.9273038559535199,
+        "z": 0.009426087593029054,
+        "faceIndex": 1034,
+        "referenceImage": "codex-clipboard-22b242c8-0354-4923-8d38-612ba1b0ef95.png"
+      },
+      "adjustment": "user_requested_further_anterior_shift_preserving_rounded_tendon",
+      "contactRadiusMm": 1.3751255167086063,
+      "shoulderShapeReference": {
+        "x": -0.11003735556151151,
+        "y": 0.9273038559535199,
+        "z": 0.009426087593029054,
+        "faceIndex": 1034,
+        "contactRadiusMm": 1.250114106098733
+      },
+      "forkContourReference": [
+        -0.11003735556151151,
+        0.9273038559535199,
+        0.009426087593029054
+      ],
+      "previousAdjustment": {
+        "x": -0.10866258025109937,
+        "y": 0.9278224598729022,
+        "z": 0.012343711423120919,
+        "faceIndex": 1039,
+        "referenceImage": "codex-clipboard-e6541526-6365-4738-828c-21217e13b633.png"
+      }
+    },
+    "right:髋臼上缘 · 反折头附着": {
+      "x": -0.09053791217168365,
+      "y": 0.9089259808461194,
+      "z": 0.004599643941446584,
+      "partId": "FJ3152",
+      "faceIndex": 847,
+      "basis": "user_circled_screenshot_region_matched_in_visible_model",
+      "referenceImage": "codex-clipboard-22b242c8-0354-4923-8d38-612ba1b0ef95.png"
+    },
+    "left:髋臼上缘 · 反折头附着": {
+      "x": 0.09054139378503151,
+      "y": 0.9089263844623684,
+      "z": 0.004616194491899289,
+      "partId": "FJ3288",
+      "faceIndex": 853,
+      "basis": "bounded_contralateral_correspondence_from_user_right_landmark",
+      "correspondenceDistanceMm": 0.016917602012931753
+    },
+    "left:髂前下棘 · 直头附着": {
+      "x": 0.10807283554256017,
+      "y": 0.9281388598489914,
+      "z": 0.012508178623620874,
+      "partId": "FJ3288",
+      "faceIndex": 1039,
+      "basis": "bounded_contralateral_correspondence_from_user_right_landmark",
+      "correspondenceDistanceMm": 0.35774071595036294,
+      "previousRecord": {
+        "x": 0.11001885559322616,
+        "y": 0.9273118370847814,
+        "z": 0.009417433447833811,
+        "faceIndex": 995
+      },
+      "adjustment": "contralateral_correspondence_of_user_requested_right_anterior_shift",
+      "contactRadiusMm": 0.4448004297873335,
+      "shoulderShapeReference": {
+        "x": 0.11001885559322616,
+        "y": 0.9273118370847814,
+        "z": 0.009417433447833811,
+        "faceIndex": 995,
+        "contactRadiusMm": 0.4043640270793941
+      },
+      "forkContourReference": [
+        0.11001885559322616,
+        0.9273118370847814,
+        0.009417433447833811
+      ],
+      "previousAdjustment": {
+        "x": 0.10863554683434715,
+        "y": 0.9278381883832454,
+        "z": 0.01226253300382825,
+        "faceIndex": 1039
+      }
+    }
+  },
+  "method": "Right bone landmarks matched to the user circled regions in the visible source model. Left candidates confined to a 3 mm neighborhood of corresponding mirrored right landmarks, separately recorded; fine footprints remain unverified.",
+  "sourceBoneHashes": {
+    "FJ3152": "e6b9a2b808fdc4443df4ff054d67dfa7cc4f682d36a9fc23748ce774b704de5d",
+    "FJ3288": "af62627e16aa46370f1642380f150c49517dc51612250eb08177243922888571"
+  }
+}

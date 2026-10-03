@@ -4,7 +4,7 @@ import { createHash } from 'node:crypto';
 import { readFileSync } from 'node:fs';
 
 const modelRevision = createHash('sha256');
-for (const file of ['skin.json', 'skin.pack', 'bones.pack', 'features.pack', 'muscles.pack', 'surface_atlas.bin']) {
+for (const file of ['skin.json', 'skin.pack', 'bones.pack', 'features.pack', 'muscles.pack', 'tendons.pack', 'surface_atlas.bin', 'display-manifest.json']) {
   modelRevision.update(readFileSync(new URL(`./public/3d/${file}`, import.meta.url)));
 }
 

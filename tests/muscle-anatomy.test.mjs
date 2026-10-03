@@ -10,14 +10,15 @@ const start=parts.findIndex(p=>/First lumbrical of right foot/i.test(p.name));
 const end=parts.findIndex(p=>/Abdominal part of right pectoralis/i.test(p.name));
 test('all lower-limb atlas parts map to complete facts, including side names inside muscle names',()=>{
  assert.ok(start>=0&&end>start);
- const group=parts.slice(start,end);assert.ok(group.length>100);
+ const group=[...parts.slice(start,end),...parts.filter(p=>p.id.startsWith('ZA-')&&getMuscleAnatomy(p.name))];assert.ok(group.length>100);
  for(const p of group){const facts=getMuscleAnatomy(p.name);assert.ok(facts,p.name);for(const f of ['origin','insertion','action'])assert.ok(facts[f]?.trim(),p.name+'/'+f);}
  const names=new Set(group.map(p=>p.name.replace(/\b(left|right)\s+/gi,'').toLowerCase()));
  assert.deepEqual(new Set(Object.keys(lowerLimbAnatomy)),new Set([...names,...supplementalMuscles.map(p=>p.name)]));
  console.log({lowerLimbParts:group.length,anatomyEntries:names.size});
 });
-test('six model-absent teaching entries have facts without claiming an atlas mesh',()=>{
- assert.equal(supplementalMuscles.length,6);
+test('remaining model-absent teaching entry has facts without claiming an atlas mesh',()=>{
+ assert.equal(supplementalMuscles.length,1);
+ assert.equal(supplementalMuscles[0].name,'articularis genu');
  for(const muscle of supplementalMuscles){
    assert.ok(!parts.some(p=>p.name.replace(/\b(left|right)\s+/gi,'').toLowerCase()===muscle.name));
    const facts=getMuscleAnatomy(muscle.name);

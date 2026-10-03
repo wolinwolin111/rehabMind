@@ -7,5 +7,6 @@ import './motion.css';
 import './expandable.css';
 import './muscle-explorer.css';
 import './postop.css';
+import './confirmed-theme.css';
 
 createRoot(document.getElementById('root')!).render(<React.StrictMode><App /></React.StrictMode>);

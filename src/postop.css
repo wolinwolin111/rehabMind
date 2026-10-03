@@ -2,14 +2,14 @@
 .page-content--postop { max-width: 1060px; }
 .postop-library, .postop-reader { --postop-blue: var(--header-blue); --postop-mint: var(--mint); --postop-apricot: var(--tissue-wash); --postop-ink: var(--ink); --postop-line: var(--line); color: var(--postop-ink); }
 .postop-library svg, .postop-reader svg { width: 20px; height: 20px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
-.postop-library h1, .postop-reader h1 { font-size: 27px; line-height: 1.4; font-weight: 650; letter-spacing: -.6px; margin: 8px 0; }
-.postop-library h2, .postop-reader h2 { font-size: 21px; line-height: 1.45; font-weight: 650; margin: 0; }
-.postop-reader h3 { font-size: 17px; font-weight: 650; margin: 0 0 13px; display: flex; align-items: center; gap: 9px; }
-.postop-reader p, .postop-reader li { font-size: 15px; line-height: 1.85; overflow-wrap: anywhere; }
+.postop-library h1, .postop-reader h1 { font-size: 24px; line-height: 1.4; font-weight: 650; letter-spacing: -.6px; margin: 8px 0; }
+.postop-library h2, .postop-reader h2 { font-size: 19px; line-height: 1.45; font-weight: 650; margin: 0; }
+.postop-reader h3 { font-size: 16px; font-weight: 650; margin: 0 0 13px; display: flex; align-items: center; gap: 9px; }
+.postop-reader p, .postop-reader li { font-size: var(--body-size); line-height: 1.85; overflow-wrap: anywhere; }
 .postop-eyebrow { display: flex; align-items: center; gap: 12px; font-size: 12px; font-weight: 600; color: var(--teal-deep); letter-spacing: .4px; }
 .postop-eyebrow > span { padding: 3px 8px; border-radius: 6px; background: #ffffff87; }
 .postop-library__head { margin: 8px 0 22px; }
-.postop-library__head p { margin: 6px 0 0; font-size: 15px; color: var(--muted); }
+.postop-library__head p { margin: 6px 0 0; font-size: var(--body-size); color: var(--muted); }
 .postop-search { display: flex; align-items: center; gap: 12px; min-height: 50px; padding: 0 16px; border: 1px solid var(--postop-line); border-radius: 15px; background: var(--surface); color: var(--muted); }
 .postop-search input { flex: 1; min-width: 0; min-height: 48px; border: 0; background: transparent; font: inherit; font-size: 14px; color: var(--postop-ink); }
 .postop-search input:focus-visible { outline: none; }
@@ -27,7 +27,7 @@
 .postop-guide:hover { box-shadow: 0 8px 22px #385b7010; }
 .postop-guide__body { min-width: 0; flex: 1; }
 .postop-guide__category { display: block; font-size: 12px; font-weight: 600; color: var(--teal-deep); margin-bottom: 9px; }
-.postop-guide h2 { font-size: 20px; padding-right: 9px; }
+.postop-guide h2 { font-size: 18px; padding-right: 9px; }
 .postop-guide p { font-size: 14px; line-height: 1.7; color: var(--muted); margin: 9px 0 19px; }
 .postop-guide__meta { display: flex; gap: 10px; flex-wrap: wrap; font-size: 12px; color: var(--muted); }
 .postop-guide__meta > span:first-child { color: var(--teal-deep); font-weight: 600; }
@@ -40,9 +40,9 @@
 .postop-hero > p { color: var(--teal-deep); margin: 7px 0 19px; }
 .postop-hero__rule { display: flex; align-items: center; gap: 9px; padding: 14px 0; border-top: 1px solid #486d8460; font-size: 13px; line-height: 1.7; color: var(--teal-deep); }
 .postop-paths { background: var(--surface); border: 1px solid var(--postop-line); border-radius: 20px; padding: 22px 24px; margin: 20px 0; }
-.postop-paths > h2 { font-size: 17px; margin-bottom: 13px; }
+.postop-paths > h2 { font-size: 16px; margin-bottom: 13px; }
 .postop-path-select { display: flex; align-items: center; border-radius: 12px; border: 1px solid var(--mint-line); background: var(--mint); position: relative; }
-.postop-path-select select { appearance: none; width: 100%; padding: 14px 43px 14px 14px; background: transparent; border: 0; color: var(--green-ink); font-size: 15px; font-weight: 600; white-space: normal; }
+.postop-path-select select { appearance: none; width: 100%; padding: 14px 43px 14px 14px; background: transparent; border: 0; color: var(--green-ink); font-size: var(--body-size); font-weight: 600; white-space: normal; }
 .postop-path-select > svg { pointer-events: none; position: absolute; right: 13px; transform: rotate(90deg); width: 16px; }
 .postop-path-summary { animation: postop-arrive 220ms ease-out; }
 .postop-path-summary > p { margin: 14px 0; color: var(--muted); }
@@ -80,7 +80,7 @@
 .postop-block--progression .postop-section-mark { color: var(--green-accent); }
 .postop-methods { display: grid; gap: 8px; }
 .postop-method { border: 1px solid var(--finding-line); background: var(--surface); border-radius: 12px; overflow: hidden; }
-.postop-method > summary { display: flex; align-items: center; justify-content: space-between; gap: 12px; list-style: none; min-height: 50px; padding: 12px 15px; font-size: 15px; cursor: pointer; }
+.postop-method > summary { display: flex; align-items: center; justify-content: space-between; gap: 12px; list-style: none; min-height: 50px; padding: 12px 15px; font-size: var(--body-size); cursor: pointer; }
 .postop-method > summary svg { width: 14px; color: var(--teal); transition: transform 260ms ease; }
 .postop-method[open] > summary { background: var(--blue-wash); }
 .postop-method[open] > summary svg { transform: rotate(90deg); }

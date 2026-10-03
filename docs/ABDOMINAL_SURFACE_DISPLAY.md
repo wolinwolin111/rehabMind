@@ -1,0 +1,11 @@
+# Abdominal muscle surface display
+
+The abdominal wall uses its own continuous sheet coordinates instead of the generic muscle-axis cylindrical mapping. Rectus abdominis uses longitudinal grain; external and internal obliques use mirrored, opposing oblique grain; transversus uses transverse grain. These are cosmetic teaching directions, not measured fascicles or patient anatomy. A constant oblique angle cannot represent every regional fiber direction.
+
+Anatomy reference: UAMS abdominal muscle tables (https://medicine.uams.edu/neuroscience/education/medical-school-courses/human-structure-module/anatomy-tables/muscle-tables/muscles-of-the-abdominal-region/). Internal oblique's anterior fibers run superiorly and medially, perpendicular to external oblique.
+
+Small shading wrinkles are softened by six local normal diffusion passes on these four muscles only. Neighbor weights use a 3 mm falloff, an 8 mm edge cutoff, and a normal-angle gate. This shading filter preserves position arrays, source indices, attachment coordinates, silhouette, picking and rectus tendinous intersections. Actual source-mesh folds can remain visible; eliminating them completely would require geometry editing.
+
+Both the normal muscle layer and the selected muscle use this treatment. In the audit page, turning off `显示细化肌理` disables both the fine grain and the abdominal shading filter for comparison. Unit checks cover mirrored sheet coordinates, finite values, preserved positions/topology and unaffected normals on other muscles. No mobile GPU benchmark performed.
+
+The combined view opens a teaching window in the anterior rectus sheath along a smoothed projected rectus boundary. Intersected source triangles are cut and added boundary normals are interpolated, preserving the original coordinate prefix and full indices for isolated inspection. The former 18 mm gap cap was removed because it left the inferior anterior sheath covering the rectus and split its highlight into islands. Ordinary selected muscles are now coloured directly in the current display geometry instead of overlaying an unclipped second mesh. See `MODEL_SURFACE_LAYER_REVIEW.md` for the posterior display corrections, anatomical reason, verification and limits.

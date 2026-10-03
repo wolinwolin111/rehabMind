@@ -1,5 +1,6 @@
 import { useId, useState } from 'react';
 import type { ConsultationQuestion } from './types';
+import { PanelHeading } from './PanelHeading';
 
 function Chevron({ open }: { open: boolean }) {
   return <svg className={`card-chevron${open ? ' is-open' : ''}`} viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg>;
@@ -35,7 +36,7 @@ export function ConsultationGuide({ questions }: { questions: ConsultationQuesti
   if (!questions.length) return null;
   return <section className="consultation-panel">
     <button type="button" className="consultation-panel__head" aria-expanded={open} aria-controls={id} onClick={() => setOpen(value => !value)}>
-      <span className="consultation-panel__title"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-8l-6 3v-3a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Z" /><path d="M7 9h10M7 13h6" /></svg><strong>问诊思路</strong></span>
+      <PanelHeading icon="consultation" title="问诊思路" />
       <Chevron open={open} />
     </button>
     <div id={id} className={`card-expansion${open ? ' is-open' : ''}`} inert={!open} aria-hidden={!open}><div className="card-expansion__clip">

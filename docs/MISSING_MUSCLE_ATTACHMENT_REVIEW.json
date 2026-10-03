@@ -1,0 +1,3373 @@
+{
+  "method": "Named source bone surface registration plus smooth displacement; attachment patches are preserved source muscle vertices nearest the documented bone. Distances use closest points on 32 nearby target triangles and conservatively bound true surface distance. This is a geometric teaching-model check, not validated tendon-footprint or specimen anatomy.",
+  "registrationFieldSamples": {
+    "smoothing": 0.004,
+    "stepMetres": 1e-05,
+    "stride": 10,
+    "rows": [
+      {
+        "sourceMesh": "Latissimus_dorsi_muscler",
+        "samples": 1080,
+        "minimumDeterminant": 0.1006300934468816,
+        "nonpositiveSamples": 0,
+        "p01": 0.4294238655051525
+      },
+      {
+        "sourceMesh": "Rectus_abdominis_muscler",
+        "samples": 1031,
+        "minimumDeterminant": 0.32225234781174017,
+        "nonpositiveSamples": 0,
+        "p01": 0.49506512461093366
+      },
+      {
+        "sourceMesh": "Internal_abdominal_oblique_muscler",
+        "samples": 1442,
+        "minimumDeterminant": 0.015486474061317741,
+        "nonpositiveSamples": 0,
+        "p01": 0.11007306194096997
+      },
+      {
+        "sourceMesh": "Transversus_abdominis_muscler",
+        "samples": 1717,
+        "minimumDeterminant": 0.03358037252220512,
+        "nonpositiveSamples": 0,
+        "p01": 0.17813892900327064
+      },
+      {
+        "sourceMesh": "Quadratus_lumborum_muscler",
+        "samples": 142,
+        "minimumDeterminant": 0.3214504381836269,
+        "nonpositiveSamples": 0,
+        "p01": 0.3373559437010828
+      },
+      {
+        "sourceMesh": "Multifidus_colli_muscler",
+        "samples": 70,
+        "minimumDeterminant": 0.6281161245264106,
+        "nonpositiveSamples": 0,
+        "p01": 0.7131947123188085
+      },
+      {
+        "sourceMesh": "Multifidus_thoracis_muscler",
+        "samples": 198,
+        "minimumDeterminant": 0.5460547846222911,
+        "nonpositiveSamples": 0,
+        "p01": 0.6477517171077855
+      },
+      {
+        "sourceMesh": "Multifidus_lumborum_muscler",
+        "samples": 142,
+        "minimumDeterminant": 0.5241659793833486,
+        "nonpositiveSamples": 0,
+        "p01": 0.5565845687788823
+      },
+      {
+        "sourceMesh": "Extensor_digitorum_brevisr",
+        "samples": 160,
+        "minimumDeterminant": 0.7435290254885594,
+        "nonpositiveSamples": 0,
+        "p01": 0.7621360731248225
+      },
+      {
+        "sourceMesh": "Dorsal_interossei_muscles_of_footr",
+        "samples": 98,
+        "minimumDeterminant": 0.7440182481289394,
+        "nonpositiveSamples": 0,
+        "p01": 0.744499624972832
+      },
+      {
+        "sourceMesh": "Latissimus_dorsi_musclel",
+        "samples": 1080,
+        "minimumDeterminant": 0.1889235383359693,
+        "nonpositiveSamples": 0,
+        "p01": 0.3996726950600497
+      },
+      {
+        "sourceMesh": "Rectus_abdominis_musclel",
+        "samples": 1031,
+        "minimumDeterminant": 0.22078979009986835,
+        "nonpositiveSamples": 0,
+        "p01": 0.621059881213705
+      },
+      {
+        "sourceMesh": "Internal_abdominal_oblique_musclel",
+        "samples": 1442,
+        "minimumDeterminant": 0.011379999418505727,
+        "nonpositiveSamples": 0,
+        "p01": 0.20196165329301458
+      },
+      {
+        "sourceMesh": "Transversus_abdominis_musclel",
+        "samples": 1717,
+        "minimumDeterminant": 0.03636638296947718,
+        "nonpositiveSamples": 0,
+        "p01": 0.2075063565933467
+      },
+      {
+        "sourceMesh": "Quadratus_lumborum_musclel",
+        "samples": 142,
+        "minimumDeterminant": 0.34520741094131024,
+        "nonpositiveSamples": 0,
+        "p01": 0.35065347917880624
+      },
+      {
+        "sourceMesh": "Multifidus_colli_musclel",
+        "samples": 70,
+        "minimumDeterminant": 0.6303625251756975,
+        "nonpositiveSamples": 0,
+        "p01": 0.709394388855797
+      },
+      {
+        "sourceMesh": "Multifidus_thoracis_musclel",
+        "samples": 198,
+        "minimumDeterminant": 0.5529308854290402,
+        "nonpositiveSamples": 0,
+        "p01": 0.62107409322097
+      },
+      {
+        "sourceMesh": "Multifidus_lumborum_musclel",
+        "samples": 142,
+        "minimumDeterminant": 0.5635784792515882,
+        "nonpositiveSamples": 0,
+        "p01": 0.5761891773349468
+      },
+      {
+        "sourceMesh": "Extensor_digitorum_brevisl",
+        "samples": 160,
+        "minimumDeterminant": 0.5913058193108094,
+        "nonpositiveSamples": 0,
+        "p01": 0.661374481084727
+      },
+      {
+        "sourceMesh": "Dorsal_interossei_muscles_of_footl",
+        "samples": 98,
+        "minimumDeterminant": 0.66361918371461,
+        "nonpositiveSamples": 0,
+        "p01": 0.6901288542836268
+      }
+    ]
+  },
+  "parts": [
+    {
+      "id": "ZA-latissimus-dorsi-r",
+      "name": "Right latissimus dorsi",
+      "assetSha256": "084f6aeafd17665b8b8adb3b86ceb0d6eefb82d97d84993160c4a858cdb5bebc",
+      "contacts": [
+        {
+          "bone": "Right hip bone",
+          "sourceBone": "Hip_boner",
+          "representedInSource": true,
+          "sourcePatchVertices": 77,
+          "sourceGapMm": 0.046,
+          "minimumMm": 0.001,
+          "medianMm": 0.282,
+          "p95Mm": 1.055,
+          "sourceMusclePoint": [
+            -0.08213188499212265,
+            1.0009148120880127,
+            -0.044679030776023865
+          ],
+          "registeredMusclePoint": [
+            -0.0850958600640297,
+            1.027557134628296,
+            -0.05731590837240219
+          ]
+        },
+        {
+          "bone": "Right humerus",
+          "sourceBone": "Humerusr",
+          "representedInSource": true,
+          "sourcePatchVertices": 27,
+          "sourceGapMm": 0.399,
+          "minimumMm": 0.01,
+          "medianMm": 0.755,
+          "p95Mm": 1.436,
+          "sourceMusclePoint": [
+            -0.17356033623218536,
+            1.3346720933914185,
+            -0.0288939718157053
+          ],
+          "registeredMusclePoint": [
+            -0.1660265177488327,
+            1.3527681827545166,
+            -0.027023078873753548
+          ]
+        },
+        {
+          "bone": "Right scapula",
+          "sourceBone": "Scapular",
+          "representedInSource": true,
+          "sourcePatchVertices": 9,
+          "sourceGapMm": 0.308,
+          "minimumMm": 0.031,
+          "medianMm": 0.757,
+          "p95Mm": 1.492,
+          "sourceMusclePoint": [
+            -0.08260378986597061,
+            1.272943139076233,
+            -0.11237642914056778
+          ],
+          "registeredMusclePoint": [
+            -0.08152693510055542,
+            1.2793817520141602,
+            -0.10486450046300888
+          ]
+        }
+      ],
+      "areaRatioP01": 0.484,
+      "areaRatioP99": 1.511,
+      "normalDirectionChangeFraction": 0.0014365152919369787,
+      "normalDirectionNote": "Source/target normal rotation is descriptive, not evidence of mesh inversion; anatomical bending also rotates normals."
+    },
+    {
+      "id": "ZA-rectus-abdominis-r",
+      "name": "Right rectus abdominis",
+      "assetSha256": "724c793228e9ee995231b6b52ca586a7f30c2637c6154c0c6ee087f58afbd041",
+      "contacts": [
+        {
+          "bone": "Right hip bone",
+          "sourceBone": "Hip_boner",
+          "representedInSource": true,
+          "sourcePatchVertices": 16,
+          "sourceGapMm": 0.118,
+          "minimumMm": 0.046,
+          "medianMm": 0.257,
+          "p95Mm": 0.573,
+          "sourceMusclePoint": [
+            -0.010511982254683971,
+            0.8527371883392334,
+            0.050728145986795425
+          ],
+          "registeredMusclePoint": [
+            -0.015106829814612865,
+            0.882003128528595,
+            0.037135906517505646
+          ]
+        },
+        {
+          "bone": "Xiphoid process",
+          "sourceBone": "Xiphoid_process",
+          "representedInSource": true,
+          "sourcePatchVertices": 23,
+          "sourceGapMm": 0.397,
+          "minimumMm": 0.011,
+          "medianMm": 1.402,
+          "p95Mm": 2.614,
+          "sourceMusclePoint": [
+            -0.009341278113424778,
+            1.2359871864318848,
+            0.10336228460073471
+          ],
+          "registeredMusclePoint": [
+            -0.009221341460943222,
+            1.25440514087677,
+            0.10647178441286087
+          ]
+        },
+        {
+          "bone": "Right fifth costal cartilage",
+          "sourceBone": "Costal_cartilage_of_fifth_ribr",
+          "representedInSource": true,
+          "sourcePatchVertices": 127,
+          "sourceGapMm": 0.209,
+          "minimumMm": 0.004,
+          "medianMm": 0.644,
+          "p95Mm": 1.477,
+          "sourceMusclePoint": [
+            -0.06531856209039688,
+            1.2419668436050415,
+            0.10661131143569946
+          ],
+          "registeredMusclePoint": [
+            -0.06275244057178497,
+            1.2512648105621338,
+            0.10409703850746155
+          ]
+        },
+        {
+          "bone": "Right sixth costal cartilage",
+          "sourceBone": "Costal_cartilage_of_sixth_ribr",
+          "representedInSource": true,
+          "sourcePatchVertices": 223,
+          "sourceGapMm": 0.194,
+          "minimumMm": 0.01,
+          "medianMm": 0.766,
+          "p95Mm": 1.693,
+          "sourceMusclePoint": [
+            -0.04193614795804024,
+            1.2221719026565552,
+            0.11064213514328003
+          ],
+          "registeredMusclePoint": [
+            -0.04209592565894127,
+            1.2337455749511719,
+            0.11073075979948044
+          ]
+        },
+        {
+          "bone": "Right seventh costal cartilage",
+          "sourceBone": "Costal_cartilage_of_seventh_ribr",
+          "representedInSource": true,
+          "sourcePatchVertices": 541,
+          "sourceGapMm": 0.097,
+          "minimumMm": 0.002,
+          "medianMm": 0.72,
+          "p95Mm": 1.956,
+          "sourceMusclePoint": [
+            -0.010406192392110825,
+            1.2306467294692993,
+            0.10288351774215698
+          ],
+          "registeredMusclePoint": [
+            -0.010084493085741997,
+            1.246885061264038,
+            0.10691613703966141
+          ]
+        }
+      ],
+      "areaRatioP01": 0.578,
+      "areaRatioP99": 1.405,
+      "normalDirectionChangeFraction": 0.0009221510386332751,
+      "normalDirectionNote": "Source/target normal rotation is descriptive, not evidence of mesh inversion; anatomical bending also rotates normals."
+    },
+    {
+      "id": "ZA-internal-oblique-r",
+      "name": "Right internal oblique",
+      "assetSha256": "9c17c87a7427e9e3c1d1b16cc9bec667f9033d302b7ae4a8a9a25f868266498a",
+      "contacts": [
+        {
+          "bone": "Right hip bone",
+          "sourceBone": "Hip_boner",
+          "representedInSource": true,
+          "sourcePatchVertices": 186,
+          "sourceGapMm": 0.124,
+          "minimumMm": 0.011,
+          "medianMm": 0.556,
+          "p95Mm": 1.348,
+          "sourceMusclePoint": [
+            -0.11164597421884537,
+            1.0054168701171875,
+            -0.006492003798484802
+          ],
+          "registeredMusclePoint": [
+            -0.11806511133909225,
+            1.032056450843811,
+            -0.02486138790845871
+          ]
+        },
+        {
+          "bone": "Right ninth rib",
+          "sourceBone": "Ninth_ribr",
+          "representedInSource": false,
+          "sourcePatchVertices": 5,
+          "coverageNote": "Book: ribs 9–12; donor: ribs 10–12. UAMS/TTUHSC describe lower three or four ribs. Ninth-rib representation is absent; it is not a passed attachment.",
+          "sourceGapMm": 31.537,
+          "minimumMm": 31.673,
+          "medianMm": 31.801,
+          "p95Mm": 31.967,
+          "sourceMusclePoint": [
+            -0.1215108335018158,
+            1.0822035074234009,
+            0.007262387312948704
+          ],
+          "registeredMusclePoint": [
+            -0.11532106250524521,
+            1.1016074419021606,
+            0.01120525598526001
+          ]
+        },
+        {
+          "bone": "Right tenth rib",
+          "sourceBone": "Tenth_ribr",
+          "representedInSource": true,
+          "sourcePatchVertices": 40,
+          "sourceGapMm": 0.14,
+          "minimumMm": 0.023,
+          "medianMm": 0.308,
+          "p95Mm": 0.889,
+          "sourceMusclePoint": [
+            -0.12095488607883453,
+            1.0726641416549683,
+            0.018123460933566093
+          ],
+          "registeredMusclePoint": [
+            -0.1157703623175621,
+            1.101144790649414,
+            0.012781358323991299
+          ]
+        },
+        {
+          "bone": "Right eleventh rib",
+          "sourceBone": "Eleventh_ribr",
+          "representedInSource": true,
+          "sourcePatchVertices": 194,
+          "sourceGapMm": 0.061,
+          "minimumMm": 0.0,
+          "medianMm": 0.415,
+          "p95Mm": 0.994,
+          "sourceMusclePoint": [
+            -0.11451723426580429,
+            1.0599952936172485,
+            -0.0036546015180647373
+          ],
+          "registeredMusclePoint": [
+            -0.10666391253471375,
+            1.086093783378601,
+            -0.006981099024415016
+          ]
+        },
+        {
+          "bone": "Right twelfth rib",
+          "sourceBone": "Twelfth_ribr",
+          "representedInSource": true,
+          "sourcePatchVertices": 102,
+          "sourceGapMm": 0.12,
+          "minimumMm": 0.011,
+          "medianMm": 0.312,
+          "p95Mm": 0.904,
+          "sourceMusclePoint": [
+            -0.076610267162323,
+            1.0673733949661255,
+            -0.05057327821850777
+          ],
+          "registeredMusclePoint": [
+            -0.0825173631310463,
+            1.0907286405563354,
+            -0.04668870195746422
+          ]
+        }
+      ],
+      "areaRatioP01": 0.279,
+      "areaRatioP99": 1.382,
+      "normalDirectionChangeFraction": 0.0036024801690394542,
+      "normalDirectionNote": "Source/target normal rotation is descriptive, not evidence of mesh inversion; anatomical bending also rotates normals."
+    },
+    {
+      "id": "ZA-transversus-abdominis-r",
+      "name": "Right transversus abdominis",
+      "assetSha256": "c09b64e0baeab88ac33e8a23150f7dcee0608c9120551b9b506a1fbc6a7ffc0f",
+      "contacts": [
+        {
+          "bone": "Right hip bone",
+          "sourceBone": "Hip_boner",
+          "representedInSource": true,
+          "sourcePatchVertices": 107,
+          "sourceGapMm": 0.401,
+          "minimumMm": 0.002,
+          "medianMm": 0.809,
+          "p95Mm": 1.938,
+          "sourceMusclePoint": [
+            -0.12226957082748413,
+            0.9607861042022705,
+            0.049357350915670395
+          ],
+          "registeredMusclePoint": [
+            -0.13037151098251343,
+            0.9885466694831848,
+            0.02934509702026844
+          ]
+        },
+        {
+          "bone": "Right seventh costal cartilage",
+          "sourceBone": "Costal_cartilage_of_seventh_ribr",
+          "representedInSource": true,
+          "sourcePatchVertices": 95,
+          "sourceGapMm": 0.02,
+          "minimumMm": 0.015,
+          "medianMm": 0.555,
+          "p95Mm": 1.666,
+          "sourceMusclePoint": [
+            -0.027657795697450638,
+            1.2093092203140259,
+            0.10094577074050903
+          ],
+          "registeredMusclePoint": [
+            -0.028051499277353287,
+            1.222277283668518,
+            0.10429686307907104
+          ]
+        },
+        {
+          "bone": "Right eighth rib",
+          "sourceBone": "Eighth_ribr",
+          "representedInSource": true,
+          "sourcePatchVertices": 185,
+          "sourceGapMm": 0.225,
+          "minimumMm": 0.013,
+          "medianMm": 0.749,
+          "p95Mm": 2.109,
+          "sourceMusclePoint": [
+            -0.12687571346759796,
+            1.1666111946105957,
+            0.040918778628110886
+          ],
+          "registeredMusclePoint": [
+            -0.1252405047416687,
+            1.1753109693527222,
+            0.045162979513406754
+          ]
+        },
+        {
+          "bone": "Right ninth rib",
+          "sourceBone": "Ninth_ribr",
+          "representedInSource": true,
+          "sourcePatchVertices": 90,
+          "sourceGapMm": 0.129,
+          "minimumMm": 0.036,
+          "medianMm": 0.724,
+          "p95Mm": 2.039,
+          "sourceMusclePoint": [
+            -0.12126550823450089,
+            1.117310643196106,
+            0.034732017666101456
+          ],
+          "registeredMusclePoint": [
+            -0.12099969387054443,
+            1.1313530206680298,
+            0.033342145383358
+          ]
+        },
+        {
+          "bone": "Right tenth rib",
+          "sourceBone": "Tenth_ribr",
+          "representedInSource": true,
+          "sourcePatchVertices": 74,
+          "sourceGapMm": 0.216,
+          "minimumMm": 0.016,
+          "medianMm": 0.547,
+          "p95Mm": 1.549,
+          "sourceMusclePoint": [
+            -0.12160740047693253,
+            1.1187834739685059,
+            -0.020579982548952103
+          ],
+          "registeredMusclePoint": [
+            -0.116826131939888,
+            1.1305313110351562,
+            -0.018612345680594444
+          ]
+        },
+        {
+          "bone": "Right eleventh rib",
+          "sourceBone": "Eleventh_ribr",
+          "representedInSource": true,
+          "sourcePatchVertices": 44,
+          "sourceGapMm": 0.236,
+          "minimumMm": 0.033,
+          "medianMm": 0.726,
+          "p95Mm": 1.419,
+          "sourceMusclePoint": [
+            -0.11066720634698868,
+            1.064366102218628,
+            -0.004148601088672876
+          ],
+          "registeredMusclePoint": [
+            -0.10536087304353714,
+            1.087327241897583,
+            -0.0074826194904744625
+          ]
+        },
+        {
+          "bone": "Right twelfth rib",
+          "sourceBone": "Twelfth_ribr",
+          "representedInSource": true,
+          "sourcePatchVertices": 62,
+          "sourceGapMm": 0.218,
+          "minimumMm": 0.016,
+          "medianMm": 0.744,
+          "p95Mm": 2.053,
+          "sourceMusclePoint": [
+            -0.08337538689374924,
+            1.0640007257461548,
+            -0.037268880754709244
+          ],
+          "registeredMusclePoint": [
+            -0.08516276627779007,
+            1.0909411907196045,
+            -0.03759618103504181
+          ]
+        }
+      ],
+      "areaRatioP01": 0.289,
+      "areaRatioP99": 1.331,
+      "normalDirectionChangeFraction": 0.0030587275693311584,
+      "normalDirectionNote": "Source/target normal rotation is descriptive, not evidence of mesh inversion; anatomical bending also rotates normals."
+    },
+    {
+      "id": "ZA-quadratus-lumborum-r",
+      "name": "Right quadratus lumborum",
+      "assetSha256": "1b81922b7db66e95c6bafe1ad6192fc8736e960a10af5cfb3b3be55fc21a69d4",
+      "contacts": [
+        {
+          "bone": "Right hip bone",
+          "sourceBone": "Hip_boner",
+          "representedInSource": true,
+          "sourcePatchVertices": 26,
+          "sourceGapMm": 0.226,
+          "minimumMm": 0.006,
+          "medianMm": 0.321,
+          "p95Mm": 0.723,
+          "sourceMusclePoint": [
+            -0.03964490815997124,
+            0.9620080590248108,
+            -0.07215307652950287
+          ],
+          "registeredMusclePoint": [
+            -0.04098726063966751,
+            0.9937224984169006,
+            -0.08401196449995041
+          ]
+        },
+        {
+          "bone": "Right twelfth rib",
+          "sourceBone": "Twelfth_ribr",
+          "representedInSource": true,
+          "sourcePatchVertices": 66,
+          "sourceGapMm": 0.169,
+          "minimumMm": 0.002,
+          "medianMm": 0.243,
+          "p95Mm": 0.993,
+          "sourceMusclePoint": [
+            -0.05931016802787781,
+            1.103469967842102,
+            -0.061071258038282394
+          ],
+          "registeredMusclePoint": [
+            -0.06421903520822525,
+            1.120932698249817,
+            -0.06400739401578903
+          ]
+        },
+        {
+          "bone": "First lumbar vertebra",
+          "sourceBone": "Vertebra_L1",
+          "representedInSource": true,
+          "sourcePatchVertices": 12,
+          "sourceGapMm": 0.386,
+          "minimumMm": 0.031,
+          "medianMm": 0.423,
+          "p95Mm": 1.107,
+          "sourceMusclePoint": [
+            -0.0337568074464798,
+            1.1081982851028442,
+            -0.04271722957491875
+          ],
+          "registeredMusclePoint": [
+            -0.03403809666633606,
+            1.12646484375,
+            -0.043172936886548996
+          ]
+        },
+        {
+          "bone": "Second lumbar vertebra",
+          "sourceBone": "Vertebra_L2",
+          "representedInSource": true,
+          "sourcePatchVertices": 28,
+          "sourceGapMm": 0.077,
+          "minimumMm": 0.06,
+          "medianMm": 0.376,
+          "p95Mm": 1.132,
+          "sourceMusclePoint": [
+            -0.024189282208681107,
+            1.0819728374481201,
+            -0.039756979793310165
+          ],
+          "registeredMusclePoint": [
+            -0.024475472047924995,
+            1.1014342308044434,
+            -0.04038087651133537
+          ]
+        },
+        {
+          "bone": "Third lumbar vertebra",
+          "sourceBone": "Vertebra_L3",
+          "representedInSource": true,
+          "sourcePatchVertices": 9,
+          "sourceGapMm": 0.328,
+          "minimumMm": 0.019,
+          "medianMm": 0.195,
+          "p95Mm": 0.274,
+          "sourceMusclePoint": [
+            -0.030488675460219383,
+            1.0516010522842407,
+            -0.030997922644019127
+          ],
+          "registeredMusclePoint": [
+            -0.030691731721162796,
+            1.0744744539260864,
+            -0.034052032977342606
+          ]
+        },
+        {
+          "bone": "Fourth lumbar vertebra",
+          "sourceBone": "Vertebra_L4",
+          "representedInSource": true,
+          "sourcePatchVertices": 2,
+          "sourceGapMm": 1.987,
+          "minimumMm": 2.616,
+          "medianMm": 2.632,
+          "p95Mm": 2.646,
+          "sourceMusclePoint": [
+            -0.028752438724040985,
+            1.0261573791503906,
+            -0.0430271290242672
+          ],
+          "registeredMusclePoint": [
+            -0.028281815350055695,
+            1.0536599159240723,
+            -0.04806443303823471
+          ]
+        }
+      ],
+      "areaRatioP01": 0.475,
+      "areaRatioP99": 1.544,
+      "normalDirectionChangeFraction": 0.002824858757062147,
+      "normalDirectionNote": "Source/target normal rotation is descriptive, not evidence of mesh inversion; anatomical bending also rotates normals."
+    },
+    {
+      "id": "ZA-multifidus-cervicis-r",
+      "name": "Right multifidus cervicis",
+      "assetSha256": "42cf910ddbb81ae504e56a5fa64e385405ae5199025710fde3fe6b6ffa7a37c2",
+      "contacts": [
+        {
+          "bone": "Third cervical vertebra",
+          "sourceBone": "Vertebra_C3",
+          "representedInSource": true,
+          "sourcePatchVertices": 28,
+          "sourceGapMm": 0.142,
+          "minimumMm": 0.029,
+          "medianMm": 0.353,
+          "p95Mm": 1.242,
+          "sourceMusclePoint": [
+            -0.023117851465940475,
+            1.5022172927856445,
+            -0.026286041364073753
+          ],
+          "registeredMusclePoint": [
+            -0.023931078612804413,
+            1.5053776502609253,
+            -0.037270333617925644
+          ]
+        },
+        {
+          "bone": "Fourth cervical vertebra",
+          "sourceBone": "Vertebra_C4",
+          "representedInSource": true,
+          "sourcePatchVertices": 17,
+          "sourceGapMm": 0.357,
+          "minimumMm": 0.093,
+          "medianMm": 0.576,
+          "p95Mm": 1.398,
+          "sourceMusclePoint": [
+            -0.02358885109424591,
+            1.4935200214385986,
+            -0.025317441672086716
+          ],
+          "registeredMusclePoint": [
+            -0.02379358373582363,
+            1.4974868297576904,
+            -0.03500339761376381
+          ]
+        },
+        {
+          "bone": "Fifth cervical vertebra",
+          "sourceBone": "Vertebra_C5",
+          "representedInSource": true,
+          "sourcePatchVertices": 25,
+          "sourceGapMm": 0.196,
+          "minimumMm": 0.141,
+          "medianMm": 0.879,
+          "p95Mm": 2.136,
+          "sourceMusclePoint": [
+            -0.005094332154840231,
+            1.4746087789535522,
+            -0.03742167353630066
+          ],
+          "registeredMusclePoint": [
+            -0.006122915539890528,
+            1.4780091047286987,
+            -0.04415610060095787
+          ]
+        },
+        {
+          "bone": "Sixth cervical vertebra",
+          "sourceBone": "Vertebra_C6",
+          "representedInSource": true,
+          "sourcePatchVertices": 22,
+          "sourceGapMm": 0.232,
+          "minimumMm": 0.053,
+          "medianMm": 0.627,
+          "p95Mm": 2.015,
+          "sourceMusclePoint": [
+            -0.021496258676052094,
+            1.4706557989120483,
+            -0.029583070427179337
+          ],
+          "registeredMusclePoint": [
+            -0.02155228704214096,
+            1.4756708145141602,
+            -0.03382445126771927
+          ]
+        },
+        {
+          "bone": "Seventh cervical vertebra",
+          "sourceBone": "Vertebra_C7",
+          "representedInSource": true,
+          "sourcePatchVertices": 13,
+          "sourceGapMm": 0.173,
+          "minimumMm": 0.039,
+          "medianMm": 1.488,
+          "p95Mm": 2.287,
+          "sourceMusclePoint": [
+            -0.021809108555316925,
+            1.4500938653945923,
+            -0.04140941798686981
+          ],
+          "registeredMusclePoint": [
+            -0.02182110957801342,
+            1.453566551208496,
+            -0.04352809116244316
+          ]
+        }
+      ],
+      "areaRatioP01": 0.569,
+      "areaRatioP99": 1.595,
+      "normalDirectionChangeFraction": 0.002158273381294964,
+      "normalDirectionNote": "Source/target normal rotation is descriptive, not evidence of mesh inversion; anatomical bending also rotates normals."
+    },
+    {
+      "id": "ZA-multifidus-thoracis-r",
+      "name": "Right multifidus thoracis",
+      "assetSha256": "7ff95539ae75fd3b1e76a45857253bfc96b2f4fc85a9825b49f776181cf37f9d",
+      "contacts": [
+        {
+          "bone": "First thoracic vertebra",
+          "sourceBone": "Vertebra_T1",
+          "representedInSource": true,
+          "sourcePatchVertices": 10,
+          "sourceGapMm": 0.821,
+          "minimumMm": 0.636,
+          "medianMm": 0.79,
+          "p95Mm": 1.274,
+          "sourceMusclePoint": [
+            -0.00692115118727088,
+            1.4328020811080933,
+            -0.06251262128353119
+          ],
+          "registeredMusclePoint": [
+            -0.006620405241847038,
+            1.434985876083374,
+            -0.06300943344831467
+          ]
+        },
+        {
+          "bone": "Second thoracic vertebra",
+          "sourceBone": "Vertebra_T2",
+          "representedInSource": true,
+          "sourcePatchVertices": 9,
+          "sourceGapMm": 0.824,
+          "minimumMm": 0.014,
+          "medianMm": 0.427,
+          "p95Mm": 1.499,
+          "sourceMusclePoint": [
+            -0.023758970201015472,
+            1.4318526983261108,
+            -0.051866937428712845
+          ],
+          "registeredMusclePoint": [
+            -0.02404182404279709,
+            1.4330745935440063,
+            -0.05218326672911644
+          ]
+        },
+        {
+          "bone": "Third thoracic vertebra",
+          "sourceBone": "Vertebra_T3",
+          "representedInSource": true,
+          "sourcePatchVertices": 17,
+          "sourceGapMm": 1.032,
+          "minimumMm": 0.139,
+          "medianMm": 1.094,
+          "p95Mm": 1.693,
+          "sourceMusclePoint": [
+            -0.005092347040772438,
+            1.3882598876953125,
+            -0.0778050646185875
+          ],
+          "registeredMusclePoint": [
+            -0.005506516434252262,
+            1.3893316984176636,
+            -0.0764152780175209
+          ]
+        },
+        {
+          "bone": "Fourth thoracic vertebra",
+          "sourceBone": "Vertebra_T4",
+          "representedInSource": true,
+          "sourcePatchVertices": 23,
+          "sourceGapMm": 1.518,
+          "minimumMm": 0.539,
+          "medianMm": 1.84,
+          "p95Mm": 2.294,
+          "sourceMusclePoint": [
+            -0.006147804670035839,
+            1.3640410900115967,
+            -0.08404596149921417
+          ],
+          "registeredMusclePoint": [
+            -0.006508992984890938,
+            1.3655744791030884,
+            -0.08341997116804123
+          ]
+        },
+        {
+          "bone": "Fifth thoracic vertebra",
+          "sourceBone": "Vertebra_T5",
+          "representedInSource": true,
+          "sourcePatchVertices": 6,
+          "sourceGapMm": 0.252,
+          "minimumMm": 0.022,
+          "medianMm": 0.77,
+          "p95Mm": 1.45,
+          "sourceMusclePoint": [
+            -0.023652900010347366,
+            1.362093210220337,
+            -0.07878751307725906
+          ],
+          "registeredMusclePoint": [
+            -0.024127406999468803,
+            1.3640415668487549,
+            -0.07930640876293182
+          ]
+        },
+        {
+          "bone": "Sixth thoracic vertebra",
+          "sourceBone": "Vertebra_T6",
+          "representedInSource": true,
+          "sourcePatchVertices": 2,
+          "sourceGapMm": 0.849,
+          "minimumMm": 0.268,
+          "medianMm": 0.855,
+          "p95Mm": 1.383,
+          "sourceMusclePoint": [
+            -0.00789600145071745,
+            1.3049330711364746,
+            -0.08505091071128845
+          ],
+          "registeredMusclePoint": [
+            -0.007960857823491096,
+            1.3084824085235596,
+            -0.08430478721857071
+          ]
+        },
+        {
+          "bone": "Seventh thoracic vertebra",
+          "sourceBone": "Vertebra_T7",
+          "representedInSource": true,
+          "sourcePatchVertices": 2,
+          "sourceGapMm": 0.042,
+          "minimumMm": 0.015,
+          "medianMm": 0.55,
+          "p95Mm": 1.031,
+          "sourceMusclePoint": [
+            -0.0030151570681482553,
+            1.2668406963348389,
+            -0.0868101567029953
+          ],
+          "registeredMusclePoint": [
+            -0.0028105522505939007,
+            1.2705543041229248,
+            -0.08664515614509583
+          ]
+        },
+        {
+          "bone": "Eighth thoracic vertebra",
+          "sourceBone": "Vertebra_T8",
+          "representedInSource": true,
+          "sourcePatchVertices": 7,
+          "sourceGapMm": 1.651,
+          "minimumMm": 1.395,
+          "medianMm": 1.618,
+          "p95Mm": 1.929,
+          "sourceMusclePoint": [
+            -0.004545190837234259,
+            1.239301323890686,
+            -0.08459633588790894
+          ],
+          "registeredMusclePoint": [
+            -0.0053247977048158646,
+            1.2450164556503296,
+            -0.08417174965143204
+          ]
+        },
+        {
+          "bone": "Ninth thoracic vertebra",
+          "sourceBone": "Vertebra_T9",
+          "representedInSource": true,
+          "sourcePatchVertices": 5,
+          "sourceGapMm": 0.4,
+          "minimumMm": 0.451,
+          "medianMm": 0.824,
+          "p95Mm": 1.114,
+          "sourceMusclePoint": [
+            -0.026987113058567047,
+            1.2378551959991455,
+            -0.08524268865585327
+          ],
+          "registeredMusclePoint": [
+            -0.028801577165722847,
+            1.2445530891418457,
+            -0.08365867286920547
+          ]
+        },
+        {
+          "bone": "Tenth thoracic vertebra",
+          "sourceBone": "Vertebra_T10",
+          "representedInSource": true,
+          "sourcePatchVertices": 9,
+          "sourceGapMm": 0.572,
+          "minimumMm": 0.054,
+          "medianMm": 0.262,
+          "p95Mm": 1.073,
+          "sourceMusclePoint": [
+            -0.023552389815449715,
+            1.2070716619491577,
+            -0.0744461864233017
+          ],
+          "registeredMusclePoint": [
+            -0.023775679990649223,
+            1.2157187461853027,
+            -0.0748654380440712
+          ]
+        },
+        {
+          "bone": "Eleventh thoracic vertebra",
+          "sourceBone": "Vertebra_T11",
+          "representedInSource": true,
+          "sourcePatchVertices": 12,
+          "sourceGapMm": 1.017,
+          "minimumMm": 0.141,
+          "medianMm": 0.709,
+          "p95Mm": 1.063,
+          "sourceMusclePoint": [
+            -0.014961881563067436,
+            1.177187442779541,
+            -0.06423141062259674
+          ],
+          "registeredMusclePoint": [
+            -0.015346885658800602,
+            1.189554214477539,
+            -0.0646466612815857
+          ]
+        },
+        {
+          "bone": "Twelfth thoracic vertebra",
+          "sourceBone": "Vertebra_T12",
+          "representedInSource": true,
+          "sourcePatchVertices": 17,
+          "sourceGapMm": 0.38,
+          "minimumMm": 0.031,
+          "medianMm": 0.603,
+          "p95Mm": 1.665,
+          "sourceMusclePoint": [
+            -0.020396890118718147,
+            1.1529425382614136,
+            -0.0614837110042572
+          ],
+          "registeredMusclePoint": [
+            -0.020378058776259422,
+            1.1668704748153687,
+            -0.06187824904918671
+          ]
+        }
+      ],
+      "areaRatioP01": 0.629,
+      "areaRatioP99": 1.342,
+      "normalDirectionChangeFraction": 0.0007688364941055869,
+      "normalDirectionNote": "Source/target normal rotation is descriptive, not evidence of mesh inversion; anatomical bending also rotates normals."
+    },
+    {
+      "id": "ZA-multifidus-lumborum-r",
+      "name": "Right multifidus lumborum",
+      "assetSha256": "0dd919551277789949f8c19fed938ec2944da90e485e688532990e375c0efe3a",
+      "contacts": [
+        {
+          "bone": "Sacrum",
+          "sourceBone": "Sacrum",
+          "representedInSource": true,
+          "sourcePatchVertices": 7,
+          "sourceGapMm": 18.929,
+          "minimumMm": 0.0,
+          "medianMm": 0.616,
+          "p95Mm": 0.989,
+          "reconstructedCaudalFascicle": true,
+          "boneAnchor": [
+            -0.01021880004554987,
+            0.9806252121925354,
+            -0.07368060201406479
+          ],
+          "attachmentGapMm": 0.0,
+          "sourceMusclePoint": [
+            -0.03420282527804375,
+            0.9977877140045166,
+            -0.03925260901451111
+          ],
+          "registeredMusclePoint": [
+            -0.03377200663089752,
+            1.0231661796569824,
+            -0.05069120600819588
+          ]
+        },
+        {
+          "bone": "First lumbar vertebra",
+          "sourceBone": "Vertebra_L1",
+          "representedInSource": true,
+          "sourcePatchVertices": 72,
+          "sourceGapMm": 0.036,
+          "minimumMm": 0.013,
+          "medianMm": 0.395,
+          "p95Mm": 1.512,
+          "sourceMusclePoint": [
+            -0.01308273896574974,
+            1.0867770910263062,
+            -0.04500426724553108
+          ],
+          "registeredMusclePoint": [
+            -0.01317711640149355,
+            1.1048288345336914,
+            -0.04567353054881096
+          ]
+        },
+        {
+          "bone": "Second lumbar vertebra",
+          "sourceBone": "Vertebra_L2",
+          "representedInSource": true,
+          "sourcePatchVertices": 47,
+          "sourceGapMm": 0.126,
+          "minimumMm": 0.003,
+          "medianMm": 0.419,
+          "p95Mm": 1.39,
+          "sourceMusclePoint": [
+            -0.01467987522482872,
+            1.0679277181625366,
+            -0.03994164243340492
+          ],
+          "registeredMusclePoint": [
+            -0.014839833602309227,
+            1.0866111516952515,
+            -0.04106377065181732
+          ]
+        },
+        {
+          "bone": "Third lumbar vertebra",
+          "sourceBone": "Vertebra_L3",
+          "representedInSource": true,
+          "sourcePatchVertices": 68,
+          "sourceGapMm": 0.129,
+          "minimumMm": 0.006,
+          "medianMm": 0.213,
+          "p95Mm": 0.87,
+          "sourceMusclePoint": [
+            -0.017159080132842064,
+            1.0348687171936035,
+            -0.039576783776283264
+          ],
+          "registeredMusclePoint": [
+            -0.01748551055788994,
+            1.0588353872299194,
+            -0.04389162361621857
+          ]
+        },
+        {
+          "bone": "Fourth lumbar vertebra",
+          "sourceBone": "Vertebra_L4",
+          "representedInSource": true,
+          "sourcePatchVertices": 52,
+          "sourceGapMm": 0.177,
+          "minimumMm": 0.007,
+          "medianMm": 0.266,
+          "p95Mm": 1.103,
+          "sourceMusclePoint": [
+            -0.010389829985797405,
+            1.009564757347107,
+            -0.04203113913536072
+          ],
+          "registeredMusclePoint": [
+            -0.011233055964112282,
+            1.0368090867996216,
+            -0.05115344747900963
+          ]
+        },
+        {
+          "bone": "Fifth lumbar vertebra",
+          "sourceBone": "Vertebra_L5",
+          "representedInSource": true,
+          "sourcePatchVertices": 36,
+          "sourceGapMm": 0.162,
+          "minimumMm": 0.003,
+          "medianMm": 0.402,
+          "p95Mm": 1.352,
+          "sourceMusclePoint": [
+            -0.03863130882382393,
+            0.9976692199707031,
+            -0.03150945529341698
+          ],
+          "registeredMusclePoint": [
+            -0.03843415156006813,
+            1.0223608016967773,
+            -0.043960511684417725
+          ]
+        }
+      ],
+      "areaRatioP01": 0.502,
+      "areaRatioP99": 1.353,
+      "normalDirectionChangeFraction": 0.002127659574468085,
+      "normalDirectionNote": "Source/target normal rotation is descriptive, not evidence of mesh inversion; anatomical bending also rotates normals."
+    },
+    {
+      "id": "ZA-extensor-digitorum-brevis-r",
+      "name": "Right extensor digitorum brevis",
+      "assetSha256": "461cd6513d1ac2ba8c4c68193d89f38b23ff5be935ebd7f3dcca659806d2e716",
+      "contacts": [
+        {
+          "bone": "Right calcaneus",
+          "sourceBone": "Calcaneusr",
+          "representedInSource": true,
+          "sourcePatchVertices": 64,
+          "sourceGapMm": 0.106,
+          "minimumMm": 0.036,
+          "medianMm": 0.774,
+          "p95Mm": 1.451,
+          "sourceMusclePoint": [
+            -0.10102143883705139,
+            0.05282548442482948,
+            -0.02491392381489277
+          ],
+          "registeredMusclePoint": [
+            -0.10041136294603348,
+            0.049393363296985626,
+            -0.018139971420168877
+          ]
+        },
+        {
+          "bone": "Middle phalanx of right second toe",
+          "sourceBone": "Middle_phalanx_of_second_finger_of_footr",
+          "representedInSource": true,
+          "sourcePatchVertices": 53,
+          "sourceGapMm": 0.203,
+          "minimumMm": 0.004,
+          "medianMm": 0.21,
+          "p95Mm": 0.793,
+          "sourceMusclePoint": [
+            -0.10211903601884842,
+            0.020701339468359947,
+            0.11313056200742722
+          ],
+          "registeredMusclePoint": [
+            -0.13222409784793854,
+            0.01855047605931759,
+            0.11134543269872665
+          ]
+        },
+        {
+          "bone": "Middle phalanx of right third toe",
+          "sourceBone": "Middle_phalanx_of_third_finger_of_footr",
+          "representedInSource": true,
+          "sourcePatchVertices": 46,
+          "sourceGapMm": 0.18,
+          "minimumMm": 0.007,
+          "medianMm": 0.354,
+          "p95Mm": 1.255,
+          "sourceMusclePoint": [
+            -0.11401425302028656,
+            0.017823519185185432,
+            0.10977090895175934
+          ],
+          "registeredMusclePoint": [
+            -0.1432335525751114,
+            0.016031673178076744,
+            0.1053120344877243
+          ]
+        },
+        {
+          "bone": "Middle phalanx of right fourth toe",
+          "sourceBone": "Middle_phalanx_of_fourth_finger_of_footr",
+          "representedInSource": true,
+          "sourcePatchVertices": 43,
+          "sourceGapMm": 0.269,
+          "minimumMm": 0.034,
+          "medianMm": 0.454,
+          "p95Mm": 0.959,
+          "sourceMusclePoint": [
+            -0.12740878760814667,
+            0.017960943281650543,
+            0.09507632255554199
+          ],
+          "registeredMusclePoint": [
+            -0.15198175609111786,
+            0.015956489369273186,
+            0.08871447294950485
+          ]
+        }
+      ],
+      "areaRatioP01": 0.529,
+      "areaRatioP99": 1.596,
+      "normalDirectionChangeFraction": 0.001256281407035176,
+      "normalDirectionNote": "Source/target normal rotation is descriptive, not evidence of mesh inversion; anatomical bending also rotates normals."
+    },
+    {
+      "id": "ZA-first-dorsal-interosseous-of-foot-r",
+      "name": "Right first dorsal interosseous of foot",
+      "assetSha256": "c53200ae960b8dd69a8cfd8f1c545f9b603ac8f3ad7f4d028d92428b98a57908",
+      "contacts": [
+        {
+          "bone": "Right first metatarsal bone",
+          "sourceBone": "First_metatarsal_boner",
+          "representedInSource": true,
+          "sourcePatchVertices": 15,
+          "sourceGapMm": 0.261,
+          "minimumMm": 0.089,
+          "medianMm": 0.308,
+          "p95Mm": 0.575,
+          "sourceMusclePoint": [
+            -0.07658860832452774,
+            0.044690120965242386,
+            0.048666901886463165
+          ],
+          "registeredMusclePoint": [
+            -0.09372607618570328,
+            0.04155464097857475,
+            0.05675806477665901
+          ]
+        },
+        {
+          "bone": "Right second metatarsal bone",
+          "sourceBone": "Second_metatarsal_boner",
+          "representedInSource": true,
+          "sourcePatchVertices": 1,
+          "sourceGapMm": 0.704,
+          "minimumMm": 0.163,
+          "medianMm": 0.163,
+          "p95Mm": 0.163,
+          "sourceMusclePoint": [
+            -0.08718551695346832,
+            0.03266599029302597,
+            0.0678987056016922
+          ],
+          "registeredMusclePoint": [
+            -0.10826126486063004,
+            0.029399698600172997,
+            0.07259126007556915
+          ]
+        },
+        {
+          "bone": "Proximal phalanx of right second toe",
+          "sourceBone": "Proximal_phalanx_of_second_finger_of_footr",
+          "representedInSource": true,
+          "sourcePatchVertices": 14,
+          "sourceGapMm": 0.486,
+          "minimumMm": 0.062,
+          "medianMm": 0.289,
+          "p95Mm": 0.865,
+          "sourceMusclePoint": [
+            -0.08667987585067749,
+            0.021240439265966415,
+            0.08551066368818283
+          ],
+          "registeredMusclePoint": [
+            -0.11144178360700607,
+            0.018827207386493683,
+            0.08922911435365677
+          ]
+        }
+      ],
+      "areaRatioP01": 0.645,
+      "areaRatioP99": 1.434,
+      "normalDirectionChangeFraction": 0.0021551724137931034,
+      "normalDirectionNote": "Source/target normal rotation is descriptive, not evidence of mesh inversion; anatomical bending also rotates normals."
+    },
+    {
+      "id": "ZA-second-dorsal-interosseous-of-foot-r",
+      "name": "Right second dorsal interosseous of foot",
+      "assetSha256": "3bfff112a99679206569d6560414bb050541dc8a31aaf454b024c31521d69f8d",
+      "contacts": [
+        {
+          "bone": "Right second metatarsal bone",
+          "sourceBone": "Second_metatarsal_boner",
+          "representedInSource": true,
+          "sourcePatchVertices": 18,
+          "sourceGapMm": 0.238,
+          "minimumMm": 0.074,
+          "medianMm": 0.458,
+          "p95Mm": 0.842,
+          "sourceMusclePoint": [
+            -0.09525600075721741,
+            0.03183837607502937,
+            0.07026660442352295
+          ],
+          "registeredMusclePoint": [
+            -0.11672209948301315,
+            0.028437934815883636,
+            0.073013536632061
+          ]
+        },
+        {
+          "bone": "Right third metatarsal bone",
+          "sourceBone": "Third_metatarsal_boner",
+          "representedInSource": true,
+          "sourcePatchVertices": 18,
+          "sourceGapMm": 0.28,
+          "minimumMm": 0.015,
+          "medianMm": 0.335,
+          "p95Mm": 0.932,
+          "sourceMusclePoint": [
+            -0.1039385199546814,
+            0.03225395083427429,
+            0.06688901036977768
+          ],
+          "registeredMusclePoint": [
+            -0.12336443364620209,
+            0.029891882091760635,
+            0.06701021641492844
+          ]
+        },
+        {
+          "bone": "Proximal phalanx of right second toe",
+          "sourceBone": "Proximal_phalanx_of_second_finger_of_footr",
+          "representedInSource": true,
+          "sourcePatchVertices": 12,
+          "sourceGapMm": 0.28,
+          "minimumMm": 0.012,
+          "medianMm": 0.184,
+          "p95Mm": 0.635,
+          "sourceMusclePoint": [
+            -0.09920552372932434,
+            0.023333024233579636,
+            0.08278996497392654
+          ],
+          "registeredMusclePoint": [
+            -0.12244106084108353,
+            0.020896129310131073,
+            0.08407733589410782
+          ]
+        }
+      ],
+      "areaRatioP01": 0.56,
+      "areaRatioP99": 1.535,
+      "normalDirectionChangeFraction": 0.005952380952380952,
+      "normalDirectionNote": "Source/target normal rotation is descriptive, not evidence of mesh inversion; anatomical bending also rotates normals."
+    },
+    {
+      "id": "ZA-third-dorsal-interosseous-of-foot-r",
+      "name": "Right third dorsal interosseous of foot",
+      "assetSha256": "abc7e184b1dfa5581c75c35b383d975aa8f3d7f16a818cfc4d887cde18e02c50",
+      "contacts": [
+        {
+          "bone": "Right third metatarsal bone",
+          "sourceBone": "Third_metatarsal_boner",
+          "representedInSource": true,
+          "sourcePatchVertices": 26,
+          "sourceGapMm": 0.11,
+          "minimumMm": 0.038,
+          "medianMm": 0.603,
+          "p95Mm": 1.389,
+          "sourceMusclePoint": [
+            -0.10591503977775574,
+            0.037051230669021606,
+            0.04593295231461525
+          ],
+          "registeredMusclePoint": [
+            -0.12070406228303909,
+            0.034610047936439514,
+            0.04584255442023277
+          ]
+        },
+        {
+          "bone": "Right fourth metatarsal bone",
+          "sourceBone": "Fourth_metatarsal_boner",
+          "representedInSource": true,
+          "sourcePatchVertices": 7,
+          "sourceGapMm": 0.541,
+          "minimumMm": 0.025,
+          "medianMm": 0.411,
+          "p95Mm": 0.83,
+          "sourceMusclePoint": [
+            -0.1080000028014183,
+            0.04177231714129448,
+            0.027960410341620445
+          ],
+          "registeredMusclePoint": [
+            -0.11844373494386673,
+            0.039082590490579605,
+            0.02959555760025978
+          ]
+        },
+        {
+          "bone": "Proximal phalanx of right third toe",
+          "sourceBone": "Proximal_phalanx_of_third_finger_of_footr",
+          "representedInSource": true,
+          "sourcePatchVertices": 8,
+          "sourceGapMm": 0.283,
+          "minimumMm": 0.063,
+          "medianMm": 0.267,
+          "p95Mm": 0.538,
+          "sourceMusclePoint": [
+            -0.11266014724969864,
+            0.020190341398119926,
+            0.078258216381073
+          ],
+          "registeredMusclePoint": [
+            -0.1341695785522461,
+            0.01797180436551571,
+            0.07632064819335938
+          ]
+        }
+      ],
+      "areaRatioP01": 0.625,
+      "areaRatioP99": 1.511,
+      "normalDirectionChangeFraction": 0.0,
+      "normalDirectionNote": "Source/target normal rotation is descriptive, not evidence of mesh inversion; anatomical bending also rotates normals."
+    },
+    {
+      "id": "ZA-fourth-dorsal-interosseous-of-foot-r",
+      "name": "Right fourth dorsal interosseous of foot",
+      "assetSha256": "04cbf4d2909cabc615417d215a21fe5b83d00d760934d42d138ecbfcd89a8c67",
+      "contacts": [
+        {
+          "bone": "Right fourth metatarsal bone",
+          "sourceBone": "Fourth_metatarsal_boner",
+          "representedInSource": true,
+          "sourcePatchVertices": 10,
+          "sourceGapMm": 0.53,
+          "minimumMm": 0.04,
+          "medianMm": 0.646,
+          "p95Mm": 1.195,
+          "sourceMusclePoint": [
+            -0.1169014647603035,
+            0.03251408040523529,
+            0.04352967441082001
+          ],
+          "registeredMusclePoint": [
+            -0.1301148533821106,
+            0.030205396935343742,
+            0.04195886105298996
+          ]
+        },
+        {
+          "bone": "Right fifth metatarsal bone",
+          "sourceBone": "Fifth_metatarsal_boner",
+          "representedInSource": true,
+          "sourcePatchVertices": 28,
+          "sourceGapMm": 0.475,
+          "minimumMm": 0.003,
+          "medianMm": 0.305,
+          "p95Mm": 0.829,
+          "sourceMusclePoint": [
+            -0.12470970302820206,
+            0.023882243782281876,
+            0.04719278961420059
+          ],
+          "registeredMusclePoint": [
+            -0.1393899768590927,
+            0.021400587633252144,
+            0.044411551207304
+          ]
+        },
+        {
+          "bone": "Proximal phalanx of right fourth toe",
+          "sourceBone": "Proximal_phalanx_of_fourth_finger_of_footr",
+          "representedInSource": true,
+          "sourcePatchVertices": 5,
+          "sourceGapMm": 0.363,
+          "minimumMm": 0.044,
+          "medianMm": 0.132,
+          "p95Mm": 0.275,
+          "sourceMusclePoint": [
+            -0.12482371181249619,
+            0.017958054319024086,
+            0.06893538683652878
+          ],
+          "registeredMusclePoint": [
+            -0.14329443871974945,
+            0.015742067247629166,
+            0.06519677489995956
+          ]
+        }
+      ],
+      "areaRatioP01": 0.576,
+      "areaRatioP99": 1.44,
+      "normalDirectionChangeFraction": 0.0,
+      "normalDirectionNote": "Source/target normal rotation is descriptive, not evidence of mesh inversion; anatomical bending also rotates normals."
+    },
+    {
+      "id": "ZA-latissimus-dorsi-l",
+      "name": "Left latissimus dorsi",
+      "assetSha256": "43a6c557785bde308916fdd3ecea4e00ffaa58f2a58c8675aade76ad3cbcbd00",
+      "contacts": [
+        {
+          "bone": "Left hip bone",
+          "sourceBone": "Hip_bonel",
+          "representedInSource": true,
+          "sourcePatchVertices": 77,
+          "sourceGapMm": 0.046,
+          "minimumMm": 0.01,
+          "medianMm": 0.403,
+          "p95Mm": 1.149,
+          "sourceMusclePoint": [
+            0.08213190734386444,
+            1.0009148120880127,
+            -0.04467901587486267
+          ],
+          "registeredMusclePoint": [
+            0.08667793869972229,
+            1.027610421180725,
+            -0.05629061162471771
+          ]
+        },
+        {
+          "bone": "Left humerus",
+          "sourceBone": "Humerusl",
+          "representedInSource": true,
+          "sourcePatchVertices": 27,
+          "sourceGapMm": 0.399,
+          "minimumMm": 0.004,
+          "medianMm": 0.42,
+          "p95Mm": 1.228,
+          "sourceMusclePoint": [
+            0.17356036603450775,
+            1.3346720933914185,
+            -0.028894007205963135
+          ],
+          "registeredMusclePoint": [
+            0.16697798669338226,
+            1.3506749868392944,
+            -0.02290373295545578
+          ]
+        },
+        {
+          "bone": "Left scapula",
+          "sourceBone": "Scapulal",
+          "representedInSource": true,
+          "sourcePatchVertices": 9,
+          "sourceGapMm": 0.308,
+          "minimumMm": 0.06,
+          "medianMm": 0.743,
+          "p95Mm": 1.476,
+          "sourceMusclePoint": [
+            0.0826038271188736,
+            1.2729430198669434,
+            -0.11237645894289017
+          ],
+          "registeredMusclePoint": [
+            0.08160267770290375,
+            1.2794229984283447,
+            -0.10489638894796371
+          ]
+        }
+      ],
+      "areaRatioP01": 0.425,
+      "areaRatioP99": 1.556,
+      "normalDirectionChangeFraction": 0.0028730305838739574,
+      "normalDirectionNote": "Source/target normal rotation is descriptive, not evidence of mesh inversion; anatomical bending also rotates normals."
+    },
+    {
+      "id": "ZA-rectus-abdominis-l",
+      "name": "Left rectus abdominis",
+      "assetSha256": "d605df3b9f5d107c61cbf0e3b77c30ad2bb418fa09d6b49bca48d152aba926e6",
+      "contacts": [
+        {
+          "bone": "Left hip bone",
+          "sourceBone": "Hip_bonel",
+          "representedInSource": true,
+          "sourcePatchVertices": 16,
+          "sourceGapMm": 0.117,
+          "minimumMm": 0.045,
+          "medianMm": 0.213,
+          "p95Mm": 0.866,
+          "sourceMusclePoint": [
+            0.01051197201013565,
+            0.8527369499206543,
+            0.050728071480989456
+          ],
+          "registeredMusclePoint": [
+            0.016136305406689644,
+            0.8814392685890198,
+            0.037541504949331284
+          ]
+        },
+        {
+          "bone": "Xiphoid process",
+          "sourceBone": "Xiphoid_process",
+          "representedInSource": true,
+          "sourcePatchVertices": 23,
+          "sourceGapMm": 0.397,
+          "minimumMm": 0.047,
+          "medianMm": 1.006,
+          "p95Mm": 2.169,
+          "sourceMusclePoint": [
+            0.009341266937553883,
+            1.2359870672225952,
+            0.10336221009492874
+          ],
+          "registeredMusclePoint": [
+            0.009376796893775463,
+            1.2549878358840942,
+            0.10595059394836426
+          ]
+        },
+        {
+          "bone": "Left fifth costal cartilage",
+          "sourceBone": "Costal_cartilage_of_fifth_ribl",
+          "representedInSource": true,
+          "sourcePatchVertices": 127,
+          "sourceGapMm": 0.209,
+          "minimumMm": 0.002,
+          "medianMm": 0.536,
+          "p95Mm": 1.519,
+          "sourceMusclePoint": [
+            0.06531855463981628,
+            1.241966724395752,
+            0.10661124438047409
+          ],
+          "registeredMusclePoint": [
+            0.06231158599257469,
+            1.251497745513916,
+            0.10468114912509918
+          ]
+        },
+        {
+          "bone": "Left sixth costal cartilage",
+          "sourceBone": "Costal_cartilage_of_sixth_ribl",
+          "representedInSource": true,
+          "sourcePatchVertices": 223,
+          "sourceGapMm": 0.193,
+          "minimumMm": 0.007,
+          "medianMm": 0.757,
+          "p95Mm": 1.586,
+          "sourceMusclePoint": [
+            0.04193614050745964,
+            1.2221717834472656,
+            0.11064206063747406
+          ],
+          "registeredMusclePoint": [
+            0.040493402630090714,
+            1.2337779998779297,
+            0.1106540858745575
+          ]
+        },
+        {
+          "bone": "Left seventh costal cartilage",
+          "sourceBone": "Costal_cartilage_of_seventh_ribl",
+          "representedInSource": true,
+          "sourcePatchVertices": 541,
+          "sourceGapMm": 0.097,
+          "minimumMm": 0.006,
+          "medianMm": 0.66,
+          "p95Mm": 1.833,
+          "sourceMusclePoint": [
+            0.010406183078885078,
+            1.2306466102600098,
+            0.10288345068693161
+          ],
+          "registeredMusclePoint": [
+            0.010009457357227802,
+            1.2477648258209229,
+            0.10616777837276459
+          ]
+        }
+      ],
+      "areaRatioP01": 0.62,
+      "areaRatioP99": 1.384,
+      "normalDirectionChangeFraction": 0.0008736167734420501,
+      "normalDirectionNote": "Source/target normal rotation is descriptive, not evidence of mesh inversion; anatomical bending also rotates normals."
+    },
+    {
+      "id": "ZA-internal-oblique-l",
+      "name": "Left internal oblique",
+      "assetSha256": "3e67c21bca62405c25e6f696e9f9b2108023b5a0ff302e42991d4ff0a64123f2",
+      "contacts": [
+        {
+          "bone": "Left hip bone",
+          "sourceBone": "Hip_bonel",
+          "representedInSource": true,
+          "sourcePatchVertices": 186,
+          "sourceGapMm": 0.124,
+          "minimumMm": 0.011,
+          "medianMm": 0.454,
+          "p95Mm": 1.506,
+          "sourceMusclePoint": [
+            0.11164596676826477,
+            1.005416750907898,
+            -0.006492081098258495
+          ],
+          "registeredMusclePoint": [
+            0.11845219135284424,
+            1.0323373079299927,
+            -0.024826081469655037
+          ]
+        },
+        {
+          "bone": "Left ninth rib",
+          "sourceBone": "Ninth_ribl",
+          "representedInSource": false,
+          "sourcePatchVertices": 5,
+          "coverageNote": "Book: ribs 9–12; donor: ribs 10–12. UAMS/TTUHSC describe lower three or four ribs. Ninth-rib representation is absent; it is not a passed attachment.",
+          "sourceGapMm": 31.537,
+          "minimumMm": 31.849,
+          "medianMm": 31.986,
+          "p95Mm": 32.072,
+          "sourceMusclePoint": [
+            0.121510811150074,
+            1.0822033882141113,
+            0.007262310944497585
+          ],
+          "registeredMusclePoint": [
+            0.11362689733505249,
+            1.1017467975616455,
+            0.010907023213803768
+          ]
+        },
+        {
+          "bone": "Left tenth rib",
+          "sourceBone": "Tenth_ribl",
+          "representedInSource": true,
+          "sourcePatchVertices": 40,
+          "sourceGapMm": 0.14,
+          "minimumMm": 0.003,
+          "medianMm": 0.31,
+          "p95Mm": 0.884,
+          "sourceMusclePoint": [
+            0.12095486372709274,
+            1.0726641416549683,
+            0.018123386427760124
+          ],
+          "registeredMusclePoint": [
+            0.11420749127864838,
+            1.1011369228363037,
+            0.012800631113350391
+          ]
+        },
+        {
+          "bone": "Left eleventh rib",
+          "sourceBone": "Eleventh_ribl",
+          "representedInSource": true,
+          "sourcePatchVertices": 194,
+          "sourceGapMm": 0.061,
+          "minimumMm": 0.003,
+          "medianMm": 0.437,
+          "p95Mm": 1.256,
+          "sourceMusclePoint": [
+            0.1145172193646431,
+            1.0599952936172485,
+            -0.0036546799819916487
+          ],
+          "registeredMusclePoint": [
+            0.10600578784942627,
+            1.0858896970748901,
+            -0.0082429563626647
+          ]
+        },
+        {
+          "bone": "Left twelfth rib",
+          "sourceBone": "Twelfth_ribl",
+          "representedInSource": true,
+          "sourcePatchVertices": 102,
+          "sourceGapMm": 0.12,
+          "minimumMm": 0.002,
+          "medianMm": 0.284,
+          "p95Mm": 0.927,
+          "sourceMusclePoint": [
+            0.0766102522611618,
+            1.0673731565475464,
+            -0.05057336762547493
+          ],
+          "registeredMusclePoint": [
+            0.08175133168697357,
+            1.090493083000183,
+            -0.046096302568912506
+          ]
+        }
+      ],
+      "areaRatioP01": 0.34,
+      "areaRatioP99": 1.313,
+      "normalDirectionChangeFraction": 0.0030136132183310816,
+      "normalDirectionNote": "Source/target normal rotation is descriptive, not evidence of mesh inversion; anatomical bending also rotates normals."
+    },
+    {
+      "id": "ZA-transversus-abdominis-l",
+      "name": "Left transversus abdominis",
+      "assetSha256": "446b39035a5f38012bda1d89bba654c99ae0b051332b7e44b0aadafd5f3cd815",
+      "contacts": [
+        {
+          "bone": "Left hip bone",
+          "sourceBone": "Hip_bonel",
+          "representedInSource": true,
+          "sourcePatchVertices": 107,
+          "sourceGapMm": 0.401,
+          "minimumMm": 0.028,
+          "medianMm": 0.898,
+          "p95Mm": 1.914,
+          "sourceMusclePoint": [
+            0.12226956337690353,
+            0.960785984992981,
+            0.04935728386044502
+          ],
+          "registeredMusclePoint": [
+            0.12955376505851746,
+            0.988900363445282,
+            0.03229715675115585
+          ]
+        },
+        {
+          "bone": "Left seventh costal cartilage",
+          "sourceBone": "Costal_cartilage_of_seventh_ribl",
+          "representedInSource": true,
+          "sourcePatchVertices": 96,
+          "sourceGapMm": 0.02,
+          "minimumMm": 0.008,
+          "medianMm": 0.783,
+          "p95Mm": 2.144,
+          "sourceMusclePoint": [
+            0.027657782658934593,
+            1.2093091011047363,
+            0.10094570368528366
+          ],
+          "registeredMusclePoint": [
+            0.026193466037511826,
+            1.2225909233093262,
+            0.10455257445573807
+          ]
+        },
+        {
+          "bone": "Left eighth rib",
+          "sourceBone": "Eighth_ribl",
+          "representedInSource": true,
+          "sourcePatchVertices": 185,
+          "sourceGapMm": 0.225,
+          "minimumMm": 0.004,
+          "medianMm": 0.811,
+          "p95Mm": 2.255,
+          "sourceMusclePoint": [
+            0.12687569856643677,
+            1.1666111946105957,
+            0.040918704122304916
+          ],
+          "registeredMusclePoint": [
+            0.12423527240753174,
+            1.1757477521896362,
+            0.04556943103671074
+          ]
+        },
+        {
+          "bone": "Left ninth rib",
+          "sourceBone": "Ninth_ribl",
+          "representedInSource": true,
+          "sourcePatchVertices": 90,
+          "sourceGapMm": 0.129,
+          "minimumMm": 0.002,
+          "medianMm": 0.827,
+          "p95Mm": 2.203,
+          "sourceMusclePoint": [
+            0.12126550078392029,
+            1.1173105239868164,
+            0.03473193943500519
+          ],
+          "registeredMusclePoint": [
+            0.11970645934343338,
+            1.1313152313232422,
+            0.033259909600019455
+          ]
+        },
+        {
+          "bone": "Left tenth rib",
+          "sourceBone": "Tenth_ribl",
+          "representedInSource": true,
+          "sourcePatchVertices": 74,
+          "sourceGapMm": 0.216,
+          "minimumMm": 0.042,
+          "medianMm": 0.512,
+          "p95Mm": 1.601,
+          "sourceMusclePoint": [
+            0.12160739302635193,
+            1.1187834739685059,
+            -0.020580070093274117
+          ],
+          "registeredMusclePoint": [
+            0.1150159165263176,
+            1.1297703981399536,
+            -0.019409365952014923
+          ]
+        },
+        {
+          "bone": "Left eleventh rib",
+          "sourceBone": "Eleventh_ribl",
+          "representedInSource": true,
+          "sourcePatchVertices": 44,
+          "sourceGapMm": 0.236,
+          "minimumMm": 0.109,
+          "medianMm": 0.784,
+          "p95Mm": 1.663,
+          "sourceMusclePoint": [
+            0.11066719889640808,
+            1.0643659830093384,
+            -0.00414868351072073
+          ],
+          "registeredMusclePoint": [
+            0.10403341054916382,
+            1.0876388549804688,
+            -0.009069720283150673
+          ]
+        },
+        {
+          "bone": "Left twelfth rib",
+          "sourceBone": "Twelfth_ribl",
+          "representedInSource": true,
+          "sourcePatchVertices": 62,
+          "sourceGapMm": 0.218,
+          "minimumMm": 0.003,
+          "medianMm": 0.565,
+          "p95Mm": 1.803,
+          "sourceMusclePoint": [
+            0.08337537944316864,
+            1.0640006065368652,
+            -0.03726897016167641
+          ],
+          "registeredMusclePoint": [
+            0.08384174853563309,
+            1.091023564338684,
+            -0.03788689896464348
+          ]
+        }
+      ],
+      "areaRatioP01": 0.303,
+      "areaRatioP99": 1.293,
+      "normalDirectionChangeFraction": 0.002563505010487066,
+      "normalDirectionNote": "Source/target normal rotation is descriptive, not evidence of mesh inversion; anatomical bending also rotates normals."
+    },
+    {
+      "id": "ZA-quadratus-lumborum-l",
+      "name": "Left quadratus lumborum",
+      "assetSha256": "82a77924547609e9374bdc628db88e617634b2b7cfdc41942a81eef7fb8f0412",
+      "contacts": [
+        {
+          "bone": "Left hip bone",
+          "sourceBone": "Hip_bonel",
+          "representedInSource": true,
+          "sourcePatchVertices": 26,
+          "sourceGapMm": 0.226,
+          "minimumMm": 0.019,
+          "medianMm": 0.393,
+          "p95Mm": 0.882,
+          "sourceMusclePoint": [
+            0.03964489325881004,
+            0.9620080590248108,
+            -0.07215306907892227
+          ],
+          "registeredMusclePoint": [
+            0.04055625572800636,
+            0.9931432008743286,
+            -0.08528558164834976
+          ]
+        },
+        {
+          "bone": "Left twelfth rib",
+          "sourceBone": "Twelfth_ribl",
+          "representedInSource": true,
+          "sourcePatchVertices": 66,
+          "sourceGapMm": 0.169,
+          "minimumMm": 0.001,
+          "medianMm": 0.212,
+          "p95Mm": 0.899,
+          "sourceMusclePoint": [
+            0.059310153126716614,
+            1.103469967842102,
+            -0.06107126176357269
+          ],
+          "registeredMusclePoint": [
+            0.06358106434345245,
+            1.1201988458633423,
+            -0.06325644254684448
+          ]
+        },
+        {
+          "bone": "First lumbar vertebra",
+          "sourceBone": "Vertebra_L1",
+          "representedInSource": true,
+          "sourcePatchVertices": 12,
+          "sourceGapMm": 0.386,
+          "minimumMm": 0.048,
+          "medianMm": 0.438,
+          "p95Mm": 1.108,
+          "sourceMusclePoint": [
+            0.033756788820028305,
+            1.1081982851028442,
+            -0.04271722957491875
+          ],
+          "registeredMusclePoint": [
+            0.03241255506873131,
+            1.126286268234253,
+            -0.043282948434352875
+          ]
+        },
+        {
+          "bone": "Second lumbar vertebra",
+          "sourceBone": "Vertebra_L2",
+          "representedInSource": true,
+          "sourcePatchVertices": 28,
+          "sourceGapMm": 0.077,
+          "minimumMm": 0.052,
+          "medianMm": 0.306,
+          "p95Mm": 0.954,
+          "sourceMusclePoint": [
+            0.024189261719584465,
+            1.0819728374481201,
+            -0.039756983518600464
+          ],
+          "registeredMusclePoint": [
+            0.023015374317765236,
+            1.1019155979156494,
+            -0.040601182729005814
+          ]
+        },
+        {
+          "bone": "Third lumbar vertebra",
+          "sourceBone": "Vertebra_L3",
+          "representedInSource": true,
+          "sourcePatchVertices": 9,
+          "sourceGapMm": 0.321,
+          "minimumMm": 0.081,
+          "medianMm": 0.133,
+          "p95Mm": 0.396,
+          "sourceMusclePoint": [
+            0.03048865497112274,
+            1.0516010522842407,
+            -0.030997922644019127
+          ],
+          "registeredMusclePoint": [
+            0.029687698930501938,
+            1.0740981101989746,
+            -0.034191399812698364
+          ]
+        },
+        {
+          "bone": "Fourth lumbar vertebra",
+          "sourceBone": "Vertebra_L4",
+          "representedInSource": true,
+          "sourcePatchVertices": 2,
+          "sourceGapMm": 1.987,
+          "minimumMm": 2.935,
+          "medianMm": 2.963,
+          "p95Mm": 2.988,
+          "sourceMusclePoint": [
+            0.028752421960234642,
+            1.0261573791503906,
+            -0.0430271290242672
+          ],
+          "registeredMusclePoint": [
+            0.02714558318257332,
+            1.0533252954483032,
+            -0.048155948519706726
+          ]
+        }
+      ],
+      "areaRatioP01": 0.486,
+      "areaRatioP99": 1.523,
+      "normalDirectionChangeFraction": 0.0014124293785310734,
+      "normalDirectionNote": "Source/target normal rotation is descriptive, not evidence of mesh inversion; anatomical bending also rotates normals."
+    },
+    {
+      "id": "ZA-multifidus-cervicis-l",
+      "name": "Left multifidus cervicis",
+      "assetSha256": "0d16045a9d25637294eb36efd4c4a58e08bb15cee899cadb47c84110030075e2",
+      "contacts": [
+        {
+          "bone": "Third cervical vertebra",
+          "sourceBone": "Vertebra_C3",
+          "representedInSource": true,
+          "sourcePatchVertices": 28,
+          "sourceGapMm": 0.142,
+          "minimumMm": 0.005,
+          "medianMm": 0.237,
+          "p95Mm": 0.689,
+          "sourceMusclePoint": [
+            0.02311788871884346,
+            1.5022172927856445,
+            -0.02628604881465435
+          ],
+          "registeredMusclePoint": [
+            0.022741785272955894,
+            1.5055736303329468,
+            -0.03725732862949371
+          ]
+        },
+        {
+          "bone": "Fourth cervical vertebra",
+          "sourceBone": "Vertebra_C4",
+          "representedInSource": true,
+          "sourcePatchVertices": 18,
+          "sourceGapMm": 0.207,
+          "minimumMm": 0.065,
+          "medianMm": 0.436,
+          "p95Mm": 0.966,
+          "sourceMusclePoint": [
+            0.023588886484503746,
+            1.4935200214385986,
+            -0.025317447260022163
+          ],
+          "registeredMusclePoint": [
+            0.02223106287419796,
+            1.4980363845825195,
+            -0.03483298793435097
+          ]
+        },
+        {
+          "bone": "Fifth cervical vertebra",
+          "sourceBone": "Vertebra_C5",
+          "representedInSource": true,
+          "sourcePatchVertices": 25,
+          "sourceGapMm": 0.196,
+          "minimumMm": 0.258,
+          "medianMm": 0.766,
+          "p95Mm": 1.998,
+          "sourceMusclePoint": [
+            0.005094366613775492,
+            1.4746087789535522,
+            -0.03742166608572006
+          ],
+          "registeredMusclePoint": [
+            0.0043042185716331005,
+            1.4775687456130981,
+            -0.0437760204076767
+          ]
+        },
+        {
+          "bone": "Sixth cervical vertebra",
+          "sourceBone": "Vertebra_C6",
+          "representedInSource": true,
+          "sourcePatchVertices": 22,
+          "sourceGapMm": 0.232,
+          "minimumMm": 0.029,
+          "medianMm": 0.699,
+          "p95Mm": 2.202,
+          "sourceMusclePoint": [
+            0.02149629406630993,
+            1.4706557989120483,
+            -0.02958306483924389
+          ],
+          "registeredMusclePoint": [
+            0.02087440714240074,
+            1.4753587245941162,
+            -0.03424360603094101
+          ]
+        },
+        {
+          "bone": "Seventh cervical vertebra",
+          "sourceBone": "Vertebra_C7",
+          "representedInSource": true,
+          "sourcePatchVertices": 13,
+          "sourceGapMm": 0.173,
+          "minimumMm": 0.167,
+          "medianMm": 1.27,
+          "p95Mm": 2.174,
+          "sourceMusclePoint": [
+            0.02180914394557476,
+            1.4500938653945923,
+            -0.04140940681099892
+          ],
+          "registeredMusclePoint": [
+            0.020569302141666412,
+            1.453317642211914,
+            -0.04371776059269905
+          ]
+        }
+      ],
+      "areaRatioP01": 0.61,
+      "areaRatioP99": 1.613,
+      "normalDirectionChangeFraction": 0.0007194244604316547,
+      "normalDirectionNote": "Source/target normal rotation is descriptive, not evidence of mesh inversion; anatomical bending also rotates normals."
+    },
+    {
+      "id": "ZA-multifidus-thoracis-l",
+      "name": "Left multifidus thoracis",
+      "assetSha256": "582f4b79293c717064581ec4e938f807819bc9c3b6c1f3ac76f51006372edbe7",
+      "contacts": [
+        {
+          "bone": "First thoracic vertebra",
+          "sourceBone": "Vertebra_T1",
+          "representedInSource": true,
+          "sourcePatchVertices": 10,
+          "sourceGapMm": 0.821,
+          "minimumMm": 0.012,
+          "medianMm": 0.427,
+          "p95Mm": 1.132,
+          "sourceMusclePoint": [
+            0.006921184249222279,
+            1.4328020811080933,
+            -0.06251266598701477
+          ],
+          "registeredMusclePoint": [
+            0.005164801143109798,
+            1.4348078966140747,
+            -0.06266611814498901
+          ]
+        },
+        {
+          "bone": "Second thoracic vertebra",
+          "sourceBone": "Vertebra_T2",
+          "representedInSource": true,
+          "sourcePatchVertices": 9,
+          "sourceGapMm": 0.824,
+          "minimumMm": 0.065,
+          "medianMm": 0.477,
+          "p95Mm": 1.501,
+          "sourceMusclePoint": [
+            0.02375900186598301,
+            1.4318526983261108,
+            -0.05186697840690613
+          ],
+          "registeredMusclePoint": [
+            0.022842947393655777,
+            1.4329185485839844,
+            -0.051997117698192596
+          ]
+        },
+        {
+          "bone": "Third thoracic vertebra",
+          "sourceBone": "Vertebra_T3",
+          "representedInSource": true,
+          "sourcePatchVertices": 17,
+          "sourceGapMm": 1.032,
+          "minimumMm": 0.007,
+          "medianMm": 0.369,
+          "p95Mm": 1.517,
+          "sourceMusclePoint": [
+            0.005092378240078688,
+            1.3882598876953125,
+            -0.07780508697032928
+          ],
+          "registeredMusclePoint": [
+            0.0036883230786770582,
+            1.3887640237808228,
+            -0.07714925706386566
+          ]
+        },
+        {
+          "bone": "Fourth thoracic vertebra",
+          "sourceBone": "Vertebra_T4",
+          "representedInSource": true,
+          "sourcePatchVertices": 23,
+          "sourceGapMm": 1.518,
+          "minimumMm": 0.846,
+          "medianMm": 1.562,
+          "p95Mm": 1.929,
+          "sourceMusclePoint": [
+            0.006147834472358227,
+            1.3640410900115967,
+            -0.08404598385095596
+          ],
+          "registeredMusclePoint": [
+            0.0049974145367741585,
+            1.3655056953430176,
+            -0.0830208882689476
+          ]
+        },
+        {
+          "bone": "Fifth thoracic vertebra",
+          "sourceBone": "Vertebra_T5",
+          "representedInSource": true,
+          "sourcePatchVertices": 6,
+          "sourceGapMm": 0.252,
+          "minimumMm": 0.03,
+          "medianMm": 0.744,
+          "p95Mm": 1.378,
+          "sourceMusclePoint": [
+            0.023652929812669754,
+            1.362093210220337,
+            -0.07878753542900085
+          ],
+          "registeredMusclePoint": [
+            0.021860923618078232,
+            1.3643450736999512,
+            -0.0781887099146843
+          ]
+        },
+        {
+          "bone": "Sixth thoracic vertebra",
+          "sourceBone": "Vertebra_T6",
+          "representedInSource": true,
+          "sourcePatchVertices": 2,
+          "sourceGapMm": 0.849,
+          "minimumMm": 0.1,
+          "medianMm": 0.619,
+          "p95Mm": 1.085,
+          "sourceMusclePoint": [
+            0.007896031253039837,
+            1.3049330711364746,
+            -0.08505091071128845
+          ],
+          "registeredMusclePoint": [
+            0.00648083258420229,
+            1.3084948062896729,
+            -0.08439116925001144
+          ]
+        },
+        {
+          "bone": "Seventh thoracic vertebra",
+          "sourceBone": "Vertebra_T7",
+          "representedInSource": true,
+          "sourcePatchVertices": 2,
+          "sourceGapMm": 0.042,
+          "minimumMm": 0.077,
+          "medianMm": 0.727,
+          "p95Mm": 1.312,
+          "sourceMusclePoint": [
+            0.003015186870470643,
+            1.2668406963348389,
+            -0.0868101492524147
+          ],
+          "registeredMusclePoint": [
+            0.0019825706258416176,
+            1.271010160446167,
+            -0.08647599071264267
+          ]
+        },
+        {
+          "bone": "Eighth thoracic vertebra",
+          "sourceBone": "Vertebra_T8",
+          "representedInSource": true,
+          "sourcePatchVertices": 7,
+          "sourceGapMm": 1.651,
+          "minimumMm": 0.821,
+          "medianMm": 1.103,
+          "p95Mm": 1.301,
+          "sourceMusclePoint": [
+            0.004545221105217934,
+            1.239301323890686,
+            -0.08459632098674774
+          ],
+          "registeredMusclePoint": [
+            0.003109407378360629,
+            1.2442044019699097,
+            -0.08425245434045792
+          ]
+        },
+        {
+          "bone": "Ninth thoracic vertebra",
+          "sourceBone": "Vertebra_T9",
+          "representedInSource": true,
+          "sourcePatchVertices": 5,
+          "sourceGapMm": 0.4,
+          "minimumMm": 0.055,
+          "medianMm": 0.573,
+          "p95Mm": 0.885,
+          "sourceMusclePoint": [
+            0.026987144723534584,
+            1.2378551959991455,
+            -0.08524267375469208
+          ],
+          "registeredMusclePoint": [
+            0.027191776782274246,
+            1.2430704832077026,
+            -0.08330558985471725
+          ]
+        },
+        {
+          "bone": "Tenth thoracic vertebra",
+          "sourceBone": "Vertebra_T10",
+          "representedInSource": true,
+          "sourcePatchVertices": 9,
+          "sourceGapMm": 0.646,
+          "minimumMm": 0.002,
+          "medianMm": 0.152,
+          "p95Mm": 1.159,
+          "sourceMusclePoint": [
+            0.026466840878129005,
+            1.206519365310669,
+            -0.07503070682287216
+          ],
+          "registeredMusclePoint": [
+            0.024318398907780647,
+            1.2147705554962158,
+            -0.07545029371976852
+          ]
+        },
+        {
+          "bone": "Eleventh thoracic vertebra",
+          "sourceBone": "Vertebra_T11",
+          "representedInSource": true,
+          "sourcePatchVertices": 12,
+          "sourceGapMm": 1.017,
+          "minimumMm": 0.083,
+          "medianMm": 0.809,
+          "p95Mm": 1.405,
+          "sourceMusclePoint": [
+            0.014961914159357548,
+            1.177187442779541,
+            -0.06423136591911316
+          ],
+          "registeredMusclePoint": [
+            0.014084569178521633,
+            1.1887803077697754,
+            -0.06496009230613708
+          ]
+        },
+        {
+          "bone": "Twelfth thoracic vertebra",
+          "sourceBone": "Vertebra_T12",
+          "representedInSource": true,
+          "sourcePatchVertices": 17,
+          "sourceGapMm": 0.38,
+          "minimumMm": 0.004,
+          "medianMm": 0.477,
+          "p95Mm": 1.053,
+          "sourceMusclePoint": [
+            0.020396921783685684,
+            1.1529425382614136,
+            -0.06148366630077362
+          ],
+          "registeredMusclePoint": [
+            0.019205667078495026,
+            1.1672395467758179,
+            -0.06180138140916824
+          ]
+        }
+      ],
+      "areaRatioP01": 0.6,
+      "areaRatioP99": 1.31,
+      "normalDirectionChangeFraction": 0.0007688364941055869,
+      "normalDirectionNote": "Source/target normal rotation is descriptive, not evidence of mesh inversion; anatomical bending also rotates normals."
+    },
+    {
+      "id": "ZA-multifidus-lumborum-l",
+      "name": "Left multifidus lumborum",
+      "assetSha256": "f38d717a624916b5d6d8edf1f9723901fb34d700384b1073de36d1638b89b9bb",
+      "contacts": [
+        {
+          "bone": "Sacrum",
+          "sourceBone": "Sacrum",
+          "representedInSource": true,
+          "sourcePatchVertices": 7,
+          "sourceGapMm": 18.959,
+          "minimumMm": 0.0,
+          "medianMm": 0.679,
+          "p95Mm": 1.194,
+          "reconstructedCaudalFascicle": true,
+          "boneAnchor": [
+            0.019573800265789032,
+            0.9726101756095886,
+            -0.07380790263414383
+          ],
+          "attachmentGapMm": 0.0,
+          "sourceMusclePoint": [
+            0.03420285880565643,
+            0.9977877140045166,
+            -0.039252590388059616
+          ],
+          "registeredMusclePoint": [
+            0.032238248735666275,
+            1.0229287147521973,
+            -0.05072154477238655
+          ]
+        },
+        {
+          "bone": "First lumbar vertebra",
+          "sourceBone": "Vertebra_L1",
+          "representedInSource": true,
+          "sourcePatchVertices": 72,
+          "sourceGapMm": 0.036,
+          "minimumMm": 0.0,
+          "medianMm": 0.264,
+          "p95Mm": 1.334,
+          "sourceMusclePoint": [
+            0.013082771562039852,
+            1.0867770910263062,
+            -0.04500427842140198
+          ],
+          "registeredMusclePoint": [
+            0.011624514125287533,
+            1.1047483682632446,
+            -0.04544203728437424
+          ]
+        },
+        {
+          "bone": "Second lumbar vertebra",
+          "sourceBone": "Vertebra_L2",
+          "representedInSource": true,
+          "sourcePatchVertices": 47,
+          "sourceGapMm": 0.126,
+          "minimumMm": 0.004,
+          "medianMm": 0.371,
+          "p95Mm": 1.214,
+          "sourceMusclePoint": [
+            0.014679908752441406,
+            1.0679277181625366,
+            -0.03994164615869522
+          ],
+          "registeredMusclePoint": [
+            0.01312717143446207,
+            1.0874847173690796,
+            -0.041070856153964996
+          ]
+        },
+        {
+          "bone": "Third lumbar vertebra",
+          "sourceBone": "Vertebra_L3",
+          "representedInSource": true,
+          "sourcePatchVertices": 67,
+          "sourceGapMm": 0.13,
+          "minimumMm": 0.004,
+          "medianMm": 0.25,
+          "p95Mm": 1.081,
+          "sourceMusclePoint": [
+            0.009206146001815796,
+            1.0316959619522095,
+            -0.044351983815431595
+          ],
+          "registeredMusclePoint": [
+            0.00848527904599905,
+            1.0560157299041748,
+            -0.048995573073625565
+          ]
+        },
+        {
+          "bone": "Fourth lumbar vertebra",
+          "sourceBone": "Vertebra_L4",
+          "representedInSource": true,
+          "sourcePatchVertices": 52,
+          "sourceGapMm": 0.177,
+          "minimumMm": 0.01,
+          "medianMm": 0.292,
+          "p95Mm": 1.055,
+          "sourceMusclePoint": [
+            0.010389861650764942,
+            1.009564757347107,
+            -0.042031120508909225
+          ],
+          "registeredMusclePoint": [
+            0.009124450385570526,
+            1.0387297868728638,
+            -0.048668667674064636
+          ]
+        },
+        {
+          "bone": "Fifth lumbar vertebra",
+          "sourceBone": "Vertebra_L5",
+          "representedInSource": true,
+          "sourcePatchVertices": 36,
+          "sourceGapMm": 0.162,
+          "minimumMm": 0.015,
+          "medianMm": 0.386,
+          "p95Mm": 1.431,
+          "sourceMusclePoint": [
+            0.038631342351436615,
+            0.9976692199707031,
+            -0.031509436666965485
+          ],
+          "registeredMusclePoint": [
+            0.0361933633685112,
+            1.0224738121032715,
+            -0.043149400502443314
+          ]
+        }
+      ],
+      "areaRatioP01": 0.524,
+      "areaRatioP99": 1.336,
+      "normalDirectionChangeFraction": 0.0007092198581560284,
+      "normalDirectionNote": "Source/target normal rotation is descriptive, not evidence of mesh inversion; anatomical bending also rotates normals."
+    },
+    {
+      "id": "ZA-extensor-digitorum-brevis-l",
+      "name": "Left extensor digitorum brevis",
+      "assetSha256": "ded1e018ff577160fa308b9989d789b1961dff967ecac89d291d26a2d5820337",
+      "contacts": [
+        {
+          "bone": "Left calcaneus",
+          "sourceBone": "Calcaneusl",
+          "representedInSource": true,
+          "sourcePatchVertices": 64,
+          "sourceGapMm": 0.106,
+          "minimumMm": 0.058,
+          "medianMm": 0.632,
+          "p95Mm": 1.083,
+          "sourceMusclePoint": [
+            0.10102155804634094,
+            0.052825383841991425,
+            -0.024913929402828217
+          ],
+          "registeredMusclePoint": [
+            0.09982199221849442,
+            0.050660137087106705,
+            -0.017822759225964546
+          ]
+        },
+        {
+          "bone": "Middle phalanx of left second toe",
+          "sourceBone": "Middle_phalanx_of_second_finger_of_footl",
+          "representedInSource": true,
+          "sourcePatchVertices": 53,
+          "sourceGapMm": 0.203,
+          "minimumMm": 0.027,
+          "medianMm": 0.284,
+          "p95Mm": 0.873,
+          "sourceMusclePoint": [
+            0.10211914777755737,
+            0.020701223984360695,
+            0.1131306067109108
+          ],
+          "registeredMusclePoint": [
+            0.13211607933044434,
+            0.018451329320669174,
+            0.11125334352254868
+          ]
+        },
+        {
+          "bone": "Middle phalanx of left third toe",
+          "sourceBone": "Middle_phalanx_of_third_finger_of_footl",
+          "representedInSource": true,
+          "sourcePatchVertices": 46,
+          "sourceGapMm": 0.18,
+          "minimumMm": 0.0,
+          "medianMm": 0.325,
+          "p95Mm": 1.033,
+          "sourceMusclePoint": [
+            0.11401436477899551,
+            0.01782340370118618,
+            0.10977096855640411
+          ],
+          "registeredMusclePoint": [
+            0.14239870011806488,
+            0.0161709226667881,
+            0.1045684665441513
+          ]
+        },
+        {
+          "bone": "Middle phalanx of left fourth toe",
+          "sourceBone": "Middle_phalanx_of_fourth_finger_of_footl",
+          "representedInSource": true,
+          "sourcePatchVertices": 43,
+          "sourceGapMm": 0.269,
+          "minimumMm": 0.021,
+          "medianMm": 0.552,
+          "p95Mm": 0.945,
+          "sourceMusclePoint": [
+            0.12740889191627502,
+            0.01796082779765129,
+            0.09507635980844498
+          ],
+          "registeredMusclePoint": [
+            0.1518319845199585,
+            0.015967220067977905,
+            0.08898421376943588
+          ]
+        }
+      ],
+      "areaRatioP01": 0.497,
+      "areaRatioP99": 1.686,
+      "normalDirectionChangeFraction": 0.002826633165829146,
+      "normalDirectionNote": "Source/target normal rotation is descriptive, not evidence of mesh inversion; anatomical bending also rotates normals."
+    },
+    {
+      "id": "ZA-first-dorsal-interosseous-of-foot-l",
+      "name": "Left first dorsal interosseous of foot",
+      "assetSha256": "9e4fa66aa5fa211c1e4155f2ddb67113ca0c93260465f05161a783247ba42b57",
+      "contacts": [
+        {
+          "bone": "Left first metatarsal bone",
+          "sourceBone": "First_metatarsal_bonel",
+          "representedInSource": true,
+          "sourcePatchVertices": 15,
+          "sourceGapMm": 0.261,
+          "minimumMm": 0.065,
+          "medianMm": 0.562,
+          "p95Mm": 1.119,
+          "sourceMusclePoint": [
+            0.0765887126326561,
+            0.04469001293182373,
+            0.04866693168878555
+          ],
+          "registeredMusclePoint": [
+            0.09371936321258545,
+            0.04127433896064758,
+            0.056836482137441635
+          ]
+        },
+        {
+          "bone": "Left second metatarsal bone",
+          "sourceBone": "Second_metatarsal_bonel",
+          "representedInSource": true,
+          "sourcePatchVertices": 1,
+          "sourceGapMm": 0.704,
+          "minimumMm": 0.001,
+          "medianMm": 0.001,
+          "p95Mm": 0.001,
+          "sourceMusclePoint": [
+            0.08718562126159668,
+            0.03266587853431702,
+            0.06789873540401459
+          ],
+          "registeredMusclePoint": [
+            0.10857368260622025,
+            0.02915642410516739,
+            0.07310501486063004
+          ]
+        },
+        {
+          "bone": "Proximal phalanx of left second toe",
+          "sourceBone": "Proximal_phalanx_of_second_finger_of_footl",
+          "representedInSource": true,
+          "sourcePatchVertices": 14,
+          "sourceGapMm": 0.486,
+          "minimumMm": 0.029,
+          "medianMm": 0.264,
+          "p95Mm": 0.621,
+          "sourceMusclePoint": [
+            0.08667998015880585,
+            0.021240321919322014,
+            0.08551070839166641
+          ],
+          "registeredMusclePoint": [
+            0.11212258785963058,
+            0.01899781823158264,
+            0.08895793557167053
+          ]
+        }
+      ],
+      "areaRatioP01": 0.585,
+      "areaRatioP99": 1.683,
+      "normalDirectionChangeFraction": 0.004310344827586207,
+      "normalDirectionNote": "Source/target normal rotation is descriptive, not evidence of mesh inversion; anatomical bending also rotates normals."
+    },
+    {
+      "id": "ZA-second-dorsal-interosseous-of-foot-l",
+      "name": "Left second dorsal interosseous of foot",
+      "assetSha256": "fa232ac228b3e732c2db58826fecd90d2d07de8ea64becb11e9271eadde8cd26",
+      "contacts": [
+        {
+          "bone": "Left second metatarsal bone",
+          "sourceBone": "Second_metatarsal_bonel",
+          "representedInSource": true,
+          "sourcePatchVertices": 18,
+          "sourceGapMm": 0.238,
+          "minimumMm": 0.02,
+          "medianMm": 0.404,
+          "p95Mm": 0.777,
+          "sourceMusclePoint": [
+            0.09525611251592636,
+            0.03183826431632042,
+            0.07026664167642593
+          ],
+          "registeredMusclePoint": [
+            0.1167716234922409,
+            0.028371548280119896,
+            0.07331617176532745
+          ]
+        },
+        {
+          "bone": "Left third metatarsal bone",
+          "sourceBone": "Third_metatarsal_bonel",
+          "representedInSource": true,
+          "sourcePatchVertices": 18,
+          "sourceGapMm": 0.28,
+          "minimumMm": 0.007,
+          "medianMm": 0.309,
+          "p95Mm": 1.023,
+          "sourceMusclePoint": [
+            0.10393862426280975,
+            0.03225383535027504,
+            0.06688904762268066
+          ],
+          "registeredMusclePoint": [
+            0.12422601878643036,
+            0.02860727719962597,
+            0.06932511925697327
+          ]
+        },
+        {
+          "bone": "Proximal phalanx of left second toe",
+          "sourceBone": "Proximal_phalanx_of_second_finger_of_footl",
+          "representedInSource": true,
+          "sourcePatchVertices": 12,
+          "sourceGapMm": 0.28,
+          "minimumMm": 0.003,
+          "medianMm": 0.32,
+          "p95Mm": 0.858,
+          "sourceMusclePoint": [
+            0.0992056280374527,
+            0.023332908749580383,
+            0.08279000967741013
+          ],
+          "registeredMusclePoint": [
+            0.12256322056055069,
+            0.020748089998960495,
+            0.08373994380235672
+          ]
+        }
+      ],
+      "areaRatioP01": 0.601,
+      "areaRatioP99": 1.615,
+      "normalDirectionChangeFraction": 0.005952380952380952,
+      "normalDirectionNote": "Source/target normal rotation is descriptive, not evidence of mesh inversion; anatomical bending also rotates normals."
+    },
+    {
+      "id": "ZA-third-dorsal-interosseous-of-foot-l",
+      "name": "Left third dorsal interosseous of foot",
+      "assetSha256": "9f61a38e0b5941b92bba9ef4256a820f2b224a6ad532179777b376732335fe75",
+      "contacts": [
+        {
+          "bone": "Left third metatarsal bone",
+          "sourceBone": "Third_metatarsal_bonel",
+          "representedInSource": true,
+          "sourcePatchVertices": 26,
+          "sourceGapMm": 0.11,
+          "minimumMm": 0.017,
+          "medianMm": 0.29,
+          "p95Mm": 0.971,
+          "sourceMusclePoint": [
+            0.1059151440858841,
+            0.03705111891031265,
+            0.04593297839164734
+          ],
+          "registeredMusclePoint": [
+            0.11926698684692383,
+            0.03461015969514847,
+            0.04587957262992859
+          ]
+        },
+        {
+          "bone": "Left fourth metatarsal bone",
+          "sourceBone": "Fourth_metatarsal_bonel",
+          "representedInSource": true,
+          "sourcePatchVertices": 7,
+          "sourceGapMm": 0.541,
+          "minimumMm": 0.135,
+          "medianMm": 0.512,
+          "p95Mm": 1.217,
+          "sourceMusclePoint": [
+            0.10800010710954666,
+            0.041772209107875824,
+            0.027960430830717087
+          ],
+          "registeredMusclePoint": [
+            0.11794674396514893,
+            0.03963569179177284,
+            0.029026968404650688
+          ]
+        },
+        {
+          "bone": "Proximal phalanx of left third toe",
+          "sourceBone": "Proximal_phalanx_of_third_finger_of_footl",
+          "representedInSource": true,
+          "sourcePatchVertices": 8,
+          "sourceGapMm": 0.283,
+          "minimumMm": 0.467,
+          "medianMm": 0.734,
+          "p95Mm": 1.035,
+          "sourceMusclePoint": [
+            0.11266025900840759,
+            0.020190222188830376,
+            0.07825826108455658
+          ],
+          "registeredMusclePoint": [
+            0.13423189520835876,
+            0.018226759508252144,
+            0.0760607123374939
+          ]
+        }
+      ],
+      "areaRatioP01": 0.601,
+      "areaRatioP99": 1.58,
+      "normalDirectionChangeFraction": 0.0,
+      "normalDirectionNote": "Source/target normal rotation is descriptive, not evidence of mesh inversion; anatomical bending also rotates normals."
+    },
+    {
+      "id": "ZA-fourth-dorsal-interosseous-of-foot-l",
+      "name": "Left fourth dorsal interosseous of foot",
+      "assetSha256": "8bd824133c9255273bdc5ba901470ac2d87f873ffa6ce11a12c334aff612285f",
+      "contacts": [
+        {
+          "bone": "Left fourth metatarsal bone",
+          "sourceBone": "Fourth_metatarsal_bonel",
+          "representedInSource": true,
+          "sourcePatchVertices": 10,
+          "sourceGapMm": 0.53,
+          "minimumMm": 0.089,
+          "medianMm": 0.561,
+          "p95Mm": 1.018,
+          "sourceMusclePoint": [
+            0.11690156906843185,
+            0.03251396492123604,
+            0.0435297004878521
+          ],
+          "registeredMusclePoint": [
+            0.12893199920654297,
+            0.026623757556080818,
+            0.042100321501493454
+          ]
+        },
+        {
+          "bone": "Left fifth metatarsal bone",
+          "sourceBone": "Fifth_metatarsal_bonel",
+          "representedInSource": true,
+          "sourcePatchVertices": 28,
+          "sourceGapMm": 0.475,
+          "minimumMm": 0.029,
+          "medianMm": 0.509,
+          "p95Mm": 0.956,
+          "sourceMusclePoint": [
+            0.12470980733633041,
+            0.023882126435637474,
+            0.04719281569123268
+          ],
+          "registeredMusclePoint": [
+            0.138570174574852,
+            0.02125677280128002,
+            0.04338807985186577
+          ]
+        },
+        {
+          "bone": "Proximal phalanx of left fourth toe",
+          "sourceBone": "Proximal_phalanx_of_fourth_finger_of_footl",
+          "representedInSource": true,
+          "sourcePatchVertices": 5,
+          "sourceGapMm": 0.363,
+          "minimumMm": 0.059,
+          "medianMm": 0.112,
+          "p95Mm": 0.408,
+          "sourceMusclePoint": [
+            0.12482381612062454,
+            0.017957935109734535,
+            0.06893542408943176
+          ],
+          "registeredMusclePoint": [
+            0.1431930512189865,
+            0.015790054574608803,
+            0.0649375468492508
+          ]
+        }
+      ],
+      "areaRatioP01": 0.504,
+      "areaRatioP99": 1.54,
+      "normalDirectionChangeFraction": 0.00646551724137931,
+      "normalDirectionNote": "Source/target normal rotation is descriptive, not evidence of mesh inversion; anatomical bending also rotates normals."
+    }
+  ],
+  "connective": [
+    {
+      "id": "ZA-posterior-layer-of-thoracolumbar-fascia-r",
+      "name": "Right posterior layer of thoracolumbar fascia",
+      "assetSha256": "ed5e12abf7d630295af551b6034164701ea6f3a19b8490426b9eafd7de36924e",
+      "contacts": [
+        {
+          "bone": "Right hip bone",
+          "sourceGapMm": 0.686,
+          "registeredGapMm": 0.114,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        },
+        {
+          "bone": "First lumbar vertebra",
+          "sourceGapMm": 2.42,
+          "registeredGapMm": 2.336,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        },
+        {
+          "bone": "Second lumbar vertebra",
+          "sourceGapMm": 5.574,
+          "registeredGapMm": 5.408,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        },
+        {
+          "bone": "Third lumbar vertebra",
+          "sourceGapMm": 7.507,
+          "registeredGapMm": 5.377,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        },
+        {
+          "bone": "Fourth lumbar vertebra",
+          "sourceGapMm": 4.372,
+          "registeredGapMm": 1.556,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        },
+        {
+          "bone": "Fifth lumbar vertebra",
+          "sourceGapMm": 0.445,
+          "registeredGapMm": 0.311,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        }
+      ],
+      "relatedMuscles": [
+        "latissimus dorsi",
+        "internal oblique",
+        "transversus abdominis",
+        "multifidus lumborum"
+      ]
+    },
+    {
+      "id": "ZA-middle-layer-of-thoracolumbar-fascia-r",
+      "name": "Right middle layer of thoracolumbar fascia",
+      "assetSha256": "4890a859a048f6525b7bf199230de23115d852c63b8401d429274d88d7be0e7b",
+      "contacts": [
+        {
+          "bone": "Right hip bone",
+          "sourceGapMm": 1.534,
+          "registeredGapMm": 0.154,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        },
+        {
+          "bone": "First lumbar vertebra",
+          "sourceGapMm": 4.665,
+          "registeredGapMm": 3.95,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        },
+        {
+          "bone": "Second lumbar vertebra",
+          "sourceGapMm": 12.02,
+          "registeredGapMm": 0.099,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        },
+        {
+          "bone": "Third lumbar vertebra",
+          "sourceGapMm": 11.852,
+          "registeredGapMm": 3.236,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        },
+        {
+          "bone": "Fourth lumbar vertebra",
+          "sourceGapMm": 12.807,
+          "registeredGapMm": 8.374,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        },
+        {
+          "bone": "Fifth lumbar vertebra",
+          "sourceGapMm": 14.225,
+          "registeredGapMm": 0.537,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        }
+      ],
+      "relatedMuscles": [
+        "transversus abdominis",
+        "internal oblique",
+        "quadratus lumborum"
+      ]
+    },
+    {
+      "id": "ZA-anterior-layer-of-thoracolumbar-fascia-r",
+      "name": "Right anterior layer of thoracolumbar fascia",
+      "assetSha256": "a567c1ea79a8ce00414409f8168d0b79e8190510a18c12880111aa63fb16880f",
+      "contacts": [
+        {
+          "bone": "Right hip bone",
+          "sourceGapMm": 2.666,
+          "registeredGapMm": 1.031,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        },
+        {
+          "bone": "First lumbar vertebra",
+          "sourceGapMm": 3.378,
+          "registeredGapMm": 3.681,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        },
+        {
+          "bone": "Second lumbar vertebra",
+          "sourceGapMm": 6.047,
+          "registeredGapMm": 5.281,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        },
+        {
+          "bone": "Third lumbar vertebra",
+          "sourceGapMm": 7.491,
+          "registeredGapMm": 7.884,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        },
+        {
+          "bone": "Fourth lumbar vertebra",
+          "sourceGapMm": 2.922,
+          "registeredGapMm": 3.36,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        },
+        {
+          "bone": "Fifth lumbar vertebra",
+          "sourceGapMm": 1.43,
+          "registeredGapMm": 0.791,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        }
+      ],
+      "relatedMuscles": [
+        "quadratus lumborum"
+      ]
+    },
+    {
+      "id": "ZA-linea-alba",
+      "name": "Linea alba",
+      "assetSha256": "9908f3da5a2a096e7979841dbeeb2fc80aa20cd3e8561f5d49ed4e11730a4b5f",
+      "contacts": [
+        {
+          "bone": "Xiphoid process",
+          "sourceGapMm": 0.301,
+          "registeredGapMm": 0.055,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        },
+        {
+          "bone": "Right hip bone",
+          "sourceGapMm": 2.218,
+          "registeredGapMm": 0.644,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        },
+        {
+          "bone": "Left hip bone",
+          "sourceGapMm": 1.794,
+          "registeredGapMm": 0.241,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        }
+      ],
+      "relatedMuscles": [
+        "rectus abdominis",
+        "external oblique",
+        "internal oblique",
+        "transversus abdominis"
+      ]
+    },
+    {
+      "id": "ZA-posterior-layer-of-thoracolumbar-fascia-l",
+      "name": "Left posterior layer of thoracolumbar fascia",
+      "assetSha256": "cc2427deae69d5bdd727dabf6997310c0ac9a377cdf340385b2a2590ed7181cd",
+      "contacts": [
+        {
+          "bone": "Left hip bone",
+          "sourceGapMm": 0.686,
+          "registeredGapMm": 0.008,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        },
+        {
+          "bone": "First lumbar vertebra",
+          "sourceGapMm": 2.42,
+          "registeredGapMm": 2.291,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        },
+        {
+          "bone": "Second lumbar vertebra",
+          "sourceGapMm": 5.574,
+          "registeredGapMm": 5.523,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        },
+        {
+          "bone": "Third lumbar vertebra",
+          "sourceGapMm": 7.505,
+          "registeredGapMm": 5.306,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        },
+        {
+          "bone": "Fourth lumbar vertebra",
+          "sourceGapMm": 4.372,
+          "registeredGapMm": 1.656,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        },
+        {
+          "bone": "Fifth lumbar vertebra",
+          "sourceGapMm": 0.445,
+          "registeredGapMm": 0.463,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        }
+      ],
+      "relatedMuscles": [
+        "latissimus dorsi",
+        "internal oblique",
+        "transversus abdominis",
+        "multifidus lumborum"
+      ]
+    },
+    {
+      "id": "ZA-middle-layer-of-thoracolumbar-fascia-l",
+      "name": "Left middle layer of thoracolumbar fascia",
+      "assetSha256": "d97515566ac427b1fb6acd3120f06f1a77024973cde1470d83451e19241016d4",
+      "contacts": [
+        {
+          "bone": "Left hip bone",
+          "sourceGapMm": 1.534,
+          "registeredGapMm": 0.007,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        },
+        {
+          "bone": "First lumbar vertebra",
+          "sourceGapMm": 4.665,
+          "registeredGapMm": 3.635,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        },
+        {
+          "bone": "Second lumbar vertebra",
+          "sourceGapMm": 12.02,
+          "registeredGapMm": 0.275,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        },
+        {
+          "bone": "Third lumbar vertebra",
+          "sourceGapMm": 11.843,
+          "registeredGapMm": 2.185,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        },
+        {
+          "bone": "Fourth lumbar vertebra",
+          "sourceGapMm": 12.807,
+          "registeredGapMm": 7.819,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        },
+        {
+          "bone": "Fifth lumbar vertebra",
+          "sourceGapMm": 14.225,
+          "registeredGapMm": 0.852,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        }
+      ],
+      "relatedMuscles": [
+        "transversus abdominis",
+        "internal oblique",
+        "quadratus lumborum"
+      ]
+    },
+    {
+      "id": "ZA-anterior-layer-of-thoracolumbar-fascia-l",
+      "name": "Left anterior layer of thoracolumbar fascia",
+      "assetSha256": "682925139d9637342ef8aa37fc4d798f970558128ca8d2183ffd07402ba55c07",
+      "contacts": [
+        {
+          "bone": "Left hip bone",
+          "sourceGapMm": 2.666,
+          "registeredGapMm": 0.564,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        },
+        {
+          "bone": "First lumbar vertebra",
+          "sourceGapMm": 3.378,
+          "registeredGapMm": 3.652,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        },
+        {
+          "bone": "Second lumbar vertebra",
+          "sourceGapMm": 6.047,
+          "registeredGapMm": 5.066,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        },
+        {
+          "bone": "Third lumbar vertebra",
+          "sourceGapMm": 7.471,
+          "registeredGapMm": 8.528,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        },
+        {
+          "bone": "Fourth lumbar vertebra",
+          "sourceGapMm": 2.922,
+          "registeredGapMm": 3.746,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        },
+        {
+          "bone": "Fifth lumbar vertebra",
+          "sourceGapMm": 1.43,
+          "registeredGapMm": 0.765,
+          "interpretation": "source connective attachment/context; broad tissue boundary is not an individual tendon footprint"
+        }
+      ],
+      "relatedMuscles": [
+        "quadratus lumborum"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1465 @@
+{
+  "source": "https://github.com/LluisV/Z-Anatomy/tree/PC-Version/Z-Anatomy%20PC/Assets/Models/Layers/Muscles",
+  "license": "CC-BY-SA-4.0",
+  "attribution": "Z-Anatomy — Gauthier Kervyn, Marcin Zielinski, Lluis Vinent",
+  "retrieved": "2026-10-03",
+  "order": "Research reference only: depth 0 = source Muscles-9, depth 8 = source Muscles-1; source Muscles-10 contains bursae and tendon sheaths; not used for product peel steps",
+  "layers": [
+    {
+      "level": 1,
+      "names": [
+        "Levator anguli oris.l",
+        "Geniohyoid muscle.r",
+        "Geniohyoid muscle.l",
+        "External part of thyro-arytenoid muscle.r",
+        "External part of thyro-arytenoid muscle.l",
+        "Ary-epiglottic part of oblique arytenoid muscle.r",
+        "Ary-epiglottic part of oblique arytenoid muscle.l",
+        "Transverse arytenoid muscle",
+        "Lateral crico-arytenoid muscle.r",
+        "Lateral crico-arytenoid muscle.l",
+        "Posterior crico-arytenoid muscle.r",
+        "Posterior crico-arytenoid muscle.l",
+        "Scalenus posterior muscle.r",
+        "Longus capitis muscle.r",
+        "Longus colli muscle.r",
+        "Rectus anterior capitis muscle.r",
+        "Rectus lateralis capitis muscle.r",
+        "Scalenus posterior muscle.l",
+        "Longus capitis muscle.l",
+        "Longus colli muscle.l",
+        "Rectus anterior capitis muscle.l",
+        "Rectus lateralis capitis muscle.l",
+        "Multifidus colli muscle.r",
+        "Multifidus thoracis muscle.r",
+        "Multifidus lumborum muscle.r",
+        "Multifidus colli muscle.l",
+        "Multifidus thoracis muscle.l",
+        "Multifidus lumborum muscle.l",
+        "Dorsal parts of lateral intertransversarii lumborum muscles.r",
+        "Ventral parts of lateral intertransversarii lumborum muscles.r",
+        "Dorsal parts of lateral intertransversarii lumborum muscles.l",
+        "Ventral parts of lateral intertransversarii lumborum muscles.l",
+        "Coccygeus muscle.r",
+        "Pubococcygeus muscle.r",
+        "Coccygeus muscle.l",
+        "Pubococcygeus muscle.l",
+        "Pronator quadratus.r",
+        "Pronator quadratus.l",
+        "Abductor pollicis longus.r",
+        "Extensor pollicis brevis.r",
+        "Extensor pollicis longus.r",
+        "Abductor pollicis longus.l",
+        "Extensor pollicis brevis.l",
+        "Extensor pollicis longus.l",
+        "Dorsal interossei muscles of hand.r",
+        "Palmar interossei muscles.r",
+        "Dorsal interossei muscles of hand.l",
+        "Palmar interossei muscles.l",
+        "(Adductor minimus).r",
+        "(Adductor minimus).l",
+        "Lateral head of flexor hallucis brevis.r",
+        "Lateral head of flexor hallucis brevis.l",
+        "Oblique head of adductor hallucis.r",
+        "Transverse head of adductor hallucis.r",
+        "Oblique head of adductor hallucis.l",
+        "Transverse head of adductor hallucis.l",
+        "Dorsal interossei muscles of foot.r",
+        "Lumbrical muscles of foot.r",
+        "(Opponens digiti minimi muscle of foot).r",
+        "Plantar interossei muscles.r",
+        "Dorsal interossei muscles of foot.l",
+        "Lumbrical muscles of foot.l",
+        "(Opponens digiti minimi muscle of foot).l",
+        "Plantar interossei muscles.l",
+        "Tendinous arch of levator ani.r",
+        "Tendinous arch of levator ani.l",
+        "Inguinal ligament.l",
+        "Inguinal ligament.r"
+      ]
+    },
+    {
+      "level": 2,
+      "names": [
+        "Genioglossus muscle.r",
+        "Genioglossus muscle.l",
+        "Palatopharyngeus muscle.r",
+        "Palatopharyngeus muscle.l",
+        "Stylopharyngeus muscle.r",
+        "Stylopharyngeus muscle.l",
+        "Oblique part of cricothyroid muscle.r",
+        "Straight part of cricothyroid muscle.r",
+        "Oblique part of cricothyroid muscle.l",
+        "Straight part of cricothyroid muscle.l",
+        "Obliquus inferior capitis muscle.r",
+        "Obliquus superior capitis muscle.r",
+        "Rectus posterior major capitis muscle.r",
+        "Rectus posterior minor capitis muscle.r",
+        "Obliquus inferior capitis muscle.l",
+        "Obliquus superior capitis muscle.l",
+        "Rectus posterior major capitis muscle.l",
+        "Rectus posterior minor capitis muscle.l",
+        "Semispinalis thoracis muscle.r",
+        "Semispinalis colli muscle.r",
+        "Semispinalis thoracis muscle.l",
+        "Semispinalis colli muscle.l",
+        "Rotatores.l",
+        "Rotatores.r",
+        "Levatores breves costarum.r",
+        "Levatores breves costarum.l",
+        "Diaphragm",
+        "Iliococcygeus muscle.r",
+        "Iliococcygeus muscle.l",
+        "Flexor pollicis longus.r",
+        "Flexor pollicis longus.l",
+        "Ulnar head of extensor carpi ulnaris.r",
+        "Ulnar head of extensor carpi ulnaris.l",
+        "Supinator.r",
+        "Supinator.l",
+        "Extensor indicis.r",
+        "Extensor indicis.l",
+        "Transverse head of adductor pollicis.r",
+        "Transverse head of adductor pollicis.l",
+        "Iliacus muscle.r",
+        "Iliacus muscle.l",
+        "Adductor brevis.r",
+        "Adductor brevis.l",
+        "Medial head of flexor hallucis brevis.r",
+        "Medial head of flexor hallucis brevis.l",
+        "Extensor digitorum brevis.r",
+        "Flexor digiti minimi of foot.r",
+        "Quadratus plantae muscle.r",
+        "Extensor digitorum brevis.l",
+        "Flexor digiti minimi of foot.l",
+        "Quadratus plantae muscle.l"
+      ]
+    },
+    {
+      "level": 3,
+      "names": [
+        "Superior oblique muscle.l",
+        "Superior oblique muscle.r",
+        "Common tendinous ring.r",
+        "Inferior oblique muscle.r",
+        "Trochlea of superior oblique muscle.r",
+        "Common tendinous ring.l",
+        "Inferior oblique muscle.l",
+        "Trochlea of superior oblique muscle.l",
+        "Medial pterygoid muscle.r",
+        "Medial pterygoid muscle.l",
+        "Inferior head of lateral pterygoid muscle.r",
+        "Superior head of lateral pterygoid muscle.r",
+        "Inferior head of lateral pterygoid muscle.l",
+        "Superior head of lateral pterygoid muscle.l",
+        "Hyoglossus muscle.r",
+        "Hyoglossus muscle.l",
+        "Superior pharyngeal constrictor.r",
+        "Superior pharyngeal constrictor.l",
+        "Middle pharyngeal constrictor.r",
+        "Middle pharyngeal constrictor.l",
+        "Inferior pharyngeal constrictor.r",
+        "Inferior pharyngeal constrictor.l",
+        "Thyro-epiglottic part of thyro-arytenoid muscle.r",
+        "Thyro-epiglottic part of thyro-arytenoid muscle.l",
+        "Spinalis capitis muscle.r",
+        "Spinalis colli muscle.r",
+        "Spinalis thoracis muscle.r",
+        "Spinalis capitis muscle.l",
+        "Spinalis colli muscle.l",
+        "Spinalis thoracis muscle.l",
+        "Levatores longi costarum.r",
+        "Levatores longi costarum.l",
+        "Innermost intercostal muscles.r",
+        "Innermost intercostal muscles.l",
+        "Pubo-analis muscle.r",
+        "Pubo-analis muscle.l",
+        "Coracobrachialis muscle.r",
+        "Coracobrachialis muscle.l",
+        "Radial head of flexor digitorum superficialis.r",
+        "Radial head of flexor digitorum superficialis.l",
+        "Anconeus muscle.r",
+        "Extensor digiti minimi.r",
+        "Anconeus muscle.l",
+        "Extensor digiti minimi.l",
+        "Lumbrical muscles of hand.r",
+        "Lumbrical muscles of hand.l",
+        "Psoas major.r",
+        "Psoas major.l",
+        "Adductor longus.r",
+        "Adductor longus.l",
+        "Fibularis tertius muscle.r",
+        "Extensor hallucis longus.r",
+        "Fibularis tertius muscle.l",
+        "Extensor hallucis longus.l",
+        "Abductor digiti minimi of foot.r",
+        "Abductor digiti minimi of foot.l",
+        "Abductor hallucis.r",
+        "Extensor hallucis brevis.r",
+        "Abductor hallucis.l",
+        "Extensor hallucis brevis.l",
+        "External anal sphincter.r",
+        "External anal sphincter.l"
+      ]
+    },
+    {
+      "level": 4,
+      "names": [
+        "Lateral rectus muscle.l",
+        "Lateral rectus muscle.r",
+        "Inferior rectus muscle.r",
+        "Medial rectus muscle.r",
+        "Superior rectus muscle.r",
+        "Inferior rectus muscle.l",
+        "Medial rectus muscle.l",
+        "Superior rectus muscle.l",
+        "Mentalis muscle.r",
+        "Bucinator.r",
+        "Mentalis muscle.l",
+        "Bucinator.l",
+        "Sternothyroid muscle.r",
+        "Sternothyroid muscle.l",
+        "Iliocostalis thoracis muscle.r",
+        "Iliocostalis colli muscle.r",
+        "Iliocostalis thoracis muscle.l",
+        "Iliocostalis colli muscle",
+        "Longissimus capitis muscle.r",
+        "Longissimus colli muscle.r",
+        "Longissimus capitis muscle.l",
+        "Longissimus colli muscle.l",
+        "Interspinales colli muscles.r",
+        "Interspinales thoracis muscles.r",
+        "Interspinales lumborum muscles.r",
+        "Interspinales colli muscles.l",
+        "Interspinales thoracis muscles.l",
+        "Interspinales lumborum muscles.l",
+        "Internal intercostal muscles.r",
+        "Internal intercostal muscles.l",
+        "Quadratus lumborum muscle.r",
+        "Quadratus lumborum muscle.l",
+        "Medial head of triceps brachii.r",
+        "Medial head of triceps brachii.l",
+        "Flexor digitorum profundus.r",
+        "Flexor digitorum profundus.l",
+        "Obturator internus.r",
+        "Obturator internus.l",
+        "Lateral patellar retinaculum.r",
+        "Medial patellar retinaculum.r",
+        "Lateral patellar retinaculum.l",
+        "Medial patellar retinaculum.l",
+        "Pectineus muscle.r",
+        "Gracilis muscle.r",
+        "Obturator externus.r",
+        "Pectineus muscle.l",
+        "Gracilis muscle.l",
+        "Obturator externus.l",
+        "Short head of biceps femoris.r",
+        "Short head of biceps femoris.l",
+        "Tibialis posterior muscle.r",
+        "Tibialis posterior muscle.l"
+      ]
+    },
+    {
+      "level": 5,
+      "names": [
+        "Inferior tarsus.r",
+        "Levator palpebrae superioris.r",
+        "Superior tarsus.r",
+        "Inferior tarsus.l",
+        "Levator palpebrae superioris.l",
+        "Superior tarsus.l",
+        "Depressor labii inferioris.r",
+        "Levator anguli oris.r",
+        "Levator nasolabialis.r",
+        "Depressor labii inferioris.l",
+        "Depressor septi nasi.l",
+        "Levator nasolabialis.l",
+        "Mylohyoid muscle.r",
+        "Mylohyoid muscle.l",
+        "Thyrohyoid muscle.r",
+        "Thyrohyoid muscle.l",
+        "Scalenus medius muscle.r",
+        "Scalenus anterior muscle.r",
+        "Scalenus medius muscle.l",
+        "Scalenus anterior muscle.l",
+        "Splenius capitis muscle.r",
+        "Splenius colli muscle.r",
+        "Splenius capitis muscle.l",
+        "Splenius colli muscle.l",
+        "Serratus anterior muscle.r",
+        "Transversus thoracis muscle.r",
+        "Serratus anterior muscle.l",
+        "Transversus thoracis muscle.l",
+        "Linea alba",
+        "Pyramidalis muscle.r",
+        "Pyramidalis muscle.l",
+        "Teres major muscle.r",
+        "Teres major muscle.l",
+        "Brachialis muscle.r",
+        "Brachialis muscle.l",
+        "Lateral head of triceps brachii.r",
+        "Lateral head of triceps brachii.l",
+        "Deep head of pronator teres.r",
+        "Deep head of pronator teres.l",
+        "Humero-ulnar head of flexor digitorum superficialis.r",
+        "Humero-ulnar head of flexor digitorum superficialis.l",
+        "Humeral head of extensor carpi ulnaris.r",
+        "Humeral head of extensor carpi ulnaris.l",
+        "Extensor carpi radialis brevis.r",
+        "Extensor carpi radialis brevis.l",
+        "Superficial head of flexor pollicis brevis.r",
+        "Superficial head of flexor pollicis brevis.l",
+        "Oblique head of adductor pollicis.r",
+        "Oblique head of adductor pollicis.l",
+        "Opponens pollicis muscle.r",
+        "Opponens digiti minimi muscle of hand.r",
+        "Opponens pollicis muscle.l",
+        "Flexor digiti minimi of hand.l",
+        "Opponens digiti minimi muscle of hand.l",
+        "Quadratus femoris muscle.r",
+        "Inferior gemellus muscle.r",
+        "Superior gemellus muscle.r",
+        "Quadratus femoris muscle.l",
+        "Inferior gemellus muscle.l",
+        "Superior gemellus muscle.l",
+        "Vastus intermedius muscle.r",
+        "Vastus intermedius muscle.l",
+        "Adductor magnus.r",
+        "Adductor magnus.l",
+        "Fibularis brevis muscle.r",
+        "Fibularis brevis muscle.l",
+        "Flexor digitorum longus.r",
+        "Flexor hallucis longus.r",
+        "Flexor digitorum longus.l",
+        "Flexor hallucis longus.l"
+      ]
+    },
+    {
+      "level": 6,
+      "names": [
+        "Nasalis muscle.r",
+        "Nasalis muscle.l",
+        "Corrugator supercilii.r",
+        "Depressor anguli oris.r",
+        "Levator labii superioris.r",
+        "Depressor septi nasi.r",
+        "Corrugator supercilii.l",
+        "Depressor anguli oris.l",
+        "Levator labii superioris.l",
+        "Temporalis muscle.r",
+        "Temporalis muscle.l",
+        "Intermediate tendon of digastric muscle.r",
+        "Anterior belly of digastric muscle.r",
+        "Posterior belly of digastric muscle.r",
+        "Intermediate tendon of digastric muscle.l",
+        "Anterior belly of digastric muscle.l",
+        "Posterior belly of digastric muscle.l",
+        "Stylohyoid muscle.r",
+        "Stylohyoid muscle.l",
+        "Sternohyoid muscle.r",
+        "Sternohyoid muscle.l",
+        "Iliocostalis lumborum muscle.r",
+        "Iliocostalis lumborum muscle.l",
+        "Longissimus thoracis muscle.r",
+        "Longissimus thoracis muscle.l",
+        "Serratus posterior superior muscle.r",
+        "Serratus posterior superior muscle.l",
+        "External intercostal muscles.r",
+        "Subclavius muscle.r",
+        "External intercostal muscles.l",
+        "Subclavius muscle.l",
+        "Transversus abdominis muscle.r",
+        "Transversus abdominis muscle.l",
+        "Subscapularis muscle.r",
+        "Subscapularis muscle.l",
+        "Long head of biceps brachii.r",
+        "Short head of biceps brachii.r",
+        "Long head of biceps brachii.l",
+        "Short head of biceps brachii.l",
+        "Long head of triceps brachii.r",
+        "Long head of triceps brachii.l",
+        "Ulnar head of flexor carpi ulnaris.r",
+        "Ulnar head of flexor carpi ulnaris.l",
+        "Flexor carpi radialis.r",
+        "Flexor carpi radialis.l",
+        "Deep head of flexor pollicis brevis.r",
+        "Deep head of flexor pollicis brevis.l",
+        "Flexor digiti minimi of hand.r",
+        "Abductor pollicis brevis.l",
+        "Abductor digiti minimi of hand.l",
+        "Piriformis muscle.r",
+        "Piriformis muscle.l",
+        "Vastus lateralis muscle.r",
+        "Vastus medialis muscle.r",
+        "Vastus lateralis muscle.l",
+        "Vastus medialis muscle.l",
+        "Extensor digitorum longus.r",
+        "Tendon of extensor digitorum longus.r",
+        "Extensor digitorum longus.l",
+        "Tendon of extensor digitorum longus.l",
+        "Soleus muscle.r",
+        "Soleus muscle.l",
+        "Flexor digitorum brevis.r",
+        "Flexor digitorum brevis.l"
+      ]
+    },
+    {
+      "level": 7,
+      "names": [
+        "Palpebral part of orbicularis oculi.r",
+        "Palpebral part of orbicularis oculi.l",
+        "Zygomaticus major muscle.r",
+        "Procerus muscle.r",
+        "Zygomaticus minor muscle.r",
+        "Zygomaticus major muscle.l",
+        "Procerus muscle.l",
+        "Zygomaticus minor muscle.l",
+        "Deep part of masseter.r",
+        "Deep part of masseter.l",
+        "Omohyoid muscle.r",
+        "Omohyoid muscle.l",
+        "Levator scapulae.r",
+        "Rhomboid minor muscle.r",
+        "Serratus posterior inferior muscle.r",
+        "Levator scapulae.l",
+        "Rhomboid minor muscle.l",
+        "Serratus posterior inferior muscle.l",
+        "Pectoralis minor muscle.r",
+        "Pectoralis minor muscle.l",
+        "Rectus abdominis muscle.r",
+        "Rectus abdominis muscle.l",
+        "Supraspinatus muscle.r",
+        "Teres minor muscle.r",
+        "Supraspinatus muscle.l",
+        "Teres minor muscle.l",
+        "Superficial head of pronator teres.r",
+        "Superficial head of pronator teres.l",
+        "Palmaris longus muscle.r",
+        "Palmaris longus muscle.l",
+        "Extensor digitorum.r",
+        "Extensor digitorum.l",
+        "Gluteus minimus muscle.r",
+        "Gluteus minimus muscle.l",
+        "Rectus femoris muscle.r",
+        "Rectus femoris muscle.l",
+        "Semimembranosus muscle.r",
+        "Semimembranosus muscle.l",
+        "Fibularis longus muscle.r",
+        "Fibularis longus muscle.l",
+        "Popliteus muscle.r",
+        "Popliteus muscle.l"
+      ]
+    },
+    {
+      "level": 8,
+      "names": [
+        "Orbital part of orbicularis oculi.r",
+        "Orbital part of orbicularis oculi.l",
+        "Orbicularis oris muscle.r",
+        "Orbicularis oris muscle.l",
+        "Risorius muscle.r",
+        "Risorius muscle.l",
+        "Superficial part of masseter.r",
+        "Superficial part of masseter.l",
+        "Sternocleidomastoid muscle.r",
+        "Sternocleidomastoid muscle.l",
+        "Rhomboid major muscle.r",
+        "Latissimus dorsi muscle.r",
+        "Rhomboid major muscle.l",
+        "Latissimus dorsi muscle.l",
+        "Clavicular head of pectoralis major muscle.r",
+        "Sternocostal head of pectoralis major muscle.r",
+        "(Abdominal part of pectoralis major muscle).r",
+        "Clavicular head of pectoralis major muscle.l",
+        "Sternocostal head of pectoralis major muscle.l",
+        "(Abdominal part of pectoralis major muscle).l",
+        "Internal abdominal oblique muscle.r",
+        "Internal abdominal oblique muscle.l",
+        "Infraspinatus muscle.r",
+        "Infraspinatus muscle.l",
+        "Humeral head of flexor carpi ulnaris.r",
+        "Humeral head of flexor carpi ulnaris.l",
+        "Extensor carpi radialis longus.r",
+        "Extensor carpi radialis longus.l",
+        "Abductor pollicis brevis.r",
+        "Abductor digiti minimi of hand.r",
+        "Gluteus medius muscle.r",
+        "Gluteus medius muscle.l",
+        "Sartorius muscle.r",
+        "Sartorius muscle.l",
+        "Long head of biceps femoris.r",
+        "Long head of biceps femoris.l",
+        "Semitendinosus muscle.r",
+        "Semitendinosus muscle.l",
+        "Tibialis anterior muscle.r",
+        "Tibialis anterior muscle.l",
+        "Plantaris muscle.r",
+        "Plantaris muscle.l"
+      ]
+    },
+    {
+      "level": 9,
+      "names": [
+        "Frontalis muscle.r",
+        "Occipitalis muscle.r",
+        "Epicranial aponeurosis.r",
+        "Frontalis muscle.l",
+        "Occipitalis muscle.l",
+        "Epicranial aponeurosis.l",
+        "Temporoparietalis muscle.r",
+        "Temporoparietalis muscle.l",
+        "Platysma.r",
+        "Platysma.l",
+        "Ascending part of trapezius muscle.r",
+        "Descending part of trapezius muscle.r",
+        "Transverse part of trapezius muscle.r",
+        "Ascending part of trapezius muscle.l",
+        "Descending part of trapezius muscle.l",
+        "Transverse part of trapezius muscle.l",
+        "External abdominal oblique muscle.r",
+        "External abdominal oblique muscle.l",
+        "Acromial part of deltoid muscle.r",
+        "Clavicular part of deltoid muscle.r",
+        "Scapular spinal part of deltoid muscle.r",
+        "Acromial part of deltoid muscle.l",
+        "Clavicular part of deltoid muscle.l",
+        "Scapular spinal part of deltoid muscle.l",
+        "Brachioradialis muscle.r",
+        "Brachioradialis muscle.l",
+        "Gluteus maximus muscle.r",
+        "Tensor fasciae latae.r",
+        "Gluteus maximus muscle.l",
+        "Tensor fasciae latae.l",
+        "Lateral head of gastrocnemius.r",
+        "Medial head of gastrocnemius.r",
+        "Calcaneal tendon.r",
+        "Lateral head of gastrocnemius.l",
+        "Medial head of gastrocnemius.l",
+        "Calcaneal tendon.l",
+        "Iliotibial tract.r",
+        "Iliotibial tract.l"
+      ]
+    }
+  ],
+  "mappings": {
+    "abdominal part of pectoralis major": {
+      "depth": 1,
+      "level": 8,
+      "sourceName": "abdominal part of pectoralis major"
+    },
+    "abductor digiti minimi of foot": {
+      "depth": 6,
+      "level": 3,
+      "sourceName": "abductor digiti minimi of foot"
+    },
+    "abductor digiti minimi of hand": {
+      "depth": 1,
+      "level": 8,
+      "sourceName": "abductor digiti minimi of hand"
+    },
+    "abductor hallucis": {
+      "depth": 6,
+      "level": 3,
+      "sourceName": "abductor hallucis"
+    },
+    "abductor pollicis brevis": {
+      "depth": 1,
+      "level": 8,
+      "sourceName": "abductor pollicis brevis"
+    },
+    "abductor pollicis longus": {
+      "depth": 8,
+      "level": 1,
+      "sourceName": "abductor pollicis longus"
+    },
+    "acromial part of deltoid": {
+      "depth": 0,
+      "level": 9,
+      "sourceName": "acromial part of deltoid"
+    },
+    "adductor brevis": {
+      "depth": 7,
+      "level": 2,
+      "sourceName": "adductor brevis"
+    },
+    "adductor longus": {
+      "depth": 6,
+      "level": 3,
+      "sourceName": "adductor longus"
+    },
+    "adductor magnus": {
+      "depth": 4,
+      "level": 5,
+      "sourceName": "adductor magnus"
+    },
+    "adductor minimus": {
+      "depth": 8,
+      "level": 1,
+      "sourceName": "adductor minimus"
+    },
+    "anconeus": {
+      "depth": 6,
+      "level": 3,
+      "sourceName": "anconeus"
+    },
+    "ascending part of trapezius": {
+      "depth": 0,
+      "level": 9,
+      "sourceName": "ascending part of trapezius"
+    },
+    "brachialis": {
+      "depth": 4,
+      "level": 5,
+      "sourceName": "brachialis"
+    },
+    "brachioradialis": {
+      "depth": 0,
+      "level": 9,
+      "sourceName": "brachioradialis"
+    },
+    "cervical rotator": {
+      "depth": 7,
+      "level": 2,
+      "sourceName": "rotatores"
+    },
+    "clavicular part of deltoid": {
+      "depth": 0,
+      "level": 9,
+      "sourceName": "clavicular part of deltoid"
+    },
+    "clavicular part of pectoralis major": {
+      "depth": 1,
+      "level": 8,
+      "sourceName": "clavicular head of pectoralis major"
+    },
+    "coccygeus": {
+      "depth": 8,
+      "level": 1,
+      "sourceName": "coccygeus"
+    },
+    "coracobrachialis": {
+      "depth": 6,
+      "level": 3,
+      "sourceName": "coracobrachialis"
+    },
+    "descending part of trapezius": {
+      "depth": 0,
+      "level": 9,
+      "sourceName": "descending part of trapezius"
+    },
+    "diaphragm": {
+      "depth": 7,
+      "level": 2,
+      "sourceName": "diaphragm"
+    },
+    "extensor carpi radialis brevis": {
+      "depth": 4,
+      "level": 5,
+      "sourceName": "extensor carpi radialis brevis"
+    },
+    "extensor carpi radialis longus": {
+      "depth": 1,
+      "level": 8,
+      "sourceName": "extensor carpi radialis longus"
+    },
+    "extensor carpi ulnaris": {
+      "depth": 4,
+      "level": 5,
+      "sourceName": "humeral head of extensor carpi ulnaris"
+    },
+    "extensor digiti minimi": {
+      "depth": 6,
+      "level": 3,
+      "sourceName": "extensor digiti minimi"
+    },
+    "extensor digitorum": {
+      "depth": 2,
+      "level": 7,
+      "sourceName": "extensor digitorum"
+    },
+    "extensor digitorum brevis": {
+      "depth": 7,
+      "level": 2,
+      "sourceName": "extensor digitorum brevis"
+    },
+    "extensor digitorum longus": {
+      "depth": 3,
+      "level": 6,
+      "sourceName": "extensor digitorum longus"
+    },
+    "extensor hallucis brevis": {
+      "depth": 6,
+      "level": 3,
+      "sourceName": "extensor hallucis brevis"
+    },
+    "extensor hallucis longus": {
+      "depth": 6,
+      "level": 3,
+      "sourceName": "extensor hallucis longus"
+    },
+    "extensor indicis": {
+      "depth": 7,
+      "level": 2,
+      "sourceName": "extensor indicis"
+    },
+    "extensor pollicis brevis": {
+      "depth": 8,
+      "level": 1,
+      "sourceName": "extensor pollicis brevis"
+    },
+    "extensor pollicis longus": {
+      "depth": 8,
+      "level": 1,
+      "sourceName": "extensor pollicis longus"
+    },
+    "external anal sphincter": {
+      "depth": 6,
+      "level": 3,
+      "sourceName": "external anal sphincter"
+    },
+    "external intercostal muscle": {
+      "depth": 3,
+      "level": 6,
+      "sourceName": "external intercostal"
+    },
+    "external oblique": {
+      "depth": 0,
+      "level": 9,
+      "sourceName": "external abdominal oblique"
+    },
+    "fibularis brevis": {
+      "depth": 4,
+      "level": 5,
+      "sourceName": "fibularis brevis"
+    },
+    "fibularis longus": {
+      "depth": 2,
+      "level": 7,
+      "sourceName": "fibularis longus"
+    },
+    "fibularis tertius": {
+      "depth": 6,
+      "level": 3,
+      "sourceName": "fibularis tertius"
+    },
+    "first dorsal interosseous of foot": {
+      "depth": 8,
+      "level": 1,
+      "sourceName": "dorsal interossei of foot"
+    },
+    "first lumbrical of foot": {
+      "depth": 8,
+      "level": 1,
+      "sourceName": "lumbrical of foot"
+    },
+    "first plantar interosseous of foot": {
+      "depth": 8,
+      "level": 1,
+      "sourceName": "plantar interossei"
+    },
+    "flexor accessorius": {
+      "depth": 7,
+      "level": 2,
+      "sourceName": "quadratus plantae"
+    },
+    "flexor carpi radialis": {
+      "depth": 3,
+      "level": 6,
+      "sourceName": "flexor carpi radialis"
+    },
+    "flexor digiti minimi brevis of foot": {
+      "depth": 7,
+      "level": 2,
+      "sourceName": "flexor digiti minimi of foot"
+    },
+    "flexor digiti minimi brevis of hand": {
+      "depth": 3,
+      "level": 6,
+      "sourceName": "flexor digiti minimi of hand"
+    },
+    "flexor digitorum brevis": {
+      "depth": 3,
+      "level": 6,
+      "sourceName": "flexor digitorum brevis"
+    },
+    "flexor digitorum longus": {
+      "depth": 4,
+      "level": 5,
+      "sourceName": "flexor digitorum longus"
+    },
+    "flexor digitorum profundus": {
+      "depth": 5,
+      "level": 4,
+      "sourceName": "flexor digitorum profundus"
+    },
+    "flexor digitorum superficialis": {
+      "depth": 4,
+      "level": 5,
+      "sourceName": "humero-ulnar head of flexor digitorum superficialis"
+    },
+    "flexor hallucis longus": {
+      "depth": 4,
+      "level": 5,
+      "sourceName": "flexor hallucis longus"
+    },
+    "flexor pollicis brevis": {
+      "depth": 3,
+      "level": 6,
+      "sourceName": "deep head of flexor pollicis brevis"
+    },
+    "flexor pollicis longus": {
+      "depth": 7,
+      "level": 2,
+      "sourceName": "flexor pollicis longus"
+    },
+    "fourth dorsal interosseous of foot": {
+      "depth": 8,
+      "level": 1,
+      "sourceName": "dorsal interossei of foot"
+    },
+    "fourth lumbrical of foot": {
+      "depth": 8,
+      "level": 1,
+      "sourceName": "lumbrical of foot"
+    },
+    "gemellus inferior": {
+      "depth": 4,
+      "level": 5,
+      "sourceName": "inferior gemellus"
+    },
+    "gemellus superior": {
+      "depth": 4,
+      "level": 5,
+      "sourceName": "superior gemellus"
+    },
+    "gluteus maximus": {
+      "depth": 0,
+      "level": 9,
+      "sourceName": "gluteus maximus"
+    },
+    "gluteus medius": {
+      "depth": 1,
+      "level": 8,
+      "sourceName": "gluteus medius"
+    },
+    "gluteus minimus": {
+      "depth": 2,
+      "level": 7,
+      "sourceName": "gluteus minimus"
+    },
+    "gracilis": {
+      "depth": 5,
+      "level": 4,
+      "sourceName": "gracilis"
+    },
+    "humeral head of flexor carpi ulnaris": {
+      "depth": 1,
+      "level": 8,
+      "sourceName": "humeral head of flexor carpi ulnaris"
+    },
+    "humeral head of pronator teres": {
+      "depth": 2,
+      "level": 7,
+      "sourceName": "superficial head of pronator teres"
+    },
+    "iliacus": {
+      "depth": 7,
+      "level": 2,
+      "sourceName": "iliacus"
+    },
+    "iliococcygeus": {
+      "depth": 7,
+      "level": 2,
+      "sourceName": "iliococcygeus"
+    },
+    "iliocostalis cervicis": {
+      "depth": 5,
+      "level": 4,
+      "sourceName": "iliocostalis colli"
+    },
+    "iliocostalis lumborum": {
+      "depth": 3,
+      "level": 6,
+      "sourceName": "iliocostalis lumborum"
+    },
+    "iliocostalis thoracis": {
+      "depth": 5,
+      "level": 4,
+      "sourceName": "iliocostalis thoracis"
+    },
+    "inferior oblique part of longus colli": {
+      "depth": 8,
+      "level": 1,
+      "sourceName": "longus colli"
+    },
+    "infraspinatus muscle": {
+      "depth": 1,
+      "level": 8,
+      "sourceName": "infraspinatus"
+    },
+    "innermost intercostal muscle": {
+      "depth": 6,
+      "level": 3,
+      "sourceName": "innermost intercostal"
+    },
+    "internal intercostal muscle": {
+      "depth": 5,
+      "level": 4,
+      "sourceName": "internal intercostal"
+    },
+    "internal oblique": {
+      "depth": 1,
+      "level": 8,
+      "sourceName": "internal abdominal oblique"
+    },
+    "interspinalis thoracis": {
+      "depth": 5,
+      "level": 4,
+      "sourceName": "interspinales thoracis"
+    },
+    "lateral head of flexor hallucis brevis": {
+      "depth": 8,
+      "level": 1,
+      "sourceName": "lateral head of flexor hallucis brevis"
+    },
+    "lateral head of gastrocnemius": {
+      "depth": 0,
+      "level": 9,
+      "sourceName": "lateral head of gastrocnemius"
+    },
+    "lateral head of triceps brachii": {
+      "depth": 4,
+      "level": 5,
+      "sourceName": "lateral head of triceps brachii"
+    },
+    "lateral lumbar intertransversarius": {
+      "depth": 8,
+      "level": 1,
+      "sourceName": "dorsal parts of lateral intertransversarii lumborum"
+    },
+    "latissimus dorsi": {
+      "depth": 1,
+      "level": 8,
+      "sourceName": "latissimus dorsi"
+    },
+    "levator scapulae": {
+      "depth": 2,
+      "level": 7,
+      "sourceName": "levator scapulae"
+    },
+    "long head of biceps brachii": {
+      "depth": 3,
+      "level": 6,
+      "sourceName": "long head of biceps brachii"
+    },
+    "long head of biceps femoris": {
+      "depth": 1,
+      "level": 8,
+      "sourceName": "long head of biceps femoris"
+    },
+    "long head of triceps brachii": {
+      "depth": 3,
+      "level": 6,
+      "sourceName": "long head of triceps brachii"
+    },
+    "longissimus capitis": {
+      "depth": 5,
+      "level": 4,
+      "sourceName": "longissimus capitis"
+    },
+    "longissimus cervicis": {
+      "depth": 5,
+      "level": 4,
+      "sourceName": "longissimus colli"
+    },
+    "longissimus thoracis": {
+      "depth": 3,
+      "level": 6,
+      "sourceName": "longissimus thoracis"
+    },
+    "longus capitis": {
+      "depth": 8,
+      "level": 1,
+      "sourceName": "longus capitis"
+    },
+    "lumbar rotator": {
+      "depth": 7,
+      "level": 2,
+      "sourceName": "rotatores"
+    },
+    "medial head of flexor hallucis brevis": {
+      "depth": 7,
+      "level": 2,
+      "sourceName": "medial head of flexor hallucis brevis"
+    },
+    "medial head of gastrocnemius": {
+      "depth": 0,
+      "level": 9,
+      "sourceName": "medial head of gastrocnemius"
+    },
+    "medial head of triceps brachii": {
+      "depth": 5,
+      "level": 4,
+      "sourceName": "medial head of triceps brachii"
+    },
+    "medial lumbar intertransversarius": {
+      "depth": 8,
+      "basis": "deep segmental lumbar muscle"
+    },
+    "multifidus cervicis": {
+      "depth": 8,
+      "level": 1,
+      "sourceName": "multifidus colli"
+    },
+    "multifidus lumborum": {
+      "depth": 8,
+      "level": 1,
+      "sourceName": "multifidus lumborum"
+    },
+    "multifidus thoracis": {
+      "depth": 8,
+      "level": 1,
+      "sourceName": "multifidus thoracis"
+    },
+    "oblique head of adductor hallucis": {
+      "depth": 8,
+      "level": 1,
+      "sourceName": "oblique head of adductor hallucis"
+    },
+    "oblique head of adductor pollicis": {
+      "depth": 4,
+      "level": 5,
+      "sourceName": "oblique head of adductor pollicis"
+    },
+    "obliquus capitis inferior": {
+      "depth": 7,
+      "level": 2,
+      "sourceName": "obliquus inferior capitis"
+    },
+    "obliquus capitis superior": {
+      "depth": 7,
+      "level": 2,
+      "sourceName": "obliquus superior capitis"
+    },
+    "obturator externus": {
+      "depth": 5,
+      "level": 4,
+      "sourceName": "obturator externus"
+    },
+    "obturator internus": {
+      "depth": 5,
+      "level": 4,
+      "sourceName": "obturator internus"
+    },
+    "opponens digiti minimi of foot": {
+      "depth": 8,
+      "level": 1,
+      "sourceName": "opponens digiti minimi of foot"
+    },
+    "opponens digiti minimi of hand": {
+      "depth": 4,
+      "level": 5,
+      "sourceName": "opponens digiti minimi of hand"
+    },
+    "opponens pollicis": {
+      "depth": 4,
+      "level": 5,
+      "sourceName": "opponens pollicis"
+    },
+    "palmaris longus": {
+      "depth": 2,
+      "level": 7,
+      "sourceName": "palmaris longus"
+    },
+    "pectineus": {
+      "depth": 5,
+      "level": 4,
+      "sourceName": "pectineus"
+    },
+    "pectoralis minor": {
+      "depth": 2,
+      "level": 7,
+      "sourceName": "pectoralis minor"
+    },
+    "piriformis": {
+      "depth": 3,
+      "level": 6,
+      "sourceName": "piriformis"
+    },
+    "plantaris": {
+      "depth": 1,
+      "level": 8,
+      "sourceName": "plantaris"
+    },
+    "popliteus": {
+      "depth": 2,
+      "level": 7,
+      "sourceName": "popliteus"
+    },
+    "pronator quadratus": {
+      "depth": 8,
+      "level": 1,
+      "sourceName": "pronator quadratus"
+    },
+    "psoas major": {
+      "depth": 6,
+      "level": 3,
+      "sourceName": "psoas major"
+    },
+    "pubococcygeus": {
+      "depth": 8,
+      "level": 1,
+      "sourceName": "pubococcygeus"
+    },
+    "puborectalis": {
+      "depth": 8,
+      "basis": "deep pelvic floor muscle"
+    },
+    "quadratus femoris": {
+      "depth": 4,
+      "level": 5,
+      "sourceName": "quadratus femoris"
+    },
+    "quadratus lumborum": {
+      "depth": 5,
+      "level": 4,
+      "sourceName": "quadratus lumborum"
+    },
+    "rectus abdominis": {
+      "depth": 2,
+      "level": 7,
+      "sourceName": "rectus abdominis"
+    },
+    "rectus capitis anterior": {
+      "depth": 8,
+      "level": 1,
+      "sourceName": "rectus anterior capitis"
+    },
+    "rectus capitis lateralis": {
+      "depth": 8,
+      "level": 1,
+      "sourceName": "rectus lateralis capitis"
+    },
+    "rectus capitis posterior major": {
+      "depth": 7,
+      "level": 2,
+      "sourceName": "rectus posterior major capitis"
+    },
+    "rectus capitis posterior minor": {
+      "depth": 7,
+      "level": 2,
+      "sourceName": "rectus posterior minor capitis"
+    },
+    "rectus femoris": {
+      "depth": 2,
+      "level": 7,
+      "sourceName": "rectus femoris"
+    },
+    "rhomboid major": {
+      "depth": 1,
+      "level": 8,
+      "sourceName": "rhomboid major"
+    },
+    "rhomboid minor": {
+      "depth": 2,
+      "level": 7,
+      "sourceName": "rhomboid minor"
+    },
+    "sartorius": {
+      "depth": 1,
+      "level": 8,
+      "sourceName": "sartorius"
+    },
+    "scalenus anterior": {
+      "depth": 4,
+      "level": 5,
+      "sourceName": "scalenus anterior"
+    },
+    "scalenus medius": {
+      "depth": 4,
+      "level": 5,
+      "sourceName": "scalenus medius"
+    },
+    "scalenus posterior": {
+      "depth": 8,
+      "level": 1,
+      "sourceName": "scalenus posterior"
+    },
+    "second dorsal interosseous of foot": {
+      "depth": 8,
+      "level": 1,
+      "sourceName": "dorsal interossei of foot"
+    },
+    "second lumbrical of foot": {
+      "depth": 8,
+      "level": 1,
+      "sourceName": "lumbrical of foot"
+    },
+    "second plantar interosseous of foot": {
+      "depth": 8,
+      "level": 1,
+      "sourceName": "plantar interossei"
+    },
+    "semimembranosus": {
+      "depth": 2,
+      "level": 7,
+      "sourceName": "semimembranosus"
+    },
+    "semispinalis capitis": {
+      "depth": 7,
+      "basis": "alongside semispinalis colli"
+    },
+    "semispinalis cervicis": {
+      "depth": 7,
+      "level": 2,
+      "sourceName": "semispinalis colli"
+    },
+    "semispinalis thoracis": {
+      "depth": 7,
+      "level": 2,
+      "sourceName": "semispinalis thoracis"
+    },
+    "semitendinosus": {
+      "depth": 1,
+      "level": 8,
+      "sourceName": "semitendinosus"
+    },
+    "serratus anterior": {
+      "depth": 4,
+      "level": 5,
+      "sourceName": "serratus anterior"
+    },
+    "serratus posterior inferior": {
+      "depth": 2,
+      "level": 7,
+      "sourceName": "serratus posterior inferior"
+    },
+    "serratus posterior superior": {
+      "depth": 3,
+      "level": 6,
+      "sourceName": "serratus posterior superior"
+    },
+    "set of anterior cervical intertransversarii": {
+      "depth": 8,
+      "basis": "deep segmental cervical muscle"
+    },
+    "set of dorsal interossei of hand": {
+      "depth": 8,
+      "level": 1,
+      "sourceName": "dorsal interossei of hand"
+    },
+    "set of interspinales cervicis": {
+      "depth": 5,
+      "level": 4,
+      "sourceName": "interspinales colli"
+    },
+    "set of interspinales lumborum": {
+      "depth": 5,
+      "level": 4,
+      "sourceName": "interspinales lumborum"
+    },
+    "set of levatores costarum breves": {
+      "depth": 7,
+      "level": 2,
+      "sourceName": "levatores breves costarum"
+    },
+    "set of levatores costarum longi": {
+      "depth": 6,
+      "level": 3,
+      "sourceName": "levatores longi costarum"
+    },
+    "set of lumbricals of hand": {
+      "depth": 6,
+      "level": 3,
+      "sourceName": "lumbrical of hand"
+    },
+    "set of palmar interossei of hand": {
+      "depth": 8,
+      "level": 1,
+      "sourceName": "palmar interossei"
+    },
+    "set of posterior cervical intertransversarii": {
+      "depth": 8,
+      "basis": "deep segmental cervical muscle"
+    },
+    "short head of biceps brachii": {
+      "depth": 3,
+      "level": 6,
+      "sourceName": "short head of biceps brachii"
+    },
+    "short head of biceps femoris": {
+      "depth": 5,
+      "level": 4,
+      "sourceName": "short head of biceps femoris"
+    },
+    "soleus": {
+      "depth": 3,
+      "level": 6,
+      "sourceName": "soleus"
+    },
+    "spinal part of deltoid": {
+      "depth": 0,
+      "level": 9,
+      "sourceName": "scapular spinal part of deltoid"
+    },
+    "spinalis": {
+      "depth": 6,
+      "level": 3,
+      "sourceName": "spinalis thoracis"
+    },
+    "spinalis thoracis": {
+      "depth": 6,
+      "level": 3,
+      "sourceName": "spinalis thoracis"
+    },
+    "splenius capitis": {
+      "depth": 4,
+      "level": 5,
+      "sourceName": "splenius capitis"
+    },
+    "splenius cervicis": {
+      "depth": 4,
+      "level": 5,
+      "sourceName": "splenius colli"
+    },
+    "sternocleidomastoid": {
+      "depth": 1,
+      "level": 8,
+      "sourceName": "sternocleidomastoid"
+    },
+    "sternocostal part of pectoralis major": {
+      "depth": 1,
+      "level": 8,
+      "sourceName": "sternocostal head of pectoralis major"
+    },
+    "subclavius": {
+      "depth": 3,
+      "level": 6,
+      "sourceName": "subclavius"
+    },
+    "subscapularis": {
+      "depth": 3,
+      "level": 6,
+      "sourceName": "subscapularis"
+    },
+    "superficial head of flexor pollicis brevis": {
+      "depth": 4,
+      "level": 5,
+      "sourceName": "superficial head of flexor pollicis brevis"
+    },
+    "superior oblique part of longus colli": {
+      "depth": 8,
+      "level": 1,
+      "sourceName": "longus colli"
+    },
+    "supinator": {
+      "depth": 7,
+      "level": 2,
+      "sourceName": "supinator"
+    },
+    "supraspinatus": {
+      "depth": 2,
+      "level": 7,
+      "sourceName": "supraspinatus"
+    },
+    "tensor fasciae latae": {
+      "depth": 0,
+      "level": 9,
+      "sourceName": "tensor fasciae latae"
+    },
+    "teres major": {
+      "depth": 4,
+      "level": 5,
+      "sourceName": "teres major"
+    },
+    "teres minor": {
+      "depth": 2,
+      "level": 7,
+      "sourceName": "teres minor"
+    },
+    "third dorsal interosseous of foot": {
+      "depth": 8,
+      "level": 1,
+      "sourceName": "dorsal interossei of foot"
+    },
+    "third lumbrical of foot": {
+      "depth": 8,
+      "level": 1,
+      "sourceName": "lumbrical of foot"
+    },
+    "third plantar interosseous of foot": {
+      "depth": 8,
+      "level": 1,
+      "sourceName": "plantar interossei"
+    },
+    "thoracic rotator": {
+      "depth": 7,
+      "level": 2,
+      "sourceName": "rotatores"
+    },
+    "tibialis anterior": {
+      "depth": 1,
+      "level": 8,
+      "sourceName": "tibialis anterior"
+    },
+    "tibialis posterior": {
+      "depth": 5,
+      "level": 4,
+      "sourceName": "tibialis posterior"
+    },
+    "transverse head of adductor hallucis": {
+      "depth": 8,
+      "level": 1,
+      "sourceName": "transverse head of adductor hallucis"
+    },
+    "transverse head of adductor pollicis": {
+      "depth": 7,
+      "level": 2,
+      "sourceName": "transverse head of adductor pollicis"
+    },
+    "transverse part of trapezius": {
+      "depth": 0,
+      "level": 9,
+      "sourceName": "transverse part of trapezius"
+    },
+    "transversus abdominis": {
+      "depth": 3,
+      "level": 6,
+      "sourceName": "transversus abdominis"
+    },
+    "transversus thoracis": {
+      "depth": 4,
+      "level": 5,
+      "sourceName": "transversus thoracis"
+    },
+    "ulnar head of flexor carpi ulnaris": {
+      "depth": 3,
+      "level": 6,
+      "sourceName": "ulnar head of flexor carpi ulnaris"
+    },
+    "ulnar head of pronator teres": {
+      "depth": 4,
+      "level": 5,
+      "sourceName": "deep head of pronator teres"
+    },
+    "vastus intermedius": {
+      "depth": 4,
+      "level": 5,
+      "sourceName": "vastus intermedius"
+    },
+    "vastus lateralis": {
+      "depth": 3,
+      "level": 6,
+      "sourceName": "vastus lateralis"
+    },
+    "vastus medialis": {
+      "depth": 3,
+      "level": 6,
+      "sourceName": "vastus medialis"
+    },
+    "vertical intermediate part of longus colli": {
+      "depth": 8,
+      "level": 1,
+      "sourceName": "longus colli"
+    }
+  }
+}

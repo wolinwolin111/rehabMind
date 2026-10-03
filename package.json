@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "data": "node scripts/run-python.mjs scripts/generate_knowledge.py",
-    "assets": "node scripts/run-python.mjs scripts/prepare_3d.py",
+    "assets": "node scripts/run-python.mjs scripts/prepare_3d.py && node scripts/authoring/prepare_model_display.mjs",
     "predev": "npm run data && npm run assets",
     "dev": "vite --host 0.0.0.0",
     "api": "node api/server.mjs",

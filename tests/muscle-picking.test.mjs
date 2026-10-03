@@ -12,20 +12,29 @@ const {muscleAtFace} = await import(`data:text/javascript;base64,${Buffer.from(c
 const meta = JSON.parse(read('../public/3d/skin.json')).muscles;
 const correctedIds = ['FJ1409','FJ1410','FJ1411','FJ1438','FJ1439','FJ1440'];
 const original = JSON.parse(read('../baseline/RehabMind_LowerLimbV1_ImplementationBaseline_DBv3.7_2026-09-29/04_3D_Localization/model/atlas_metadata.json')).parts.filter(p=>p.system==='muscular'||correctedIds.includes(p.id.replace(/M$/,''))||/^(Left|Right) (subscapularis|levator scapulae)$/i.test(p.name));
+const supplements = JSON.parse(read('../assets/anatomy-supplements/manifest.json')).parts;
 
 test('every packed muscle retains its original identity and complete face interval', () => {
-  assert.equal(meta.parts.length, original.length);
+  assert.equal(meta.parts.length, original.length + supplements.length);
   let face = 0;
   original.forEach((source, index) => {
     const part = meta.parts[index];
     assert.equal(part.id, source.id);
-    assert.equal(part.name, source.name);
+    assert.equal(part.sourceName ?? part.name, source.name);
+    assert.equal(part.conceptId,source.conceptId);
     assert.equal(part.firstFace, face);
     assert.equal(part.faceCount * 3, source.indexCount);
     assert.equal(muscleAtFace(meta.parts, face).id, source.id);
     assert.equal(muscleAtFace(meta.parts, face + part.faceCount - 1).id, source.id);
     face += part.faceCount;
   });
+  assert.deepEqual(meta.parts.slice(original.length).map(part=>part.id),supplements.map(part=>part.id));
+  for(const part of meta.parts.slice(original.length)) {
+    assert.equal(part.firstFace,face);
+    assert.equal(muscleAtFace(meta.parts,face).id,part.id);
+    assert.equal(muscleAtFace(meta.parts,face+part.faceCount-1).id,part.id);
+    face += part.faceCount;
+  }
   assert.equal(face * 3, meta.indexCount);
   for (const invalid of [-1, .5, NaN, face]) assert.equal(muscleAtFace(meta.parts, invalid), null);
   assert.equal(meta.parts.find(p=>p.name==='Right vastus medialis').displayName, '右侧 · 股内侧肌');

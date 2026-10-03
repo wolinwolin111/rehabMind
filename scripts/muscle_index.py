@@ -65,14 +65,26 @@ def build_muscle_parts(atlas):
         if not is_muscle_part(part):
             continue
         name = part['name']
+        # These two source side labels contradict their coordinates:
+        # FJ1469 lies at the right hand alongside FJ1514 and the right carpals.
+        correction = {
+            'FJ1469': 'Right flexor pollicis brevis',
+            'FJ1469M': 'Left flexor pollicis brevis',
+        }.get(part['id'])
+        if correction:
+            name = correction
         side_match = re.search(r'\b(left|right)\b', name, re.I)
         side = side_match.group(1).lower() if side_match else ''
         key = muscle_key(name)
         translated = LABELS.get(key)
         display = f"{'左侧' if side == 'left' else '右侧'} · {translated}" if translated and side else translated or name
         face_count = part['indexCount'] // 3
-        parts.append({'id': part['id'], 'conceptId': part['conceptId'], 'name': name,
-                      'displayName': display, 'side': side, 'firstFace': first_face, 'faceCount': face_count})
+        identity = {'id': part['id'], 'conceptId': part['conceptId'], 'name': name,
+                    'displayName': display, 'side': side, 'firstFace': first_face, 'faceCount': face_count}
+        if correction:
+            identity.update(sourceName=part['name'], sourceConceptId=part['conceptId'],
+                            correctionReason='Source left/right label contradicts hand coordinates; geometry unchanged.')
+        parts.append(identity)
         first_face += face_count
     return parts
 
@@ -98,7 +110,15 @@ if __name__ == '__main__':
     target = root / 'public/3d/skin.json'
     atlas = json.loads(source.read_text(encoding='utf-8'))
     data = json.loads(target.read_text(encoding='utf-8'))
-    parts = build_muscle_parts(atlas)
+    from shared_distal_index import attach_shared_distal
+    base = source.parent
+    chunks = {}
+    def raw_for(part):
+        import gzip
+        if part['chunk'] not in chunks:
+            chunks[part['chunk']] = gzip.decompress((base / 'chunks' / f"body-{part['chunk']}.bin.gz").read_bytes())
+        return chunks[part['chunk']]
+    parts = attach_shared_distal(atlas, raw_for, build_muscle_parts(atlas)) + [p for p in data['muscles']['parts'] if p['id'].startswith('ZA-')]
     assert sum(part['faceCount'] for part in parts) * 3 == data['muscles']['indexCount']
     data['muscles']['parts'] = parts
     target.write_text(json.dumps(data, ensure_ascii=False), encoding='utf-8')

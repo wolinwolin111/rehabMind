@@ -1,23 +1,27 @@
-import { getMuscleAnatomy, supplementalMuscles } from './content/muscle-anatomy';
+import { getMuscleAnatomy } from './content/muscle-anatomy';
 import { getBoneAnatomy } from './content/bone-anatomy';
-export function MuscleAnatomyCard({ name, boneName, supplement = '', onSupplement }: { name?: string; boneName?: string; supplement?: string; onSupplement?: (name: string) => void }) {
+import { getTendonAnatomy } from './content/tendon-anatomy';
+import { muscleModelObservation } from './content/muscle-model-review';
+import { muscleBookReference } from './content/muscle-book-reference';
+import { importedMuscleModel } from './content/imported-muscle-models';
+export function MuscleAnatomyCard({ name, boneName, tendonName }: { name?: string; boneName?: string; tendonName?:string }) {
   const facts = name ? getMuscleAnatomy(name) : null;
+  const book = name ? muscleBookReference(name) : null;
+  const model = importedMuscleModel(name || tendonName);
   const bone = boneName ? getBoneAnatomy(boneName) : null;
-  return <section className="muscle-anatomy" aria-label="肌肉解剖说明">
-    {supplement && <p className="muscle-anatomy__notice">这块肌肉暂无独立模型，以下为解剖文字资料。</p>}
+  const tendon = tendonName ? getTendonAnatomy(tendonName) : null;
+  return <section className="muscle-anatomy" aria-label="组织解剖说明">
     {facts ? <>
       <dl><dt>起点</dt><dd>{facts.origin}</dd><dt>止点</dt><dd>{facts.insertion}</dd><dt>主要功能</dt><dd>{facts.action}</dd></dl>
       {facts.note && <p>{facts.note}</p>}
-      <details><summary>参考资料</summary><p>常见解剖的教学概述；模型未标记实际附着点。<a href={facts.source} target="_blank" rel="noreferrer">{facts.sourceLabel || '解剖参考'}</a></p></details>
+      {name && muscleModelObservation(name) && <p className="muscle-anatomy__notice">{muscleModelObservation(name)}</p>}
+      <details><summary>参考资料</summary>{book && <p>{book.label}</p>}{book?.reviewNote && <p>{book.reviewNote}</p>}<p>补充核对：<a href={facts.source} target="_blank" rel="noreferrer">{facts.sourceLabel || '解剖参考'}</a>。文案为解剖概述，不能替代模型附着点的核查。</p>{model && <p>模型来源：<a href={model.url} target="_blank" rel="noreferrer">Z-Anatomy（LluisV / 贡献者）</a>，{model.license}。{model.note}{model.limitation}</p>}</details>
     </> : bone ? <>
       <dl><dt>形态</dt><dd>{bone.shape}</dd><dt>骨性标志</dt><dd>{bone.landmarks}</dd><dt>观察用途</dt><dd>{bone.context}</dd></dl>
       <details><summary>参考资料</summary><p>标志为文字教学说明，模型未逐点标注。<a href={bone.source} target="_blank" rel="noreferrer">UAMS 骨骼解剖参考</a></p></details>
-    </> : <p>{name ? '这块肌肉的起止点与功能尚未收录。' : '单击肌肉查看起点、止点与功能；单击骨骼查看形态与骨性标志。'}</p>}
-    {onSupplement && <label className="muscle-supplement">模型未收录的肌肉
-      <select aria-label="查看补充肌肉资料" value={supplement} onChange={event => onSupplement(event.target.value)}>
-        <option value="">选择文字资料</option>
-        {supplementalMuscles.map(muscle => <option key={muscle.name} value={muscle.name}>{muscle.displayName} · 暂无模型</option>)}
-      </select>
-    </label>}
+    </> : tendon ? <>
+      <dl><dt>{tendon.connectionLabel}</dt><dd>{tendon.connection}</dd><dt>{tendon.attachmentLabel}</dt><dd>{tendon.attachment}</dd><dt>主要作用</dt><dd>{tendon.function}</dd></dl><p>{tendon.note}</p>
+      <details><summary>参考资料</summary><p><a href={tendon.source} target="_blank" rel="noreferrer">{tendon.sourceLabel}</a></p>{model && <p>模型来源：<a href={model.url} target="_blank" rel="noreferrer">Z-Anatomy（LluisV / 贡献者）</a>，{model.license}。{model.note}{model.limitation}</p>}</details>
+    </> : <p>{name ? '这块肌肉的起止点与功能尚未收录。' : '单击肌肉、骨骼或连接组织，查看对应的解剖说明。'}</p>}
   </section>;
 }

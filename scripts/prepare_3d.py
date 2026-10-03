@@ -7,6 +7,9 @@ import json
 import struct
 from surface_atlas import build_surface_atlas
 from muscle_index import build_muscle_parts, build_bone_parts, is_muscle_part
+from tendon_index import pack_tendons
+from shared_distal_index import attach_shared_distal
+from anatomy_supplements import append_supplements
 from pathlib import Path
 
 
@@ -75,7 +78,10 @@ def main() -> None:
     bone_bytes, bones_info = pack_layer("skeletal")
     bones_info['parts'] = build_bone_parts(atlas)
     muscle_bytes, muscles_info = pack_layer("muscular")
-    muscles_info['parts'] = build_muscle_parts(atlas)
+    muscles_info['parts'] = attach_shared_distal(atlas, raw_for, build_muscle_parts(atlas))
+    muscle_bytes, muscles_info = append_supplements(ROOT, muscle_bytes, muscles_info)
+    tendon_bytes, tendons_info = pack_tendons(atlas, raw_for)
+    tendon_bytes, tendons_info = append_supplements(ROOT, tendon_bytes, tendons_info, 'connective')
 
     feature_bytes = bytearray()
     feature_info = []
@@ -91,14 +97,17 @@ def main() -> None:
         "mesh": {**skin_info, "source": "BodyParts3D 4.0 complete Skin mesh"},
         "bones": bones_info,
         "muscles": muscles_info,
+        "tendons": tendons_info,
         "features": feature_info,
         "surface_atlas": surface_info,
     }, ensure_ascii=False), encoding="utf-8")
     (TARGET / "skin.pack").write_bytes(gzip.compress(skin_bytes, compresslevel=9, mtime=0))
     (TARGET / "bones.pack").write_bytes(gzip.compress(bone_bytes, compresslevel=9, mtime=0))
     (TARGET / "muscles.pack").write_bytes(gzip.compress(muscle_bytes, compresslevel=9, mtime=0))
+    (TARGET / "tendons.pack").write_bytes(gzip.compress(tendon_bytes, compresslevel=9, mtime=0))
     (TARGET / "features.pack").write_bytes(gzip.compress(feature_bytes, compresslevel=9, mtime=0))
     (TARGET / "surface_atlas.bin").write_bytes(surface_bytes)
+    (TARGET / 'supplement-attribution.txt').write_text((ROOT/'assets/anatomy-supplements/ATTRIBUTION.md').read_text(encoding='utf-8'),encoding='utf-8')
     audit_path = ROOT / 'build' / 'authoring' / 'surface-atlas-build.json'
     audit_path.parent.mkdir(parents=True, exist_ok=True)
     audit_path.write_text(json.dumps(surface_report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')

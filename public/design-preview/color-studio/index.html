@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>RehabMind · 自由配色</title><link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./studio.css">
+</head>
+<body>
+  <header class="studio-header">
+    <div><a class="brand" href="../../../">RehabMind <span>配色工作台</span></a><h1>搭配你喜欢的颜色。</h1><p>点色块选颜色，或输入色号。预览里的模型和卡片可以直接操作。</p></div>
+    <div class="header-actions"><button id="reset">恢复当前配色</button><button id="export" class="primary">导出配色 ↗</button></div>
+  </header>
+  <nav class="mobile-jump" aria-label="配色页导航"><a href="#controls">调整配色</a><a href="#preview-area">查看预览 ↓</a></nav>
+  <main class="workspace">
+    <aside class="controls" id="controls" aria-label="配色设置">
+      <section><div class="section-heading"><h2>从一组配色开始</h2><span>再自由调整</span></div><div id="presets" class="presets"></div></section>
+      <section><div class="section-heading"><h2>调整界面颜色</h2><span>上下导航同步</span></div><div id="editors"></div></section>
+      <section class="reference-section"><h2>图片里的参考色</h2><p>先选下方要调整的颜色，再点参考色。</p><label class="target-label" for="target">要调整的位置</label><select id="target"></select><div id="swatch-bank" class="swatch-bank"></div></section>
+      <section><div class="section-heading"><h2>我的搭配</h2><span>保存在此浏览器</span></div><div class="save-row"><input id="scheme-name" aria-label="方案名称" placeholder="给这组颜色起个名字" maxlength="40"><button id="save">保存</button></div><div id="saved" class="saved"></div><div class="file-actions"><button id="import">导入配色文件</button><button id="copy">复制样式</button><input id="import-file" type="file" accept=".json,application/json" hidden></div></section>
+    </aside>
+    <section class="preview-area" id="preview-area" aria-label="界面配色预览">
+      <div class="preview-heading"><div><h2>实时预览</h2><p>在模型上选一个部位，可以查看思路里的实际卡片。</p></div><button id="reload">重新载入预览</button></div>
+      <div class="preview-layout">
+        <div class="phone"><iframe id="app-preview" title="RehabMind 实际界面预览"></iframe></div>
+        <div class="samples" id="samples">
+          <div class="sample-heading"><h3>按钮与卡片对照</h3><p>选中、未选中和弹窗都可单独搭配。</p></div>
+          <div class="sample-nav">康复思路 <span>顶部 / 底部导航</span></div>
+          <div class="sample-controls"><div class="sample-mode"><button class="selected" type="button" aria-pressed="true">选择部位</button><button type="button" aria-pressed="false">调整视角</button></div><button class="sample-atlas-entry" type="button">肌肉图谱</button></div>
+          <div class="sample-entry"><small>大腿 · 右侧</small><div><strong>大腿前侧 / 股四头肌区</strong><span>查看思路 ›</span></div></div>
+          <div class="sample-sheet-header"><div><small>康复思路</small><strong>大腿前侧 / 股四头肌区</strong></div><button class="sample-close" type="button" aria-label="关闭按钮配色样例">×</button></div>
+          <div class="sample-directions"><button class="selected" type="button" aria-pressed="true">局部组织</button><button type="button" aria-pressed="false">能力与负荷</button></div>
+          <details class="sample-card tissue"><summary>周围有哪些组织</summary><p>股四头肌、股四头肌腱与股骨前侧。</p></details>
+          <details class="sample-card consultation" open><summary>问诊思路</summary><p>不适何时出现？负荷变化、疼痛性质及伴随表现如何？</p></details>
+          <details class="sample-card patient"><summary>患者与症状信息</summary><p>年龄、活动情况与症状变化。</p></details>
+          <details class="sample-card assessment"><summary>肌腹按压与收缩表现</summary><p>比较症状、局部压痛及主动收缩反应。</p></details>
+          <details class="sample-card treatment" open><summary>处理参考</summary><p>根据评估结果安排负荷与训练，并观察次日反应。</p></details>
+          <button class="sample-action" type="button">查看相关活动</button>
+          <details class="sample-atlas"><summary>肌肉图谱界面配色</summary><div class="sample-atlas-header"><strong>肌肉图谱</strong><button class="sample-close" type="button" aria-label="收起按钮配色样例">×</button></div><div class="sample-atlas-model">模型背景</div><div class="sample-peel"><button type="button">＋ 加一层</button><span>整体模型</span><button type="button">－ 减一层</button></div><div class="sample-atlas-bar"><strong>腹直肌</strong><button class="sample-solo" type="button" aria-pressed="false">单独显示</button></div><div class="sample-atlas-detail">起点　耻骨联合及耻骨嵴<br>止点　剑突及第五至第七肋软骨</div></details>
+          <p class="sample-note">这里仅展示排版与颜色；临床内容以应用内对应部位为准。</p>
+          <div id="contrast" class="contrast"></div>
+        </div>
+      </div>
+      <p class="preview-note">修改会自动记住，刷新后可继续。配色仅在此参考页预览；选定后把导出的文件发给我即可。</p>
+    </section>
+  </main>
+  <p id="status" class="status" role="status" aria-live="polite"></p>
+  <dialog id="copy-dialog"><h2>复制配色样式</h2><p>浏览器未允许直接复制，可以选中下方内容手动复制。</p><textarea readonly aria-label="配色样式"></textarea><button id="close-copy">关闭</button></dialog>
+  <dialog id="export-dialog"><h2>保存这组配色</h2><p>下载文件或复制下方配色内容，发给我即可应用。</p><textarea readonly aria-label="导出的配色内容"></textarea><div class="file-actions"><button id="download-json" class="primary">下载 JSON 文件</button><button id="copy-json">复制配色内容</button><button id="close-export">关闭</button></div></dialog>
+  <script type="module" src="./studio.js"></script>
+</body>
+</html>

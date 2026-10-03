@@ -41,7 +41,10 @@ test('explicit thigh subdivisions keep anatomical priorities while a whole-regio
   const visible=items(result).filter(i=>i.item_id.startsWith('CORE-MUS-')&&i.display_mode==='DEFAULT');
   assert.equal(visible[0].item_id,first);
   assert.equal(visible[0].display_mode,'DEFAULT');
-  assert.ok(result.consultation_guide.some(q=>q.guide_id.startsWith('QG-THIGH-')));
+  if(area==='LOC-THIGH-SART') {
+   assert.deepEqual(result.consultation_guide.filter(q=>q.scope!=='GENERAL').map(q=>q.guide_id),['QG-SART-1','QG-SART-2','QG-SART-3']);
+   assert.ok(!result.consultation_guide.some(q=>q.guide_id.startsWith('QG-THIGH-')));
+  } else assert.ok(result.consultation_guide.some(q=>q.guide_id.startsWith('QG-THIGH-')));
   assert.ok(result.related_tissues.length);
   for(const side of ['left','right']) assert.ok(meta.surface_atlas.entries.some(e=>e?.areaId===area&&e.side===side),`${area}/${side} unreachable`);
   const baseline=resolveAssessment(data,{region_id:region});

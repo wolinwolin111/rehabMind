@@ -21,6 +21,7 @@ export interface SkinData {
   mesh: MeshInfo;
   bones: Omit<MeshInfo, 'faceCount'> & { partCount: number; parts?: import('./muscle-picking').MusclePart[] };
   muscles: Omit<MeshInfo, 'faceCount'> & { partCount: number; parts?: import('./muscle-picking').MusclePart[] };
+  tendons?: Omit<MeshInfo, 'faceCount'> & { partCount: number; parts: import('./content/tendon-anatomy').TendonPart[] };
   features: (Omit<MeshInfo, 'faceCount'> & { name: string })[];
   surface_atlas: {
     version: number; face_count: number; roots_offset: number; nodes_offset: number;

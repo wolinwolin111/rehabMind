@@ -4,6 +4,7 @@ import { AnatomyStage } from './AnatomyStage';
 import { MuscleExplorer } from './MuscleExplorer';
 import { ConsultationGuide } from './ConsultationGuide';
 import { RelatedTissues } from './RelatedTissues';
+import { PanelHeading } from './PanelHeading';
 import { PostoperativeLibrary } from './PostoperativeLibrary';
 import type { AssessmentItem, ContextRule, Dimension, Metadata, ResolveResult } from './types';
 
@@ -294,7 +295,7 @@ export function App() {
     <nav className="bottom-nav" aria-label="主要模块">{NAV_ITEMS.map(item => <button key={item.id} type="button" className={nav === item.id ? 'is-active' : ''} aria-current={nav === item.id ? 'page' : undefined} onClick={() => chooseNav(item.id)}><span className="bottom-nav__icon"><NavIcon id={item.id} /></span><span>{item.label}</span></button>)}</nav>
 
     {nav === 'rehab' && !sheetOpen && <button ref={muscleExplorerButtonRef} className="muscle-explorer-tab" type="button" aria-label="打开肌肉图谱" aria-haspopup="dialog" aria-expanded={muscleExplorerOpen} onClick={() => setMuscleExplorerOpen(true)}>
-      <svg viewBox="0 0 24 40" aria-hidden="true"><circle cx="12" cy="5" r="3" /><path d="M8 11h8l3 11-3 1-2-7v9l2 12h-3l-1-10-1 10H8l2-12v-9l-2 7-3-1 3-11Z" /><path d="M12 11v12M9 16h6" /></svg><span>肌肉</span>
+      <svg viewBox="0 0 24 40" aria-hidden="true"><circle cx="12" cy="5" r="3" /><path d="M8 11h8l3 11-3 1-2-7v9l2 12h-3l-1-10-1 10H8l2-12v-9l-2 7-3-1 3-11Z" /><path d="M12 11v12M9 16h6" /></svg>
     </button>}
     {muscleExplorerOpen && <MuscleExplorer onClose={() => { setMuscleExplorerOpen(false); requestAnimationFrame(() => muscleExplorerButtonRef.current?.focus()); }} />}
 
@@ -312,7 +313,7 @@ export function App() {
             {!!result.safety_alerts.length && <section className="safety-panel" role="alert"><span className="eyebrow-small">需要留意的情况</span><h3>先关注风险</h3>{result.safety_alerts.map(alert => <div key={alert.rule_id}><strong>{alert.title}</strong><p>{alert.guidance}</p></div>)}</section>}
             <RelatedTissues key={`tissues:${areaId || regionId}`} groups={result.related_tissues || []} />
             <ConsultationGuide key={`consultation:${areaId || regionId}`} questions={result.consultation_guide || []} />
-            <section ref={contextPanelRef} className="context-panel"><button ref={contextButtonRef} type="button" className="context-panel__head" aria-expanded={contextOpen} onClick={() => setContextOpen(value => !value)}><span className="context-panel__title"><span className="context-panel__icon"><NavIcon id="me" /></span><span><strong>患者与症状信息</strong><small>可选填写</small></span></span><Chevron open={contextOpen} /></button>
+            <section ref={contextPanelRef} className="context-panel"><button ref={contextButtonRef} type="button" className="context-panel__head" aria-expanded={contextOpen} onClick={() => setContextOpen(value => !value)}><PanelHeading icon="patient" title="患者与症状信息" note="可选填写" /><Chevron open={contextOpen} /></button>
               <div className={`card-expansion${contextOpen ? ' is-open' : ''}`} inert={!contextOpen} aria-hidden={!contextOpen}><div className="card-expansion__clip">
               <div className="context-panel__body">
                 {!!metadata?.profile_schema.length && <div className="profile-grid">{metadata.profile_schema.filter(field => fieldVisible(field.dependency, profile)).map(field => <label key={field.id}><span>{field.label}</span><select value={profile[field.id] || ''} onChange={event => { const value = event.target.value; setProfile(old => ({ ...old, [field.id]: value, ...(field.id === 'sex' && value !== 'female' ? { female_stage: '' } : {}) })); }}><option value="">未填写</option>{Object.entries(field.options).map(([value, label]) => <option key={value} value={value}>{label}</option>)}</select></label>)}</div>}

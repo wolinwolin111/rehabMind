@@ -1,6 +1,10 @@
 export interface MusclePart {
   id: string; conceptId: string; name: string; displayName: string;
   side: string; firstFace: number; faceCount: number;
+  sourceName?: string; sourceConceptId?: string; correctionReason?: string;
+  sharedDistal?: {donorId:string;donorName:string;donorConceptId:string;sourceGeometrySha256:string;faces:number[];cutoffY:number;overlapMm:number;status:string};
+  sourceSegmentOf?: string;
+  schematicHead?: 'direct'|'reflected';
 }
 
 /** Face ranges follow the source mesh packing order, independent of body coordinates. */

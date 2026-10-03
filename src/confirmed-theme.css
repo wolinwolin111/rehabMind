@@ -1,0 +1,48 @@
+/* User-confirmed RehabMind palette, 2026-10-03. */
+:root {
+  --header-blue:#90AFDE; --palette-mist:#90AFDE; --header-line:#90AFDE;
+  --palette-cream:#FBF7EF;
+  --paper:#FBF7EF; --page:#FBF7EF; --surface:#FBF7EF; --model-background:#FBF7EF;
+  --ink:#000000; --muted:#000000; --teal:#000000; --teal-deep:#000000;
+  --blue-wash:#E8EDF8; --card-head:#E8EDF8; --card-ink:#000000;
+  --tissue-wash:#ECEEE1; --consultation-wash:#EAE4F5; --consultation-ink:#000000;
+  --context-wash:#D4EEE1; --mint:#D4EEE1; --selection:#D4EEE1; --selection-ink:#000000;
+  --green-ink:#000000; --green-soft:#FBF7EF;
+  --treatment-wash:#F7E6BE; --treatment-ink:#000000;
+  --resume-wash:#FBF7EF; --resume-line:#FBF7EF; --resume-ink:#000000; --resume-action:#F7E6BE;
+  --button-outline:#718bad40;
+}
+.app-header,.app-header .brand small,.app-header .brand strong,.bottom-nav button {color:#000000;}
+.bottom-nav button.is-active {color:#000000;}
+.resume-card__action,.tissue-panel__head,.context-panel__head {color:#000000;}
+.muscle-explorer-tab,.muscle-explorer-tab:hover {background:#90AFDE;color:#000000;border-color:#90AFDE;}
+.anatomy-mode {background:#FBF7EF;}
+.anatomy-mode button {background:#FBF7EF;color:#000000;}
+.anatomy-mode button.active {background:#F7E6BE;color:#000000;}
+.reasoning-sheet__header {background:#90AFDE;color:#000000;}
+.reasoning-sheet__header .sheet-overline,.reasoning-sheet__top h2 {color:#000000;}
+.reasoning-sheet__top small {background:#FBF7EF;color:#000000;}
+.reasoning-sheet__top > button,.finding-drawer > header button,.muscle-explorer__header button {background:#FBF7EF;color:#000000;}
+.direction-tabs button {background:#FBF7EF;color:#000000;}
+.direction-tabs button[aria-pressed="true"] {background:#D4EEE1;color:#000000;}
+.finding-location-review button,.direction-empty button,.module-empty button {background:#E8EDF8;color:#000000;}
+.muscle-explorer {--surface:#FFFFFF;--model-background:#FFFFFF;--green-ink:#000000;}
+.muscle-explorer__header {background:#90AFDE;}
+.muscle-explorer__header h2,.muscle-explorer__header p {color:#000000;}
+.muscle-explorer .muscle-selection {background:#F7E6BE;color:#000000;}
+.muscle-explorer .muscle-selection small {color:#000000;}
+.muscle-peel-controls button,.muscle-solo-button {background:#F8FBFF;color:#000000;}
+.muscle-solo-button[aria-pressed="true"] {background:#D6F0DF;color:#000000;}
+.muscle-anatomy {background:#FFFFFF;color:#000000;}
+.muscle-anatomy dt,.muscle-anatomy a,.muscle-anatomy .muscle-anatomy__notice {color:#000000;}
+
+/* A light, consistent outline without changing each control's fill or radius. */
+#root button {border-width:1px;border-style:solid;border-color:var(--button-outline);}
+/* Navigation is one continuous bar; accordion cards already own their outline. */
+#root .bottom-nav button,
+#root .tissue-panel__head,
+#root .consultation-panel__head,
+#root .context-panel__head,
+#root .related-module__head,
+#root .related-module__items .assessment-row__head,
+#root .related-module__items .finding-row__head {border:0;}

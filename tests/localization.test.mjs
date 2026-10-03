@@ -6,8 +6,13 @@ const knowledge = JSON.parse(readFileSync(new URL('../build/knowledge/runtime.js
 
 test('the visible model uses the complete demo mesh and skeletal layer', () => {
   assert.equal(meta.mesh.faceCount, 44744);
-  // Ten source meshes tagged skeletal are tibialis/fibularis muscles, now in their own layer.
-  assert.equal(meta.bones.partCount, 286);
+  // Source skeletal tags also include named leg and shoulder muscles. Keep the
+  // remaining skeletal parts complete without pinning the pre-correction count.
+  const atlas=JSON.parse(readFileSync(new URL('../baseline/RehabMind_LowerLimbV1_ImplementationBaseline_DBv3.7_2026-09-29/04_3D_Localization/model/atlas_metadata.json',import.meta.url)));
+  const muscleIds=new Set(meta.muscles.parts.map(part=>part.id));
+  const bones=atlas.parts.filter(part=>part.system==='skeletal'&&!muscleIds.has(part.id));
+  assert.equal(meta.bones.partCount, bones.length);
+  assert.deepEqual(meta.bones.parts.map(part=>part.id),bones.map(part=>part.id));
   assert.deepEqual(meta.features.map(feature => feature.name), ['Eyebrow', 'Hair of head', 'Lip']);
   assert.equal(semantics.roots.length, meta.mesh.faceCount);
 });

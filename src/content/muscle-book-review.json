@@ -1,0 +1,1301 @@
+{
+  "first lumbrical of foot": {
+    "printedPages": [
+      345
+    ],
+    "coverage": "group",
+    "reviewNote": ""
+  },
+  "first plantar interosseous of foot": {
+    "printedPages": [
+      346
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "second lumbrical of foot": {
+    "printedPages": [
+      345
+    ],
+    "coverage": "group",
+    "reviewNote": ""
+  },
+  "second plantar interosseous of foot": {
+    "printedPages": [
+      346
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "third lumbrical of foot": {
+    "printedPages": [
+      345
+    ],
+    "coverage": "group",
+    "reviewNote": ""
+  },
+  "third plantar interosseous of foot": {
+    "printedPages": [
+      346
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "fourth lumbrical of foot": {
+    "printedPages": [
+      345
+    ],
+    "coverage": "group",
+    "reviewNote": ""
+  },
+  "abductor digiti minimi of foot": {
+    "printedPages": [
+      345
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "flexor digiti minimi brevis of foot": {
+    "printedPages": [
+      345
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "lateral head of flexor hallucis brevis": {
+    "printedPages": [
+      345
+    ],
+    "coverage": "group",
+    "reviewNote": ""
+  },
+  "lateral head of gastrocnemius": {
+    "printedPages": [
+      338
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "long head of biceps femoris": {
+    "printedPages": [
+      257,
+      300
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "medial head of flexor hallucis brevis": {
+    "printedPages": [
+      345
+    ],
+    "coverage": "group",
+    "reviewNote": ""
+  },
+  "medial head of gastrocnemius": {
+    "printedPages": [
+      338
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "oblique head of adductor hallucis": {
+    "printedPages": [
+      345
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "opponens digiti minimi of foot": {
+    "printedPages": [],
+    "coverage": "secondary",
+    "reviewNote": "书无独立条目；保留变异性说明，不与手小指对掌肌混用。"
+  },
+  "abductor hallucis": {
+    "printedPages": [
+      345
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "adductor brevis": {
+    "printedPages": [
+      268
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "adductor longus": {
+    "printedPages": [
+      267
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "adductor magnus": {
+    "printedPages": [
+      268
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "adductor minimus": {
+    "printedPages": [
+      268
+    ],
+    "coverage": "group",
+    "reviewNote": "大收肌细分命名，书无独立最小收肌条目。"
+  },
+  "extensor digitorum longus": {
+    "printedPages": [
+      333
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "extensor hallucis brevis": {
+    "printedPages": [
+      343
+    ],
+    "coverage": "group",
+    "reviewNote": ""
+  },
+  "extensor hallucis longus": {
+    "printedPages": [
+      332
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "fibularis brevis": {
+    "printedPages": [
+      336
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "fibularis longus": {
+    "printedPages": [
+      335
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "fibularis tertius": {
+    "printedPages": [
+      333
+    ],
+    "coverage": "group",
+    "reviewNote": ""
+  },
+  "flexor accessorius": {
+    "printedPages": [
+      345
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "flexor digitorum brevis": {
+    "printedPages": [
+      345
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "flexor digitorum longus": {
+    "printedPages": [
+      343
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "flexor hallucis longus": {
+    "printedPages": [
+      343
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "gemellus inferior": {
+    "printedPages": [
+      271
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "gemellus superior": {
+    "printedPages": [
+      271
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "gluteus maximus": {
+    "printedPages": [
+      256
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "gluteus medius": {
+    "printedPages": [
+      261
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "gluteus minimus": {
+    "printedPages": [
+      262
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "gracilis": {
+    "printedPages": [
+      267,
+      301
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "iliacus": {
+    "printedPages": [
+      219,
+      250
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "obturator externus": {
+    "printedPages": [
+      271
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "obturator internus": {
+    "printedPages": [
+      271
+    ],
+    "coverage": "attachments",
+    "reviewNote": "书表9.3转子窝的表述与常见细分解剖不一致；保留大转子内侧、转子窝上方的附着，不与闭孔外肌混用。"
+  },
+  "pectineus": {
+    "printedPages": [
+      266
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "piriformis": {
+    "printedPages": [
+      271
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "plantaris": {
+    "printedPages": [
+      339
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "popliteus": {
+    "printedPages": [
+      301
+    ],
+    "coverage": "group",
+    "reviewNote": ""
+  },
+  "psoas major": {
+    "printedPages": [
+      219,
+      250
+    ],
+    "coverage": "attachments",
+    "reviewNote": "219页省略椎体与椎间盘，250页更完整；不把T12横突写为常规起点。"
+  },
+  "quadratus femoris": {
+    "printedPages": [
+      271
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "rectus femoris": {
+    "printedPages": [
+      251,
+      294
+    ],
+    "coverage": "attachments",
+    "reviewNote": "书仅列直头；保留解剖研究证实的髋臼上缘反折头。已通过几何不变。"
+  },
+  "sartorius": {
+    "printedPages": [
+      252,
+      301
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "semimembranosus": {
+    "printedPages": [
+      258
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "semitendinosus": {
+    "printedPages": [
+      257,
+      300
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "soleus": {
+    "printedPages": [
+      339
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "tensor fasciae latae": {
+    "printedPages": [
+      253
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "tibialis anterior": {
+    "printedPages": [
+      331
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "tibialis posterior": {
+    "printedPages": [
+      342
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "vastus intermedius": {
+    "printedPages": [
+      295
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "vastus lateralis": {
+    "printedPages": [
+      295
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "vastus medialis": {
+    "printedPages": [
+      295
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "short head of biceps femoris": {
+    "printedPages": [
+      299
+    ],
+    "coverage": "attachments",
+    "reviewNote": "保留股骨粗线外侧唇，并以大学解剖资料补充外侧髁上线；不承担长头的伸髋作用。"
+  },
+  "transverse head of adductor hallucis": {
+    "printedPages": [
+      345
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "abdominal part of pectoralis major": {
+    "printedPages": [
+      82
+    ],
+    "coverage": "group",
+    "reviewNote": ""
+  },
+  "clavicular part of pectoralis major": {
+    "printedPages": [
+      82
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "coccygeus": {
+    "printedPages": [],
+    "coverage": "secondary",
+    "reviewNote": ""
+  },
+  "external anal sphincter": {
+    "printedPages": [],
+    "coverage": "secondary",
+    "reviewNote": ""
+  },
+  "external intercostal muscle": {
+    "printedPages": [],
+    "coverage": "secondary",
+    "reviewNote": ""
+  },
+  "external oblique": {
+    "printedPages": [
+      217
+    ],
+    "coverage": "attachments",
+    "reviewNote": "书217页为第4–12肋；UAMS为下8肋（5–12），保留后者。"
+  },
+  "iliococcygeus": {
+    "printedPages": [],
+    "coverage": "secondary",
+    "reviewNote": ""
+  },
+  "innermost intercostal muscle": {
+    "printedPages": [],
+    "coverage": "secondary",
+    "reviewNote": ""
+  },
+  "internal intercostal muscle": {
+    "printedPages": [],
+    "coverage": "secondary",
+    "reviewNote": ""
+  },
+  "pectoralis minor": {
+    "printedPages": [
+      67
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "pubococcygeus": {
+    "printedPages": [],
+    "coverage": "secondary",
+    "reviewNote": ""
+  },
+  "puborectalis": {
+    "printedPages": [],
+    "coverage": "secondary",
+    "reviewNote": ""
+  },
+  "serratus anterior": {
+    "printedPages": [
+      66
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "subclavius": {
+    "printedPages": [
+      67
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "transversus thoracis": {
+    "printedPages": [],
+    "coverage": "secondary",
+    "reviewNote": ""
+  },
+  "set of levatores costarum breves": {
+    "printedPages": [
+      225
+    ],
+    "coverage": "group",
+    "reviewNote": "书225页图示肌群，但未列出本条逐段起止点；详细節段用解剖资料补充。"
+  },
+  "set of levatores costarum longi": {
+    "printedPages": [
+      225
+    ],
+    "coverage": "group",
+    "reviewNote": "书225页图示肌群，但未列出本条逐段起止点；详细節段用解剖资料补充。"
+  },
+  "sternocostal part of pectoralis major": {
+    "printedPages": [
+      82
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "abductor digiti minimi of hand": {
+    "printedPages": [
+      166
+    ],
+    "coverage": "attachments",
+    "reviewNote": "书166页止点疑写拇指；按图与UAMS保留第五指。"
+  },
+  "acromial part of deltoid": {
+    "printedPages": [
+      81
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "clavicular part of deltoid": {
+    "printedPages": [
+      81
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "flexor pollicis brevis": {
+    "printedPages": [
+      164
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "flexor digiti minimi brevis of hand": {
+    "printedPages": [
+      166
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "extensor carpi ulnaris": {
+    "printedPages": [
+      133
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "humeral head of flexor carpi ulnaris": {
+    "printedPages": [
+      135
+    ],
+    "coverage": "group",
+    "reviewNote": ""
+  },
+  "humeral head of pronator teres": {
+    "printedPages": [
+      115
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "flexor digitorum superficialis": {
+    "printedPages": [
+      156
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "lateral head of triceps brachii": {
+    "printedPages": [
+      109
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "long head of biceps brachii": {
+    "printedPages": [
+      78,
+      104
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "long head of triceps brachii": {
+    "printedPages": [
+      80,
+      109
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "medial head of triceps brachii": {
+    "printedPages": [
+      109
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "oblique head of adductor pollicis": {
+    "printedPages": [
+      164,
+      167
+    ],
+    "coverage": "attachments",
+    "reviewNote": "表7.4头状骨疑写豌豆骨，功能疑写外展；同书164页正文及UAMS均支持头状骨与内收。"
+  },
+  "opponens digiti minimi of hand": {
+    "printedPages": [
+      166
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "abductor pollicis brevis": {
+    "printedPages": [
+      164
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "abductor pollicis longus": {
+    "printedPages": [
+      162
+    ],
+    "coverage": "attachments",
+    "reviewNote": "书162页右下标题疑写小指伸肌，内容实为拇长展肌。"
+  },
+  "anconeus": {
+    "printedPages": [
+      110
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "brachialis": {
+    "printedPages": [
+      105
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "brachioradialis": {
+    "printedPages": [
+      106
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "coracobrachialis": {
+    "printedPages": [
+      79
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "extensor carpi radialis brevis": {
+    "printedPages": [
+      132
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "extensor carpi radialis longus": {
+    "printedPages": [
+      133
+    ],
+    "coverage": "attachments",
+    "reviewNote": "书133页写外上髁伸肌总腱；按UAMS复核保留外侧髁上嵴。"
+  },
+  "extensor digiti minimi": {
+    "printedPages": [
+      161
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "extensor digitorum": {
+    "printedPages": [
+      161
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "extensor indicis": {
+    "printedPages": [
+      161
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "extensor pollicis brevis": {
+    "printedPages": [
+      162
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "extensor pollicis longus": {
+    "printedPages": [
+      162
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "flexor carpi radialis": {
+    "printedPages": [
+      135
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "flexor digitorum profundus": {
+    "printedPages": [
+      157
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "flexor pollicis longus": {
+    "printedPages": [
+      157
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "infraspinatus muscle": {
+    "printedPages": [
+      74
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "opponens pollicis": {
+    "printedPages": [
+      164
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "palmaris longus": {
+    "printedPages": [
+      135
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "pronator quadratus": {
+    "printedPages": [
+      115
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "subscapularis": {
+    "printedPages": [
+      75
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "supinator": {
+    "printedPages": [
+      113
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "supraspinatus": {
+    "printedPages": [
+      73
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "teres major": {
+    "printedPages": [
+      77
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "teres minor": {
+    "printedPages": [
+      74
+    ],
+    "coverage": "attachments",
+    "reviewNote": "书74页写接近下角；保留外侧缘上部，避免与大圆肌附着混淆。"
+  },
+  "set of dorsal interossei of hand": {
+    "printedPages": [
+      165,
+      167
+    ],
+    "coverage": "group",
+    "reviewNote": ""
+  },
+  "set of lumbricals of hand": {
+    "printedPages": [
+      165,
+      167
+    ],
+    "coverage": "group",
+    "reviewNote": ""
+  },
+  "set of palmar interossei of hand": {
+    "printedPages": [
+      165,
+      167
+    ],
+    "coverage": "group",
+    "reviewNote": "书计入拇指掌侧骨间肌为4块；当前模型集合按常见3块并说明命名差异。"
+  },
+  "short head of biceps brachii": {
+    "printedPages": [
+      78,
+      104
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "spinal part of deltoid": {
+    "printedPages": [
+      81
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "superficial head of flexor pollicis brevis": {
+    "printedPages": [
+      164
+    ],
+    "coverage": "group",
+    "reviewNote": ""
+  },
+  "transverse head of adductor pollicis": {
+    "printedPages": [
+      164,
+      167
+    ],
+    "coverage": "attachments",
+    "reviewNote": "表7.4外展与同书正文内收冲突，采用正文及UAMS。"
+  },
+  "ulnar head of pronator teres": {
+    "printedPages": [
+      115
+    ],
+    "coverage": "attachments",
+    "reviewNote": "书115页写尺骨粗隆内侧；按UAMS复核保留冠突内侧。"
+  },
+  "ulnar head of flexor carpi ulnaris": {
+    "printedPages": [
+      135
+    ],
+    "coverage": "group",
+    "reviewNote": ""
+  },
+  "ascending part of trapezius": {
+    "printedPages": [
+      64
+    ],
+    "coverage": "attachments",
+    "reviewNote": "本轮按主参考64页下束T6–T12；其他图谱从T4起的分束差异保留于审核记录。"
+  },
+  "descending part of trapezius": {
+    "printedPages": [
+      64
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "lumbar rotator": {
+    "printedPages": [
+      225,
+      226
+    ],
+    "coverage": "group",
+    "reviewNote": ""
+  },
+  "cervical rotator": {
+    "printedPages": [
+      225,
+      226
+    ],
+    "coverage": "group",
+    "reviewNote": ""
+  },
+  "thoracic rotator": {
+    "printedPages": [
+      225,
+      226
+    ],
+    "coverage": "group",
+    "reviewNote": ""
+  },
+  "iliocostalis cervicis": {
+    "printedPages": [
+      223
+    ],
+    "coverage": "attachments",
+    "reviewNote": "书223页起始为第3–7肋；常见细分解剖为第3–6肋，保留当前范围并记录差异。"
+  },
+  "iliocostalis lumborum": {
+    "printedPages": [
+      223
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "iliocostalis thoracis": {
+    "printedPages": [
+      223
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "levator scapulae": {
+    "printedPages": [
+      65
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "longissimus capitis": {
+    "printedPages": [
+      223
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "longissimus cervicis": {
+    "printedPages": [
+      223
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "longissimus thoracis": {
+    "printedPages": [
+      223
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "rhomboid major": {
+    "printedPages": [
+      65
+    ],
+    "coverage": "group",
+    "reviewNote": "书合并大小菱形肌，模型分别命名；保留T2–T5细分及已通过连接。"
+  },
+  "rhomboid minor": {
+    "printedPages": [
+      65
+    ],
+    "coverage": "group",
+    "reviewNote": "书合并大小菱形肌，模型分别命名；保留C7–T1细分及已通过连接。"
+  },
+  "semispinalis capitis": {
+    "printedPages": [
+      225,
+      226
+    ],
+    "coverage": "group",
+    "reviewNote": ""
+  },
+  "semispinalis cervicis": {
+    "printedPages": [
+      225,
+      226
+    ],
+    "coverage": "group",
+    "reviewNote": ""
+  },
+  "semispinalis thoracis": {
+    "printedPages": [
+      225,
+      226
+    ],
+    "coverage": "group",
+    "reviewNote": ""
+  },
+  "serratus posterior inferior": {
+    "printedPages": [],
+    "coverage": "secondary",
+    "reviewNote": ""
+  },
+  "serratus posterior superior": {
+    "printedPages": [],
+    "coverage": "secondary",
+    "reviewNote": "本次主要书页无独立附着条目；大学表格亦有第1–4肋与第2–5肋的差异，保留常规第2–5肋。"
+  },
+  "spinalis": {
+    "printedPages": [
+      223
+    ],
+    "coverage": "group",
+    "reviewNote": ""
+  },
+  "spinalis thoracis": {
+    "printedPages": [
+      223
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "splenius capitis": {
+    "printedPages": [
+      214
+    ],
+    "coverage": "attachments",
+    "reviewNote": "书214页棘间韧带表述疑误，按大学资料保留项韧带并明确C7–T3。"
+  },
+  "splenius cervicis": {
+    "printedPages": [
+      214
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "lateral lumbar intertransversarius": {
+    "printedPages": [
+      225
+    ],
+    "coverage": "group",
+    "reviewNote": ""
+  },
+  "medial lumbar intertransversarius": {
+    "printedPages": [
+      225
+    ],
+    "coverage": "group",
+    "reviewNote": ""
+  },
+  "set of anterior cervical intertransversarii": {
+    "printedPages": [
+      225
+    ],
+    "coverage": "group",
+    "reviewNote": ""
+  },
+  "set of interspinales lumborum": {
+    "printedPages": [
+      225
+    ],
+    "coverage": "group",
+    "reviewNote": ""
+  },
+  "interspinalis thoracis": {
+    "printedPages": [
+      225
+    ],
+    "coverage": "group",
+    "reviewNote": ""
+  },
+  "set of interspinales cervicis": {
+    "printedPages": [
+      225
+    ],
+    "coverage": "group",
+    "reviewNote": ""
+  },
+  "set of posterior cervical intertransversarii": {
+    "printedPages": [
+      225
+    ],
+    "coverage": "group",
+    "reviewNote": ""
+  },
+  "transverse part of trapezius": {
+    "printedPages": [
+      64
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "inferior oblique part of longus colli": {
+    "printedPages": [
+      211
+    ],
+    "coverage": "group",
+    "reviewNote": ""
+  },
+  "longus capitis": {
+    "printedPages": [
+      211
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "obliquus capitis inferior": {
+    "printedPages": [
+      213
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "obliquus capitis superior": {
+    "printedPages": [
+      213
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "rectus capitis anterior": {
+    "printedPages": [
+      211
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "rectus capitis posterior major": {
+    "printedPages": [
+      213
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "rectus capitis posterior minor": {
+    "printedPages": [
+      213
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "rectus capitis lateralis": {
+    "printedPages": [
+      211
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "scalenus anterior": {
+    "printedPages": [
+      210
+    ],
+    "coverage": "attachments",
+    "reviewNote": "书210页为C3–C7；UAMS为C3–C6，保留常规C3–C6，记录范围差异。"
+  },
+  "scalenus medius": {
+    "printedPages": [
+      210
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "scalenus posterior": {
+    "printedPages": [
+      210
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "sternocleidomastoid": {
+    "printedPages": [
+      209
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "superior oblique part of longus colli": {
+    "printedPages": [
+      211
+    ],
+    "coverage": "group",
+    "reviewNote": ""
+  },
+  "vertical intermediate part of longus colli": {
+    "printedPages": [
+      211
+    ],
+    "coverage": "group",
+    "reviewNote": ""
+  },
+  "diaphragm": {
+    "printedPages": [],
+    "coverage": "secondary",
+    "reviewNote": ""
+  },
+  "extensor digitorum brevis": {
+    "printedPages": [
+      343
+    ],
+    "coverage": "group",
+    "reviewNote": ""
+  },
+  "articularis genu": {
+    "printedPages": [],
+    "coverage": "secondary",
+    "reviewNote": ""
+  },
+  "first dorsal interosseous of foot": {
+    "printedPages": [
+      346
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "second dorsal interosseous of foot": {
+    "printedPages": [
+      346
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "third dorsal interosseous of foot": {
+    "printedPages": [
+      346
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "fourth dorsal interosseous of foot": {
+    "printedPages": [
+      346
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "latissimus dorsi": {
+    "printedPages": [
+      76
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "rectus abdominis": {
+    "printedPages": [
+      216
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "internal oblique": {
+    "printedPages": [
+      217
+    ],
+    "coverage": "attachments",
+    "reviewNote": "肋附着范围书为9–12，UAMS为下3或4肋，本轮优先明确9–12。"
+  },
+  "transversus abdominis": {
+    "printedPages": [
+      218
+    ],
+    "coverage": "attachments",
+    "reviewNote": "书218页第6–12肋软骨范围有疑义，保留下六肋及软骨。"
+  },
+  "quadratus lumborum": {
+    "printedPages": [
+      218,
+      219
+    ],
+    "coverage": "attachments",
+    "reviewNote": ""
+  },
+  "multifidus cervicis": {
+    "printedPages": [
+      225,
+      226
+    ],
+    "coverage": "group",
+    "reviewNote": "书中按多裂肌肌群介绍；颈、胸、腰段的独立模型按其节段附着细分。"
+  },
+  "multifidus thoracis": {
+    "printedPages": [
+      225,
+      226
+    ],
+    "coverage": "group",
+    "reviewNote": "书中按多裂肌肌群介绍；颈、胸、腰段的独立模型按其节段附着细分。"
+  },
+  "multifidus lumborum": {
+    "printedPages": [
+      225,
+      226
+    ],
+    "coverage": "group",
+    "reviewNote": "书中按多裂肌肌群介绍；颈、胸、腰段的独立模型按其节段附着细分。"
+  }
+}

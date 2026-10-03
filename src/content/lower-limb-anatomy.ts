@@ -6,15 +6,15 @@ export const anatomySources = {
   variation: 'https://doi.org/10.1002/ar.22919',
 };
 const quadricepsInsertion = '经股四头肌腱止于髌骨，并经髌韧带延续至胫骨粗隆。';
-const achillesInsertion = '经跟腱止于跟骨后面。';
+const achillesInsertion = '经跟腱止于跟骨结节后面。';
 const entry = (origin: string, insertion: string, action: string, note?: string): MuscleAnatomy => ({origin, insertion, action, note});
 export const lowerLimbAnatomy: Record<string, MuscleAnatomy> = {
   'rectus femoris': { ...entry('直头：髂前下棘；反折头（间接头）：髋臼上缘及邻近髋关节囊。', quadricepsInsertion, '伸膝、屈髋。', '跨髋、膝两关节；髋位会影响其长度与伸膝表现。模型为简化显示，未标注各肌头的实际腱性附着点。'), source: 'https://pubmed.ncbi.nlm.nih.gov/24793210/', sourceLabel: '股直肌起点解剖研究' },
   'vastus medialis': entry('股骨转子间线下部、粗线内侧唇及内侧髁上线。', quadricepsInsertion, '伸膝，并参与髌骨的动态稳定。', '不能仅凭膝伸动作把股内侧肌与其余股四头肌完全分离。'),
   'vastus lateralis': entry('股骨大转子、臀肌粗隆及粗线外侧唇。', quadricepsInsertion, '伸膝，参与髌骨稳定。'),
-  'vastus intermedius': entry('股骨干前面及外侧面。', quadricepsInsertion, '伸膝。', '位于股直肌深面。'),
+  'vastus intermedius': entry('股骨干前面及外侧面近侧三分之二。', quadricepsInsertion, '伸膝。', '位于股直肌深面。'),
   'sartorius': entry('髂前上棘。', '胫骨近端内侧面，经鹅足附着。', '屈髋、外展及外旋髋；屈膝，屈膝位辅助小腿内旋。'),
-  'gracilis': entry('耻骨体及耻骨下支。', '胫骨近端内侧面，经鹅足附着。', '内收髋；屈膝，屈膝位辅助小腿内旋。'),
+  'gracilis': entry('耻骨体及耻骨下支。', '胫骨近端内侧面，经鹅足附着。', '内收髋，辅助屈髋；屈膝，屈膝位辅助小腿内旋。'),
   'pectineus': entry('耻骨上支的耻骨梳。', '股骨耻骨肌线。', '内收、屈髋。'),
   'adductor longus': entry('耻骨体前面，耻骨结节下方。', '股骨粗线中段内侧唇。', '内收髋，辅助屈髋。'),
   'adductor brevis': entry('耻骨体及耻骨下支。', '股骨耻骨肌线及粗线近端。', '内收髋，辅助屈髋。'),
@@ -29,15 +29,15 @@ export const lowerLimbAnatomy: Record<string, MuscleAnatomy> = {
   'medial head of gastrocnemius': entry('股骨内侧髁后上方。', achillesInsertion, '踝跖屈、辅助屈膝。', '与外侧头共同跨膝、踝；伸膝位与屈膝位的长度条件不同。'),
   'lateral head of gastrocnemius': entry('股骨外侧髁外侧面及后上方。', achillesInsertion, '踝跖屈、辅助屈膝。'),
   'soleus': entry('腓骨头及近端后面、胫骨比目鱼肌线及邻近内侧缘。', achillesInsertion, '踝跖屈；负重时参与控制小腿向前移动。', '不跨膝关节；屈膝提踵仍有其他跖屈肌参与。'),
-  'tibialis anterior': entry('胫骨外侧髁、胫骨外侧面近段及骨间膜。', '内侧楔骨及第一跖骨基底。', '踝背屈、足内翻。'),
-  'tibialis posterior': entry('胫、腓骨后面及骨间膜。', '以舟骨粗隆为主，向楔骨、骰骨及第二至第四跖骨基底等扩展。', '足内翻、辅助踝跖屈，参与足弓支撑。'),
-  'fibularis longus': entry('腓骨头及腓骨外侧面近段。', '绕行足底，止于内侧楔骨及第一跖骨基底。', '足外翻、辅助跖屈；参与第一跖骨列与足弓的负重控制。'),
-  'fibularis brevis': entry('腓骨外侧面远段。', '第五跖骨基底粗隆。', '足外翻、辅助跖屈。'),
+  'tibialis anterior': entry('胫骨外侧髁、外侧面近侧三分之二及邻近骨间膜。', '内侧楔骨及第一跖骨基底的内侧、跖侧面。', '踝背屈、足内翻。'),
+  'tibialis posterior': entry('胫、腓骨后面近侧三分之二及邻近骨间膜。', '以舟骨粗隆为主，向楔骨、骰骨及第二至第四跖骨基底等扩展。', '足内翻、辅助踝跖屈，参与足弓支撑。'),
+  'fibularis longus': entry('腓骨头及腓骨外侧面近侧三分之二，可有纤维来自胫骨外侧髁。', '绕行足底，止于内侧楔骨外侧及第一跖骨基底跖侧。', '足外翻、辅助跖屈；参与第一跖骨列与足弓的负重控制。'),
+  'fibularis brevis': entry('腓骨外侧面远侧三分之二。', '第五跖骨基底粗隆。', '足外翻、辅助跖屈。'),
   'fibularis tertius': entry('腓骨前面远段及骨间膜。', '第五跖骨基底背侧。', '辅助踝背屈和足外翻。'),
-  'extensor digitorum longus': entry('胫骨外侧髁、腓骨前面及骨间膜。', '第二至第五趾趾背腱膜，延续至中、末节趾骨。', '伸第二至第五趾，辅助踝背屈。'),
+  'extensor digitorum longus': entry('胫骨外侧髁、腓骨内侧面近侧三分之二及邻近骨间膜。', '第二至第五趾趾背腱膜，延续至中、末节趾骨。', '伸第二至第五趾，辅助踝背屈。'),
   'extensor hallucis longus': entry('腓骨前面中段及骨间膜。', '拇趾末节趾骨基底背侧。', '伸拇趾，辅助踝背屈。'),
   'extensor hallucis brevis': entry('跟骨上外侧面。', '拇趾近节趾骨基底背侧。', '伸第一跖趾关节。', '通常归入趾短伸肌的内侧部分，不跨拇趾趾间关节。'),
-  'flexor digitorum longus': entry('胫骨后面，比目鱼肌线下方。', '第二至第五趾末节趾骨基底跖侧。', '屈第二至第五趾，辅助踝跖屈及足弓支撑。'),
+  'flexor digitorum longus': entry('胫骨后面中段，比目鱼肌线下方。', '第二至第五趾末节趾骨基底跖侧。', '屈第二至第五趾，辅助踝跖屈及足弓支撑。'),
   'flexor hallucis longus': entry('腓骨后面远侧约三分之二及骨间膜。', '拇趾末节趾骨基底跖侧。', '屈拇趾，辅助踝跖屈，参与蹬地。'),
   'flexor digitorum brevis': entry('跟骨结节内侧突、足底腱膜及肌间隔。', '第二至第五趾中节趾骨两侧。', '屈第二至第五趾近侧趾间关节及跖趾关节。'),
   'abductor hallucis': entry('跟骨结节内侧突、屈肌支持带及足底腱膜。', '经内侧籽骨附近止于拇趾近节趾骨基底内侧。', '外展并辅助屈拇趾，参与内侧足弓支撑。'),
@@ -50,11 +50,11 @@ export const lowerLimbAnatomy: Record<string, MuscleAnatomy> = {
   'flexor digiti minimi brevis of foot': entry('第五跖骨基底及腓骨长肌腱鞘附近。', '第五趾近节趾骨基底外侧。', '屈第五跖趾关节。'),
   'opponens digiti minimi of foot': { ...entry('通常与足小趾短屈肌深部的起始区相连。', '常描述为第五跖骨外侧；作为独立肌时附着存在变异。', '可能辅助第五跖骨列稳定；不宜按手小指对掌功能解释。', '变异性结构：模型单独命名不代表每个人都有独立、相同形态的这块肌肉。'), source: anatomySources.variation },
   'gluteus maximus': entry('髂骨后部、骶尾骨背侧及骶结节韧带。', '髂胫束及股骨臀肌粗隆。', '伸髋、外旋髋；参与起身、上坡及负重时躯干和骨盆控制。'),
-  'gluteus medius': entry('髂骨外面，前、后臀线之间。', '股骨大转子外侧面。', '外展髋；单腿负重时控制骨盆，前部纤维参与内旋。'),
+  'gluteus medius': entry('髂骨外面，前、后臀线之间。', '股骨大转子外侧面。', '外展髋；单腿负重时控制骨盆；前部纤维辅助屈髋、内旋，后部纤维辅助伸髋、外旋，作用随髋位变化。'),
   'gluteus minimus': entry('髂骨外面，前、下臀线之间。', '股骨大转子前面。', '外展、内旋髋，参与骨盆及髋关节稳定。'),
-  'tensor fasciae latae': entry('髂前上棘及髂嵴前部。', '髂胫束，经其连接胫骨外侧髁前外侧。', '屈髋、外展及内旋髋，通过髂胫束参与髋膝稳定。'),
+  'tensor fasciae latae': entry('髂前上棘及其后方髂嵴前部外面。', '髂胫束近侧三分之一，经其连接胫骨外侧髁前外侧。', '屈髋、外展及内旋髋，通过髂胫束参与髋膝稳定。'),
   'iliacus': entry('髂窝及邻近髂嵴内面。', '与腰大肌共同经髂腰肌腱止于股骨小转子。', '屈髋；下肢固定时参与骨盆位置控制。'),
-  'psoas major': entry('第十二胸椎至腰椎椎体、椎间盘侧面及腰椎横突。', '股骨小转子。', '屈髋；下肢固定时参与躯干屈曲、侧屈及腰盆控制。'),
+  'psoas major': entry('第十二胸椎至第五腰椎椎体、椎间盘侧面及第一至第五腰椎横突。', '股骨小转子。', '屈髋；下肢固定时参与躯干屈曲、侧屈及腰盆控制。'),
   'piriformis': entry('骶骨前面。', '股骨大转子上缘。', '伸髋位外旋髋；屈髋位可外展，参与髋稳定。'),
   'obturator internus': entry('闭孔膜内面及闭孔周缘骨面。', '经小坐骨孔转向，止于股骨大转子内侧面。', '外旋髋；屈髋位辅助外展，参与髋稳定。'),
   'obturator externus': entry('闭孔膜外面及周缘骨面。', '股骨转子窝。', '外旋髋，参与髋关节稳定。'),
@@ -81,7 +81,7 @@ export function getMuscleAnatomy(name: string): MuscleAnatomy | null {
 }
 
 /** These teaching entries have no independent mesh in the current source atlas. */
-export const supplementalMuscles = [
+const formerlySupplementalMuscles = [
   { name: 'extensor digitorum brevis', displayName: '趾短伸肌' },
   { name: 'articularis genu', displayName: '膝关节肌' },
   ...['first', 'second', 'third', 'fourth'].map((ordinal, index) => {
@@ -95,3 +95,4 @@ export const supplementalMuscles = [
     return { name, displayName: `第${index + 1}足背骨间肌` };
   }),
 ];
+export const supplementalMuscles = formerlySupplementalMuscles.filter(muscle => muscle.name === 'articularis genu');
