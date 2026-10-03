@@ -1,0 +1,1280 @@
+{
+  "date": "2026-10-02",
+  "scope": "大腿、膝、小腿、踝、足；髋臀独立入口暂缓",
+  "muscles": [
+    {
+      "name": "股四头肌",
+      "regions": [
+        "THIGH-R-001",
+        "THIGH-R-004",
+        "KNEE-R-001",
+        "KNEE-R-002",
+        "KNEE-R-003"
+      ],
+      "clinical_items": [
+        "CORE-MUS-RF",
+        "CORE-MUS-VM",
+        "CORE-MUS-VL",
+        "CORE-MUS-VI"
+      ],
+      "disposition": "浅层及深层分别记录；前内/前外侧增加定位子区域",
+      "model_parts": [
+        {
+          "name": "rectus femoris",
+          "parts": [
+            {
+              "id": "FJ1433",
+              "name": "Right rectus femoris",
+              "system": "muscular",
+              "conceptId": "FMA38928"
+            },
+            {
+              "id": "FJ1433M",
+              "name": "Left rectus femoris",
+              "system": "muscular",
+              "conceptId": "FMA38929"
+            }
+          ]
+        },
+        {
+          "name": "vastus medialis",
+          "parts": [
+            {
+              "id": "FJ1443",
+              "name": "Right vastus medialis",
+              "system": "muscular",
+              "conceptId": "FMA38932"
+            },
+            {
+              "id": "FJ1443M",
+              "name": "Left vastus medialis",
+              "system": "muscular",
+              "conceptId": "FMA38933"
+            }
+          ]
+        },
+        {
+          "name": "vastus lateralis",
+          "parts": [
+            {
+              "id": "FJ1442",
+              "name": "Right vastus lateralis",
+              "system": "muscular",
+              "conceptId": "FMA38930"
+            },
+            {
+              "id": "FJ1442M",
+              "name": "Left vastus lateralis",
+              "system": "muscular",
+              "conceptId": "FMA38931"
+            }
+          ]
+        },
+        {
+          "name": "vastus intermedius",
+          "parts": [
+            {
+              "id": "FJ1441",
+              "name": "Right vastus intermedius",
+              "system": "muscular",
+              "conceptId": "FMA38934"
+            },
+            {
+              "id": "FJ1441M",
+              "name": "Left vastus intermedius",
+              "system": "muscular",
+              "conceptId": "FMA38935"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "缝匠肌",
+      "regions": [
+        "THIGH-R-001",
+        "THIGH-R-003",
+        "KNEE-R-008"
+      ],
+      "clinical_items": [
+        "CORE-MUS-SART"
+      ],
+      "disposition": "跨大腿前内侧至膝内侧；增加斜行邻近子区域",
+      "model_parts": [
+        {
+          "name": "sartorius",
+          "parts": [
+            {
+              "id": "FJ1434",
+              "name": "Right sartorius",
+              "system": "muscular",
+              "conceptId": "FMA22354"
+            },
+            {
+              "id": "FJ1434M",
+              "name": "Left sartorius",
+              "system": "muscular",
+              "conceptId": "FMA22355"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "内收肌及股薄肌",
+      "regions": [
+        "THIGH-R-003",
+        "KNEE-R-008"
+      ],
+      "clinical_items": [
+        "THIGH-MUS-AL",
+        "THIGH-MUS-AB",
+        "THIGH-MUS-AM",
+        "CORE-MUS-GRAC",
+        "THIGH-CAP-ADD"
+      ],
+      "disposition": "耻骨肌及模型单列小收肌无独立检查，保留邻近/肌群层面评估",
+      "model_parts": [
+        {
+          "name": "adductor longus",
+          "parts": [
+            {
+              "id": "FJ1402",
+              "name": "Right adductor longus",
+              "system": "muscular",
+              "conceptId": "FMA22456"
+            },
+            {
+              "id": "FJ1402M",
+              "name": "Left adductor longus",
+              "system": "muscular",
+              "conceptId": "FMA22457"
+            }
+          ]
+        },
+        {
+          "name": "adductor brevis",
+          "parts": [
+            {
+              "id": "FJ1401",
+              "name": "Right adductor brevis",
+              "system": "muscular",
+              "conceptId": "FMA22452"
+            },
+            {
+              "id": "FJ1401M",
+              "name": "Left adductor brevis",
+              "system": "muscular",
+              "conceptId": "FMA22454"
+            }
+          ]
+        },
+        {
+          "name": "adductor magnus",
+          "parts": [
+            {
+              "id": "FJ1403",
+              "name": "Right adductor magnus",
+              "system": "muscular",
+              "conceptId": "FMA22459"
+            },
+            {
+              "id": "FJ1403M",
+              "name": "Left adductor magnus",
+              "system": "muscular",
+              "conceptId": "FMA22460"
+            }
+          ]
+        },
+        {
+          "name": "adductor minimus",
+          "parts": [
+            {
+              "id": "FJ1404",
+              "name": "Right adductor minimus",
+              "system": "muscular",
+              "conceptId": "FMA43886"
+            },
+            {
+              "id": "FJ1404M",
+              "name": "Left adductor minimus",
+              "system": "muscular",
+              "conceptId": "FMA43887"
+            }
+          ]
+        },
+        {
+          "name": "gracilis",
+          "parts": [
+            {
+              "id": "FJ1421",
+              "name": "Right gracilis",
+              "system": "muscular",
+              "conceptId": "FMA43883"
+            },
+            {
+              "id": "FJ1421M",
+              "name": "Left gracilis",
+              "system": "muscular",
+              "conceptId": "FMA43884"
+            }
+          ]
+        },
+        {
+          "name": "pectineus",
+          "parts": [
+            {
+              "id": "FJ1427",
+              "name": "Right pectineus",
+              "system": "muscular",
+              "conceptId": "FMA22450"
+            },
+            {
+              "id": "FJ1427M",
+              "name": "Left pectineus",
+              "system": "muscular",
+              "conceptId": "FMA22451"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "腘绳肌",
+      "regions": [
+        "THIGH-R-002",
+        "KNEE-R-008",
+        "KNEE-R-009",
+        "KNEE-R-011",
+        "KNEE-R-014"
+      ],
+      "clinical_items": [
+        "CORE-MUS-BF",
+        "CORE-MUS-ST",
+        "CORE-MUS-SM",
+        "CORE-CAP-KNEE-FLEX"
+      ],
+      "disposition": "后内侧与后外侧分别定位；股二头肌两头共用已有检查",
+      "model_parts": [
+        {
+          "name": "long head of biceps femoris",
+          "parts": [
+            {
+              "id": "FJ1395",
+              "name": "Long head of right biceps femoris",
+              "system": "muscular",
+              "conceptId": "FMA45888"
+            },
+            {
+              "id": "FJ1395M",
+              "name": "Long head of left biceps femoris",
+              "system": "muscular",
+              "conceptId": "FMA45889"
+            }
+          ]
+        },
+        {
+          "name": "short head of biceps femoris",
+          "parts": [
+            {
+              "id": "FJ1444",
+              "name": "Short head of right biceps femoris",
+              "system": "muscular",
+              "conceptId": "FMA45891"
+            },
+            {
+              "id": "FJ1444M",
+              "name": "Short head of left biceps femoris",
+              "system": "muscular",
+              "conceptId": "FMA45892"
+            }
+          ]
+        },
+        {
+          "name": "semitendinosus",
+          "parts": [
+            {
+              "id": "FJ1436",
+              "name": "Right semitendinosus",
+              "system": "muscular",
+              "conceptId": "FMA22358"
+            },
+            {
+              "id": "FJ1436M",
+              "name": "Left semitendinosus",
+              "system": "muscular",
+              "conceptId": "FMA22359"
+            }
+          ]
+        },
+        {
+          "name": "semimembranosus",
+          "parts": [
+            {
+              "id": "FJ1435",
+              "name": "Right semimembranosus",
+              "system": "muscular",
+              "conceptId": "FMA22448"
+            },
+            {
+              "id": "FJ1435M",
+              "name": "Left semimembranosus",
+              "system": "muscular",
+              "conceptId": "FMA22449"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "外侧筋膜邻近",
+      "regions": [
+        "THIGH-R-004",
+        "KNEE-R-012"
+      ],
+      "clinical_items": [
+        "THIGH-MUS-TFL",
+        "CORE-MUS-VL",
+        "THIGH-LT-004"
+      ],
+      "disposition": "髂胫束是筋膜，不作为独立肌肉；仅保留现有下肢关联",
+      "model_parts": [
+        {
+          "name": "tensor fasciae latae",
+          "parts": [
+            {
+              "id": "FJ1438",
+              "name": "Right tensor fasciae latae",
+              "system": "connective",
+              "conceptId": "FMA22425"
+            },
+            {
+              "id": "FJ1438M",
+              "name": "Left tensor fasciae latae",
+              "system": "connective",
+              "conceptId": "FMA22426"
+            }
+          ]
+        },
+        {
+          "name": "iliotibial tract",
+          "parts": [
+            {
+              "id": "FJ1423",
+              "name": "Right iliotibial tract",
+              "system": "skeletal",
+              "conceptId": "FMA58776"
+            },
+            {
+              "id": "FJ1423M",
+              "name": "Left iliotibial tract",
+              "system": "skeletal",
+              "conceptId": "FMA58777"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "膝后深层",
+      "regions": [
+        "KNEE-R-013",
+        "KNEE-R-014",
+        "LL-R-005"
+      ],
+      "clinical_items": [
+        "KNEE-MUS-POPLIT"
+      ],
+      "disposition": "保留膝后及小腿上段组合区域，不由体表确定深层组织",
+      "model_parts": [
+        {
+          "name": "popliteus",
+          "parts": [
+            {
+              "id": "FJ1430",
+              "name": "Right popliteus",
+              "system": "muscular",
+              "conceptId": "FMA22591"
+            },
+            {
+              "id": "FJ1430M",
+              "name": "Left popliteus",
+              "system": "muscular",
+              "conceptId": "FMA22592"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "小腿后侧浅层",
+      "regions": [
+        "LL-R-005",
+        "LL-R-006",
+        "AF-R-004",
+        "AF-R-005"
+      ],
+      "clinical_items": [
+        "CORE-MUS-GASTROC",
+        "CORE-MUS-SOLEUS",
+        "CORE-MUS-PLANTARIS"
+      ],
+      "disposition": "腓肠肌两头共用检查；跖肌保留补充入口",
+      "model_parts": [
+        {
+          "name": "medial head of gastrocnemius",
+          "parts": [
+            {
+              "id": "FJ1397",
+              "name": "Medial head of right gastrocnemius",
+              "system": "muscular",
+              "conceptId": "FMA45957"
+            },
+            {
+              "id": "FJ1397M",
+              "name": "Medial head of left gastrocnemius",
+              "system": "muscular",
+              "conceptId": "FMA45958"
+            }
+          ]
+        },
+        {
+          "name": "lateral head of gastrocnemius",
+          "parts": [
+            {
+              "id": "FJ1394",
+              "name": "Lateral head of right gastrocnemius",
+              "system": "muscular",
+              "conceptId": "FMA45960"
+            },
+            {
+              "id": "FJ1394M",
+              "name": "Lateral head of left gastrocnemius",
+              "system": "muscular",
+              "conceptId": "FMA45961"
+            }
+          ]
+        },
+        {
+          "name": "soleus",
+          "parts": [
+            {
+              "id": "FJ1437",
+              "name": "Right soleus",
+              "system": "muscular",
+              "conceptId": "FMA22558"
+            },
+            {
+              "id": "FJ1437M",
+              "name": "Left soleus",
+              "system": "muscular",
+              "conceptId": "FMA22559"
+            }
+          ]
+        },
+        {
+          "name": "plantaris",
+          "parts": [
+            {
+              "id": "FJ1429",
+              "name": "Right plantaris",
+              "system": "muscular",
+              "conceptId": "FMA22560"
+            },
+            {
+              "id": "FJ1429M",
+              "name": "Left plantaris",
+              "system": "muscular",
+              "conceptId": "FMA22561"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "小腿前侧",
+      "regions": [
+        "LL-R-001",
+        "LL-R-002",
+        "AF-R-001",
+        "AF-R-010"
+      ],
+      "clinical_items": [
+        "CORE-MUS-TA",
+        "CORE-MUS-EHL",
+        "CORE-MUS-EDL",
+        "CORE-MUS-PT"
+      ],
+      "disposition": "保留肌腹、胫骨骨面与远端伸肌腱的不同位置",
+      "model_parts": [
+        {
+          "name": "tibialis anterior",
+          "parts": [
+            {
+              "id": "FJ1439",
+              "name": "Right tibialis anterior",
+              "system": "skeletal",
+              "conceptId": "FMA22544"
+            },
+            {
+              "id": "FJ1439M",
+              "name": "Left tibialis anterior",
+              "system": "skeletal",
+              "conceptId": "FMA22545"
+            }
+          ]
+        },
+        {
+          "name": "extensor hallucis longus",
+          "parts": [
+            {
+              "id": "FJ1408",
+              "name": "Right extensor hallucis longus",
+              "system": "muscular",
+              "conceptId": "FMA22546"
+            },
+            {
+              "id": "FJ1408M",
+              "name": "Left extensor hallucis longus",
+              "system": "muscular",
+              "conceptId": "FMA22547"
+            }
+          ]
+        },
+        {
+          "name": "extensor digitorum longus",
+          "parts": [
+            {
+              "id": "FJ1406",
+              "name": "Right extensor digitorum longus",
+              "system": "muscular",
+              "conceptId": "FMA22548"
+            },
+            {
+              "id": "FJ1406M",
+              "name": "Left extensor digitorum longus",
+              "system": "muscular",
+              "conceptId": "FMA22549"
+            }
+          ]
+        },
+        {
+          "name": "fibularis tertius",
+          "parts": [
+            {
+              "id": "FJ1411",
+              "name": "Right fibularis tertius",
+              "system": "skeletal",
+              "conceptId": "FMA22550"
+            },
+            {
+              "id": "FJ1411M",
+              "name": "Left fibularis tertius",
+              "system": "skeletal",
+              "conceptId": "FMA22551"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "小腿外侧",
+      "regions": [
+        "LL-R-004",
+        "AF-R-003",
+        "AF-R-009"
+      ],
+      "clinical_items": [
+        "CORE-MUS-PL",
+        "CORE-MUS-PB"
+      ],
+      "disposition": "外侧肌腹、外踝肌腱及第五跖骨基底分开",
+      "model_parts": [
+        {
+          "name": "fibularis longus",
+          "parts": [
+            {
+              "id": "FJ1410",
+              "name": "Right fibularis longus",
+              "system": "skeletal",
+              "conceptId": "FMA22552"
+            },
+            {
+              "id": "FJ1410M",
+              "name": "Left fibularis longus",
+              "system": "skeletal",
+              "conceptId": "FMA22553"
+            }
+          ]
+        },
+        {
+          "name": "fibularis brevis",
+          "parts": [
+            {
+              "id": "FJ1409",
+              "name": "Right fibularis brevis",
+              "system": "skeletal",
+              "conceptId": "FMA22554"
+            },
+            {
+              "id": "FJ1409M",
+              "name": "Left fibularis brevis",
+              "system": "skeletal",
+              "conceptId": "FMA22555"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "小腿后侧深层",
+      "regions": [
+        "LL-R-003",
+        "LL-R-007",
+        "AF-R-002",
+        "AF-R-008"
+      ],
+      "clinical_items": [
+        "CORE-MUS-TP",
+        "CORE-MUS-FDL",
+        "CORE-MUS-FHL"
+      ],
+      "disposition": "作为后内侧和内踝周围的邻近组织；不拆成精准体表肌肉识别",
+      "model_parts": [
+        {
+          "name": "tibialis posterior",
+          "parts": [
+            {
+              "id": "FJ1440",
+              "name": "Right tibialis posterior",
+              "system": "skeletal",
+              "conceptId": "FMA65018"
+            },
+            {
+              "id": "FJ1440M",
+              "name": "Left tibialis posterior",
+              "system": "skeletal",
+              "conceptId": "FMA65019"
+            }
+          ]
+        },
+        {
+          "name": "flexor digitorum longus",
+          "parts": [
+            {
+              "id": "FJ1414",
+              "name": "Right flexor digitorum longus",
+              "system": "muscular",
+              "conceptId": "FMA65016"
+            },
+            {
+              "id": "FJ1414M",
+              "name": "Left flexor digitorum longus",
+              "system": "muscular",
+              "conceptId": "FMA65017"
+            }
+          ]
+        },
+        {
+          "name": "flexor hallucis longus",
+          "parts": [
+            {
+              "id": "FJ1415",
+              "name": "Right flexor hallucis longus",
+              "system": "muscular",
+              "conceptId": "FMA65014"
+            },
+            {
+              "id": "FJ1415M",
+              "name": "Left flexor hallucis longus",
+              "system": "muscular",
+              "conceptId": "FMA65015"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "足内侧肌群",
+      "regions": [
+        "AF-R-007",
+        "AF-R-011",
+        "AF-R-012"
+      ],
+      "clinical_items": [
+        "AF-MUS-014",
+        "AF-MUS-015",
+        "AF-MUS-017",
+        "CORE-CAP-ARCH-TOE",
+        "CORE-CAP-HF"
+      ],
+      "disposition": "复用拇展/拇收/拇短屈肌及足趾控制项目",
+      "model_parts": [
+        {
+          "name": "abductor hallucis",
+          "parts": [
+            {
+              "id": "FJ1400",
+              "name": "Right abductor hallucis",
+              "system": "muscular",
+              "conceptId": "FMA37459"
+            },
+            {
+              "id": "FJ1400M",
+              "name": "Left abductor hallucis",
+              "system": "muscular",
+              "conceptId": "FMA37460"
+            }
+          ]
+        },
+        {
+          "name": "medial head of flexor hallucis brevis",
+          "parts": [
+            {
+              "id": "FJ1396",
+              "name": "Medial head of right flexor hallucis brevis",
+              "system": "muscular",
+              "conceptId": "FMA45971"
+            },
+            {
+              "id": "FJ1396M",
+              "name": "Medial head of left flexor hallucis brevis",
+              "system": "muscular",
+              "conceptId": "FMA45972"
+            }
+          ]
+        },
+        {
+          "name": "lateral head of flexor hallucis brevis",
+          "parts": [
+            {
+              "id": "FJ1393",
+              "name": "Lateral head of right flexor hallucis brevis",
+              "system": "muscular",
+              "conceptId": "FMA45973"
+            },
+            {
+              "id": "FJ1393M",
+              "name": "Lateral head of left flexor hallucis brevis",
+              "system": "muscular",
+              "conceptId": "FMA45974"
+            }
+          ]
+        },
+        {
+          "name": "oblique head of adductor hallucis",
+          "parts": [
+            {
+              "id": "FJ1398",
+              "name": "Oblique head of right adductor hallucis",
+              "system": "muscular",
+              "conceptId": "FMA46018"
+            },
+            {
+              "id": "FJ1398M",
+              "name": "Oblique head of left adductor hallucis",
+              "system": "muscular",
+              "conceptId": "FMA46019"
+            }
+          ]
+        },
+        {
+          "name": "transverse head of adductor hallucis",
+          "parts": [
+            {
+              "id": "FJ1445",
+              "name": "Transverse head of right adductor hallucis",
+              "system": "muscular",
+              "conceptId": "FMA46020"
+            },
+            {
+              "id": "FJ1445M",
+              "name": "Transverse head of left adductor hallucis",
+              "system": "muscular",
+              "conceptId": "FMA46021"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "足底中央及外侧肌群",
+      "regions": [
+        "AF-R-007",
+        "AF-R-011"
+      ],
+      "clinical_items": [
+        "AF-MUS-016",
+        "CORE-CAP-ARCH-TOE",
+        "AF-LT-011"
+      ],
+      "disposition": "以已有局部组织及足趾控制检查覆盖，未新增无来源的单肌方法",
+      "model_parts": [
+        {
+          "name": "flexor digitorum brevis",
+          "parts": [
+            {
+              "id": "FJ1413",
+              "name": "Right flexor digitorum brevis",
+              "system": "muscular",
+              "conceptId": "FMA37461"
+            },
+            {
+              "id": "FJ1413M",
+              "name": "Left flexor digitorum brevis",
+              "system": "muscular",
+              "conceptId": "FMA37462"
+            }
+          ]
+        },
+        {
+          "name": "flexor accessorius",
+          "parts": [
+            {
+              "id": "FJ1412",
+              "name": "Right flexor accessorius",
+              "system": "muscular",
+              "conceptId": "FMA37465"
+            },
+            {
+              "id": "FJ1412M",
+              "name": "Left flexor accessorius",
+              "system": "muscular",
+              "conceptId": "FMA37466"
+            }
+          ]
+        },
+        {
+          "name": "abductor digiti minimi of foot",
+          "parts": [
+            {
+              "id": "FJ1390",
+              "name": "Abductor digiti minimi of right foot",
+              "system": "muscular",
+              "conceptId": "FMA37463"
+            },
+            {
+              "id": "FJ1390M",
+              "name": "Abductor digiti minimi of left foot",
+              "system": "muscular",
+              "conceptId": "FMA37464"
+            }
+          ]
+        },
+        {
+          "name": "flexor digiti minimi brevis of foot",
+          "parts": [
+            {
+              "id": "FJ1391",
+              "name": "Flexor digiti minimi brevis of right foot",
+              "system": "muscular",
+              "conceptId": "FMA37471"
+            },
+            {
+              "id": "FJ1391M",
+              "name": "Flexor digiti minimi brevis of left foot",
+              "system": "muscular",
+              "conceptId": "FMA37472"
+            }
+          ]
+        },
+        {
+          "name": "opponens digiti minimi of foot",
+          "parts": [
+            {
+              "id": "FJ1399",
+              "name": "Opponens digiti minimi of right foot",
+              "system": "muscular",
+              "conceptId": "FMA86034"
+            },
+            {
+              "id": "FJ1399M",
+              "name": "Opponens digiti minimi of left foot",
+              "system": "muscular",
+              "conceptId": "FMA86035"
+            }
+          ]
+        },
+        {
+          "name": "first lumbrical of foot",
+          "parts": [
+            {
+              "id": "FJ1383",
+              "name": "First lumbrical of right foot",
+              "system": "muscular",
+              "conceptId": "FMA37717"
+            },
+            {
+              "id": "FJ1383M",
+              "name": "First lumbrical of left foot",
+              "system": "muscular",
+              "conceptId": "FMA37718"
+            }
+          ]
+        },
+        {
+          "name": "second lumbrical of foot",
+          "parts": [
+            {
+              "id": "FJ1385",
+              "name": "Second lumbrical of right foot",
+              "system": "muscular",
+              "conceptId": "FMA37719"
+            },
+            {
+              "id": "FJ1385M",
+              "name": "Second lumbrical of left foot",
+              "system": "muscular",
+              "conceptId": "FMA37720"
+            }
+          ]
+        },
+        {
+          "name": "third lumbrical of foot",
+          "parts": [
+            {
+              "id": "FJ1387",
+              "name": "Third lumbrical of right foot",
+              "system": "muscular",
+              "conceptId": "FMA37485"
+            },
+            {
+              "id": "FJ1387M",
+              "name": "Third lumbrical of left foot",
+              "system": "muscular",
+              "conceptId": "FMA37486"
+            }
+          ]
+        },
+        {
+          "name": "fourth lumbrical of foot",
+          "parts": [
+            {
+              "id": "FJ1389",
+              "name": "Fourth lumbrical of right foot",
+              "system": "muscular",
+              "conceptId": "FMA37483"
+            },
+            {
+              "id": "FJ1389M",
+              "name": "Fourth lumbrical of left foot",
+              "system": "muscular",
+              "conceptId": "FMA37484"
+            }
+          ]
+        },
+        {
+          "name": "first plantar interosseous of foot",
+          "parts": [
+            {
+              "id": "FJ1384",
+              "name": "First plantar interosseous of right foot",
+              "system": "muscular",
+              "conceptId": "FMA37745"
+            },
+            {
+              "id": "FJ1384M",
+              "name": "First plantar interosseous of left foot",
+              "system": "muscular",
+              "conceptId": "FMA37746"
+            }
+          ]
+        },
+        {
+          "name": "second plantar interosseous of foot",
+          "parts": [
+            {
+              "id": "FJ1386",
+              "name": "Second plantar interosseous of right foot",
+              "system": "muscular",
+              "conceptId": "FMA37743"
+            },
+            {
+              "id": "FJ1386M",
+              "name": "Second plantar interosseous of left foot",
+              "system": "muscular",
+              "conceptId": "FMA37744"
+            }
+          ]
+        },
+        {
+          "name": "third plantar interosseous of foot",
+          "parts": [
+            {
+              "id": "FJ1388",
+              "name": "Third plantar interosseous of right foot",
+              "system": "muscular",
+              "conceptId": "FMA37741"
+            },
+            {
+              "id": "FJ1388M",
+              "name": "Third plantar interosseous of left foot",
+              "system": "muscular",
+              "conceptId": "FMA37742"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "足背短伸肌与骨间肌",
+      "regions": [
+        "AF-R-010",
+        "AF-R-011",
+        "AF-R-012"
+      ],
+      "clinical_items": [
+        "CORE-CAP-ARCH-TOE",
+        "AF-JNT-005",
+        "AF-ASM-004"
+      ],
+      "disposition": "模型缺失者记录为空，组织知识保留；不生成不存在的网格定位",
+      "model_parts": [
+        {
+          "name": "extensor digitorum brevis",
+          "parts": []
+        },
+        {
+          "name": "extensor hallucis brevis",
+          "parts": [
+            {
+              "id": "FJ1407",
+              "name": "Right extensor hallucis brevis",
+              "system": "muscular",
+              "conceptId": "FMA51144"
+            },
+            {
+              "id": "FJ1407M",
+              "name": "Left extensor hallucis brevis",
+              "system": "muscular",
+              "conceptId": "FMA51145"
+            }
+          ]
+        },
+        {
+          "name": "first dorsal interosseous of foot",
+          "parts": []
+        },
+        {
+          "name": "second dorsal interosseous of foot",
+          "parts": []
+        },
+        {
+          "name": "third dorsal interosseous of foot",
+          "parts": []
+        },
+        {
+          "name": "fourth dorsal interosseous of foot",
+          "parts": []
+        }
+      ]
+    }
+  ],
+  "bones": [
+    {
+      "name": "股骨与髌骨",
+      "regions": [
+        "THIGH-R-001",
+        "THIGH-R-002",
+        "THIGH-R-003",
+        "THIGH-R-004",
+        "KNEE-R-001",
+        "KNEE-R-002",
+        "KNEE-R-003",
+        "KNEE-R-004",
+        "KNEE-R-005"
+      ],
+      "verification": "髌骨实际中心与宽度；髌骨圈选回归",
+      "model_parts": [
+        {
+          "id": "FJ3259",
+          "name": "Left femur",
+          "conceptId": "FMA24475"
+        },
+        {
+          "id": "FJ3275",
+          "name": "Left patella",
+          "conceptId": "FMA24487"
+        },
+        {
+          "id": "FJ3365",
+          "name": "Right femur",
+          "conceptId": "FMA24474"
+        },
+        {
+          "id": "FJ3381",
+          "name": "Right patella",
+          "conceptId": "FMA24486"
+        }
+      ]
+    },
+    {
+      "name": "胫腓骨",
+      "regions": [
+        "LL-R-002",
+        "LL-R-003",
+        "KNEE-R-006",
+        "KNEE-R-011",
+        "AF-R-002",
+        "AF-R-003"
+      ],
+      "verification": "胫骨前缘截面、腓骨头及内外踝固定射线",
+      "model_parts": [
+        {
+          "id": "FJ3260",
+          "name": "Left fibula",
+          "conceptId": "FMA24481"
+        },
+        {
+          "id": "FJ3282",
+          "name": "Left tibia",
+          "conceptId": "FMA24478"
+        },
+        {
+          "id": "FJ3366",
+          "name": "Right fibula",
+          "conceptId": "FMA24480"
+        },
+        {
+          "id": "FJ3387",
+          "name": "Right tibia",
+          "conceptId": "FMA24477"
+        }
+      ]
+    },
+    {
+      "name": "跟骨及跗骨",
+      "regions": [
+        "AF-R-005",
+        "AF-R-006",
+        "AF-R-008",
+        "AF-R-009",
+        "AF-R-010"
+      ],
+      "verification": "真实骨骼中心/边界和足轴；修正足弓、舟骨、外侧中足、足背编号错配",
+      "model_parts": [
+        {
+          "id": "FJ3256",
+          "name": "Left calcaneus",
+          "conceptId": "FMA24498"
+        },
+        {
+          "id": "FJ3258",
+          "name": "Left cuboid bone",
+          "conceptId": "FMA24529"
+        },
+        {
+          "id": "FJ3271",
+          "name": "Left medial cuneiform bone",
+          "conceptId": "FMA24522"
+        },
+        {
+          "id": "FJ3280",
+          "name": "Left talus",
+          "conceptId": "FMA24483"
+        },
+        {
+          "id": "FJ3307",
+          "name": "Navicular bone of left foot",
+          "conceptId": "FMA24501"
+        },
+        {
+          "id": "FJ3308",
+          "name": "Navicular bone of right foot",
+          "conceptId": "FMA24500"
+        },
+        {
+          "id": "FJ3360",
+          "name": "Right calcaneus",
+          "conceptId": "FMA24497"
+        },
+        {
+          "id": "FJ3364",
+          "name": "Right cuboid bone",
+          "conceptId": "FMA24528"
+        },
+        {
+          "id": "FJ3377",
+          "name": "Right medial cuneiform bone",
+          "conceptId": "FMA24521"
+        },
+        {
+          "id": "FJ3385",
+          "name": "Right talus",
+          "conceptId": "FMA24482"
+        }
+      ]
+    },
+    {
+      "name": "跖骨及趾骨",
+      "regions": [
+        "AF-R-011",
+        "AF-R-012"
+      ],
+      "verification": "跖骨头、第五跖骨基底和已有趾骨定位参照",
+      "model_parts": [
+        {
+          "id": "FJ3241",
+          "name": "Left first metatarsal bone",
+          "conceptId": "FMA24508"
+        },
+        {
+          "id": "FJ3244",
+          "name": "Left second metatarsal bone",
+          "conceptId": "FMA24510"
+        },
+        {
+          "id": "FJ3247",
+          "name": "Left third metatarsal bone",
+          "conceptId": "FMA24512"
+        },
+        {
+          "id": "FJ3250",
+          "name": "Left fourth metatarsal bone",
+          "conceptId": "FMA24514"
+        },
+        {
+          "id": "FJ3253",
+          "name": "Left fifth metatarsal bone",
+          "conceptId": "FMA24516"
+        },
+        {
+          "id": "FJ3351",
+          "name": "Right first metatarsal bone",
+          "conceptId": "FMA24507"
+        },
+        {
+          "id": "FJ3353",
+          "name": "Right second metatarsal bone",
+          "conceptId": "FMA24509"
+        },
+        {
+          "id": "FJ3355",
+          "name": "Right third metatarsal bone",
+          "conceptId": "FMA24511"
+        },
+        {
+          "id": "FJ3357",
+          "name": "Right fourth metatarsal bone",
+          "conceptId": "FMA24513"
+        },
+        {
+          "id": "FJ3359",
+          "name": "Right fifth metatarsal bone",
+          "conceptId": "FMA24515"
+        }
+      ]
+    }
+  ],
+  "missing_model_meshes": [
+    "extensor digitorum brevis",
+    "first dorsal interosseous of foot",
+    "second dorsal interosseous of foot",
+    "third dorsal interosseous of foot",
+    "fourth dorsal interosseous of foot"
+  ],
+  "clinical_items_added": 0,
+  "regions_added": 0,
+  "location_subareas_added": 5,
+  "note": "这是组织覆盖与区域关联审计，不是每块组织的独立诊断能力或治疗疗效认证。"
+}

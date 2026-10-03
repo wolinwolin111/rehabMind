@@ -1,0 +1,158 @@
+[
+  {
+    "side": "left",
+    "name": "sartorius",
+    "source_part_id": "FJ1434M",
+    "source_face": 85012,
+    "point": [
+      0.058959345033697194,
+      0.3747151990731557,
+      0.00994818647880385
+    ],
+    "face": 29693,
+    "expected_region": "KNEE-R-008"
+  },
+  {
+    "side": "left",
+    "name": "sartorius",
+    "source_part_id": "FJ1434M",
+    "source_face": 85118,
+    "point": [
+      0.047792425542792845,
+      0.416975200176239,
+      0.006160657836077929
+    ],
+    "face": 28471,
+    "expected_region": "KNEE-R-008"
+  },
+  {
+    "side": "left",
+    "name": "gracilis",
+    "source_part_id": "FJ1421M",
+    "source_face": 65484,
+    "point": [
+      0.058929373288862184,
+      0.4082571963469187,
+      0.013207707404267391
+    ],
+    "face": 29680,
+    "expected_region": "KNEE-R-008"
+  },
+  {
+    "side": "left",
+    "name": "gracilis",
+    "source_part_id": "FJ1421M",
+    "source_face": 65486,
+    "point": [
+      0.05546264940253213,
+      0.414409875869751,
+      0.011318655556718127
+    ],
+    "face": 28471,
+    "expected_region": "KNEE-R-008"
+  },
+  {
+    "side": "left",
+    "name": "semitendinosus",
+    "source_part_id": "FJ1436M",
+    "source_face": 88103,
+    "point": [
+      0.05295041304963294,
+      0.37409719824790955,
+      0.00477512523801632
+    ],
+    "face": 29693,
+    "expected_region": "KNEE-R-008"
+  },
+  {
+    "side": "left",
+    "name": "semitendinosus",
+    "source_part_id": "FJ1436M",
+    "source_face": 88338,
+    "point": [
+      0.029307173791157066,
+      0.41550153493881226,
+      -0.015626111553705288
+    ],
+    "face": 25969,
+    "expected_region": "KNEE-R-008"
+  },
+  {
+    "side": "right",
+    "name": "sartorius",
+    "source_part_id": "FJ1434",
+    "source_face": 84338,
+    "point": [
+      -0.06322269883814262,
+      0.37483553091684974,
+      0.012700529296442564
+    ],
+    "face": 15327,
+    "expected_region": "KNEE-R-008"
+  },
+  {
+    "side": "right",
+    "name": "sartorius",
+    "source_part_id": "FJ1434",
+    "source_face": 84369,
+    "point": [
+      -0.0500652476883729,
+      0.41443686683972675,
+      0.006608594148021547
+    ],
+    "face": 15328,
+    "expected_region": "KNEE-R-008"
+  },
+  {
+    "side": "right",
+    "name": "gracilis",
+    "source_part_id": "FJ1421",
+    "source_face": 64792,
+    "point": [
+      -0.06309531397472574,
+      0.4031645357608795,
+      0.014684461044700718
+    ],
+    "face": 14231,
+    "expected_region": "KNEE-R-008"
+  },
+  {
+    "side": "right",
+    "name": "gracilis",
+    "source_part_id": "FJ1421",
+    "source_face": 64794,
+    "point": [
+      -0.05559033144429049,
+      0.414409875869751,
+      0.01043858296677817
+    ],
+    "face": 15329,
+    "expected_region": "KNEE-R-008"
+  },
+  {
+    "side": "right",
+    "name": "semitendinosus",
+    "source_part_id": "FJ1436",
+    "source_face": 87565,
+    "point": [
+      -0.05302226323497849,
+      0.3748835325241089,
+      0.0035552895083112374
+    ],
+    "face": 14801,
+    "expected_region": "KNEE-R-008"
+  },
+  {
+    "side": "right",
+    "name": "semitendinosus",
+    "source_part_id": "FJ1436",
+    "source_face": 87744,
+    "point": [
+      -0.030469023670000768,
+      0.4150342047214508,
+      -0.015529225415693902
+    ],
+    "face": 18817,
+    "expected_region": "KNEE-R-008"
+  }
+]

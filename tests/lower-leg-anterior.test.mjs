@@ -13,7 +13,7 @@ test('existing anterior region entries receive authored content without changing
     assert.deepEqual(result,resolveAssessment(data,{localization_area_id:area}));
     assert.deepEqual(result.selection_regions.map(r=>r.region_id),[region]);
     assert.equal(result.consultation_guide.filter(q=>q.guide_id.startsWith(prefix)).length,4);
-    assert.equal(result.consultation_guide.filter(q=>q.scope==='GENERAL').length,5);
+    assert.equal(result.consultation_guide.filter(q=>q.scope==='GENERAL').length,7);
     assert.ok(!result.consultation_guide.some(q=>q.guide_id==='QG-PROVOKE'));
     assert.deepEqual(resolveAssessment(data,{region_id:region,consultation_answers:{activity:'跑步'}}),result);
     const rows=items(result);

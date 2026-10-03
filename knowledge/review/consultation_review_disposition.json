@@ -1,0 +1,861 @@
+{
+  "date": "2026-10-03",
+  "scope": "101 existing consultation records; teaching content and routing review, not independent clinical validation",
+  "records": [
+    {
+      "id": "QG-ONSET",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-PROVOKE",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-HISTORY",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-CARE",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-IMPACT",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-GOAL",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-KC-LOCATION",
+      "action": "corrected",
+      "fields": [
+        "Replaces_Guide_ID",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-KC-ACTIVITY",
+      "action": "corrected",
+      "fields": [
+        "Replaces_Guide_ID",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-KC-CHANGE",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-KC-ASSOCIATED",
+      "action": "corrected",
+      "fields": [
+        "Replaces_Guide_ID",
+        "Assessment_Help",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-LM-LOCATION",
+      "action": "corrected",
+      "fields": [
+        "Core_Prompt",
+        "Replaces_Guide_ID",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-LM-ACTIVITY",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-LM-CHANGE",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-LM-ASSOCIATED",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-LPM-LOCATION",
+      "action": "corrected",
+      "fields": [
+        "Replaces_Guide_ID",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-LPM-ACTIVITY",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-LPM-CHANGE",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-LPM-ASSOCIATED",
+      "action": "corrected",
+      "fields": [
+        "Assessment_Help",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-LA-LOCATION",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-LA-ACTIVITY",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-LA-CHANGE",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-LA-ASSOCIATED",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-LAB-LOCATION",
+      "action": "corrected",
+      "fields": [
+        "Optional_Probe",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-LAB-ACTIVITY",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-LAB-CHANGE",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-LAB-ASSOCIATED",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-LLAT-LOCATION",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-LLAT-ACTIVITY",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-LLAT-CHANGE",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-LLAT-ASSOCIATED",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-LPU-LOCATION",
+      "action": "corrected",
+      "fields": [
+        "Area_IDs",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-LPU-ACTIVITY",
+      "action": "corrected",
+      "fields": [
+        "Area_IDs",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-LPU-ONSET",
+      "action": "corrected",
+      "fields": [
+        "Area_IDs",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-LPU-ASSOCIATED",
+      "action": "corrected",
+      "fields": [
+        "Area_IDs",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-LPL-LOCATION",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-LPL-ACTIVITY",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-LPL-CHANGE",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-LPL-ASSOCIATED",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-AF-FRONT-LOCATION",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-AF-FRONT-ACTIVITY",
+      "action": "corrected",
+      "fields": [
+        "Replaces_Guide_ID",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-AF-FRONT-ONSET",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-AF-MID-LOCATION",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-AF-MID-ACTIVITY",
+      "action": "corrected",
+      "fields": [
+        "Replaces_Guide_ID",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-AF-MID-CHANGE",
+      "action": "corrected",
+      "fields": [
+        "Assessment_Help",
+        "Source_Reference",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-AF-INSERT-LOCATION",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-AF-INSERT-ACTIVITY",
+      "action": "corrected",
+      "fields": [
+        "Replaces_Guide_ID",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-AF-INSERT-CHANGE",
+      "action": "corrected",
+      "fields": [
+        "Assessment_Help",
+        "Source_Reference",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-AF-MED-LOCATION",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-AF-MED-ACTIVITY",
+      "action": "corrected",
+      "fields": [
+        "Replaces_Guide_ID",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-AF-MED-CHANGE",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-AF-LAT-LOCATION",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-AF-LAT-ACTIVITY",
+      "action": "corrected",
+      "fields": [
+        "Replaces_Guide_ID",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-AF-LAT-CHANGE",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-AF-R-006-1",
+      "action": "corrected",
+      "fields": [
+        "Core_Prompt",
+        "Optional_Probe",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-AF-R-006-2",
+      "action": "corrected",
+      "fields": [
+        "Replaces_Guide_ID",
+        "Core_Prompt",
+        "Optional_Probe",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-AF-R-006-3",
+      "action": "corrected",
+      "fields": [
+        "Optional_Probe",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-AF-R-007-1",
+      "action": "corrected",
+      "fields": [
+        "Core_Prompt",
+        "Optional_Probe",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-AF-R-007-2",
+      "action": "corrected",
+      "fields": [
+        "Replaces_Guide_ID",
+        "Core_Prompt",
+        "Optional_Probe",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-AF-R-007-3",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-AF-R-008-1",
+      "action": "corrected",
+      "fields": [
+        "Core_Prompt",
+        "Optional_Probe",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-AF-R-008-2",
+      "action": "corrected",
+      "fields": [
+        "Replaces_Guide_ID",
+        "Core_Prompt",
+        "Optional_Probe",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-AF-R-008-3",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-AF-R-009-1",
+      "action": "corrected",
+      "fields": [
+        "Core_Prompt",
+        "Optional_Probe",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-AF-R-009-2",
+      "action": "corrected",
+      "fields": [
+        "Replaces_Guide_ID",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-AF-R-009-3",
+      "action": "corrected",
+      "fields": [
+        "Optional_Probe",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-AF-R-010-1",
+      "action": "corrected",
+      "fields": [
+        "Core_Prompt",
+        "Optional_Probe",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-AF-R-010-2",
+      "action": "corrected",
+      "fields": [
+        "Replaces_Guide_ID",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-AF-R-010-3",
+      "action": "corrected",
+      "fields": [
+        "Optional_Probe",
+        "Assessment_Help",
+        "Source_Reference",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-AF-R-011-1",
+      "action": "corrected",
+      "fields": [
+        "Optional_Probe",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-AF-R-011-2",
+      "action": "corrected",
+      "fields": [
+        "Replaces_Guide_ID",
+        "Optional_Probe",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-AF-R-011-3",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-AF-R-012-1",
+      "action": "corrected",
+      "fields": [
+        "Core_Prompt",
+        "Optional_Probe",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-AF-R-012-2",
+      "action": "corrected",
+      "fields": [
+        "Replaces_Guide_ID",
+        "Core_Prompt",
+        "Optional_Probe",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-AF-R-012-3",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-THIGH-R-001-1",
+      "action": "corrected",
+      "fields": [
+        "Core_Prompt",
+        "Optional_Probe",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-THIGH-R-001-2",
+      "action": "corrected",
+      "fields": [
+        "Replaces_Guide_ID",
+        "Core_Prompt",
+        "Optional_Probe",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-THIGH-R-001-3",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-THIGH-R-002-1",
+      "action": "corrected",
+      "fields": [
+        "Core_Prompt",
+        "Optional_Probe",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-THIGH-R-002-2",
+      "action": "corrected",
+      "fields": [
+        "Replaces_Guide_ID",
+        "Core_Prompt",
+        "Optional_Probe",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-THIGH-R-002-3",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-THIGH-R-003-1",
+      "action": "corrected",
+      "fields": [
+        "Core_Prompt",
+        "Optional_Probe",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-THIGH-R-003-2",
+      "action": "corrected",
+      "fields": [
+        "Replaces_Guide_ID",
+        "Core_Prompt",
+        "Optional_Probe",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-THIGH-R-003-3",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-THIGH-R-004-1",
+      "action": "corrected",
+      "fields": [
+        "Core_Prompt",
+        "Optional_Probe",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-THIGH-R-004-2",
+      "action": "corrected",
+      "fields": [
+        "Replaces_Guide_ID",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-THIGH-R-004-3",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-KNEE-FRONT-1",
+      "action": "corrected",
+      "fields": [
+        "Core_Prompt",
+        "Optional_Probe",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-KNEE-FRONT-2",
+      "action": "corrected",
+      "fields": [
+        "Replaces_Guide_ID",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-KNEE-FRONT-3",
+      "action": "corrected",
+      "fields": [
+        "Core_Prompt",
+        "Optional_Probe",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-KNEE-MEDIAL-1",
+      "action": "corrected",
+      "fields": [
+        "Core_Prompt",
+        "Optional_Probe",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-KNEE-MEDIAL-2",
+      "action": "corrected",
+      "fields": [
+        "Replaces_Guide_ID",
+        "Core_Prompt",
+        "Optional_Probe",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-KNEE-MEDIAL-3",
+      "action": "corrected",
+      "fields": [
+        "Core_Prompt",
+        "Optional_Probe",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-KNEE-LATERAL-1",
+      "action": "corrected",
+      "fields": [
+        "Core_Prompt",
+        "Optional_Probe",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-KNEE-LATERAL-2",
+      "action": "corrected",
+      "fields": [
+        "Replaces_Guide_ID",
+        "Core_Prompt",
+        "Optional_Probe",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-KNEE-LATERAL-3",
+      "action": "corrected",
+      "fields": [
+        "Core_Prompt",
+        "Optional_Probe",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-KNEE-POST-1",
+      "action": "corrected",
+      "fields": [
+        "Core_Prompt",
+        "Optional_Probe",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-KNEE-POST-2",
+      "action": "corrected",
+      "fields": [
+        "Replaces_Guide_ID",
+        "Core_Prompt",
+        "Optional_Probe",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-KNEE-POST-3",
+      "action": "corrected",
+      "fields": [
+        "Core_Prompt",
+        "Optional_Probe",
+        "Assessment_Help",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-KNEE-DIFFUSE-1",
+      "action": "retained",
+      "fields": [],
+      "reason": "Prompt, purpose, information and assessment direction are specific enough; no tissue diagnosis or treatment is inferred from history alone."
+    },
+    {
+      "id": "QG-KNEE-DIFFUSE-2",
+      "action": "corrected",
+      "fields": [
+        "Replaces_Guide_ID",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    },
+    {
+      "id": "QG-KNEE-DIFFUSE-3",
+      "action": "corrected",
+      "fields": [
+        "Core_Prompt",
+        "Optional_Probe",
+        "Assessment_Help",
+        "Internal_Note"
+      ],
+      "reason": "Improve wording, scope, replacement or assessment boundaries as recorded in cell diff."
+    }
+  ],
+  "new_ids": [
+    "QG-PAIN-QUALITY",
+    "QG-IRRITABILITY",
+    "QG-SART-1",
+    "QG-SART-2",
+    "QG-SART-3",
+    "QG-PES-1",
+    "QG-PES-2",
+    "QG-PES-3",
+    "QG-PATELLAR-1",
+    "QG-PATELLAR-2",
+    "QG-ITB-1",
+    "QG-ITB-2",
+    "QG-FIBHEAD-1",
+    "QG-FIBHEAD-2",
+    "QG-TOE-H-1",
+    "QG-TOE-H-2",
+    "QG-TOE-H-3",
+    "QG-TOE-L-1",
+    "QG-TOE-L-2",
+    "QG-TOE-L-3",
+    "QG-LM-LOCATION-REGION",
+    "QG-LM-ACTIVITY-REGION",
+    "QG-LM-CHANGE-REGION",
+    "QG-LM-ASSOCIATED-REGION",
+    "QG-LPM-LOCATION-REGION",
+    "QG-LPM-ACTIVITY-REGION",
+    "QG-LPM-CHANGE-REGION",
+    "QG-LPM-ASSOCIATED-REGION"
+  ]
+}

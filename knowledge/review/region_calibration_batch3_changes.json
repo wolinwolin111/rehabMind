@@ -1,0 +1,337 @@
+{
+  "changes": [
+    {
+      "batch": 3,
+      "section": "main",
+      "name": "01_Region",
+      "id": "AF-R-006",
+      "field": "related_tissues",
+      "before": null,
+      "after": "骨与表浅组织：跟骨底部；足跟脂肪垫\n筋膜与肌群起点：足底腱膜近端；趾短屈肌、拇展肌及小趾展肌起点\n神经邻近：足底神经分支"
+    },
+    {
+      "batch": 3,
+      "section": "main",
+      "name": "01_Region",
+      "id": "AF-R-006",
+      "field": "related_tissues_source",
+      "before": null,
+      "after": "https://www.ncbi.nlm.nih.gov/books/NBK539705/\nBodyParts3D 4.0，当前原始模型组织与骨性标志核对；区域邻近关系，不作为组织诊断"
+    },
+    {
+      "batch": 3,
+      "section": "main",
+      "name": "01_Region",
+      "id": "AF-R-007",
+      "field": "related_tissues",
+      "before": null,
+      "after": "筋膜与表浅肌群：足底腱膜；拇展肌；趾短屈肌\n深层邻近：足底方肌；屈趾肌腱；足内在肌群\n相关肌腱：胫骨后肌腱；腓骨长肌腱\n骨与关节：跟骨至中前足的足弓结构"
+    },
+    {
+      "batch": 3,
+      "section": "main",
+      "name": "01_Region",
+      "id": "AF-R-007",
+      "field": "related_tissues_source",
+      "before": null,
+      "after": "https://www.ncbi.nlm.nih.gov/books/NBK539705/\nBodyParts3D 4.0，当前原始模型组织与骨性标志核对；区域邻近关系，不作为组织诊断"
+    },
+    {
+      "batch": 3,
+      "section": "main",
+      "name": "01_Region",
+      "id": "AF-R-008",
+      "field": "related_tissues",
+      "before": null,
+      "after": "骨与关节：舟骨；内侧楔骨；邻近中足关节\n肌腱：胫骨后肌腱止点；胫骨前肌腱远端邻近\n足底邻近：拇展肌；足底筋膜与足弓支持组织"
+    },
+    {
+      "batch": 3,
+      "section": "main",
+      "name": "01_Region",
+      "id": "AF-R-008",
+      "field": "related_tissues_source",
+      "before": null,
+      "after": "https://www.ncbi.nlm.nih.gov/books/NBK539705/\nBodyParts3D 4.0，当前原始模型组织与骨性标志核对；区域邻近关系，不作为组织诊断"
+    },
+    {
+      "batch": 3,
+      "section": "main",
+      "name": "01_Region",
+      "id": "AF-R-009",
+      "field": "related_tissues",
+      "before": null,
+      "after": "骨与关节：第五跖骨基底；骰骨；外侧中足关节\n肌腱：腓骨短肌腱止点；第三腓骨肌腱；腓骨长肌腱走行\n足底邻近：小趾展肌；外侧足底筋膜"
+    },
+    {
+      "batch": 3,
+      "section": "main",
+      "name": "01_Region",
+      "id": "AF-R-009",
+      "field": "related_tissues_source",
+      "before": null,
+      "after": "https://www.ncbi.nlm.nih.gov/books/NBK539705/\nBodyParts3D 4.0，当前原始模型组织与骨性标志核对；区域邻近关系，不作为组织诊断"
+    },
+    {
+      "batch": 3,
+      "section": "main",
+      "name": "01_Region",
+      "id": "AF-R-010",
+      "field": "related_tissues",
+      "before": null,
+      "after": "肌腱：趾长伸肌腱；拇长伸肌腱；胫骨前肌腱邻近\n肌群：趾短伸肌；拇短伸肌\n骨与关节：跗骨背侧；跖骨基底；中足关节\n神经与支持组织：深腓神经；伸肌支持组织"
+    },
+    {
+      "batch": 3,
+      "section": "main",
+      "name": "01_Region",
+      "id": "AF-R-010",
+      "field": "related_tissues_source",
+      "before": null,
+      "after": "https://www.ncbi.nlm.nih.gov/books/NBK539705/\nBodyParts3D 4.0，当前原始模型组织与骨性标志核对；区域邻近关系，不作为组织诊断"
+    },
+    {
+      "batch": 3,
+      "section": "main",
+      "name": "01_Region",
+      "id": "AF-R-011",
+      "field": "related_tissues",
+      "before": null,
+      "after": "骨与关节：第2–5跖骨头；跖趾关节；近节趾骨\n肌腱与肌群：屈趾肌腱；蚓状肌；骨间肌；趾短屈肌；小趾肌群\n周围组织：跖板；足底脂肪垫；趾间神经"
+    },
+    {
+      "batch": 3,
+      "section": "main",
+      "name": "01_Region",
+      "id": "AF-R-011",
+      "field": "related_tissues_source",
+      "before": null,
+      "after": "https://www.ncbi.nlm.nih.gov/books/NBK539705/\nBodyParts3D 4.0，当前原始模型组织与骨性标志核对；区域邻近关系，不作为组织诊断"
+    },
+    {
+      "batch": 3,
+      "section": "main",
+      "name": "01_Region",
+      "id": "AF-R-012",
+      "field": "related_tissues",
+      "before": null,
+      "after": "骨与关节：第一跖骨头；拇趾近节趾骨；第一跖趾关节；籽骨\n肌腱：拇长屈肌腱；拇长伸肌腱\n肌群：拇短屈肌；拇展肌；拇收肌；拇短伸肌\n周围组织：跖板；关节囊"
+    },
+    {
+      "batch": 3,
+      "section": "main",
+      "name": "01_Region",
+      "id": "AF-R-012",
+      "field": "related_tissues_source",
+      "before": null,
+      "after": "https://www.ncbi.nlm.nih.gov/books/NBK539705/\nBodyParts3D 4.0，当前原始模型组织与骨性标志核对；区域邻近关系，不作为组织诊断"
+    },
+    {
+      "batch": 3,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0025",
+      "field": "display_mode",
+      "before": "EXPAND",
+      "after": "DEFAULT"
+    },
+    {
+      "batch": 3,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0026",
+      "field": "display_mode",
+      "before": "EXPAND",
+      "after": "DEFAULT"
+    },
+    {
+      "batch": 3,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0064",
+      "field": "display_mode",
+      "before": "EXPAND",
+      "after": "DEFAULT"
+    },
+    {
+      "batch": 3,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0129",
+      "field": "display_mode",
+      "before": "LINKED",
+      "after": "EXPAND"
+    },
+    {
+      "batch": 3,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0148",
+      "field": "display_mode",
+      "before": "LINKED",
+      "after": "EXPAND"
+    },
+    {
+      "batch": 3,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0050",
+      "field": "display_mode",
+      "before": "EXPAND",
+      "after": "DEFAULT"
+    },
+    {
+      "batch": 3,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0149",
+      "field": "display_mode",
+      "before": "LINKED",
+      "after": "EXPAND"
+    },
+    {
+      "batch": 3,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0036",
+      "field": "display_mode",
+      "before": "EXPAND",
+      "after": "DEFAULT"
+    },
+    {
+      "batch": 3,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0111",
+      "field": "display_mode",
+      "before": "EXPAND",
+      "after": "DEFAULT"
+    },
+    {
+      "batch": 3,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0038",
+      "field": "display_mode",
+      "before": "DEFAULT",
+      "after": "EXPAND"
+    },
+    {
+      "batch": 3,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0137",
+      "field": "display_mode",
+      "before": "EXPAND",
+      "after": "DEFAULT"
+    },
+    {
+      "batch": 3,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0054",
+      "field": "display_mode",
+      "before": "EXPAND",
+      "after": "DEFAULT"
+    },
+    {
+      "batch": 3,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0045",
+      "field": "display_mode",
+      "before": "DEFAULT",
+      "after": "EXPAND"
+    },
+    {
+      "batch": 3,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0057",
+      "field": "display_mode",
+      "before": "EXPAND",
+      "after": "DEFAULT"
+    },
+    {
+      "batch": 3,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-AF-R-006",
+      "field": "Related_Tissues",
+      "before": "骨与局部组织：跟骨底；足跟垫\n软组织：足底筋膜近端",
+      "after": "骨与表浅组织：跟骨底部；足跟脂肪垫\n筋膜与肌群起点：足底腱膜近端；趾短屈肌、拇展肌及小趾展肌起点\n神经邻近：足底神经分支"
+    },
+    {
+      "batch": 3,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-AF-R-007",
+      "field": "Related_Tissues",
+      "before": "软组织：足底筋膜内侧带\n肌群：拇展肌；趾短屈肌；长屈趾肌邻近",
+      "after": "筋膜与表浅肌群：足底腱膜；拇展肌；趾短屈肌\n深层邻近：足底方肌；屈趾肌腱；足内在肌群\n相关肌腱：胫骨后肌腱；腓骨长肌腱\n骨与关节：跟骨至中前足的足弓结构"
+    },
+    {
+      "batch": 3,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-AF-R-008",
+      "field": "Related_Tissues",
+      "before": "骨与关节：舟骨；内侧中足关节\n肌腱：胫骨后肌止点",
+      "after": "骨与关节：舟骨；内侧楔骨；邻近中足关节\n肌腱：胫骨后肌腱止点；胫骨前肌腱远端邻近\n足底邻近：拇展肌；足底筋膜与足弓支持组织"
+    },
+    {
+      "batch": 3,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-AF-R-009",
+      "field": "Related_Tissues",
+      "before": "骨与关节：第五跖骨基底；骰骨邻近\n肌腱：腓骨短肌止点；腓骨长肌邻近",
+      "after": "骨与关节：第五跖骨基底；骰骨；外侧中足关节\n肌腱：腓骨短肌腱止点；第三腓骨肌腱；腓骨长肌腱走行\n足底邻近：小趾展肌；外侧足底筋膜"
+    },
+    {
+      "batch": 3,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-AF-R-010",
+      "field": "Related_Tissues",
+      "before": "关节：跗跖及中足关节\n肌腱：胫骨前肌；拇长伸肌；趾长伸肌",
+      "after": "肌腱：趾长伸肌腱；拇长伸肌腱；胫骨前肌腱邻近\n肌群：趾短伸肌；拇短伸肌\n骨与关节：跗骨背侧；跖骨基底；中足关节\n神经与支持组织：深腓神经；伸肌支持组织"
+    },
+    {
+      "batch": 3,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-AF-R-011",
+      "field": "Related_Tissues",
+      "before": "局部组织：第2–5跖骨头；跖板\n肌群：趾短屈肌；拇收肌；长屈趾肌邻近",
+      "after": "骨与关节：第2–5跖骨头；跖趾关节；近节趾骨\n肌腱与肌群：屈趾肌腱；蚓状肌；骨间肌；趾短屈肌；小趾肌群\n周围组织：跖板；足底脂肪垫；趾间神经"
+    },
+    {
+      "batch": 3,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-AF-R-012",
+      "field": "Related_Tissues",
+      "before": "骨与关节：第一MTP；籽骨\n软组织：跖板；拇短屈肌；拇长屈肌腱邻近",
+      "after": "骨与关节：第一跖骨头；拇趾近节趾骨；第一跖趾关节；籽骨\n肌腱：拇长屈肌腱；拇长伸肌腱\n肌群：拇短屈肌；拇展肌；拇收肌；拇短伸肌\n周围组织：跖板；关节囊"
+    },
+    {
+      "batch": 3,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-TOE-LESSER",
+      "field": "Related_Tissues",
+      "before": "肌腱：趾长伸肌腱；趾长屈肌腱\n根部关节：第2–5跖趾关节",
+      "after": "肌腱：第2–5趾伸肌腱与屈肌腱\n肌群：蚓状肌；骨间肌；趾短屈肌；小趾肌群\n骨与关节：第2–5趾骨；跖趾关节；趾间关节"
+    },
+    {
+      "batch": 3,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-TOE-HALLUX",
+      "field": "Related_Tissues",
+      "before": "肌腱：拇长伸肌腱；拇长屈肌腱\n根部关节：第一跖趾关节",
+      "after": "肌腱：拇长伸肌腱；拇长屈肌腱\n肌群：拇短屈肌；拇展肌；拇收肌；拇短伸肌\n骨与关节：拇趾趾骨；第一跖趾关节；趾间关节"
+    }
+  ]
+}

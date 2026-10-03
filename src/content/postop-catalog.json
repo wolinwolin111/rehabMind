@@ -1,0 +1,105 @@
+[
+  {
+    "id": "acl",
+    "title": "ACL重建术后",
+    "name": "ACL重建术后运动恢复训练指导",
+    "category": "膝关节",
+    "scope": "术后",
+    "summary": "移植物基础与分阶段恢复",
+    "chapters": [
+      "术后康复总览与危险信号",
+      "移植物类型与愈合过程",
+      "六个阶段的目标、动作与注意事项",
+      "力量、本体感觉与回归运动判断",
+      "肿胀、放松、瘢痕与负荷管理",
+      "进阶标准与参考文献"
+    ],
+    "file": "postop/guides/acl/full.html"
+  },
+  {
+    "id": "meniscus",
+    "title": "半月板术后",
+    "name": "半月板术后运动恢复训练指导",
+    "category": "膝关节",
+    "scope": "术后",
+    "summary": "缝合与部分切除两条路径",
+    "chapters": [
+      "半月板结构、血供与常见术式",
+      "缝合修复的分阶段康复路线",
+      "部分切除的分阶段康复路线",
+      "关节保护与长期管理",
+      "肿胀、放松、瘢痕与负荷管理",
+      "进阶标准与参考文献"
+    ],
+    "file": "postop/guides/meniscus/full.html"
+  },
+  {
+    "id": "acl-meniscus",
+    "title": "ACL+半月板术后",
+    "name": "ACL+半月板联合术后运动恢复训练指导",
+    "category": "膝关节",
+    "scope": "联合术后",
+    "summary": "双组织保护与训练进阶",
+    "chapters": [
+      "ACL移植物与半月板组织基础",
+      "联合手术的限制冲突与平衡",
+      "ACL+半月板缝合康复路线",
+      "ACL+半月板部分切除康复路线",
+      "力量、步态与运动能力重建",
+      "肿胀、放松、瘢痕与负荷管理",
+      "进阶标准与参考文献"
+    ],
+    "file": "postop/guides/acl-meniscus/full.html"
+  },
+  {
+    "id": "pcl",
+    "title": "PCL损伤",
+    "name": "PCL损伤运动恢复训练指导",
+    "category": "膝关节",
+    "scope": "保守与术后",
+    "summary": "后向应力管理与力量恢复",
+    "chapters": [
+      "PCL功能与常见损伤机制",
+      "保守恢复与重建术后的路径边界",
+      "分阶段活动、力量与步态训练",
+      "后向应力管理与常见误区",
+      "肿胀、放松、瘢痕与负荷管理",
+      "进阶标准与参考文献"
+    ],
+    "file": "postop/guides/pcl/full.html"
+  },
+  {
+    "id": "patellar-dislocation",
+    "title": "髌骨脱位",
+    "name": "髌骨脱位运动恢复训练指导",
+    "category": "膝关节",
+    "scope": "保守与术后",
+    "summary": "髌骨稳定与全下肢控制",
+    "chapters": [
+      "髌骨稳定机制与易损结构",
+      "非手术和不同术后路径边界",
+      "分阶段活动度与力量恢复",
+      "单腿控制、跑跳与回归运动",
+      "肿胀、放松、瘢痕与负荷管理",
+      "进阶标准与参考文献"
+    ],
+    "file": "postop/guides/patellar-dislocation/full.html"
+  },
+  {
+    "id": "achilles-rupture",
+    "title": "跟腱损伤与断裂",
+    "name": "跟腱损伤与断裂运动恢复训练指导",
+    "category": "足踝",
+    "scope": "部分损伤与断裂术后",
+    "summary": "部分损伤与完全断裂术后两条路径",
+    "chapters": [
+      "跟腱结构、部分损伤与完全断裂边界",
+      "部分损伤非手术恢复四阶段流程",
+      "急性完全断裂手术修复后四阶段流程",
+      "小腿力量、弹性和跑跳准备",
+      "肿胀、放松、瘢痕与负荷管理",
+      "回归活动标准与参考文献"
+    ],
+    "file": "postop/guides/achilles-rupture/full.html"
+  }
+]

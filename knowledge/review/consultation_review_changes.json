@@ -1,0 +1,1803 @@
+{
+  "changes": [
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-LPU-LOCATION",
+      "field": "Area_IDs",
+      "before": "LOC-LL-POSTUPPER",
+      "after": "LOC-LL-POSTUPPER|LOC-LL-GASTROC-MEDIAL|LOC-LL-GASTROC-LATERAL"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-LPU-LOCATION",
+      "field": "Internal_Note",
+      "before": "仅展示问诊思路，不解析回答或自动安排评估。",
+      "after": "仅展示问诊思路，不解析回答或自动安排评估。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-LPU-ACTIVITY",
+      "field": "Area_IDs",
+      "before": "LOC-LL-POSTUPPER",
+      "after": "LOC-LL-POSTUPPER|LOC-LL-GASTROC-MEDIAL|LOC-LL-GASTROC-LATERAL"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-LPU-ACTIVITY",
+      "field": "Internal_Note",
+      "before": "仅展示问诊思路，不解析回答或自动安排评估。",
+      "after": "仅展示问诊思路，不解析回答或自动安排评估。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-LPU-ONSET",
+      "field": "Area_IDs",
+      "before": "LOC-LL-POSTUPPER",
+      "after": "LOC-LL-POSTUPPER|LOC-LL-GASTROC-MEDIAL|LOC-LL-GASTROC-LATERAL"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-LPU-ONSET",
+      "field": "Internal_Note",
+      "before": "仅展示问诊思路，不解析回答或自动安排评估。",
+      "after": "仅展示问诊思路，不解析回答或自动安排评估。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-LPU-ASSOCIATED",
+      "field": "Area_IDs",
+      "before": "LOC-LL-POSTUPPER",
+      "after": "LOC-LL-POSTUPPER|LOC-LL-GASTROC-MEDIAL|LOC-LL-GASTROC-LATERAL"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-LPU-ASSOCIATED",
+      "field": "Internal_Note",
+      "before": "仅展示问诊思路，不解析回答或自动安排评估。",
+      "after": "仅展示问诊思路，不解析回答或自动安排评估。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-FRONT-ACTIVITY",
+      "field": "Internal_Note",
+      "before": "仅展示问诊思路，不解析回答或自动安排评估。",
+      "after": "仅展示问诊思路，不解析回答或自动安排评估。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-MID-ACTIVITY",
+      "field": "Internal_Note",
+      "before": "仅展示问诊思路，不解析回答或自动安排评估。",
+      "after": "仅展示问诊思路，不解析回答或自动安排评估。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-INSERT-ACTIVITY",
+      "field": "Internal_Note",
+      "before": "仅展示问诊思路，不解析回答或自动安排评估。",
+      "after": "仅展示问诊思路，不解析回答或自动安排评估。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-MED-ACTIVITY",
+      "field": "Internal_Note",
+      "before": "仅展示问诊思路，不解析回答或自动安排评估。",
+      "after": "仅展示问诊思路，不解析回答或自动安排评估。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-LAT-ACTIVITY",
+      "field": "Internal_Note",
+      "before": "仅展示问诊思路，不解析回答或自动安排评估。",
+      "after": "仅展示问诊思路，不解析回答或自动安排评估。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-006-2",
+      "field": "Replaces_Guide_ID",
+      "before": null,
+      "after": "QG-PROVOKE"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-006-2",
+      "field": "Core_Prompt",
+      "before": "赤脚、硬地走路和休息后起步，哪种更明显？",
+      "after": "赤脚、硬地走路和休息后刚起步，哪种更明显？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-006-2",
+      "field": "Optional_Probe",
+      "before": null,
+      "after": "走开后是否减轻？走久后或第二天是否再次加重？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-006-2",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-007-2",
+      "field": "Replaces_Guide_ID",
+      "before": null,
+      "after": "QG-PROVOKE"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-007-2",
+      "field": "Core_Prompt",
+      "before": "起步、伸拇趾和持续站走时有什么区别？",
+      "after": "刚起步、脚趾向上弯和久站走路时，有什么区别？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-007-2",
+      "field": "Optional_Probe",
+      "before": null,
+      "after": "脱鞋、换鞋或休息后是否改变？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-007-2",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-008-2",
+      "field": "Replaces_Guide_ID",
+      "before": null,
+      "after": "QG-PROVOKE"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-008-2",
+      "field": "Core_Prompt",
+      "before": "内翻发力、提踵与鞋具摩擦时有什么区别？",
+      "after": "脚向内转、踮脚和鞋子摩擦时，有什么区别？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-008-2",
+      "field": "Optional_Probe",
+      "before": null,
+      "after": "走久后是否更明显？足弓外形或支撑感有无变化？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-008-2",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-009-2",
+      "field": "Replaces_Guide_ID",
+      "before": null,
+      "after": "QG-PROVOKE"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-009-2",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-010-2",
+      "field": "Replaces_Guide_ID",
+      "before": null,
+      "after": "QG-PROVOKE"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-010-2",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-011-2",
+      "field": "Replaces_Guide_ID",
+      "before": null,
+      "after": "QG-PROVOKE"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-011-2",
+      "field": "Optional_Probe",
+      "before": null,
+      "after": "走路蹬地、赤脚或穿不同鞋时，疼痛位置是否一致？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-011-2",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-012-2",
+      "field": "Replaces_Guide_ID",
+      "before": null,
+      "after": "QG-PROVOKE"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-012-2",
+      "field": "Core_Prompt",
+      "before": "拇趾伸展、蹬地与鞋面压迫时有什么区别？",
+      "after": "大脚趾向上弯、走路蹬地和鞋面压住时，有什么区别？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-012-2",
+      "field": "Optional_Probe",
+      "before": null,
+      "after": "是疼痛先限制动作，还是觉得硬卡住？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-012-2",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-THIGH-R-001-2",
+      "field": "Replaces_Guide_ID",
+      "before": null,
+      "after": "QG-PROVOKE"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-THIGH-R-001-2",
+      "field": "Core_Prompt",
+      "before": "膝屈拉长、伸膝发力和跑跳时有什么区别？",
+      "after": "弯膝拉伸、踢直膝盖、走路或跑跳时，哪种更明显？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-THIGH-R-001-2",
+      "field": "Optional_Probe",
+      "before": null,
+      "after": "上下台阶或加速时如何？不要为回答问题现场强行复现疼痛。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-THIGH-R-001-2",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-THIGH-R-002-2",
+      "field": "Replaces_Guide_ID",
+      "before": null,
+      "after": "QG-PROVOKE"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-THIGH-R-002-2",
+      "field": "Core_Prompt",
+      "before": "伸膝牵拉、屈膝发力和快跑时有什么区别？",
+      "after": "伸直腿拉伸、弯膝发力和快跑时，有什么区别？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-THIGH-R-002-2",
+      "field": "Optional_Probe",
+      "before": null,
+      "after": "加速、跨大步与减速时是否不同？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-THIGH-R-002-2",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-THIGH-R-003-2",
+      "field": "Replaces_Guide_ID",
+      "before": null,
+      "after": "QG-PROVOKE"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-THIGH-R-003-2",
+      "field": "Core_Prompt",
+      "before": "外展拉长、内收发力和侧向移动时有什么区别？",
+      "after": "双腿分开、夹腿、跨步或侧向移动时，哪种会不舒服？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-THIGH-R-003-2",
+      "field": "Optional_Probe",
+      "before": null,
+      "after": "变向与直线走跑时有何差别？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-THIGH-R-003-2",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-THIGH-R-004-2",
+      "field": "Replaces_Guide_ID",
+      "before": null,
+      "after": "QG-PROVOKE"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-THIGH-R-004-2",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-FRONT-2",
+      "field": "Replaces_Guide_ID",
+      "before": null,
+      "after": "QG-PROVOKE"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-FRONT-2",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-MEDIAL-2",
+      "field": "Replaces_Guide_ID",
+      "before": null,
+      "after": "QG-PROVOKE"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-MEDIAL-2",
+      "field": "Core_Prompt",
+      "before": "伸屈膝、内收或屈膝发力时有什么区别？",
+      "after": "上下台阶、转身、弯膝或夹腿时，哪种会不舒服？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-MEDIAL-2",
+      "field": "Optional_Probe",
+      "before": null,
+      "after": "日常活动中是否有膝向内偏或被外力推向内侧的受伤经过？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-MEDIAL-2",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-LATERAL-2",
+      "field": "Replaces_Guide_ID",
+      "before": null,
+      "after": "QG-PROVOKE"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-LATERAL-2",
+      "field": "Core_Prompt",
+      "before": "屈膝发力、胫骨旋转和跑步时有什么区别？",
+      "after": "弯膝、转身、跑步或下坡时，有什么区别？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-LATERAL-2",
+      "field": "Optional_Probe",
+      "before": null,
+      "after": "是否总在相近距离或屈膝角度出现？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-LATERAL-2",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-POST-2",
+      "field": "Replaces_Guide_ID",
+      "before": null,
+      "after": "QG-PROVOKE"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-POST-2",
+      "field": "Core_Prompt",
+      "before": "伸膝牵拉、屈膝发力与提踵时有什么区别？",
+      "after": "伸直膝盖、弯膝发力或踮脚时，哪种更明显？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-POST-2",
+      "field": "Optional_Probe",
+      "before": null,
+      "after": "是拉长时不适、发力痛，还是膝盖里顶胀？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-POST-2",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-DIFFUSE-2",
+      "field": "Replaces_Guide_ID",
+      "before": null,
+      "after": "QG-PROVOKE"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-DIFFUSE-2",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KC-LOCATION",
+      "field": "Replaces_Guide_ID",
+      "before": null,
+      "after": "QG-KNEE-POST-1"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KC-LOCATION",
+      "field": "Internal_Note",
+      "before": "部位问诊编辑样例；仅展示，不解析回答。",
+      "after": "部位问诊编辑样例；仅展示，不解析回答。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KC-ACTIVITY",
+      "field": "Replaces_Guide_ID",
+      "before": "QG-PROVOKE",
+      "after": "QG-PROVOKE|QG-KNEE-POST-2"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KC-ACTIVITY",
+      "field": "Internal_Note",
+      "before": "部位问诊编辑样例；仅展示，不解析回答。",
+      "after": "部位问诊编辑样例；仅展示，不解析回答。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KC-ASSOCIATED",
+      "field": "Replaces_Guide_ID",
+      "before": null,
+      "after": "QG-KNEE-POST-3"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KC-ASSOCIATED",
+      "field": "Assessment_Help",
+      "before": "提示关注腘窝及近端小腿局部组织；感觉变化可补充神经筛查，突然加重的肿痛或发热需进一步评估。",
+      "after": "结合膝后局部组织与感觉、力量检查；新发单侧明显肿胀、发热或变色，应先安排医学评估，不先做反复负重或深压测试。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KC-ASSOCIATED",
+      "field": "Internal_Note",
+      "before": "部位问诊编辑样例；仅展示，不解析回答。",
+      "after": "部位问诊编辑样例；仅展示，不解析回答。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-LAB-LOCATION",
+      "field": "Optional_Probe",
+      "before": "骨面按压和旁边肌肉按压，哪里更不舒服？有没有局部肿胀？",
+      "after": "能用一个手指指出最明显的位置吗？是在硬的骨面上还是旁边？有没有肿胀？无需患者自行反复按压。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-LAB-LOCATION",
+      "field": "Internal_Note",
+      "before": "仅展示问诊思路，不解析回答或自动安排评估。",
+      "after": "仅展示问诊思路，不解析回答或自动安排评估。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-LM-LOCATION",
+      "field": "Core_Prompt",
+      "before": "不适在胫骨内侧边缘，还是骨缘后方的软组织？",
+      "after": "小腿内侧最不舒服的位置在哪里？靠近硬的骨边，还是更后面的软组织？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-LM-LOCATION",
+      "field": "Internal_Note",
+      "before": "问诊展示稿，无答案录入或自动选择。",
+      "after": "问诊展示稿，无答案录入或自动选择。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-LPM-ASSOCIATED",
+      "field": "Assessment_Help",
+      "before": "可补充局部组织和神经筛查；突然出现的明显肿胀需进一步评估。",
+      "after": "感觉异常需结合分布补充神经筛查；新发单侧明显肿胀、发热或变色，应先安排医学评估，不以肌肉紧张解释。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-LPM-ASSOCIATED",
+      "field": "Internal_Note",
+      "before": "问诊展示稿，无答案录入或自动选择。",
+      "after": "问诊展示稿，无答案录入或自动选择。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-MID-CHANGE",
+      "field": "Assessment_Help",
+      "before": "为跟腱完整性及损伤相关排查提供信息。",
+      "after": "突然弹响或被踢感，伴明显蹬地无力时，先排查跟腱完整性并及时医学评估；暂缓强牵拉、反复提踵和跑跳测试。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-MID-CHANGE",
+      "field": "Source_Reference",
+      "before": "前踝、跟腱中段及止点分批编辑稿。前踝核对NHS前踝资料与授权距骨松动记录，跟腱核对中段指南、NHS具名动作及止点低压缩RCT。仅列方法和组织范围，不导入剂量、阶段或治疗选择。https://msk-bexley.nhs.uk/conditions/foot-and-ankle-pain/anterior-front-ankle-impingement\nhttps://doi.org/10.2519/jospt.2024.0302\nhttps://doi.org/10.1136/bjsports-2024-109138\nhttps://myjointhealthhub.bnssg.nhs.uk/foot-ankle-pain/achilles-tendinopathy/\nhttps://www.kentcht.nhs.uk/leaflet/insertional-achilles-tendinopathy/",
+      "after": "前踝、跟腱中段及止点分批编辑稿。前踝核对NHS前踝资料与授权距骨松动记录，跟腱核对中段指南、NHS具名动作及止点低压缩RCT。仅列方法和组织范围，不导入剂量、阶段或治疗选择。https://msk-bexley.nhs.uk/conditions/foot-and-ankle-pain/anterior-front-ankle-impingement\nhttps://doi.org/10.2519/jospt.2024.0302\nhttps://doi.org/10.1136/bjsports-2024-109138\nhttps://myjointhealthhub.bnssg.nhs.uk/foot-ankle-pain/achilles-tendinopathy/\nhttps://www.kentcht.nhs.uk/leaflet/insertional-achilles-tendinopathy/\nhttps://www.orthoinfo.org/diseases--conditions/achilles-tendon-rupture-tear/"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-MID-CHANGE",
+      "field": "Internal_Note",
+      "before": "仅展示问诊思路，不解析回答或自动安排评估。",
+      "after": "仅展示问诊思路，不解析回答或自动安排评估。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-INSERT-CHANGE",
+      "field": "Assessment_Help",
+      "before": "为止点、邻近组织与损伤方向排查提供背景。",
+      "after": "突然弹响或被踢感，伴明显蹬地无力时，先排查跟腱完整性并及时医学评估；暂缓强牵拉、反复提踵和跑跳测试。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-INSERT-CHANGE",
+      "field": "Source_Reference",
+      "before": "前踝、跟腱中段及止点分批编辑稿。前踝核对NHS前踝资料与授权距骨松动记录，跟腱核对中段指南、NHS具名动作及止点低压缩RCT。仅列方法和组织范围，不导入剂量、阶段或治疗选择。https://msk-bexley.nhs.uk/conditions/foot-and-ankle-pain/anterior-front-ankle-impingement\nhttps://doi.org/10.2519/jospt.2024.0302\nhttps://doi.org/10.1136/bjsports-2024-109138\nhttps://myjointhealthhub.bnssg.nhs.uk/foot-ankle-pain/achilles-tendinopathy/\nhttps://www.kentcht.nhs.uk/leaflet/insertional-achilles-tendinopathy/",
+      "after": "前踝、跟腱中段及止点分批编辑稿。前踝核对NHS前踝资料与授权距骨松动记录，跟腱核对中段指南、NHS具名动作及止点低压缩RCT。仅列方法和组织范围，不导入剂量、阶段或治疗选择。https://msk-bexley.nhs.uk/conditions/foot-and-ankle-pain/anterior-front-ankle-impingement\nhttps://doi.org/10.2519/jospt.2024.0302\nhttps://doi.org/10.1136/bjsports-2024-109138\nhttps://myjointhealthhub.bnssg.nhs.uk/foot-ankle-pain/achilles-tendinopathy/\nhttps://www.kentcht.nhs.uk/leaflet/insertional-achilles-tendinopathy/\nhttps://www.orthoinfo.org/diseases--conditions/achilles-tendon-rupture-tear/"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-INSERT-CHANGE",
+      "field": "Internal_Note",
+      "before": "仅展示问诊思路，不解析回答或自动安排评估。",
+      "after": "仅展示问诊思路，不解析回答或自动安排评估。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-006-1",
+      "field": "Core_Prompt",
+      "before": "疼在足跟中央还是内侧结节？",
+      "after": "脚跟底下最痛的是正中间还是偏内侧？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-006-1",
+      "field": "Optional_Probe",
+      "before": null,
+      "after": "是一点还是一片？是否向足弓延伸？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-006-1",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-006-3",
+      "field": "Optional_Probe",
+      "before": null,
+      "after": "是否已有肿胀、夜间或休息时也痛、普通走路明显困难？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-006-3",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-007-1",
+      "field": "Core_Prompt",
+      "before": "疼在足跟起点、足弓中段，还是肌腹附近？",
+      "after": "脚底不适从脚跟延伸到足弓，还是只在足弓一处？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-007-1",
+      "field": "Optional_Probe",
+      "before": null,
+      "after": "有没有麻木、烧灼或向脚趾延伸？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-007-1",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-008-1",
+      "field": "Core_Prompt",
+      "before": "疼在舟骨骨面、内侧突起还是肌腱附近？",
+      "after": "足弓内侧最突出的位置痛，还是脚背偏内侧或突起后面痛？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-008-1",
+      "field": "Optional_Probe",
+      "before": null,
+      "after": "这个突起一直有还是最近出现？鞋子是否压到它？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-008-1",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-009-1",
+      "field": "Core_Prompt",
+      "before": "疼在骨头上还是外侧肌腱附近？",
+      "after": "足外侧突出的骨头附近痛，还是沿外踝后方一路痛下来？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-009-1",
+      "field": "Optional_Probe",
+      "before": null,
+      "after": "能否指出最明显的一点？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-009-1",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-009-3",
+      "field": "Optional_Probe",
+      "before": null,
+      "after": "受伤后能否正常走路？有没有明显肿胀或瘀斑？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-009-3",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-010-1",
+      "field": "Core_Prompt",
+      "before": "疼在关节缝、肌腱走行还是鞋带压住的位置？",
+      "after": "脚背中间最痛在哪里？松开鞋带后会不会好一些？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-010-1",
+      "field": "Optional_Probe",
+      "before": null,
+      "after": "是一点、沿一条线，还是较深的一片？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-010-1",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-010-3",
+      "field": "Optional_Probe",
+      "before": null,
+      "after": "受伤后还能正常走路吗？肿胀是否迅速增加？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-010-3",
+      "field": "Assessment_Help",
+      "before": "可补跗跖稳定结构、骨面与医学评估方向。",
+      "after": "中足扭伤后足底瘀斑、明显肿胀或负重困难，需优先医学评估骨性与跗跖稳定结构；暂缓负重旋转和跳跃测试。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-010-3",
+      "field": "Source_Reference",
+      "before": "baseline://clinical-extension/ConsultationGuide/QG-AF-R-010-3\nbook://magee-local#pdf=857&print=848",
+      "after": "baseline://clinical-extension/ConsultationGuide/QG-AF-R-010-3\nbook://magee-local#pdf=857&print=848\nhttps://www.orthoinfo.org/diseases--conditions/lisfranc-midfoot-injury"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-010-3",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-011-1",
+      "field": "Optional_Probe",
+      "before": null,
+      "after": "是否有烧灼、麻刺或延伸到相邻脚趾？窄鞋或脱鞋后有何变化？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-011-1",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-012-1",
+      "field": "Core_Prompt",
+      "before": "疼在关节上方、两侧还是跖侧籽骨附近？",
+      "after": "大脚趾根部是上面、两侧，还是脚底下面疼？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-012-1",
+      "field": "Optional_Probe",
+      "before": null,
+      "after": "与鞋接触处是否相同？突然红、肿、热或静息剧痛也要了解。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-AF-R-012-1",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-THIGH-R-001-1",
+      "field": "Core_Prompt",
+      "before": "疼在肌腹、肌腱附近还是深部？",
+      "after": "大腿前面最不舒服的位置在哪里？靠近髋、大腿中段还是膝盖上方？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-THIGH-R-001-1",
+      "field": "Optional_Probe",
+      "before": null,
+      "after": "是表面一片、深处还是一个明确点？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-THIGH-R-001-1",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-THIGH-R-002-1",
+      "field": "Core_Prompt",
+      "before": "疼在后侧肌腹、近端还是膝后肌腱？",
+      "after": "大腿后面是靠近臀下、肌肉中段，还是膝盖后面疼？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-THIGH-R-002-1",
+      "field": "Optional_Probe",
+      "before": null,
+      "after": "坐着是否明显？有没有往小腿延伸的麻或电击感？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-THIGH-R-002-1",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-THIGH-R-003-1",
+      "field": "Core_Prompt",
+      "before": "疼在肌腹、近端深层还是膝内侧止点？",
+      "after": "大腿内侧最痛在上端、中间，还是接近膝下内侧？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-THIGH-R-003-1",
+      "field": "Optional_Probe",
+      "before": null,
+      "after": "是局部疼，还是从近端延伸下来？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-THIGH-R-003-1",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-THIGH-R-004-1",
+      "field": "Core_Prompt",
+      "before": "疼在近端肌腹、中段外侧还是膝外侧？",
+      "after": "大腿外侧最明显的是上段、中段还是接近膝外侧？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-THIGH-R-004-1",
+      "field": "Optional_Probe",
+      "before": null,
+      "after": "是深部疼、表面麻，还是沿一段延伸？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-THIGH-R-004-1",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-FRONT-1",
+      "field": "Core_Prompt",
+      "before": "疼在髌骨周围、髌骨上下缘肌腱，还是胫骨结节？",
+      "after": "膝盖前面最痛在哪里？髌骨周围、上缘、下缘还是更下方的骨头突起？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-FRONT-1",
+      "field": "Optional_Probe",
+      "before": null,
+      "after": "能用手指出最明显位置吗？跪地接触痛与运动痛在同一处吗？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-FRONT-1",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-FRONT-3",
+      "field": "Core_Prompt",
+      "before": "有没有扭转、撞击、突然肿胀、真正卡住或明显失稳？",
+      "after": "有没有扭伤、撞击、突然肿胀，或髌骨滑出去的感觉？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-FRONT-3",
+      "field": "Optional_Probe",
+      "before": null,
+      "after": "所谓卡住是关节确实动不了，还是怕痛不敢动？有无突然不能主动伸直膝盖？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-FRONT-3",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-MEDIAL-1",
+      "field": "Core_Prompt",
+      "before": "疼在内侧关节线、韧带走行、下方鹅足，还是后内侧肌腱附近？",
+      "after": "膝内侧最痛在关节缝附近、膝下内侧，还是偏后方？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-MEDIAL-1",
+      "field": "Optional_Probe",
+      "before": null,
+      "after": "范围是一点还是沿一段？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-MEDIAL-1",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-MEDIAL-3",
+      "field": "Core_Prompt",
+      "before": "有没有扭转、撞击、突然肿胀、真正卡住或明显失稳？",
+      "after": "这次是否在转身、扭膝或受到侧向撞击后开始？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-MEDIAL-3",
+      "field": "Optional_Probe",
+      "before": null,
+      "after": "何时开始肿？是否真正卡住无法伸屈，或反复有失控打软的感觉？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-MEDIAL-3",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-LATERAL-1",
+      "field": "Core_Prompt",
+      "before": "疼在外侧关节线、腓骨头还是外侧肌腱附近？",
+      "after": "膝外侧疼在关节缝、稍上方，还是膝下外侧骨头突起附近？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-LATERAL-1",
+      "field": "Optional_Probe",
+      "before": null,
+      "after": "是否延伸到小腿或足背？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-LATERAL-1",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-LATERAL-3",
+      "field": "Core_Prompt",
+      "before": "有没有扭转、撞击、突然肿胀、真正卡住或明显失稳？",
+      "after": "有没有扭转、侧向撞击，或突然踩空的受伤经过？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-LATERAL-3",
+      "field": "Optional_Probe",
+      "before": null,
+      "after": "有没有肿胀、真正卡住、失控打软，或足背麻木、抬脚无力？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-LATERAL-3",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-POST-1",
+      "field": "Core_Prompt",
+      "before": "疼在腘窝中央、后内侧肌腱还是后外侧肌腹？",
+      "after": "膝后是正中间、内侧还是外侧疼？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-POST-1",
+      "field": "Optional_Probe",
+      "before": null,
+      "after": "有没有摸到包块？是否向小腿延伸？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-POST-1",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-POST-3",
+      "field": "Core_Prompt",
+      "before": "有没有扭转、撞击、突然肿胀、真正卡住或明显失稳？",
+      "after": "有没有突然拉扯、扭伤、膝后包块或小腿肿胀？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-POST-3",
+      "field": "Optional_Probe",
+      "before": null,
+      "after": "是否伴发热、变色？膝盖是否真正卡住？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-POST-3",
+      "field": "Assessment_Help",
+      "before": "可补膝后稳定结构、关节内反应及腘窝局部评估。",
+      "after": "结合膝后包块、关节与肌腱检查；新发单侧小腿明显肿热应先医学评估，不以一次牵拉反应排除血管问题。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-POST-3",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-DIFFUSE-3",
+      "field": "Core_Prompt",
+      "before": "有没有扭转、撞击、突然肿胀、真正卡住或明显失稳？",
+      "after": "有没有明显外伤，或没有外伤也突然肿、热？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-DIFFUSE-3",
+      "field": "Optional_Probe",
+      "before": null,
+      "after": "是整圈胀、反复积液，还是伸屈确实受阻？有没有发热或其他关节同时不适？"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-DIFFUSE-3",
+      "field": "Assessment_Help",
+      "before": "可补关节积液、完整性和稳定性评估方向。",
+      "after": "结合关节积液、活动受限与全身表现；急性红肿热伴发热、明显负重困难等应先医学评估。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-KNEE-DIFFUSE-3",
+      "field": "Internal_Note",
+      "before": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。",
+      "after": "产品编辑按本问题及区域解剖整理用途，教材支持问诊与检查框架，不是教材原文或经验证的分诊规则。仅展示问诊思路，不录入回答，不自动确定组织、诊断或训练。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-PAIN-QUALITY",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Guide_ID": "QG-PAIN-QUALITY",
+        "Topic": "疼痛性质与分布",
+        "Core_Prompt": "这种不舒服是什么感觉？请先用自己的话描述。",
+        "Optional_Probe": "描述困难时，可询问酸胀、钝痛、针刺、烧灼、电击、拉扯或卡压等；是否伴麻木、轻碰痛或向其他位置延伸？",
+        "Question_Purpose": "了解体验、范围及伴随感觉，减少仅凭疼痛位置推断组织的偏差。",
+        "Information_Gained": "疼痛性质、是否混合出现、放射范围及感觉变化。",
+        "Assessment_Help": "结合受力反应选择局部检查；麻、电击或烧灼伴合理分布时补神经筛查。描述本身不能确定神经、肌腱或关节病变。",
+        "Scope": "GENERAL",
+        "Module_Codes": "KNEE|LOWER_LEG|ANKLE_FOOT|THIGH",
+        "Region_IDs": null,
+        "Area_IDs": null,
+        "Display_Order": 1.5,
+        "Input_Mode": "Display_Only",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "https://www.iasp-pain.org/resources/fact-sheets/identifying-neuropathic-pain-in-the-clinic-a-guide-for-clinicians/",
+        "Internal_Note": "2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。",
+        "Replaces_Guide_ID": null
+      }
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-IRRITABILITY",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Guide_ID": "QG-IRRITABILITY",
+        "Topic": "症状多久恢复",
+        "Core_Prompt": "最容易不舒服的活动，大概做到什么程度开始？停下来后多久恢复？",
+        "Optional_Probe": "当晚或第二天是否比原来更不舒服？有没有休息或睡觉时也痛？可请患者描述能接受的活动范围。",
+        "Question_Purpose": "了解症状敏感程度和恢复过程，决定本次评估的起始负荷。",
+        "Information_Gained": "诱发所需活动量、缓解时间、延迟反应及静息表现。",
+        "Assessment_Help": "从可耐受、易停止的任务开始，控制重复次数并观察恢复；持续加重或出现异常伴随表现时先调整评估方向。",
+        "Scope": "GENERAL",
+        "Module_Codes": "KNEE|LOWER_LEG|ANKLE_FOOT|THIGH",
+        "Region_IDs": null,
+        "Area_IDs": null,
+        "Display_Order": 2.5,
+        "Input_Mode": "Display_Only",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "https://www.nice.org.uk/guidance/ng193/chapter/recommendations",
+        "Internal_Note": "2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。",
+        "Replaces_Guide_ID": null
+      }
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-SART-1",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Guide_ID": "QG-SART-1",
+        "Topic": "斜行不适的位置",
+        "Core_Prompt": "不适在大腿前内侧哪一段？是否一路延伸到膝下内侧？",
+        "Optional_Probe": "能否指出最明显的一处？",
+        "Question_Purpose": "分清斜行范围与局部最明显点。",
+        "Information_Gained": "近端、肌腹或远端分布。",
+        "Assessment_Help": "分别查看缝匠肌邻近、内收肌群及鹅足；不能仅凭走向锁定一块肌肉。",
+        "Scope": "LOCATION",
+        "Module_Codes": "THIGH",
+        "Region_IDs": null,
+        "Area_IDs": "LOC-THIGH-SART",
+        "Display_Order": 20,
+        "Input_Mode": "Display_Only",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-THIGH-R-001-1\nbook://magee-local#pdf=751,756&print=742,747",
+        "Internal_Note": "2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。",
+        "Replaces_Guide_ID": "QG-THIGH-R-001-1|QG-THIGH-R-003-1"
+      }
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-SART-2",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Guide_ID": "QG-SART-2",
+        "Topic": "哪些动作会不舒服",
+        "Core_Prompt": "抬腿、盘腿、弯膝或上下台阶时，有什么区别？",
+        "Optional_Probe": "夹腿与伸直膝盖时也会出现吗？",
+        "Question_Purpose": "比较跨髋膝动作与邻近肌群受力。",
+        "Information_Gained": "诱发动作与症状位置是否一致。",
+        "Assessment_Help": "对照髋膝组合活动、膝屈与邻近肌群输出。",
+        "Scope": "LOCATION",
+        "Module_Codes": "THIGH",
+        "Region_IDs": null,
+        "Area_IDs": "LOC-THIGH-SART",
+        "Display_Order": 21,
+        "Input_Mode": "Display_Only",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-THIGH-R-001-2\nbook://magee-local#pdf=751,756&print=742,747",
+        "Internal_Note": "2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。",
+        "Replaces_Guide_ID": "QG-THIGH-R-001-2|QG-THIGH-R-003-2|QG-PROVOKE"
+      }
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-SART-3",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Guide_ID": "QG-SART-3",
+        "Topic": "开始经过与伴随表现",
+        "Core_Prompt": "是某次跨步、扭转后突然出现，还是逐渐不适？",
+        "Optional_Probe": "有无瘀斑、肿胀、麻木或取腱手术史？",
+        "Question_Purpose": "补充损伤、手术及感觉背景。",
+        "Information_Gained": "起病机制、手术范围、感觉变化。",
+        "Assessment_Help": "急性明显损伤先排完整性；感觉异常按分布补神经检查。",
+        "Scope": "LOCATION",
+        "Module_Codes": "THIGH",
+        "Region_IDs": null,
+        "Area_IDs": "LOC-THIGH-SART",
+        "Display_Order": 22,
+        "Input_Mode": "Display_Only",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-THIGH-R-001-3\nbook://magee-local#pdf=751,756&print=742,747",
+        "Internal_Note": "2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。",
+        "Replaces_Guide_ID": "QG-THIGH-R-001-3|QG-THIGH-R-003-3"
+      }
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-PES-1",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Guide_ID": "QG-PES-1",
+        "Topic": "膝下内侧的位置",
+        "Core_Prompt": "最痛的是膝内侧关节缝，还是往下几厘米的地方？",
+        "Optional_Probe": "是表面按压不适、深部疼，还是一片烧灼或麻木？",
+        "Question_Purpose": "区分关节线与鹅足附着邻近。",
+        "Information_Gained": "具体位置、深浅感及伴随感觉。",
+        "Assessment_Help": "对照鹅足肌腱与滑囊邻近、关节线及必要的感觉检查；位置不能单独确认滑囊炎。",
+        "Scope": "LOCATION",
+        "Module_Codes": "KNEE",
+        "Region_IDs": null,
+        "Area_IDs": "LOC-KNEE-R-008",
+        "Display_Order": 20,
+        "Input_Mode": "Display_Only",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "https://www.orthoinfo.org/diseases--conditions/pes-anserine-knee-tendon-bursitis",
+        "Internal_Note": "2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。",
+        "Replaces_Guide_ID": "QG-KNEE-MEDIAL-1"
+      }
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-PES-2",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Guide_ID": "QG-PES-2",
+        "Topic": "上下台阶与屈膝反应",
+        "Core_Prompt": "上下台阶、走久、弯膝或从椅子上起身时，哪种更明显？",
+        "Optional_Probe": "直接压到膝下内侧时，是否和活动时一样？",
+        "Question_Purpose": "比较局部接触与肌腱受力、负重反应。",
+        "Information_Gained": "诱发任务、接触敏感和疼痛一致性。",
+        "Assessment_Help": "结合鹅足局部检查、膝屈肌输出与步行或台阶观察。",
+        "Scope": "LOCATION",
+        "Module_Codes": "KNEE",
+        "Region_IDs": null,
+        "Area_IDs": "LOC-KNEE-R-008",
+        "Display_Order": 21,
+        "Input_Mode": "Display_Only",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "https://www.orthoinfo.org/diseases--conditions/pes-anserine-knee-tendon-bursitis",
+        "Internal_Note": "2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。",
+        "Replaces_Guide_ID": "QG-KNEE-MEDIAL-2|QG-PROVOKE"
+      }
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-PES-3",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Guide_ID": "QG-PES-3",
+        "Topic": "活动变化和受伤经过",
+        "Core_Prompt": "最近走跑或台阶量增加了吗？有没有扭伤或撞击？",
+        "Optional_Probe": "有无鹅足取腱手术史、局部肿热、卡住或打软？",
+        "Question_Purpose": "避免把此处不适一律归于鹅足肌肉。",
+        "Information_Gained": "负荷、手术及关节伴随表现。",
+        "Assessment_Help": "关节卡锁或不稳另查关节结构；局部明显红肿热先判断是否需医学评估。",
+        "Scope": "LOCATION",
+        "Module_Codes": "KNEE",
+        "Region_IDs": null,
+        "Area_IDs": "LOC-KNEE-R-008",
+        "Display_Order": 22,
+        "Input_Mode": "Display_Only",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "https://www.orthoinfo.org/diseases--conditions/pes-anserine-knee-tendon-bursitis",
+        "Internal_Note": "2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。",
+        "Replaces_Guide_ID": "QG-KNEE-MEDIAL-3"
+      }
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-PATELLAR-1",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Guide_ID": "QG-PATELLAR-1",
+        "Topic": "髌腱附近的位置",
+        "Core_Prompt": "痛在髌骨下缘、下面那条腱，还是更深的膝前方？",
+        "Optional_Probe": "能否指出一个固定点？跪地与发力时位置相同吗？",
+        "Question_Purpose": "分清髌腱、邻近脂肪垫和接触位置。",
+        "Information_Gained": "疼痛最明显点及位置的一致性。",
+        "Assessment_Help": "与髌腱局部、伸膝输出及髌下邻近组织对照，不凭压痛确诊。",
+        "Scope": "LOCATION",
+        "Module_Codes": "KNEE",
+        "Region_IDs": null,
+        "Area_IDs": "LOC-KNEE-R-005|LOC-KNEE-PATELLAR-TENDON",
+        "Display_Order": 20,
+        "Input_Mode": "Display_Only",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-KNEE-FRONT-1\nbook://magee-local#pdf=739&print=730",
+        "Internal_Note": "2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。",
+        "Replaces_Guide_ID": "QG-KNEE-FRONT-1"
+      }
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-PATELLAR-2",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Guide_ID": "QG-PATELLAR-2",
+        "Topic": "跳跃与伸膝负荷",
+        "Core_Prompt": "跳跃、落地、加速、下台阶时，什么时候疼？",
+        "Optional_Probe": "热身后、活动后和第二天有什么变化？近期训练有没有增加？",
+        "Question_Purpose": "明确伸膝负荷及恢复反应。",
+        "Information_Gained": "动作阶段、负荷变化和延迟反应。",
+        "Assessment_Help": "从可耐受伸膝或低负荷动作开始，再决定是否需要更高强度任务。",
+        "Scope": "LOCATION",
+        "Module_Codes": "KNEE",
+        "Region_IDs": null,
+        "Area_IDs": "LOC-KNEE-R-005|LOC-KNEE-PATELLAR-TENDON",
+        "Display_Order": 21,
+        "Input_Mode": "Display_Only",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-KNEE-FRONT-2\nbook://magee-local#pdf=739&print=730",
+        "Internal_Note": "2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。",
+        "Replaces_Guide_ID": "QG-KNEE-FRONT-2|QG-PROVOKE"
+      }
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-ITB-1",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Guide_ID": "QG-ITB-1",
+        "Topic": "膝外侧最明显点",
+        "Core_Prompt": "最痛在膝外侧稍上方，还是关节缝或膝下的骨头突起？",
+        "Optional_Probe": "是固定一点还是沿大腿外侧延伸？",
+        "Question_Purpose": "分清髂胫束远端邻近与其他外侧组织。",
+        "Information_Gained": "位置和范围。",
+        "Assessment_Help": "分别查看髂胫束邻近、外侧关节线及腓骨头；不凭位置判断摩擦。",
+        "Scope": "LOCATION",
+        "Module_Codes": "KNEE",
+        "Region_IDs": null,
+        "Area_IDs": "LOC-KNEE-R-012",
+        "Display_Order": 20,
+        "Input_Mode": "Display_Only",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-KNEE-LATERAL-1\nbook://magee-local#pdf=739&print=730",
+        "Internal_Note": "2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。",
+        "Replaces_Guide_ID": "QG-KNEE-LATERAL-1"
+      }
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-ITB-2",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Guide_ID": "QG-ITB-2",
+        "Topic": "跑步与重复屈伸",
+        "Core_Prompt": "跑步或骑车到什么时间、距离后出现？下坡有不同吗？",
+        "Optional_Probe": "停下后多久缓解？近期跑量、坡度或骑车设置是否改变？",
+        "Question_Purpose": "明确重复屈伸和负荷背景。",
+        "Information_Gained": "出现阈值、恢复时间及活动变化。",
+        "Assessment_Help": "选择可耐受的重复任务观察髋膝控制和症状变化；特殊诱发试验仅作补充。",
+        "Scope": "LOCATION",
+        "Module_Codes": "KNEE",
+        "Region_IDs": null,
+        "Area_IDs": "LOC-KNEE-R-012",
+        "Display_Order": 21,
+        "Input_Mode": "Display_Only",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-KNEE-LATERAL-2\nbook://magee-local#pdf=739&print=730",
+        "Internal_Note": "2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。",
+        "Replaces_Guide_ID": "QG-KNEE-LATERAL-2|QG-PROVOKE"
+      }
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-FIBHEAD-1",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Guide_ID": "QG-FIBHEAD-1",
+        "Topic": "腓骨头周围的位置",
+        "Core_Prompt": "膝下外侧突起附近痛，还是沿小腿、足背有麻或电击感？",
+        "Optional_Probe": "是否跷腿、蹲久或护具压到后出现？",
+        "Question_Purpose": "区分局部接触与感觉分布。",
+        "Information_Gained": "骨突、肌腱邻近或远端感觉表现。",
+        "Assessment_Help": "结合股二头肌腱、近端胫腓关节及腓总神经筛查。",
+        "Scope": "LOCATION",
+        "Module_Codes": "KNEE",
+        "Region_IDs": null,
+        "Area_IDs": "LOC-KNEE-R-011",
+        "Display_Order": 20,
+        "Input_Mode": "Display_Only",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-KNEE-LATERAL-1\nbook://magee-local#pdf=739&print=730",
+        "Internal_Note": "2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。",
+        "Replaces_Guide_ID": "QG-KNEE-LATERAL-1"
+      }
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-FIBHEAD-2",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Guide_ID": "QG-FIBHEAD-2",
+        "Topic": "动作与力量变化",
+        "Core_Prompt": "弯膝发力、转身或蹲下时会不会疼？",
+        "Optional_Probe": "有没有新出现抬脚、伸趾或向外转脚无力？",
+        "Question_Purpose": "了解局部受力与远端运动变化。",
+        "Information_Gained": "诱发动作及是否有新发无力。",
+        "Assessment_Help": "新发明显远端无力应及时医学评估；无此表现时再对照局部检查。",
+        "Scope": "LOCATION",
+        "Module_Codes": "KNEE",
+        "Region_IDs": null,
+        "Area_IDs": "LOC-KNEE-R-011",
+        "Display_Order": 21,
+        "Input_Mode": "Display_Only",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-KNEE-LATERAL-2\nbook://magee-local#pdf=739&print=730",
+        "Internal_Note": "2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。",
+        "Replaces_Guide_ID": "QG-KNEE-LATERAL-2|QG-PROVOKE"
+      }
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-TOE-H-1",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Guide_ID": "QG-TOE-H-1",
+        "Topic": "足趾不适的位置",
+        "Core_Prompt": "大脚趾最痛在根部、趾间关节、趾尖还是趾甲旁？",
+        "Optional_Probe": "有无鞋挤压、皮肤破损或麻刺？",
+        "Question_Purpose": "防止把所有足趾问题都归入跖趾关节。",
+        "Information_Gained": "具体趾与关节、皮肤或趾间分布。",
+        "Assessment_Help": "按部位选择关节活动、屈伸肌腱和感觉检查；皮肤及甲周问题需相应专业处理。",
+        "Scope": "LOCATION",
+        "Module_Codes": "ANKLE_FOOT",
+        "Region_IDs": null,
+        "Area_IDs": "LOC-TOE-HALLUX",
+        "Display_Order": 20,
+        "Input_Mode": "Display_Only",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-AF-R-012-1\nbook://magee-local#pdf=857&print=848",
+        "Internal_Note": "2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。",
+        "Replaces_Guide_ID": "QG-AF-R-012-1"
+      }
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-TOE-H-2",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Guide_ID": "QG-TOE-H-2",
+        "Topic": "鞋内与蹬地反应",
+        "Core_Prompt": "穿鞋、赤脚、弯伸脚趾和走路蹬地时有什么区别？",
+        "Optional_Probe": "换宽一些的鞋或减少走路后是否改变？",
+        "Question_Purpose": "比较挤压、运动及负重。",
+        "Information_Gained": "接触与动作相关性。",
+        "Assessment_Help": "核对鞋内空间、足趾活动及支撑，避免只查看前足跖骨头。",
+        "Scope": "LOCATION",
+        "Module_Codes": "ANKLE_FOOT",
+        "Region_IDs": null,
+        "Area_IDs": "LOC-TOE-HALLUX",
+        "Display_Order": 21,
+        "Input_Mode": "Display_Only",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-AF-R-012-2\nbook://magee-local#pdf=857&print=848",
+        "Internal_Note": "2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。",
+        "Replaces_Guide_ID": "QG-AF-R-012-2|QG-PROVOKE"
+      }
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-TOE-H-3",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Guide_ID": "QG-TOE-H-3",
+        "Topic": "受伤与外形变化",
+        "Core_Prompt": "有没有踢撞、被踩或脚趾被掰到？",
+        "Optional_Probe": "是否出现变形、明显肿胀、瘀斑、伤口或突然红热？",
+        "Question_Purpose": "了解急性损伤及局部异常。",
+        "Information_Gained": "受伤机制与结构、皮肤变化。",
+        "Assessment_Help": "明显变形、开放伤或急性红肿热优先医学评估，不强行活动矫正。",
+        "Scope": "LOCATION",
+        "Module_Codes": "ANKLE_FOOT",
+        "Region_IDs": null,
+        "Area_IDs": "LOC-TOE-HALLUX",
+        "Display_Order": 22,
+        "Input_Mode": "Display_Only",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-AF-R-012-3\nbook://magee-local#pdf=857&print=848",
+        "Internal_Note": "2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。",
+        "Replaces_Guide_ID": "QG-AF-R-012-3"
+      }
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-TOE-L-1",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Guide_ID": "QG-TOE-L-1",
+        "Topic": "足趾不适的位置",
+        "Core_Prompt": "哪根脚趾、哪个位置最不舒服？根部、关节、趾尖还是趾间？",
+        "Optional_Probe": "有无鞋挤压、皮肤破损或麻刺？",
+        "Question_Purpose": "防止把所有足趾问题都归入跖趾关节。",
+        "Information_Gained": "具体趾与关节、皮肤或趾间分布。",
+        "Assessment_Help": "按部位选择关节活动、屈伸肌腱和感觉检查；皮肤及甲周问题需相应专业处理。",
+        "Scope": "LOCATION",
+        "Module_Codes": "ANKLE_FOOT",
+        "Region_IDs": null,
+        "Area_IDs": "LOC-TOE-LESSER",
+        "Display_Order": 20,
+        "Input_Mode": "Display_Only",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-AF-R-011-1\nbook://magee-local#pdf=857&print=848",
+        "Internal_Note": "2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。",
+        "Replaces_Guide_ID": "QG-AF-R-011-1"
+      }
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-TOE-L-2",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Guide_ID": "QG-TOE-L-2",
+        "Topic": "鞋内与蹬地反应",
+        "Core_Prompt": "穿鞋、赤脚、弯伸脚趾和走路蹬地时有什么区别？",
+        "Optional_Probe": "换宽一些的鞋或减少走路后是否改变？",
+        "Question_Purpose": "比较挤压、运动及负重。",
+        "Information_Gained": "接触与动作相关性。",
+        "Assessment_Help": "核对鞋内空间、足趾活动及支撑，避免只查看前足跖骨头。",
+        "Scope": "LOCATION",
+        "Module_Codes": "ANKLE_FOOT",
+        "Region_IDs": null,
+        "Area_IDs": "LOC-TOE-LESSER",
+        "Display_Order": 21,
+        "Input_Mode": "Display_Only",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-AF-R-011-2\nbook://magee-local#pdf=857&print=848",
+        "Internal_Note": "2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。",
+        "Replaces_Guide_ID": "QG-AF-R-011-2|QG-PROVOKE"
+      }
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-TOE-L-3",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Guide_ID": "QG-TOE-L-3",
+        "Topic": "受伤与外形变化",
+        "Core_Prompt": "有没有踢撞、被踩或脚趾被掰到？",
+        "Optional_Probe": "是否出现变形、明显肿胀、瘀斑、伤口或突然红热？",
+        "Question_Purpose": "了解急性损伤及局部异常。",
+        "Information_Gained": "受伤机制与结构、皮肤变化。",
+        "Assessment_Help": "明显变形、开放伤或急性红肿热优先医学评估，不强行活动矫正。",
+        "Scope": "LOCATION",
+        "Module_Codes": "ANKLE_FOOT",
+        "Region_IDs": null,
+        "Area_IDs": "LOC-TOE-LESSER",
+        "Display_Order": 22,
+        "Input_Mode": "Display_Only",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "baseline://clinical-extension/ConsultationGuide/QG-AF-R-011-3\nbook://magee-local#pdf=857&print=848",
+        "Internal_Note": "2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。",
+        "Replaces_Guide_ID": "QG-AF-R-011-3"
+      }
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-LM-LOCATION",
+      "field": "Replaces_Guide_ID",
+      "before": null,
+      "after": "QG-LM-LOCATION-REGION|QG-LM-ACTIVITY-REGION|QG-LM-CHANGE-REGION|QG-LM-ASSOCIATED-REGION|QG-LPM-LOCATION-REGION|QG-LPM-ACTIVITY-REGION|QG-LPM-CHANGE-REGION|QG-LPM-ASSOCIATED-REGION"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-LPM-LOCATION",
+      "field": "Replaces_Guide_ID",
+      "before": null,
+      "after": "QG-LM-LOCATION-REGION|QG-LM-ACTIVITY-REGION|QG-LM-CHANGE-REGION|QG-LM-ASSOCIATED-REGION|QG-LPM-LOCATION-REGION|QG-LPM-ACTIVITY-REGION|QG-LPM-CHANGE-REGION|QG-LPM-ASSOCIATED-REGION"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-LPM-LOCATION",
+      "field": "Internal_Note",
+      "before": "问诊展示稿，无答案录入或自动选择。",
+      "after": "问诊展示稿，无答案录入或自动选择。\n2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。"
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-LM-LOCATION-REGION",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Guide_ID": "QG-LM-LOCATION-REGION",
+        "Topic": "骨缘还是后侧软组织",
+        "Core_Prompt": "小腿内侧最不舒服的位置在哪里？靠近硬的骨边，还是更后面的软组织？",
+        "Optional_Probe": "是一个点还是沿着一段？偏上段、中段还是下段？",
+        "Question_Purpose": "了解骨缘和邻近软组织的不适分布。",
+        "Information_Gained": "疼痛范围、局灶或分段分布，以及与骨缘的关系。",
+        "Assessment_Help": "分别查看胫骨内侧缘压痛和邻近肌群，局灶骨性压痛可补充骨应力相关评估。",
+        "Scope": "REGION",
+        "Module_Codes": "LOWER_LEG",
+        "Region_IDs": "LL-R-003",
+        "Display_Order": 1,
+        "Input_Mode": "Display_Only",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "本批部位问诊为编辑稿，待临床审核；基础检查来自主库 Lower Leg Remaining L3 Review v2.6、Core Assessment Protocol Refinement v3.2。参考 https://www.orthoinfo.org/diseases--conditions/shin-splints/ 及 https://www.orthoinfo.org/diseases--conditions/posterior-tibial-tendon-dysfunction/ ，只支持问诊和评估背景，不支持由位置诊断或自动处理。",
+        "Internal_Note": "2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。",
+        "Area_IDs": null,
+        "Replaces_Guide_ID": null
+      }
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-LM-ACTIVITY-REGION",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Guide_ID": "QG-LM-ACTIVITY-REGION",
+        "Topic": "负重和跑跳时的表现",
+        "Core_Prompt": "走路、跑步或跳跃时会不会出现不适？",
+        "Optional_Probe": "开始活动就出现，活动一段时间后出现，还是活动后仍持续？休息时如何？",
+        "Question_Purpose": "了解骨缘不适与重复负重及活动时机的关系。",
+        "Information_Gained": "诱发活动、出现时机、活动后和休息时的变化。",
+        "Assessment_Help": "补充骨缘局部检查和活动耐受背景；不根据一种活动直接归因。",
+        "Scope": "REGION",
+        "Module_Codes": "LOWER_LEG",
+        "Region_IDs": "LL-R-003",
+        "Display_Order": 2,
+        "Input_Mode": "Display_Only",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "本批部位问诊为编辑稿，待临床审核；基础检查来自主库 Lower Leg Remaining L3 Review v2.6、Core Assessment Protocol Refinement v3.2。参考 https://www.orthoinfo.org/diseases--conditions/shin-splints/ 及 https://www.orthoinfo.org/diseases--conditions/posterior-tibial-tendon-dysfunction/ ，只支持问诊和评估背景，不支持由位置诊断或自动处理。",
+        "Internal_Note": "2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。",
+        "Area_IDs": null,
+        "Replaces_Guide_ID": "QG-PROVOKE"
+      }
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-LM-CHANGE-REGION",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Guide_ID": "QG-LM-CHANGE-REGION",
+        "Topic": "近期训练变化",
+        "Core_Prompt": "近期跑量、速度、坡度、场地或鞋子有没有变化？",
+        "Optional_Probe": "是否增加连续训练天数，或在休息后重新开始训练？",
+        "Question_Purpose": "了解近期负重活动的变化。",
+        "Information_Gained": "训练强度、频率、时长、场地及鞋子的变化。",
+        "Assessment_Help": "为负重耐受、踝背屈及相关肌力评估提供活动背景。",
+        "Scope": "REGION",
+        "Module_Codes": "LOWER_LEG",
+        "Region_IDs": "LL-R-003",
+        "Display_Order": 3,
+        "Input_Mode": "Display_Only",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "本批部位问诊为编辑稿，待临床审核；基础检查来自主库 Lower Leg Remaining L3 Review v2.6、Core Assessment Protocol Refinement v3.2。参考 https://www.orthoinfo.org/diseases--conditions/shin-splints/ 及 https://www.orthoinfo.org/diseases--conditions/posterior-tibial-tendon-dysfunction/ ，只支持问诊和评估背景，不支持由位置诊断或自动处理。",
+        "Internal_Note": "2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。",
+        "Area_IDs": null,
+        "Replaces_Guide_ID": null
+      }
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-LM-ASSOCIATED-REGION",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Guide_ID": "QG-LM-ASSOCIATED-REGION",
+        "Topic": "其他伴随表现",
+        "Core_Prompt": "有没有局部肿胀、麻木、灼热或明显无力？",
+        "Optional_Probe": "是否每次到相似时间或距离就出现？停止活动后多久缓解？",
+        "Question_Purpose": "了解骨缘疼痛之外的感觉、力量及运动后变化。",
+        "Information_Gained": "感觉分布、伴随肿胀和无力，以及可重复的出现时机。",
+        "Assessment_Help": "为神经筛查或运动诱发症状的进一步评估提供方向。",
+        "Scope": "REGION",
+        "Module_Codes": "LOWER_LEG",
+        "Region_IDs": "LL-R-003",
+        "Display_Order": 4,
+        "Input_Mode": "Display_Only",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "本批部位问诊为编辑稿，待临床审核；基础检查来自主库 Lower Leg Remaining L3 Review v2.6、Core Assessment Protocol Refinement v3.2。参考 https://www.orthoinfo.org/diseases--conditions/shin-splints/ 及 https://www.orthoinfo.org/diseases--conditions/posterior-tibial-tendon-dysfunction/ ，只支持问诊和评估背景，不支持由位置诊断或自动处理。",
+        "Internal_Note": "2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。",
+        "Area_IDs": null,
+        "Replaces_Guide_ID": null
+      }
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-LPM-LOCATION-REGION",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Guide_ID": "QG-LPM-LOCATION-REGION",
+        "Topic": "不适的具体范围",
+        "Core_Prompt": "不适在小腿内侧哪一段？有没有延伸到内踝、足弓或足趾？",
+        "Optional_Probe": "更靠近骨缘，还是后侧肌腹？浅表按压和活动时的位置是否相同？",
+        "Question_Purpose": "了解小腿后内侧与内踝、足部之间的不适分布。",
+        "Information_Gained": "高度、骨缘或软组织位置，以及向远端延伸的范围。",
+        "Assessment_Help": "为腓肠肌内侧头、比目鱼肌、胫骨后肌及长屈肌群的检查提供定位背景。",
+        "Scope": "REGION",
+        "Module_Codes": "LOWER_LEG",
+        "Region_IDs": "LL-R-007",
+        "Display_Order": 1,
+        "Input_Mode": "Display_Only",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "本批部位问诊为编辑稿，待临床审核；基础检查来自主库 Lower Leg Remaining L3 Review v2.6、Core Assessment Protocol Refinement v3.2。参考 https://www.orthoinfo.org/diseases--conditions/shin-splints/ 及 https://www.orthoinfo.org/diseases--conditions/posterior-tibial-tendon-dysfunction/ ，只支持问诊和评估背景，不支持由位置诊断或自动处理。",
+        "Internal_Note": "2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。",
+        "Area_IDs": null,
+        "Replaces_Guide_ID": null
+      }
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-LPM-ACTIVITY-REGION",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Guide_ID": "QG-LPM-ACTIVITY-REGION",
+        "Topic": "哪些动作不舒服",
+        "Core_Prompt": "走路蹬地、提踵、脚向内转或屈脚趾时，哪些动作会不舒服？",
+        "Optional_Probe": "拉长时和发力时是否不同？膝盖伸直或弯曲时有什么变化？",
+        "Question_Purpose": "了解不适与跖屈、内翻和屈趾发力，以及小腿后侧拉长的关系。",
+        "Information_Gained": "诱发动作、拉长与发力差异，以及膝位变化。",
+        "Assessment_Help": "可分别查看伸膝位和屈膝位背屈、提踵、内翻抗阻及屈趾表现。",
+        "Scope": "REGION",
+        "Module_Codes": "LOWER_LEG",
+        "Region_IDs": "LL-R-007",
+        "Display_Order": 2,
+        "Input_Mode": "Display_Only",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "本批部位问诊为编辑稿，待临床审核；基础检查来自主库 Lower Leg Remaining L3 Review v2.6、Core Assessment Protocol Refinement v3.2。参考 https://www.orthoinfo.org/diseases--conditions/shin-splints/ 及 https://www.orthoinfo.org/diseases--conditions/posterior-tibial-tendon-dysfunction/ ，只支持问诊和评估背景，不支持由位置诊断或自动处理。",
+        "Internal_Note": "2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。",
+        "Area_IDs": null,
+        "Replaces_Guide_ID": "QG-PROVOKE"
+      }
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-LPM-CHANGE-REGION",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Guide_ID": "QG-LPM-CHANGE-REGION",
+        "Topic": "近期活动变化",
+        "Core_Prompt": "近期走路、跑跳、上坡或提踵训练的量有没有变化？",
+        "Optional_Probe": "是否有一次明显牵拉、蹬地，或连续多天高强度活动？",
+        "Question_Purpose": "了解后侧肌群拉长和发力的活动背景。",
+        "Information_Gained": "突然出现还是逐渐出现，以及活动强度、频率与时长变化。",
+        "Assessment_Help": "为局部组织状态、跖屈和内翻力量及活动表现的查看提供背景。",
+        "Scope": "REGION",
+        "Module_Codes": "LOWER_LEG",
+        "Region_IDs": "LL-R-007",
+        "Display_Order": 3,
+        "Input_Mode": "Display_Only",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "本批部位问诊为编辑稿，待临床审核；基础检查来自主库 Lower Leg Remaining L3 Review v2.6、Core Assessment Protocol Refinement v3.2。参考 https://www.orthoinfo.org/diseases--conditions/shin-splints/ 及 https://www.orthoinfo.org/diseases--conditions/posterior-tibial-tendon-dysfunction/ ，只支持问诊和评估背景，不支持由位置诊断或自动处理。",
+        "Internal_Note": "2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。",
+        "Area_IDs": null,
+        "Replaces_Guide_ID": null
+      }
+    },
+    {
+      "sheet": "ConsultationGuide",
+      "id": "QG-LPM-ASSOCIATED-REGION",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Guide_ID": "QG-LPM-ASSOCIATED-REGION",
+        "Topic": "感觉和肿胀变化",
+        "Core_Prompt": "有没有麻木、向足部放射的不适，或明显肿胀？",
+        "Optional_Probe": "感觉在哪些位置？肿胀是否突然出现或加重？",
+        "Question_Purpose": "了解肌肉拉长、发力以外的伴随表现。",
+        "Information_Gained": "感觉分布、肿胀范围与变化经过。",
+        "Assessment_Help": "感觉异常需结合分布补充神经筛查；新发单侧明显肿胀、发热或变色，应先安排医学评估，不以肌肉紧张解释。",
+        "Scope": "REGION",
+        "Module_Codes": "LOWER_LEG",
+        "Region_IDs": "LL-R-007",
+        "Display_Order": 4,
+        "Input_Mode": "Display_Only",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "本批部位问诊为编辑稿，待临床审核；基础检查来自主库 Lower Leg Remaining L3 Review v2.6、Core Assessment Protocol Refinement v3.2。参考 https://www.orthoinfo.org/diseases--conditions/shin-splints/ 及 https://www.orthoinfo.org/diseases--conditions/posterior-tibial-tendon-dysfunction/ ，只支持问诊和评估背景，不支持由位置诊断或自动处理。",
+        "Internal_Note": "2026-10-03：完成教学文案与关联的辅助审核；仍需专业人员结合实际检查判断。问诊仅供教学，不收集答案、不自动归因。",
+        "Area_IDs": null,
+        "Replaces_Guide_ID": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-02",
+  "changes": [
+    {
+      "batch": 8,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-LL-GASTROC-MEDIAL",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Area_ID": "LOC-LL-GASTROC-MEDIAL",
+        "Display_Name": "小腿后侧／腓肠肌内侧头邻近",
+        "Region_IDs": "LL-R-005",
+        "Module_Codes": "LOWER_LEG",
+        "Related_Tissues": "表浅肌群：腓肠肌内侧头\n深层邻近：比目鱼肌\n近端邻近：膝后内侧肌腱；膝后关节囊\n远端邻近：腓肠肌腱膜；跟腱",
+        "Primary_Item_IDs": "CORE-MUS-GASTROC|LL-LT-005|CORE-ROM-ANK-DF|CORE-CAP-PF",
+        "Additional_Item_IDs": "CORE-MUS-SOLEUS|CORE-MUS-TP|CORE-MUS-FDL|CORE-MUS-PLANTARIS",
+        "Linked_Item_IDs": "LL-SPT-001|CORE-SPT-NEURO-DISTAL|LL-PATTERN-GAIT|LL-PATTERN-PUSH|LL-PATTERN-IMPACT",
+        "Assessment_Groups": "MUSCLE_STATE:邻近肌群|ROM:相关关节活动|CAPACITY:相关肌力|LOCAL:局部组织|SPECIAL_TEST:补充检查|FUNCTION:相关动作观察",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "BodyParts3D 4.0 原始模型具名组织及骨性标志；既有01_Region、02_ClinicalItem及评估/处理关联；book://magee-local，已核验膝部主动活动与抗阻章节（见reference_books_verified_v1.json）。本次只调整阅读入口和组织关联，不新增治疗方法。",
+        "Internal_Note": "区域是周围组织与评估参考的阅读入口。主要项目直接展示，补充项目按需展开。沿用既有检查与处理内容，不以模型选点确定疼痛组织。",
+        "Auto_Apply_To_Region": false
+      }
+    },
+    {
+      "batch": 8,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-LL-GASTROC-LATERAL",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Area_ID": "LOC-LL-GASTROC-LATERAL",
+        "Display_Name": "小腿后侧／腓肠肌外侧头邻近",
+        "Region_IDs": "LL-R-005",
+        "Module_Codes": "LOWER_LEG",
+        "Related_Tissues": "表浅肌群：腓肠肌外侧头\n深层邻近：比目鱼肌\n近端邻近：股二头肌腱；腓骨头\n远端邻近：腓肠肌腱膜；跟腱",
+        "Primary_Item_IDs": "CORE-MUS-GASTROC|LL-LT-005|CORE-ROM-ANK-DF|CORE-CAP-PF",
+        "Additional_Item_IDs": "CORE-MUS-SOLEUS|CORE-MUS-PL|CORE-MUS-PB|CORE-MUS-PLANTARIS",
+        "Linked_Item_IDs": "LL-SPT-001|CORE-SPT-NEURO-DISTAL|LL-PATTERN-GAIT|LL-PATTERN-PUSH|LL-PATTERN-IMPACT",
+        "Assessment_Groups": "MUSCLE_STATE:邻近肌群|ROM:相关关节活动|CAPACITY:相关肌力|LOCAL:局部组织|SPECIAL_TEST:补充检查|FUNCTION:相关动作观察",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "BodyParts3D 4.0 原始模型具名组织及骨性标志；既有01_Region、02_ClinicalItem及评估/处理关联；book://magee-local，已核验膝部主动活动与抗阻章节（见reference_books_verified_v1.json）。本次只调整阅读入口和组织关联，不新增治疗方法。",
+        "Internal_Note": "区域是周围组织与评估参考的阅读入口。主要项目直接展示，补充项目按需展开。沿用既有检查与处理内容，不以模型选点确定疼痛组织。",
+        "Auto_Apply_To_Region": false
+      }
+    },
+    {
+      "batch": 8,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-LL-POSTMEDIAL",
+      "field": "Primary_Item_IDs",
+      "before": "CORE-MUS-TP|CORE-MUS-FDL|CORE-MUS-GASTROC|CORE-MUS-SOLEUS|CORE-ROM-ANK-DF|CORE-ROM-ANK-EV|CORE-CAP-INV|CORE-CAP-PF|LL-LT-007",
+      "after": "CORE-MUS-TP|CORE-MUS-FDL|CORE-MUS-GASTROC|CORE-MUS-SOLEUS|CORE-ROM-ANK-DF|CORE-ROM-ANK-EV|CORE-CAP-INV|CORE-CAP-PF|LL-LT-007|CORE-MUS-FHL"
+    },
+    {
+      "batch": 8,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-LL-POSTMEDIAL",
+      "field": "Additional_Item_IDs",
+      "before": "CORE-MUS-FHL|CORE-CAP-HF|CORE-CAP-ARCH-TOE|LL-LT-005|LL-LT-003",
+      "after": "CORE-CAP-HF|CORE-CAP-ARCH-TOE|LL-LT-005|LL-LT-003"
+    },
+    {
+      "batch": 8,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-LL-POSTMEDIAL",
+      "field": "Source_Reference",
+      "before": "05_RegionClinicalMap/LL-R-007,LL-R-005,LL-R-006；BodyParts3D 4.0 atlas；本项目已索引的线下康复记录",
+      "after": "05_RegionClinicalMap/LL-R-007,LL-R-005,LL-R-006；BodyParts3D 4.0 atlas；本项目已索引的线下康复记录；本批将已有拇长屈肌检查由补充项移为直接阅读项。"
+    }
+  ]
+}

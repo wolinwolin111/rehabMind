@@ -1,0 +1,8 @@
+{
+  "batch": 1,
+  "edited_existing_fields": 25,
+  "new_location_records": 5,
+  "expected_fields_checked": 90,
+  "queries": 64,
+  "unplanned_changes": 0
+}

@@ -15,7 +15,7 @@
       {"target": "KNEE-R-005", "y": [0.433, 0.445], "angle": [-40, 40]},
       {"target": "KNEE-R-006", "y": [0.370, 0.433], "angle": [-22, 22], "relative_to": "tibial_front"},
       {"target": "KNEE-R-011", "y": [0.400, 0.445], "angle": [60, 135]},
-      {"target": "KNEE-R-008", "y": [0.405, 0.445], "angle": [-90, -40]},
+      {"target": "KNEE-R-008", "y": [0.360, 0.445], "angle": [-90, -20]},
       {"target": "KNEE-R-009", "y": [0.405, 0.445], "angle": [-145, -90]},
       {"target": "KNEE-R-013", "y": [0.425, 0.445], "angle": [145, 180]},
       {"target": "KNEE-R-013", "y": [0.425, 0.445], "angle": [-180, -145]},
@@ -65,7 +65,41 @@
       {"target": "THIGH-R-003", "angle": [-135, -45]}
     ]
   },
+  "thigh_muscle_patches": {
+    "section_step_m": 0.005,
+    "angle_step_degrees": 1,
+    "visible_references": ["rectus femoris", "vastus medialis", "vastus lateralis", "sartorius", "gracilis", "adductor longus", "adductor magnus", "semitendinosus", "semimembranosus", "long head of biceps femoris", "short head of biceps femoris", "tensor fasciae latae"],
+    "targets": [
+      {"muscles": ["rectus femoris"], "parents": ["THIGH-R-001"], "target": "LOC-THIGH-ANTCENT"},
+      {"muscles": ["gracilis"], "parents": ["THIGH-R-003"], "target": "LOC-THIGH-MEDIAL-GRAC"},
+      {"muscles": ["adductor longus", "adductor magnus"], "parents": ["THIGH-R-003"], "target": "LOC-THIGH-MEDIAL-ADD"},
+      {"muscles": ["vastus medialis"], "parents": ["THIGH-R-001", "THIGH-R-003"], "target": "LOC-THIGH-ANTMED"},
+      {"muscles": ["vastus lateralis"], "parents": ["THIGH-R-001"], "target": "LOC-THIGH-ANTLAT"},
+      {"muscles": ["vastus lateralis"], "parents": ["THIGH-R-002", "THIGH-R-003"], "target": "THIGH-R-004"},
+      {"muscles": ["semitendinosus", "semimembranosus"], "parents": ["THIGH-R-002", "THIGH-R-003"], "target": "LOC-THIGH-POSTMED"},
+      {"muscles": ["long head of biceps femoris", "short head of biceps femoris"], "parents": ["THIGH-R-002", "THIGH-R-004"], "target": "LOC-THIGH-POSTLAT"},
+      {"muscles": ["sartorius"], "parents": ["THIGH-R-001", "THIGH-R-003"], "target": "LOC-THIGH-SART"}
+    ],
+    "note": "Offline radial cross-section projection of named superficial muscle meshes onto the source skin. Calibrates regional surface patches only, not clinical tissue identification. Deep muscles are clinical neighbours, not separate surface targets."
+  },
+  "calf_tissue_patches": {
+    "y_range": [0.175, 0.445], "section_step_m": 0.005, "angle_step_degrees": 1,
+    "visible_references": ["tibialis anterior", "extensor digitorum longus", "extensor hallucis longus", "fibularis longus", "fibularis brevis", "medial head of gastrocnemius", "lateral head of gastrocnemius", "soleus", "sartorius", "gracilis", "semitendinosus", "tibia", "fibula"],
+    "preserve_targets": ["LOC-KNEE-CALF-POST", "AF-R-004"],
+    "tibial_medial_margin_degrees": 16,
+    "targets": [
+      {"tissues": ["sartorius", "gracilis", "semitendinosus"], "parents": ["LL-R-001", "LL-R-002", "LL-R-003", "LL-R-005", "LL-R-007", "KNEE-R-006", "KNEE-R-008", "KNEE-R-009"], "y": [0.360, 0.445], "angle": [-100, -15], "target": "KNEE-R-008"},
+      {"tissues": ["tibialis anterior", "extensor digitorum longus", "extensor hallucis longus", "fibularis tertius"], "parents": ["LL-R-001", "LL-R-002", "LL-R-003", "LL-R-004", "KNEE-R-006", "KNEE-R-011"], "target": "LL-R-001"},
+      {"tissues": ["fibularis longus", "fibularis brevis"], "parents": ["LL-R-001", "LL-R-004", "LL-R-006", "KNEE-R-011"], "target": "LL-R-004"},
+      {"tissues": ["medial head of gastrocnemius"], "parents": ["LL-R-003", "LL-R-004", "LL-R-005", "LL-R-006", "LL-R-007", "KNEE-R-008"], "y": [0.285, 0.405], "target": "LOC-LL-GASTROC-MEDIAL"},
+      {"tissues": ["lateral head of gastrocnemius"], "parents": ["LL-R-003", "LL-R-004", "LL-R-005", "LL-R-006", "LL-R-007", "KNEE-R-008"], "y": [0.285, 0.405], "target": "LOC-LL-GASTROC-LATERAL"},
+      {"tissues": ["medial head of gastrocnemius", "lateral head of gastrocnemius", "soleus"], "parents": ["LL-R-003", "LL-R-004", "LL-R-005", "LL-R-006", "LL-R-007"], "y": [0.175, 0.285], "target": "LL-R-006"},
+      {"tissues": ["medial head of gastrocnemius", "lateral head of gastrocnemius", "soleus"], "parents": ["LL-R-003", "LL-R-004", "LL-R-005", "LL-R-006", "LL-R-007", "KNEE-R-008"], "y": [0.285, 0.405], "target": "LL-R-005"}
+    ],
+    "note": "Source muscle and tibia/fibula sections compete for the nearest exposed surface. Calibrates existing calf territories; deep muscles do not create surface diagnoses. Joint overlap and Achilles entries retain their authored scope."
+  },
   "foot_chart": {
+    "targets": {"ankle_front": "AF-R-001", "ankle_medial": "AF-R-002", "ankle_lateral": "AF-R-003", "ankle_posterior": "AF-R-004", "heel_posterior": "AF-R-005", "heel_plantar": "AF-R-006", "arch_plantar": "AF-R-007", "navicular_medial": "AF-R-008", "lateral_midfoot": "AF-R-009", "midfoot_dorsal": "AF-R-010", "metatarsal_heads": "AF-R-011", "first_mtp": "AF-R-012"},
     "y_range": [-0.01, 0.125], "abs_x": [0.02, 0.22], "z_range": [-0.13, 0.19],
     "ankle_start_y": 0.090, "ankle_low_y": 0.055, "ankle_front_limit": 0.032, "ankle_high_front_limit": 0.055,
     "heel_plantar_front": 0.028, "heel_back_limit": -0.019,
@@ -78,6 +112,14 @@
     "toe_targets": ["LOC-TOE-HALLUX", "LOC-TOE-LESSER"],
     "note": "Foot frame follows actual calcaneus, metatarsals and phalanges. Toe entries reuse existing tendon, MTP and control checks; no new distal toe pathology content."
   },
+  "subregion_patches": [
+    {"parent": "KNEE-R-006", "target": "LOC-KNEE-TIBIAL-TUBERCLE", "y": [0.400, 0.424], "angle": [-12, 12], "relative_to": "tibial_front"},
+    {"parent": "KNEE-R-006", "target": "LOC-KNEE-PATELLAR-TENDON", "y": [0.424, 0.433], "angle": [-18, 18], "relative_to": "tibial_front"},
+    {"parent": "AF-R-002", "target": "LOC-AF-MEDIAL-TENDONS", "y": [0.055, 0.145], "angle": [-145, -105]},
+    {"parent": "AF-R-003", "target": "LOC-AF-LATERAL-TENDONS", "y": [0.055, 0.145], "angle": [105, 145]},
+    {"parent": "AF-R-006", "target": "LOC-AF-HEEL-MEDIAL", "y": [-0.01, 0.080], "frame": "foot", "f": [0.006, 0.028], "l": [-0.060, -0.005], "normal_y": [-1, -0.35]},
+    {"parent": "AF-R-012", "target": "LOC-AF-FIRST-MTP-PLANTAR", "y": [-0.01, 0.125], "frame": "foot", "normal_y": [-1, -0.35]}
+  ],
   "gesture_groups": [
     {"target": "LOC-KNEE-CALF-POST", "members": ["KNEE-R-013", "LL-R-005"], "min_regions": 2, "min_fraction": 0.8, "closed_only": false},
     {"target": "KNEE-R-015", "members": ["KNEE-R-001", "KNEE-R-002", "KNEE-R-003", "KNEE-R-004", "KNEE-R-005", "KNEE-R-006", "KNEE-R-007", "KNEE-R-008", "KNEE-R-009", "KNEE-R-010", "KNEE-R-011", "KNEE-R-012", "KNEE-R-013", "KNEE-R-014"], "min_regions": 3, "min_fraction": 0.7, "closed_only": true}

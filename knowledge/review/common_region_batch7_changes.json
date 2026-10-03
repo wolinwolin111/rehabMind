@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-02",
+  "changes": [
+    {
+      "batch": 7,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-THIGH-ANTCENT",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Area_ID": "LOC-THIGH-ANTCENT",
+        "Display_Name": "大腿前中央／股直肌邻近",
+        "Region_IDs": "THIGH-R-001",
+        "Module_Codes": "THIGH",
+        "Related_Tissues": "肌肉：股直肌\n深层邻近：股中间肌\n两侧邻近：股内侧肌；股外侧肌\n远端邻近：股四头肌腱",
+        "Primary_Item_IDs": "CORE-MUS-RF|THIGH-LT-001|KNEE-ROM-FLEX|CORE-CAP-KNEE-EXT",
+        "Additional_Item_IDs": "CORE-MUS-VI|CORE-MUS-VM|CORE-MUS-VL|KNEE-ROM-EXT|CORE-CAP-QUAD-RECRUIT|CORE-MUS-SART",
+        "Linked_Item_IDs": "CORE-SPT-NEURO-DISTAL|THIGH-SPT-NEURO|THIGH-PATTERN-GAIT|THIGH-PATTERN-SAGITTAL|THIGH-PATTERN-LATERAL",
+        "Assessment_Groups": "MUSCLE_STATE:邻近肌群|ROM:相关关节活动|CAPACITY:相关肌力|LOCAL:局部组织|SPECIAL_TEST:补充检查|FUNCTION:相关动作观察",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "BodyParts3D 4.0 原始模型具名组织及骨性标志；既有01_Region、02_ClinicalItem及评估/处理关联；book://magee-local，已核验膝部主动活动与抗阻章节（见reference_books_verified_v1.json）。本次只调整阅读入口和组织关联，不新增治疗方法。",
+        "Internal_Note": "区域是周围组织与评估参考的阅读入口。主要项目直接展示，补充项目按需展开。沿用既有检查与处理内容，不以模型选点确定疼痛组织。",
+        "Auto_Apply_To_Region": false
+      }
+    },
+    {
+      "batch": 7,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-THIGH-MEDIAL-GRAC",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Area_ID": "LOC-THIGH-MEDIAL-GRAC",
+        "Display_Name": "大腿内侧／股薄肌邻近",
+        "Region_IDs": "THIGH-R-003",
+        "Module_Codes": "THIGH",
+        "Related_Tissues": "肌肉：股薄肌\n邻近肌群：内收长肌；内收大肌；缝匠肌\n远端附着邻近：鹅足肌腱",
+        "Primary_Item_IDs": "CORE-MUS-GRAC|THIGH-LT-003|KNEE-ROM-EXT|KNEE-ROM-FLEX|THIGH-CAP-ADD",
+        "Additional_Item_IDs": "CORE-MUS-SART|THIGH-MUS-AL|THIGH-MUS-AM|THIGH-MUS-AB",
+        "Linked_Item_IDs": "CORE-SPT-NEURO-DISTAL|THIGH-SPT-NEURO|THIGH-PATTERN-GAIT|THIGH-PATTERN-SAGITTAL|THIGH-PATTERN-LATERAL",
+        "Assessment_Groups": "MUSCLE_STATE:邻近肌群|ROM:相关关节活动|CAPACITY:相关肌力|LOCAL:局部组织|SPECIAL_TEST:补充检查|FUNCTION:相关动作观察",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "BodyParts3D 4.0 原始模型具名组织及骨性标志；既有01_Region、02_ClinicalItem及评估/处理关联；book://magee-local，已核验膝部主动活动与抗阻章节（见reference_books_verified_v1.json）。本次只调整阅读入口和组织关联，不新增治疗方法。",
+        "Internal_Note": "区域是周围组织与评估参考的阅读入口。主要项目直接展示，补充项目按需展开。沿用既有检查与处理内容，不以模型选点确定疼痛组织。",
+        "Auto_Apply_To_Region": false
+      }
+    },
+    {
+      "batch": 7,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-THIGH-MEDIAL-ADD",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Area_ID": "LOC-THIGH-MEDIAL-ADD",
+        "Display_Name": "大腿内侧／内收肌腹邻近",
+        "Region_IDs": "THIGH-R-003",
+        "Module_Codes": "THIGH",
+        "Related_Tissues": "肌肉：内收长肌；内收大肌\n深层邻近：内收短肌；耻骨肌\n浅表邻近：股薄肌；缝匠肌\n骨与周围组织：股骨内侧；内收肌筋膜",
+        "Primary_Item_IDs": "THIGH-MUS-AL|THIGH-MUS-AM|THIGH-LT-003|THIGH-CAP-ADD",
+        "Additional_Item_IDs": "THIGH-MUS-AB|CORE-MUS-GRAC|CORE-MUS-SART|KNEE-ROM-EXT|KNEE-ROM-FLEX",
+        "Linked_Item_IDs": "CORE-SPT-NEURO-DISTAL|THIGH-SPT-NEURO|THIGH-PATTERN-GAIT|THIGH-PATTERN-SAGITTAL|THIGH-PATTERN-LATERAL",
+        "Assessment_Groups": "MUSCLE_STATE:邻近肌群|ROM:相关关节活动|CAPACITY:相关肌力|LOCAL:局部组织|SPECIAL_TEST:补充检查|FUNCTION:相关动作观察",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "BodyParts3D 4.0 原始模型具名组织及骨性标志；既有01_Region、02_ClinicalItem及评估/处理关联；book://magee-local，已核验膝部主动活动与抗阻章节（见reference_books_verified_v1.json）。本次只调整阅读入口和组织关联，不新增治疗方法。",
+        "Internal_Note": "区域是周围组织与评估参考的阅读入口。主要项目直接展示，补充项目按需展开。沿用既有检查与处理内容，不以模型选点确定疼痛组织。",
+        "Auto_Apply_To_Region": false
+      }
+    }
+  ]
+}

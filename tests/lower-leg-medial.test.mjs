@@ -13,9 +13,11 @@ test('medial locations expose surrounding tissues, scoped questions and curated 
     const result=resolveAssessment(data,input), items=flat(result);
     assert.equal(result.localization_area.display_name,location.Display_Name);
     assert.equal(result.consultation_guide.filter(row=>row.scope==='LOCATION').length,4);
-    assert.equal(result.consultation_guide.filter(row=>row.scope==='GENERAL').length,5);
+    assert.equal(result.consultation_guide.filter(row=>row.scope==='GENERAL').length,7);
     assert.ok(!items.some(row=>row.item_id==='CORE-MUS-TA'));
-    assert.deepEqual(new Set(items.filter(row=>row.display_mode==='DEFAULT').map(row=>row.item_id)),new Set(location.Primary_Item_IDs.split('|')));
+    const expected=new Set(location.Primary_Item_IDs.split('|'));
+    if(location.Area_ID==='LOC-LL-POSTMEDIAL')expected.add('CORE-MUS-FHL');
+    assert.deepEqual(new Set(items.filter(row=>row.display_mode==='DEFAULT').map(row=>row.item_id)),expected);
     assert.equal(items.length,new Set(items.map(row=>row.item_id)).size);
     assert.ok(items.every(row=>row.clinical_purpose));
     assert.ok(items.every(row=>row.possible_findings.every(f=>f.review_status)));
@@ -41,15 +43,20 @@ test('medial locations expose surrounding tissues, scoped questions and curated 
   assert.ok(!resolveAssessment(data,{region_id:'LL-R-001'}).consultation_guide.some(row=>row.guide_id.startsWith('QG-LM-')||row.guide_id.startsWith('QG-LPM-')));
 });
 
-test('medial and posteromedial surfaces stay distinct from the posterior center on both legs',async()=>{
+test('distal medial entries remain reachable and posterior muscle bellies do not become deep-tissue regions',async()=>{
   const {rayAt}=await import('./helpers/surface-atlas.mjs');
-  for(const side of ['left','right'])for(const y of [.20,.27,.32]){
-    assert.equal(rayAt(side,y,270).selected.areaId,'LOC-LL-MEDIAL',`${side}/${y}/medial`);
-    assert.equal(rayAt(side,y,225).selected.areaId,'LOC-LL-POSTMEDIAL',`${side}/${y}/posteromedial`);
+  // Mid-calf medial approach rays can hit soleus or gastrocnemius surfaces.
+  // Do not force every 225/270-degree ray into a bone/deep-tissue entry.
+  // Their exposed belly samples and tibial landmarks have separate regressions.
+  for(const side of ['left','right']){
+    assert.equal(rayAt(side,.165,270).selected.areaId,'LOC-LL-MEDIAL',`${side}/distal medial`);
+    assert.equal(rayAt(side,.165,225).selected.areaId,'LOC-LL-POSTMEDIAL',`${side}/distal posteromedial`);
+    for(const y of [.20,.27,.32]){
     for(const angle of [175,180,185,190]){
       const selected=rayAt(side,y,angle).selected;
       assert.ok(['LL-R-005','LL-R-006'].includes(selected.regionId),`${side}/${y}/${angle}`);
-      assert.ok(!selected.areaId,`${side}/${y}/${angle}`);
+      assert.ok(!selected.areaId||['LOC-LL-GASTROC-MEDIAL','LOC-LL-GASTROC-LATERAL'].includes(selected.areaId),`${side}/${y}/${angle}`);
+    }
     }
   }
 });

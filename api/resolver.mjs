@@ -43,7 +43,7 @@ function consultationGuide(data, regions, areaId) {
       text(row.Module_Codes).split('|').some(module => modules.has(module)) &&
       (row.Scope === 'GENERAL' || (row.Scope === 'REGION' && list(row.Region_IDs).some(id => ids.has(id))) ||
         (row.Scope === 'LOCATION' && list(row.Area_IDs).includes(areaId))));
-  const replaced = new Set(eligible.map(row => row.Replaces_Guide_ID).filter(Boolean));
+  const replaced = new Set(eligible.flatMap(row => list(row.Replaces_Guide_ID)));
   return eligible.filter(row => !replaced.has(row.Guide_ID))
     .sort((a, b) => a.Display_Order - b.Display_Order || a.Guide_ID.localeCompare(b.Guide_ID))
     .map(row => ({ guide_id: row.Guide_ID, topic: row.Topic, core_prompt: row.Core_Prompt,

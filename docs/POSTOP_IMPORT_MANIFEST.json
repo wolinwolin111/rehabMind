@@ -1,0 +1,95 @@
+{
+  "source": "66.154.101.204:/opt/rehabguide/products",
+  "importedAt": "2026-10-02T05:39:01.175Z",
+  "policy": "Published lower-limb postoperative-related full HTML and referenced assets copied without rewriting.",
+  "excluded": [
+    "lumbar-disc: unpublished, outside lower-limb scope",
+    "ankle-sprain: unpublished",
+    "muscle-strain: unpublished, nonsurgical"
+  ],
+  "documents": [
+    "acl",
+    "meniscus",
+    "acl-meniscus",
+    "pcl",
+    "patellar-dislocation",
+    "achilles-rupture"
+  ],
+  "files": [
+    {
+      "file": "public/postop/guides/acl/full.html",
+      "bytes": 85153,
+      "sha256": "7245aba6b8a29303e7ef5d7b124b529531e95f5ba6340c9bd132272d5f7db201"
+    },
+    {
+      "file": "public/postop/guides/acl/acl.webp",
+      "bytes": 81640,
+      "sha256": "313ed5be831bf3dc0377cf2465f82d678cbe639301ba97dd1782e1d57b302ae6"
+    },
+    {
+      "file": "public/postop/guides/meniscus/full.html",
+      "bytes": 79060,
+      "sha256": "b69009691524c979d2e2012db0e7c93f568f077d14934bfd0b586f4f28d0a1b9"
+    },
+    {
+      "file": "public/postop/guides/meniscus/01-right-knee-meniscus-top-view.webp",
+      "bytes": 82632,
+      "sha256": "baed15c29e9e82d1f6009ce7466f43bff6fc584e358d44f66880a7b50baf7dcc"
+    },
+    {
+      "file": "public/postop/guides/meniscus/02-meniscus-vascular-zones-and-injury.webp",
+      "bytes": 118142,
+      "sha256": "e062782e0e0b88c1412ff46d065a8242f186bf245c8d6de929dc84136e50764f"
+    },
+    {
+      "file": "public/postop/guides/acl-meniscus/full.html",
+      "bytes": 79184,
+      "sha256": "7f301cea616281dd3bbed15f9bf9d5c9b472d45255443fab905625b7857a2151"
+    },
+    {
+      "file": "public/postop/guides/acl-meniscus/acl.webp",
+      "bytes": 81640,
+      "sha256": "313ed5be831bf3dc0377cf2465f82d678cbe639301ba97dd1782e1d57b302ae6"
+    },
+    {
+      "file": "public/postop/guides/acl-meniscus/01-right-knee-meniscus-top-view.webp",
+      "bytes": 82632,
+      "sha256": "baed15c29e9e82d1f6009ce7466f43bff6fc584e358d44f66880a7b50baf7dcc"
+    },
+    {
+      "file": "public/postop/guides/acl-meniscus/02-meniscus-vascular-zones-and-injury.webp",
+      "bytes": 118142,
+      "sha256": "e062782e0e0b88c1412ff46d065a8242f186bf245c8d6de929dc84136e50764f"
+    },
+    {
+      "file": "public/postop/guides/pcl/full.html",
+      "bytes": 76368,
+      "sha256": "9573b8711428e9ee9ba6a9bf34542f97299a605d70cfff9ab2365ce699f66aef"
+    },
+    {
+      "file": "public/postop/guides/pcl/pcl-anatomy-infographic.webp",
+      "bytes": 67400,
+      "sha256": "1a88e5e3e789931f1c7727dc60a709cb9142b5262b06e56f6ea3059d2fcc5fb7"
+    },
+    {
+      "file": "public/postop/guides/patellar-dislocation/full.html",
+      "bytes": 74758,
+      "sha256": "afbf036d0e33c953cacde3e5d13edab97d398898932fa2f027aab3fb98a6723b"
+    },
+    {
+      "file": "public/postop/guides/patellar-dislocation/call_2V5leN7QAD9dStDdNJOjiqIw.webp",
+      "bytes": 114764,
+      "sha256": "3983c081e36afb89dcf1a61f5c461e036466194d04f125dd350545d41a78afa3"
+    },
+    {
+      "file": "public/postop/guides/achilles-rupture/full.html",
+      "bytes": 104166,
+      "sha256": "8aa68023e5f5eed151ef1f1392217bd5aa2e578f538886221b1b35d29bde5de6"
+    },
+    {
+      "file": "public/postop/guides/achilles-rupture/achilles-complete-rupture-cn.webp",
+      "bytes": 92156,
+      "sha256": "5cbed0430882f0b880f423654d0d973a0f0d2053273f4a6f31d6571a7c3f4746"
+    }
+  ]
+}

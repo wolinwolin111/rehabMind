@@ -188,7 +188,8 @@ def main() -> None:
         scope_areas = set(str(row.get('Area_IDs') or '').split('|')) - {''}
         if not scope_areas <= area_ids or (row.get('Scope') == 'LOCATION' and not scope_areas):
             errors.append(f"Invalid consultation location: {row['Guide_ID']}")
-        if row.get('Replaces_Guide_ID') and row['Replaces_Guide_ID'] not in guide_ids:
+        replaced_ids = set(str(row.get('Replaces_Guide_ID') or '').split('|')) - {''}
+        if not replaced_ids <= guide_ids or row['Guide_ID'] in replaced_ids:
             errors.append(f"Unknown replaced consultation: {row['Guide_ID']}")
         if not isinstance(row.get("Display_Order"), (int, float)) or row.get("Review_Status") not in {"待临床审核", "已临床审核"}:
             errors.append(f"Invalid consultation order/review status: {row['Guide_ID']}")

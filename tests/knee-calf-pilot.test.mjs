@@ -35,10 +35,10 @@ test('curated location shows eight primary assessments, separate supplements and
 test('regional consultation replaces one repeated general question, has no answers and stays in this location', () => {
   const result = resolveAssessment(data, input);
   assert.equal(result.consultation_guide.filter(row => row.scope === 'LOCATION').length, 4);
-  assert.equal(result.consultation_guide.filter(row => row.scope === 'GENERAL').length, 5);
+  assert.equal(result.consultation_guide.filter(row => row.scope === 'GENERAL').length, 7);
   assert.ok(!result.consultation_guide.some(row => row.guide_id === 'QG-PROVOKE'));
   assert.deepEqual(resolveAssessment(data, { ...input, consultation_answers:{'QG-KC-ACTIVITY':'提踵'} }), result);
-  assert.equal(resolveAssessment(data, {region_id:'LL-R-005'}).consultation_guide.length, 9);
+  assert.equal(resolveAssessment(data, {region_id:'LL-R-005'}).consultation_guide.length, 11);
   assert.ok(!result.consultation_guide.some(row => row.guide_id.startsWith('QG-LPU-')));
   assert.ok(result.consultation_guide.find(row => row.guide_id === 'QG-GOAL').assessment_help.includes('当前能力是否满足需求'));
   const extension = data.clinical_extension;

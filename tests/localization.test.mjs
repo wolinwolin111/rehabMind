@@ -6,7 +6,8 @@ const knowledge = JSON.parse(readFileSync(new URL('../build/knowledge/runtime.js
 
 test('the visible model uses the complete demo mesh and skeletal layer', () => {
   assert.equal(meta.mesh.faceCount, 44744);
-  assert.equal(meta.bones.partCount, 296);
+  // Ten source meshes tagged skeletal are tibialis/fibularis muscles, now in their own layer.
+  assert.equal(meta.bones.partCount, 286);
   assert.deepEqual(meta.features.map(feature => feature.name), ['Eyebrow', 'Hair of head', 'Lip']);
   assert.equal(semantics.roots.length, meta.mesh.faceCount);
 });

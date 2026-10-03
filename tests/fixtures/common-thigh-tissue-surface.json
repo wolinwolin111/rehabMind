@@ -1,0 +1,170 @@
+[
+  {
+    "point": [
+      0.16700827569615315,
+      0.7911801934242249,
+      0.025655283047341396
+    ],
+    "face": 38352,
+    "source_muscle_face": 82532,
+    "source_part_id": "FJ1433M",
+    "expected_area": "LOC-THIGH-ANTCENT",
+    "name": "rectus femoris",
+    "side": "left",
+    "expected_region": "THIGH-R-001"
+  },
+  {
+    "point": [
+      0.16634605466517974,
+      0.781794548034668,
+      0.029982559500650548
+    ],
+    "face": 38315,
+    "source_muscle_face": 82537,
+    "source_part_id": "FJ1433M",
+    "expected_area": "LOC-THIGH-ANTCENT",
+    "name": "rectus femoris",
+    "side": "left",
+    "expected_region": "THIGH-R-001"
+  },
+  {
+    "point": [
+      0.020025092509495808,
+      0.5990181962649027,
+      0.00030355698959410064
+    ],
+    "face": 25301,
+    "source_muscle_face": 65615,
+    "source_part_id": "FJ1421M",
+    "expected_area": "LOC-THIGH-MEDIAL-GRAC",
+    "name": "gracilis",
+    "side": "left",
+    "expected_region": "THIGH-R-003"
+  },
+  {
+    "point": [
+      0.019350709843711913,
+      0.5785178740819295,
+      -0.004976981905450761
+    ],
+    "face": 25311,
+    "source_muscle_face": 65700,
+    "source_part_id": "FJ1421M",
+    "expected_area": "LOC-THIGH-MEDIAL-GRAC",
+    "name": "gracilis",
+    "side": "left",
+    "expected_region": "THIGH-R-003"
+  },
+  {
+    "point": [
+      0.03275725078942186,
+      0.7729341983795166,
+      0.04458527174432824
+    ],
+    "face": 26489,
+    "source_muscle_face": 33276,
+    "source_part_id": "FJ1402M",
+    "expected_area": "LOC-THIGH-MEDIAL-ADD",
+    "name": "adductor longus",
+    "side": "left",
+    "expected_region": "THIGH-R-003"
+  },
+  {
+    "point": [
+      0.0350693960083492,
+      0.7086815237998962,
+      0.04293808890095135
+    ],
+    "face": 27036,
+    "source_muscle_face": 33308,
+    "source_part_id": "FJ1402M",
+    "expected_area": "LOC-THIGH-MEDIAL-ADD",
+    "name": "adductor longus",
+    "side": "left",
+    "expected_region": "THIGH-R-003"
+  },
+  {
+    "point": [
+      -0.16743176619850125,
+      0.7941485246022542,
+      0.026872515116864844
+    ],
+    "face": 6596,
+    "source_muscle_face": 81282,
+    "source_part_id": "FJ1433",
+    "expected_area": "LOC-THIGH-ANTCENT",
+    "name": "rectus femoris",
+    "side": "right",
+    "expected_region": "THIGH-R-001"
+  },
+  {
+    "point": [
+      -0.16257562165493655,
+      0.7563735246658325,
+      0.04455204929154991
+    ],
+    "face": 6526,
+    "source_muscle_face": 81367,
+    "source_part_id": "FJ1433",
+    "expected_area": "LOC-THIGH-ANTCENT",
+    "name": "rectus femoris",
+    "side": "right",
+    "expected_region": "THIGH-R-001"
+  },
+  {
+    "point": [
+      -0.02109696977896889,
+      0.5990181962649027,
+      0.000032988815529341395
+    ],
+    "face": 19501,
+    "source_muscle_face": 64923,
+    "source_part_id": "FJ1421",
+    "expected_area": "LOC-THIGH-MEDIAL-GRAC",
+    "name": "gracilis",
+    "side": "right",
+    "expected_region": "THIGH-R-003"
+  },
+  {
+    "point": [
+      -0.02072289213949343,
+      0.5785178740819295,
+      -0.005141856646840287
+    ],
+    "face": 20249,
+    "source_muscle_face": 65008,
+    "source_part_id": "FJ1421",
+    "expected_area": "LOC-THIGH-MEDIAL-GRAC",
+    "name": "gracilis",
+    "side": "right",
+    "expected_region": "THIGH-R-003"
+  },
+  {
+    "point": [
+      -0.03324051634386392,
+      0.7729341983795166,
+      0.04413381875006717
+    ],
+    "face": 18651,
+    "source_muscle_face": 32692,
+    "source_part_id": "FJ1402",
+    "expected_area": "LOC-THIGH-MEDIAL-ADD",
+    "name": "adductor longus",
+    "side": "right",
+    "expected_region": "THIGH-R-003"
+  },
+  {
+    "point": [
+      -0.03548513557008755,
+      0.7086815237998962,
+      0.04173990191429755
+    ],
+    "face": 17242,
+    "source_muscle_face": 32724,
+    "source_part_id": "FJ1402",
+    "expected_area": "LOC-THIGH-MEDIAL-ADD",
+    "name": "adductor longus",
+    "side": "right",
+    "expected_region": "THIGH-R-003"
+  }
+]

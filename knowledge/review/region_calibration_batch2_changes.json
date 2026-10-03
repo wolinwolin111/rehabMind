@@ -1,0 +1,310 @@
+{
+  "changes": [
+    {
+      "batch": 2,
+      "section": "main",
+      "name": "01_Region",
+      "id": "LL-R-001",
+      "field": "related_tissues",
+      "before": null,
+      "after": "肌肉：胫骨前肌；趾长伸肌；拇长伸肌；第三腓骨肌\n骨与周围组织：胫骨前缘邻近；腓骨前方；小腿前侧筋膜\n神经与血管：深腓神经；胫前血管"
+    },
+    {
+      "batch": 2,
+      "section": "main",
+      "name": "01_Region",
+      "id": "LL-R-001",
+      "field": "related_tissues_source",
+      "before": null,
+      "after": "https://anatomy.med.utah.edu/diganat/PT/2014_lecture/L11_leg_knee.pdf\nBodyParts3D 4.0，当前原始模型组织与骨性标志核对；区域邻近关系，不作为组织诊断"
+    },
+    {
+      "batch": 2,
+      "section": "main",
+      "name": "01_Region",
+      "id": "LL-R-002",
+      "field": "related_tissues",
+      "before": null,
+      "after": "骨与周围组织：胫骨前缘；骨膜及皮下组织\n邻近肌群：胫骨前肌；前外侧趾长伸肌、拇长伸肌"
+    },
+    {
+      "batch": 2,
+      "section": "main",
+      "name": "01_Region",
+      "id": "LL-R-002",
+      "field": "related_tissues_source",
+      "before": null,
+      "after": "https://anatomy.med.utah.edu/diganat/PT/2014_lecture/L11_leg_knee.pdf\nBodyParts3D 4.0，当前原始模型组织与骨性标志核对；区域邻近关系，不作为组织诊断"
+    },
+    {
+      "batch": 2,
+      "section": "main",
+      "name": "01_Region",
+      "id": "LL-R-003",
+      "field": "related_tissues",
+      "before": "骨与周围组织：胫骨内侧缘；邻近骨膜及筋膜\n邻近肌群：胫骨后肌；趾长屈肌；比目鱼肌",
+      "after": "骨与周围组织：胫骨内侧缘；骨膜及筋膜\n邻近肌群：比目鱼肌；深层胫骨后肌、趾长屈肌\n远端邻近：内踝后方屈肌腱走行"
+    },
+    {
+      "batch": 2,
+      "section": "main",
+      "name": "01_Region",
+      "id": "LL-R-003",
+      "field": "related_tissues_source",
+      "before": "baseline://clinical-extension/LocationGuide/LOC-LL-MEDIAL\nhttps://www.ncbi.nlm.nih.gov/books/NBK537340/\nhttps://www.ncbi.nlm.nih.gov/books/NBK539913/",
+      "after": "https://anatomy.med.utah.edu/diganat/PT/2014_lecture/L11_leg_knee.pdf\nBodyParts3D 4.0，当前原始模型组织与骨性标志核对；区域邻近关系，不作为组织诊断"
+    },
+    {
+      "batch": 2,
+      "section": "main",
+      "name": "01_Region",
+      "id": "LL-R-004",
+      "field": "related_tissues",
+      "before": null,
+      "after": "肌肉：腓骨长肌；腓骨短肌\n前外侧邻近：第三腓骨肌；趾长伸肌\n骨与周围组织：腓骨；小腿外侧筋膜\n神经邻近：浅腓神经"
+    },
+    {
+      "batch": 2,
+      "section": "main",
+      "name": "01_Region",
+      "id": "LL-R-004",
+      "field": "related_tissues_source",
+      "before": null,
+      "after": "https://anatomy.med.utah.edu/diganat/PT/2014_lecture/L11_leg_knee.pdf\nBodyParts3D 4.0，当前原始模型组织与骨性标志核对；区域邻近关系，不作为组织诊断"
+    },
+    {
+      "batch": 2,
+      "section": "main",
+      "name": "01_Region",
+      "id": "LL-R-005",
+      "field": "related_tissues",
+      "before": null,
+      "after": "表浅肌群：腓肠肌内侧头与外侧头\n深层邻近：比目鱼肌；跖肌\n近膝邻近：腘肌；腘绳肌远端；膝后关节囊\n骨与周围组织：胫骨、腓骨近端后方；后侧筋膜"
+    },
+    {
+      "batch": 2,
+      "section": "main",
+      "name": "01_Region",
+      "id": "LL-R-005",
+      "field": "related_tissues_source",
+      "before": null,
+      "after": "https://anatomy.med.utah.edu/diganat/PT/2014_lecture/L11_leg_knee.pdf\nBodyParts3D 4.0，当前原始模型组织与骨性标志核对；区域邻近关系，不作为组织诊断"
+    },
+    {
+      "batch": 2,
+      "section": "main",
+      "name": "01_Region",
+      "id": "LL-R-006",
+      "field": "related_tissues",
+      "before": null,
+      "after": "肌肉与肌腱：比目鱼肌；腓肠肌远端；跟腱近端\n深层邻近：胫骨后肌；趾长屈肌；拇长屈肌\n其他组织：跖肌腱；后侧筋膜"
+    },
+    {
+      "batch": 2,
+      "section": "main",
+      "name": "01_Region",
+      "id": "LL-R-006",
+      "field": "related_tissues_source",
+      "before": null,
+      "after": "https://anatomy.med.utah.edu/diganat/PT/2014_lecture/L11_leg_knee.pdf\nBodyParts3D 4.0，当前原始模型组织与骨性标志核对；区域邻近关系，不作为组织诊断"
+    },
+    {
+      "batch": 2,
+      "section": "main",
+      "name": "01_Region",
+      "id": "LL-R-007",
+      "field": "related_tissues",
+      "before": "深层肌群：胫骨后肌；趾长屈肌；拇长屈肌\n表浅邻近：比目鱼肌；腓肠肌内侧头\n神经与血管：胫神经；胫后血管\n骨与周围组织：胫骨后内侧；邻近筋膜",
+      "after": "深层肌群：胫骨后肌；趾长屈肌；拇长屈肌\n表浅邻近：比目鱼肌；腓肠肌内侧头\n骨与周围组织：胫骨后内侧；骨间膜及筋膜\n神经与血管：胫神经；胫后血管"
+    },
+    {
+      "batch": 2,
+      "section": "main",
+      "name": "01_Region",
+      "id": "LL-R-007",
+      "field": "related_tissues_source",
+      "before": "baseline://clinical-extension/LocationGuide/LOC-LL-POSTMEDIAL\nhttps://www.ncbi.nlm.nih.gov/books/NBK537340/\nhttps://www.ncbi.nlm.nih.gov/books/NBK539913/",
+      "after": "https://anatomy.med.utah.edu/diganat/PT/2014_lecture/L11_leg_knee.pdf\nBodyParts3D 4.0，当前原始模型组织与骨性标志核对；区域邻近关系，不作为组织诊断"
+    },
+    {
+      "batch": 2,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0152",
+      "field": "display_mode",
+      "before": "EXPAND",
+      "after": "DEFAULT"
+    },
+    {
+      "batch": 2,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0153",
+      "field": "display_mode",
+      "before": "EXPAND",
+      "after": "DEFAULT"
+    },
+    {
+      "batch": 2,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0154",
+      "field": "display_mode",
+      "before": "LINKED",
+      "after": "EXPAND"
+    },
+    {
+      "batch": 2,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0156",
+      "field": "display_mode",
+      "before": "EXPAND",
+      "after": "DEFAULT"
+    },
+    {
+      "batch": 2,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0157",
+      "field": "display_mode",
+      "before": "EXPAND",
+      "after": "DEFAULT"
+    },
+    {
+      "batch": 2,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0159",
+      "field": "display_mode",
+      "before": "EXPAND",
+      "after": "DEFAULT"
+    },
+    {
+      "batch": 2,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0160",
+      "field": "display_mode",
+      "before": "EXPAND",
+      "after": "DEFAULT"
+    },
+    {
+      "batch": 2,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0161",
+      "field": "display_mode",
+      "before": "LINKED",
+      "after": "DEFAULT"
+    },
+    {
+      "batch": 2,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0172",
+      "field": "display_mode",
+      "before": "EXPAND",
+      "after": "DEFAULT"
+    },
+    {
+      "batch": 2,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0173",
+      "field": "display_mode",
+      "before": "EXPAND",
+      "after": "DEFAULT"
+    },
+    {
+      "batch": 2,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0176",
+      "field": "display_mode",
+      "before": "EXPAND",
+      "after": "DEFAULT"
+    },
+    {
+      "batch": 2,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0179",
+      "field": "display_mode",
+      "before": "EXPAND",
+      "after": "DEFAULT"
+    },
+    {
+      "batch": 2,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0182",
+      "field": "display_mode",
+      "before": "EXPAND",
+      "after": "DEFAULT"
+    },
+    {
+      "batch": 2,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0184",
+      "field": "display_mode",
+      "before": "EXPAND",
+      "after": "DEFAULT"
+    },
+    {
+      "batch": 2,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-LL-ANTERIOR",
+      "field": "Related_Tissues",
+      "before": "前侧肌群：胫骨前肌；拇长伸肌；趾长伸肌\n前外侧补充：第三腓骨肌\n骨与周围组织：胫骨前缘；腓骨；前侧筋膜\n神经与血管：腓深神经；胫前血管",
+      "after": "肌肉：胫骨前肌；趾长伸肌；拇长伸肌；第三腓骨肌\n骨与周围组织：胫骨前缘邻近；腓骨前方；小腿前侧筋膜\n神经与血管：深腓神经；胫前血管"
+    },
+    {
+      "batch": 2,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-LL-ANTERIOR-BONE",
+      "field": "Related_Tissues",
+      "before": "骨与周围组织：胫骨前嵴；前侧骨面；邻近骨膜\n邻近前外侧肌群：胫骨前肌；趾长伸肌；拇长伸肌\n相关活动：踝背屈与跖屈",
+      "after": "骨与周围组织：胫骨前缘；骨膜及皮下组织\n邻近肌群：胫骨前肌；前外侧趾长伸肌、拇长伸肌"
+    },
+    {
+      "batch": 2,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-LL-LATERAL",
+      "field": "Related_Tissues",
+      "before": "外侧肌群：腓骨长肌；腓骨短肌\n骨与周围组织：腓骨；外侧筋膜\n神经：腓浅神经；上段邻近腓总神经\n近端邻近：腓骨头；近端胫腓关节\n远端邻近：腓骨肌腱；外踝后方",
+      "after": "肌肉：腓骨长肌；腓骨短肌\n前外侧邻近：第三腓骨肌；趾长伸肌\n骨与周围组织：腓骨；小腿外侧筋膜\n神经邻近：浅腓神经"
+    },
+    {
+      "batch": 2,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-LL-POSTUPPER",
+      "field": "Related_Tissues",
+      "before": "表浅肌群：腓肠肌内侧头；腓肠肌外侧头\n深层邻近：比目鱼肌\n局部组织：腓肠肌肌腱膜；肌腱交界；筋膜\n近端邻近：腘肌；膝后关节囊；腘窝神经血管\n后外侧邻近：腓肠神经",
+      "after": "表浅肌群：腓肠肌内侧头与外侧头\n深层邻近：比目鱼肌；跖肌\n近膝邻近：腘肌；腘绳肌远端；膝后关节囊\n骨与周围组织：胫骨、腓骨近端后方；后侧筋膜"
+    },
+    {
+      "batch": 2,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-LL-POSTUPPER",
+      "field": "Additional_Item_IDs",
+      "before": "CORE-MUS-TP|CORE-MUS-FDL|LL-LT-006|CORE-MUS-PLANTARIS",
+      "after": "CORE-MUS-TP|CORE-MUS-FDL|LL-LT-006|CORE-MUS-PLANTARIS|CORE-MUS-FHL"
+    },
+    {
+      "batch": 2,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-LL-POSTLOWER",
+      "field": "Related_Tissues",
+      "before": "相关肌群：比目鱼肌；腓肠肌远端\n局部组织：后侧筋膜；肌腱膜；肌腱交界\n后内侧邻近：胫骨后肌；趾长屈肌；拇长屈肌\n远端邻近：跟腱近端\n神经血管：胫神经及后侧血管；后外侧腓肠神经",
+      "after": "肌肉与肌腱：比目鱼肌；腓肠肌远端；跟腱近端\n深层邻近：胫骨后肌；趾长屈肌；拇长屈肌\n其他组织：跖肌腱；后侧筋膜"
+    }
+  ]
+}

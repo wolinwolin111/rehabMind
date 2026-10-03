@@ -1,0 +1,123 @@
+{
+  "date": "2026-10-02",
+  "changes": [
+    {
+      "batch": 6,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-AF-R-006",
+      "field": "Related_Tissues",
+      "before": "骨与表浅组织：跟骨底部；足跟脂肪垫\n筋膜与肌群起点：足底腱膜近端；趾短屈肌、拇展肌及小趾展肌起点\n神经邻近：足底神经分支",
+      "after": "骨与表浅组织：跟骨底部；足跟脂肪垫；皮下组织\n前内侧邻近：足底筋膜附着区"
+    },
+    {
+      "batch": 6,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-AF-R-006",
+      "field": "Primary_Item_IDs",
+      "before": "AF-LT-006|AF-LT-007|CORE-ROM-ANK-DF|CORE-MUS-GASTROC|CORE-MUS-SOLEUS",
+      "after": "AF-LT-006|CORE-ROM-ANK-DF|CORE-MUS-GASTROC|CORE-MUS-SOLEUS"
+    },
+    {
+      "batch": 6,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-AF-R-006",
+      "field": "Additional_Item_IDs",
+      "before": "CORE-CAP-PF|AF-SPT-004|CORE-CAP-ARCH-TOE",
+      "after": "AF-LT-007|CORE-CAP-PF|CORE-CAP-ARCH-TOE|AF-MUS-016|CORE-ROM-ANK-EV|AF-SPT-004"
+    },
+    {
+      "batch": 6,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-AF-R-006",
+      "field": "Linked_Item_IDs",
+      "before": "CORE-SPT-NEURO-DISTAL",
+      "after": "CORE-ROM-ANK-INV|CORE-SPT-NEURO-DISTAL"
+    },
+    {
+      "batch": 6,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-AF-R-006",
+      "field": "Assessment_Groups",
+      "before": "MUSCLE_STATE:邻近肌群|ROM:关节活动|CAPACITY:相关肌力|LOCAL:局部组织|SPECIAL_TEST:补充检查|FUNCTION:相关动作观察",
+      "after": "MUSCLE_STATE:邻近肌群|ROM:相关关节活动|CAPACITY:相关肌力|LOCAL:局部组织|SPECIAL_TEST:补充检查|FUNCTION:相关动作观察"
+    },
+    {
+      "batch": 6,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-AF-R-006",
+      "field": "Source_Reference",
+      "before": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5241541/\nhttps://www.ncbi.nlm.nih.gov/books/NBK539705/\nhttps://www.ncbi.nlm.nih.gov/books/NBK587361/\nhttps://www.ncbi.nlm.nih.gov/books/NBK545158/",
+      "after": "BodyParts3D 4.0 原始模型具名组织及骨性标志；既有01_Region、02_ClinicalItem及评估/处理关联；book://magee-local，已核验踝足主动活动、抗阻及附属活动章节（见reference_books_verified_v1.json）。本次只调整阅读入口和组织关联，不新增治疗方法。"
+    },
+    {
+      "batch": 6,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-AF-R-006",
+      "field": "Internal_Note",
+      "before": "现有区域的内容入口，不改变定位边界。主要清单供康复师查阅，不表示全部项目必做。",
+      "after": "区域是周围组织与评估参考的阅读入口。主要项目直接展示，补充项目按需展开。沿用既有检查与处理内容，不以模型选点确定疼痛组织。"
+    },
+    {
+      "batch": 6,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-AF-R-006",
+      "field": "Auto_Apply_To_Region",
+      "before": null,
+      "after": true
+    },
+    {
+      "batch": 6,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-AF-HEEL-MEDIAL",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Area_ID": "LOC-AF-HEEL-MEDIAL",
+        "Display_Name": "足跟底内侧／足底筋膜附着邻近",
+        "Region_IDs": "AF-R-006",
+        "Module_Codes": "ANKLE_FOOT",
+        "Related_Tissues": "骨与附着：跟骨内侧结节；足底筋膜近端\n周围组织：足跟脂肪垫；足内在肌邻近",
+        "Primary_Item_IDs": "AF-LT-007|AF-LT-006|CORE-ROM-ANK-DF|CORE-MUS-GASTROC|CORE-MUS-SOLEUS|CORE-CAP-ARCH-TOE",
+        "Additional_Item_IDs": "CORE-CAP-PF|AF-SPT-004|AF-MUS-016|CORE-ROM-ANK-EV",
+        "Linked_Item_IDs": "CORE-ROM-ANK-INV|CORE-SPT-NEURO-DISTAL",
+        "Assessment_Groups": "MUSCLE_STATE:邻近肌群|ROM:相关关节活动|CAPACITY:相关肌力|LOCAL:局部组织|SPECIAL_TEST:补充检查|FUNCTION:相关动作观察",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "BodyParts3D 4.0 原始模型具名组织及骨性标志；既有01_Region、02_ClinicalItem及评估/处理关联；book://magee-local，已核验踝足主动活动、抗阻及附属活动章节（见reference_books_verified_v1.json）。本次只调整阅读入口和组织关联，不新增治疗方法。",
+        "Internal_Note": "区域是周围组织与评估参考的阅读入口。主要项目直接展示，补充项目按需展开。沿用既有检查与处理内容，不以模型选点确定疼痛组织。",
+        "Auto_Apply_To_Region": false
+      }
+    },
+    {
+      "batch": 6,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-AF-FIRST-MTP-PLANTAR",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Area_ID": "LOC-AF-FIRST-MTP-PLANTAR",
+        "Display_Name": "第一跖趾关节足底侧／籽骨邻近",
+        "Region_IDs": "AF-R-012",
+        "Module_Codes": "ANKLE_FOOT",
+        "Related_Tissues": "骨与关节：第一跖骨头；第一跖趾关节；籽骨\n肌肉与肌腱：拇短屈肌；拇长屈肌腱\n周围组织：跖板；关节囊",
+        "Primary_Item_IDs": "AF-LT-012|AF-MUS-017|CORE-MUS-FHL|AF-ASM-004|CORE-CAP-HF",
+        "Additional_Item_IDs": "AF-MUS-014|AF-MUS-015|AF-JNT-004|CORE-CAP-ARCH-TOE|CORE-MUS-EHL|CORE-MUS-PL|CORE-ROM-ANK-DF|CORE-ROM-ANK-EV",
+        "Linked_Item_IDs": "AF-TASK-002|CORE-SPT-NEURO-DISTAL",
+        "Assessment_Groups": "MUSCLE_STATE:邻近肌群|ROM:相关关节活动|CAPACITY:相关肌力|LOCAL:局部组织|SPECIAL_TEST:补充检查|FUNCTION:相关动作观察",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "BodyParts3D 4.0 原始模型具名组织及骨性标志；既有01_Region、02_ClinicalItem及评估/处理关联；book://magee-local，已核验踝足主动活动、抗阻及附属活动章节（见reference_books_verified_v1.json）。本次只调整阅读入口和组织关联，不新增治疗方法。",
+        "Internal_Note": "区域是周围组织与评估参考的阅读入口。主要项目直接展示，补充项目按需展开。沿用既有检查与处理内容，不以模型选点确定疼痛组织。",
+        "Auto_Apply_To_Region": false
+      }
+    }
+  ]
+}

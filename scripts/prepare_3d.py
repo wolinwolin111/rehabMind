@@ -6,6 +6,7 @@ import gzip
 import json
 import struct
 from surface_atlas import build_surface_atlas
+from muscle_index import build_muscle_parts, build_bone_parts, is_muscle_part
 from pathlib import Path
 
 
@@ -50,30 +51,31 @@ def main() -> None:
     surface_bytes, surface_info, surface_report = build_surface_atlas(
         ROOT, atlas, raw_for, skin_bytes, skin_info)
 
-    bone_parts = [part for part in atlas["parts"] if part["system"] == "skeletal"]
-    positions = bytearray()
-    normals = bytearray()
-    indices: list[int] = []
-    vertex_offset = 0
-    for part in bone_parts:
-        raw = raw_for(part)
-        count = part["vertexCount"]
-        positions.extend(raw[part["positions"] : part["positions"] + count * 12])
-        normals.extend(raw[part["normals"] : part["normals"] + count * 6])
-        part_indices = struct.unpack_from(f"<{part['indexCount']}I", raw, part["indices"])
-        indices.extend(index + vertex_offset for index in part_indices)
-        vertex_offset += count
-    padding = bytes(-(len(positions) + len(normals)) % 4)
-    bone_bytes = positions + normals + padding + struct.pack(f"<{len(indices)}I", *indices)
-    bones_info = {
-        "vertexCount": vertex_offset,
-        "positions": 0,
-        "normals": len(positions),
-        "indices": len(positions) + len(normals) + len(padding),
-        "indexCount": len(indices),
-        "partCount": len(bone_parts),
-        "source": "BodyParts3D 4.0 complete skeletal layer",
-    }
+    def pack_layer(system: str) -> tuple[bytes, dict]:
+        parts = [part for part in atlas['parts'] if is_muscle_part(part)] if system == 'muscular' else [
+            part for part in atlas['parts'] if part['system'] == system and not is_muscle_part(part)]
+        positions, normals, indices = bytearray(), bytearray(), []
+        vertex_offset = 0
+        for part in parts:
+            raw = raw_for(part)
+            count = part["vertexCount"]
+            positions.extend(raw[part["positions"] : part["positions"] + count * 12])
+            normals.extend(raw[part["normals"] : part["normals"] + count * 6])
+            part_indices = struct.unpack_from(f"<{part['indexCount']}I", raw, part["indices"])
+            indices.extend(index + vertex_offset for index in part_indices)
+            vertex_offset += count
+        padding = bytes(-(len(positions) + len(normals)) % 4)
+        packed = positions + normals + padding + struct.pack(f"<{len(indices)}I", *indices)
+        return packed, {
+            "vertexCount": vertex_offset, "positions": 0, "normals": len(positions),
+            "indices": len(positions) + len(normals) + len(padding), "indexCount": len(indices),
+            "partCount": len(parts), "source": f"BodyParts3D 4.0 complete {system} layer",
+        }
+
+    bone_bytes, bones_info = pack_layer("skeletal")
+    bones_info['parts'] = build_bone_parts(atlas)
+    muscle_bytes, muscles_info = pack_layer("muscular")
+    muscles_info['parts'] = build_muscle_parts(atlas)
 
     feature_bytes = bytearray()
     feature_info = []
@@ -88,11 +90,13 @@ def main() -> None:
     (TARGET / "skin.json").write_text(json.dumps({
         "mesh": {**skin_info, "source": "BodyParts3D 4.0 complete Skin mesh"},
         "bones": bones_info,
+        "muscles": muscles_info,
         "features": feature_info,
         "surface_atlas": surface_info,
     }, ensure_ascii=False), encoding="utf-8")
     (TARGET / "skin.pack").write_bytes(gzip.compress(skin_bytes, compresslevel=9, mtime=0))
     (TARGET / "bones.pack").write_bytes(gzip.compress(bone_bytes, compresslevel=9, mtime=0))
+    (TARGET / "muscles.pack").write_bytes(gzip.compress(muscle_bytes, compresslevel=9, mtime=0))
     (TARGET / "features.pack").write_bytes(gzip.compress(feature_bytes, compresslevel=9, mtime=0))
     (TARGET / "surface_atlas.bin").write_bytes(surface_bytes)
     audit_path = ROOT / 'build' / 'authoring' / 'surface-atlas-build.json'
@@ -100,7 +104,7 @@ def main() -> None:
     audit_path.write_text(json.dumps(surface_report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     for obsolete in ("skin.bin", "bones.bin", "skin.bin.gz", "bones.bin.gz", "features.bin.gz", "skin_semantics.bin"):
         (TARGET / obsolete).unlink(missing_ok=True)
-    print(f"Prepared complete 3D figure: {skin_info['faceCount']} skin faces, {len(bone_parts)} skeletal parts")
+    print(f"Prepared complete 3D figure: {skin_info['faceCount']} skin faces, {bones_info['partCount']} skeletal parts, {muscles_info['partCount']} muscular parts")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,51 @@
+.muscle-explorer-tab { position: fixed; right: var(--safe-right); top: 46%; z-index: 65; display: flex; flex-direction: column; align-items: center; gap: 7px; width: 48px; padding: 13px 6px; border: 1px solid var(--mint-line); border-right: 0; border-radius: 14px 0 0 14px; background: var(--mint); color: var(--green-ink); box-shadow: -4px 5px 16px #365e4812; font-size: 12px; line-height: 1.5; }
+.muscle-explorer-tab svg { width: 23px; height: 38px; fill: none; stroke: currentColor; stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; }
+.muscle-explorer-tab:hover { background: #a8bee2; }
+.muscle-explorer { --surface: #fff; --model-background: #ffffff; --green-soft: #fff; }
+.muscle-anatomy { flex: 0 0 min(15dvh, 150px); height: min(15dvh, 150px); min-height: 0; overflow-y: auto; overscroll-behavior: contain; scrollbar-gutter: stable; padding: 10px 20px 14px; background: #fff; border-top: 1px solid var(--mint-line); font-size: 14px; line-height: 1.7; }
+.muscle-anatomy dl { margin: 0; display: grid; grid-template-columns: 4em minmax(0, 1fr); gap: 10px 12px; }
+.muscle-anatomy dt { font-weight: 600; color: #41638f; }
+.muscle-anatomy dd { margin: 0; }
+.muscle-anatomy p { margin: 12px 0 0; font-size: 12px; color: var(--muted); }
+.muscle-anatomy a { color: #41638f; text-underline-offset: 3px; }
+.muscle-anatomy details { margin-top: 12px; font-size: 12px; }
+.muscle-peel { flex: 0 0 52px; display: grid; grid-template-columns: auto minmax(72px, 1fr) auto; align-items: center; gap: 6px; padding: 6px 18px; background: #dce8f7; border-block: 1px solid #cddfeb; font-size: 12px; }
+.muscle-peel select, .muscle-peel button, .muscle-supplement select { min-width: 0; height: 34px; border: 1px solid #bed0e8; border-radius: 8px; padding: 0 8px; background: #fff; color: #36577f; font: inherit; }
+.muscle-peel button:disabled { opacity: .45; cursor: default; }
+.muscle-peel span { text-align: center; color: #36577f; white-space: nowrap; }
+.muscle-supplement { display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: center; gap: 12px; margin-top: 18px; padding-top: 12px; border-top: 1px solid #dce6f0; font-size: 12px; color: #41638f; }
+.muscle-anatomy .muscle-anatomy__notice { margin: 0 0 12px; color: #41638f; }
+@media (max-width: 560px) { .muscle-peel { padding-inline: 12px; gap: 4px; } .muscle-peel button { padding-inline: 6px; } .muscle-peel span { font-size: 11px; } }
+.muscle-explorer { position: fixed; inset: var(--safe-top) var(--safe-right) var(--safe-bottom) auto; width: min(600px, calc(100vw - var(--safe-left) - var(--safe-right))); height: calc(100dvh - var(--safe-top) - var(--safe-bottom)); max-width: none; max-height: none; margin: 0; padding: 0; border: 1px solid var(--mint-line); border-right: 0; border-radius: 24px 0 0 24px; background: var(--surface); color: var(--ink); overflow: hidden; box-shadow: -15px 0 60px #243d3820; }
+.muscle-explorer[open] { display: flex; flex-direction: column; animation: muscle-panel-in .42s cubic-bezier(.22,.8,.22,1); }
+.muscle-explorer::backdrop { background: #243c4650; backdrop-filter: blur(3px); animation: muscle-backdrop-in .25s ease-out; }
+.muscle-explorer.is-closing { animation: muscle-panel-out .24s ease-in both; }
+.muscle-explorer.is-closing::backdrop { animation: muscle-backdrop-in .24s ease-in reverse both; }
+.muscle-explorer__header { display: flex; flex: none; align-items: center; justify-content: space-between; gap: 16px; padding: 23px 22px 18px; background: var(--mint); border-bottom: 1px solid var(--mint-line); }
+.muscle-explorer__header h2 { margin: 0; font-size: 22px; font-weight: 600; line-height: 1.4; color: var(--green-ink); }
+.muscle-explorer__header p { margin: 5px 0 0; font-size: 13px; line-height: 1.5; color: var(--green-ink); }
+.muscle-explorer__header button { display: grid; place-items: center; flex: none; width: 38px; height: 38px; border: 1px solid var(--mint-line); border-radius: 12px; background: var(--green-soft); color: var(--green-ink); font-size: 25px; line-height: 1; }
+.muscle-explorer__model { flex: 1; min-height: 0; display: flex; }
+.muscle-explorer .anatomy-panel--muscle { display: flex; flex-direction: column; flex: 1; min-height: 0; border: 0; border-radius: 0; box-shadow: none; }
+.muscle-explorer .anatomy-toolbar { flex: none; padding: 14px 18px; min-height: 0; background: var(--surface); border-bottom: 0; }
+.muscle-explorer .anatomy-toolbar__actions { width: 100%; justify-content: space-between; }
+.atlas-gesture-hint { min-width: 0; font-size: 12px; line-height: 1.5; color: #526a8a; }
+.muscle-explorer .model-display-button { flex: none; }
+.muscle-explorer .anatomy-mode button.active { background: var(--green-accent); color: #fff; }
+.muscle-explorer .model-display-expand { flex: none; max-height: min(42dvh, 320px); overflow-y: auto; }
+.muscle-explorer .anatomy-stage, .muscle-explorer .is-settings-open .anatomy-stage { flex: 1; height: auto; min-height: 0; }
+.muscle-explorer .muscle-selection { flex: 0 0 60px; height: 60px; min-height: 0; grid-template-columns: minmax(0, 1fr) auto; align-items: center; align-content: center; gap: 10px; overflow-y: auto; padding-block: 6px; border-top: 1px solid var(--mint-line); background: var(--mint); color: var(--green-ink); }
+.muscle-selection__name { min-width: 0; display: grid; gap: 2px; }
+.muscle-explorer .muscle-selection strong { font-size: 16px; line-height: 1.35; }
+.muscle-explorer .muscle-selection small { font-size: 11px; line-height: 1.4; }
+.muscle-solo-button { padding: 7px 10px; min-height: 34px; border: 1px solid #c3d4eb; border-radius: 8px; background: #f8fbff; color: #36577f; font-size: 12px; white-space: nowrap; }
+.muscle-solo-button:disabled { opacity: .45; cursor: default; }
+.muscle-solo-button[aria-pressed="true"] { background: #d6f0df; border-color: #8ac7a1; color: #285840; }
+.muscle-explorer .muscle-selection small { color: var(--green-ink); }
+@keyframes muscle-panel-in { from { transform: translateX(100%); opacity: .6; } to { transform: translateX(0); opacity: 1; } }
+@keyframes muscle-panel-out { to { transform: translateX(100%); opacity: .4; } }
+@keyframes muscle-backdrop-in { from { opacity: 0; } to { opacity: 1; } }
+@media (max-width: 560px) { .muscle-explorer { border-radius: 18px 0 0 18px; width: calc(100vw - 12px - var(--safe-left) - var(--safe-right)); } .muscle-explorer__header { padding: 18px 16px 15px; } .muscle-explorer-tab { width: 42px; } .muscle-explorer .anatomy-toolbar { padding-inline: 12px; } }
+@media (prefers-reduced-motion: reduce) { .muscle-explorer[open], .muscle-explorer.is-closing, .muscle-explorer::backdrop, .muscle-explorer.is-closing::backdrop { animation: none; } }
+
+

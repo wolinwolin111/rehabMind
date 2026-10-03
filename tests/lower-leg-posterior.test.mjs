@@ -16,7 +16,7 @@ test('posterior upper and lower regions have separate questions and direct asses
     assert.deepEqual(result,resolveAssessment(data,{localization_area_id:area}));
     assert.deepEqual(result.selection_regions.map(r=>r.region_id),[region]);
     assert.equal(result.consultation_guide.filter(q=>q.guide_id.startsWith(prefix)).length,4);
-    assert.equal(result.consultation_guide.filter(q=>q.scope==='GENERAL').length,5);
+    assert.equal(result.consultation_guide.filter(q=>q.scope==='GENERAL').length,7);
     assert.deepEqual(result,resolveAssessment(data,{region_id:region,consultation_answers:{activity:'提踵'}}));
     const rows=items(result);
     assert.equal(rows.length,new Set(rows.map(i=>i.item_id)).size);

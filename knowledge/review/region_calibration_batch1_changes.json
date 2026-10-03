@@ -1,0 +1,362 @@
+{
+  "changes": [
+    {
+      "batch": 1,
+      "section": "main",
+      "name": "01_Region",
+      "id": "THIGH-R-001",
+      "field": "related_tissues",
+      "before": null,
+      "after": "肌肉：股直肌；股内侧肌；股外侧肌\n深层邻近：股中间肌\n斜行经过：缝匠肌\n骨与周围组织：股骨；股四头肌筋膜；远端股四头肌腱"
+    },
+    {
+      "batch": 1,
+      "section": "main",
+      "name": "01_Region",
+      "id": "THIGH-R-001",
+      "field": "related_tissues_source",
+      "before": null,
+      "after": "https://www.ncbi.nlm.nih.gov/books/NBK500008/\nBodyParts3D 4.0，当前原始模型组织与骨性标志核对；区域邻近关系，不作为组织诊断"
+    },
+    {
+      "batch": 1,
+      "section": "main",
+      "name": "01_Region",
+      "id": "THIGH-R-002",
+      "field": "related_tissues",
+      "before": null,
+      "after": "肌肉：股二头肌长头与短头；半腱肌；半膜肌\n周围组织：腘绳肌腱膜及远端肌腱\n骨与深层邻近：股骨；坐骨神经"
+    },
+    {
+      "batch": 1,
+      "section": "main",
+      "name": "01_Region",
+      "id": "THIGH-R-002",
+      "field": "related_tissues_source",
+      "before": null,
+      "after": "https://www.ncbi.nlm.nih.gov/books/NBK500008/\nBodyParts3D 4.0，当前原始模型组织与骨性标志核对；区域邻近关系，不作为组织诊断"
+    },
+    {
+      "batch": 1,
+      "section": "main",
+      "name": "01_Region",
+      "id": "THIGH-R-003",
+      "field": "related_tissues",
+      "before": null,
+      "after": "肌肉：内收长肌；内收大肌；股薄肌\n深层邻近：内收短肌；耻骨肌；内收大肌深部（模型另标小收肌）\n斜行经过：缝匠肌\n骨与周围组织：股骨内侧；内收肌筋膜；远端鹅足肌腱"
+    },
+    {
+      "batch": 1,
+      "section": "main",
+      "name": "01_Region",
+      "id": "THIGH-R-003",
+      "field": "related_tissues_source",
+      "before": null,
+      "after": "https://www.ncbi.nlm.nih.gov/books/NBK500008/\nBodyParts3D 4.0，当前原始模型组织与骨性标志核对；区域邻近关系，不作为组织诊断"
+    },
+    {
+      "batch": 1,
+      "section": "main",
+      "name": "01_Region",
+      "id": "THIGH-R-004",
+      "field": "related_tissues",
+      "before": null,
+      "after": "肌肉：股外侧肌；近端阔筋膜张肌\n筋膜与邻近肌群：髂胫束；后外侧股二头肌\n骨与远端邻近：股骨外侧；股骨外侧髁；膝外侧软组织"
+    },
+    {
+      "batch": 1,
+      "section": "main",
+      "name": "01_Region",
+      "id": "THIGH-R-004",
+      "field": "related_tissues_source",
+      "before": null,
+      "after": "https://www.ncbi.nlm.nih.gov/books/NBK500008/\nBodyParts3D 4.0，当前原始模型组织与骨性标志核对；区域邻近关系，不作为组织诊断"
+    },
+    {
+      "batch": 1,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0426",
+      "field": "display_mode",
+      "before": "EXPAND",
+      "after": "DEFAULT"
+    },
+    {
+      "batch": 1,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0449",
+      "field": "display_mode",
+      "before": "EXPAND",
+      "after": "DEFAULT"
+    },
+    {
+      "batch": 1,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0450",
+      "field": "display_mode",
+      "before": "EXPAND",
+      "after": "DEFAULT"
+    },
+    {
+      "batch": 1,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-1092",
+      "field": "display_mode",
+      "before": "LINKED",
+      "after": "EXPAND"
+    },
+    {
+      "batch": 1,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0440",
+      "field": "display_mode",
+      "before": "EXPAND",
+      "after": "DEFAULT"
+    },
+    {
+      "batch": 1,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0445",
+      "field": "display_mode",
+      "before": "EXPAND",
+      "after": "DEFAULT"
+    },
+    {
+      "batch": 1,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0447",
+      "field": "display_mode",
+      "before": "EXPAND",
+      "after": "DEFAULT"
+    },
+    {
+      "batch": 1,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0455",
+      "field": "display_mode",
+      "before": "EXPAND",
+      "after": "DEFAULT"
+    },
+    {
+      "batch": 1,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-1094",
+      "field": "display_mode",
+      "before": "LINKED",
+      "after": "EXPAND"
+    },
+    {
+      "batch": 1,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-THIGH-R-001",
+      "field": "Related_Tissues",
+      "before": "肌群：股直肌；股外侧肌；股内侧肌；股中间肌邻近\n局部组织：前侧肌筋膜；股骨邻近",
+      "after": "肌肉：股直肌；股内侧肌；股外侧肌\n深层邻近：股中间肌\n斜行经过：缝匠肌\n骨与周围组织：股骨；股四头肌筋膜；远端股四头肌腱"
+    },
+    {
+      "batch": 1,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-THIGH-R-001",
+      "field": "Additional_Item_IDs",
+      "before": "CORE-MUS-VI|KNEE-ROM-EXT",
+      "after": "CORE-MUS-VI|KNEE-ROM-EXT|CORE-CAP-QUAD-RECRUIT|CORE-MUS-SART"
+    },
+    {
+      "batch": 1,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-THIGH-R-002",
+      "field": "Related_Tissues",
+      "before": "肌群：股二头肌；半腱肌；半膜肌\n局部组织：后侧肌腱膜；坐骨近端邻近",
+      "after": "肌肉：股二头肌长头与短头；半腱肌；半膜肌\n周围组织：腘绳肌腱膜及远端肌腱\n骨与深层邻近：股骨；坐骨神经"
+    },
+    {
+      "batch": 1,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-THIGH-R-003",
+      "field": "Related_Tissues",
+      "before": "肌群：内收长肌；内收短肌；内收大肌；股薄肌\n局部组织：内侧肌腱膜；股骨邻近",
+      "after": "肌肉：内收长肌；内收大肌；股薄肌\n深层邻近：内收短肌；耻骨肌；内收大肌深部（模型另标小收肌）\n斜行经过：缝匠肌\n骨与周围组织：股骨内侧；内收肌筋膜；远端鹅足肌腱"
+    },
+    {
+      "batch": 1,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-THIGH-R-003",
+      "field": "Additional_Item_IDs",
+      "before": "THIGH-MUS-AB|KNEE-ROM-EXT",
+      "after": "THIGH-MUS-AB|KNEE-ROM-EXT|CORE-MUS-SART|KNEE-ROM-FLEX"
+    },
+    {
+      "batch": 1,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-THIGH-R-004",
+      "field": "Related_Tissues",
+      "before": "肌群：股外侧肌；阔筋膜张肌邻近\n局部组织：髂胫束周围筋膜；股骨邻近",
+      "after": "肌肉：股外侧肌；近端阔筋膜张肌\n筋膜与邻近肌群：髂胫束；后外侧股二头肌\n骨与远端邻近：股骨外侧；股骨外侧髁；膝外侧软组织"
+    },
+    {
+      "batch": 1,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-THIGH-ANTMED",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Area_ID": "LOC-THIGH-ANTMED",
+        "Display_Name": "大腿前内侧／股内侧肌邻近",
+        "Region_IDs": "THIGH-R-001",
+        "Module_Codes": "THIGH",
+        "Related_Tissues": "肌肉：股内侧肌；邻近股直肌\n深层邻近：股中间肌\n斜行邻近：缝匠肌\n骨与远端邻近：股骨；股四头肌腱；髌骨内上缘",
+        "Primary_Item_IDs": "CORE-MUS-VM|CORE-MUS-RF|THIGH-LT-001|KNEE-ROM-FLEX|KNEE-ROM-EXT|CORE-CAP-KNEE-EXT|CORE-CAP-QUAD-RECRUIT",
+        "Additional_Item_IDs": "CORE-MUS-VL|CORE-MUS-VI|CORE-MUS-SART",
+        "Linked_Item_IDs": "CORE-SPT-NEURO-DISTAL|THIGH-SPT-NEURO|THIGH-PATTERN-GAIT|THIGH-PATTERN-SAGITTAL|THIGH-PATTERN-LATERAL",
+        "Assessment_Groups": "MUSCLE_STATE:邻近肌群|ROM:关节活动|CAPACITY:相关肌力|LOCAL:局部组织|SPECIAL_TEST:补充检查|FUNCTION:相关动作观察",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "BodyParts3D 4.0 原始具名肌肉及骨骼；https://www.ncbi.nlm.nih.gov/books/NBK500008/\n既有02_ClinicalItem及05_RegionClinicalMap；定位子区域复用现有临床内容",
+        "Internal_Note": "体表定位子区域，具名肌肉用于模型标注参照，不能据此确定症状来源。复用已有肌群、关节、能力及局部组织项目；不新增诊断或处理方案。",
+        "Auto_Apply_To_Region": false
+      }
+    },
+    {
+      "batch": 1,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-THIGH-ANTLAT",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Area_ID": "LOC-THIGH-ANTLAT",
+        "Display_Name": "大腿前外侧／股外侧肌邻近",
+        "Region_IDs": "THIGH-R-001",
+        "Module_Codes": "THIGH",
+        "Related_Tissues": "肌肉：股外侧肌；邻近股直肌\n深层邻近：股中间肌\n骨与筋膜：股骨；外侧肌间隔；外侧邻近髂胫束",
+        "Primary_Item_IDs": "CORE-MUS-VL|CORE-MUS-RF|THIGH-LT-001|KNEE-ROM-FLEX|CORE-CAP-KNEE-EXT",
+        "Additional_Item_IDs": "CORE-MUS-VM|CORE-MUS-VI|KNEE-ROM-EXT|CORE-CAP-QUAD-RECRUIT",
+        "Linked_Item_IDs": "CORE-SPT-NEURO-DISTAL|THIGH-SPT-NEURO|THIGH-PATTERN-GAIT|THIGH-PATTERN-SAGITTAL|THIGH-PATTERN-LATERAL",
+        "Assessment_Groups": "MUSCLE_STATE:邻近肌群|ROM:关节活动|CAPACITY:相关肌力|LOCAL:局部组织|SPECIAL_TEST:补充检查|FUNCTION:相关动作观察",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "BodyParts3D 4.0 原始具名肌肉及骨骼；https://www.ncbi.nlm.nih.gov/books/NBK500008/\n既有02_ClinicalItem及05_RegionClinicalMap；定位子区域复用现有临床内容",
+        "Internal_Note": "体表定位子区域，具名肌肉用于模型标注参照，不能据此确定症状来源。复用已有肌群、关节、能力及局部组织项目；不新增诊断或处理方案。",
+        "Auto_Apply_To_Region": false
+      }
+    },
+    {
+      "batch": 1,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-THIGH-POSTMED",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Area_ID": "LOC-THIGH-POSTMED",
+        "Display_Name": "大腿后内侧／内侧腘绳肌邻近",
+        "Region_IDs": "THIGH-R-002",
+        "Module_Codes": "THIGH",
+        "Related_Tissues": "肌肉：半腱肌；半膜肌\n内侧邻近：股薄肌；内收大肌\n远端邻近：鹅足及膝后内侧肌腱\n骨与深层邻近：股骨；坐骨神经",
+        "Primary_Item_IDs": "CORE-MUS-ST|CORE-MUS-SM|THIGH-LT-002|KNEE-ROM-EXT|CORE-CAP-KNEE-FLEX",
+        "Additional_Item_IDs": "CORE-MUS-BF|KNEE-ROM-FLEX",
+        "Linked_Item_IDs": "THIGH-SPT-NEURO|THIGH-PATTERN-GAIT|THIGH-PATTERN-SAGITTAL|THIGH-PATTERN-LATERAL",
+        "Assessment_Groups": "MUSCLE_STATE:邻近肌群|ROM:关节活动|CAPACITY:相关肌力|LOCAL:局部组织|SPECIAL_TEST:补充检查|FUNCTION:相关动作观察",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "BodyParts3D 4.0 原始具名肌肉及骨骼；https://www.ncbi.nlm.nih.gov/books/NBK500008/\n既有02_ClinicalItem及05_RegionClinicalMap；定位子区域复用现有临床内容",
+        "Internal_Note": "体表定位子区域，具名肌肉用于模型标注参照，不能据此确定症状来源。复用已有肌群、关节、能力及局部组织项目；不新增诊断或处理方案。",
+        "Auto_Apply_To_Region": false
+      }
+    },
+    {
+      "batch": 1,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-THIGH-POSTLAT",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Area_ID": "LOC-THIGH-POSTLAT",
+        "Display_Name": "大腿后外侧／股二头肌邻近",
+        "Region_IDs": "THIGH-R-002",
+        "Module_Codes": "THIGH",
+        "Related_Tissues": "肌肉：股二头肌长头与短头\n前外侧邻近：股外侧肌；髂胫束\n远端邻近：股二头肌腱；腓骨头\n深层邻近：坐骨神经",
+        "Primary_Item_IDs": "CORE-MUS-BF|THIGH-LT-002|KNEE-ROM-EXT|CORE-CAP-KNEE-FLEX",
+        "Additional_Item_IDs": "CORE-MUS-ST|CORE-MUS-SM|KNEE-ROM-FLEX",
+        "Linked_Item_IDs": "THIGH-SPT-NEURO|THIGH-PATTERN-GAIT|THIGH-PATTERN-SAGITTAL|THIGH-PATTERN-LATERAL",
+        "Assessment_Groups": "MUSCLE_STATE:邻近肌群|ROM:关节活动|CAPACITY:相关肌力|LOCAL:局部组织|SPECIAL_TEST:补充检查|FUNCTION:相关动作观察",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "BodyParts3D 4.0 原始具名肌肉及骨骼；https://www.ncbi.nlm.nih.gov/books/NBK500008/\n既有02_ClinicalItem及05_RegionClinicalMap；定位子区域复用现有临床内容",
+        "Internal_Note": "体表定位子区域，具名肌肉用于模型标注参照，不能据此确定症状来源。复用已有肌群、关节、能力及局部组织项目；不新增诊断或处理方案。",
+        "Auto_Apply_To_Region": false
+      }
+    },
+    {
+      "batch": 1,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-THIGH-SART",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Area_ID": "LOC-THIGH-SART",
+        "Display_Name": "大腿斜行／缝匠肌邻近",
+        "Region_IDs": "THIGH-R-001|THIGH-R-003",
+        "Module_Codes": "THIGH",
+        "Related_Tissues": "斜行肌肉：缝匠肌\n前侧邻近：股直肌；股内侧肌\n内侧邻近：股薄肌；内收肌群\n远端邻近：鹅足肌腱",
+        "Primary_Item_IDs": "CORE-MUS-SART|THIGH-LT-001|THIGH-LT-003|KNEE-ROM-FLEX|KNEE-ROM-EXT",
+        "Additional_Item_IDs": "CORE-MUS-RF|CORE-MUS-VM|CORE-MUS-GRAC|THIGH-MUS-AL|CORE-CAP-KNEE-FLEX|CORE-CAP-KNEE-EXT",
+        "Linked_Item_IDs": "CORE-SPT-NEURO-DISTAL|THIGH-SPT-NEURO|THIGH-PATTERN-GAIT|THIGH-PATTERN-SAGITTAL|THIGH-PATTERN-LATERAL",
+        "Assessment_Groups": "MUSCLE_STATE:邻近肌群|ROM:关节活动|CAPACITY:相关肌力|LOCAL:局部组织|SPECIAL_TEST:补充检查|FUNCTION:相关动作观察",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "BodyParts3D 4.0 原始具名肌肉及骨骼；https://www.ncbi.nlm.nih.gov/books/NBK500008/\n既有02_ClinicalItem及05_RegionClinicalMap；定位子区域复用现有临床内容",
+        "Internal_Note": "体表定位子区域，具名肌肉用于模型标注参照，不能据此确定症状来源。复用已有肌群、关节、能力及局部组织项目；不新增诊断或处理方案。",
+        "Auto_Apply_To_Region": false
+      }
+    },
+    {
+      "batch": 1,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0430",
+      "field": "display_mode",
+      "before": "LINKED",
+      "after": "EXPAND"
+    },
+    {
+      "batch": 1,
+      "section": "main",
+      "name": "05_RegionClinicalMap",
+      "id": "RCM-0442",
+      "field": "display_mode",
+      "before": "LINKED",
+      "after": "EXPAND"
+    },
+    {
+      "batch": 1,
+      "section": "main",
+      "name": "01_Region",
+      "id": "THIGH-R-003",
+      "field": "related_tissues",
+      "before": "肌肉：内收长肌；内收大肌；股薄肌\n深层邻近：内收短肌；耻骨肌；内收大肌深部（模型另标小收肌）\n斜行经过：缝匠肌\n骨与周围组织：股骨内侧；内收肌筋膜；远端鹅足肌腱",
+      "after": "肌肉：内收长肌；内收大肌；股薄肌\n深层邻近：内收短肌；耻骨肌\n斜行经过：缝匠肌\n骨与周围组织：股骨内侧；内收肌筋膜；远端鹅足肌腱"
+    },
+    {
+      "batch": 1,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-THIGH-R-003",
+      "field": "Related_Tissues",
+      "before": "肌肉：内收长肌；内收大肌；股薄肌\n深层邻近：内收短肌；耻骨肌；内收大肌深部（模型另标小收肌）\n斜行经过：缝匠肌\n骨与周围组织：股骨内侧；内收肌筋膜；远端鹅足肌腱",
+      "after": "肌肉：内收长肌；内收大肌；股薄肌\n深层邻近：内收短肌；耻骨肌\n斜行经过：缝匠肌\n骨与周围组织：股骨内侧；内收肌筋膜；远端鹅足肌腱"
+    }
+  ]
+}

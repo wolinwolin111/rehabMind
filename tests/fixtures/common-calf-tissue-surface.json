@@ -1,0 +1,114 @@
+[
+  {
+    "face": 29382,
+    "point": [
+      0.05398996183509623,
+      0.3012521962324778,
+      -0.10116720204803145
+    ],
+    "source_part_id": "FJ1397M",
+    "source_face": 27599,
+    "name": "medial head of gastrocnemius",
+    "side": "left",
+    "expected_region": "LL-R-005",
+    "expected_area": "LOC-LL-GASTROC-MEDIAL"
+  },
+  {
+    "face": 28809,
+    "point": [
+      0.050346400645120096,
+      0.30469786127408344,
+      -0.10022771183101042
+    ],
+    "source_part_id": "FJ1397M",
+    "source_face": 27633,
+    "name": "medial head of gastrocnemius",
+    "side": "left",
+    "expected_region": "LL-R-005",
+    "expected_area": "LOC-LL-GASTROC-MEDIAL"
+  },
+  {
+    "face": 34904,
+    "point": [
+      0.1287143731747997,
+      0.30182753006617224,
+      -0.07274371641681204
+    ],
+    "source_part_id": "FJ1394M",
+    "source_face": 22322,
+    "name": "lateral head of gastrocnemius",
+    "side": "left",
+    "expected_region": "LL-R-005",
+    "expected_area": "LOC-LL-GASTROC-LATERAL"
+  },
+  {
+    "face": 34919,
+    "point": [
+      0.1209449261322036,
+      0.3053532044092814,
+      -0.0870799108971731
+    ],
+    "source_part_id": "FJ1394M",
+    "source_face": 22351,
+    "name": "lateral head of gastrocnemius",
+    "side": "left",
+    "expected_region": "LL-R-005",
+    "expected_area": "LOC-LL-GASTROC-LATERAL"
+  },
+  {
+    "face": 15691,
+    "point": [
+      -0.05032702485220662,
+      0.30469786127408344,
+      -0.0992532031166028
+    ],
+    "source_part_id": "FJ1397",
+    "source_face": 26745,
+    "name": "medial head of gastrocnemius",
+    "side": "right",
+    "expected_region": "LL-R-005",
+    "expected_area": "LOC-LL-GASTROC-MEDIAL"
+  },
+  {
+    "face": 17626,
+    "point": [
+      -0.03695071922227236,
+      0.3026525378227234,
+      -0.08307088795240665
+    ],
+    "source_part_id": "FJ1397",
+    "source_face": 26856,
+    "name": "medial head of gastrocnemius",
+    "side": "right",
+    "expected_region": "LL-R-005",
+    "expected_area": "LOC-LL-GASTROC-MEDIAL"
+  },
+  {
+    "face": 9563,
+    "point": [
+      -0.12984629420162405,
+      0.3018278578917185,
+      -0.0736716291497009
+    ],
+    "source_part_id": "FJ1394",
+    "source_face": 21580,
+    "name": "lateral head of gastrocnemius",
+    "side": "right",
+    "expected_region": "LL-R-005",
+    "expected_area": "LOC-LL-GASTROC-LATERAL"
+  },
+  {
+    "face": 10503,
+    "point": [
+      -0.1209460690219453,
+      0.30535353223482764,
+      -0.0883605461590049
+    ],
+    "source_part_id": "FJ1394",
+    "source_face": 21611,
+    "name": "lateral head of gastrocnemius",
+    "side": "right",
+    "expected_region": "LL-R-005",
+    "expected_area": "LOC-LL-GASTROC-LATERAL"
+  }
+]

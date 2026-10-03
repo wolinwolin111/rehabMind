@@ -1,0 +1,378 @@
+[
+  {
+    "name": "tibialis anterior",
+    "side": "left",
+    "face": 32803,
+    "point": [
+      0.10330001772849513,
+      0.2551281948884328,
+      0.0027792677128417875
+    ],
+    "source_part_id": "FJ1439M",
+    "source_face": 93061,
+    "expected_region": "LL-R-001",
+    "previous_region": "LL-R-001"
+  },
+  {
+    "name": "tibialis anterior",
+    "side": "left",
+    "face": 33773,
+    "point": [
+      0.11033081338478262,
+      0.3286978602409363,
+      0.012931738300569456
+    ],
+    "source_part_id": "FJ1439M",
+    "source_face": 93015,
+    "expected_region": "LL-R-001",
+    "previous_region": "LL-R-001"
+  },
+  {
+    "name": "extensor digitorum longus",
+    "side": "left",
+    "face": 34832,
+    "point": [
+      0.12284473390170361,
+      0.23733386397361755,
+      -0.03640031211158501
+    ],
+    "source_part_id": "FJ1406M",
+    "source_face": 39810,
+    "expected_region": "LL-R-001",
+    "previous_region": "LL-R-004"
+  },
+  {
+    "name": "extensor digitorum longus",
+    "side": "left",
+    "face": 35794,
+    "point": [
+      0.13311534709256967,
+      0.3121585349241892,
+      -0.022004675549744612
+    ],
+    "source_part_id": "FJ1406M",
+    "source_face": 40052,
+    "expected_region": "LL-R-001",
+    "previous_region": "LL-R-004"
+  },
+  {
+    "name": "fibularis longus",
+    "side": "left",
+    "face": 34884,
+    "point": [
+      0.12174067692782445,
+      0.24488853911558786,
+      -0.05334006828435025
+    ],
+    "source_part_id": "FJ1410M",
+    "source_face": 46012,
+    "expected_region": "LL-R-004",
+    "previous_region": "LL-R-004"
+  },
+  {
+    "name": "fibularis longus",
+    "side": "left",
+    "face": 36322,
+    "point": [
+      0.13708400735646617,
+      0.3299285372098287,
+      -0.04854551819162016
+    ],
+    "source_part_id": "FJ1410M",
+    "source_face": 46248,
+    "expected_region": "LL-R-004",
+    "previous_region": "LL-R-004"
+  },
+  {
+    "name": "fibularis brevis",
+    "side": "left",
+    "face": 34345,
+    "point": [
+      0.11639699767743186,
+      0.20165420075257617,
+      -0.04173781586948483
+    ],
+    "source_part_id": "FJ1409M",
+    "source_face": 44542,
+    "expected_region": "LL-R-004",
+    "previous_region": "LL-R-004"
+  },
+  {
+    "name": "medial head of gastrocnemius",
+    "side": "left",
+    "face": 28695,
+    "point": [
+      0.04887867438764537,
+      0.2457511971394221,
+      -0.08095499596865263
+    ],
+    "source_part_id": "FJ1397M",
+    "source_face": 27558,
+    "expected_region": "LL-R-006",
+    "previous_region": "LL-R-007",
+    "previous_area": "LOC-LL-POSTMEDIAL"
+  },
+  {
+    "name": "medial head of gastrocnemius",
+    "side": "left",
+    "face": 25985,
+    "point": [
+      0.02656843121090341,
+      0.3348982036113739,
+      -0.02150004166650188
+    ],
+    "source_part_id": "FJ1397M",
+    "source_face": 27957,
+    "expected_region": "LL-R-005",
+    "previous_region": "LL-R-003",
+    "previous_area": "LOC-LL-MEDIAL",
+    "expected_area": "LOC-LL-GASTROC-MEDIAL"
+  },
+  {
+    "name": "lateral head of gastrocnemius",
+    "side": "left",
+    "face": 32133,
+    "point": [
+      0.0915015895455926,
+      0.25057319800058997,
+      -0.09123041200484036
+    ],
+    "source_part_id": "FJ1394M",
+    "source_face": 22250,
+    "expected_region": "LL-R-006",
+    "previous_region": "LL-R-006"
+  },
+  {
+    "name": "lateral head of gastrocnemius",
+    "side": "left",
+    "face": 33500,
+    "point": [
+      0.10439397183181853,
+      0.3282382090886434,
+      -0.10426418455918315
+    ],
+    "source_part_id": "FJ1394M",
+    "source_face": 22408,
+    "expected_region": "LL-R-005",
+    "previous_region": "LL-R-005",
+    "expected_area": "LOC-LL-GASTROC-LATERAL"
+  },
+  {
+    "name": "soleus",
+    "side": "left",
+    "face": 27160,
+    "point": [
+      0.041605545444319214,
+      0.23753253122170764,
+      -0.017838871959208483
+    ],
+    "source_part_id": "FJ1437M",
+    "source_face": 89950,
+    "expected_region": "LL-R-006",
+    "previous_region": "LL-R-003",
+    "previous_area": "LOC-LL-MEDIAL"
+  },
+  {
+    "name": "soleus",
+    "side": "left",
+    "face": 29712,
+    "point": [
+      0.058170919547435015,
+      0.3179371953010559,
+      0.0003947982788490012
+    ],
+    "source_part_id": "FJ1437M",
+    "source_face": 90190,
+    "expected_region": "LL-R-005",
+    "previous_region": "LL-R-003",
+    "previous_area": "LOC-LL-MEDIAL"
+  },
+  {
+    "name": "tibialis anterior",
+    "side": "right",
+    "face": 11748,
+    "point": [
+      -0.1013000847853762,
+      0.24392586946487427,
+      0.0022813506745672785
+    ],
+    "source_part_id": "FJ1439",
+    "source_face": 92311,
+    "expected_region": "LL-R-001",
+    "previous_region": "LL-R-001"
+  },
+  {
+    "name": "tibialis anterior",
+    "side": "right",
+    "face": 10338,
+    "point": [
+      -0.11754220752703644,
+      0.3290265301863352,
+      0.008494111258052106
+    ],
+    "source_part_id": "FJ1439",
+    "source_face": 92436,
+    "expected_region": "LL-R-001",
+    "previous_region": "LL-R-001"
+  },
+  {
+    "name": "extensor digitorum longus",
+    "side": "right",
+    "face": 9927,
+    "point": [
+      -0.1222104125183365,
+      0.22825020054976145,
+      -0.03329916566282999
+    ],
+    "source_part_id": "FJ1406",
+    "source_face": 38462,
+    "expected_region": "LL-R-001",
+    "previous_region": "LL-R-004"
+  },
+  {
+    "name": "extensor digitorum longus",
+    "side": "right",
+    "face": 9395,
+    "point": [
+      -0.12928658817886685,
+      0.31083619594573975,
+      -0.011271911887571512
+    ],
+    "source_part_id": "FJ1406",
+    "source_face": 38801,
+    "expected_region": "LL-R-001",
+    "previous_region": "LL-R-001"
+  },
+  {
+    "name": "fibularis longus",
+    "side": "right",
+    "face": 9968,
+    "point": [
+      -0.12305499541116707,
+      0.24488953749338785,
+      -0.05414566217405791
+    ],
+    "source_part_id": "FJ1410",
+    "source_face": 45124,
+    "expected_region": "LL-R-004",
+    "previous_region": "LL-R-004"
+  },
+  {
+    "name": "fibularis longus",
+    "side": "right",
+    "face": 8565,
+    "point": [
+      -0.1388252412397228,
+      0.33400120337804157,
+      -0.04594213911630936
+    ],
+    "source_part_id": "FJ1410",
+    "source_face": 45361,
+    "expected_region": "LL-R-004",
+    "previous_region": "LL-R-004"
+  },
+  {
+    "name": "fibularis brevis",
+    "side": "right",
+    "face": 10403,
+    "point": [
+      -0.1195542342421616,
+      0.21239453057448068,
+      -0.04098064467993982
+    ],
+    "source_part_id": "FJ1409",
+    "source_face": 43929,
+    "expected_region": "LL-R-004",
+    "previous_region": "LL-R-004"
+  },
+  {
+    "name": "medial head of gastrocnemius",
+    "side": "right",
+    "face": 16855,
+    "point": [
+      -0.044748801738493604,
+      0.23137086629867554,
+      -0.07080034833466303
+    ],
+    "source_part_id": "FJ1397",
+    "source_face": 26658,
+    "expected_region": "LL-R-006",
+    "previous_region": "LL-R-007",
+    "previous_area": "LOC-LL-POSTMEDIAL"
+  },
+  {
+    "name": "medial head of gastrocnemius",
+    "side": "right",
+    "face": 18811,
+    "point": [
+      -0.027468261486399637,
+      0.3237918714682261,
+      -0.02255755054324491
+    ],
+    "source_part_id": "FJ1397",
+    "source_face": 27021,
+    "expected_region": "LL-R-005",
+    "previous_region": "LL-R-003",
+    "previous_area": "LOC-LL-MEDIAL",
+    "expected_area": "LOC-LL-GASTROC-MEDIAL"
+  },
+  {
+    "name": "lateral head of gastrocnemius",
+    "side": "right",
+    "face": 12300,
+    "point": [
+      -0.09891627351277343,
+      0.24100253482659656,
+      -0.08439890483654452
+    ],
+    "source_part_id": "FJ1394",
+    "source_face": 21475,
+    "expected_region": "LL-R-006",
+    "previous_region": "LL-R-006"
+  },
+  {
+    "name": "lateral head of gastrocnemius",
+    "side": "right",
+    "face": 10521,
+    "point": [
+      -0.1118212690331774,
+      0.32464152574539185,
+      -0.10044249887310339
+    ],
+    "source_part_id": "FJ1394",
+    "source_face": 21652,
+    "expected_region": "LL-R-005",
+    "previous_region": "LL-R-005",
+    "expected_area": "LOC-LL-GASTROC-LATERAL"
+  },
+  {
+    "name": "soleus",
+    "side": "right",
+    "face": 16701,
+    "point": [
+      -0.04192718724535899,
+      0.2392221987247467,
+      -0.018653406426338573
+    ],
+    "source_part_id": "FJ1437",
+    "source_face": 88955,
+    "expected_region": "LL-R-006",
+    "previous_region": "LL-R-003",
+    "previous_area": "LOC-LL-MEDIAL"
+  },
+  {
+    "name": "soleus",
+    "side": "right",
+    "face": 15358,
+    "point": [
+      -0.05313788039433455,
+      0.31878853837649024,
+      -0.002350931960646091
+    ],
+    "source_part_id": "FJ1437",
+    "source_face": 89236,
+    "expected_region": "LL-R-005",
+    "previous_region": "LL-R-003",
+    "previous_area": "LOC-LL-MEDIAL"
+  }
+]

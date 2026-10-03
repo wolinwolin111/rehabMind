@@ -1,0 +1,58 @@
+/* Image 8 base; quieter intake cards and mist-blue model controls. */
+:root {
+  --palette-mist: #90afde;
+  --palette-ocean: #00698e;
+  --palette-lake: #0d62ad;
+  --palette-jade: #9fd9d9;
+  --palette-sage: #6f9986;
+  --palette-butter: #edc98c;
+  --palette-cream: #fbf7ef;
+  --palette-ice: #eaf8f8;
+
+  --ink: #233e50;
+  --muted: #526877;
+  --line: #d9e0e6;
+  --teal: var(--palette-ocean);
+  --teal-deep: #075475;
+  --coral: #a4536c;
+  --paper: var(--palette-cream);
+  --page: var(--palette-cream);
+  --surface: var(--palette-cream);
+  --model-background: #fbf7ef;
+  --header-blue: var(--palette-mist);
+  --header-line: #7f9fce;
+  --blue-wash: var(--palette-mist);
+  --mint: var(--palette-jade);
+  --mint-line: #87bfc1;
+  --green-ink: #28565b;
+  --green-accent: #417562;
+  --green-soft: var(--surface);
+  --consultation-wash: var(--palette-ice);
+  --consultation-ink: var(--ink);
+  --consultation-line: #cbdfe2;
+  --consultation-soft: var(--surface);
+  --tissue-wash: var(--palette-ice);
+  --treatment-wash: var(--palette-butter);
+  --treatment-line: #dcc096;
+  --treatment-ink: #654c28;
+  --treatment-soft: var(--surface);
+  --yellow-line: #e0d1af;
+  --card-head: var(--blue-wash);
+  --card-line: #b7c9df;
+  --card-ink: var(--ink);
+  --selection: var(--palette-jade);
+  --selection-ink: var(--ink);
+  --finding-wash: var(--palette-jade);
+  --finding-line: var(--mint-line);
+  --warning-wash: #f4e1e8;
+  --warning-line: #ddb7c4;
+  --warning-ink: #823f53;
+}
+
+.page-content--model, .muscle-explorer, .muscle-explorer-tab {
+  --mint: var(--palette-mist);
+  --mint-line: #7f9fce;
+  --green-ink: #233e50;
+  --green-accent: #41638f;
+  --selection: var(--palette-mist);
+}

@@ -12,7 +12,7 @@ test('lateral content has its own regional questions and primary reading list wi
   assert.deepEqual(result,resolveAssessment(data,{localization_area_id:'LOC-LL-LATERAL'}));
   assert.deepEqual(result.selection_regions.map(r=>r.region_id),['LL-R-004']);
   assert.equal(result.consultation_guide.filter(q=>q.guide_id.startsWith('QG-LLAT-')).length,4);
-  assert.equal(result.consultation_guide.filter(q=>q.scope==='GENERAL').length,5);
+  assert.equal(result.consultation_guide.filter(q=>q.scope==='GENERAL').length,7);
   assert.ok(!result.consultation_guide.some(q=>q.guide_id==='QG-PROVOKE'));
   assert.deepEqual(result,resolveAssessment(data,{region_id:'LL-R-004',consultation_answers:{activity:'跑步'}}));
   const rows=items(result);

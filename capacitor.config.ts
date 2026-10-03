@@ -5,6 +5,13 @@ const config: CapacitorConfig = {
   appName: 'RehabMind',
   webDir: 'build/web',
   server: { androidScheme: 'https' },
+  plugins: {
+    SystemBars: {
+      insetsHandling: 'css',
+      initialViewportFitValueHint: 'cover',
+      style: 'LIGHT',
+    },
+  },
 };
 
 export default config;

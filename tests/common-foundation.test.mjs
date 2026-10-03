@@ -10,12 +10,12 @@ const flatten = result => result.dimensions.flatMap(dimension => dimension.group
 test('common questions keep their source wording, while authored regional questions can replace the generic activity prompt', () => {
   const source = data.clinical_extension.ConsultationGuide;
   const specification = JSON.parse(readFileSync(new URL('../knowledge/review/consultation_v1.json', import.meta.url), 'utf8'));
-  assert.equal(source.filter(row => row.Scope === 'GENERAL').length, 6);
+  assert.equal(source.filter(row => row.Scope === 'GENERAL').length, 8);
   for (const region of data.tables['01_Region']) {
     const input = { region_id: region.region_id };
     const result = resolveAssessment(data, input);
-    const common = result.consultation_guide.filter(row => row.scope === 'GENERAL');
-    const replacements=new Set(result.consultation_guide.map(g=>source.find(row=>row.Guide_ID===g.guide_id)?.Replaces_Guide_ID).filter(Boolean));
+    const common = result.consultation_guide.filter(row => specification.guides.some(g=>g.Guide_ID===row.guide_id));
+    const replacements=new Set(result.consultation_guide.flatMap(g=>(source.find(row=>row.Guide_ID===g.guide_id)?.Replaces_Guide_ID||'').split('|')).filter(Boolean));
     const expected = specification.guides.filter(row => !replacements.has(row.Guide_ID));
     assert.deepEqual(common.map(row => row.core_prompt), expected.map(row => row.Core_Prompt));
     assert.deepEqual(common.map(row => row.optional_probe), expected.map(row => row.Optional_Probe));
@@ -30,10 +30,10 @@ test('regional questions stay scoped and a boundary does not duplicate common qu
   const changed = structuredClone(data);
   changed.clinical_extension.ConsultationGuide.push({ ...changed.clinical_extension.ConsultationGuide[0],
     Guide_ID: 'TEST-REGIONAL', Scope: 'REGION', Module_Codes: 'KNEE|LOWER_LEG', Region_IDs: 'KNEE-R-013|LL-R-005', Display_Order: 10 });
-  assert.equal(resolveAssessment(changed, { region_id: 'LL-R-005' }).consultation_guide.length, 10);
+  assert.equal(resolveAssessment(changed, { region_id: 'LL-R-005' }).consultation_guide.length, 12);
   assert.ok(!resolveAssessment(changed, { region_id: 'LL-R-001' }).consultation_guide.some(row => row.guide_id === 'TEST-REGIONAL'));
   const boundary = resolveAssessment(changed, { region_ids: ['KNEE-R-013', 'LL-R-005'] });
-  assert.equal(boundary.consultation_guide.filter(g=>g.scope==='GENERAL').length,6);
+  assert.equal(boundary.consultation_guide.filter(g=>g.scope==='GENERAL').length,7);
   assert.ok(boundary.consultation_guide.some(g=>g.guide_id==='TEST-REGIONAL'));
   assert.equal(new Set(boundary.consultation_guide.map(row => row.guide_id)).size,boundary.consultation_guide.length);
 });
@@ -68,7 +68,7 @@ test('explicit neighbouring regions merge shared items and keep associated items
   assert.ok(items.some(item => !primary.has(item.item_id)));
   assert.ok(items.filter(item => !primary.has(item.item_id)).every(item => item.display_mode === 'EXPAND'));
   assert.ok(items.some(item => item.region_sources.length === 2));
-  assert.equal(result.consultation_guide.filter(g=>g.scope==='GENERAL').length,6);
+  assert.equal(result.consultation_guide.filter(g=>g.scope==='GENERAL').length,7);
   assert.ok(result.consultation_guide.some(g=>g.guide_id.startsWith('QG-KNEE-POST-')));
   assert.throws(() => resolveAssessment(data, { region_ids: ['LL-R-005', 'UNKNOWN'] }), RangeError);
   assert.throws(() => resolveAssessment(data, { region_id: 'LL-R-005', region_ids: ids }), RangeError);

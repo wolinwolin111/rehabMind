@@ -16,17 +16,17 @@ for(const side of ['left','right']){
  const lateral=[sign*r.lateral[0],0,r.lateral[1]],medial=lateral.map(v=>-v);
  probe('heel plantar',side,r.heel.center,[0,-1,0],'AF-R-006');
  probe('heel posterior',side,r.heel.center,[0,0,-1],'AF-R-005');
- probe('navicular medial',side,r.navicular.center,medial,'AF-R-009');
- probe('cuboid lateral',side,r.cuboid.center,lateral,'AF-R-010');
- probe('midfoot dorsal',side,r.cuneiform.center,[0,1,0],'AF-R-007');
+ probe('navicular medial',side,r.navicular.center,medial,'AF-R-008');
+ probe('cuboid lateral',side,r.cuboid.center,lateral,'AF-R-009');
+ probe('midfoot dorsal',side,r.cuneiform.center,[0,1,0],'AF-R-010');
  const arch=r.cuneiform.center.map((v,i)=>(v+r.heel.center[i])/2);
  arch[2]+=.025;
- probe('arch plantar',side,arch,[0,-1,0],'AF-R-008');
+ probe('arch plantar',side,arch,[0,-1,0],'AF-R-007');
  for(const[i,m]of r.metatarsals.entries()){
   probe(`metatarsal ${i+1} head dorsal`,side,m.head,[0,1,0],i===0?'AF-R-012':'AF-R-011');
-  probe(`metatarsal ${i+1} head plantar`,side,m.head,[0,-1,0],i===0?'AF-R-012':'AF-R-011');
+  probe(`metatarsal ${i+1} head plantar`,side,m.head,[0,-1,0],i===0?'AF-R-012':'AF-R-011',i===0?'LOC-AF-FIRST-MTP-PLANTAR':undefined);
  }
- probe('fifth base lateral',side,r.metatarsals[4].base,lateral,'AF-R-010');
+ probe('fifth base lateral',side,r.metatarsals[4].base,lateral,'AF-R-009');
  for(const[i,t]of r.toes.entries())for(const direction of [[0,1,0],[0,-1,0]]){
   probe(`toe ${i+1} ${direction[1]>0?'dorsal':'plantar'}`,side,t.distal,direction,i===0?'AF-R-012':'AF-R-011',i===0?'LOC-TOE-HALLUX':'LOC-TOE-LESSER');
  }

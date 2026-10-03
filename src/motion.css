@@ -22,11 +22,11 @@
 .resume-card, .safety-panel, .consideration-panel { animation: content-arrive 280ms ease-out both; }
 .profile-grid label { animation: content-arrive 220ms ease-out both; }
 .context-options label, .profile-grid select, .context-panel__head, .related-module__head,
-.anatomy-mode button, .view-presets button, .resume-card, .reasoning-sheet__top > button {
+.anatomy-mode button, .resume-card, .reasoning-sheet__top > button {
   transition: transform 280ms var(--soft-spring), background-color 200ms ease, color 200ms ease, border-color 200ms ease, box-shadow 200ms ease;
 }
 .context-options label:active, .context-panel__head:active, .related-module__head:active { transform: scale(.985); }
-.anatomy-mode button:active, .view-presets button:active, .reasoning-sheet__top > button:active { transform: scale(.94); }
+.anatomy-mode button:active, .reasoning-sheet__top > button:active { transform: scale(.94); }
 .context-options input { transition: transform 260ms var(--soft-spring); }
 .context-options input:checked { animation: option-settle 260ms ease-out; }
 @keyframes option-settle { 0% { transform: scale(.85); } 65% { transform: scale(1.08); } 100% { transform: scale(1); } }

@@ -1,8 +1,10 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Capacitor } from '@capacitor/core';
 import { AnatomyStage } from './AnatomyStage';
+import { MuscleExplorer } from './MuscleExplorer';
 import { ConsultationGuide } from './ConsultationGuide';
 import { RelatedTissues } from './RelatedTissues';
+import { PostoperativeLibrary } from './PostoperativeLibrary';
 import type { AssessmentItem, ContextRule, Dimension, Metadata, ResolveResult } from './types';
 
 const API_ROOT = import.meta.env.VITE_API_BASE_URL || (Capacitor.isNativePlatform() ? 'https://66.154.101.204/RehabMind' : '');
@@ -159,9 +161,9 @@ function DimensionBrowser({ result, openedMapIds, onToggleMap, onChooseContext }
   return <div className="direction-list" aria-label="评估方向">
     <div className="direction-tabs" aria-label="选择评估方向">{result.dimensions.map(dimension => {
       const count = new Set(dimension.groups.flatMap(group => group.items.filter(item => item.context_state === 'highlighted').map(item => item.item_id))).size;
-      return <button key={dimension.key} type="button" aria-pressed={dimension.key === active.key} onClick={() => setSelectedKey(dimension.key)}>{dimension.label}{count > 0 && <span className="direction-tabs__count" aria-label={`${count} 个关联项目`}>{count}</span>}</button>;
+      return <button key={dimension.key} type="button" data-dimension={dimension.key} aria-pressed={dimension.key === active.key} onClick={() => setSelectedKey(dimension.key)}>{dimension.label}{count > 0 && <span className="direction-tabs__count" aria-label={`${count} 个关联项目`}>{count}</span>}</button>;
     })}</div>
-    <div key={active.key} className="direction-content">{active.groups.length ? active.groups.map(group => <AssessmentGroup key={group.name} group={group} result={result} openedMapIds={openedMapIds} onToggleMap={onToggleMap} />) : <div className="direction-empty"><p>{active.description}</p><button type="button" onClick={onChooseContext}>查看相关活动 <Chevron right /></button></div>}</div>
+    <div key={active.key} className="direction-content" data-dimension={active.key}>{active.groups.length ? active.groups.map(group => <AssessmentGroup key={group.name} group={group} result={result} openedMapIds={openedMapIds} onToggleMap={onToggleMap} />) : <div className="direction-empty"><p>{active.description}</p><button type="button" onClick={onChooseContext}>查看相关活动 <Chevron right /></button></div>}</div>
   </div>;
 }
 
@@ -176,6 +178,8 @@ export function App() {
   const [openedMapIds, setOpenedMapIds] = useState<string[]>([]);
   const [nav, setNav] = useState<NavId>('rehab');
   const [sheetOpen, setSheetOpen] = useState(false);
+  const [muscleExplorerOpen, setMuscleExplorerOpen] = useState(false);
+  const muscleExplorerButtonRef = useRef<HTMLButtonElement>(null);
   const [contextOpen, setContextOpen] = useState(false);
   const contextPanelRef = useRef<HTMLElement>(null);
   const contextButtonRef = useRef<HTMLButtonElement>(null);
@@ -273,22 +277,26 @@ export function App() {
   return <div className="app-shell">
     <header className="app-header">
       <div className="brand"><span className="brand-mark">R<span>·</span></span><span><strong>RehabMind</strong><small>康复思路助手</small></span></div>
-      <span className="header-meta">下肢评估参考</span>
+      <span className="header-meta">{nav === 'postop' ? '术后康复' : '下肢'}</span>
     </header>
 
-    <main key={nav} className="page-content">
+    <main key={nav} className={`page-content${nav === 'rehab' ? ' page-content--model' : nav === 'postop' ? ' page-content--postop' : ''}`}>
       {nav === 'rehab' ? <div className="model-layout">
-        <div className="model-heading"><h1>选择不适部位</h1><p>点击人体模型，查看对应的康复思路</p></div>
-        <AnatomyStage onSelect={hit => selectRegion(hit.regionId, hit.side, hit.areaId)} selectedName={selectionName ? `${side === 'left' ? '左侧 · ' : side === 'right' ? '右侧 · ' : ''}${selectionName}` : undefined} />
+        <AnatomyStage active={!muscleExplorerOpen} onSelect={hit => selectRegion(hit.regionId, hit.side, hit.areaId)} selectedName={selectionName ? `${side === 'left' ? '左侧 · ' : side === 'right' ? '右侧 · ' : ''}${selectionName}` : undefined}
+          selectionFooter={selectedRegion ? <button className="resume-card" type="button" onClick={openSheet}>
+            <span className="resume-card__info"><small>{selectionModuleLabel}{side === 'left' ? ' · 左侧' : side === 'right' ? ' · 右侧' : ''}</small><strong>{selectionName}</strong></span>
+            <span className="resume-card__action">查看思路 <Chevron right /></span>
+          </button> : undefined} />
         {error && !sheetOpen && <div className="error-card">{error}<button type="button" onClick={() => window.location.reload()}>重新加载</button></div>}
-      </div> : <div className="module-empty"><span className="module-empty__mark">{NAV_ITEMS.find(item => item.id === nav)?.icon}</span><h1>{NAV_ITEMS.find(item => item.id === nav)?.label}</h1><p>这里暂时没有可查看的内容。</p><button type="button" onClick={() => chooseNav('rehab')}>返回康复思路</button></div>}
+      </div> : nav === 'postop' ? <PostoperativeLibrary /> : <div className="module-empty"><span className="module-empty__mark">{NAV_ITEMS.find(item => item.id === nav)?.icon}</span><h1>{NAV_ITEMS.find(item => item.id === nav)?.label}</h1><p>这里暂时没有可查看的内容。</p><button type="button" onClick={() => chooseNav('rehab')}>返回康复思路</button></div>}
     </main>
 
-    {nav === 'rehab' && selectedRegion && !sheetOpen && <button className="resume-card" type="button" onClick={openSheet}>
-      <span><small>当前定位 · {selectionModuleLabel}</small><strong>{selectionName}</strong></span><span className="resume-card__arrow">查看思路 ↑</span>
-    </button>}
-
     <nav className="bottom-nav" aria-label="主要模块">{NAV_ITEMS.map(item => <button key={item.id} type="button" className={nav === item.id ? 'is-active' : ''} aria-current={nav === item.id ? 'page' : undefined} onClick={() => chooseNav(item.id)}><span className="bottom-nav__icon"><NavIcon id={item.id} /></span><span>{item.label}</span></button>)}</nav>
+
+    {nav === 'rehab' && !sheetOpen && <button ref={muscleExplorerButtonRef} className="muscle-explorer-tab" type="button" aria-label="打开肌肉图谱" aria-haspopup="dialog" aria-expanded={muscleExplorerOpen} onClick={() => setMuscleExplorerOpen(true)}>
+      <svg viewBox="0 0 24 40" aria-hidden="true"><circle cx="12" cy="5" r="3" /><path d="M8 11h8l3 11-3 1-2-7v9l2 12h-3l-1-10-1 10H8l2-12v-9l-2 7-3-1 3-11Z" /><path d="M12 11v12M9 16h6" /></svg><span>肌肉</span>
+    </button>}
+    {muscleExplorerOpen && <MuscleExplorer onClose={() => { setMuscleExplorerOpen(false); requestAnimationFrame(() => muscleExplorerButtonRef.current?.focus()); }} />}
 
     {sheetOpen && selectedRegion && <>
       <div className={`sheet-backdrop${sheetClosing ? ' is-closing' : ''}`} onClick={closeSheet} />

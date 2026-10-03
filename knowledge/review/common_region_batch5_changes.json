@@ -1,0 +1,166 @@
+{
+  "date": "2026-10-02",
+  "changes": [
+    {
+      "batch": 5,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-AF-R-001",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Area_ID": "LOC-AF-R-001",
+        "Display_Name": "前踝关节与伸肌腱邻近",
+        "Region_IDs": "AF-R-001",
+        "Module_Codes": "ANKLE_FOOT",
+        "Related_Tissues": "肌腱：胫骨前肌腱；拇长伸肌腱；趾长伸肌腱\n关节与软组织：距小腿关节前方关节囊；伸肌支持带\n骨：胫骨远端；距骨",
+        "Primary_Item_IDs": "AF-LT-001|CORE-MUS-TA|CORE-MUS-EHL|CORE-MUS-EDL|CORE-ROM-ANK-DF|CORE-ROM-ANK-PF|AF-ASM-002|CORE-CAP-DF",
+        "Additional_Item_IDs": "CORE-MUS-SOLEUS|CORE-MUS-GASTROC|CORE-ROM-ANK-EV|CORE-ROM-ANK-INV",
+        "Linked_Item_IDs": "CORE-MUS-PT|AF-SPT-003|CORE-SPT-NEURO-DISTAL",
+        "Assessment_Groups": "MUSCLE_STATE:邻近肌群|ROM:相关关节活动|CAPACITY:相关肌力|LOCAL:局部组织|SPECIAL_TEST:补充检查|FUNCTION:相关动作观察",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "BodyParts3D 4.0 原始模型具名组织及骨性标志；既有01_Region、02_ClinicalItem及评估/处理关联；book://magee-local，已核验踝足主动活动、抗阻及附属活动章节（见reference_books_verified_v1.json）。本次只调整阅读入口和组织关联，不新增治疗方法。",
+        "Internal_Note": "区域是周围组织与评估参考的阅读入口。主要项目直接展示，补充项目按需展开。沿用既有检查与处理内容，不以模型选点确定疼痛组织。",
+        "Auto_Apply_To_Region": true
+      }
+    },
+    {
+      "batch": 5,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-AF-R-002",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Area_ID": "LOC-AF-R-002",
+        "Display_Name": "内踝周围",
+        "Region_IDs": "AF-R-002",
+        "Module_Codes": "ANKLE_FOOT",
+        "Related_Tissues": "韧带：三角韧带\n肌腱：胫骨后肌腱；趾长屈肌腱；拇长屈肌腱\n神经与血管：跗管内胫神经；胫后血管\n骨：内踝",
+        "Primary_Item_IDs": "AF-LT-002|CORE-MUS-TP|CORE-MUS-FDL|CORE-MUS-FHL|CORE-ROM-ANK-DF|CORE-ROM-ANK-EV|CORE-CAP-INV",
+        "Additional_Item_IDs": "CORE-CAP-HF|CORE-MUS-SOLEUS|CORE-MUS-GASTROC|AF-JNT-002|CORE-ROM-ANK-INV|CORE-CAP-ARCH-TOE",
+        "Linked_Item_IDs": "CORE-SPT-NEURO-DISTAL",
+        "Assessment_Groups": "MUSCLE_STATE:邻近肌群|ROM:相关关节活动|CAPACITY:相关肌力|LOCAL:局部组织|SPECIAL_TEST:补充检查|FUNCTION:相关动作观察",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "BodyParts3D 4.0 原始模型具名组织及骨性标志；既有01_Region、02_ClinicalItem及评估/处理关联；book://magee-local，已核验踝足主动活动、抗阻及附属活动章节（见reference_books_verified_v1.json）。本次只调整阅读入口和组织关联，不新增治疗方法。",
+        "Internal_Note": "区域是周围组织与评估参考的阅读入口。主要项目直接展示，补充项目按需展开。沿用既有检查与处理内容，不以模型选点确定疼痛组织。",
+        "Auto_Apply_To_Region": true
+      }
+    },
+    {
+      "batch": 5,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-AF-MEDIAL-TENDONS",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Area_ID": "LOC-AF-MEDIAL-TENDONS",
+        "Display_Name": "内踝后方／屈肌腱邻近",
+        "Region_IDs": "AF-R-002",
+        "Module_Codes": "ANKLE_FOOT",
+        "Related_Tissues": "肌腱：胫骨后肌腱；趾长屈肌腱；拇长屈肌腱\n骨与通道：内踝后方；跗管\n周围组织：屈肌支持带；胫神经邻近",
+        "Primary_Item_IDs": "CORE-MUS-TP|CORE-MUS-FDL|CORE-MUS-FHL|AF-LT-002|CORE-ROM-ANK-DF|CORE-ROM-ANK-EV|CORE-CAP-INV|CORE-CAP-HF",
+        "Additional_Item_IDs": "CORE-MUS-SOLEUS|CORE-MUS-GASTROC|AF-JNT-002|CORE-ROM-ANK-INV|CORE-CAP-ARCH-TOE",
+        "Linked_Item_IDs": "CORE-SPT-NEURO-DISTAL",
+        "Assessment_Groups": "MUSCLE_STATE:邻近肌群|ROM:相关关节活动|CAPACITY:相关肌力|LOCAL:局部组织|SPECIAL_TEST:补充检查|FUNCTION:相关动作观察",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "BodyParts3D 4.0 原始模型具名组织及骨性标志；既有01_Region、02_ClinicalItem及评估/处理关联；book://magee-local，已核验踝足主动活动、抗阻及附属活动章节（见reference_books_verified_v1.json）。本次只调整阅读入口和组织关联，不新增治疗方法。",
+        "Internal_Note": "区域是周围组织与评估参考的阅读入口。主要项目直接展示，补充项目按需展开。沿用既有检查与处理内容，不以模型选点确定疼痛组织。",
+        "Auto_Apply_To_Region": false
+      }
+    },
+    {
+      "batch": 5,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-AF-R-003",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Area_ID": "LOC-AF-R-003",
+        "Display_Name": "外踝周围",
+        "Region_IDs": "AF-R-003",
+        "Module_Codes": "ANKLE_FOOT",
+        "Related_Tissues": "韧带：距腓前韧带；跟腓韧带；距腓后韧带\n肌腱：腓骨长肌腱；腓骨短肌腱\n骨与关节：外踝；距骨邻近；距小腿关节",
+        "Primary_Item_IDs": "AF-LT-003|CORE-MUS-PL|CORE-MUS-PB|CORE-ROM-ANK-DF|CORE-ROM-ANK-INV|CORE-ROM-ANK-EV|AF-JNT-002|CORE-CAP-EV",
+        "Additional_Item_IDs": "",
+        "Linked_Item_IDs": "CORE-MUS-PT|CORE-MUS-EDL|AF-TASK-001|AF-SPT-001|AF-SPT-002|AF-SPT-003|CORE-SPT-NEURO-DISTAL",
+        "Assessment_Groups": "MUSCLE_STATE:邻近肌群|ROM:相关关节活动|CAPACITY:相关肌力|LOCAL:局部组织|SPECIAL_TEST:补充检查|FUNCTION:相关动作观察",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "BodyParts3D 4.0 原始模型具名组织及骨性标志；既有01_Region、02_ClinicalItem及评估/处理关联；book://magee-local，已核验踝足主动活动、抗阻及附属活动章节（见reference_books_verified_v1.json）。本次只调整阅读入口和组织关联，不新增治疗方法。",
+        "Internal_Note": "区域是周围组织与评估参考的阅读入口。主要项目直接展示，补充项目按需展开。沿用既有检查与处理内容，不以模型选点确定疼痛组织。",
+        "Auto_Apply_To_Region": true
+      }
+    },
+    {
+      "batch": 5,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-AF-LATERAL-TENDONS",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Area_ID": "LOC-AF-LATERAL-TENDONS",
+        "Display_Name": "外踝后方／腓骨肌腱邻近",
+        "Region_IDs": "AF-R-003",
+        "Module_Codes": "ANKLE_FOOT",
+        "Related_Tissues": "肌腱：腓骨长肌腱；腓骨短肌腱\n骨与周围组织：外踝后方；腓骨肌支持带\n邻近：跟腓韧带；腓骨远端",
+        "Primary_Item_IDs": "CORE-MUS-PL|CORE-MUS-PB|AF-LT-003|CORE-ROM-ANK-INV|CORE-ROM-ANK-EV|CORE-CAP-EV",
+        "Additional_Item_IDs": "CORE-ROM-ANK-DF|AF-JNT-002",
+        "Linked_Item_IDs": "CORE-MUS-PT|CORE-MUS-EDL|AF-TASK-001|AF-SPT-001|AF-SPT-002|AF-SPT-003|CORE-SPT-NEURO-DISTAL",
+        "Assessment_Groups": "MUSCLE_STATE:邻近肌群|ROM:相关关节活动|CAPACITY:相关肌力|LOCAL:局部组织|SPECIAL_TEST:补充检查|FUNCTION:相关动作观察",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "BodyParts3D 4.0 原始模型具名组织及骨性标志；既有01_Region、02_ClinicalItem及评估/处理关联；book://magee-local，已核验踝足主动活动、抗阻及附属活动章节（见reference_books_verified_v1.json）。本次只调整阅读入口和组织关联，不新增治疗方法。",
+        "Internal_Note": "区域是周围组织与评估参考的阅读入口。主要项目直接展示，补充项目按需展开。沿用既有检查与处理内容，不以模型选点确定疼痛组织。",
+        "Auto_Apply_To_Region": false
+      }
+    },
+    {
+      "batch": 5,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-AF-R-004",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Area_ID": "LOC-AF-R-004",
+        "Display_Name": "跟腱中段与踝后方",
+        "Region_IDs": "AF-R-004",
+        "Module_Codes": "ANKLE_FOOT",
+        "Related_Tissues": "肌腱与肌群：跟腱中段；腓肠肌与比目鱼肌远端\n周围组织：跟腱周围结缔组织\n神经：后外侧邻近腓肠神经",
+        "Primary_Item_IDs": "AF-LT-004|CORE-MUS-GASTROC|CORE-MUS-SOLEUS|CORE-ROM-ANK-DF|CORE-CAP-PF",
+        "Additional_Item_IDs": "CORE-MUS-PLANTARIS|CORE-ROM-ANK-EV|CORE-ROM-ANK-PF",
+        "Linked_Item_IDs": "CORE-MUS-TP|CORE-MUS-FHL|CORE-MUS-FDL|AF-TASK-002|CORE-SPT-NEURO-DISTAL",
+        "Assessment_Groups": "MUSCLE_STATE:邻近肌群|ROM:相关关节活动|CAPACITY:相关肌力|LOCAL:局部组织|SPECIAL_TEST:补充检查|FUNCTION:相关动作观察",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "BodyParts3D 4.0 原始模型具名组织及骨性标志；既有01_Region、02_ClinicalItem及评估/处理关联；book://magee-local，已核验踝足主动活动、抗阻及附属活动章节（见reference_books_verified_v1.json）。本次只调整阅读入口和组织关联，不新增治疗方法。",
+        "Internal_Note": "区域是周围组织与评估参考的阅读入口。主要项目直接展示，补充项目按需展开。沿用既有检查与处理内容，不以模型选点确定疼痛组织。",
+        "Auto_Apply_To_Region": true
+      }
+    },
+    {
+      "batch": 5,
+      "section": "extension",
+      "name": "LocationGuide",
+      "id": "LOC-AF-R-005",
+      "field": "$record",
+      "before": null,
+      "after": {
+        "Area_ID": "LOC-AF-R-005",
+        "Display_Name": "跟腱止点与跟骨后方",
+        "Region_IDs": "AF-R-005",
+        "Module_Codes": "ANKLE_FOOT",
+        "Related_Tissues": "骨与肌腱：跟骨后方；跟腱止点\n周围组织：跟骨后滑囊；跟腱皮下滑囊",
+        "Primary_Item_IDs": "AF-LT-005|CORE-MUS-GASTROC|CORE-MUS-SOLEUS|CORE-ROM-ANK-DF|CORE-CAP-PF",
+        "Additional_Item_IDs": "CORE-MUS-PLANTARIS|CORE-ROM-ANK-EV|CORE-ROM-ANK-PF",
+        "Linked_Item_IDs": "AF-TASK-002|CORE-SPT-NEURO-DISTAL",
+        "Assessment_Groups": "MUSCLE_STATE:邻近肌群|ROM:相关关节活动|CAPACITY:相关肌力|LOCAL:局部组织|SPECIAL_TEST:补充检查|FUNCTION:相关动作观察",
+        "Review_Status": "待临床审核",
+        "Source_Reference": "BodyParts3D 4.0 原始模型具名组织及骨性标志；既有01_Region、02_ClinicalItem及评估/处理关联；book://magee-local，已核验踝足主动活动、抗阻及附属活动章节（见reference_books_verified_v1.json）。本次只调整阅读入口和组织关联，不新增治疗方法。",
+        "Internal_Note": "区域是周围组织与评估参考的阅读入口。主要项目直接展示，补充项目按需展开。沿用既有检查与处理内容，不以模型选点确定疼痛组织。",
+        "Auto_Apply_To_Region": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "workbook": "RehabMind_KnowledgeDB_v3.8.xlsx",
+    "modified_existing_cells": 75,
+    "existing_styles_preserved": true,
+    "sheet_structure_preserved": true
+  },
+  {
+    "workbook": "RehabMind_ClinicalExtension_v1.1.xlsx",
+    "modified_existing_cells": 21,
+    "existing_styles_preserved": true,
+    "sheet_structure_preserved": true
+  }
+]

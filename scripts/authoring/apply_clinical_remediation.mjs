@@ -47,6 +47,12 @@ export async function applyClinicalRemediation(main, extension, onlyBatch) {
     }
   }
   }
+  if(!onlyBatch){
+    const {applyRegionCalibration}=await import('./apply_region_calibration.mjs');
+    changes.push(...await applyRegionCalibration(main,extension));
+    const {applyConsultationReview}=await import('./apply_consultation_review.mjs');
+    changes.push(...await applyConsultationReview(extension));
+  }
   return changes;
 }
 
