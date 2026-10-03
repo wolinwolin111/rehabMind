@@ -16,19 +16,10 @@ interface Props { onSelect?: (hit: LocalizedHit) => void; selectedName?: string;
 interface Sample { x: number; y: number }
 type Layer = 'bones' | 'muscles' | 'skin';
 type LayerSettings = Record<Layer, { visible: boolean; opacity: number }>;
-const DEFAULT_LAYERS: LayerSettings = { bones: { visible: true, opacity: 100 }, muscles: { visible: false, opacity: 100 }, skin: { visible: true, opacity: 10 } };
-const MUSCLE_LAYERS: LayerSettings = { bones: { visible: true, opacity: 100 }, muscles: { visible: true, opacity: 100 }, skin: { visible: false, opacity: 0 } };
-const LAYER_STORAGE = 'rehabmind-model-layers-v1';
+// Display controls have been removed. Both views use the same anatomy layers,
+// independent of settings saved by older versions or a fresh APK installation.
+const MODEL_LAYERS: LayerSettings = { bones: { visible: true, opacity: 100 }, muscles: { visible: true, opacity: 100 }, skin: { visible: false, opacity: 0 } };
 const modelAsset = (file: string) => `${import.meta.env.BASE_URL}3d/${file}?v=${import.meta.env.VITE_MODEL_ASSET_REVISION}`;
-
-function readLayers(): LayerSettings {
-  try {
-    const saved = JSON.parse(localStorage.getItem(LAYER_STORAGE) || 'null');
-    if (saved && (Object.keys(DEFAULT_LAYERS) as Layer[]).every(key =>
-      typeof saved[key]?.visible === 'boolean' && Number.isInteger(saved[key]?.opacity) && saved[key].opacity >= 0 && saved[key].opacity <= 100)) return saved;
-  } catch { /* Use defaults when browser storage is unavailable. */ }
-  return DEFAULT_LAYERS;
-}
 
 function applyLayer(mesh: T.Mesh, settings: LayerSettings[Layer]) {
   mesh.visible = settings.visible && settings.opacity > 0;
@@ -116,7 +107,7 @@ export function AnatomyStage({ onSelect, selectedName, selectionFooter, purpose 
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
   const [tip, setTip] = useState('尚未选择位置');
-  const [layers, setLayers] = useState<LayerSettings>(() => muscleExplorer ? MUSCLE_LAYERS : readLayers());
+  const layers = MODEL_LAYERS;
   const layersRef = useRef(layers);
   layersRef.current = layers;
   const [muscleLoading, setMuscleLoading] = useState(false);
@@ -272,9 +263,6 @@ export function AnatomyStage({ onSelect, selectedName, selectionFooter, purpose 
   }, []);
 
   useEffect(() => {
-    if (!muscleExplorer) {
-      try { localStorage.setItem(LAYER_STORAGE, JSON.stringify(layers)); } catch { /* Controls still work without storage. */ }
-    }
     const state = sceneRef.current;
     if (!state) return;
     applyLayer(state.bones, isolatedMuscle ? { visible: true, opacity: 100 } : layers.bones);
@@ -504,14 +492,13 @@ export function AnatomyStage({ onSelect, selectedName, selectionFooter, purpose 
       <button type="button" disabled={isolatedMuscle || loading || muscleLoading || !removedLayers} onClick={() => setRemovedLayers(value => value - 1)}>＋ 加一层</button>
       <span role="status">{isolatedMuscle ? '单独显示中' : removedLayers ? `全身 · 已去 ${removedLayers} 层` : '全身运动肌肉'}</span>
       <button type="button" disabled={isolatedMuscle || loading || muscleLoading || !!muscleError || removedLayers >= musclePeelSteps('all')} onClick={() => {
-        setLayers(current => ({ ...current, skin: { visible: false, opacity: 0 }, muscles: { visible: true, opacity: 100 } }));
         setRemovedLayers(value => value + 1);
       }}>− 去一层</button>
     </div>}
     <div className="anatomy-stage"><div className="anatomy-viewport" ref={hostRef}>
       {loading && <div className="anatomy-loading">正在载入人体模型…</div>}
       {error && <div className="anatomy-loading error"><div>{error}<br /><button type="button" onClick={() => window.location.reload()}>重新加载模型</button></div></div>}
-      {mode === 'muscle' && muscleLoading && <div className="muscle-pick-status" role="status">正在载入肌肉…</div>}
+      {muscleLoading && <div className="muscle-pick-status" role="status">正在载入肌肉…</div>}
       {muscleError && <div className="muscle-pick-status" role="alert">{muscleError}<button type="button" onClick={() => setMuscleAttempt(value => value + 1)}>重试</button></div>}
       <canvas ref={overlayRef} className="anatomy-overlay" style={{ pointerEvents: !muscleExplorer && mode !== 'view' ? 'auto' : 'none' }}
         onPointerDown={event => {
