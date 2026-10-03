@@ -48,3 +48,9 @@ Node v22.16.0 / Windows，测量不包含网络和 GPU，非手机端完整打�
 对旧显示包逐三角形核对：五个状态面数及组织范围一致，法线和肌理值一致，位置最大差异 0.024 mm（不同量化边界导致，距原始表面误差仍小于 0.02 mm），800 条前后视角射线命中组织一致。页面实际操作验证四次减层至骨架、四次加层恢复、骨骼和腰大肌点选、单独显示；无浏览器错误。176 项自动测试全部通过。
 
 基准命令：`node scripts/authoring/benchmark_model_display.mjs`，报告输出到 `build/authoring/model-performance.json`。资源及定位回归测试见 `tests/prepared-model.test.mjs`。
+
+## 发布资源清理与 Android 收缩（2026-10-04）
+
+按用户指定只实施瘦身方案第 4 项。`scripts/optimize_web_assets.mjs` 在网页构建后处理生成目录：剔除未使用的 features.pack、附着核对数据及设计预览；以内容哈希合并三份重复术后资料图片并改写 HTML 相对引用。源码导入文档及本地开发预览文件保持原样。核对六份资料正文、15 处图片引用和15个运行模型文件，内容一致。
+
+APK 工作流改为签名的 release 构建，开启 R8 代码与资源收缩及 AGP 8.13 的优化资源收缩。沿用 0.1.7 起缓存的测试签名，支持覆盖安装。保留 WebView 的 JavascriptInterface 方法和运行时注解，插件反射入口由 Capacitor 自带的 consumerProguardFiles 保留；混淆映射随构建产物归档。实际包体变化以生成的 APK 对比结果为准。

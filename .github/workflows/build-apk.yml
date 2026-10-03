@@ -70,8 +70,6 @@ jobs:
         run: |
           npx tsc --noEmit
           npm run build
-          rm -rf build/web/design-preview
-          rm -f build/web/style-demo.html
           npx cap sync android
 
       - name: Build installable APK
@@ -80,16 +78,17 @@ jobs:
           APK_VERSION_CODE: ${{ github.run_number }}
         run: |
           chmod +x gradlew
-          ./gradlew assembleDebug --no-daemon --stacktrace \
+          ./gradlew assembleRelease --no-daemon --stacktrace \
             -PappVersionCode="$APK_VERSION_CODE" \
             -PappVersionName="0.1.$APK_VERSION_CODE" \
             -PappDebugKeystorePath="$HOME/.android/debug.keystore"
 
       - name: Verify and name APK
         run: |
-          "$ANDROID_HOME/build-tools/36.0.0/apksigner" verify --verbose android/app/build/outputs/apk/debug/app-debug.apk
+          "$ANDROID_HOME/build-tools/36.0.0/apksigner" verify --verbose android/app/build/outputs/apk/release/app-release.apk
           mkdir -p build/apk
-          cp android/app/build/outputs/apk/debug/app-debug.apk build/apk/rehabmind-v2.apk
+          cp android/app/build/outputs/apk/release/app-release.apk build/apk/rehabmind-v2.apk
+          cp android/app/build/outputs/mapping/release/mapping.txt build/apk/r8-mapping.txt
           cd build/apk
           sha256sum rehabmind-v2.apk > rehabmind-v2.apk.sha256
 
@@ -113,7 +112,7 @@ jobs:
 
           下载 rehabmind-v2.apk 后安装；打开后连接当前 VPS 的康复思路 API。
           界面和人体模型随 APK 打包，康复思路数据库通过服务器获取。
-          本包用于安装测试，采用测试签名；尚未进行真机功能验证。
+          本包采用沿用的测试签名，并开启 release 构建的代码与资源收缩；尚未进行真机功能验证。
           EOF
           gh release create "android-test-$BUILD_NUMBER" \
             build/apk/rehabmind-v2.apk build/apk/rehabmind-v2.apk.sha256 \

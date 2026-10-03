@@ -12,7 +12,7 @@
     "audit": "node scripts/run-python.mjs scripts/authoring/read_database_audit.py && node scripts/authoring/audit_treatment_coverage.mjs --report-only",
     "pretest": "npm run data && npm run assets && npm run audit",
     "test": "node --test tests/*.test.mjs",
-    "build": "npm run data && npm run assets && vite build",
+    "build": "npm run data && npm run assets && vite build && node scripts/optimize_web_assets.mjs",
     "preview": "vite preview --host 0.0.0.0"
   },
   "dependencies": {
