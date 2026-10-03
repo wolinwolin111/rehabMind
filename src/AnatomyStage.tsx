@@ -6,7 +6,7 @@ import { chooseGestureRegion, decodeSurfaceAtlas, localizeFace, type LocalizedHi
 import { muscleAtFace, type MusclePart } from './muscle-picking';
 import { muscleSelectionParts, visibleMuscleColors, usesFittedMuscleDisplay } from './muscle-selection-display';
 import {decodePreparedModel} from './prepared-model';
-import {modelBuffer,modelMetadata} from './model-resources';
+import {modelBuffer,modelMetadata,preparedModel} from './model-resources';
 import {rectusTissueColors} from './rectus-tissue-color';
 import { sampleGesture } from './gesture-sampling';
 import { MuscleAnatomyCard } from './MuscleAnatomyCard';
@@ -101,6 +101,7 @@ export function AnatomyStage({ onSelect, selectedName, selectionFooter, purpose 
       const [metadata,buffer,boneBuffer,semanticBuffer] = await Promise.all([
         modelMetadata<SkinData>(),modelBuffer('skin.pack'),modelBuffer(muscleExplorer?'bones.pack':'home-bones.pack'),modelBuffer('surface_atlas.bin',false),
         modelBuffer(muscleExplorer?'atlas-muscles-0.pack':'home-muscles.pack'),
+        ...(muscleExplorer?[modelBuffer('atlas-shared-0.pack')]:[]),
       ]);
       const surfaceAtlas=decodeSurfaceAtlas(metadata,semanticBuffer,buffer);
       if (!alive || !host) return;
@@ -259,9 +260,9 @@ export function AnatomyStage({ onSelect, selectedName, selectionFooter, purpose 
     const controller = new AbortController();
     setMuscleLoading(true); setMuscleError('');
     async function loadMuscles() {
-      const buffer=await modelBuffer(muscleExplorer?'atlas-muscles-0.pack':'home-muscles.pack');
-      if (controller.signal.aborted || sceneRef.current !== state) return;
-      const displayed=decodePreparedModel(buffer),muscleGeo=displayed.geometry;
+      const displayed=await preparedModel(muscleExplorer?'atlas-muscles-0.pack':'home-muscles.pack');
+      if (controller.signal.aborted || sceneRef.current !== state) {displayed.geometry.dispose();return;}
+      const muscleGeo=displayed.geometry;
       const mesh = new T.Mesh(muscleGeo, muscleMaterial({ color: 0xb66d59, side: T.DoubleSide },muscleExplorer));
       if(muscleExplorer)(state!.bones.geometry as T.BufferGeometry & { computeBoundsTree: (options: object) => void }).computeBoundsTree({ indirect: true });
       mesh.frustumCulled = false; mesh.renderOrder = 1;
@@ -317,9 +318,9 @@ export function AnatomyStage({ onSelect, selectedName, selectionFooter, purpose 
     const state=sceneRef.current;
     if(!muscleExplorer||!state?.muscles||removedLayers===appliedLayers)return;
     let alive=true;setMuscleLoading(true);setMuscleError('');
-    modelBuffer(`atlas-muscles-${removedLayers}.pack`).then(buffer=>{
-      if(!alive||sceneRef.current!==state)return;
-      const shown=decodePreparedModel(buffer),old=state.muscles!.geometry;
+    preparedModel(`atlas-muscles-${removedLayers}.pack`).then(shown=>{
+      if(!alive||sceneRef.current!==state){shown.geometry.dispose();return;}
+      const old=state.muscles!.geometry;
       state.muscles!.geometry=shown.geometry;state.pickingParts=shown.parts;old.dispose();
       setMuscleLoading(false);
       setAppliedLayers(removedLayers);

@@ -7,10 +7,11 @@ import * as T from 'three';
 import {acceleratedRaycast,computeBoundsTree} from 'three-mesh-bvh';
 mkdirSync('build/authoring',{recursive:true});
 await build({stdin:{contents:"export * from './src/prepared-model';export * from './src/content/tendon-anatomy';export * from './src/content/muscle-anatomy';",resolveDir:process.cwd()},bundle:true,packages:'external',platform:'node',format:'esm',outfile:'build/authoring/visibility-functions.mjs'});
-const {decodePreparedModel,tendonVisible,excludeConnectiveBoneParts,getMuscleDisplayName}=await import('../../build/authoring/visibility-functions.mjs');
+const {decodePreparedModel,decodePreparedPool,preparedPoolFiles,tendonVisible,excludeConnectiveBoneParts,getMuscleDisplayName}=await import('../../build/authoring/visibility-functions.mjs');
 const metadata=JSON.parse(readFileSync('public/3d/skin.json'));
 const material=new T.MeshBasicMaterial({side:T.DoubleSide});
 const read=file=>{const b=gunzipSync(readFileSync(`public/3d/${file}`));return b.buffer.slice(b.byteOffset,b.byteOffset+b.byteLength);};
+const prepared=file=>{const buffer=read(file);return decodePreparedModel(buffer,preparedPoolFiles(buffer).map(name=>decodePreparedPool(read(name))));};
 function mesh(g){if(!g.boundsTree)computeBoundsTree.call(g,{indirect:true});const m=new T.Mesh(g,material);m.raycast=acceleratedRaycast;m.updateMatrixWorld();return m;}
 function source(file,info,selection){
  const raw=read(file),g=new T.BufferGeometry();g.setAttribute('position',new T.BufferAttribute(new Float32Array(raw,info.positions,info.vertexCount*3),3));
@@ -26,7 +27,7 @@ const directions=[];for(const elevation of [-25,0,25])for(let azimuth=0;azimuth<
 }
 const rows=new Map(),ray=new T.Raycaster();ray.firstHitOnly=true;
 for(let step=0;step<4;step++){
- const shown=decodePreparedModel(read(`atlas-muscles-${step}.pack`)),muscles=mesh(shown.geometry);
+ const shown=prepared(`atlas-muscles-${step}.pack`),muscles=mesh(shown.geometry);
  const selected=metadata.tendons.parts.filter(p=>tendonVisible(p,shown.parts,undefined,step));
  const tissueRanges=[],tissueFaces=[];for(const p of selected){tissueRanges.push({...p,firstFace:tissueFaces.length/3});tissueFaces.push(...tendonIndices.subarray(p.firstFace*3,(p.firstFace+p.faceCount)*3));}
  const tissue=mesh(source('tendons.pack',metadata.tendons,Uint32Array.from(tissueFaces)));

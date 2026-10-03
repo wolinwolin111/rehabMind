@@ -4,13 +4,14 @@ import {createHash} from 'node:crypto';
 import {build} from 'esbuild';
 import * as T from 'three';
 import {MeshBVH} from 'three-mesh-bvh';
+import {saveSharedDisplays} from './shared_display_pool.mjs';
 
 const dir='public/3d',manifestPath=`${dir}/display-manifest.json`;
 const sources=['skin.json','muscles.pack','bones.pack'].map(file=>`${dir}/${file}`);
-const code=['scripts/authoring/prepare_model_display.mjs','src/prepared-model.ts','src/content/muscle-layers.ts','src/content/body-muscle-anatomy.ts','src/content/lower-limb-anatomy.ts','src/content/muscle-anatomy.ts','src/abdominal-display.ts','src/muscle-surface.ts','src/content/tendon-anatomy.ts','package-lock.json'];
+const code=['scripts/authoring/prepare_model_display.mjs','scripts/authoring/shared_display_pool.mjs','src/prepared-model.ts','src/content/muscle-layers.ts','src/content/body-muscle-anatomy.ts','src/content/lower-limb-anatomy.ts','src/content/muscle-anatomy.ts','src/abdominal-display.ts','src/muscle-surface.ts','src/content/tendon-anatomy.ts','package-lock.json'];
 const revision=createHash('sha256');for(const file of [...sources,...code])revision.update(readFileSync(file));
 const fingerprint=revision.digest('hex');
-const outputs=['home-muscles.pack','home-bones.pack',...[0,1,2,3,4].map(n=>`atlas-muscles-${n}.pack`)];
+const outputs=['home-muscles.pack','home-bones.pack','atlas-shared-0.pack','atlas-shared-1.pack',...[0,1,2,3,4].map(n=>`atlas-muscles-${n}.pack`)];
 if(existsSync(manifestPath)&&JSON.parse(readFileSync(manifestPath)).fingerprint===fingerprint&&outputs.every(file=>existsSync(`${dir}/${file}`))){console.log('Prepared model displays are current');process.exit(0);}
 mkdirSync('build/authoring',{recursive:true});
 await build({stdin:{contents:"export * from './src/content/muscle-layers'; export * from './src/abdominal-display'; export * from './src/muscle-surface'; export * from './src/content/tendon-anatomy';",resolveDir:process.cwd()},bundle:true,platform:'node',format:'esm',packages:'external',outfile:'build/authoring/display-functions.mjs'});
@@ -53,7 +54,7 @@ function save(file,g,parts,picking){
  const packed=gzipSync(Buffer.concat([prefix,...arrays]),{level:9});writeFileSync(`${dir}/${file}`,packed);
  return {bytes:packed.length,vertices:g.getAttribute('position').count,faces:g.index.count/3};
 }
-const muscles=source('muscles.pack',metadata.muscles),report={};
+const muscles=source('muscles.pack',metadata.muscles),report={},views=[];
 for(let step=0;step<=4;step++){
  const start=performance.now(),shown=peelMuscleIndices(muscles.indices,muscles.parts,'all',step,muscles.positions);
  const g=geometry(shown.positions,shown.indices,new T.BufferAttribute(abdominalDisplayNormals(muscles.normals,shown.blends),3));
@@ -61,9 +62,10 @@ for(let step=0;step<=4;step++){
  // Home uses the same corrected contour and normals, without procedural grain.
  if(step===0){const lite=compact(g,shown.parts,.003);report.homeMuscles=save('home-muscles.pack',lite.geometry,lite.parts,false);lite.geometry.dispose();}
  g.setAttribute('muscleSurface',new T.BufferAttribute(muscleSurfaceCoordinates(shown.positions,shown.indices,shown.parts),4));
- const exact=compact(g,shown.parts);report[`atlas${step}`]=save(`atlas-muscles-${step}.pack`,exact.geometry,exact.parts,true);
- report[`atlas${step}`].prepareMs=Math.round(performance.now()-start);console.log(step,report[`atlas${step}`]);g.dispose();exact.geometry.dispose();
+ const exact=compact(g,shown.parts);views.push(exact);
+ console.log('Prepared layer',step,Math.round(performance.now()-start),'ms');g.dispose();
 }
+Object.assign(report,saveSharedDisplays(dir,views));for(const view of views)view.geometry.dispose();
 const bones=source('bones.pack',metadata.bones),kept=excludeConnectiveBoneParts(bones.indices,bones.parts,metadata.tendons?.parts||[]);
 const boneSource=geometry(bones.positions,kept.indices,bones.normals),liteBones=compact(boneSource,kept.parts,.003);
 report.homeBones=save('home-bones.pack',liteBones.geometry,liteBones.parts,false);

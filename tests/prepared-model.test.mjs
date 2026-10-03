@@ -6,12 +6,29 @@ import {build} from 'esbuild';
 import * as T from 'three';
 import {acceleratedRaycast,computeBoundsTree} from 'three-mesh-bvh';
 const result=await build({stdin:{contents:"export * from './src/prepared-model'; export * from './src/content/muscle-layers';export * from './src/content/tendon-anatomy';",resolveDir:process.cwd()},bundle:true,write:false,format:'esm'});
-const {decodePreparedModel,peelMuscleIndices,tendonVisible}=await import(`data:text/javascript;base64,${Buffer.from(result.outputFiles[0].text).toString('base64')}`);
+const {decodePreparedModel,decodePreparedPool,preparedPoolFiles,peelMuscleIndices,tendonVisible}=await import(`data:text/javascript;base64,${Buffer.from(result.outputFiles[0].text).toString('base64')}`);
 const meta=JSON.parse(readFileSync('public/3d/skin.json'));
 const read=file=>{const raw=gunzipSync(readFileSync(`public/3d/${file}`));return raw.buffer.slice(raw.byteOffset,raw.byteOffset+raw.byteLength);};
+const prepared=file=>{const buffer=read(file);return decodePreparedModel(buffer,preparedPoolFiles(buffer).map(name=>decodePreparedPool(read(name))));};
 const original=read('muscles.pack'),positions=new Float32Array(original,meta.muscles.positions,meta.muscles.vertexCount*3),indices=new Uint32Array(original,meta.muscles.indices,meta.muscles.indexCount);
+test('shared atlas reduces package size and keeps the initial view independent of deep data',()=>{
+ const report=JSON.parse(readFileSync('public/3d/display-manifest.json')).report;
+ assert.ok(Object.entries(report).filter(([key])=>/^(atlas|shared)/.test(key)).reduce((n,[,entry])=>n+entry.bytes,0)<25_000_000);
+ assert.deepEqual(preparedPoolFiles(read('atlas-muscles-0.pack')),['atlas-shared-0.pack']);
+ assert.ok(report.atlas0.bytes+report.shared0.bytes<16_800_000);
+ assert.deepEqual(preparedPoolFiles(read('atlas-muscles-4.pack')),[]);
+ for(let step=0;step<4;step++){
+  const view=prepared(`atlas-muscles-${step}.pack`),expected=peelMuscleIndices(indices,meta.muscles.parts,'all',step,positions);
+  assert.deepEqual(view.parts.map(p=>[p.id,p.firstFace,p.faceCount]),expected.parts.map(p=>[p.id,p.firstFace,p.faceCount]));
+  for(const part of expected.parts)for(const face of [part.firstFace,part.firstFace+Math.floor(part.faceCount/2),part.firstFace+part.faceCount-1])for(let c=0;c<3;c++)for(let axis=0;axis<3;axis++){
+   const source=expected.indices[face*3+c],display=view.geometry.index.array[face*3+c];
+   assert.ok(Math.abs(expected.positions[source*3+axis]-view.geometry.attributes.position.array[display*3+axis])<.00002);
+  }
+  view.geometry.dispose();
+ }
+});
 test('prepared atlas preserves corrected triangle identities, attachments and ray picks',()=>{
- const old=peelMuscleIndices(indices,meta.muscles.parts,'all',0,positions),shown=decodePreparedModel(read('atlas-muscles-0.pack'));
+ const old=peelMuscleIndices(indices,meta.muscles.parts,'all',0,positions),shown=prepared('atlas-muscles-0.pack');
  assert.deepEqual(shown.parts.map(p=>[p.id,p.firstFace,p.faceCount]),old.parts.map(p=>[p.id,p.firstFace,p.faceCount]));
  const newPositions=shown.geometry.getAttribute('position'),newIndices=shown.geometry.index.array;
  for(const p of old.parts)for(const face of [p.firstFace,p.firstFace+Math.floor(p.faceCount/2),p.firstFace+p.faceCount-1])for(let c=0;c<3;c++){
@@ -29,7 +46,7 @@ test('prepared atlas preserves corrected triangle identities, attachments and ra
  g.dispose();shown.geometry.dispose();before.material.dispose();after.material.dispose();
 });
 test('prepared layer three removes transversus but preserves posterior wall, then reaches skeleton',()=>{
- const deep=decodePreparedModel(read('atlas-muscles-3.pack'));
+ const deep=prepared('atlas-muscles-3.pack');
  assert.ok(!deep.parts.some(p=>/transversus abdominis/.test(p.name)));
  for(const side of ['Right','Left'])for(const name of ['quadratus lumborum','psoas major','iliacus'])assert.ok(deep.parts.some(p=>p.name===`${side} ${name}`));
  // Every original triangle must survive: a projected quadratus window used to
@@ -42,11 +59,11 @@ test('prepared layer three removes transversus but preserves posterior wall, the
    for(let axis=0;axis<3;axis++)assert.ok(Math.abs(positions[before*3+axis]-deep.geometry.getAttribute('position').array[after*3+axis])<.00002,`${part.name}: original surface changed`);
   }
  }
- const skeleton=decodePreparedModel(read('atlas-muscles-4.pack'));assert.equal(skeleton.parts.length,0);assert.equal(skeleton.geometry.index.count,0);
+ const skeleton=prepared('atlas-muscles-4.pack');assert.equal(skeleton.parts.length,0);assert.equal(skeleton.geometry.index.count,0);
  deep.geometry.dispose();skeleton.geometry.dispose();
 });
 test('quadratus remains selectable with complete psoas and natural source occlusion after transversus removal',()=>{
- const shown=decodePreparedModel(read('atlas-muscles-3.pack'));
+ const shown=prepared('atlas-muscles-3.pack');
  const whole=new T.Mesh(shown.geometry,new T.MeshBasicMaterial({side:T.DoubleSide}));whole.raycast=acceleratedRaycast;whole.updateMatrixWorld();
  const bonesBuffer=read('bones.pack'),bg=new T.BufferGeometry(),info=meta.bones;
  bg.setAttribute('position',new T.BufferAttribute(new Float32Array(bonesBuffer,info.positions,info.vertexCount*3),3));bg.setIndex(new T.BufferAttribute(new Uint32Array(bonesBuffer,info.indices,info.indexCount),1));computeBoundsTree.call(bg,{indirect:true});

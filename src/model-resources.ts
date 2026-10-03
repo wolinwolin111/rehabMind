@@ -27,3 +27,9 @@ export function modelMetadata<T>() {
   }).catch(error=>{metadata=undefined;throw error;});
   return metadata as Promise<T>;
 }
+import {decodePreparedModel,decodePreparedPool,preparedPoolFiles} from './prepared-model';
+export async function preparedModel(file:string){
+  const buffer=await modelBuffer(file);
+  const pools=await Promise.all(preparedPoolFiles(buffer).map(async name=>decodePreparedPool(await modelBuffer(name))));
+  return decodePreparedModel(buffer,pools);
+}
